@@ -1,0 +1,4 @@
+project_id = "afit-exams"
+
+[functions.afit-account]
+verify_jwt = false
