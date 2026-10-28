@@ -188,6 +188,8 @@ svg { display: block; }
 .hero .btn:not(.btn-primary):hover { background: rgba(255, 255, 255, .18); }
 .hero .btn-primary { background: #fff; border-color: #fff; color: #0b2545; }
 .hero .btn-primary:hover { background: #e6f0fd; }
+.hero p.hero-links { margin-top: 10px; font-size: 14px; }
+.hero-links a { color: #9cc8ff; font-weight: 600; }
 .hero-plane { display: none; position: absolute; right: 22%; top: -10px; width: 180px; opacity: .08; transform: rotate(35deg); fill: #fff; pointer-events: none; }
 
 /* stat tiles */
@@ -429,7 +431,7 @@ dialog#modal::backdrop { background: rgba(7, 18, 36, .55); backdrop-filter: blur
   .tabbar a.active { color: var(--accent); }
   .hero { padding: 24px 20px; }
   .hero h1 { font-size: 25px; }
-  .hero .actions { width: 100%; display: grid; grid-template-columns: 1fr 1fr; }
+  .hero .actions { width: 100%; display: grid; grid-template-columns: 1fr; gap: 8px; }
   .hero .actions .btn { width: 100%; padding: 10px; }
   #toasts { bottom: 86px; }
   .g-subjects { gap: 10px; }

@@ -188,6 +188,13 @@ function resetCursor(subjects) {
 }
 const subjLabel = st => (st.subjects.length === 1 ? S.subj[st.subjects[0]].name : st.subjects.length === S.subjects.length ? 'All subjects' : `${st.subjects.length} subjects`)
   + (st.source === 'new' ? ' · not seen yet' : st.source === 'missed' ? ' · got wrong' : '');
+function homeSeq() {
+  const last = progress().last;
+  const st = last ? { ...last } : { ...defaultSetup(), ...store.get('afit:setup', {}), order: 'source' };
+  st.subjects = (st.subjects || []).filter(s => S.subj[s]);
+  if (!st.subjects.length) st.subjects = S.subjects.map(s => s.id);
+  return st;
+}
 function startSeq(st) {
   st = { ...st, subjects: st.subjects.filter(s => S.subj[s]) };
   const b = seqBlock(st);
@@ -462,22 +469,26 @@ function viewDashboard() {
   const mastered = Object.values(ss).reduce((t, o) => t + o.mastered, 0);
   const missed = missedIds().length;
   const Q = S.quiz && !S.quiz.finished ? S.quiz : null;
-  const last = progress().last, next = !Q && last ? seqBlock({ ...last, subjects: last.subjects.filter(s => S.subj[s]) }) : null;
+  const home = homeSeq(), next = seqBlock(home);
+  const sc = Q ? quizScore(Q) : null;
+  const go1 = Q ? `<a class="btn btn-primary btn-lg" href="#/quiz">${I.play} Continue quiz (${sc.answered}/${sc.total})</a>`
+    : next.ids.length ? `<button class="btn btn-primary btn-lg" data-act="continueLast">${I.play} ${next.started ? 'Continue' : 'Start'}: questions ${next.from}–${next.to}</button>`
+    : `<button class="btn btn-primary btn-lg" data-act="restartLast">${I.play} All ${next.total} done. Go round again</button>`;
   const h = new Date().getHours();
   const greet = h < 12 ? 'Good morning' : h < 17 ? 'Good afternoon' : 'Good evening';
 
   mount(shell('', `
   <div class="stack">
     <section class="hero">
-      <div><h1>${greet}, ${esc(firstName())}</h1><p>${A.length ? `${A.length} quiz${A.length > 1 ? 'zes' : ''} done so far. Pass mark is ${PASS}%.` : `${S.bank.length} questions ready. Pass mark is ${PASS}%.`}</p></div>
+      <div><h1>${greet}, ${esc(firstName())}</h1><p>${next.started ? `${next.total - next.left} of ${next.total} questions done${home.subjects.length < S.subjects.length ? ` in ${esc(subjLabel(home))}` : ''}.` : `${next.total} questions ready.`} Pass mark is ${PASS}%.</p>
+        <p class="hero-links"><a href="#/practice">Set up a different quiz</a> · <a href="#" data-act="quick">Quick 20 random</a></p></div>
       <div class="actions">
-        <a class="btn btn-primary btn-lg" href="#/practice">${I.play} New quiz</a>
-        <button class="btn btn-lg" data-act="quick">Quick 20</button>
+        ${go1}
+        <a class="btn btn-lg" href="#/history">${I.hist} History</a>
       </div>
     </section>
     ${Q ? `<div class="card resume"><span class="ico">${I.clock}</span><div class="tx"><b>Unfinished quiz</b><div class="muted" style="font-size:14px">${esc(Q.title)}: ${quizScore(Q).answered} of ${Q.items.length} answered</div></div>
       <button class="btn btn-ghost btn-sm" data-act="discard">Discard</button><a class="btn btn-primary" href="#/quiz">Continue</a></div>` : ''}
-    ${next && next.started && next.ids.length ? `<div class="card resume"><span class="ico">${I.play}</span><div class="tx"><b>Next up: questions ${next.from}–${next.to}</b><div class="muted" style="font-size:14px">${esc(subjLabel(last))} · ${next.left} of ${next.total} still to do</div></div><button class="btn btn-primary" data-act="continueLast">Continue</button></div>` : ''}
     <section class="grid g-4">
       <div class="card stat"><div class="k">${I.layers} Quizzes</div><div class="v">${A.length}</div><div class="s">${A.length ? `${A.reduce((t, a) => t + a.answered, 0)} answers given` : 'None yet'}</div></div>
       <div class="card stat"><div class="k">${I.target} Average</div><div class="v">${avg ?? '–'}${avg !== null ? '<small>%</small>' : ''}</div><div class="s">${avg === null ? 'Take a quiz' : avg >= PASS ? 'Above the pass mark' : `${PASS - avg}% below the pass mark`}</div></div>
@@ -783,7 +794,8 @@ const actions = {
     await setUser(null);
     go('login', true);
   },
-  quick() {
+  quick(el, e) {
+    e.preventDefault();
     startQuiz({ title: 'Quick 20 · all subjects', mode: 'practice', ids: shuffle(S.bank.map(q => q.id)).slice(0, 20) });
   },
   async discard() {
@@ -824,7 +836,8 @@ const actions = {
   },
   restartSetup() { resetCursor(S.setup.subjects); startSeq(S.setup); },
   continueSeq() { startSeq(S.resultQ.seq); },
-  continueLast() { startSeq(progress().last); },
+  continueLast() { startSeq(homeSeq()); },
+  restartLast() { const st = homeSeq(); resetCursor(st.subjects); startSeq(st); },
   restartSeq() { resetCursor(S.resultQ.seq.subjects); startSeq(S.resultQ.seq); },
   choose(el) { choose(+el.dataset.pos); },
   next() { moveTo(S.quiz.idx + 1); },
