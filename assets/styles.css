@@ -289,6 +289,7 @@ a.row:hover { background: var(--surface-2); }
 .q-meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; font-size: 13.5px; color: var(--muted); }
 .tag { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 6px; font-size: 12.5px; font-weight: 600; background: var(--surface-2); border: 1px solid var(--line); color: var(--ink-2); }
 .tag .dot { width: 8px; height: 8px; border-radius: 50%; }
+.q-text, .rv-q { white-space: pre-line; }
 .q-text { font-family: var(--display); font-size: clamp(20px, 2.4vw, 25px); font-weight: 600; line-height: 1.38; margin: 0 0 22px; letter-spacing: -.005em; }
 .opts { display: grid; gap: 12px; }
 .opt { display: flex; align-items: flex-start; gap: 14px; width: 100%; text-align: left; padding: 15px 16px; border-radius: var(--radius); border: 1.5px solid var(--line-2); background: var(--surface); cursor: pointer; font-size: 16px; line-height: 1.45; transition: border-color .15s, background .15s, transform .1s, box-shadow .15s; box-shadow: var(--shadow); }

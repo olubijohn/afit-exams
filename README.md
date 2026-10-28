@@ -22,7 +22,10 @@ It's a static site (no build step). Accounts and results are stored in the **Com
 
 ## Question bank
 
-Answers come from the marking in the source PDF (answers are in red or green, or highlighted). 19 items were left out: they had no options, needed a diagram, or had no marked answer. Notes printed under some questions in the PDF show up after you answer.
+1,497 questions in 9 subjects, from two sources:
+
+- **General paper** (`GENERAL PAPER _240124_171633 (1).pdf`), 940 questions. Answers are the options printed in red or green, or highlighted. 19 items were left out: they had no options, needed a diagram, or had no marked answer.
+- **Piston engines & systems** (`SLIDE ON PISTON AND SYSTEMS.pdf`), 557 questions, one per slide; "No." is the slide number minus one. Answers are the highlighted option, or the red one where a slide has no highlight. Statement questions ("1, 2 and 3") list the statements in the question; worked answers become the note shown after answering. Left out: 3 slides that give only the answer, and the break slides. On slide 37 two options were highlighted; d) is used, with a note. `tools/extract_piston_slides.py` is the extractor.
 
 ## Run locally
 

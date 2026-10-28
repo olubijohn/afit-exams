@@ -7,7 +7,7 @@ const sb = window.supabase.createClient(C.supabaseUrl, C.supabaseAnonKey, {
   auth: { persistSession: true, autoRefreshToken: true, storageKey: 'afit-exams-auth' },
 });
 const PASS = C.passMark || 75;
-const SUBJECT_COLORS = ['#1d6fd8', '#0f8a5f', '#7c3aed', '#c2410c', '#0e7490', '#b45309', '#be185d', '#4d7c0f'];
+const SUBJECT_COLORS = ['#1d6fd8', '#0f8a5f', '#7c3aed', '#c2410c', '#0e7490', '#b45309', '#be185d', '#4d7c0f', '#475569'];
 
 /* ---------- helpers ---------- */
 const $ = (s, r = document) => r.querySelector(s);
@@ -201,15 +201,21 @@ function resetCursor(subjects) {
 }
 const subjLabel = st => (st.subjects.length === 1 ? S.subj[st.subjects[0]].name : st.subjects.length === S.subjects.length ? 'All subjects' : `${st.subjects.length} subjects`)
   + (st.source === 'new' ? ' · not seen yet' : st.source === 'missed' ? ' · got wrong' : '');
+// saved settings that covered every subject of the time also cover subjects added since
+const FIRST_SUBJECTS = ['law', 'aero1', 'aero2', 'sheet', 'hardware', 'drawing', 'hf1', 'hf2'];
+function withNewSubjects(list) {
+  list = (list || []).filter(s => S.subj[s]);
+  return FIRST_SUBJECTS.every(s => list.includes(s)) ? S.subjects.map(s => s.id) : list;
+}
 function homeSeq() {
   const last = progress().last;
   const st = last ? { ...last } : { ...defaultSetup(), ...store.get('afit:setup', {}), order: 'source' };
-  st.subjects = (st.subjects || []).filter(s => S.subj[s]);
+  st.subjects = withNewSubjects(st.subjects);
   if (!st.subjects.length) st.subjects = S.subjects.map(s => s.id);
   return st;
 }
 function startSeq(st) {
-  st = { ...st, subjects: st.subjects.filter(s => S.subj[s]) };
+  st = { ...st, subjects: withNewSubjects(st.subjects) };
   const b = seqBlock(st);
   startQuiz({ title: `${subjLabel(st)} · Questions ${b.from}–${b.to}`, mode: st.mode, ids: b.ids, shuffleOpts: st.shuffle, subjects: st.subjects, seq: st });
 }
@@ -337,7 +343,7 @@ function authLayout(inner) {
         <h2>NCAT general paper practice</h2>
         <p class="lead">Past questions from the general paper, marked as you go.</p>
         <ul class="feat">
-          <li><span class="tick">${I.check}</span><span><b>${n} questions</b> in ${S.subjects.length} subjects: air law, aerodynamics, sheet metal, hardware, drawings and human factors.</span></li>
+          <li><span class="tick">${I.check}</span><span><b>${n} questions</b> in ${S.subjects.length} subjects: air law, aerodynamics, sheet metal, hardware, drawings, human factors and piston engines.</span></li>
           <li><span class="tick">${I.check}</span><span>Pick an answer and see straight away if it's right, and what the right answer is.</span></li>
           <li><span class="tick">${I.check}</span><span>Your scores are saved, so you can go back over the ones you missed.</span></li>
         </ul>
@@ -548,7 +554,7 @@ function setupPool(st) {
 }
 function viewPractice() {
   if (!S.setup) S.setup = { ...defaultSetup(), ...store.get('afit:setup', {}) };
-  S.setup.subjects = S.setup.subjects.filter(s => S.subj[s]);
+  S.setup.subjects = withNewSubjects(S.setup.subjects);
   if (!S.setup.subjects.length) S.setup.subjects = S.subjects.map(s => s.id);
   renderPractice();
 }
@@ -1453,7 +1459,7 @@ async function boot() {
     ]);
     S.bank = bank.questions;
     S.subjects = bank.subjects;
-    const SHORT = { law: 'LAW', aero1: 'AE1', aero2: 'AE2', sheet: 'SM', hardware: 'HW', drawing: 'DRG', hf1: 'HF1', hf2: 'HF2' };
+    const SHORT = { law: 'LAW', aero1: 'AE1', aero2: 'AE2', sheet: 'SM', hardware: 'HW', drawing: 'DRG', hf1: 'HF1', hf2: 'HF2', piston: 'PE' };
     S.subjects.forEach((s, i) => { S.subj[s.id] = { ...s, i, short: SHORT[s.id] || s.name.slice(0, 3).toUpperCase() }; });
     const k = {};
     S.bank.forEach(q => { S.byId.set(q.id, q); S.pos.set(q.id, k[q.s] = (k[q.s] ?? -1) + 1); });
