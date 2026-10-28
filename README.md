@@ -40,4 +40,4 @@ npx supabase db query --linked --project-ref npyxfreikuxuaroyvmcp -f supabase/mi
 npx supabase functions deploy afit-account --project-ref npyxfreikuxuaroyvmcp --no-verify-jwt --use-api
 ```
 
-The site is served by GitHub Pages from the `main` branch, so pushing to `main` updates it.
+The site is live at https://afit-exams.vercel.app (Vercel, from the `main` branch of github.com/olubijohn/afit-exams), so pushing to `main` updates it.
