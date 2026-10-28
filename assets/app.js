@@ -58,11 +58,12 @@ const logo = (sub = '') => `<a class="logo" href="#/"><span class="logo-mark">${
 const S = {
   user: null, profile: null,
   bank: [], subjects: [], byId: new Map(), subj: {},
-  stats: new Map(), attempts: [], quiz: null, timer: null,
+  stats: new Map(), attempts: [], quiz: null, timer: null, pos: new Map(),
   setup: null, bankView: { q: '', s: 'all', show: true, limit: 25 }, reviewFilter: 'wrong', prefill: '',
 };
 const qKey = () => `afit:quiz:${S.user?.id}`;
 const pKey = () => `afit:pending:${S.user?.id}`;
+const prKey = () => `afit:progress:${S.user?.id}`;
 const saveQuiz = () => S.quiz ? store.set(qKey(), S.quiz) : store.del(qKey());
 
 /* ---------- ui primitives ---------- */
@@ -95,6 +96,15 @@ async function loadProfile(user) {
     const ins = await sb.from('afit_profiles').insert({ id: user.id, email: user.email.toLowerCase(), full_name }).select().single();
     if (ins.error) throw ins.error;
     data = ins.data;
+  }
+  const local = store.get(`afit:progress:${user.id}`, null);
+  data.progress ||= {};
+  if (local?.c) {
+    const c = (data.progress.c ||= {});
+    let ahead = false;
+    for (const [k, v] of Object.entries(local.c)) if (v > (c[k] || 0)) { c[k] = v; ahead = true; }
+    data.progress.last ||= local.last;
+    if (ahead) sb.from('afit_profiles').update({ progress: data.progress }).eq('id', user.id).then(() => {});
   }
   sb.from('afit_profiles').update({ last_seen_at: new Date().toISOString() }).eq('id', user.id).then(() => {});
   return data;
@@ -149,9 +159,40 @@ async function flushPending() {
     if (el) el.outerHTML = syncBadge();
   }
 }
-const syncBadge = () => S.unsynced
+const syncBadge = () => flushing
+  ? `<span id="sync" class="sync">${I.cloud} Saving…</span>`
+  : S.unsynced
   ? `<span id="sync" class="sync warn">${I.cloud} Saved on this device. It will sync when you're back online.</span>`
   : `<span id="sync" class="sync ok">${I.check} Saved to your account</span>`;
+
+/* ---------- going through the paper in order ---------- */
+const progress = () => (S.profile.progress ||= {});
+const cursor = s => progress().c?.[s] || 0;
+const sourceOk = (st, q) => st.source === 'all' || (st.source === 'new' && !S.stats.has(q.id)) || (st.source === 'missed' && S.stats.get(q.id)?.last_correct === false);
+// the next block after where this person stopped, numbered across the chosen subjects
+function seqBlock(st) {
+  const full = S.bank.filter(q => st.subjects.includes(q.s));
+  const left = full.filter(q => S.pos.get(q.id) >= cursor(q.s) && sourceOk(st, q));
+  const take = st.count === 'all' ? left : left.slice(0, st.count);
+  const at = q => full.indexOf(q) + 1;
+  return { ids: take.map(q => q.id), total: full.length, left: left.length, from: take.length ? at(take[0]) : 0, to: take.length ? at(take[take.length - 1]) : 0, started: full.some(q => cursor(q.s) > S.pos.get(q.id)) };
+}
+function saveProgress() {
+  store.set(prKey(), progress());
+  sb.from('afit_profiles').update({ progress: progress() }).eq('id', S.user.id).then(({ error }) => { if (error) console.warn('save progress', error.message); });
+}
+function resetCursor(subjects) {
+  const c = (progress().c ||= {});
+  subjects.forEach(s => delete c[s]);
+  saveProgress();
+}
+const subjLabel = st => (st.subjects.length === 1 ? S.subj[st.subjects[0]].name : st.subjects.length === S.subjects.length ? 'All subjects' : `${st.subjects.length} subjects`)
+  + (st.source === 'new' ? ' · not seen yet' : st.source === 'missed' ? ' · got wrong' : '');
+function startSeq(st) {
+  st = { ...st, subjects: st.subjects.filter(s => S.subj[s]) };
+  const b = seqBlock(st);
+  startQuiz({ title: `${subjLabel(st)} · Questions ${b.from}–${b.to}`, mode: st.mode, ids: b.ids, shuffleOpts: st.shuffle, subjects: st.subjects, seq: st });
+}
 
 /* ---------- quiz engine ---------- */
 function quizScore(Q) {
@@ -159,11 +200,11 @@ function quizScore(Q) {
   Q.items.forEach((it, i) => { const c = Q.ans[i]; if (c !== null) { answered++; if (S.byId.get(it.q).a.includes(c)) correct++; } });
   return { correct, answered, wrong: answered - correct, skipped: Q.items.length - answered, total: Q.items.length };
 }
-function startQuiz({ title, mode, ids, shuffleOpts = true, subjects }) {
+function startQuiz({ title, mode, ids, shuffleOpts = true, subjects, seq = null }) {
   if (!ids.length) return toast('No questions match those settings.', 'err');
   const items = ids.map(id => { const q = S.byId.get(id); const o = q.o.map((_, i) => i); return { q: id, o: shuffleOpts ? shuffle(o) : o }; });
   S.quiz = {
-    v: 1, id: uid(), title, mode, subjects: subjects || [...new Set(items.map(it => S.byId.get(it.q).s))],
+    v: 1, id: uid(), title, mode, seq, subjects: subjects || [...new Set(items.map(it => S.byId.get(it.q).s))],
     items, ans: items.map(() => null), flags: [], idx: 0, elapsed: 0,
     limit: mode === 'timed' ? items.length * 60 : null, startedAt: new Date().toISOString(),
   };
@@ -214,12 +255,18 @@ async function finishQuiz(force = false) {
     const s = S.stats.get(x.q) || { seen: 0, correct: 0 };
     S.stats.set(x.q, { question_id: x.q, subject: x.s, seen: s.seen + 1, correct: s.correct + (x.ok ? 1 : 0), last_correct: x.ok });
   });
+  if (Q.seq) {
+    const c = (progress().c ||= {});
+    Q.items.forEach(it => { const q = S.byId.get(it.q); c[q.s] = Math.max(c[q.s] || 0, S.pos.get(q.id) + 1); });
+    progress().last = Q.seq;
+    saveProgress();
+  }
   S.attempts.unshift(payload);
   const q = store.get(pKey(), []); q.push({ payload, items }); store.set(pKey(), q);
   S.unsynced = q.length;
   S.reviewFilter = sc.correct === sc.total ? 'all' : 'wrong';
-  go('results', true);
   flushPending();
+  go('results', true);
 }
 
 /* ---------- routing ---------- */
@@ -415,6 +462,7 @@ function viewDashboard() {
   const mastered = Object.values(ss).reduce((t, o) => t + o.mastered, 0);
   const missed = missedIds().length;
   const Q = S.quiz && !S.quiz.finished ? S.quiz : null;
+  const last = progress().last, next = !Q && last ? seqBlock({ ...last, subjects: last.subjects.filter(s => S.subj[s]) }) : null;
   const h = new Date().getHours();
   const greet = h < 12 ? 'Good morning' : h < 17 ? 'Good afternoon' : 'Good evening';
 
@@ -429,6 +477,7 @@ function viewDashboard() {
     </section>
     ${Q ? `<div class="card resume"><span class="ico">${I.clock}</span><div class="tx"><b>Unfinished quiz</b><div class="muted" style="font-size:14px">${esc(Q.title)}: ${quizScore(Q).answered} of ${Q.items.length} answered</div></div>
       <button class="btn btn-ghost btn-sm" data-act="discard">Discard</button><a class="btn btn-primary" href="#/quiz">Continue</a></div>` : ''}
+    ${next && next.started && next.ids.length ? `<div class="card resume"><span class="ico">${I.play}</span><div class="tx"><b>Next up: questions ${next.from}–${next.to}</b><div class="muted" style="font-size:14px">${esc(subjLabel(last))} · ${next.left} of ${next.total} still to do</div></div><button class="btn btn-primary" data-act="continueLast">Continue</button></div>` : ''}
     <section class="grid g-4">
       <div class="card stat"><div class="k">${I.layers} Quizzes</div><div class="v">${A.length}</div><div class="s">${A.length ? `${A.reduce((t, a) => t + a.answered, 0)} answers given` : 'None yet'}</div></div>
       <div class="card stat"><div class="k">${I.target} Average</div><div class="v">${avg ?? '–'}${avg !== null ? '<small>%</small>' : ''}</div><div class="s">${avg === null ? 'Take a quiz' : avg >= PASS ? 'Above the pass mark' : `${PASS - avg}% below the pass mark`}</div></div>
@@ -467,10 +516,9 @@ async function loadBoard() {
 }
 
 /* ---------- practice setup ---------- */
-function defaultSetup() { return { subjects: S.subjects.map(s => s.id), count: 20, source: 'all', order: 'random', shuffle: true, mode: 'practice' }; }
+function defaultSetup() { return { subjects: S.subjects.map(s => s.id), count: 20, source: 'all', order: 'source', shuffle: true, mode: 'practice' }; }
 function setupPool(st) {
-  return S.bank.filter(q => st.subjects.includes(q.s) && (
-    st.source === 'all' || (st.source === 'new' && !S.stats.has(q.id)) || (st.source === 'missed' && S.stats.get(q.id)?.last_correct === false)));
+  return S.bank.filter(q => st.subjects.includes(q.s) && sourceOk(st, q));
 }
 function viewPractice() {
   if (!S.setup) S.setup = { ...defaultSetup(), ...store.get('afit:setup', {}) };
@@ -479,7 +527,8 @@ function viewPractice() {
   renderPractice();
 }
 function renderPractice() {
-  const st = S.setup, pool = setupPool(st), n = st.count === 'all' ? pool.length : Math.min(st.count, pool.length);
+  const st = S.setup, pool = setupPool(st), seq = st.order === 'source', blk = seq ? seqBlock(st) : null;
+  const n = seq ? blk.ids.length : st.count === 'all' ? pool.length : Math.min(st.count, pool.length);
   const allOn = st.subjects.length === S.subjects.length;
   const seg = (key, opts) => `<div class="seg" role="group">${opts.map(([v, t]) => `<button type="button" data-act="setup" data-k="${key}" data-v="${v}" aria-pressed="${String(st[key]) === String(v)}">${t}</button>`).join('')}</div>`;
   const newCount = S.bank.filter(q => st.subjects.includes(q.s) && !S.stats.has(q.id)).length;
@@ -492,21 +541,24 @@ function renderPractice() {
         <div class="chips">${S.subjects.map(s => `<button type="button" class="chip" data-act="toggleSubject" data-s="${s.id}" aria-pressed="${st.subjects.includes(s.id)}"><span class="dot" style="background:${SUBJECT_COLORS[S.subj[s.id].i % SUBJECT_COLORS.length]}"></span>${esc(s.name)} <span class="n">${s.count}</span></button>`).join('')}</div></div>
       <div class="setup-sec"><h4>Which questions</h4><p>Go through everything, only ones you haven't seen, or the ones you got wrong.</p>
         ${seg('source', [['all', 'All'], ['new', `Not seen yet (${newCount})`], ['missed', `Got wrong (${missCount})`]])}</div>
-      <div class="setup-sec"><h4>How many</h4><p>${pool.length} available with these settings.</p>
+      <div class="setup-sec"><h4>How many</h4><p>${seq ? (blk.started ? `${blk.left} of ${blk.total} still to do. You carry on from where you stopped.` : `${blk.total} questions, starting from question 1.`) : `${pool.length} available. Ones you haven't answered come first.`}</p>
         ${seg('count', [[10, '10'], [20, '20'], [50, '50'], [100, '100'], ['all', 'All']])}</div>
       <div class="setup-sec"><h4>Mode</h4><p>Either way you see the right answer as soon as you pick one.</p>
         <div class="mode-cards">
           <button type="button" class="mode-card" data-act="setup" data-k="mode" data-v="practice" aria-pressed="${st.mode === 'practice'}">${I.book}<div><b>Practice</b><span>No clock. Take your time.</span></div></button>
           <button type="button" class="mode-card" data-act="setup" data-k="mode" data-v="timed" aria-pressed="${st.mode === 'timed'}">${I.clock}<div><b>Timed</b><span>1 minute per question. Ends when time runs out.</span></div></button>
         </div></div>
-      <div class="setup-sec"><h4 style="margin-bottom:12px">Order</h4>${seg('order', [['random', 'Random'], ['source', 'Same order as the paper']])}
+      <div class="setup-sec"><h4 style="margin-bottom:12px">Order</h4>${seg('order', [['random', 'Random'], ['source', 'In order, carry on where I stopped']])}
         <label class="switch" style="margin-top:16px"><span><b style="font-size:14.5px">Shuffle A/B/C</b><br><span class="muted" style="font-size:13px">Stops you remembering the letter instead of the answer.</span></span><input type="checkbox" data-act="shuffleOpts" ${st.shuffle ? 'checked' : ''}></label></div>
     </div>
     <aside class="card summary">
       <div class="eyebrow">Summary</div>
       <div class="big">${n}</div><div class="muted">question${n === 1 ? '' : 's'}</div>
-      <dl><dt>Subjects</dt><dd>${allOn ? 'All' : st.subjects.length}</dd><dt>Mode</dt><dd>${st.mode === 'timed' ? `Timed, ${fmtDur(n * 60)}` : 'Practice'}</dd><dt>Order</dt><dd>${st.order === 'random' ? 'Random' : 'As in the paper'}</dd><dt>Pass mark</dt><dd>${PASS}%</dd></dl>
-      <button class="btn btn-primary btn-lg btn-block" data-act="startSetup" ${n ? '' : 'disabled'}>Start quiz</button>
+      ${seq && n ? `<div class="range">Questions ${blk.from}–${blk.to} of ${blk.total}</div>` : ''}
+      ${seq && !n && blk.total ? `<p class="range">You've done all ${blk.total} questions in these subjects.</p>` : ''}
+      <dl><dt>Subjects</dt><dd>${allOn ? 'All' : st.subjects.length}</dd><dt>Mode</dt><dd>${st.mode === 'timed' ? `Timed, ${fmtDur(n * 60)}` : 'Practice'}</dd><dt>Order</dt><dd>${st.order === 'random' ? 'Random' : 'In order'}</dd><dt>Pass mark</dt><dd>${PASS}%</dd></dl>
+      ${seq && !n && blk.total ? `<button class="btn btn-primary btn-lg btn-block" data-act="restartSetup">Go round again from question 1</button>`
+        : `<button class="btn btn-primary btn-lg btn-block" data-act="startSetup" ${n ? '' : 'disabled'}>${seq && blk.started ? `Continue from question ${blk.from}` : 'Start quiz'}</button>`}
     </aside>
   </div>`));
 }
@@ -546,9 +598,7 @@ function renderQuiz() {
   <header class="quiz-top"><div class="quiz-top-in">
     <button class="btn btn-ghost icon-btn" data-act="exitQuiz" aria-label="Leave quiz">${I.x}</button>
     <div class="quiz-title"><b>${esc(Q.title)}</b><span>${Q.mode === 'timed' ? 'Timed' : 'Practice'} · pass mark ${PASS}%</span></div>
-    <span class="pill ok" title="Correct">${I.check}${sc.correct}</span>
-    <span class="pill bad" title="Wrong">${I.x}${sc.wrong}</span>
-    <span class="pill hide-sm" title="Score so far">${sc.answered ? pct(sc.correct, sc.answered) : 0}%</span>
+    <span class="pill" title="Answered">${sc.answered}/${sc.total}</span>
     <span class="pill ${left !== null && left <= 60 ? 'warn' : ''}" id="qtimer">${I.clock}<span>${fmtTime(left ?? Q.elapsed)}</span></span>
   </div><div class="progress"><i style="width:${(sc.answered / Q.items.length) * 100}%"></i></div></header>
   <main class="quiz-main">
@@ -617,6 +667,7 @@ function renderResults(Q, { live }) {
   const reviewItems = Q.items.map((it, i) => ({ it, i, q: S.byId.get(it.q), c: Q.ans[i] })).filter(({ q, c }) =>
     f === 'all' || (f === 'wrong' && (c === null || !q.a.includes(c))) || (f === 'right' && c !== null && q.a.includes(c)));
   const counts = { all: sc.total, wrong: sc.wrong + sc.skipped, right: sc.correct };
+  const nb = live && Q.seq ? seqBlock(Q.seq) : null;
 
   mount(shell(live ? '' : 'history', `
   <div class="stack">
@@ -637,7 +688,8 @@ function renderResults(Q, { live }) {
       </div>
     </div>
     <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:20px">
-      ${wrongIds.length ? `<button class="btn btn-primary" data-act="retryWrong" data-ids="${wrongIds.join(',')}">Retry the ${wrongIds.length} I missed</button>` : ''}
+      ${nb ? (nb.ids.length ? `<button class="btn btn-primary btn-lg" data-act="continueSeq">Continue: questions ${nb.from}–${nb.to}${I.right}</button>` : `<button class="btn btn-primary btn-lg" data-act="restartSeq">All ${nb.total} done. Go round again</button>`) : ''}
+      ${wrongIds.length ? `<button class="btn ${nb ? '' : 'btn-primary'}" data-act="retryWrong" data-ids="${wrongIds.join(',')}">Retry the ${wrongIds.length} I missed</button>` : ''}
       <button class="btn" data-act="retryAll">Same questions again</button>
       <a class="btn" href="#/practice">New quiz</a>
       <a class="btn btn-ghost" href="#/">Home</a>
@@ -762,15 +814,18 @@ const actions = {
   },
   shuffleOpts(el) { S.setup.shuffle = el.checked; store.set('afit:setup', S.setup); },
   async startSetup() {
-    const st = S.setup, pool = setupPool(st);
+    const st = S.setup;
     if (S.quiz && !S.quiz.finished && !await dialog({ title: 'Start a new quiz?', body: 'You have an unfinished quiz. Starting a new one will discard it.', ok: 'Start new quiz' })) return;
-    let ids = (st.order === 'random' ? shuffle(pool) : pool).map(q => q.id);
+    if (st.order === 'source') return startSeq(st);
+    const pool = setupPool(st);
+    let ids = [...shuffle(pool.filter(q => !S.stats.has(q.id))), ...shuffle(pool.filter(q => S.stats.has(q.id)))].map(q => q.id);
     if (st.count !== 'all') ids = ids.slice(0, st.count);
-    if (st.order !== 'random') ids = S.bank.filter(q => ids.includes(q.id)).map(q => q.id);
-    const subjName = st.subjects.length === 1 ? S.subj[st.subjects[0]].name : st.subjects.length === S.subjects.length ? 'All subjects' : `${st.subjects.length} subjects`;
-    const src = st.source === 'new' ? ' · not seen yet' : st.source === 'missed' ? ' · got wrong' : '';
-    startQuiz({ title: `${subjName}${src} · ${ids.length} questions`, mode: st.mode, ids, shuffleOpts: st.shuffle, subjects: st.subjects });
+    startQuiz({ title: `${subjLabel(st)} · ${ids.length} questions`, mode: st.mode, ids, shuffleOpts: st.shuffle, subjects: st.subjects });
   },
+  restartSetup() { resetCursor(S.setup.subjects); startSeq(S.setup); },
+  continueSeq() { startSeq(S.resultQ.seq); },
+  continueLast() { startSeq(progress().last); },
+  restartSeq() { resetCursor(S.resultQ.seq.subjects); startSeq(S.resultQ.seq); },
   choose(el) { choose(+el.dataset.pos); },
   next() { moveTo(S.quiz.idx + 1); },
   prev() { moveTo(S.quiz.idx - 1); },
@@ -855,7 +910,8 @@ async function boot() {
     S.subjects = bank.subjects;
     const SHORT = { law: 'LAW', aero1: 'AE1', aero2: 'AE2', sheet: 'SM', hardware: 'HW', drawing: 'DRG', hf1: 'HF1', hf2: 'HF2' };
     S.subjects.forEach((s, i) => { S.subj[s.id] = { ...s, i, short: SHORT[s.id] || s.name.slice(0, 3).toUpperCase() }; });
-    S.bank.forEach(q => S.byId.set(q.id, q));
+    const k = {};
+    S.bank.forEach(q => { S.byId.set(q.id, q); S.pos.set(q.id, k[q.s] = (k[q.s] ?? -1) + 1); });
     const user = sess.data.session?.user;
     if (user) { try { await setUser(user); } catch (e) { console.error(e); await sb.auth.signOut(); toast('Please sign in again.', 'err'); } }
   } catch (e) {
