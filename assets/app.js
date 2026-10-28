@@ -57,6 +57,10 @@ const I = {
   bell: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9a6 6 0 0 1 12 0c0 6 2.5 7.5 2.5 7.5h-17S6 15 6 9z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg>',
   bellOff: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9a6 6 0 0 1 10.4-4.1M18 9.5c.3 5.3 2.5 7 2.5 7H8"/><path d="M10 20a2 2 0 0 0 4 0M3 3l18 18"/></svg>',
   trash: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></svg>',
+  reply: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5A5.5 5.5 0 0 1 20 14.5 5.5 5.5 0 0 1 14.5 20H11"/></svg>',
+  copy: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg>',
+  edit: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13.5 6.5 4 4"/></svg>',
+  more: '<svg viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>',
   chev: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>',
 };
 const credit = cls => `<p class="credit ${cls || ''}">Built by Olubi_Dev · <a href="tel:+2348131351217">08131351217</a></p>`;
@@ -300,7 +304,7 @@ function route() {
   if (!S.user) return AUTH.includes(name) ? viewAuth(name) : go('login', true);
   if (S.profile?.must_change_password && name !== 'password') return go('password', true);
   if (AUTH.includes(name)) return go('', true);
-  if (name !== 'chat') { CH.open = null; document.body.classList.remove('in-room'); }
+  if (name !== 'chat') { if (CH.roomCh) leaveRoomChannel(); CH.open = null; CH.lastRoom = null; document.body.classList.remove('in-room'); }
   const views = { chat: viewChat, '': viewDashboard, practice: viewPractice, quiz: viewQuiz, results: viewResults, history: viewHistory, attempt: viewAttempt, bank: viewBank, password: viewPassword };
   (views[name] || viewDashboard)(arg && decodeURIComponent(arg));
   if (name !== 'quiz') window.scrollTo(0, 0);
@@ -790,7 +794,8 @@ function refreshBank() {
 }
 
 /* ---------- chat ---------- */
-const CH = { people: new Map(), online: [], rooms: new Map(), msgs: new Map(), open: null, draft: '', image: null, sub: null, presence: null, audio: null, sending: false };
+const CH = { people: new Map(), online: [], rooms: new Map(), msgs: new Map(), open: null, draft: '', image: null, sub: null, presence: null, audio: null, sending: false,
+  reply: null, edit: null, typing: new Map(), roomCh: null, lastPing: 0, typingTimer: null, lastRoom: null };
 const readKey = () => `afit:read:${S.user?.id}`;
 const soundOn = () => store.get('afit:chatSound', true);
 const ROOM_RE = /^(general|dm:[0-9a-f-]{36}:[0-9a-f-]{36})$/;
@@ -814,6 +819,7 @@ async function initChat() {
   CH.sub = sb.channel('ncat-messages')
     .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'afit_messages' }, p => onIncoming(p.new))
     .on('postgres_changes', { event: 'DELETE', schema: 'public', table: 'afit_messages' }, p => onDeleted(p.old?.id))
+    .on('postgres_changes', { event: 'UPDATE', schema: 'public', table: 'afit_messages' }, p => onUpdated(p.new))
     .subscribe();
   const pres = CH.presence = sb.channel('ncat-online', { config: { presence: { key: S.user.id } } });
   pres.on('presence', { event: 'sync' }, () => {
@@ -825,9 +831,10 @@ async function initChat() {
   updateChatBadge();
 }
 function teardownChat() {
+  leaveRoomChannel();
   if (CH.sub) sb.removeChannel(CH.sub);
   if (CH.presence) sb.removeChannel(CH.presence);
-  Object.assign(CH, { people: new Map(), online: [], rooms: new Map(), msgs: new Map(), open: null, image: null, sub: null, presence: null });
+  Object.assign(CH, { people: new Map(), online: [], rooms: new Map(), msgs: new Map(), open: null, image: null, sub: null, presence: null, reply: null, edit: null, lastRoom: null });
   updateChatBadge();
 }
 function noteRoom(m, read = store.get(readKey(), {})) {
@@ -863,6 +870,17 @@ async function onIncoming(m) {
   if (m.sender_id !== S.user.id && !known) { ping(); navigator.vibrate?.(60); }
   refreshChatSide();
   updateChatBadge();
+}
+function onUpdated(m) {
+  if (!m?.id) return;
+  for (const list of CH.msgs.values()) {
+    const x = list.find(y => y.id === m.id);
+    if (x) { x.body = m.body; x.edited_at = m.edited_at; redrawMsg(x); }
+  }
+}
+function redrawMsg(m) {
+  const node = $(`[data-mid="${m.id}"]`);
+  if (node) { node.outerHTML = msgCore(m, node.classList.contains('grouped')); renderReplying(); }
 }
 function onDeleted(id) {
   if (!id) return;
@@ -900,6 +918,7 @@ function viewChat(room) {
   if (!room && !mobile) room = 'general';
   if (room && (!ROOM_RE.test(room) || (room !== 'general' && !room.includes(S.user.id)))) return go('chat', true);
   CH.open = room || null;
+  if (CH.lastRoom !== room) { if (CH.reply) stopReplying(); CH.reply = CH.edit = null; CH.lastRoom = room; }
   document.body.classList.toggle('in-room', !!room);
   mount(shell('chat', `<div class="chat ${room ? 'has-room' : ''}">
     <aside class="chat-side" id="chatside">${sideHtml()}</aside>
@@ -911,6 +930,8 @@ function viewChat(room) {
   if (CH.draft) { box.value = CH.draft; CH.draft = ''; autosize(box); }
   if (CH.image) showChatImage(CH.image);
   if (!mobile) box.focus();
+  joinRoomChannel(room);
+  renderCtx();
   loadRoom(room);
 }
 function sideHtml() {
@@ -943,7 +964,9 @@ function paneHtml(room) {
       <button class="btn btn-ghost icon-btn" data-act="chatSound" aria-label="Message sound" title="Message sound">${soundOn() ? I.bell : I.bellOff}</button>
     </header>
     <div class="msgs" id="msgs"></div>
+    <div class="replying" id="replying" aria-live="polite"></div>
     <div class="composer">
+      <div id="chatctx"></div>
       <div id="chatimg"></div>
       <div class="tools">
         <button type="button" data-act="chatFmt" data-w="**" title="Bold"><b>B</b></button>
@@ -976,6 +999,7 @@ function renderMsgs(room) {
   el.innerHTML = list.length ? list.map((m, i) => msgHtml(m, list[i - 1])).join('')
     : `<div class="empty">${I.chat}${room === 'general' ? "No messages yet. Say hello, or share a question you're stuck on." : `Say hello to ${esc(roomName(room))}.`}</div>`;
   el.scrollTop = el.scrollHeight;
+  renderReplying();
 }
 function appendMsg(m) {
   const el = $('#msgs'); if (!el) return;
@@ -1005,21 +1029,130 @@ function fmtMsg(s) {
   return h.replace(/\u0000(\d+)\u0000/g, (_, i) => keep[i]);
 }
 function msgHtml(m, prev) {
-  const mine = m.sender_id === S.user.id, d = new Date(m.created_at);
+  const d = new Date(m.created_at);
   const newDay = !prev || new Date(prev.created_at).toDateString() !== d.toDateString();
-  const grouped = !newDay && prev.sender_id === m.sender_id && d - new Date(prev.created_at) < 5 * 60e3;
+  const grouped = !newDay && prev.sender_id === m.sender_id && d - new Date(prev.created_at) < 5 * 60e3 && !m.reply_name;
+  return `${newDay ? `<div class="day"><span>${dayLabel(d)}</span></div>` : ''}${msgCore(m, grouped)}`;
+}
+function msgCore(m, grouped) {
+  const mine = m.sender_id === S.user.id, d = new Date(m.created_at);
   const name = m.sender_name || CH.people.get(m.sender_id) || 'Someone';
   const img = m.image && IMG_RE.test(m.image) ? `<img class="msg-img" src="${m.image}" alt="Picture from ${esc(name)}" loading="lazy" data-act="viewImg">` : '';
-  return `${newDay ? `<div class="day"><span>${dayLabel(d)}</span></div>` : ''}
-  <div class="msg ${mine ? 'me' : ''} ${grouped ? 'grouped' : ''}" data-mid="${m.id}">
+  const quote = m.reply_name ? `<button class="quote" ${m.reply_to ? `data-act="jumpTo" data-id="${m.reply_to}"` : 'disabled'}><b>${esc(m.reply_name)}</b><span>${esc(m.reply_snip || '')}</span></button>` : '';
+  return `<div class="msg ${mine ? 'me' : ''} ${grouped ? 'grouped' : ''}" data-mid="${m.id}">
     <span class="avatar sm">${grouped ? '' : esc(initials(name))}</span>
     <div class="bubble">
-      ${grouped ? '' : `<div class="meta"><b>${mine ? 'You' : esc(name)}</b><time>${d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</time></div>`}
-      ${m.body ? `<div class="txt">${fmtMsg(m.body)}</div>` : ''}${img}
+      ${grouped ? '' : `<div class="meta"><b>${mine ? 'You' : esc(name)}</b><time>${d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</time>${m.edited_at ? '<span class="edited">edited</span>' : ''}</div>`}
+      ${quote}${m.body ? `<div class="txt">${fmtMsg(m.body)}</div>` : ''}${img}
+      ${grouped && m.edited_at ? '<span class="edited">edited</span>' : ''}
+      <span class="rp-chip" data-rp="${m.id}" hidden></span>
     </div>
-    ${mine ? `<button class="msg-del" data-act="chatDelete" data-id="${m.id}" aria-label="Delete message" title="Delete">${I.trash}</button>` : ''}
+    <button class="msg-more" data-act="msgMenu" data-id="${m.id}" aria-label="Message options" title="Reply, copy and more">${I.more}</button>
   </div>`;
 }
+const findMsg = id => (CH.msgs.get(CH.open) || []).find(x => x.id === id);
+const snipOf = m => (m.body ? m.body.replace(/\*\*|~~|`/g, '').replace(/\s+/g, ' ').slice(0, 140) : 'Picture');
+const joinNames = n => (n.length === 1 ? n[0] : n.length === 2 ? `${n[0]} and ${n[1]}` : `${n[0]}, ${n[1]} and ${n.length - 2} other${n.length > 3 ? 's' : ''}`);
+
+/* reply / edit banner above the message box */
+function renderCtx() {
+  const el = $('#chatctx'); if (!el) return;
+  if (CH.reply) el.innerHTML = `<div class="ctx">${I.reply}<div class="grow"><b>Replying to ${esc(CH.reply.mine ? 'your message' : CH.reply.name)}</b><span>${esc(CH.reply.snip)}</span></div><button type="button" data-act="cancelCtx" aria-label="Cancel reply">${I.x}</button></div>`;
+  else if (CH.edit) el.innerHTML = `<div class="ctx edit">${I.edit}<div class="grow"><b>Editing your message</b><span>Change the text, then send. Esc cancels.</span></div><button type="button" data-act="cancelCtx" aria-label="Cancel editing">${I.x}</button></div>`;
+  else el.innerHTML = '';
+}
+function startReply(m) {
+  CH.edit = null;
+  CH.reply = { id: m.id, name: m.sender_name || 'Someone', snip: snipOf(m), mine: m.sender_id === S.user.id };
+  renderCtx();
+  const box = $('#chatbox'); if (box) box.focus();
+  announceReplying(true);
+}
+function startEdit(m) {
+  if (CH.reply) stopReplying();
+  CH.reply = null; CH.edit = m.id;
+  const box = $('#chatbox'); box.value = m.body; autosize(box); box.focus();
+  renderCtx();
+}
+function cancelCtx() {
+  if (CH.reply) stopReplying();
+  if (CH.edit) { const box = $('#chatbox'); if (box) { box.value = ''; autosize(box); } }
+  CH.reply = CH.edit = null;
+  renderCtx();
+}
+
+/* "X is replying to Y": only shared while someone is answering a message, never for plain typing */
+function joinRoomChannel(room) {
+  if (CH.roomCh?.room === room) return;
+  leaveRoomChannel();
+  const ch = sb.channel(`ncat-reply:${room}`);
+  ch.room = room;
+  ch.on('broadcast', { event: 'replying' }, ({ payload: p }) => {
+    if (!p?.uid || p.uid === S.user?.id) return;
+    CH.typing.set(p.uid, { name: CH.people.get(p.uid) || String(p.name || 'Someone').slice(0, 80), to: +p.to, toName: String(p.toName || 'someone').slice(0, 80), at: Date.now() });
+    renderReplying();
+  }).on('broadcast', { event: 'stop' }, ({ payload: p }) => { if (CH.typing.delete(p?.uid)) renderReplying(); }).subscribe();
+  CH.roomCh = ch;
+  CH.typingTimer ||= setInterval(() => {
+    const now = Date.now(); let gone = false;
+    for (const [k, v] of CH.typing) if (now - v.at > 8000) { CH.typing.delete(k); gone = true; }
+    if (gone) renderReplying();
+    if (CH.reply && now - CH.lastPing > 4000 && $('#chatbox')?.value.trim()) announceReplying(true);
+  }, 2000);
+}
+function leaveRoomChannel() {
+  if (CH.roomCh) { stopReplying(); sb.removeChannel(CH.roomCh); CH.roomCh = null; }
+  CH.typing.clear();
+}
+function announceReplying(force) {
+  if (!CH.reply || !CH.roomCh) return;
+  const now = Date.now();
+  if (!force && now - CH.lastPing < 2500) return;
+  CH.lastPing = now;
+  CH.roomCh.send({ type: 'broadcast', event: 'replying', payload: { uid: S.user.id, name: S.profile.full_name, to: CH.reply.id, toName: CH.reply.name } });
+}
+function stopReplying() {
+  CH.lastPing = 0;
+  CH.roomCh?.send({ type: 'broadcast', event: 'stop', payload: { uid: S.user?.id } });
+}
+function renderReplying() {
+  const groups = new Map();
+  for (const t of CH.typing.values()) {
+    const g = groups.get(t.to) || { toName: t.toName, names: [] };
+    g.names.push(t.name); groups.set(t.to, g);
+  }
+  const el = $('#replying');
+  if (el) el.innerHTML = [...groups].map(([to, g]) => {
+    const target = findMsg(to)?.sender_id === S.user.id ? 'your message' : g.toName;
+    return `<button class="replying-row" data-act="jumpTo" data-id="${to}"><span class="dots"><i></i><i></i><i></i></span><span><b>${esc(joinNames(g.names))}</b> ${g.names.length > 1 ? 'are' : 'is'} replying to <b>${esc(target)}</b></span></button>`;
+  }).join('');
+  $$('.rp-chip').forEach(c => {
+    const g = groups.get(+c.dataset.rp);
+    c.hidden = !g;
+    c.innerHTML = g ? `<span class="dots"><i></i><i></i><i></i></span>${g.names.length} replying` : '';
+  });
+}
+
+/* the ⋯ menu on a message */
+function closeMsgMenu() { $('#msgmenu')?.remove(); }
+function openMsgMenu(btn) {
+  const open = $('#msgmenu');
+  closeMsgMenu();
+  if (open && open.dataset.for === btn.dataset.id) return;
+  const m = findMsg(+btn.dataset.id); if (!m) return;
+  const mine = m.sender_id === S.user.id;
+  const el = document.createElement('div');
+  el.id = 'msgmenu'; el.className = 'msg-menu'; el.dataset.for = String(m.id);
+  el.innerHTML = `<button data-act="msgReply" data-id="${m.id}">${I.reply} Reply</button>
+    ${m.body ? `<button data-act="msgCopy" data-id="${m.id}">${I.copy} Copy text</button>` : ''}
+    ${mine && m.body ? `<button data-act="msgEdit" data-id="${m.id}">${I.edit} Edit</button>` : ''}
+    ${mine ? `<button data-act="chatDelete" data-id="${m.id}" class="danger">${I.trash} Delete</button>` : ''}`;
+  document.body.appendChild(el);
+  const r = btn.getBoundingClientRect(), w = el.offsetWidth, h = el.offsetHeight;
+  el.style.left = `${Math.max(8, Math.min(r.right - w, innerWidth - w - 8))}px`;
+  el.style.top = `${r.bottom + h + 8 > innerHeight ? Math.max(8, r.top - h - 4) : r.bottom + 4}px`;
+}
+
 function autosize(t) { t.style.height = 'auto'; t.style.height = Math.min(t.scrollHeight, 160) + 'px'; }
 
 /* pictures: shrink in the browser and keep as a base64 data URL (aim ~50-80 KB) */
@@ -1061,13 +1194,26 @@ async function sendChat() {
   const box = $('#chatbox');
   if (!box || CH.sending || !CH.open) return;
   const body = box.value.trim(), image = CH.image, room = CH.open;
+  const btn = $('[data-act=chatSend]');
+  if (CH.edit) {
+    const m = findMsg(CH.edit);
+    if (!body && !m?.image) return toast("A message can't be empty. Delete it instead.", 'err');
+    CH.sending = true; if (btn) btn.disabled = true;
+    const { data, error } = await sb.from('afit_messages').update({ body }).eq('id', CH.edit).select('id, body, edited_at').single();
+    CH.sending = false; if (btn) btn.disabled = false;
+    if (error) return toast(`Couldn't save: ${error.message}`, 'err');
+    if (m) { m.body = data.body; m.edited_at = data.edited_at; redrawMsg(m); }
+    CH.edit = null; box.value = ''; autosize(box); renderCtx();
+    return;
+  }
   if (!body && !image) return;
   CH.sending = true;
-  const btn = $('[data-act=chatSend]'); if (btn) btn.disabled = true;
-  const { data, error } = await sb.from('afit_messages').insert({ room, body, image }).select().single();
+  if (btn) btn.disabled = true;
+  const { data, error } = await sb.from('afit_messages').insert({ room, body, image, reply_to: CH.reply?.id || null }).select().single();
   CH.sending = false; if (btn) btn.disabled = false;
   if (error) return toast(/too fast/i.test(error.message) ? 'Slow down a little, then try again.' : `Couldn't send: ${error.message}`, 'err');
   box.value = ''; autosize(box); CH.image = null; $('#chatimg').innerHTML = '';
+  if (CH.reply) { stopReplying(); CH.reply = null; renderCtx(); }
   if (!matchMedia('(pointer: coarse)').matches) box.focus();
   if (!CH.msgs.has(room)) CH.msgs.set(room, []);
   const list = CH.msgs.get(room);
@@ -1084,6 +1230,21 @@ function askInChat(id) {
 /* ---------- actions ---------- */
 const actions = {
   askChat(el) { askInChat(el.dataset.q); },
+  msgMenu(el, e) { e.stopPropagation(); openMsgMenu(el); },
+  msgReply(el) { closeMsgMenu(); const m = findMsg(+el.dataset.id); if (m) startReply(m); },
+  async msgCopy(el) {
+    closeMsgMenu();
+    const m = findMsg(+el.dataset.id); if (!m) return;
+    try { await navigator.clipboard.writeText(m.body); toast('Copied.'); } catch { toast("Couldn't copy on this device.", 'err'); }
+  },
+  msgEdit(el) { closeMsgMenu(); const m = findMsg(+el.dataset.id); if (m) startEdit(m); },
+  cancelCtx() { cancelCtx(); $('#chatbox')?.focus(); },
+  jumpTo(el) {
+    const node = $(`[data-mid="${el.dataset.id}"]`);
+    if (!node) return toast('That message is too far back to show here.');
+    node.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    node.classList.remove('flash'); void node.offsetWidth; node.classList.add('flash');
+  },
   chatSend() { sendChat(); },
   chatRemoveImage() { CH.image = null; $('#chatimg').innerHTML = ''; },
   chatFmt(el) {
@@ -1099,10 +1260,12 @@ const actions = {
     toast(soundOn() ? 'Message sound on.' : 'Message sound off.');
   },
   async chatDelete(el) {
+    closeMsgMenu();
     if (!await dialog({ title: 'Delete this message?', body: 'It will be removed for everyone.', ok: 'Delete', danger: true })) return;
     const id = +el.dataset.id;
     const { error } = await sb.from('afit_messages').delete().eq('id', id);
     if (error) return toast(error.message, 'err');
+    if (CH.edit === id) cancelCtx();
     onDeleted(id);
   },
   viewImg(el) {
@@ -1202,6 +1365,7 @@ const actions = {
 };
 
 document.addEventListener('click', e => {
+  if (!e.target.closest('#msgmenu, [data-act=msgMenu]')) closeMsgMenu();
   const el = e.target.closest('[data-act]');
   if (!el) { if (!e.target.closest('.menu')) closeMenu(); return; }
   const fn = actions[el.dataset.act];
@@ -1217,7 +1381,7 @@ document.addEventListener('change', e => {
 let searchT;
 document.addEventListener('input', e => {
   const el = e.target;
-  if (el.id === 'chatbox') autosize(el);
+  if (el.id === 'chatbox') { autosize(el); if (CH.reply && el.value.trim()) announceReplying(); }
   if (el.id === 'bankq') { clearTimeout(searchT); searchT = setTimeout(() => { S.bankView.q = el.value.trim(); S.bankView.limit = 25; refreshBank(); }, 160); }
   if (el.dataset.live === 'pw') {
     const r = pwRules(el.value); $$('#rules li').forEach((li, i) => li.classList.toggle('met', r[i][1]));
@@ -1244,10 +1408,30 @@ document.addEventListener('drop', e => {
   const f = [...(e.dataTransfer?.files || [])].find(x => x.type.startsWith('image/'));
   if (f) addChatImage(f);
 });
+let swipe = null;
+document.addEventListener('touchstart', e => {
+  const m = e.target.closest('.msgs .msg');
+  swipe = m && e.touches.length === 1 ? { el: m, x: e.touches[0].clientX, y: e.touches[0].clientY, dx: 0 } : null;
+}, { passive: true });
+document.addEventListener('touchmove', e => {
+  if (!swipe) return;
+  const dx = e.touches[0].clientX - swipe.x, dy = e.touches[0].clientY - swipe.y;
+  if (swipe.dx < 8 && Math.abs(dy) > Math.abs(dx)) { swipe.el.style.transform = ''; swipe = null; return; }
+  swipe.dx = Math.max(0, Math.min(90, dx));
+  swipe.el.style.transform = `translateX(${swipe.dx}px)`;
+  swipe.el.classList.toggle('swipe-ready', swipe.dx > 60);
+}, { passive: true });
+document.addEventListener('touchend', () => {
+  if (!swipe) return;
+  const { el, dx } = swipe; swipe = null;
+  el.style.transform = ''; el.classList.remove('swipe-ready');
+  if (dx > 60) { const m = findMsg(+el.dataset.mid); if (m) { navigator.vibrate?.(20); startReply(m); } }
+});
 document.addEventListener('pointerdown', () => {
   try { if (!CH.audio) CH.audio = new (window.AudioContext || window.webkitAudioContext)(); else if (CH.audio.state === 'suspended') CH.audio.resume(); } catch { /* no audio */ }
 }, { passive: true });
 document.addEventListener('keydown', e => {
+  if (e.target.id === 'chatbox' && e.key === 'Escape' && (CH.reply || CH.edit)) { e.preventDefault(); cancelCtx(); return; }
   if (e.target.id === 'chatbox' && e.key === 'Enter' && !e.shiftKey && !e.isComposing && !matchMedia('(pointer: coarse)').matches) { e.preventDefault(); sendChat(); return; }
   if (!location.hash.startsWith('#/quiz') || !S.quiz || S.quiz.finished || $('#modal').open) return;
   if (e.target.matches('input, textarea, select') || e.metaKey || e.ctrlKey || e.altKey) return;
