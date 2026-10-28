@@ -1,8 +1,8 @@
-/* AFIT Exams — single-page app. Questions ship in data/questions.json; accounts and results live in Supabase. */
+/* NCAT Exams — single-page app. Questions ship in data/questions.json; accounts and results live in Supabase. */
 (() => {
 'use strict';
 
-const C = window.AFIT_CONFIG;
+const C = window.NCAT_CONFIG;
 const sb = window.supabase.createClient(C.supabaseUrl, C.supabaseAnonKey, {
   auth: { persistSession: true, autoRefreshToken: true, storageKey: 'afit-exams-auth' },
 });
@@ -52,7 +52,7 @@ const I = {
   chev: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>',
 };
 const credit = cls => `<p class="credit ${cls || ''}">Built by Olubi_Dev · <a href="tel:+2348131351217">08131351217</a></p>`;
-const logo = (sub = '') => `<a class="logo" href="#/"><span class="logo-mark">${I.plane}</span><span>AFIT Exams${sub ? `<small>${esc(sub)}</small>` : ''}</span></a>`;
+const logo = (sub = '') => `<a class="logo" href="#/"><span class="logo-mark">${I.plane}</span><span>NCAT Exams${sub ? `<small>${esc(sub)}</small>` : ''}</span></a>`;
 
 /* ---------- state ---------- */
 const S = {
@@ -265,7 +265,7 @@ function authLayout(inner) {
     <aside class="auth-brand">
       ${logo()}
       <div>
-        <h2>AFIT general paper practice</h2>
+        <h2>NCAT general paper practice</h2>
         <p class="lead">Past questions from the general paper, marked as you go.</p>
         <ul class="feat">
           <li><span class="tick">${I.check}</span><span><b>${n} questions</b> in ${S.subjects.length} subjects: air law, aerodynamics, sheet metal, hardware, drawings and human factors.</span></li>
@@ -299,7 +299,7 @@ function viewAuth(name) {
     </form>
     <p class="auth-alt"><a href="#/login">Back to sign in</a></p>`);
   authLayout(`
-    <div class="auth-head"><h1>Sign in</h1><p>Use the email and password for your AFIT Exams account.</p></div>
+    <div class="auth-head"><h1>Sign in</h1><p>Use the email and password for your NCAT Exams account.</p></div>
     <form data-form="login" novalidate>
       <label class="field"><span>Email</span><input name="email" type="email" autocomplete="email" inputmode="email" required value="${esc(S.prefill)}"></label>
       <div class="field"><span><label for="pw">Password</label><a href="#/forgot" class="link-sm">Forgot password?</a></span>
@@ -359,7 +359,7 @@ const forms = {
     const pw = f.password.value, cf = f.confirm.value;
     const r = pwRules(pw);
     if (!r.every(x => x[1])) return formMsg(f, 'Your password needs at least 8 characters, with a letter and a number.');
-    if (/^AFIT-[A-Z0-9]{4}-[A-Z0-9]{4}$/.test(pw)) return formMsg(f, "Choose a password of your own, not the temporary one.");
+    if (/^NCAT-[A-Z0-9]{4}-[A-Z0-9]{4}$/.test(pw)) return formMsg(f, "Choose a password of your own, not the temporary one.");
     if (pw !== cf) return formMsg(f, "The two passwords don't match.");
     busy(f, true, 'Saving…');
     const { error } = await sb.auth.updateUser({ password: pw });

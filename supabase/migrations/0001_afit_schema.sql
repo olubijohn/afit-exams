@@ -1,13 +1,13 @@
--- AFIT Exams on the Commerce Cloud Supabase project (shopmate-offline).
+-- NCAT Exams on the Commerce Cloud Supabase project (shopmate-offline).
 -- Everything lives in public.afit_* so it never touches Shopmate's tables.
--- Accounts are Supabase Auth users; afit_profiles marks which of them belong to AFIT Exams.
+-- Accounts are Supabase Auth users; afit_profiles marks which of them belong to NCAT Exams.
 
 create table if not exists public.afit_profiles (
   id                   uuid primary key references auth.users(id) on delete cascade,
   email                text not null unique,
   full_name            text not null default '',
   must_change_password boolean not null default false,
-  -- true when AFIT Exams created the login (so it may issue temporary passwords for it);
+  -- true when NCAT Exams created the login (so it may issue temporary passwords for it);
   -- false when someone signed in with a login that already existed on the project
   managed              boolean not null default false,
   temp_issued_at       timestamptz,

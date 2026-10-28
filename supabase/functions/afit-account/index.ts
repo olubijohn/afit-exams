@@ -1,8 +1,8 @@
-// AFIT Exams account mailer.
+// NCAT Exams account mailer.
 // POST { action: 'signup', fullName, email }  -> creates the login with a temporary password and emails it
 // POST { action: 'reset', email }             -> issues a fresh temporary password and emails it
 // People sign in with the temporary password and must choose their own before using the app.
-// Secrets (shared with the project): SENDGRID_API_KEY, SENDGRID_FROM_EMAIL. Optional: AFIT_APP_URL.
+// Secrets (shared with the project): SENDGRID_API_KEY, SENDGRID_FROM_EMAIL. Optional: NCAT_APP_URL.
 import { createClient } from 'npm:@supabase/supabase-js@2.45.4';
 
 const cors = {
@@ -14,7 +14,7 @@ const json = (body: unknown, status = 200) => new Response(JSON.stringify(body),
 const fail = (error: string, status = 400) => json({ error }, status);
 
 const EMAIL_RE = /^[^\s@<>,;"]+@[^\s@<>,;"]+\.[^\s@<>,;"]+$/;
-const APP_URL = (Deno.env.get('AFIT_APP_URL') || 'https://afit-exams.vercel.app/').replace(/\/?$/, '/');
+const APP_URL = (Deno.env.get('NCAT_APP_URL') || 'https://afit-exams.vercel.app/').replace(/\/?$/, '/');
 const RESET_COOLDOWN_MS = 2 * 60 * 1000;
 const esc = (s: string) => s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
 
@@ -24,22 +24,22 @@ function tempPassword() {
   const abc = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
   const bytes = crypto.getRandomValues(new Uint8Array(8));
   const s = [...bytes].map(b => abc[b % abc.length]).join('');
-  return `AFIT-${s.slice(0, 4)}-${s.slice(4)}`;
+  return `NCAT-${s.slice(0, 4)}-${s.slice(4)}`;
 }
 
 async function sendMail(to: string, name: string, password: string, kind: 'signup' | 'reset') {
   const key = Deno.env.get('SENDGRID_API_KEY'), from = Deno.env.get('SENDGRID_FROM_EMAIL');
   if (!key || !from) throw new Error('Email sending is not set up.');
   const first = name.split(' ')[0] || 'there';
-  const subject = kind === 'signup' ? 'Welcome to AFIT Exams — your temporary password' : 'AFIT Exams — your new temporary password';
+  const subject = kind === 'signup' ? 'Welcome to NCAT Exams — your temporary password' : 'NCAT Exams — your new temporary password';
   const intro = kind === 'signup'
-    ? 'Your AFIT Exams account is ready. Use the temporary password below to sign in. You’ll be asked to choose your own password straight away.'
-    : 'We received a request to reset your AFIT Exams password. Use the temporary password below to sign in, then choose a new password. If you didn’t ask for this, sign in and change your password.';
-  const text = `Hi ${first},\n\n${intro}\n\nEmail: ${to}\nTemporary password: ${password}\n\nSign in: ${APP_URL}\n\n— AFIT Exams`;
+    ? 'Your NCAT Exams account is ready. Use the temporary password below to sign in. You’ll be asked to choose your own password straight away.'
+    : 'We received a request to reset your NCAT Exams password. Use the temporary password below to sign in, then choose a new password. If you didn’t ask for this, sign in and change your password.';
+  const text = `Hi ${first},\n\n${intro}\n\nEmail: ${to}\nTemporary password: ${password}\n\nSign in: ${APP_URL}\n\n— NCAT Exams`;
   const html = `<!doctype html><html><body style="margin:0;background:#eef2f7;font-family:Segoe UI,Arial,sans-serif;color:#0f1f33">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#eef2f7;padding:32px 12px"><tr><td align="center">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;background:#ffffff;border-radius:16px;overflow:hidden;box-shadow:0 6px 24px rgba(15,31,51,.08)">
-<tr><td style="background:#0b2545;padding:22px 28px;color:#ffffff;font-size:20px;font-weight:700;letter-spacing:.3px">✈ AFIT Exams</td></tr>
+<tr><td style="background:#0b2545;padding:22px 28px;color:#ffffff;font-size:20px;font-weight:700;letter-spacing:.3px">✈ NCAT Exams</td></tr>
 <tr><td style="padding:28px">
 <p style="margin:0 0 14px;font-size:16px">Hi ${esc(first)},</p>
 <p style="margin:0 0 20px;font-size:15px;line-height:1.6;color:#334155">${esc(intro)}</p>
@@ -49,7 +49,7 @@ async function sendMail(to: string, name: string, password: string, kind: 'signu
 <div style="font-size:12px;text-transform:uppercase;letter-spacing:.8px;color:#64748b">Temporary password</div>
 <div style="font-family:Consolas,Menlo,monospace;font-size:22px;font-weight:700;letter-spacing:1.5px;color:#0b2545;margin-top:4px">${esc(password)}</div>
 </td></tr></table>
-<p style="margin:24px 0 0"><a href="${APP_URL}" style="display:inline-block;background:#1d6fd8;color:#ffffff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:10px">Sign in to AFIT Exams</a></p>
+<p style="margin:24px 0 0"><a href="${APP_URL}" style="display:inline-block;background:#1d6fd8;color:#ffffff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:10px">Sign in to NCAT Exams</a></p>
 <p style="margin:22px 0 0;font-size:13px;color:#64748b;line-height:1.5">For your security, this password only gets you as far as choosing your own password.</p>
 </td></tr></table></td></tr></table></body></html>`;
   const r = await fetch('https://api.sendgrid.com/v3/mail/send', {
@@ -57,7 +57,7 @@ async function sendMail(to: string, name: string, password: string, kind: 'signu
     headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({
       personalizations: [{ to: [{ email: to }] }],
-      from: { email: from, name: 'AFIT Exams' },
+      from: { email: from, name: 'NCAT Exams' },
       subject,
       content: [{ type: 'text/plain', value: text }, { type: 'text/html', value: html }],
     }),
@@ -95,7 +95,7 @@ async function signup(fullName: string, email: string) {
 }
 
 async function reset(email: string) {
-  const generic = json({ ok: true, message: `If ${email} has an AFIT Exams account, a new temporary password is on its way. Check your inbox and spam folder.` });
+  const generic = json({ ok: true, message: `If ${email} has an NCAT Exams account, a new temporary password is on its way. Check your inbox and spam folder.` });
   const sb = db();
   const { data: p } = await sb.from('afit_profiles').select('id, full_name, managed, temp_issued_at').eq('email', email).maybeSingle();
   if (!p || !p.managed) return generic;
