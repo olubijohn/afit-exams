@@ -49,6 +49,14 @@ const I = {
   layers: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></svg>',
   cloud: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18a5 5 0 1 1 .9-9.9A6 6 0 0 1 19 10a4 4 0 0 1-1 8z"/></svg>',
   mail: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>',
+  chat: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12z"/></svg>',
+  users: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8M18 14.3a6.5 6.5 0 0 1 3.5 5.7"/></svg>',
+  image: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-9 9"/></svg>',
+  send: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12 20 4l-4 16-4-7z"/><path d="m12 13 8-9"/></svg>',
+  code: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg>',
+  bell: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9a6 6 0 0 1 12 0c0 6 2.5 7.5 2.5 7.5h-17S6 15 6 9z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg>',
+  bellOff: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9a6 6 0 0 1 10.4-4.1M18 9.5c.3 5.3 2.5 7 2.5 7H8"/><path d="M10 20a2 2 0 0 0 4 0M3 3l18 18"/></svg>',
+  trash: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></svg>',
   chev: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>',
 };
 const credit = cls => `<p class="credit ${cls || ''}">Built by Olubi_Dev · <a href="tel:+2348131351217">08131351217</a></p>`;
@@ -122,7 +130,7 @@ async function loadAttempts() {
 }
 let loading = null;
 async function setUser(user) {
-  if (!user) { S.user = S.profile = S.quiz = null; S.stats = new Map(); S.attempts = []; stopTimer(); return; }
+  if (!user) { teardownChat(); S.user = S.profile = S.quiz = null; S.stats = new Map(); S.attempts = []; stopTimer(); return; }
   if (S.user?.id === user.id && S.profile) return;
   if (loading?.id === user.id) return loading.p;
   const p = (async () => {
@@ -131,6 +139,7 @@ async function setUser(user) {
     S.quiz = store.get(qKey(), null);
     await Promise.all([loadStats(), loadAttempts()]);
     flushPending();
+    initChat().catch(e => console.warn('chat', e));
   })();
   loading = { id: user.id, p };
   try { await p; } catch (e) { S.user = null; S.profile = null; throw e; } finally { loading = null; }
@@ -291,15 +300,17 @@ function route() {
   if (!S.user) return AUTH.includes(name) ? viewAuth(name) : go('login', true);
   if (S.profile?.must_change_password && name !== 'password') return go('password', true);
   if (AUTH.includes(name)) return go('', true);
-  const views = { '': viewDashboard, practice: viewPractice, quiz: viewQuiz, results: viewResults, history: viewHistory, attempt: viewAttempt, bank: viewBank, password: viewPassword };
+  if (name !== 'chat') { CH.open = null; document.body.classList.remove('in-room'); }
+  const views = { chat: viewChat, '': viewDashboard, practice: viewPractice, quiz: viewQuiz, results: viewResults, history: viewHistory, attempt: viewAttempt, bank: viewBank, password: viewPassword };
   (views[name] || viewDashboard)(arg && decodeURIComponent(arg));
   if (name !== 'quiz') window.scrollTo(0, 0);
 }
 
 /* ---------- shell ---------- */
-function shell(active, body) {
-  const links = [['', 'Home', I.home], ['practice', 'Practice', I.play], ['bank', 'Questions', I.book], ['history', 'History', I.hist]];
-  const nav = cls => links.map(([p, t, ic]) => `<a href="#/${p}" class="${active === p ? 'active' : ''}">${ic}<span>${t}</span></a>`).join('');
+function shell(active, body, opts = {}) {
+  const links = [['', 'Home', I.home], ['practice', 'Practice', I.play], ['bank', 'Questions', I.book], ['chat', 'Chat', I.chat], ['history', 'History', I.hist]];
+  const n = unreadTotal();
+  const nav = () => links.map(([p, t, ic]) => `<a href="#/${p}" class="${active === p ? 'active' : ''}">${ic}<span>${t}</span>${p === 'chat' ? `<span class="badge nav-badge" data-chat-badge ${n ? '' : 'hidden'}>${n > 99 ? '99+' : n}</span>` : ''}</a>`).join('');
   const theme = store.get('afit:theme', 'auto');
   return `<header class="topbar"><div class="topbar-in">${logo()}<nav class="nav">${nav()}</nav>
     <div class="menu-wrap"><button class="avatar-btn" data-act="menu" aria-haspopup="true" aria-label="Account"><span class="avatar">${esc(initials(S.profile.full_name))}</span><span class="nm">${esc(S.profile.full_name)}</span></button>
@@ -307,7 +318,7 @@ function shell(active, body) {
       <button data-act="goPassword">${I.key} Change password</button>
       <button data-act="theme">${I.moon} Theme: ${theme === 'auto' ? 'Match device' : theme === 'dark' ? 'Dark' : 'Light'}</button>
       <button data-act="signout">${I.out} Sign out</button></div></div></div></header>
-  <main class="main">${body}${credit()}</main>
+  <main class="main ${opts.chat ? 'chat-main' : ''}">${body}${opts.chat ? '' : credit()}</main>
   <nav class="tabbar">${nav()}</nav>`;
 }
 function closeMenu() { $('#menu')?.classList.remove('open'); }
@@ -613,7 +624,7 @@ function renderQuiz() {
     <span class="pill ${left !== null && left <= 60 ? 'warn' : ''}" id="qtimer">${I.clock}<span>${fmtTime(left ?? Q.elapsed)}</span></span>
   </div><div class="progress"><i style="width:${(sc.answered / Q.items.length) * 100}%"></i></div></header>
   <main class="quiz-main">
-    <div class="q-meta"><b style="color:var(--ink)">Question ${Q.idx + 1} of ${Q.items.length}</b>${subjTag(q.s)}<span>No. ${q.n} in the paper</span>${flagged ? `<span class="tag" style="color:var(--warn)">Flagged</span>` : ''}</div>
+    <div class="q-meta"><b style="color:var(--ink)">Question ${Q.idx + 1} of ${Q.items.length}</b>${subjTag(q.s)}<span>No. ${q.n} in the paper</span><button class="link-btn" data-act="askChat" data-q="${q.id}">${I.chat}Ask in chat</button>${flagged ? `<span class="tag" style="color:var(--warn)">Flagged</span>` : ''}</div>
     <h2 class="q-text">${esc(q.q)}</h2>
     <div class="opts">${opts}</div>
     <div aria-live="polite">${fb}${note}</div>
@@ -714,7 +725,7 @@ function renderResults(Q, { live }) {
         <div class="seg">${[['wrong', 'Wrong'], ['right', 'Correct'], ['all', 'All']].map(([v, t]) => `<button data-act="rvFilter" data-v="${v}" aria-pressed="${f === v}">${t} (${counts[v]})</button>`).join('')}</div></div>
       ${reviewItems.length ? reviewItems.map(({ it, i, q, c }) => {
         const ok = c !== null && q.a.includes(c);
-        return `<div class="rv"><div class="bq-head"><b style="color:var(--ink)">${i + 1}.</b>${subjTag(q.s)}<span class="rv-status ${c === null ? 'skip' : ok ? 'ok' : 'bad'}">${c === null ? 'Not answered' : ok ? 'Correct' : 'Wrong'}</span></div>
+        return `<div class="rv"><div class="bq-head"><b style="color:var(--ink)">${i + 1}.</b>${subjTag(q.s)}<span class="rv-status ${c === null ? 'skip' : ok ? 'ok' : 'bad'}">${c === null ? 'Not answered' : ok ? 'Correct' : 'Wrong'}</span><button class="link-btn" data-act="askChat" data-q="${q.id}">${I.chat}Ask in chat</button></div>
           <div class="rv-q">${esc(q.q)}</div>
           <div class="rv-opts">${it.o.map((orig, pos) => {
             const isAns = q.a.includes(orig), isMine = orig === c;
@@ -753,7 +764,7 @@ function bankList() {
   if (!m.length) return `<div class="card empty">${I.search}No questions match “${esc(v.q)}”.</div>`;
   return m.slice(0, v.limit).map(q => {
     const st = S.stats.get(q.id);
-    return `<div class="card bq"><div class="bq-head">${subjTag(q.s)}<span>No. ${q.n}</span>${st ? `<span class="rv-status ${st.last_correct ? 'ok' : 'bad'}">${st.last_correct ? 'You got this right' : 'You got this wrong'}</span>` : ''}</div>
+    return `<div class="card bq"><div class="bq-head">${subjTag(q.s)}<span>No. ${q.n}</span><button class="link-btn" data-act="askChat" data-q="${q.id}">${I.chat}Ask in chat</button>${st ? `<span class="rv-status ${st.last_correct ? 'ok' : 'bad'}">${st.last_correct ? 'You got this right' : 'You got this wrong'}</span>` : ''}</div>
       <div class="rv-q">${hl(q.q)}</div>
       <div class="rv-opts">${q.o.map((o, i) => `<div class="rv-opt ${v.show && q.a.includes(i) ? 'ok' : ''}"><span class="ltr">${L(i)}</span><span class="tx">${hl(o)}</span>${v.show && q.a.includes(i) ? '<em>Answer</em>' : ''}</div>`).join('')}</div>
       ${v.show && q.x ? `<div class="note"><b>Note:</b> ${esc(q.x)}</div>` : ''}</div>`;
@@ -778,8 +789,327 @@ function refreshBank() {
   $('#banklist').innerHTML = bankList();
 }
 
+/* ---------- chat ---------- */
+const CH = { people: new Map(), online: [], rooms: new Map(), msgs: new Map(), open: null, draft: '', image: null, sub: null, presence: null, audio: null, sending: false };
+const readKey = () => `afit:read:${S.user?.id}`;
+const soundOn = () => store.get('afit:chatSound', true);
+const ROOM_RE = /^(general|dm:[0-9a-f-]{36}:[0-9a-f-]{36})$/;
+const IMG_RE = /^data:image\/(png|jpeg|webp|gif);base64,[A-Za-z0-9+/=]+$/;
+const dmRoom = other => 'dm:' + [S.user.id, other].sort().join(':');
+const roomOther = room => (room.startsWith('dm:') ? room.slice(3).split(':').find(x => x !== S.user.id) : null);
+const roomName = room => (room === 'general' ? 'Everyone' : CH.people.get(roomOther(room)) || 'Someone');
+const isOnline = id => CH.online.some(p => p.id === id);
+const unreadTotal = () => [...CH.rooms.values()].reduce((t, r) => t + (r.unread || 0), 0);
+const fmtBytes = b => (b < 1024 * 1024 ? `${Math.max(1, Math.round(b / 1024))} KB` : `${(b / 1048576).toFixed(1)} MB`);
+
+async function initChat() {
+  teardownChat();
+  const [ppl, recent] = await Promise.all([
+    sb.rpc('afit_people'),
+    sb.from('afit_messages').select('id, room, sender_id, sender_name, body, created_at').order('created_at', { ascending: false }).limit(300),
+  ]);
+  CH.people = new Map((ppl.data || []).map(p => [p.id, p.full_name]));
+  const read = store.get(readKey(), {});
+  for (const m of (recent.data || []).reverse()) noteRoom(m, read);
+  CH.sub = sb.channel('ncat-messages')
+    .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'afit_messages' }, p => onIncoming(p.new))
+    .on('postgres_changes', { event: 'DELETE', schema: 'public', table: 'afit_messages' }, p => onDeleted(p.old?.id))
+    .subscribe();
+  const pres = CH.presence = sb.channel('ncat-online', { config: { presence: { key: S.user.id } } });
+  pres.on('presence', { event: 'sync' }, () => {
+    const seen = new Map();
+    for (const [id, metas] of Object.entries(pres.presenceState())) if (id !== S.user?.id && metas[0]) seen.set(id, CH.people.get(id) || String(metas[0].name || 'Someone').slice(0, 80));
+    CH.online = [...seen].map(([id, name]) => ({ id, name })).sort((a, b) => a.name.localeCompare(b.name));
+    refreshChatSide();
+  }).subscribe(st => { if (st === 'SUBSCRIBED' && S.profile) pres.track({ name: S.profile.full_name }); });
+  updateChatBadge();
+}
+function teardownChat() {
+  if (CH.sub) sb.removeChannel(CH.sub);
+  if (CH.presence) sb.removeChannel(CH.presence);
+  Object.assign(CH, { people: new Map(), online: [], rooms: new Map(), msgs: new Map(), open: null, image: null, sub: null, presence: null });
+  updateChatBadge();
+}
+function noteRoom(m, read = store.get(readKey(), {})) {
+  const r = CH.rooms.get(m.room) || { unread: 0 };
+  r.last = m;
+  if (m.sender_id !== S.user.id && (!read[m.room] || m.created_at > read[m.room])) r.unread++;
+  CH.rooms.set(m.room, r);
+}
+function markRead(room, at) {
+  const read = store.get(readKey(), {});
+  read[room] = at || new Date().toISOString();
+  store.set(readKey(), read);
+  const r = CH.rooms.get(room);
+  if (r) r.unread = 0;
+}
+const viewingRoom = room => CH.open === room && location.hash.startsWith('#/chat') && !document.hidden;
+async function onIncoming(m) {
+  if (!S.user || !m?.room) return;
+  if (!CH.people.has(m.sender_id)) CH.people.set(m.sender_id, m.sender_name);
+  if (viewingRoom(m.room)) markRead(m.room, m.created_at);
+  const known = CH.msgs.get(m.room)?.some(x => x.id === m.id);
+  if (!known) noteRoom(m);
+  if (CH.msgs.has(m.room) && !known) {
+    // live payloads can leave out large columns, so read the whole message back
+    const { data } = await sb.from('afit_messages').select('*').eq('id', m.id).maybeSingle();
+    const list = CH.msgs.get(m.room);
+    if (data && !list.some(x => x.id === data.id)) {
+      list.push(data);
+      if (list.length > 300) list.shift();
+      if (CH.open === m.room) appendMsg(data);
+    }
+  }
+  if (m.sender_id !== S.user.id && !known) { ping(); navigator.vibrate?.(60); }
+  refreshChatSide();
+  updateChatBadge();
+}
+function onDeleted(id) {
+  if (!id) return;
+  for (const [room, list] of CH.msgs) {
+    const i = list.findIndex(x => x.id === id);
+    if (i >= 0) { list.splice(i, 1); if (CH.open === room) $(`[data-mid="${id}"]`)?.remove(); }
+  }
+}
+function ping() {
+  if (!soundOn()) return;
+  try {
+    const ctx = CH.audio ||= new (window.AudioContext || window.webkitAudioContext)();
+    if (ctx.state === 'suspended') ctx.resume();
+    const t = ctx.currentTime;
+    [[880, 0], [1320, 0.13]].forEach(([f, d]) => {
+      const o = ctx.createOscillator(), g = ctx.createGain();
+      o.type = 'sine'; o.frequency.value = f;
+      g.gain.setValueAtTime(0.0001, t + d);
+      g.gain.exponentialRampToValueAtTime(0.3, t + d + 0.02);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + d + 0.32);
+      o.connect(g).connect(ctx.destination);
+      o.start(t + d); o.stop(t + d + 0.34);
+    });
+  } catch { /* no audio available */ }
+}
+function updateChatBadge() {
+  const n = S.user ? unreadTotal() : 0;
+  $$('[data-chat-badge]').forEach(b => { b.textContent = n > 99 ? '99+' : n; b.hidden = !n; });
+  document.title = (n ? `(${n}) ` : '') + 'NCAT Exams';
+}
+
+/* chat views */
+function viewChat(room) {
+  const mobile = matchMedia('(max-width: 760px)').matches;
+  if (!room && !mobile) room = 'general';
+  if (room && (!ROOM_RE.test(room) || (room !== 'general' && !room.includes(S.user.id)))) return go('chat', true);
+  CH.open = room || null;
+  document.body.classList.toggle('in-room', !!room);
+  mount(shell('chat', `<div class="chat ${room ? 'has-room' : ''}">
+    <aside class="chat-side" id="chatside">${sideHtml()}</aside>
+    <section class="chat-pane">${room ? paneHtml(room) : `<div class="empty pane-empty">${I.chat}Pick someone to chat with, or open Everyone.</div>`}</section>
+  </div>`, { chat: true }));
+  if (!room) return;
+  markRead(room); updateChatBadge(); refreshChatSide();
+  const box = $('#chatbox');
+  if (CH.draft) { box.value = CH.draft; CH.draft = ''; autosize(box); }
+  if (CH.image) showChatImage(CH.image);
+  if (!mobile) box.focus();
+  loadRoom(room);
+}
+function sideHtml() {
+  if (!S.user) return '';
+  const g = CH.rooms.get('general');
+  const preview = r => (r?.last ? `${r.last.sender_id === S.user.id ? 'You' : (r.last.sender_name || 'Someone').split(' ')[0]}: ${r.last.body ? r.last.body.replace(/\*\*|~~|`/g, '').replace(/\s+/g, ' ').slice(0, 70) : 'Picture'}` : '');
+  const item = (room, title, sub, unread, on) => `<a class="room ${CH.open === room ? 'active' : ''}" href="#/chat/${room}">
+      <span class="avatar ${room === 'general' ? 'all' : ''}">${room === 'general' ? I.users : esc(initials(title))}${on ? '<i class="on"></i>' : ''}</span>
+      <span class="grow"><b>${esc(title)}</b><span>${esc(sub)}</span></span>${unread ? `<span class="badge">${unread}</span>` : ''}</a>`;
+  const dms = [...CH.rooms.entries()].filter(([r]) => r !== 'general' && !isOnline(roomOther(r))).sort((a, b) => b[1].last.created_at.localeCompare(a[1].last.created_at));
+  return `<div class="side-top"><h2>Chat</h2><span class="muted">Ask questions, solve them together</span></div>
+    ${item('general', 'Everyone', preview(g) || 'Everyone who is signed in', g?.unread, false)}
+    <div class="side-h">Online now <span class="cnt">${CH.online.length}</span></div>
+    ${CH.online.length ? CH.online.map(p => item(dmRoom(p.id), p.name, preview(CH.rooms.get(dmRoom(p.id))) || 'Online · tap to chat', CH.rooms.get(dmRoom(p.id))?.unread, true)).join('') : '<p class="side-empty">Nobody else is online right now.</p>'}
+    ${dms.length ? `<div class="side-h">Your chats</div>${dms.map(([r, x]) => item(r, roomName(r), preview(x), x.unread, isOnline(roomOther(r)))).join('')}` : ''}`;
+}
+const roomStatus = room => (room === 'general' ? `${CH.online.length + 1} online now` : isOnline(roomOther(room)) ? 'Online' : 'Offline');
+function refreshChatSide() {
+  const el = $('#chatside');
+  if (el) el.innerHTML = sideHtml();
+  const st = $('#chatstatus');
+  if (st && CH.open) { st.textContent = roomStatus(CH.open); st.classList.toggle('on', CH.open === 'general' || isOnline(roomOther(CH.open))); }
+}
+function paneHtml(room) {
+  const on = room === 'general' || isOnline(roomOther(room));
+  return `<header class="pane-h">
+      <a class="btn btn-ghost icon-btn back" href="#/chat" aria-label="Back to chats">${I.left}</a>
+      <span class="avatar ${room === 'general' ? 'all' : ''}">${room === 'general' ? I.users : esc(initials(roomName(room)))}</span>
+      <div class="grow"><b>${esc(roomName(room))}</b><span id="chatstatus" class="${on ? 'on' : ''}">${roomStatus(room)}</span></div>
+      <button class="btn btn-ghost icon-btn" data-act="chatSound" aria-label="Message sound" title="Message sound">${soundOn() ? I.bell : I.bellOff}</button>
+    </header>
+    <div class="msgs" id="msgs"></div>
+    <div class="composer">
+      <div id="chatimg"></div>
+      <div class="tools">
+        <button type="button" data-act="chatFmt" data-w="**" title="Bold"><b>B</b></button>
+        <button type="button" data-act="chatFmt" data-w="_" title="Italic"><i>I</i></button>
+        <button type="button" data-act="chatFmt" data-w="~~" title="Strikethrough"><s>S</s></button>
+        <button type="button" data-act="chatFmt" data-w="\`" title="Code">${I.code}</button>
+        <label class="tool" title="Add a picture">${I.image}<input type="file" id="chatfile" accept="image/*" hidden></label>
+        <span class="tool-hint">Enter sends · Shift+Enter for a new line · paste pictures straight in</span>
+      </div>
+      <div class="send-row">
+        <textarea id="chatbox" rows="1" maxlength="4000" placeholder="Message ${esc(room === 'general' ? 'everyone' : roomName(room))}"></textarea>
+        <button class="btn btn-primary icon-btn send" data-act="chatSend" aria-label="Send">${I.send}</button>
+      </div>
+    </div>`;
+}
+async function loadRoom(room) {
+  const el = $('#msgs');
+  if (!CH.msgs.has(room)) {
+    el.innerHTML = '<div class="empty"><div class="spinner" style="margin:0 auto"></div></div>';
+    const { data, error } = await sb.from('afit_messages').select('*').eq('room', room).order('created_at', { ascending: false }).limit(100);
+    if (CH.open !== room) return;
+    if (error) { el.innerHTML = `<div class="empty">Couldn't load messages. ${esc(error.message)}</div>`; return; }
+    CH.msgs.set(room, data.reverse());
+  }
+  renderMsgs(room);
+}
+function renderMsgs(room) {
+  const el = $('#msgs'); if (!el) return;
+  const list = CH.msgs.get(room) || [];
+  el.innerHTML = list.length ? list.map((m, i) => msgHtml(m, list[i - 1])).join('')
+    : `<div class="empty">${I.chat}${room === 'general' ? "No messages yet. Say hello, or share a question you're stuck on." : `Say hello to ${esc(roomName(room))}.`}</div>`;
+  el.scrollTop = el.scrollHeight;
+}
+function appendMsg(m) {
+  const el = $('#msgs'); if (!el) return;
+  const list = CH.msgs.get(CH.open) || [];
+  const near = el.scrollHeight - el.scrollTop - el.clientHeight < 160;
+  $('.empty', el)?.remove();
+  el.insertAdjacentHTML('beforeend', msgHtml(m, list[list.indexOf(m) - 1]));
+  if (near || m.sender_id === S.user.id) el.scrollTop = el.scrollHeight;
+}
+function dayLabel(d) {
+  const now = new Date(), y = new Date(now); y.setDate(now.getDate() - 1);
+  if (d.toDateString() === now.toDateString()) return 'Today';
+  if (d.toDateString() === y.toDateString()) return 'Yesterday';
+  return d.toLocaleDateString(undefined, { weekday: 'short', day: 'numeric', month: 'short' });
+}
+function fmtMsg(s) {
+  let h = esc(s);
+  const keep = [];
+  const hold = html => `\u0000${keep.push(html) - 1}\u0000`;
+  h = h.replace(/```\n?([\s\S]+?)```/g, (_, c) => hold(`<pre>${c}</pre>`));
+  h = h.replace(/`([^`\n]+)`/g, (_, c) => hold(`<code>${c}</code>`));
+  h = h.replace(/(https?:\/\/[^\s<]+[^\s<.,!?)])/g, u => hold(`<a href="${u}" target="_blank" rel="noopener noreferrer">${u}</a>`));
+  h = h.replace(/\*\*([^*\n]+)\*\*/g, '<b>$1</b>')
+    .replace(/(^|[\s(>])_([^_\n]+)_(?=$|[\s).,!?:;<])/g, '$1<i>$2</i>')
+    .replace(/~~([^~\n]+)~~/g, '<s>$1</s>')
+    .replace(/\n/g, '<br>');
+  return h.replace(/\u0000(\d+)\u0000/g, (_, i) => keep[i]);
+}
+function msgHtml(m, prev) {
+  const mine = m.sender_id === S.user.id, d = new Date(m.created_at);
+  const newDay = !prev || new Date(prev.created_at).toDateString() !== d.toDateString();
+  const grouped = !newDay && prev.sender_id === m.sender_id && d - new Date(prev.created_at) < 5 * 60e3;
+  const name = m.sender_name || CH.people.get(m.sender_id) || 'Someone';
+  const img = m.image && IMG_RE.test(m.image) ? `<img class="msg-img" src="${m.image}" alt="Picture from ${esc(name)}" loading="lazy" data-act="viewImg">` : '';
+  return `${newDay ? `<div class="day"><span>${dayLabel(d)}</span></div>` : ''}
+  <div class="msg ${mine ? 'me' : ''} ${grouped ? 'grouped' : ''}" data-mid="${m.id}">
+    <span class="avatar sm">${grouped ? '' : esc(initials(name))}</span>
+    <div class="bubble">
+      ${grouped ? '' : `<div class="meta"><b>${mine ? 'You' : esc(name)}</b><time>${d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</time></div>`}
+      ${m.body ? `<div class="txt">${fmtMsg(m.body)}</div>` : ''}${img}
+    </div>
+    ${mine ? `<button class="msg-del" data-act="chatDelete" data-id="${m.id}" aria-label="Delete message" title="Delete">${I.trash}</button>` : ''}
+  </div>`;
+}
+function autosize(t) { t.style.height = 'auto'; t.style.height = Math.min(t.scrollHeight, 160) + 'px'; }
+
+/* pictures: shrink in the browser and keep as a base64 data URL (aim ~50-80 KB) */
+async function shrinkImage(file) {
+  if (file.size > 40e6) throw new Error('That picture is over 40 MB.');
+  const url = URL.createObjectURL(file);
+  try {
+    const src = await new Promise((res, rej) => { const im = new Image(); im.onload = () => res(im); im.onerror = () => rej(new Error("That picture couldn't be opened.")); im.src = url; });
+    const cv = document.createElement('canvas'), cx = cv.getContext('2d');
+    let max = 1280, q = 0.6, out = '';
+    for (let i = 0; i < 10; i++) {
+      const s = Math.min(1, max / Math.max(src.naturalWidth, src.naturalHeight));
+      cv.width = Math.max(1, Math.round(src.naturalWidth * s));
+      cv.height = Math.max(1, Math.round(src.naturalHeight * s));
+      cx.fillStyle = '#fff'; cx.fillRect(0, 0, cv.width, cv.height);
+      cx.drawImage(src, 0, 0, cv.width, cv.height);
+      out = cv.toDataURL('image/webp', q);
+      if (!out.startsWith('data:image/webp')) out = cv.toDataURL('image/jpeg', q);
+      if (out.length <= 100000) break;
+      if (q > 0.42) q -= 0.08; else max = Math.round(max * 0.8);
+    }
+    if (out.length > 190000) throw new Error("That picture couldn't be made small enough.");
+    return out;
+  } finally { URL.revokeObjectURL(url); }
+}
+function showChatImage(data, before) {
+  const box = $('#chatimg'); if (!box) return;
+  const kb = fmtBytes(Math.round(data.length * 0.75));
+  box.innerHTML = `<div class="img-chip"><img src="${data}" alt=""><span>${before ? `${fmtBytes(before)} → ` : ''}${kb}</span><button type="button" data-act="chatRemoveImage" aria-label="Remove picture">${I.x}</button></div>`;
+}
+async function addChatImage(file) {
+  if (!file || !/^image\//.test(file.type)) return toast('Only pictures can be sent.', 'err');
+  const box = $('#chatimg');
+  if (box) box.innerHTML = '<div class="img-chip"><div class="spinner"></div><span>Shrinking picture…</span></div>';
+  try { CH.image = await shrinkImage(file); showChatImage(CH.image, file.size); $('#chatbox')?.focus(); }
+  catch (e) { CH.image = null; if (box) box.innerHTML = ''; toast(e.message, 'err'); }
+}
+async function sendChat() {
+  const box = $('#chatbox');
+  if (!box || CH.sending || !CH.open) return;
+  const body = box.value.trim(), image = CH.image, room = CH.open;
+  if (!body && !image) return;
+  CH.sending = true;
+  const btn = $('[data-act=chatSend]'); if (btn) btn.disabled = true;
+  const { data, error } = await sb.from('afit_messages').insert({ room, body, image }).select().single();
+  CH.sending = false; if (btn) btn.disabled = false;
+  if (error) return toast(/too fast/i.test(error.message) ? 'Slow down a little, then try again.' : `Couldn't send: ${error.message}`, 'err');
+  box.value = ''; autosize(box); CH.image = null; $('#chatimg').innerHTML = '';
+  if (!matchMedia('(pointer: coarse)').matches) box.focus();
+  if (!CH.msgs.has(room)) CH.msgs.set(room, []);
+  const list = CH.msgs.get(room);
+  if (!list.some(x => x.id === data.id)) { list.push(data); noteRoom(data); if (CH.open === room) appendMsg(data); }
+  markRead(room, data.created_at);
+  refreshChatSide();
+}
+function askInChat(id) {
+  const q = S.byId.get(id); if (!q) return;
+  CH.draft = `**Who knows this one?** (${S.subj[q.s].name}, No. ${q.n})\n${q.q}\n${q.o.map((o, i) => `${L(i)}. ${o}`).join('\n')}`;
+  go('chat/general');
+}
+
 /* ---------- actions ---------- */
 const actions = {
+  askChat(el) { askInChat(el.dataset.q); },
+  chatSend() { sendChat(); },
+  chatRemoveImage() { CH.image = null; $('#chatimg').innerHTML = ''; },
+  chatFmt(el) {
+    const t = $('#chatbox'), w = el.dataset.w, a = t.selectionStart, b = t.selectionEnd, sel = t.value.slice(a, b) || (w === '`' ? 'code' : 'text');
+    t.setRangeText(w + sel + w, a, b, 'select');
+    t.setSelectionRange(a + w.length, a + w.length + sel.length);
+    t.focus(); autosize(t);
+  },
+  chatSound(el) {
+    store.set('afit:chatSound', !soundOn());
+    el.innerHTML = soundOn() ? I.bell : I.bellOff;
+    if (soundOn()) ping();
+    toast(soundOn() ? 'Message sound on.' : 'Message sound off.');
+  },
+  async chatDelete(el) {
+    if (!await dialog({ title: 'Delete this message?', body: 'It will be removed for everyone.', ok: 'Delete', danger: true })) return;
+    const id = +el.dataset.id;
+    const { error } = await sb.from('afit_messages').delete().eq('id', id);
+    if (error) return toast(error.message, 'err');
+    onDeleted(id);
+  },
+  viewImg(el) {
+    const d = $('#modal');
+    d.innerHTML = `<form method="dialog" class="img-view"><img src="${el.src}" alt=""><button class="btn">Close</button></form>`;
+    d.onclose = null; d.showModal();
+  },
   togglePw(el) { const i = el.previousElementSibling; const show = i.type === 'password'; i.type = show ? 'text' : 'password'; el.textContent = show ? 'Hide' : 'Show'; },
   menu(el, e) { e.stopPropagation(); $('#menu').classList.toggle('open'); },
   goPassword() { go('password'); },
@@ -880,12 +1210,14 @@ document.addEventListener('click', e => {
 document.addEventListener('change', e => {
   const el = e.target;
   if (el.matches('input[data-act="shuffleOpts"]')) return; // handled by click
+  if (el.id === 'chatfile') { addChatImage(el.files[0]); el.value = ''; return; }
   if (el.id === 'banks') { S.bankView.s = el.value; S.bankView.limit = 25; refreshBank(); }
   if (el.id === 'bankshow') { S.bankView.show = el.checked; refreshBank(); }
 });
 let searchT;
 document.addEventListener('input', e => {
   const el = e.target;
+  if (el.id === 'chatbox') autosize(el);
   if (el.id === 'bankq') { clearTimeout(searchT); searchT = setTimeout(() => { S.bankView.q = el.value.trim(); S.bankView.limit = 25; refreshBank(); }, 160); }
   if (el.dataset.live === 'pw') {
     const r = pwRules(el.value); $$('#rules li').forEach((li, i) => li.classList.toggle('met', r[i][1]));
@@ -900,7 +1232,23 @@ document.addEventListener('submit', e => {
   const fn = forms[f.dataset.form];
   if (fn) fn(f).catch(err => { busy(f, false); formMsg(f, err.message || 'Something went wrong.'); });
 });
+document.addEventListener('paste', e => {
+  if (e.target.id !== 'chatbox') return;
+  const f = [...(e.clipboardData?.items || [])].find(i => i.type.startsWith('image/'))?.getAsFile();
+  if (f) { e.preventDefault(); addChatImage(f); }
+});
+document.addEventListener('dragover', e => { if (e.target.closest?.('.chat-pane')) e.preventDefault(); });
+document.addEventListener('drop', e => {
+  if (!e.target.closest?.('.chat-pane') || !CH.open) return;
+  e.preventDefault();
+  const f = [...(e.dataTransfer?.files || [])].find(x => x.type.startsWith('image/'));
+  if (f) addChatImage(f);
+});
+document.addEventListener('pointerdown', () => {
+  try { if (!CH.audio) CH.audio = new (window.AudioContext || window.webkitAudioContext)(); else if (CH.audio.state === 'suspended') CH.audio.resume(); } catch { /* no audio */ }
+}, { passive: true });
 document.addEventListener('keydown', e => {
+  if (e.target.id === 'chatbox' && e.key === 'Enter' && !e.shiftKey && !e.isComposing && !matchMedia('(pointer: coarse)').matches) { e.preventDefault(); sendChat(); return; }
   if (!location.hash.startsWith('#/quiz') || !S.quiz || S.quiz.finished || $('#modal').open) return;
   if (e.target.matches('input, textarea, select') || e.metaKey || e.ctrlKey || e.altKey) return;
   const k = e.key.toLowerCase(), it = S.quiz.items[S.quiz.idx];
@@ -936,7 +1284,10 @@ async function boot() {
   });
   window.addEventListener('hashchange', route);
   window.addEventListener('online', flushPending);
-  document.addEventListener('visibilitychange', () => { if (document.hidden && S.quiz) saveQuiz(); });
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden && S.quiz) saveQuiz();
+    if (!document.hidden && CH.open && location.hash.startsWith('#/chat')) { markRead(CH.open); updateChatBadge(); refreshChatSide(); }
+  });
   route();
 }
 boot();
