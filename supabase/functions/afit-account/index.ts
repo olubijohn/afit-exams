@@ -14,7 +14,7 @@ const json = (body: unknown, status = 200) => new Response(JSON.stringify(body),
 const fail = (error: string, status = 400) => json({ error }, status);
 
 const EMAIL_RE = /^[^\s@<>,;"]+@[^\s@<>,;"]+\.[^\s@<>,;"]+$/;
-const APP_URL = (Deno.env.get('NCAT_APP_URL') || 'https://afit-exams.vercel.app/').replace(/\/?$/, '/');
+const APP_URL = (Deno.env.get('NCAT_APP_URL') || 'https://ncat-exams.vercel.app/').replace(/\/?$/, '/');
 const RESET_COOLDOWN_MS = 2 * 60 * 1000;
 const esc = (s: string) => s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
 
