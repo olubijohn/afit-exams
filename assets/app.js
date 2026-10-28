@@ -51,6 +51,7 @@ const I = {
   mail: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>',
   chev: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>',
 };
+const credit = cls => `<p class="credit ${cls || ''}">Built by Olubi_Dev · <a href="tel:+2348131351217">08131351217</a></p>`;
 const logo = (sub = '') => `<a class="logo" href="#/"><span class="logo-mark">${I.plane}</span><span>AFIT Exams${sub ? `<small>${esc(sub)}</small>` : ''}</span></a>`;
 
 /* ---------- state ---------- */
@@ -252,7 +253,7 @@ function shell(active, body) {
       <button data-act="goPassword">${I.key} Change password</button>
       <button data-act="theme">${I.moon} Theme: ${theme === 'auto' ? 'Match device' : theme === 'dark' ? 'Dark' : 'Light'}</button>
       <button data-act="signout">${I.out} Sign out</button></div></div></div></header>
-  <main class="main">${body}</main>
+  <main class="main">${body}${credit()}</main>
   <nav class="tabbar">${nav()}</nav>`;
 }
 function closeMenu() { $('#menu')?.classList.remove('open'); }
@@ -272,9 +273,9 @@ function authLayout(inner) {
           <li><span class="tick">${I.check}</span><span>Your scores are saved, so you can go back over the ones you missed.</span></li>
         </ul>
       </div>
-      <div class="auth-foot">AFIT Exams</div>
+      <div class="auth-foot">${credit()}</div>
     </aside>
-    <section class="auth-main"><div class="auth-card"><div class="auth-mobile-logo">${logo()}</div>${inner}</div></section>
+    <section class="auth-main"><div class="auth-card"><div class="auth-mobile-logo">${logo()}</div>${inner}${credit('auth-credit')}</div></section>
   </div>`);
   const first = $('.auth-card input');
   if (first && matchMedia('(min-width: 761px)').matches) first.focus();

@@ -119,6 +119,10 @@ svg { display: block; }
 .feat .tick svg { width: 15px; height: 15px; stroke: #5fb3ff; }
 .flight { position: absolute; right: -40px; top: 90px; width: 420px; opacity: .55; pointer-events: none; }
 .auth-foot { color: #7f97b8; font-size: 13px; }
+.credit { text-align: center; font-size: 12.5px; color: var(--muted); margin: 40px 0 0; }
+.credit a { color: inherit; font-weight: 600; }
+.auth-foot .credit { text-align: left; margin: 0; color: #7f97b8; }
+.auth-credit { display: none; }
 .auth-main { display: grid; place-items: center; padding: 40px 24px; }
 .auth-card { width: 100%; max-width: 420px; }
 .auth-head { margin-bottom: 26px; }
@@ -408,6 +412,7 @@ dialog#modal::backdrop { background: rgba(7, 18, 36, .55); backdrop-filter: blur
   .auth-brand { display: none; }
   .auth-mobile-logo { display: block; }
   .auth-main { place-items: start center; padding: 48px 20px; }
+  .auth-credit { display: block; }
 }
 @media (max-width: 760px) {
   body { font-size: 15px; }
