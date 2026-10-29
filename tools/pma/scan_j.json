@@ -1,0 +1,11 @@
+[
+[227, "On large aircraft, braked wheel assemblies are normally inflated with", ["nitrogen", "an argon and CO2 mixture", "nitrogen and not more than 5% of air"], 2],
+[228, "An undercarriage that has the axle mounted directly onto the shock absorber is of which type?", ["Articulated", "Hydro Mechanical", "Direct Acting"], 2],
+[229, "When checking the alignment of a main landing gear, check", ["symmetry, tracking, camber", "symmetry, tracking, twist", "symmetry, tracking, splay"], 0],
+[230, "Cockpit dome lighting is provided by the", ["battery bus and ground services bus", "battery bus", "ground services bus"], 0],
+[231, "Pressure breathing systems must be used at altitudes", ["above 40,000 ft", "below 40,000 ft", "above 30,000 ft"], 0],
+[232, "Two compressors driven by separate engines use", ["Interconnected to share loads", "NRVs to prevent compressors driving each other", "PRVs"], 1],
+[234, "In a Central Air Data Computer (ADC), the rate of climb of an aircraft is produced in the", ["Indicated Airspeed Module", "Mach Module", "Altitude Module"], 2],
+[235, "In a Central Air Data Computer, altitude is produced from", ["static air pressure", "pitot air pressure", "pitot air pressure and total air temperature"], 0],
+[236, "In a Central Air Data Computer (CADC) system, True Air Speed (TAS) is derived from the Mach information and", ["Static Air Pressure", "Pitot Air Pressure", "Total Air Temperature"], 2]
+]

@@ -1,0 +1,23 @@
+[
+[156, "What is used to correct any tendency of the aircraft to move towards an undesirable flight attitude?", ["Trim tabs", "Spring tabs", "Balance tabs"], 0],
+[157, "With hydraulic ram operated flying controls, when the pressure is reduced to zero, the flying control surfaces", ["stay at neutral", "droop", "remain in the position they were when power was removed"], 1],
+[158, "Powered flying control actuators", ["are operated by the autopilot only", "transmit pilot input to the control surfaces", "provide feedback to the pilot"], 1],
+[160, "In a power assisted flight control system, the feel required is normally supplied by", ["Q feel", "air loads on the control surfaces", "stretching springs"], 1],
+[161, "Irreversibility of a fully powered control surface is provided by", ["nulling of the servo valve", "air loads on the control surface", "the jack ram being attached to structure"], 0],
+[162, "Q feel units use", ["pitot pressure only", "pitot and static pressures", "static pressure only"], 1],
+[163, "Spoiler panels are positioned so that when deployed", ["pitch trim is not affected", "no yaw takes place", "roll will not occur"], 0],
+[164, "Spoiler panels are controlled by", ["the aileron control wheel and speed brake lever", "a speed brake lever only", "the aileron control wheel only"], 0],
+[165, "A lift transducer is normally fitted", ["on the elevator control system", "to the nose area of the aircraft", "on the leading edge of the wing"], 2],
+[166, "If electrical power is removed from a fly by wire spoiler system, the spoiler panels", ["go down if any are not already down", "go to full up", "remain where they are"], 0],
+[167, "In a fly-by-wire control system, the follow-up transducer is fitted to", ["the control system computer", "the hydraulic actuator", "the pilot's input"], 1],
+[168, "Asymmetric flap operation is prevented to keep to a minimum the tendency of", ["yawing", "rolling", "pitch changes"], 1],
+[169, "A differential aileron control is one which gives", ["a larger aileron up travel than down", "the down-going aileron more travel than the up-going one", "equal aileron travel in each direction, but variable for stick movement"], 0],
+[170, "When the control column is moved back and the hand-wheel turned to the left", ["the elevators move down and the left aileron moves down", "the left aileron moves up and the elevators move up", "the elevators move up and the left aileron moves down"], 1],
+[171, "A series type yaw damper", ["moves the rudder and the ailerons to damp out Dutch roll", "moves the rudder pedals and the rudder", "moves the rudder only"], 2],
+[172, "When an aileron trim control in the cockpit is moved to counteract a tendency to fly left wing low, an aileron trim tab fitted to the port aileron will", ["move up and cause the left aileron to move down but the right aileron will remain neutral", "move up and cause the left aileron to move down and the right aileron to move down to a lesser degree", "move up and this will cause the left aileron to move down and the right aileron to move up"], 1],
+[173, "You have adjusted the elevator trim tab to correct for nose heavy. What was the direction of travel of the trim tab?", ["The port elevator tab has moved up and starboard moved down", "The elevator trim tab has moved up", "The elevator trim tab has moved down"], 2],
+[174, "Pulleys in a flight control system are made from", ["brass", "stainless steel", "Tufnol or aluminium alloy"], 2],
+[175, "A tension regulator in the flight control cable system of a large all metal aircraft is used primarily to", ["retain a set tension", "increase cable tension in cold weather", "decrease cable tension in cold weather"], 0],
+[176, "An interrupter arm incorporated in a flying control locking mechanism", ["locks the ailerons and elevators", "restricts movement of the throttles", "dampens the rudder movement"], 1],
+[177, "The alpha vane signal can be fed to ______ when the aircraft is close to stall", ["flap position", "fast/slow switch", "throttle lever"], 2]
+]

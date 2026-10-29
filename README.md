@@ -22,15 +22,18 @@ It's a static site (no build step). Accounts and results are stored in the **Com
 
 ## Question bank
 
-1,497 questions in 9 subjects, from two sources:
+2,024 questions in 10 subjects. Every subject also has a page of its own at `/<subject id>` (for example `/piston`, `/pma`): the home page, Continue, practice, question list and history there cover only that subject. `vercel.json` sends those addresses to `index.html`, and the app reads the subject from the path. Where you stopped in each subject is shared between its page and the all-subjects page.
+
+The questions come from these sources:
 
 - **General paper** (`GENERAL PAPER _240124_171633 (1).pdf`), 940 questions. Answers are the options printed in red or green, or highlighted. 19 items were left out: they had no options, needed a diagram, or had no marked answer.
 - **Piston engines & systems** (`SLIDE ON PISTON AND SYSTEMS.pdf`), 557 questions, one per slide; "No." is the slide number minus one. Answers are the highlighted option, or the red one where a slide has no highlight. Statement questions ("1, 2 and 3") list the statements in the question; worked answers become the note shown after answering. Left out: 3 slides that give only the answer, and the break slides. On slide 37 two options were highlighted; d) is used, with a note. `tools/extract_piston_slides.py` is the extractor.
+- **Pressurised metal airframe** (`pma`), 527 questions merged from `PRESSURIZED AIRFRAME  NCAA.pdf` (three papers, answers in red), `200+PRESSURISED AIRFRAME LICENSE EXAM.pdf` (answers highlighted) and the scanned `PMA 2019.pdf` (answers underlined, read page by page into `tools/pma/scan_*.json`). `PRESSURISED METAL AIRFRAME2018.doc` and `PMA 2019 STUDIES-1.doc` repeat the NCAA papers and were used only to check answers. Repeats are merged. Left out: 4 questions whose copies give different answers that couldn't be settled, questions with no marked answer, and a few with an unreadable or garbled stem. Scripts are in `tools/pma/` (`parse_pma_pdf.py`, `readdoc.py`, `merge_pma.py`, `export_pma.py`).
 
 ## Run locally
 
 ```sh
-python -m http.server 8080
+python -m http.server 8080   # subject pages (/piston) need the Vercel rewrite; locally use /#/ addresses
 # open http://localhost:8080
 ```
 
