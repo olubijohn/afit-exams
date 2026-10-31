@@ -51,8 +51,9 @@ def folder(fid, name, paper, sections):
     for sid, sname, items in sections:
         seen, n = set(), 0
         for it in items:
-            o = [tidy_o(x) for x in it['o']]; a = it['a'][0] if it.get('a') else None
-            if a is None or a < 0 or a >= len(o) or len(o) < 2: continue
+            o = [tidy_o(x) for x in it['o']]; al = [x for x in (it.get('a') or []) if isinstance(x, int) and 0 <= x < len(o)]
+            if not al or len(o) < 2: continue          # the file marks no answer
+            a = al[0]                                    # some questions are marked with two answers in the file: both count
             # the file prints the same option twice: keep one, answer still points at it
             uo, remap = [], {}
             for i, x in enumerate(o):
@@ -61,7 +62,7 @@ def folder(fid, name, paper, sections):
             if len(uo) < 2: continue
             q = tidy_q(it['q']); key = (k(q)[:90], tuple(sorted(k(x)[:40] for x in uo)))
             if not k(q) or (key in seen and not it.get('id')): continue          # repeated inside the same file (questions already in the app stay)
-            if not it.get('id') and is_repeat(paper, q, uo): dropped[name] += 1; continue
+            # every folder keeps its whole file: questions that other files also have are NOT removed (only repeats inside the same file are)
             prior[paper][k(q)[:70]].append({k(x)[:20] for x in uo})
             seen.add(key); n += 1
             qid = it.get('id') or reuse.get((fid, k(q)[:90]))
@@ -72,7 +73,7 @@ def folder(fid, name, paper, sections):
             if not qid or qid in used: qid = f'{sid}-{n}'
             while qid in used: qid += 'b'
             used.add(qid)
-            r = {'id': qid, 's': sid, 'n': n, 'q': q, 'o': uo, 'a': [remap[a]]}
+            r = {'id': qid, 's': sid, 'n': n, 'q': q, 'o': uo, 'a': sorted({remap[x] for x in al})}
             x = re.sub(r'^(NIL|Nil|nil)\.?\s*', '', (it.get('x') or '').strip())
             if x: r['x'] = x
             Q.append(r)
