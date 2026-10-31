@@ -39,6 +39,11 @@ for n, it in enumerate(merged, 1):
     reuse.setdefault(('any', k(tidy_q(it['q']))[:60]), f'pma-{n}')
 
 folders, subjects, Q, used = [], [], [], set()
+# a question that an earlier (more original) file of the same paper already has is left out: each question appears once per paper
+prior = collections.defaultdict(lambda: collections.defaultdict(list)); dropped = collections.Counter()
+def is_repeat(paper, q, uo):
+    ok = {k(x)[:20] for x in uo}
+    return any(len(ok & other) >= 2 for other in prior[paper][k(q)[:70]])
 def folder(fid, name, paper, sections):
     """sections: list of (subject id, section name or None, [questions])"""
     folders.append({'id': fid, 'name': name, 'paper': paper})
@@ -56,6 +61,8 @@ def folder(fid, name, paper, sections):
             if len(uo) < 2: continue
             q = tidy_q(it['q']); key = (k(q)[:90], tuple(sorted(k(x)[:40] for x in uo)))
             if not k(q) or (key in seen and not it.get('id')): continue          # repeated inside the same file (questions already in the app stay)
+            if not it.get('id') and is_repeat(paper, q, uo): dropped[name] += 1; continue
+            prior[paper][k(q)[:70]].append({k(x)[:20] for x in uo})
             seen.add(key); n += 1
             qid = it.get('id') or reuse.get((fid, k(q)[:90]))
             if (not qid or qid in used) and paper == 'pma': qid = reuse.get(('any', k(q)[:60]))
@@ -70,7 +77,7 @@ def folder(fid, name, paper, sections):
             if x: r['x'] = x
             Q.append(r)
         subjects.append({'id': sid, 'name': sname or name, 'folder': fid, 'paper': paper, 'count': n}); tot += n
-    print(f'{paper:8} {name:45} {tot:5}' + (f'  ({len(sections)} sections)' if len(sections) > 1 else ''))
+    print(f'{paper:8} {name:45} {tot:5}' + (f'  ({len(sections)} sections)' if len(sections) > 1 else '') + (f'  {dropped[name]} repeats of earlier files left out' if dropped[name] else ''))
 
 # ---------- General Paper ----------
 folder('gp24', 'GENERAL PAPER _240124_171633', 'general', [(s, names[s], [q for q in gen_old if q['s'] == s]) for s in GEN])
@@ -82,26 +89,30 @@ folder('deji', 'General to use (Deji)', 'general', [('deji', None, deji)])
 # ---------- Piston ----------
 folder('pist', 'SLIDE ON PISTON AND SYSTEMS', 'piston', [('piston', None, piston)])
 
-# ---------- Pressurised Airframe (in the order the files are listed) ----------
-p200 = I('p200.json')
-folder('p200', '200+PRESSURISED AIRFRAME LICENSE EXAM', 'pma', [('p200', None, p200)])
-folder('jul19', 'AIRFRAME QUESTION - JULY 2019', 'pma', [('jul19', None, I('july.json'))])
-ame = I('ame.json')
-folder('ame1', 'AME PART 1', 'pma', [('ame1', None, [q for q in ame if q['src'].startswith('AME PART 1')])])
-folder('ame2', 'AME PART 2', 'pma', [('ame2', None, [q for q in ame if q['src'].startswith('AME PART 2')])])
-m11 = I('m11ch.json'); chs = list(dict.fromkeys(q['s'] for q in m11))
-folder('m11', 'NCAA AIRFRAME', 'pma', [('m11-' + c.split(' ')[0].replace('11.', '').replace('.', '-'), c, [q for q in m11 if q['s'] == c]) for c in chs])
-scan = [{'q': q, 'o': o, 'a': [a]} for f in sorted(glob.glob(os.path.join(H, '..', 'pma', 'scan_*.json'))) for n, q, o, a in json.load(open(f, encoding='utf-8'))]
-folder('pma19', 'PMA 2019', 'pma', [('pma19', None, scan)])
-folder('pmas', 'PMA 2019 STUDIES-1', 'pma', [('pmas', None, I('PMA 2019 STUDIES-1.q.json'))])
-folder('pma18', 'PRESSURISED METAL AIRFRAME2018', 'pma', [('pma18', None, I('PRESSURISED METAL AIRFRAME2018.q.json'))])
-ncaa = I('ncaa.json')
+# ---------- Pressurised Airframe ----------
+# processed from the most original copy down, so a repeat stays in the first file; shown in the order the files are listed
+p200 = I('p200.json'); ncaa = I('ncaa.json')
 by200 = {k(tidy_q(x['q']))[:90]: x for x in p200 if len(x['a']) == 1}   # the NCAA copy leaves a few unmarked; the 200+ copy marks them
 for x in ncaa:
     if len(x['a']) != 1:
         m = by200.get(k(tidy_q(x['q']))[:90])
         if m and k(m['o'][m['a'][0]]) in [k(o) for o in x['o']]: x['a'] = [[k(o) for o in x['o']].index(k(m['o'][m['a'][0]]))]
 folder('ncaa', 'PRESSURIZED AIRFRAME NCAA', 'pma', [(f'ncaa-{p}', f'Paper {p}', [x for x in ncaa if x['sect'] == p]) for p in sorted({x['sect'] for x in ncaa})])
+folder('p200', '200+PRESSURISED AIRFRAME LICENSE EXAM', 'pma', [('p200', None, p200)])
+scan = [{'q': q, 'o': o, 'a': [a]} for f in sorted(glob.glob(os.path.join(H, '..', 'pma', 'scan_*.json'))) for n, q, o, a in json.load(open(f, encoding='utf-8'))]
+folder('pma19', 'PMA 2019', 'pma', [('pma19', None, scan)])
+m11 = I('m11ch.json'); chs = list(dict.fromkeys(q['s'] for q in m11))
+folder('m11', 'NCAA AIRFRAME', 'pma', [('m11-' + c.split(' ')[0].replace('11.', '').replace('.', '-'), c, [q for q in m11 if q['s'] == c]) for c in chs])
+folder('pmas', 'PMA 2019 STUDIES-1', 'pma', [('pmas', None, I('PMA 2019 STUDIES-1.q.json'))])
+folder('pma18', 'PRESSURISED METAL AIRFRAME2018', 'pma', [('pma18', None, I('PRESSURISED METAL AIRFRAME2018.q.json'))])
+ame = I('ame.json')
+folder('ame1', 'AME PART 1', 'pma', [('ame1', None, [q for q in ame if q['src'].startswith('AME PART 1')])])
+folder('ame2', 'AME PART 2', 'pma', [('ame2', None, [q for q in ame if q['src'].startswith('AME PART 2')])])
+folder('jul19', 'AIRFRAME QUESTION - JULY 2019', 'pma', [('jul19', None, I('july.json'))])
+SHOW = ['gp24', 'gp', 'deji', 'pist', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa']
+live = {x['folder'] for x in subjects if x['count']}
+folders = sorted([fo for fo in folders if fo['id'] in live], key=lambda fo: SHOW.index(fo['id']))   # a file with nothing new is not shown
+subjects.sort(key=lambda x: SHOW.index(x['folder']))
 
 kept = sum(1 for q in Q if q['id'] in old_pma or q['s'] in GEN or q['s'] == 'piston')
 print('total', len(Q), '| ids kept from before:', kept, '| old pressurised ids kept:', sum(q['id'] in old_pma for q in Q), 'of 527')
