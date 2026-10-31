@@ -64,16 +64,35 @@ const I = {
   chev: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>',
 };
 const credit = cls => `<p class="credit ${cls || ''}">Built by Olubi_Dev · <a href="tel:+2348131351217">08131351217</a></p>`;
-const logo = (sub = S.scope ? S.subj[S.scope].name : '') => `<a class="logo" href="#/"><span class="logo-mark">${I.plane}</span><span>NCAT Exams${sub ? `<small>${esc(sub)}</small>` : ''}</span></a>`;
+const paperOf = id => S.papers.find(p => p.id === id);
+const scopeName = () => paperOf(S.paper)?.name || 'NCAT Exams';
+const logo = (sub = S.user ? scopeName() : '') => `<a class="logo" href="#/"><span class="logo-mark">${I.plane}</span><span>NCAT Exams${sub ? `<small>${esc(sub)}</small>` : ''}</span></a>`;
 
 /* ---------- state ---------- */
 const S = {
   user: null, profile: null,
-  bank: [], subjects: [], byId: new Map(), subj: {}, scope: null, allSubjects: [],
+  bank: [], subjects: [], byId: new Map(), subj: {}, scope: null, allSubjects: [], full: [], papers: [], paper: 'general',
   stats: new Map(), attempts: [], quiz: null, timer: null, pos: new Map(),
   setup: null, bankView: { q: '', s: 'all', show: true, limit: 25 }, reviewFilter: 'wrong', prefill: '',
 };
 const qKey = () => `afit:quiz:${S.user?.id}${S.scope ? ':' + S.scope : ''}`;
+// switch paper: only its subjects, questions, progress and quizzes show
+function setPaper(id, push) {
+  if (!paperOf(id)) id = 'general';
+  if (S.quiz) saveQuiz();
+  S.paper = id; S.scope = id === 'general' ? null : id;
+  S.subjects = S.allSubjects.filter(x => x.paper === id);
+  const ids = new Set(S.subjects.map(x => x.id));
+  S.bank = S.full.filter(q => ids.has(q.s));
+  S.setup = null; S.bankView = { ...S.bankView, s: 'all', limit: 25 };
+  if (S.user) S.quiz = store.get(qKey(), null);
+  store.set('afit:paper', id);
+  if (push !== false) history.replaceState(null, '', (id === 'general' ? '/' : '/' + id) + location.hash);
+  document.title = `${scopeName()} · NCAT Exams`;
+}
+const paperBar = () => `<div class="paperbar" role="tablist" aria-label="Exam paper">${S.papers.map(p => {
+  const n = S.allSubjects.filter(x => x.paper === p.id).reduce((t, x) => t + x.count, 0);
+  return `<button type="button" role="tab" class="paper-btn ${S.paper === p.id ? 'on' : ''}" aria-selected="${S.paper === p.id}" data-act="paper" data-p="${p.id}"><b><span class="pl">${esc(p.name)}</span><span class="ps">${esc(p.short || p.name)}</span></b><span>${n.toLocaleString()} questions</span></button>`; }).join('')}</div>`;
 const pKey = () => `afit:pending:${S.user?.id}`;
 const prKey = () => `afit:progress:${S.user?.id}`;
 const saveQuiz = () => S.quiz ? store.set(qKey(), S.quiz) : store.del(qKey());
@@ -329,7 +348,7 @@ function shell(active, body, opts = {}) {
       <button data-act="goPassword">${I.key} Change password</button>
       <button data-act="theme">${I.moon} Theme: ${theme === 'auto' ? 'Match device' : theme === 'dark' ? 'Dark' : 'Light'}</button>
       <button data-act="signout">${I.out} Sign out</button></div></div></div></header>
-  <main class="main ${opts.chat ? 'chat-main' : ''}">${body}${opts.chat ? '' : credit()}</main>
+  <main class="main ${opts.chat ? 'chat-main' : ''}">${opts.chat || opts.noPapers ? '' : paperBar()}${body}${opts.chat ? '' : credit()}</main>
   <nav class="tabbar">${nav()}</nav>`;
 }
 function closeMenu() { $('#menu')?.classList.remove('open'); }
@@ -341,10 +360,10 @@ function authLayout(inner) {
     <aside class="auth-brand">
       ${logo()}
       <div>
-        <h2>${S.scope ? `NCAT ${esc(S.subj[S.scope].name)}` : 'NCAT general paper practice'}</h2>
-        <p class="lead">Past questions from the general paper, marked as you go.</p>
+        <h2>NCAT exam practice</h2>
+        <p class="lead">Past questions for the general paper, piston engines and pressurised airframe, marked as you go.</p>
         <ul class="feat">
-          <li><span class="tick">${I.check}</span><span><b>${n} questions</b> ${S.scope ? `on ${esc(S.subj[S.scope].name)}.` : `in ${S.subjects.length} subjects: air law, aerodynamics, sheet metal, hardware, drawings, human factors, piston engines and pressurised metal airframe.`}</span></li>
+          <li><span class="tick">${I.check}</span><span><b>${S.full.length.toLocaleString()} questions</b> in three papers: ${S.papers.map(p => esc(p.name)).join(', ').replace(/, ([^,]*)$/, ' and $1')}.</span></li>
           <li><span class="tick">${I.check}</span><span>Pick an answer and see straight away if it's right, and what the right answer is.</span></li>
           <li><span class="tick">${I.check}</span><span>Your scores are saved, so you can go back over the ones you missed.</span></li>
         </ul>
@@ -483,8 +502,7 @@ const missedIds = (subjects) => S.bank.filter(q => S.stats.get(q.id)?.last_corre
 const subjBadge = s => `<span class="subj-badge" style="background:${SUBJECT_COLORS[S.subj[s].i % SUBJECT_COLORS.length]}">${esc(S.subj[s].short)}</span>`;
 const subjTag = s => `<span class="tag"><span class="dot" style="background:${SUBJECT_COLORS[S.subj[s].i % SUBJECT_COLORS.length]}"></span>${esc(S.subj[s].name)}</span>`;
 const scoreCls = p => (p >= PASS ? 'pass' : 'fail');
-const myAttempts = () => S.scope ? S.attempts.filter(a => a.subjects?.length && a.subjects.every(x => x === S.scope)) : S.attempts;
-const subjUrl = id => `${location.host}/${id}`;
+const myAttempts = () => S.attempts.filter(a => a.subjects?.length && a.subjects.some(x => S.subjects.some(s => s.id === x)));
 
 function viewDashboard() {
   const A = myAttempts(), ss = subjectStats();
@@ -504,21 +522,20 @@ function viewDashboard() {
   mount(shell('', `
   <div class="stack">
     <section class="hero">
-      <div>${S.scope ? `<div class="hero-eyebrow">${esc(S.subj[S.scope].name)}</div>` : ''}<h1>${greet}, ${esc(firstName())}</h1><p>${next.started ? `${next.total - next.left} of ${next.total} questions done${home.subjects.length < S.subjects.length ? ` in ${esc(subjLabel(home))}` : ''}.` : `${next.total} questions ready.`} Pass mark is ${PASS}%.</p>
-        <p class="hero-links">${S.scope ? `<a href="/">All subjects</a> · ` : ''}<a href="#/practice">Set up a different quiz</a> · <a href="#" data-act="quick">Quick 20 random</a></p></div>
+      <div><div class="hero-eyebrow">${esc(scopeName())}</div><h1>${greet}, ${esc(firstName())}</h1><p>${next.started ? `${next.total - next.left} of ${next.total} questions done${home.subjects.length < S.subjects.length ? ` in ${esc(subjLabel(home))}` : ''}.` : `${next.total} questions ready.`} Pass mark is ${PASS}%.</p>
+        <p class="hero-links"><a href="#/practice">Set up a different quiz</a> · <a href="#" data-act="quick">Quick 20 random</a></p></div>
       <div class="actions">
         ${go1}
         <a class="btn btn-lg" href="#/history">${I.hist} History</a>
       </div>
     </section>
-    ${S.scope ? '' : `<section>
-      <div class="page-head" style="margin-bottom:14px"><div><h2 style="font-size:20px">Choose a subject</h2><p class="muted" style="margin:4px 0 0;font-size:14px">Each subject has its own page and link. Practise one at a time.</p></div><a href="#/bank" class="link-sm">Browse all questions</a></div>
+    ${S.subjects.length < 2 ? '' : `<section>
+      <div class="page-head" style="margin-bottom:14px"><div><h2 style="font-size:20px">${esc(scopeName())} subjects</h2><p class="muted" style="margin:4px 0 0;font-size:14px">Tap a subject to practise just that one.</p></div><a href="#/bank" class="link-sm">Browse all questions</a></div>
       <div class="grid g-subjects">${S.subjects.map(s => {
         const o = ss[s.id];
-        return `<a class="card subj subj-link" href="/${s.id}"><div class="subj-top">${subjBadge(s.id)}<div><h4>${esc(s.name)}</h4><span class="sub">${s.count} questions</span></div></div>
+        return `<a class="card subj subj-link" href="#/practice" data-act="subjGo" data-s="${s.id}"><div class="subj-top">${subjBadge(s.id)}<div><h4>${esc(s.name)}</h4><span class="sub">${s.count} questions</span></div></div>
           <div class="bar" title="${o.mastered} right, ${o.missed} wrong"><i class="b-ok" style="width:${(o.mastered / s.count) * 100}%"></i><i class="b-bad" style="width:${(o.missed / s.count) * 100}%"></i></div>
-          <div class="subj-meta"><span>${o.seen ? `${o.seen}/${s.count} done${o.tries ? ` · ${pct(o.right, o.tries)}% right` : ''}` : 'Not started'}</span><span class="subj-go">Open ${I.chev}</span></div>
-          <span class="subj-url">${esc(subjUrl(s.id))}</span></a>`;
+          <div class="subj-meta"><span>${o.seen ? `${o.seen}/${s.count} done${o.tries ? ` · ${pct(o.right, o.tries)}% right` : ''}` : 'Not started'}</span><span class="subj-go">Practise ${I.chev}</span></div></a>`;
       }).join('')}</div>
     </section>`}
     ${Q ? `<div class="card resume"><span class="ico">${I.clock}</span><div class="tx"><b>Unfinished quiz</b><div class="muted" style="font-size:14px">${esc(Q.title)}: ${quizScore(Q).answered} of ${Q.items.length} answered</div></div>
@@ -787,7 +804,7 @@ function bankList() {
 function viewBank() {
   const v = S.bankView;
   mount(shell('bank', `
-  <div class="page-head"><div><div class="eyebrow">Questions</div><h1>${S.scope ? esc(S.subj[S.scope].name) : 'All questions'}</h1><p>Search or read through every question with its answer.</p></div></div>
+  <div class="page-head"><div><div class="eyebrow">Questions</div><h1>${esc(scopeName())}</h1><p>Search or read through every question with its answer.</p></div></div>
   <div class="toolbar">
     <div class="search">${I.search}<input type="search" id="bankq" placeholder="Search, e.g. rivet, QFE, circadian" value="${esc(v.q)}" aria-label="Search questions"></div>
     <select class="sel" id="banks" aria-label="Subject"><option value="all">All subjects</option>${S.subjects.map(s => `<option value="${s.id}" ${v.s === s.id ? 'selected' : ''}>${esc(s.name)}</option>`).join('')}</select>
@@ -919,7 +936,7 @@ function ping() {
 function updateChatBadge() {
   const n = S.user ? unreadTotal() : 0;
   $$('[data-chat-badge]').forEach(b => { b.textContent = n > 99 ? '99+' : n; b.hidden = !n; });
-  document.title = (n ? `(${n}) ` : '') + (S.scope ? `${S.subj[S.scope].name} · NCAT Exams` : 'NCAT Exams');
+  document.title = (n ? `(${n}) ` : '') + `${scopeName()} · NCAT Exams`;
 }
 
 /* chat views */
@@ -1297,9 +1314,19 @@ const actions = {
     await setUser(null);
     go('login', true);
   },
+  paper(el, e) {
+    e?.preventDefault(); const p = el.dataset.p; if (p === S.paper) return;
+    setPaper(p); route();
+    window.scrollTo({ top: 0 });
+  },
+  subjGo(el, e) {
+    e?.preventDefault();
+    S.setup = { ...defaultSetup(), ...store.get('afit:setup', {}), subjects: [el.dataset.s] };
+    if (location.hash === '#/practice') route(); else location.hash = '#/practice';
+  },
   quick(el, e) {
     e.preventDefault();
-    startQuiz({ title: 'Quick 20 · all subjects', mode: 'practice', ids: shuffle(S.bank.map(q => q.id)).slice(0, 20) });
+    startQuiz({ title: `Quick 20 · ${scopeName()}`, mode: 'practice', ids: shuffle(S.bank.map(q => q.id)).slice(0, 20) });
   },
   async discard() {
     if (!await dialog({ title: 'Discard this quiz?', body: 'Your answers in this quiz will be lost.', ok: 'Discard', danger: true })) return;
@@ -1461,22 +1488,19 @@ async function boot() {
       fetch('/data/questions.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error('Could not load questions.'); return r.json(); }),
       sb.auth.getSession(),
     ]);
-    S.bank = bank.questions;
-    S.subjects = S.allSubjects = bank.subjects;
-    const SHORT = { law: 'LAW', aero1: 'AE1', aero2: 'AE2', sheet: 'SM', hardware: 'HW', drawing: 'DRG', hf1: 'HF1', hf2: 'HF2', piston: 'PE', pma: 'PMA' };
-    S.subjects.forEach((s, i) => { S.subj[s.id] = { ...s, i, short: SHORT[s.id] || s.name.slice(0, 3).toUpperCase() }; });
+    S.bank = S.full = bank.questions;
+    S.subjects = S.allSubjects = bank.subjects.map(s => ({ ...s, paper: s.paper || 'general' }));
+    S.papers = bank.papers || [{ id: 'general', name: 'General Paper' }];
+    const SHORT = { law: 'LAW', aero1: 'AE1', aero2: 'AE2', sheet: 'SM', hardware: 'HW', drawing: 'DRG', hf1: 'HF1', hf2: 'HF2', piston: 'PE', pma: 'PP' };
+    S.subjects.forEach((s, i) => { S.subj[s.id] = { ...s, i, short: s.short || SHORT[s.id] || s.name.slice(0, 3).toUpperCase() }; });
     const k = {};
     S.bank.forEach(q => { S.byId.set(q.id, q); S.pos.set(q.id, k[q.s] = (k[q.s] ?? -1) + 1); });
-    // ncat-exams.vercel.app/<subject> is that subject's own page: only its questions, progress and quizzes
+    // /piston and /pma open that paper (old links to a single subject open the paper it belongs to)
     const slug = decodeURIComponent(location.pathname).replace(/^\/+|\/+$/g, '').toLowerCase();
-    if (S.subj[slug]) {
-      S.scope = slug;
-      S.subjects = S.subjects.filter(x => x.id === slug);
-      S.bank = S.bank.filter(q => q.s === slug);
-      document.title = `${S.subj[slug].name} · NCAT Exams`;
-    } else if (slug) history.replaceState(null, '', '/' + location.hash);
+    const fromPath = paperOf(slug) ? slug : S.subj[slug] ? S.subj[slug].paper : null;
+    setPaper(fromPath || store.get('afit:paper', 'general'));
     const user = sess.data.session?.user;
-    if (user) { try { await setUser(user); } catch (e) { console.error(e); await sb.auth.signOut(); toast('Please sign in again.', 'err'); } }
+    if (user) { try { await setUser(user); S.quiz = store.get(qKey(), null); } catch (e) { console.error(e); await sb.auth.signOut(); toast('Please sign in again.', 'err'); } }
   } catch (e) {
     mount(`<div class="boot"><div class="boot-logo">${I.plane}</div><p style="max-width:320px;text-align:center">${esc(e.message || 'Something went wrong while loading.')}<br><br><button class="btn btn-primary" onclick="location.reload()">Try again</button></p></div>`);
     return;

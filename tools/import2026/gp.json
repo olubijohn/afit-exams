@@ -1,0 +1,2235 @@
+[
+{
+"n": 1,
+"q": "With reference to altimeters, QFE is:",
+"o": [
+"Setting aerodrome atmospheric pressure so that an altimeter reads zero on landing and take off",
+"Setting aerodrome atmospheric pressure so that an altimeter reads sea level on landing and taking off",
+"Setting aerodrome atmospheric pressure so that an altimeter reads zero on landing"
+],
+"a": [
+0
+]
+},
+{
+"n": 2,
+"q": "The riveting defect in the figure shown in the attached diagram is",
+"o": [
+"The dolly was not square",
+"The snap was not square",
+"Too much hammering"
+],
+"a": [
+1
+]
+},
+{
+"n": 3,
+"q": "The tech log need not to be carried when",
+"o": [
+"It must be carried at all times on the aircraft",
+"None of the options is correct",
+"The flight begins and ends at the same airfield without passing over any other country"
+],
+"a": [
+0
+]
+},
+{
+"n": 4,
+"q": "Where higher speeds are involved, needle roller bearings are:",
+"o": [
+"Uncaged",
+"Caged",
+"Tapered"
+],
+"a": [
+1
+]
+},
+{
+"n": 5,
+"q": "What signature is required on a C of fitness when flying under “A” conditions?",
+"o": [
+"“A” licensed aircraft engineer",
+"All appropriate categories as required for the aircraft type",
+"A & C Licensed engineer"
+],
+"a": [
+1
+]
+},
+{
+"n": 6,
+"q": "Registration letters, width of each letter on an aircraft fuselage must be:",
+"o": [
+"Maximum of ¾ height",
+"2/3 of the height of the letter",
+"Any reasonable amount to give an even appearance"
+],
+"a": [
+1
+]
+},
+{
+"n": 7,
+"q": "The purpose which an aircraft fly are as follows:",
+"o": [
+"Transport category (Passenger): any purpose",
+"Transport category (Cargo); any purpose other than public transport of passengers",
+"Transport category (Passengers): any purpose other than aerial work"
+],
+"a": [
+2
+]
+},
+{
+"n": 8,
+"q": "An aircraft flying under “B” conditions in Nigeria",
+"o": [
+"Must be registered in Nigeria",
+"May carry persons in the aircraft in order to carry out a technical evaluation",
+"Must appoint a pilot in command approved by the aircraft manufacture"
+],
+"a": [
+1
+]
+},
+{
+"n": 9,
+"q": "A crimped splice is never too being used in:",
+"o": [
+"A cabin environment",
+"A multi-core cable",
+"c. An engine instrument system"
+],
+"a": [
+2
+]
+},
+{
+"n": 10,
+"q": "The minimum rivet pitch is",
+"o": [
+"2” the rivet diameter",
+"3” the rivet diameter",
+"2.1/2” the rivet diameter"
+],
+"a": [
+1
+]
+},
+{
+"n": 11,
+"q": "The take-off ground run is defined as",
+"o": [
+"The distance travelled from position of rest to the point where the aircraft first leaves the ground and becomes fully airborne",
+"The distance travelled from rest to the point where the aircraft achieves the speed V1 up",
+"The horizontal distance from position of the rest to the point at which no part of the aircraft is less than 10.7m above the ground"
+],
+"a": [
+0
+]
+},
+{
+"n": 12,
+"q": "An aircraft has recently undergone an engine replacement, the details of which will be recorded in:",
+"o": [
+"The tech log",
+"The airframe log book and the engine log books",
+"The engine log books only"
+],
+"a": [
+1
+]
+},
+{
+"n": 13,
+"q": "With an increase in passengers and cargo Vrrid will occur at",
+"o": [
+"Same speed",
+"Lower speed",
+"Higher speed"
+],
+"a": [
+2
+]
+},
+{
+"n": 14,
+"q": "If it is necessary to compute a bend allowance problem and bend allowance tables are not available, the neutral axis of the bend can be",
+"o": [
+"Found by subtracting the stock thickness from the bend radius",
+"Represented by the actual length of the required material for the bend",
+"Found by adding approximately one-half of the stock thickness to the bend radius"
+],
+"a": [
+2
+]
+},
+{
+"n": 15,
+"q": "What statement is true regarding the inspection of a stressed skin metal wing assembly known to have been critically loaded?",
+"o": [
+"If rivets show no visible distortion, further investigation is unnecessary",
+"If bearing failure has occurred, the rivets shanks will be joggled",
+"If genuine rivet tipping has occurred, groups of consecutive rivet heads will be tipped in the same direction"
+],
+"a": [
+0
+]
+},
+{
+"n": 16,
+"q": "If it is necessary to compute a bend allowance problem and bend allowance tables are not available, the neutral axis of the bend can be:",
+"o": [
+"Found by subtracting the stock thickness from the bend radius",
+"Represented by the actual length of the required material for the bend",
+"Found by adding approximately one half of the stock thickness to the bend radius"
+],
+"a": [
+2
+]
+},
+{
+"n": 17,
+"q": "Under Nigerian rules and regulations, hand held fire extinguishers must be located",
+"o": [
+"The cabin only",
+"The cockpit, cabin and cargo holds accessible from the cockpit",
+"The cockpit and the cabin"
+],
+"a": [
+1
+]
+},
+{
+"n": 18,
+"q": "A tech log is required for",
+"o": [
+"All aircraft above 5700kg",
+"All aircraft having a mandatory approved maintenance schedule",
+"All aircraft"
+],
+"a": [
+2
+]
+},
+{
+"n": 19,
+"q": "Repair of aircraft structural tubing by welding is",
+"o": [
+"A permitted to only non-heat treated structure",
+"Usually not permitted",
+"Usually permitted and is normally considered a major repair"
+],
+"a": [
+1
+]
+},
+{
+"n": 20,
+"q": "An aircraft can climb at a particular speed when power available from the engine is less than power required",
+"o": [
+"Power available from the engine is equal to power required",
+"Power available from the engine is greater than",
+"Power required"
+],
+"a": [
+1
+]
+},
+{
+"n": 21,
+"q": "An anti-balance (anti-servo) tab is designed to:",
+"o": [
+"Provide force to move the main control surface to relieve control column effort",
+"Provide “feel” increasing the pilot’s awareness of the loads imposed by control surface development",
+"Position the control surface in the streamed position in flight after balance tab development"
+],
+"a": [
+1
+]
+},
+{
+"n": 22,
+"q": "Make C the subject of the formula y=mx + c",
+"o": [
+"y + mx",
+"y – mx",
+"mx – y"
+],
+"a": [
+1
+]
+},
+{
+"n": 23,
+"q": "The strength of a riveted joint is determined by",
+"o": [
+"A shear strength and pitch of rivet",
+"Shear strength of rivet and material it is made of",
+"c. Pitch and tensile strength of rivet"
+],
+"a": [
+0
+]
+},
+{
+"n": 24,
+"q": "Q guillotine should not be used to cut sheet metal thicker than",
+"o": [
+"20swg",
+"18swg",
+"10swg"
+],
+"a": [
+1
+]
+},
+{
+"n": 25,
+"q": "A pull-off check on an Amp Crimping tool is required to check the",
+"o": [
+"Grip of the conductor and the insulation",
+"Go-No go gauge",
+"Grip of the wire gauge"
+],
+"a": [
+0
+]
+},
+{
+"n": 26,
+"q": "On an aircraft which has had a heavy landing, on the lower wing you may see",
+"o": [
+"Sagging",
+"Wrinkling",
+"Hogging"
+],
+"a": [
+1
+]
+},
+{
+"n": 27,
+"q": "If the C of A has expired and the aircraft needs to be weighed",
+"o": [
+"Does not need a certificate of fitness to fly",
+"It cannot fly unless weighed first",
+"It can fly under the conditions of a special I Flight Permit"
+],
+"a": [
+2
+]
+},
+{
+"n": 28,
+"q": "When carrying out an insert skin repair on an aircraft wing, the distance of the rivets to the edge of the repair is referred to as",
+"o": [
+"The pitch and should not more than 3D",
+"The land and should not be less than 2D",
+"The spacing and should not be less than ¼ inch"
+],
+"a": [
+1
+]
+},
+{
+"n": 29,
+"q": "The amount of light which is allowed to enter the eye can vary by a factor of",
+"o": [
+"5.1",
+"500.1",
+"50.1"
+],
+"a": [
+0
+]
+},
+{
+"n": 31,
+"q": "What range of sound is usually impaired first with the onset of Presbycusis?",
+"o": [
+"Low pitch sound",
+"High pitch sound",
+"Mid-range sound"
+],
+"a": [
+1
+]
+},
+{
+"n": 32,
+"q": "A certificate of registration is valid",
+"o": [
+"12 months",
+"12 years",
+"Perpetual"
+],
+"a": [
+2
+]
+},
+{
+"n": 33,
+"q": "Radio equipment required to be carried in an aircraft will be found in",
+"o": [
+"Schedule 6 table 2 refers",
+"In accordance with NCAR part 7",
+"Not mandatory"
+],
+"a": [
+1
+]
+},
+{
+"n": 34,
+"q": "Long shift work will",
+"o": [
+"Always increase your diagnostic and maintenance ability",
+"Initially decrease your diagnostic and maintenance ability but eventually increase your diagnostic and maintenance ability as you get used to it",
+"Always decrease your diagnostic and maintenance ability"
+],
+"a": [
+2
+]
+},
+{
+"n": 35,
+"q": "Aircraft equipment is specified in",
+"o": [
+"Nig CARs, Part 7",
+"NCAR, Part 7",
+"BCAR, Part 7"
+],
+"a": [
+0
+]
+},
+{
+"n": 36,
+"q": "To remove corrosion of low tensile steel and aluminium alloys the remover to use would be",
+"o": [
+"Chromic acid based",
+"Phosphoric acid based",
+"Sulphuric acid based"
+],
+"a": [
+1
+]
+},
+{
+"n": 37,
+"q": "Equipment carried by an aircraft registered in Nigeria",
+"o": [
+"Specified in schedule 5 according to circumstances as required",
+"Laid down in Part 7 of Nig CARs",
+"Is specified by the manufacturer"
+],
+"a": [
+1
+]
+},
+{
+"n": 38,
+"q": "Adiabatic compression is when",
+"o": [
+"Heat is given off to the surroundings",
+"Kinetic energy is gained",
+"No heat is lost or gained"
+],
+"a": [
+2
+]
+},
+{
+"n": 39,
+"q": "The international lapse rate for temperature in the atmospheric region known as the troposphere is",
+"o": [
+"2.20°C per 1000ft",
+"1.98°C per 1000ft",
+"1.98°C per 500ft"
+],
+"a": [
+1
+]
+},
+{
+"n": 40,
+"q": "The identification plate containing owner’s name and A/C details shall be",
+"o": [
+"Made of a fireproof material and is mandatory",
+"Any material suitably fixed near the main entrance of the aircraft",
+"A metal plate affixed to the starboard side of the aircraft"
+],
+"a": [
+0
+]
+},
+{
+"n": 41,
+"q": "Springs are made by",
+"o": [
+"Cold working in press",
+"Hot working into a mould",
+"Either hot or cold winding onto a mandrel"
+],
+"a": [
+2
+]
+},
+{
+"n": 43,
+"q": "The properties of a scalene triangle are",
+"o": [
+"Acute angle",
+"All sides are equal",
+"All sides different lengths"
+],
+"a": [
+2
+]
+},
+{
+"n": 44,
+"q": "What is the minimum requirement to register an aircraft in Nigeria?",
+"o": [
+"Both owner and charterer to be qualified",
+"Owner qualified person",
+"Unqualified owner and qualified charterer"
+],
+"a": [
+2
+]
+},
+{
+"n": 46,
+"q": "Transverse pitch is the distance between the",
+"o": [
+"Heads of rivets in the same row",
+"Centres of adjacent rivets in the same row",
+"Centres of rivets in adjacent rows"
+],
+"a": [
+2
+]
+},
+{
+"n": 48,
+"q": "The difference between limits is the",
+"o": [
+"Tolerance",
+"Allowance",
+"Pitch"
+],
+"a": [
+0
+]
+},
+{
+"n": 49,
+"q": "Following maintenance work carried out on a control system a duplicate inspection is required",
+"o": [
+"This is to be carried out by one engineer inspecting the control system twice",
+"This is to be carried out by two engineers, one starting at the back the aircraft and the other at the front",
+"This is to be carried out by two suitably qualified engineers inspecting the control system with no additional work being carried out between inspections"
+],
+"a": [
+2
+]
+},
+{
+"n": 50,
+"q": "An engine defect occurred in flight, defect and rectification should be recorded in",
+"o": [
+"Tech log",
+"Tech log and engine log book",
+"Tech log, engine log book and airframe log book"
+],
+"a": [
+1
+]
+},
+{
+"n": 51,
+"q": "Except for records maintained by an AOC holder, the owner or operator shall retain the records of maintenance, inspections and minor modifications until the work is repeated or suspended by other work for",
+"o": [
+"2 years",
+"1 year",
+"5 years"
+],
+"a": [
+1
+]
+},
+{
+"n": 52,
+"q": "After defect rectification, a CRS must be signed",
+"o": [
+"Within seven days",
+"Seven days’ maximum after expiry date of the current C of M",
+"Immediately after completing the work"
+],
+"a": [
+2
+]
+},
+{
+"n": 53,
+"q": "A gas fusion welding process could use",
+"o": [
+"Oxygen and acetylene",
+"Oxygen and helium",
+"Hydrogen and argon"
+],
+"a": [
+0
+]
+},
+{
+"n": 54,
+"q": "On a private international flight the following documents must be carried",
+"o": [
+"C of A, C of M, C of R",
+"C of A, C of R, Tech log",
+"C of M, Crew licenses and radio licenses"
+],
+"a": [
+2
+]
+},
+{
+"n": 55,
+"q": "A NOR gate: output is not “high” if either the first input or the second inputs are “high.”",
+"o": [
+"False",
+"Truth",
+"Not applicable"
+],
+"a": [
+1
+]
+},
+{
+"n": 56,
+"q": "Who can be qualified to be the owner of an aircraft registered in Nigeria",
+"o": [
+"Anyone",
+"Any company",
+"Citizens of Nigeria or bodies corporate established under and subject to the laws of Nigeria"
+],
+"a": [
+2
+]
+},
+{
+"n": 57,
+"q": "The angle of attack of an aerofoil is the angle that the",
+"o": [
+"Chord line makes with the longitudinal axis",
+"Chord line makes with the relative airflow",
+"Airframe makes with the horizontal when the aircraft is in a rigging ANSWER: B 58. In a Fraise Aileron control system A. The up-going aileron moves through a greater angle than the down-going aileron B. The up-going aileron produces increased drag C. The down-going aileron leading edge protrudes into the airflow"
+],
+"a": [
+1
+]
+},
+{
+"n": 59,
+"q": "The registration of a fixed-wing aircraft are placed",
+"o": [
+"Both options are correct",
+"The wings and fuselage",
+"On the wing tips only"
+],
+"a": [
+1
+]
+},
+{
+"n": 60,
+"q": "What do thin chain lines indicate on an engineering drawing",
+"o": [
+"Cutting or viewing planes",
+"Centre lines",
+"Portions to be removed"
+],
+"a": [
+1
+]
+},
+{
+"n": 61,
+"q": "What is the fraction 1/7 in decimal?",
+"o": [
+"0.14295",
+"0.14286",
+"1.429"
+],
+"a": [
+1
+]
+},
+{
+"n": 62,
+"q": "During the soft soldering process the main barrier to a successful joint is an oxide film forming on the cleaned metal surface. This is prevented by",
+"o": [
+"Not leaving the metal surface exposed by applying soldier immediately the surface is cleaned",
+"Adding antimony to the solder giving a stronger joint",
+"Using a flux to prevent the oxides forming and also assist the solder to flow"
+],
+"a": [
+2
+]
+},
+{
+"n": 63,
+"q": "An aircraft maintenance engineer’s license is valid in Nigeria for",
+"o": [
+"60 months",
+"24 months",
+"18 months"
+],
+"a": [
+0
+]
+},
+{
+"n": 64,
+"q": "An aircraft in Transport category (Passengers) may fly",
+"o": [
+"For any purpose",
+"To carry passengers only",
+"Not for aerial work"
+],
+"a": [
+2
+]
+},
+{
+"n": 65,
+"q": "An aircraft which is stable about its axis of roll is said to possess:",
+"o": [
+"Lateral stability",
+"Longitudinal stability",
+"Directional stability"
+],
+"a": [
+0
+]
+},
+{
+"n": 66,
+"q": "Bend radius on sheet metal is",
+"o": [
+"Inside radius + ½ thickness",
+"Outside radius",
+"Inside radius"
+],
+"a": [
+2
+]
+},
+{
+"n": 67,
+"q": "An aircraft on a flight to NIGERIA must have as part of its radio navigation equipment",
+"o": [
+"Radio capable of receiving aeronautical radio station material",
+"Radio and visual aids only",
+"HF"
+],
+"a": [
+0
+]
+},
+{
+"n": 68,
+"q": "When an aircraft changes operator, which documents must be transferred?",
+"o": [
+"C of M, C of R and Tech log",
+"C of R, C of A, Tech log and the aircraft log books",
+"C of M"
+],
+"a": [
+1
+]
+},
+{
+"n": 69,
+"q": "An aircraft when away base has work done requiring a CRS, which of the following applies",
+"o": [
+"CRS must be issued for release",
+"Can return to its home base",
+"Can be flown at the commander’s discretion"
+],
+"a": [
+2
+]
+},
+{
+"n": 70,
+"q": "101110 binaries is",
+"o": [
+"468",
+"4610",
+"462"
+],
+"a": [
+1
+]
+},
+{
+"n": 71,
+"q": "Springs are made by",
+"o": [
+"Cold working in a press",
+"Hot working into a mould",
+"Either hot or cold winding onto a mandrel"
+],
+"a": [
+2
+]
+},
+{
+"n": 72,
+"q": "What is the minimum requirement to register an aircraft in Nigeria?",
+"o": [
+"Both owner and charterer to be qualified",
+"Owner qualified person",
+"Unqualified owner and qualified charterer"
+],
+"a": [
+2
+]
+},
+{
+"n": 73,
+"q": "Transverse pitch is the distance between the",
+"o": [
+"Heads of rivets in the same row",
+"Centres of adjacent rivets in the same row",
+"Centres of rivets in adjacent rows"
+],
+"a": [
+2
+]
+},
+{
+"n": 75,
+"q": "The difference between limits is the",
+"o": [
+"Tolerance",
+"Allowance",
+"Pitch"
+],
+"a": [
+0
+]
+},
+{
+"n": 76,
+"q": "Following maintenance work carried out on a control system a duplicate inspection is required",
+"o": [
+"This is to be carried out by one engineer inspecting the control system twice",
+"This is to be carried out by two engineers, one starting at the back the aircraft and the other at the front",
+"This is to be carried out by two suitably qualified engineers inspecting the control system with no additional work being carried out between inspections"
+],
+"a": [
+2
+]
+},
+{
+"n": 78,
+"q": "Except for records maintained by an AOC holder, the owner or operator shall retain the records of maintenance, inspections and minor modification until the work is repeated or suspended by other work for",
+"o": [
+"2 years",
+"1 year",
+"5 years"
+],
+"a": [
+1
+]
+},
+{
+"n": 79,
+"q": "What is octal 13 in base 10?",
+"o": [
+"5",
+"11",
+"4"
+],
+"a": [
+1
+]
+},
+{
+"n": 80,
+"q": "An aircraft can fly under *B* condition",
+"o": [
+"Whether registered or not must be suitably marked",
+"Only if unregistered",
+"Only if registered"
+],
+"a": [
+0
+]
+},
+{
+"n": 81,
+"q": "The number of fuses which can be changed in flight shall be;",
+"o": [
+"15% or 5 of each rating",
+"10% or 3 of each rating whichever is the greater",
+"A maximum of 5"
+],
+"a": [
+1
+]
+},
+{
+"n": 82,
+"q": "An aircraft operating under *B* conditions",
+"o": [
+"Must be on the register",
+"Need not be registered",
+"Must be marked in an approved manner if not on the register"
+],
+"a": [
+2
+]
+},
+{
+"n": 83,
+"q": "Increase of moisture in the air has the effect of",
+"o": [
+"A reducing the density",
+"Increasing the density",
+"Reducing the pressure"
+],
+"a": [
+0
+]
+},
+{
+"n": 84,
+"q": "The dihedral angle is the between the",
+"o": [
+"Leading edge and the lateral axis",
+"Wing plane and the longitudinal",
+"Wing plane and the lateral axis"
+],
+"a": [
+2
+]
+},
+{
+"n": 85,
+"q": "A line of short dashes indicates",
+"o": [
+"Hidden outlines and edges",
+"Cutting planes",
+"Limits of partial views"
+],
+"a": [
+0
+]
+},
+{
+"n": 86,
+"q": "Most springs are made from circular section",
+"o": [
+"Medium carbon sheet",
+"Cast iron",
+"High carbon sheet"
+],
+"a": [
+2
+]
+},
+{
+"n": 88,
+"q": "On a graph what is the intercept of y when 4y = x + 8",
+"o": [
+"2",
+"8",
+"4"
+],
+"a": [
+0
+]
+},
+{
+"n": 90,
+"q": "The three axes concerned with stability of an aircraft are",
+"o": [
+"Longitudinal, lateral and normal axis all passing through aircraft centre of gravity",
+"Normal axis through C of G lateral axis – wing tip, longitudinal axis - nose to tail but not through C of G",
+"Longitudinal axis nose to tail, lateral axis at furthest span point, normal axis through centre of pressure"
+],
+"a": [
+0
+]
+},
+{
+"n": 91,
+"q": "Chronic stress",
+"o": [
+"A frequent reoccurring stress or of long duration",
+"Intense stress of long duration",
+"Typically, intense but short duration"
+],
+"a": [
+0
+]
+},
+{
+"n": 92,
+"q": "Log books are mandatory requirement for",
+"o": [
+"Variable pitch propellers, engines and airframe",
+"Aircraft and engines",
+"Any propeller, engines and airframe"
+],
+"a": [
+0
+]
+},
+{
+"n": 93,
+"q": "The 1 or 0 level of storage is called",
+"o": [
+"a bit",
+"a byte",
+"a megabyte"
+],
+"a": [
+0
+]
+},
+{
+"n": 94,
+"q": "The registration letters of a fixed-wing aircraft are placed",
+"o": [
+"Both options are correct",
+"The wings and fuselage",
+"On the wing tips only"
+],
+"a": [
+1
+]
+},
+{
+"n": 95,
+"q": "An aircraft in straight and level flight is subject to",
+"o": [
+"A load factor of unity",
+"A load factor of two",
+"Zero load factor"
+],
+"a": [
+0
+]
+},
+{
+"n": 96,
+"q": "The easiest method of ensuring the diameter of a hole is at the correct size is",
+"o": [
+"Vanier Callipers",
+"Plug Gauge",
+"Internal Micrometres"
+],
+"a": [
+2
+]
+},
+{
+"n": 97,
+"q": "In the event of an unqualified person becoming an owner of an aircraft whilst the aircraft is chartered",
+"o": [
+"The charterer must notify the authority",
+"Both options are false",
+"The registration of the aircraft becomes valid"
+],
+"a": [
+0
+]
+},
+{
+"n": 98,
+"q": "All hose assemblies are measured for length from",
+"o": [
+"From the nipple extremities of the two end fittings",
+"Along the rubber portion",
+"From the extremities of the end fittings"
+],
+"a": [
+0
+]
+},
+{
+"n": 99,
+"q": "When a piece of metal is bent; the surface of the metal on the outside of bend is:",
+"o": [
+"In compression",
+"In tension",
+"Neither in tension or in compression"
+],
+"a": [
+1
+]
+},
+{
+"n": 100,
+"q": "Which of the following statement is not correct?",
+"o": [
+"When weights are used to hold a pattern, or template on the material.",
+"A good technician tries to do his layout work along existing edges, leaving as much material intact and usable as possible",
+"A technician is allowed to wear wristwatch or rings while working in aircraft sheet metal as long sheet metal surface is covered up with him of copper sulphate solution"
+],
+"a": [
+2
+]
+},
+{
+"n": 101,
+"q": "Which logic gate can be represented as a parallel electrical circuit contact?",
+"o": [
+"Exclusive OR.",
+"NAND.",
+"OR."
+],
+"a": [
+2
+]
+},
+{
+"n": 102,
+"q": "When the voltage that represents a logic 1 state is less than the voltage that represents a logic 0 state, the logic being used is.",
+"o": [
+"either positive or negative",
+"positive",
+"negative"
+],
+"a": [
+2
+]
+},
+{
+"n": 103,
+"q": "All Aircraft systems design and operations are basically based on",
+"o": [
+"1’s and 0’s logical state",
+"Analogue systems",
+"Switching devices"
+],
+"a": [
+0
+]
+},
+{
+"n": 104,
+"q": "Logic gates internal operating mechanisms are produced from.",
+"o": [
+"thin film resistors",
+"transistors",
+"diodes"
+],
+"a": [
+2
+]
+},
+{
+"n": 105,
+"q": "What input is required to activate the relay shown?",
+"o": [
+"A=0 B=1.",
+"A=1 B=0.",
+"A=1 B=1."
+],
+"a": [
+2
+]
+},
+{
+"n": 106,
+"q": "What is the Boolean Algebra for the circuit shown?",
+"o": [
+"",
+"",
+""
+],
+"a": [
+1
+]
+},
+{
+"n": 108,
+"q": "A low-strength material will have",
+"o": [
+"Plain head",
+"Asterisk on the head",
+"Plain head"
+],
+"a": [
+0
+]
+},
+{
+"n": 109,
+"q": "Letter H An6H4A indicates",
+"o": [
+"Undrilled shank.",
+"Drilled head",
+"Drilled shank"
+],
+"a": [
+1
+]
+},
+{
+"n": 110,
+"q": "In making wing skin repairs",
+"o": [
+"Rivet alloy is not a critical item",
+"2024-T rivets should be treat treated",
+"2117-T rivets should be treated"
+],
+"a": [
+1
+]
+},
+{
+"n": 111,
+"q": "What is the purpose of refrigerating 2017 and 2024 aluminum alloy rivets after heat treatment?",
+"o": [
+"To accelerate age hardening",
+"To relieve internal stresses",
+"To retard age hardening"
+],
+"a": [
+2
+]
+},
+{
+"n": 112,
+"q": "AN426DD-6-5 indicates a countersunk rivet which has",
+"o": [
+"Shank length of 5/16 inch (excluding head)",
+"Shank length of 5/32 inch (excluding head)",
+"An overall length of 5/16 inch"
+],
+"a": [
+2
+]
+},
+{
+"n": 113,
+"q": "A DD rivet is heat treated before use to",
+"o": [
+"Harden and increase strength",
+"Accelerate age hardening",
+"Soften to facilitate riveting"
+],
+"a": [
+2
+]
+},
+{
+"n": 114,
+"q": "A raised ring of head of a British bolt means",
+"o": [
+"H.T.S forged bolt",
+"H.T.S rolled bolt",
+"Special bolt"
+],
+"a": [
+2
+]
+},
+{
+"n": 115,
+"q": "Visual identification of a unified threaded bolt is",
+"o": [
+"Three circles with their borders touching",
+"Raised ring on top",
+"Raised water on top"
+],
+"a": [
+0
+]
+},
+{
+"n": 116,
+"q": "torque may be associated with which of the following",
+"o": [
+"Cherry rivets",
+"Pop rivets",
+"Rivet rivets"
+],
+"a": [
+1
+]
+},
+{
+"n": 117,
+"q": "1100 rivet should never be used on structural member because",
+"o": [
+"They are too head to drive",
+"They are soft and weak",
+"There is brittle"
+],
+"a": [
+0
+]
+},
+{
+"n": 118,
+"q": "Flush rivet is use to reduce",
+"o": [
+"Induced drag",
+"Skin friction",
+"Parasite drag"
+],
+"a": [
+1
+]
+},
+{
+"n": 119,
+"q": "Splits pins",
+"o": [
+"May be used only once",
+"May be used more than once but depends on the material of the pin.",
+"May be used more than once"
+],
+"a": [
+0
+]
+},
+{
+"n": 120,
+"q": "The taper of a standard taper pin",
+"o": [
+"1 in 48",
+"1 in 36",
+"1 in 20"
+],
+"a": [
+0
+]
+},
+{
+"n": 121,
+"q": "Discuss fasteners provide",
+"o": [
+"For easy hammering into position",
+"Close tolerance",
+"Quick release fasteners at inspection"
+],
+"a": [
+2
+]
+},
+{
+"n": 122,
+"q": "What does 31F on the head of a bolt indicate?",
+"o": [
+"31 nominal lengths, 3/8 BSF",
+"3.1 plan shank, 3/8 UNF",
+"None of the above"
+],
+"a": [
+1
+]
+},
+{
+"n": 123,
+"q": "A rivet marked AN470 or MS20470 is",
+"o": [
+"Universal head",
+"Counter sunk head",
+"Brazier head"
+],
+"a": [
+0
+]
+},
+{
+"n": 124,
+"q": "A structure that has a high designed reserves strength would be classified as,",
+"o": [
+"Primary",
+"Tertiary",
+"Secondary"
+],
+"a": [
+0
+]
+},
+{
+"n": 126,
+"q": "An aircraft structure, having multiple load paths, is known as a",
+"o": [
+"Safe life design",
+"Fail safe design",
+"Monique design"
+],
+"a": [
+1
+]
+},
+{
+"n": 127,
+"q": "An ultimate load is the limit load.",
+"o": [
+"Multiply by 1.5",
+"plus, a specified factor depending on the type of structure",
+"Divide by 1.5"
+],
+"a": [
+0
+]
+},
+{
+"n": 128,
+"q": "If an aircraft is loaded above the maximum authorized weight, the structure safety factor is?",
+"o": [
+"Increased",
+"Unaffected",
+"Reduced"
+],
+"a": [
+2
+]
+},
+{
+"n": 129,
+"q": "The main spar of a main plane will be classified as",
+"o": [
+"Fail safe structure",
+"Secondary structure",
+"primary structure"
+],
+"a": [
+2
+]
+},
+{
+"n": 130,
+"q": "Where is fuselage No. 137 located?",
+"o": [
+"137cm aft of the nose or fixed reference line",
+"137inches aft of the zero or fix reference line",
+"Aft of the engine"
+],
+"a": [
+1
+]
+},
+{
+"n": 131,
+"q": "Measurements in inches transverse to a reference vertical plane are called?",
+"o": [
+"Fuselage line",
+"Buttocks line",
+"Water line"
+],
+"a": [
+1
+]
+},
+{
+"n": 132,
+"q": "What’s the standard hydraulic fluid pressure?",
+"o": [
+"2000psi",
+"3000psi",
+"1000psi"
+],
+"a": [
+1
+]
+},
+{
+"n": 133,
+"q": "In a hydraulic-assisted system, the command of the pilot first goes to:",
+"o": [
+"The selector valve",
+"The shuttle valve",
+"The hydraulic pump"
+],
+"a": [
+0
+]
+},
+{
+"n": 134,
+"q": "The main difference between hydraulic and pneumatic systems is:",
+"o": [
+"Hydraulic systems have no return line",
+"Pneumatic systems have no return line",
+"Both of them have return lines"
+],
+"a": [
+1
+]
+},
+{
+"n": 135,
+"q": "Hydraulic operation is preferred to Pneumatic operation because:",
+"o": [
+"Air is not compressible",
+"Hydraulic is not compressible",
+"Air is compressible"
+],
+"a": [
+2
+]
+},
+{
+"n": 136,
+"q": "Moderate volatility in fuel is:",
+"o": [
+"Desirable",
+"Not desirable",
+"It does not matter"
+],
+"a": [
+0
+]
+},
+{
+"n": 137,
+"q": "Too much air-to-fuel ratio can lead to:",
+"o": [
+"Rich mixture",
+"Lean mixture",
+"It does not matter",
+"ANSWER: B 138. An ornithopter is classified under A. Heavier than air machine B. Lighter than air machine C. Rotary machine"
+],
+"a": [
+0
+]
+},
+{
+"n": 139,
+"q": "Aerodyne flies because of",
+"o": [
+"The rotary motion of the wing",
+"The pressure differential existing across the lifting surfaces",
+"The light weight that enables it to float in the air"
+],
+"a": [
+1
+]
+},
+{
+"n": 140,
+"q": "A force tending to shorten a member is",
+"o": [
+"Breaking force",
+"Compressive force",
+"Bending force"
+],
+"a": [
+1
+]
+},
+{
+"n": 141,
+"q": "A structural member under tensile load is called",
+"o": [
+"A strut",
+"A lever",
+"A tie"
+],
+"a": [
+2
+]
+},
+{
+"n": 142,
+"q": "An Amphibian is a type of",
+"o": [
+"Sail plane",
+"Sea plane",
+"Flying boat"
+],
+"a": [
+1
+]
+},
+{
+"n": 143,
+"q": "A Sail plane is an",
+"o": [
+"Aero stat that can sail in water or fly in the air",
+"Aerodyne that is not power driven",
+"Aero start that is classed under high performance glider"
+],
+"a": [
+1
+]
+},
+{
+"n": 144,
+"q": "A condition after which a permanent deformation of a material is caused called, is known by",
+"o": [
+"Bending",
+"Strain",
+"Shear"
+],
+"a": [
+1
+]
+},
+{
+"n": 145,
+"q": "What load is a tie rod designed to accept?",
+"o": [
+"Bending",
+"Torsion",
+"Tensile"
+],
+"a": [
+2
+]
+},
+{
+"n": 146,
+"q": "Stress,",
+"o": [
+"Is the load per unit area acting on a material?",
+"Is the property of a material to resist fracture?",
+"Is the deformation of a material cause applied load?"
+],
+"a": [
+0
+]
+},
+{
+"n": 147,
+"q": "An example of primary",
+"o": [
+"Shear",
+"Hoop",
+"Tension"
+],
+"a": [
+1
+]
+},
+{
+"n": 148,
+"q": "Aircraft are certified as",
+"o": [
+"Transport category, general category",
+"Utility, normal and aerobatic",
+"Piston engine aircraft, gas turbine engine turbo prop- aircraft"
+],
+"a": [
+1
+]
+},
+{
+"n": 150,
+"q": "Aircraft fuselages are principal designed to",
+"o": [
+"passengers and tie together other principal parts",
+"Provide a means of slinging and jacking the aircraft",
+"Provide space for cockpit, cabin compartment and power plant"
+],
+"a": [
+0
+]
+},
+{
+"n": 151,
+"q": "Aircraft structure covering an engine is called",
+"o": [
+"Cowling",
+"Nacelle",
+"Bay"
+],
+"a": [
+1
+]
+},
+{
+"n": 152,
+"q": "Aircraft structural members are design to carry",
+"o": [
+"End loads",
+"Side loads",
+"Bending loads"
+],
+"a": [
+0
+]
+},
+{
+"n": 153,
+"q": "A Multi-load design is called",
+"o": [
+"Redundant structure",
+"Back-up structure",
+"Load-dropping structure"
+],
+"a": [
+0
+]
+},
+{
+"n": 154,
+"q": "If a redundant structure fails, it becomes",
+"o": [
+"Fail safe",
+"Save life",
+"Fatigue"
+],
+"a": [
+1
+]
+},
+{
+"n": 155,
+"q": "Numbers given to location from the tail of the fuselage are called",
+"o": [
+"Buttock line",
+"Fuselage station line",
+"Water line"
+],
+"a": [
+1
+]
+},
+{
+"n": 156,
+"q": "Numbers given to location at station along the aircraft vertically are",
+"o": [
+"Buttock line",
+"Fuselage station line",
+"Water line"
+],
+"a": [
+2
+]
+},
+{
+"n": 157,
+"q": "Water line is a line established for locating a station on",
+"o": [
+"Vertically line",
+"Horizontal line",
+"The fuselage of a helicopter"
+],
+"a": [
+0
+]
+},
+{
+"n": 159,
+"q": "Where is buttock line or butt line of an aircraft?",
+"o": [
+"A height measurement left or right of and perpendicular to the horizontal center line",
+"A width measurement left or right and parallel to the vertical center",
+"A width measurement left or right and perpendicular to the vertical center line"
+],
+"a": [
+2
+]
+},
+{
+"n": 160,
+"q": "Zones are characterised by",
+"o": [
+"4 digits",
+"3 digits",
+"2 digits"
+],
+"a": [
+1
+]
+},
+{
+"n": 161,
+"q": "The lower half of the fuselage to the rear bulkhead is",
+"o": [
+"Zone 100",
+"Major sub – zone 100",
+"Major zone 100"
+],
+"a": [
+2
+]
+},
+{
+"n": 162,
+"q": "On large aircraft, the fuselage station datum is usually",
+"o": [
+"The nose of the aircraft",
+"The front major bulkhead",
+"A plane ahead of the nose"
+],
+"a": [
+2
+]
+},
+{
+"n": 163,
+"q": "The water line is",
+"o": [
+"Measurement left or right of a vertical plane passing through the air aircraft longitudinal datum",
+"The vertical distance from the longitudinal distance",
+"A line indicating the maximum displacement of a flying boat"
+],
+"a": [
+1
+]
+},
+{
+"n": 164,
+"q": "A plane perpendicular to the wing and parallel to the body buttock is",
+"o": [
+"Wing buttock line",
+"Buttock line",
+"Wing station"
+],
+"a": [
+1
+]
+},
+{
+"n": 165,
+"q": "A redundant structure is",
+"o": [
+"Fail safe structure",
+"A safe life structure",
+"Damage tolerant structure"
+],
+"a": [
+0
+]
+},
+{
+"n": 166,
+"q": "On large aircraft station numbers are specified by",
+"o": [
+"Airline Transport Association",
+"Codes of Federal Regulation Part 1",
+"Federal Aviation Administration"
+],
+"a": [
+0
+]
+},
+{
+"n": 167,
+"q": "In the aircraft category system, 1G (1 gravitational force) is refer to as",
+"o": [
+"The load factor limit",
+"The weight of the aircraft",
+"Operating load"
+],
+"a": [
+1
+]
+},
+{
+"n": 168,
+"q": "Factor of safety is the ratio of",
+"o": [
+"Ultimate load",
+"Limit load to the ultimate",
+"Operating load to the limit load"
+],
+"a": [
+0
+]
+},
+{
+"n": 169,
+"q": "Zone 320 under the ATA system is",
+"o": [
+"Horizontal stabilizer",
+"Vertical stabilizer",
+"Special point"
+],
+"a": [
+1
+]
+},
+{
+"n": 170,
+"q": "A fuselage station is a",
+"o": [
+"Lateral point on aircraft wing",
+"Lateral point on aircraft fuselage",
+"Longitudinal point on the aircraft fuselage"
+],
+"a": [
+2
+]
+},
+{
+"n": 171,
+"q": "ATA Zone 100",
+"o": [
+"Upper zone",
+"Left hand wing",
+"Lower fuselage"
+],
+"a": [
+2
+]
+},
+{
+"n": 172,
+"q": "Precise point are located on an aircraft by a system of",
+"o": [
+"Longitudinal, vertical and lateral lines",
+"Frame stations, water lines and buttock lines",
+"Frame stations, vertical lines and lateral lines"
+],
+"a": [
+1
+]
+},
+{
+"n": 173,
+"q": "Water lines(WL) are measured points on a",
+"o": [
+"Wing line",
+"Vertical line",
+"Horizontal line"
+],
+"a": [
+1
+]
+},
+{
+"n": 174,
+"q": "What governs the ultimate fatigue life of an aircraft",
+"o": [
+"Flying hours",
+"Pressure cycles",
+"Landings"
+],
+"a": [
+0
+]
+},
+{
+"n": 175,
+"q": "A structure that has a high designed reserve strength would be classified as,",
+"o": [
+"Primary",
+"Tertiary",
+"Secondary"
+],
+"a": [
+0
+]
+},
+{
+"n": 176,
+"q": "The main undercarriage is attached to the",
+"o": [
+"Aircraft structure",
+"Main spar",
+"Front spar"
+],
+"a": [
+0
+]
+},
+{
+"n": 177,
+"q": "An aircraft structure, having multiple load paths, is known as a",
+"o": [
+"Safe life design",
+"Fail safe design",
+"Monique design"
+],
+"a": [
+1
+]
+},
+{
+"n": 178,
+"q": "An ultimate load is the limit load.",
+"o": [
+"Multiply by 1.5",
+"plus, a specified factor depending on the type of structure",
+"Divide by 1.5"
+],
+"a": [
+0
+]
+},
+{
+"n": 179,
+"q": "If an aircraft is loaded above the maximum authorized weight, the structure safety factor is?",
+"o": [
+"Increased",
+"Unaffected",
+"Reduced"
+],
+"a": [
+2
+]
+},
+{
+"n": 180,
+"q": "The main spar of a main plane will be classified as",
+"o": [
+"Fail safe structure",
+"Secondary structure",
+"primary structure"
+],
+"a": [
+2
+]
+},
+{
+"n": 181,
+"q": "Where is fuselage No. 137 located?",
+"o": [
+"137cm aft of the nose or fix reference line",
+"137inches aft of the zero or fix reference line",
+"Aft of the engine"
+],
+"a": [
+1
+]
+},
+{
+"n": 182,
+"q": "Measurement in inches’ transverse to a reference vertical plane are called?",
+"o": [
+"Fuselage line",
+"Buttocks line",
+"Water line"
+],
+"a": [
+1
+]
+},
+{
+"n": 183,
+"q": "If an aircraft electrical system is quoted as 24vdc, what is the output of the generator?",
+"o": [
+"12 volts in series",
+"28 volts in parallel",
+"28 volts in series/parallel"
+],
+"a": [
+1
+]
+},
+{
+"n": 184,
+"q": "In large aircraft, the source of electrical power is normally?",
+"o": [
+"Ac generator with constant speed",
+"Dc generator of large capacity",
+"Ac generator with variable speed"
+],
+"a": [
+0
+]
+},
+{
+"n": 185,
+"q": "The capacity of the battery is measured in",
+"o": [
+"Volts",
+"Cubic centimeters",
+"Ampere-hours"
+],
+"a": [
+2
+]
+},
+{
+"n": 186,
+"q": "During mixing of electrolyte always add",
+"o": [
+"Acid to water",
+"Water to acid",
+"Acid and water to me mixed at the same time"
+],
+"a": [
+0
+]
+},
+{
+"n": 187,
+"q": "In a Gas turbine engine, combustion occurs at:",
+"o": [
+"Constant velocity",
+"Constant pressure",
+"Constant volume"
+],
+"a": [
+1
+]
+},
+{
+"n": 188,
+"q": "Human factor in maintenance is",
+"o": [
+"Essentially about people.",
+"About relationship of people with their equipment, procedures and their environment.",
+"About aviation industry."
+],
+"a": [
+1
+]
+},
+{
+"n": 189,
+"q": "The letter L in the SHEL model stands for:",
+"o": [
+"Maintenance procedure.",
+"Test equipment.",
+"The engineer."
+],
+"a": [
+2
+]
+},
+{
+"n": 190,
+"q": "The letter S in the SHEL model stands for:",
+"o": [
+"Maintenance procedures.",
+"Shortage of manpower.",
+"Shortage of hangar space."
+],
+"a": [
+2
+]
+},
+{
+"n": 191,
+"q": "----------Is the mother of invention:",
+"o": [
+"Hard work.",
+"Necessity.",
+"Burning of mid night oil."
+],
+"a": [
+1
+]
+},
+{
+"n": 192,
+"q": "Pitot tubes are heated.",
+"o": [
+"by compressed bleed air.",
+"electrically.",
+"by kinetic heating."
+],
+"a": [
+1
+]
+},
+{
+"n": 193,
+"q": "A pressure of one atmosphere is equal to.",
+"o": [
+"14.7 PSI.",
+"100 millibar.",
+"1-inch Hg."
+],
+"a": [
+0
+]
+},
+{
+"n": 194,
+"q": "The millibar is a unit of.",
+"o": [
+"barometric pressure.",
+"pressure altitude.",
+"atmospheric temperature."
+],
+"a": [
+0
+]
+},
+{
+"n": 195,
+"q": "The engine instruments are an example of",
+"o": [
+"Attitude instrument",
+"Primary instrument",
+"Secondary instrument"
+],
+"a": [
+2
+]
+},
+{
+"n": 196,
+"q": "The following forces act on an aircraft in level flight: -",
+"o": [
+"Lift, thrust, weight",
+"Lift, thrust, weight, drag",
+"Lift, thrust, weight, role"
+],
+"a": [
+1
+]
+},
+{
+"n": 197,
+"q": "Changes in aircraft weight",
+"o": [
+"Will not affect total drag since it is dependent only upon speed.",
+"Cause corresponding changes in total drag due to Lift change.",
+"Will only affect total drag if the lift is kept constant."
+],
+"a": [
+1
+]
+},
+{
+"n": 198,
+"q": "The normal axis of an aircraft Is a straight line: ·",
+"o": [
+"Passing through the centre of pressure at right angles to the relative airflow.",
+"Passing through the centre of gravity at right angles to the lateral and longitudinal axis",
+"Passing through the fuselage at a point on the line joining each wing tip."
+],
+"a": [
+1
+]
+},
+{
+"n": 199,
+"q": "The lateral axis of an aircraft is the straight line:",
+"o": [
+"Passing through each wing tip.",
+"Passing through the centre of gravity and parallel to a line joining each wing tip",
+"Passing through the centre of pressure at right angles to the airflow."
+],
+"a": [
+1
+]
+},
+{
+"n": 200,
+"q": "Stability of an aircraft Is:",
+"o": [
+"The tendency of the aircraft to return to its original trimmed pos it ion after having been displaced.",
+"The ability of the aircraft to rotate about an axis",
+"The tendency of the aircraft to stall at low airspeed."
+],
+"a": [
+0
+]
+}
+]

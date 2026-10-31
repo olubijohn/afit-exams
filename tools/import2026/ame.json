@@ -1,0 +1,5943 @@
+[
+{
+"q": "The pressure source for aircraft brakes is:",
+"o": [
+"The main hydraulic system",
+"The power brake reservoir",
+"A master cylinder"
+],
+"a": [
+0
+],
+"n": 1,
+"src": "AME PART 1 q1"
+},
+{
+"q": "The purpose of a relief valve in a brake system is to:",
+"o": [
+"reduce pressure for brake application",
+"prevent the tyre from skidding",
+"compensate for thermal expansion"
+],
+"a": [
+2
+],
+"n": 2,
+"src": "AME PART 1 q2"
+},
+{
+"q": "Extension of an oleo shock strut is measured to determine the:",
+"o": [
+"amount of oil in the strut",
+"physical condition of the strut itself",
+"proper operating position of the strut"
+],
+"a": [
+2
+],
+"n": 3,
+"src": "AME PART 1 q3"
+},
+{
+"q": "Which best describes cabin differential pressure?",
+"o": [
+"Difference between cabin flight altitude pressure and Mean Sea Level pressure",
+"Difference between the ambient and internal air pressure",
+"Difference between cabin pressure controller setting and actual cabin pressure"
+],
+"a": [
+1
+],
+"n": 4,
+"src": "AME PART 1 q4"
+},
+{
+"q": "On some cabin pressurization systems, pressurization on the ground is restricted by the",
+"o": [
+"main landing gear operated switch",
+"cabin pressure regulator",
+"negative pressure-relief valve"
+],
+"a": [
+0
+],
+"n": 5,
+"src": "AME PART 1 q5"
+},
+{
+"q": "What is the purpose of a mixing valve in a compressor bleed air air-conditioning system?",
+"o": [
+"Control the supply of hot, cool, and cold air",
+"Distribute conditioned air evenly to all parts of the cabin",
+"Combine ram air with conditioned air"
+],
+"a": [
+0
+],
+"n": 6,
+"src": "AME PART 1 q6"
+},
+{
+"q": "The principal types of hydraulic fluid used in aircraft systems are:",
+"o": [
+"Butalene, polyvinyl and mineral based",
+"Vegetable, phosphate ester and mineral based",
+"Viscous naphthalene, mineral based"
+],
+"a": [
+1
+],
+"n": 7,
+"src": "AME PART 1 q7"
+},
+{
+"q": "The purpose of a hydraulic actuator is:",
+"o": [
+"To act physically during fluid flow",
+"To actuate hydraulic motions",
+"To transform fluid flow into linear or rotary motion"
+],
+"a": [
+2
+],
+"n": 8,
+"src": "AME PART 1 q8"
+},
+{
+"q": "The purpose of a restrictor in a hydraulic system is to restrict:",
+"o": [
+"The rate of build-up of hydraulic pressure",
+"The distance of travel of a hydraulic actuator",
+"The rate of operation of a service component"
+],
+"a": [
+2
+],
+"n": 9,
+"src": "AME PART 1 q9"
+},
+{
+"q": "The function of an accumulator in a hydraulic system is to:",
+"o": [
+"Relieve excess pressure from the system",
+"Store hydraulic fluid under pressure",
+"Collect air from the hydraulic fluid thus reducing the requirement for frequent bleeding"
+],
+"a": [
+1
+],
+"n": 10,
+"src": "AME PART 1 q10"
+},
+{
+"q": "In the diluter demand oxygen regulator, when does the demand valve operate?",
+"o": [
+"When the diluter control is set at normal",
+"When the user demands 100 percent oxygen",
+"When the user breathes"
+],
+"a": [
+2
+],
+"n": 11,
+"src": "AME PART 1 q11"
+},
+{
+"q": "The primary difference between aviation breathing oxygen and other types of commercially available compressed oxygen is that:",
+"o": [
+"the other types are usually somewhat less than 99.5 percent pure oxygen",
+"aviation breathing oxygen has had all the water vapour removed",
+"aviation breathing oxygen has a higher percentage of water vapour to help prevent drying of a person's breathing passages and possible dehydration"
+],
+"a": [
+1
+],
+"n": 12,
+"src": "AME PART 1 q12"
+},
+{
+"q": "Pneumatic systems utilize",
+"o": [
+"return lines",
+"relief valves",
+"diluter valves"
+],
+"a": [
+1
+],
+"n": 13,
+"src": "AME PART 1 q13"
+},
+{
+"q": "What type of selector valve is one of the most commonly used in hydraulic systems to provide for simultaneous flow of fluid into and out of a connected actuating unit?",
+"o": [
+"Four-port, closed-center valve",
+"Three-port, four-way valve",
+"Two-port, open-center valve"
+],
+"a": [
+0
+],
+"n": 14,
+"src": "AME PART 1 q14"
+},
+{
+"q": "Generally, the first step in removing an accumulator from an aircraft is to:",
+"o": [
+"relieve system pressure",
+"discharge the preload",
+"drain the reservoir"
+],
+"a": [
+0
+],
+"n": 15,
+"src": "AME PART 1 q15"
+},
+{
+"q": "The internal resistance of a fluid which tends to prevent it from flowing is called:",
+"o": [
+"volatility",
+"viscosity",
+"acidity"
+],
+"a": [
+1
+],
+"n": 16,
+"src": "AME PART 1 q16"
+},
+{
+"q": "Contact between dissimilar metals, which may lead to corrosion, may be prevented",
+"o": [
+"By fitting bonding strips between the two faces",
+"By applying chromic acid to the two faces",
+"By applying zinc chromate between the two faces"
+],
+"a": [
+2
+],
+"n": 17,
+"src": "AME PART 1 q17"
+},
+{
+"q": "Mercury attack on aluminum alloys can be recognized visually by",
+"o": [
+"A grayish powder, fuzzy deposits, or whiskery growth",
+"A yellowish stain or coating",
+"A black stain turning to reddish powder"
+],
+"a": [
+0
+],
+"n": 18,
+"src": "AME PART 1 q18"
+},
+{
+"q": "Heavy corrosion deposits on clad aluminum alloys should be removed",
+"o": [
+"Mechanically using a pneumatic vibrator",
+"Chemically by use of trichloroethylene",
+"Chemically by use of phosphoric acid"
+],
+"a": [
+2
+],
+"n": 19,
+"src": "AME PART 1 q19"
+},
+{
+"q": "When an aircraft's oxygen system has developed a leak, the lines and fittings should be",
+"o": [
+"removed and replaced",
+"inspected using a special oxygen system dye penetrant",
+"bubble tested with a special soap solution manufactured specifically for this purpose"
+],
+"a": [
+2
+],
+"n": 20,
+"src": "AME PART 1 q20"
+},
+{
+"q": "When silica gel has absorbed moisture the colour changes to:",
+"o": [
+"blue",
+"white",
+"pink"
+],
+"a": [
+2
+],
+"n": 21,
+"src": "AME PART 1 q21"
+},
+{
+"q": "Exfoliation corrosion is sometimes referred to as",
+"o": [
+"Layer corrosion",
+"Sub surface corrosion",
+"Filiform corrosion"
+],
+"a": [
+0
+],
+"n": 22,
+"src": "AME PART 1 q22"
+},
+{
+"q": "Which of the following lists only desirable properties of a good hydraulic fluid?",
+"o": [
+"High viscosity, low flash point, chemical stability, high fire point",
+"High flash point, low viscosity, chemical stability, low fire point",
+"Low viscosity, chemical stability, high flash point, high fire point"
+],
+"a": [
+2
+],
+"n": 23,
+"src": "AME PART 1 q23"
+},
+{
+"q": "At which component in an air-cycle cooling system does air undergo a pressure and temperature drop?",
+"o": [
+"Expansion turbine",
+"Primary heat exchanger",
+"Refrigerator bypass valve"
+],
+"a": [
+0
+],
+"n": 24,
+"src": "AME PART 1 q24"
+},
+{
+"q": "Corrosion may be identified on a magnesium alloy component",
+"o": [
+"By a red powder, accompanied by blistering",
+"By a green powder, accompanied by pitting",
+"By a grey powder, accompanied by pitting"
+],
+"a": [
+2
+],
+"n": 25,
+"src": "AME PART 1 q25"
+},
+{
+"q": "Quick-disconnect couplings in hydraulic systems provide a means of:",
+"o": [
+"easily replacing hydraulic lines in areas where leaks are common",
+"quickly connecting and disconnecting hydraulic lines and eliminate the possibility of contaminates entering the system",
+"quickly connecting and disconnecting hydraulic lines without loss of fluid or entrance of air into the system"
+],
+"a": [
+2
+],
+"n": 26,
+"src": "AME PART 1 q26"
+},
+{
+"q": "A non-destructive testing technique which is suitable for light aluminum alloys is",
+"o": [
+"Magnetic flow",
+"Ultrasonic",
+"Electroflux"
+],
+"a": [
+1
+],
+"n": 27,
+"src": "AME PART 1 q27"
+},
+{
+"q": "Which of the following N.D.T. techniques cannot be used on a component manufactured from austenitic stainless steel?",
+"o": [
+"Penetrant dye",
+"Magnetic-particle",
+"Hot oil and chalk"
+],
+"a": [
+1
+],
+"n": 28,
+"src": "AME PART 1 q28"
+},
+{
+"q": "If a non-ferrous metal being examined by chemical test turns black when caustic soda is applied to the surface, metal is",
+"o": [
+"Aluminum",
+"Alclad",
+"Duralumin"
+],
+"a": [
+2
+],
+"n": 29,
+"src": "AME PART 1 q29"
+},
+{
+"q": "Zinc chromate applied between faying surfaces will",
+"o": [
+"Improve bonding between them",
+"Improve adhesion thus relieving the amount of",
+"Inhibit dissimilar metal (electrolytic) corrosion"
+],
+"a": [
+2
+],
+"n": 30,
+"src": "AME PART 1 q30"
+},
+{
+"q": "In the autopilot system, the position transmitter senses",
+"o": [
+"The actual rate of roll, pitches, and yaws",
+"An indication of the static and dynamic surface pressure",
+"The angular displacement of a control"
+],
+"a": [
+2
+],
+"n": 31,
+"src": "AME PART 1 q31"
+},
+{
+"q": "To repair an integral fuel tank you should use",
+"o": [
+"Rivets",
+"Bronzing",
+"Welding"
+],
+"a": [
+0
+],
+"n": 32,
+"src": "AME PART 1 q32"
+},
+{
+"q": "Hot compressor bleed air operates the conditioned air system on some turbine aircraft, how is cold air supplied?",
+"o": [
+"By the air cycle machine turbine",
+"By the flow control unit",
+"By the ram cycle cooling unit"
+],
+"a": [
+0
+],
+"n": 33,
+"src": "AME PART 1 q33"
+},
+{
+"q": "What test is used to determine the serviceability of an oxygen cylinder?",
+"o": [
+"Pressure test with manometer",
+"Pressure test with nitrogen",
+"Pressure test with water"
+],
+"a": [
+2
+],
+"n": 34,
+"src": "AME PART 1 q34"
+},
+{
+"q": "In an aircraft anti-skid system, the electrical solenoid",
+"o": [
+"Allows less brake pressure by allowing a shuttling of the brake booster",
+"Relieves the pressure to the brakes of the affected wheels",
+"Immediately creates a transfer of pressure to the unaffected wheel brakes"
+],
+"a": [
+1
+],
+"n": 35,
+"src": "AME PART 1 q35"
+},
+{
+"q": "During aircraft operation, a wheel brake fire occurs. Which of the following should be used to extinguish this type of fire?",
+"o": [
+"dry chemicals",
+"moist chemicals",
+"Foam similar as that used to coat the runway in case of an aircraft wheels up landing"
+],
+"a": [
+0
+],
+"n": 36,
+"src": "AME PART 1 q36"
+},
+{
+"q": "What is windshear?",
+"o": [
+"A phenomenon that can occur anywhere within the atmosphere",
+"It can have both horizontal and vertical components and consists of large volumes of air that moves in different and usually opposite direction",
+"None of the above"
+],
+"a": [
+1
+],
+"n": 37,
+"src": "AME PART 1 q37"
+},
+{
+"q": "Windshear warning conditions are caused by",
+"o": [
+"Up drafts and temperature increase",
+"Large tailwinds and down drafts",
+"Rain, thunderstorm accompany with hail storm"
+],
+"a": [
+1
+],
+"n": 38,
+"src": "AME PART 1 q38"
+},
+{
+"q": "Skydrol fluid is protected completely from environmental effect",
+"o": [
+"By storing in quart cans which are hermetically sealed",
+"By storing in large containers which are hermetically sealed",
+"Storage form has nothing to do with the environment"
+],
+"a": [
+0
+],
+"n": 39,
+"src": "AME PART 1 q39"
+},
+{
+"q": "Which statement is correct about analyzing skydrol?",
+"o": [
+"skydrol should be analyzed when stored in containers between two to three years",
+"if stored in containers other than hermetically sealed cans then it should be analyzed between three to five years",
+"it should be analyzed after five years"
+],
+"a": [
+1
+],
+"n": 40,
+"src": "AME PART 1 q40"
+},
+{
+"q": "What controls the inflation sequence in a pneumatic deicer boot system?",
+"o": [
+"Shuttle valve",
+"Vacuum pump",
+"Distribution valve"
+],
+"a": [
+2
+],
+"n": 41,
+"src": "AME PART 1 q41"
+},
+{
+"q": "Which of the following regulates the vacuum of the air pump to hold the deicing boots deflated when the pneumatic deicing system is off?",
+"o": [
+"Distributor valve",
+"Pressure regulator",
+"Suction relief valve"
+],
+"a": [
+2
+],
+"n": 42,
+"src": "AME PART 1 q42"
+},
+{
+"q": "Which statement is true about spilled skydrol?",
+"o": [
+"paint rubber as well as plastic materials will disintegrate when in contact with skydrol",
+"clothing will mostly not be affected. Further cleaning can be done using Freon, alcohol, mec.",
+"both A and B are correct"
+],
+"a": [
+0
+],
+"n": 43,
+"src": "AME PART 1 q43"
+},
+{
+"q": "Cabin heating systems that utilize an exhaust heat exchanger as a source of Heated air",
+"o": [
+"should be checked frequently for leaks of exhaust gases",
+"should be checked with a carbon monoxide testing instrument",
+"both A and B are correct"
+],
+"a": [
+2
+],
+"n": 44,
+"src": "AME PART 1 q44"
+},
+{
+"q": "The primary purpose of the autopilot is to",
+"o": [
+"Hold a predetermined heading of the aircraft under adverse wing conditions",
+"Relieves the pilot of undue stress during long period of flight",
+"Aid the pilot when the actual landing (not simulated) on the runway"
+],
+"a": [
+1
+],
+"n": 45,
+"src": "AME PART 1 q45"
+},
+{
+"q": "You are instructed to check a fire extinguisher bottle for full charge. You can determine the amount of content by",
+"o": [
+"checking the pressure of extinguisher bottle",
+"checking the height of the content by looking through the sight gage",
+"Weighing the bottle"
+],
+"a": [
+2
+],
+"n": 46,
+"src": "AME PART 1 q46"
+},
+{
+"q": "A shock wave is a very thin region in which there is a sudden decrease of",
+"o": [
+"Pressure",
+"Velocity",
+"Temperature"
+],
+"a": [
+1
+],
+"n": 47,
+"src": "AME PART 1 q47"
+},
+{
+"q": "What may be used to clean deicer boots?",
+"o": [
+"Unleaded gasoline or Jet A fuel",
+"Naphtha",
+"Soap and water"
+],
+"a": [
+2
+],
+"n": 48,
+"src": "AME PART 1 q48"
+},
+{
+"q": "The purpose of aircraft wing dihedral is to increase",
+"o": [
+"Lateral stability",
+"Longitudinal stability",
+"Lift coefficient of the wing"
+],
+"a": [
+0
+],
+"n": 49,
+"src": "AME PART 1 q49"
+},
+{
+"q": "Stall warning systems are generally designed to begin warning the pilot when a stall",
+"o": [
+"is imminent",
+"is starting to occur",
+"first affects the outboard portions of the wings"
+],
+"a": [
+0
+],
+"n": 50,
+"src": "AME PART 1 q50"
+},
+{
+"q": "Which repair would require a landing gear retraction test?",
+"o": [
+"Landing gear safety switch",
+"Red warning light bulb",
+"Gear downlock microswitch"
+],
+"a": [
+2
+],
+"n": 51,
+"src": "AME PART 1 q51"
+},
+{
+"q": "Which of the following conditions is most likely to cause the landing gear warning signal to sound?",
+"o": [
+"Landing gear locked down and throttle advanced",
+"Landing gear locked down and throttle retarded",
+"Landing gear not locked down and throttle"
+],
+"a": [
+2
+],
+"n": 52,
+"src": "AME PART 1 q52"
+},
+{
+"q": "Landing gear warning systems usually provide which of the following indications?",
+"o": [
+"Red light for unsafe gear, no light for gear down, green light for gear up",
+"Green light for gear up and down, red light for unsafe gear",
+"Red light for unsafe gear, green light for gear down, no light for gear up"
+],
+"a": [
+2
+],
+"n": 53,
+"src": "AME PART 1 q53"
+},
+{
+"q": "When removing ground power from an aircraft after starting engines",
+"o": [
+"removal of the ground power plug always automatically transfers power to the aircraft system",
+"the ground power supply should be switched off before removing the ground power supply plug",
+"the ground power unit will automatically stop on removal of the ground power plug"
+],
+"a": [
+1
+],
+"n": 54,
+"src": "AME PART 1 q54"
+},
+{
+"q": "When the generator field is supplied through the battery master switch, if the switch is selected off whilst the engine is running",
+"o": [
+"the generator will continue to produce power since it is self-sustaining",
+"the generator will be de-excited and hence cease producing power",
+"the generator will only continue to produce power if the engine is above idle since the generator is then self-sustaining"
+],
+"a": [
+0
+],
+"n": 55,
+"src": "AME PART 1 q55"
+},
+{
+"q": "Since electrical supply taken from a bus-bar are in parallel, isolating some of the services would",
+"o": [
+"reduce the current consumption from the bus-bar",
+"not affect the current consumption, it would reduce the voltage",
+"increase the current consumption from the bus-bar"
+],
+"a": [
+0
+],
+"n": 56,
+"src": "AME PART 1 q56"
+},
+{
+"q": "When towing a large aircraft",
+"o": [
+"a person should be in the cockpit to watch for obstructions",
+"persons should be stationed at the nose, each wingtip, and the empennage at all times",
+"a person should be in the cockpit to operate the brakes"
+],
+"a": [
+2
+],
+"n": 57,
+"src": "AME PART 1 q57"
+},
+{
+"q": "When checking the bonding of a component which is anodically treated against corrosion the",
+"o": [
+"resistance of the anodic film is negligible and may be ignored",
+"resistance of the anodic film is negligible and may be ignored",
+"Anodic film must be penetrated to ensure good contact of the test probes"
+],
+"a": [
+2
+],
+"n": 58,
+"src": "AME PART 1 q58"
+},
+{
+"q": "When resistor are in parallel",
+"o": [
+"the total resistance is smaller than the smallest resistor",
+"the total resistance is larger than the smallest resistor",
+"the total resistance is the sum of all resistor"
+],
+"a": [
+0
+],
+"n": 59,
+"src": "AME PART 1 q59"
+},
+{
+"q": "If a Ni-Cad battery overheats, it is an indication of",
+"o": [
+"thermal runaway",
+"the generator not being connected to the bus-bar",
+"too low generator voltage regulator setting"
+],
+"a": [
+0
+],
+"n": 60,
+"src": "AME PART 1 q60"
+},
+{
+"q": "The result of an insulation resistance test of an electrical cable",
+"o": [
+"also indicates continuity of the cable",
+"may vary with the weather conditions under which the aircraft is tested",
+"will always be infinity if the cable is correctly installed"
+],
+"a": [
+1
+],
+"n": 61,
+"src": "AME PART 1 q61"
+},
+{
+"q": "A hydraulic system operational check during ground runup of an aircraft indicates that the wing flaps cannot be lowered using the main hydraulic system, but can be lowered by using the emergency hand pump. Which is the most likely cause?",
+"o": [
+"The flap selector valve has a severe internal leak",
+"The pressure accumulator is not supplying pressure to the system",
+"The fluid level in the reservoir is low"
+],
+"a": [
+2
+],
+"n": 62,
+"src": "AME PART 1 q62"
+},
+{
+"q": "The tube of an airplane tyre should be lined up with",
+"o": [
+"the red dot on the tyre",
+"the line that indicates a possible slippage of the tyre on the wheel",
+"the valve core of the tube at the red dot on the tyre"
+],
+"a": [
+2
+],
+"n": 63,
+"src": "AME PART 1 q63"
+},
+{
+"q": "After bleeding the brakes, an engineer finds they are still spongy. This is probably caused by",
+"o": [
+"extremely rigid flexible hose installed in the brake system",
+"flexible hose that has deteriorated",
+"incorrect fluid in the brake system"
+],
+"a": [
+1
+],
+"n": 64,
+"src": "AME PART 1 q64"
+},
+{
+"q": "The name of the hydraulic valve that opens the landing gear door prior to landing gear extension is",
+"o": [
+"sequence valve",
+"gear-door time lag valve",
+"time lag extension valve"
+],
+"a": [
+0
+],
+"n": 65,
+"src": "AME PART 1 q65"
+},
+{
+"q": "If the compressor fails, which of the following prevents loss of cabin pressurization",
+"o": [
+"air that is available from the secondary system",
+"a check valve (one-way valve) in the air duct",
+"the secondary cabin outflow valve"
+],
+"a": [
+1
+],
+"n": 66,
+"src": "AME PART 1 q66"
+},
+{
+"q": "When checking for oxygen leaks, you should use",
+"o": [
+"a high flash-point mineral solution",
+"a soap solution specially prepared for this purpose",
+"any suitable solution that will be compatible since oxygen is not inflammable"
+],
+"a": [
+1
+],
+"n": 67,
+"src": "AME PART 1 q67"
+},
+{
+"q": "Which of the following instruments normally have operating range and unit markings?",
+"o": [
+"directional gyro and airspeed indicator",
+"cylinder head temperature gage (CHT) and altimeter",
+"airspeed indicator and CHT"
+],
+"a": [
+2
+],
+"n": 68,
+"src": "AME PART 1 q68"
+},
+{
+"q": "A ditching control is used to:",
+"o": [
+"close all valves and inlets",
+"rapidly inflate floatation bags",
+"rapidly depressurize the cabin"
+],
+"a": [
+0
+],
+"n": 69,
+"src": "AME PART 1 q69"
+},
+{
+"q": "The purpose of a mass flow controller is to:",
+"o": [
+"ensure that a constant mass of air is delivery to the cabin at all times",
+"allow the pilot to select the desire cabin altitude",
+"ensure that there is an adequate supply of cool air through the heat exchangers"
+],
+"a": [
+0
+],
+"n": 70,
+"src": "AME PART 1 q70"
+},
+{
+"q": "Which of the following statements concerning humidity is correct?",
+"o": [
+"humidity decreases with decreasing temperature",
+"humidity increases with decreasing temperature",
+"humidity increases with increasing temperature"
+],
+"a": [
+2
+],
+"n": 71,
+"src": "AME PART 1 q71"
+},
+{
+"q": "Electrically driven discharge valves are usually equipped with more than one motor. The reason for this is:",
+"o": [
+"to provide the extra power needed to drive large valve against the high mass of air used in large jets",
+"that more motors provide for finer adjustment of the valve position",
+"to provide a means of back up if a particular motor or its electrical supply fails"
+],
+"a": [
+2
+],
+"n": 72,
+"src": "AME PART 1 q72"
+},
+{
+"q": "When a mechanical linkage passes through pressure bulkheads it:",
+"o": [
+"must always be pressure sealed",
+"need only be sealed if motion is linear",
+"need only be sealed if motion is rotary"
+],
+"a": [
+0
+],
+"n": 73,
+"src": "AME PART 1 q73"
+},
+{
+"q": "Failure of the normal maximum differential control is catered for by fitting:",
+"o": [
+"safety relief valves",
+"inward relief valves",
+"altitude selector valves"
+],
+"a": [
+0
+],
+"n": 74,
+"src": "AME PART 1 q74"
+},
+{
+"q": "During a normal pressurized climb following Take-off:",
+"o": [
+"the cabin ROC is less than the aircraft's ROC",
+"the cabin ROC is more than the aircraft's ROC",
+"the ROC is constant"
+],
+"a": [
+0
+],
+"n": 75,
+"src": "AME PART 1 q75"
+},
+{
+"q": "Cabin pressurization is achieved by:",
+"o": [
+"controlling the supply of air to the cabin",
+"controlling the amount of air release from the cabin",
+"varying the output of the compressor"
+],
+"a": [
+1
+],
+"n": 76,
+"src": "AME PART 1 q76"
+},
+{
+"q": "In a pneumatic pressurization system, positive pressure signals from the controller will cause",
+"o": [
+"the discharge valve to move towards closed",
+"the discharge valve to move towards open",
+"an excessive rate of cabin air discharge"
+],
+"a": [
+1
+],
+"n": 77,
+"src": "AME PART 1 q77"
+},
+{
+"q": "In pressurized aircraft, temperature control is mainly achieved by:",
+"o": [
+"adding heat to the pressurizing air",
+"extracting heat from the pressurizing air",
+"varying the cabin pressure"
+],
+"a": [
+1
+],
+"n": 78,
+"src": "AME PART 1 q78"
+},
+{
+"q": "The purpose of a spill valve is to:",
+"o": [
+"Provide additional heat by creating back pressure",
+"release excess air being delivered at sea level and the lower altitude",
+"relieve excess pressure in the air supply ducting"
+],
+"a": [
+1
+],
+"n": 79,
+"src": "AME PART 1 q79"
+},
+{
+"q": "Ball bearings accept mainly",
+"o": [
+"Tangential loads",
+"Axial and radial loads",
+"Radial loads"
+],
+"a": [
+2
+],
+"n": 80,
+"src": "AME PART 1 q80"
+},
+{
+"q": "A right angled triangle has sides of 3 and 4 units, the other side will be:",
+"o": [
+"6 units",
+"5 units",
+"4 units"
+],
+"a": [
+1
+],
+"n": 81,
+"src": "AME PART 1 q81"
+},
+{
+"q": "The fraction 3/8 as a decimal is",
+"o": [
+"0.375",
+"0.250",
+"0.240"
+],
+"a": [
+0
+],
+"n": 82,
+"src": "AME PART 1 q82"
+},
+{
+"q": "The solution to 0.75 x 0.003 is:",
+"o": [
+"0.0025",
+"0.0225",
+"3.00225"
+],
+"a": [
+0
+],
+"n": 83,
+"src": "AME PART 1 q83"
+},
+{
+"q": "Dimpling is a process of:",
+"o": [
+"stop drilling a crack",
+"anodising aluminium surface to prevent corrosion",
+"indenting thin sheet material around a drilled hole to accommodate a counter sunk rivet"
+],
+"a": [
+2
+],
+"n": 84,
+"src": "AME PART 1 q84"
+},
+{
+"q": "At high speed an aircraft will produce",
+"o": [
+"more profile drag than induced drag",
+"more induced drag than profile drag",
+"about the same profile drag as induced drag"
+],
+"a": [
+0
+],
+"n": 85,
+"src": "AME PART 1 q85"
+},
+{
+"q": "The desire effect of using winglets on an aircraft wingtips is to",
+"o": [
+"increase the lift to drag ratio",
+"reduce the aspect ratio",
+"optimize wing dihedral and improve lateral stability"
+],
+"a": [
+0
+],
+"n": 86,
+"src": "AME PART 1 q86"
+},
+{
+"q": "The purpose of stall strips on airplane wings is to",
+"o": [
+"increase lift in the areas of installation",
+"prevent stall in the areas of installation",
+"ensure that the wing root areas stall first"
+],
+"a": [
+2
+],
+"n": 87,
+"src": "AME PART 1 q87"
+},
+{
+"q": "Nicks around the edge of the head of a bolt indicates",
+"o": [
+"Light alloy",
+"High tensile steel",
+"Low tensile steel"
+],
+"a": [
+1
+],
+"n": 88,
+"src": "AME PART 1 q88"
+},
+{
+"q": "A laminar boundary layer will produce",
+"o": [
+"more skin friction drag than a turbulent one",
+"less skin friction drag than a turbulent one",
+"the same skin friction drag as a turbulent one"
+],
+"a": [
+1
+],
+"n": 89,
+"src": "AME PART 1 q89"
+},
+{
+"q": "Aerodynamic balance is used to:",
+"o": [
+"Prevent flutter of the flying controls",
+"Make the flying controls easier to move",
+"Reduce the control load to zero"
+],
+"a": [
+1
+],
+"n": 90,
+"src": "AME PART 1 q90"
+},
+{
+"q": "In a differential aileron system:",
+"o": [
+"the aileron moves further up than down",
+"the aileron moves further down than up",
+"the leading edge of the up going aileron"
+],
+"a": [
+0
+],
+"n": 91,
+"src": "AME PART 1 q91"
+},
+{
+"q": "The boundary layer of a body in a moving airstreams is:",
+"o": [
+"A thin layer of air over the surface where the air is stationary",
+"A layer of separated flow where the air is turbulent",
+"A layer of air over the surface where the air is retarded by the effect of friction"
+],
+"a": [
+2
+],
+"n": 92,
+"src": "AME PART 1 q92"
+},
+{
+"q": "On an aircraft fitted with spoilers for lateral control, roll to the Right is caused by",
+"o": [
+"The Right spoiler extending, and the Left spoiler remaining retracted",
+"The Left spoiler extending, and the Right spoiler remaining retracted",
+"Both spoilers extending"
+],
+"a": [
+0
+],
+"n": 93,
+"src": "AME PART 1 q93"
+},
+{
+"q": "The identification of the horn for the landing gear and the stall warning is achieved by:",
+"o": [
+"Pulsing the gear warning horn",
+"Using horns of different notes",
+"Pulsing the stall warning horn"
+],
+"a": [
+2
+],
+"n": 94,
+"src": "AME PART 1 q94"
+},
+{
+"q": "Over pressure is usually caused by:",
+"o": [
+"Engine r.p.m. too high",
+"Excessive bleeds switched on",
+"The HP Shut Off Valve seized open"
+],
+"a": [
+2
+],
+"n": 95,
+"src": "AME PART 1 q95"
+},
+{
+"q": "Engine air used for air conditioning and pressurization is usually called:",
+"o": [
+"compressed air",
+"ram air",
+"bleed air"
+],
+"a": [
+2
+],
+"n": 96,
+"src": "AME PART 1 q96"
+},
+{
+"q": "The exhaust heater system uses:",
+"o": [
+"Charge air to heat the cabin",
+"Ram air to heat the cabin",
+"Compressor air to heat the cabin"
+],
+"a": [
+1
+],
+"n": 97,
+"src": "AME PART 1 q97"
+},
+{
+"q": "To ensure the correct mixing of the conditioned air, mixing chamber has:",
+"o": [
+"Jet pumps",
+"Baffles",
+"Swirl devices"
+],
+"a": [
+0
+],
+"n": 98,
+"src": "AME PART 1 q98"
+},
+{
+"q": "The water extractor is normally located:",
+"o": [
+"Before the cold air unit",
+"Between the cold air unit and the outlet to the cabin",
+"Between the cold air unit compressor and turbine"
+],
+"a": [
+1
+],
+"n": 99,
+"src": "AME PART 1 q99"
+},
+{
+"q": "What does a rectifier do?",
+"o": [
+"Changes DC to AC",
+"Reduces voltage",
+"Changes AC to DC"
+],
+"a": [
+2
+],
+"n": 100,
+"src": "AME PART 1 q100"
+},
+{
+"q": "When AC generators are operated in parallel, the;",
+"o": [
+"Amperes and voltage must be equal",
+"Amperes and frequency must be equal",
+"Frequency and voltage must be equal."
+],
+"a": [
+2
+],
+"n": 101,
+"src": "AME PART 1 q101"
+},
+{
+"q": "Grounding means electrically connecting a conductive object to the primary structure. One purpose of this is to;",
+"o": [
+"Prevent the development of radio frequency potentials",
+"Prevent current return path",
+"Allow static charge accumulation"
+],
+"a": [
+0
+],
+"n": 102,
+"src": "AME PART 1 q102"
+},
+{
+"q": "The primary considerations when selecting a cable is;",
+"o": [
+"The voltage and the amperage of the load it must carry",
+"System voltage and cable length",
+"Current carrying capacity and the allowable voltage drop"
+],
+"a": [
+2
+],
+"n": 103,
+"src": "AME PART 1 q103"
+},
+{
+"q": "A battery generator system provides direct current. On installation requiring AC from the battery generator system, it is necessary to have;",
+"o": [
+"Variable resistor between the battery and the generator",
+"Transformer",
+"An inverter"
+],
+"a": [
+2
+],
+"n": 104,
+"src": "AME PART 1 q104"
+},
+{
+"q": "The purpose of a rectifier in an electrical system to change;",
+"o": [
+"DC to AC",
+"AC to DC",
+"Frequency to AC"
+],
+"a": [
+1
+],
+"n": 105,
+"src": "AME PART 1 q105"
+},
+{
+"q": "Which characteristics apply to aircraft hydraulic fluid; i. Minimum maintenance requirement ii. Light weight iii. About 80% operating efficiency (20% loss due to fluid friction) iiii. Simple to inspect",
+"o": [
+"I, ii, iii and iv.",
+"I, ii and iv",
+"I, iii and iv 108. Pressure is the term used to describe force per unit area. Pressure is usually expressed as; a. Pounds per inch b. Pounds per square inch c. Pounds per cubic inch"
+],
+"a": [
+1
+],
+"n": 108,
+"src": "AME PART 1 q108"
+},
+{
+"q": "If two actuating cylinders which have the same cross sectional area but different length of stroke are connected to the same source of hydraulic pressure, the will exert;",
+"o": [
+"Different amount of force but will move at the same rate of speed",
+"Equal amount of force and will move at the same rate of speed",
+"Equal amount of force and will move at the same rate of speed"
+],
+"a": [
+1
+],
+"n": 109,
+"src": "AME PART 1 q109"
+},
+{
+"q": "Using a hand pump, a force of 100 psi has been built up in a hydraulic system. The hand pump piston is 1inch in diameter. A 1/2inch line connects to the pump to an actuating cylinder 2inch in diameter. What is the pressure in the line between the hand pump and the actuating cylinder?",
+"o": [
+"150 PSI",
+"100 PSI",
+"200 PSI"
+],
+"a": [
+1
+],
+"n": 110,
+"src": "AME PART 1 q110"
+},
+{
+"q": "A cross flow valve which is designed to bypass fluid from one side of an actuating cylinder to the other is commonly found in which of these systems?",
+"o": [
+"Flap overload system",
+"Landing gear system",
+"Engine cowl flap system"
+],
+"a": [
+1
+],
+"n": 111,
+"src": "AME PART 1 q111"
+},
+{
+"q": "To prevent external and internal leakages in an aircraft hydraulics system, the commonly used type of seal is the?",
+"o": [
+"O ring seal",
+"Gasket seal",
+"Chevron seals"
+],
+"a": [
+0
+],
+"n": 112,
+"src": "AME PART 1 q112"
+},
+{
+"q": "What type of packings should be used in a hydraulic component to be installed in a system containing skydrol?",
+"o": [
+"AN packings made of neoprene",
+"Packing materials made of ester based fluids",
+"AN packings made of natural rubber"
+],
+"a": [
+1
+],
+"n": 113,
+"src": "AME PART 1 q113"
+},
+{
+"q": "The installation of a new metal hydraulic line should be made with;",
+"o": [
+"A straight tube to withstand the shocks and vibrations to which it will be subjected to",
+"Enough bends to allow the tube to expand and contract with temperature changes and to absorb vibrations",
+"A straight tube to permit proper alignment of the fitting and thereby reduce fluid loss through leakage"
+],
+"a": [
+1
+],
+"n": 114,
+"src": "AME PART 1 q114"
+},
+{
+"q": "When servicing aircraft hydraulic system, use the fluid type specified in the aircraft manufacturers maintenance manual or on the instruction plate affix to the reservoir or unit. ii. hydraulic fluids for aircrafts are dyed a specific color for each type of fluid.",
+"o": [
+"Only i. is true",
+"Only ii. Is true",
+"Both i. and ii. are correct."
+],
+"a": [
+2
+],
+"n": 115,
+"src": "AME PART 1 q115"
+},
+{
+"q": "Which of the following is adversely affected by atmospheric humidity if left unprotected?",
+"o": [
+"MIL-H5606 hydraulic fluid",
+"Skydrol hydraulic fluid",
+"None of the above"
+],
+"a": [
+1
+],
+"n": 116,
+"src": "AME PART 1 q116"
+},
+{
+"q": "Which of these is a characteristic of synthetic base hydraulic fluid?",
+"o": [
+"Low flash point",
+"Low water retention",
+"High flash point"
+],
+"a": [
+2
+],
+"n": 117,
+"src": "AME PART 1 q117"
+},
+{
+"q": "Two hydraulic fluids commonly used in civil aircraft are;",
+"o": [
+"Mineral base and phosphate ester base",
+"Mixed mineral bas and phosphate ester base",
+"Petroleum base and mixed phosphate ester base"
+],
+"a": [
+0
+],
+"n": 118,
+"src": "AME PART 1 q118"
+},
+{
+"q": "Which of the following lists only desirable properties of a good hydraulic fluid?",
+"o": [
+"High viscosity, low flash point, chemical stability and high fire point",
+"Low viscosity, chemical stability, high flash point and high fire point",
+"High flash point, chemical stability, low viscosity and low fire point"
+],
+"a": [
+1
+],
+"n": 119,
+"src": "AME PART 1 q119"
+},
+{
+"q": "If an aircraft hydraulic system requires a mineral based fluid but phosphate ester base fluid is used, what will be the effect on the system?",
+"o": [
+"System will be contaminated, fluid will not blend, and seals will fail",
+"No effect",
+"System will be contaminated, fluid will not blend, and the there will be no seal failure"
+],
+"a": [
+0
+],
+"n": 120,
+"src": "AME PART 1 q120"
+},
+{
+"q": "What is used to flush a system serviced with MIL-H5606",
+"o": [
+"Naphta or varsol",
+"Laquer thinner or trichloroethylene",
+"Methyl ethyl ketone or kerosene"
+],
+"a": [
+0
+],
+"n": 121,
+"src": "AME PART 1 q121"
+},
+{
+"q": "Phosphate ester base hydraulic fluid is susceptible to contamination from;",
+"o": [
+"Ethylene propylene elastomers",
+"Teflon seal materials",
+"Water in the atmosphere"
+],
+"a": [
+2
+],
+"n": 122,
+"src": "AME PART 1 q122"
+},
+{
+"q": "Hydraulic system thermal relief valves are set to open when;",
+"o": [
+"Lower pressure than the system pressure regulator",
+"Lower pressure than the system pressure relief valve",
+"Higher pressure than the system pressure relief valve"
+],
+"a": [
+2
+],
+"n": 123,
+"src": "AME PART 1 q123"
+},
+{
+"q": "Quick disconnect couplings in a hydraulic system provides a means of;",
+"o": [
+"Easily replacing lines in areas where leaks are common",
+"Quickly connecting and disconnecting hydraulic lines and eliminating possibility of contaminate entering the system.",
+"Quickly connecting and disconnecting hydraulic lines without loss of fluid or air entering the system"
+],
+"a": [
+2
+],
+"n": 124,
+"src": "AME PART 1 q124"
+},
+{
+"q": "What device on a hydraulic system with a constant delivery pump allows circulation of fluid when no demands are on the system?",
+"o": [
+"Pressure regulator",
+"Pressure relief valve",
+"Shuttle valve"
+],
+"a": [
+0
+],
+"n": 125,
+"src": "AME PART 1 q125"
+},
+{
+"q": "The purpose of an orifice check valve is to;",
+"o": [
+"Restricts flow in one direction but allow free flow in another",
+"Relieve pressure in a sensitive component",
+"Relieve pressure in one direction and prevent flow in the other direction."
+],
+"a": [
+0
+],
+"n": 126,
+"src": "AME PART 1 q126"
+},
+{
+"q": "Which of these allows free fluid flow I one direction and no flow in the other direction?",
+"o": [
+"Check valve",
+"Metering piston",
+"Shutoff valve"
+],
+"a": [
+0
+],
+"n": 127,
+"src": "AME PART 1 q127"
+},
+{
+"q": "The component in the hydraulic system that is used to direct fluid flow is the;",
+"o": [
+"Check valve",
+"Orifice check valve",
+"Selector valve"
+],
+"a": [
+2
+],
+"n": 128,
+"src": "AME PART 1 q128"
+},
+{
+"q": "Generally the first step in removing an accumulator from a hydraulic system is to;",
+"o": [
+"Drain the reservoir",
+"Relief the system pressure",
+"Discharge the preload pressure"
+],
+"a": [
+2
+],
+"n": 129,
+"src": "AME PART 1 q129"
+},
+{
+"q": "The primary purpose of a hydraulic actuating unit is to transform;",
+"o": [
+"Fluid pressure to useful work",
+"Fluid motion into mechanical pressure and back again",
+"Energy from one form to another"
+],
+"a": [
+1
+],
+"n": 130,
+"src": "AME PART 1 q130"
+},
+{
+"q": "The primary function of flap overload valve is to;",
+"o": [
+"Boost normal system pressure to the flaps in order to overcome the air loads acting on the relatively large flap area",
+"Prevent the flaps from being lowered at airspeeds which will impose excessive structural loads",
+"Cause the flap segments located on opposite side of the aircraft center line to extend and retract together so that the aircraft will not become aerodynamically unbalanced to the extent that it becomes uncontrollable"
+],
+"a": [
+1
+],
+"n": 131,
+"src": "AME PART 1 q131"
+},
+{
+"q": "The unit which transforms fluid pressure into linear motion is called the;",
+"o": [
+"Accumulator",
+"Actuating cylinder",
+"Hydraulic pump"
+],
+"a": [
+1
+],
+"n": 132,
+"src": "AME PART 1 q132"
+},
+{
+"q": "If it is necessary to adjust several pressure regulating valves in a hydraulic system, what particular sequence, if any should be followed?",
+"o": [
+"Units are independent of each other, therefore no particular sequence should be followed",
+"Units most distant from the hydraulic pump should be adjusted",
+"Units with the highest pressure settings should be adjusted"
+],
+"a": [
+2
+],
+"n": 133,
+"src": "AME PART 1 q133"
+},
+{
+"q": "After installation of a rebuilt hydraulic hand pump, it is found that the handle cannot move in the pumping direction (pressure stroke). The most likely cause is an incorrectly installed;",
+"o": [
+"Hand pump outport check valve",
+"Hand pump inport check valve",
+"Inport/outport orifice check valve"
+],
+"a": [
+0
+],
+"n": 134,
+"src": "AME PART 1 q134"
+},
+{
+"q": "The hydraulic unit that allows one action to follow another in a definite order is called?",
+"o": [
+"Selector valve",
+"Shuttle valve",
+"Sequence valve"
+],
+"a": [
+2
+],
+"n": 135,
+"src": "AME PART 1 q135"
+},
+{
+"q": "The purpose of a hydraulic pressure regulator is to;",
+"o": [
+"Prevent the system pressure from rising above a preset value due to thermal expansion",
+"Relief the pump of its load when no actuating units are being operated",
+"Boost the pressure in the portions of the system"
+],
+"a": [
+1
+],
+"n": 136,
+"src": "AME PART 1 q136"
+},
+{
+"q": "A hydraulic accumulator is charged with an air preload of 1000 psi. when the hydraulic system pressure of 300psi is developed, the pressure on the airside will read?",
+"o": [
+"4000psi",
+"3000psi",
+"1000psi"
+],
+"a": [
+2
+],
+"n": 137,
+"src": "AME PART 1 q137"
+},
+{
+"q": "How is the air in a hydraulic accumulator system prevented from entering fluid system?",
+"o": [
+"By including a valve that automatically closes when the fluid level lowers to a preset amount",
+"By physically separating the air chamber from the oil chamber with a flexible or movable separator",
+"By forcing the air/oil mixture through a centrifugal separating chamber that prevents the air from leaving the chamber."
+],
+"a": [
+1
+],
+"n": 138,
+"src": "AME PART 1 q138"
+},
+{
+"q": "After a hydraulic accumulator has been installed and air charged, the main hydraulic system pressure gauge will not show hydraulic pressure reading until;",
+"o": [
+"The fluid side of the accumulator has been charged",
+"At least one selector valve has been actuated to allow fluid flow to the fluid side of the accumulator",
+"Air pressure has become equal to the fluid pressure"
+],
+"a": [
+2
+],
+"n": 139,
+"src": "AME PART 1 q139"
+},
+{
+"q": "Before removing the filler cap of a pressurized hydraulic accumulator,",
+"o": [
+"Relief the hydraulic system pressure",
+"Relief the air pressure",
+"Actuate several components in the system"
+],
+"a": [
+1
+],
+"n": 140,
+"src": "AME PART 1 q140"
+},
+{
+"q": "A hydraulic motor converts fluid pressure to;",
+"o": [
+"Linear motion",
+"Rotary motion",
+"Angular motion"
+],
+"a": [
+1
+],
+"n": 141,
+"src": "AME PART 1 q141"
+},
+{
+"q": "In most modern hydraulically operated landing gear system, the order of door and fairing operation is controlled by?",
+"o": [
+"Sequence valve",
+"Micro switches",
+"Shuttle valve"
+],
+"a": [
+0
+],
+"n": 142,
+"src": "AME PART 1 q142"
+},
+{
+"q": "The hydraulic component that automatically directs fluid from either normal operation or an emergency source to an actuating cylinder is called;",
+"o": [
+"Bypass valve",
+"Cross feed valve",
+"Shuttle valve"
+],
+"a": [
+2
+],
+"n": 143,
+"src": "AME PART 1 q143"
+},
+{
+"q": "Relief valves are used in pneumatic systems as;",
+"o": [
+"Damage preventing units",
+"For one direction flow control",
+"To reduce the rate of airflow"
+],
+"a": [
+0
+],
+"n": 144,
+"src": "AME PART 1 q144"
+},
+{
+"q": "Pneumatic system utilizes;",
+"o": [
+"Return lines",
+"Relief valves",
+"Diluter valves"
+],
+"a": [
+1
+],
+"n": 145,
+"src": "AME PART 1 q145"
+},
+{
+"q": "The air that is expended or no longer needed in a pneumatic system is usually;",
+"o": [
+"Returned to the compressor",
+"Exhausted or dumped, usually overboard",
+"Charged or pressurized for use in a next operating cycle"
+],
+"a": [
+1
+],
+"n": 146,
+"src": "AME PART 1 q146"
+},
+{
+"q": "To prevent a rapid extension of oleo shock strut after initial compression resulting from landing impact,",
+"o": [
+"Various types of valves and orifices are used which restrict the reverse fluid flow",
+"The air is forced through restricted orifice in the reverse direction",
+"The metering pin gradually reduces the size of the orifice as the shock strut extends"
+],
+"a": [
+0
+],
+"n": 147,
+"src": "AME PART 1 q147"
+},
+{
+"q": "The metering pin in an oleo shock strut functions to;",
+"o": [
+"Retard the flow of oil as the struts are compressed",
+"Meter the proper amount of air in the strut",
+"Lock the struts in the down position"
+],
+"a": [
+0
+],
+"n": 148,
+"src": "AME PART 1 q148"
+},
+{
+"q": "After performing a maintenance on an aircraft's landing gear system which may have affected the systems operation, it is usually necessary to;",
+"o": [
+"Make an operational check with the aircraft on jacks",
+"Re-inspect the area after the first flight",
+"Conduct a test flight"
+],
+"a": [
+0
+],
+"n": 149,
+"src": "AME PART 1 q149"
+},
+{
+"q": "The fusible plugs installed in some aircraft wheels are designed to;",
+"o": [
+"Melt at a specific elevated temperature",
+"Prevent over inflation",
+"Indicate tyre tread separation"
+],
+"a": [
+0
+],
+"n": 150,
+"src": "AME PART 1 q150"
+},
+{
+"q": "Over inflated tyres may cause damage to the;",
+"o": [
+"Wheel flange",
+"Brake lining",
+"Wheel hub"
+],
+"a": [
+0
+],
+"n": 151,
+"src": "AME PART 1 q151"
+},
+{
+"q": "What is the purpose of torque link connected to the cylinder and piston of an oleo shock strut?",
+"o": [
+"Limit compression stroke",
+"Maintain correct wheel alignment",
+"Hold the strut in place"
+],
+"a": [
+2
+],
+"n": 152,
+"src": "AME PART 1 q152"
+},
+{
+"q": "When an air/oil type of landing gear shock strut is used, the initial shock of landing is cushioned by?",
+"o": [
+"Compression of the fluid",
+"The fluid being forced through a metered opening",
+"Compression of the air charge"
+],
+"a": [
+1
+],
+"n": 153,
+"src": "AME PART 1 q153"
+},
+{
+"q": "The purpose of a sequence valve in a hydraulic retractable landing gear system is to?",
+"o": [
+"Prevent heavy landing form falling too rapidly upon extension",
+"Provide a means of disconnecting the normal source of hydraulic and connecting the emergency system",
+"Operate of the landing gear and gear doors in proper order"
+],
+"a": [
+2
+],
+"n": 154,
+"src": "AME PART 1 q154"
+},
+{
+"q": "When servicing an air/oil shock strut with MIL-5606, the strut should be?",
+"o": [
+"Collapsed and the fluid serviced at the filler opening",
+"Partially extended and the fluid added at the filler opening",
+"Fully extended and the fluid added at the filler opening"
+],
+"a": [
+0
+],
+"n": 155,
+"src": "AME PART 1 q155"
+},
+{
+"q": "If the extended longitudinal axis of a main landing gear wheel assemblies intersect aft of the aircraft, the wheel is said to have;",
+"o": [
+"Negative camber",
+"Toe-out",
+"Toe-in"
+],
+"a": [
+1
+],
+"n": 156,
+"src": "AME PART 1 q156"
+},
+{
+"q": "What is the function of a Cam installed in the nose gear shock strut?",
+"o": [
+"To provide steering of the nose wheel on ground",
+"Straighten the nose wheel upon retraction",
+"Provides an internal shimmy"
+],
+"a": [
+1
+],
+"n": 157,
+"src": "AME PART 1 q157"
+},
+{
+"q": "Extension of oleo shock strut is done to determine the;",
+"o": [
+"Physical condition of the shock strut",
+"Amount of oil in the strut",
+"Proper operating condition of the strut"
+],
+"a": [
+0
+],
+"n": 158,
+"src": "AME PART 1 q158"
+},
+{
+"q": "When an empty shock strut is filled with fluid, care should be taken to extend and compress the strut at least two times to;",
+"o": [
+"Ensure proper packing ring seating and to expel air bubbles.",
+"Force out any excess fluid",
+"Thoroughly lubricate the piston rod"
+],
+"a": [
+0
+],
+"n": 159,
+"src": "AME PART 1 q159"
+},
+{
+"q": "A landing gear position and indicating system will provide a warning in the cockpit when?",
+"o": [
+"Advanced and the gears are down and locked",
+"Retarded and the gears down and locked",
+"Retarded and the gears not locked down"
+],
+"a": [
+2
+],
+"n": 160,
+"src": "AME PART 1 q160"
+},
+{
+"q": "Which repair would require a landing gear retraction test?",
+"o": [
+"Red warning light bulb",
+"Landing gear safety switch",
+"Gear down lock micro switch"
+],
+"a": [
+2
+],
+"n": 161,
+"src": "AME PART 1 q161"
+},
+{
+"q": "In brake service work, the term \"Brakes Bleeding\" is the process of?",
+"o": [
+"Replacing small amount of fluid in the reservoir",
+"Withdrawing air only from the system",
+"Withdrawing fluid from the system for the purpose of removing air that has been trapped in the system."
+],
+"a": [
+2
+],
+"n": 162,
+"src": "AME PART 1 q162"
+},
+{
+"q": "When bleeding aircraft brakes, one of the indications that the air has been purged out is;",
+"o": [
+"Full brake pedal travel",
+"Partial brake pedal travel",
+"Firm brake pedals"
+],
+"a": [
+2
+],
+"n": 163,
+"src": "AME PART 1 q163"
+},
+{
+"q": "Aircraft brakes requiring a large volume of fluid to operate the brakes generally;",
+"o": [
+"Use power brake control valves",
+"Do not use brake system accumulators",
+"Use independent master cylinder systems"
+],
+"a": [
+0
+],
+"n": 164,
+"src": "AME PART 1 q164"
+},
+{
+"q": "The pressure source for power brake system is the?",
+"o": [
+"Main hydraulics system",
+"A master cylinder",
+"Power brake reservoir"
+],
+"a": [
+0
+],
+"n": 165,
+"src": "AME PART 1 q165"
+},
+{
+"q": "Which statement is true as regarding an aircraft equipped with a hydraulically operated multiple disc type of brake assemblies?",
+"o": [
+"There are is minimum or maximum clearance check required due to the use of self compensating cylinder assemblies.",
+"No parking brake provisions are possible for this type of brake assembly",
+"Do not set parking brakes when brakes are hot."
+],
+"a": [
+2
+],
+"n": 166,
+"src": "AME PART 1 q166"
+},
+{
+"q": "Why do most manufacturers recommend that the tubes in newly installed tires be first inflated, fully deflated and then re-inflated to proper pressure?",
+"o": [
+"To eliminate all the air between the tube and the inside of the tire.",
+"To allow the tube to properly position itself in the tire",
+"To test the entire assembly for leaks"
+],
+"a": [
+1
+],
+"n": 167,
+"src": "AME PART 1 q167"
+},
+{
+"q": "A stripe mark applied to a wheel rim and extending up to the sidewall of the tube type tire is a?",
+"o": [
+"Wheel weight reference mark",
+"Wheel to tire balance mark",
+"Slippage mark"
+],
+"a": [
+2
+],
+"n": 168,
+"src": "AME PART 1 q168"
+},
+{
+"q": "Aircraft tire pressures should be checked;",
+"o": [
+"Using only a push-on stick type gauge having 1-pound increment",
+"At least once a week or more often",
+"As soon as possible after each flight"
+],
+"a": [
+2
+],
+"n": 169,
+"src": "AME PART 1 q169"
+},
+{
+"q": "What is the function of a fusible plug in an aircraft main wheel assembly?",
+"o": [
+"Allows the tire to safely deflate to prevent the tire from bursting in case high temperature build up",
+"Melts to allow only the tube from bursting internally",
+"Is an anti skid system component."
+],
+"a": [
+0
+],
+"n": 170,
+"src": "AME PART 1 q170"
+},
+{
+"q": "The best safeguard against heat buildup in aircraft tires are?",
+"o": [
+"Proper tire inflation, minimum braking, and ground rolls into the wind.",
+"Proper inflation, minimum braking, and long ground rolls",
+"Short ground rolls, slow taxi speed, minimum braking and proper inflation."
+],
+"a": [
+2
+],
+"n": 171,
+"src": "AME PART 1 q171"
+},
+{
+"q": "Shines are used on some aircraft nose tires;",
+"o": [
+"Help deflect water away from the fuselage",
+"Help to reduce the effect of hydroplaning",
+"Help nose gear extension at higher air speeds"
+],
+"a": [
+0
+],
+"n": 172,
+"src": "AME PART 1 q172"
+},
+{
+"q": "How long should you wait before checking the tire pressure after a flight?",
+"o": [
+"At least 3hrs (4hrs in hot weather)",
+"At least 2hrs (3hrs in hot weather)",
+"At least 4hrs (5hrs in hot weather)"
+],
+"a": [
+1
+],
+"n": 173,
+"src": "AME PART 1 q173"
+},
+{
+"q": "Excessive wear on the shoulder of an aircraft tire is an indication of?",
+"o": [
+"Excessive toe-out",
+"Over inflation",
+"Under inflation"
+],
+"a": [
+2
+],
+"n": 174,
+"src": "AME PART 1 q174"
+},
+{
+"q": "Excessive wear on the crown (center of the tread) of an aircraft tire is an indication of?",
+"o": [
+"Over inflation",
+"Excessive toe out",
+"Incorrect camber"
+],
+"a": [
+0
+],
+"n": 175,
+"src": "AME PART 1 q175"
+},
+{
+"q": "The purpose of antiskid generators is to?",
+"o": [
+"Measure wheel rotation speed and any speed changes",
+"Monitor hydraulic pressure applied to the brakes",
+"Indicate when tire skid develops"
+],
+"a": [
+0
+],
+"n": 176,
+"src": "AME PART 1 q176"
+},
+{
+"q": "An antiskid system is a?",
+"o": [
+"Hydraulic system",
+"Electric system",
+"Electrohydraulic system"
+],
+"a": [
+2
+],
+"n": 177,
+"src": "AME PART 1 q177"
+},
+{
+"q": "Antiskid systems are generally armed by?",
+"o": [
+"The rotation of the wheel above a certain speed",
+"A centrifugal switch",
+"A switch in the cockpit"
+],
+"a": [
+0
+],
+"n": 178,
+"src": "AME PART 1 q178"
+},
+{
+"q": "i. When an aircraft is slowed below approximately 20MPH, the antiskid system automatically disengages to allow the pilot full manual control of the brakes for maneuvering and parking. ii. an antiskid system consists basically of three components; a wheel speed sensor, a control box and a control valve Regarding the above statement;",
+"o": [
+"Only i. is correct",
+"Both i. and ii. are correct",
+"Only ii. is correct"
+],
+"a": [
+1
+],
+"n": 179,
+"src": "AME PART 1 q179"
+},
+{
+"q": "In an antiskid system, wheel skid is detected by?",
+"o": [
+"Sudden rise in brake pressure",
+"A discriminator",
+"An electrical sensor"
+],
+"a": [
+2
+],
+"n": 180,
+"src": "AME PART 1 q180"
+},
+{
+"q": "Which of the following functions does a skid control system do? i. Normal skid control ii. Normal braking iii. Fail safe protection iiii. Locked wheel skid control v. Touchdown protection vi. Takeoff protection",
+"o": [
+"1, 2, 5 and 6",
+"1, 3, 4 and 5",
+"1, 2, 3 and 4"
+],
+"a": [
+1
+],
+"n": 181,
+"src": "AME PART 1 q181"
+},
+{
+"q": "At what point in the landing operation does normal skid control performs its normal operation?",
+"o": [
+"When wheel rotation deceleration indicates an impending skid",
+"Anytime the wheel is rotating",
+"When wheel rotation indicates hydroplaning"
+],
+"a": [
+0
+],
+"n": 182,
+"src": "AME PART 1 q182"
+},
+{
+"q": "The primary purpose of a takeoff warning system is to alert the crew that a monitored flight control is not properly set prior to takeoff. The system is activated by;",
+"o": [
+"Thrust lever",
+"80 knots airspeed sensor",
+"An ignition system switch not set for takeoff"
+],
+"a": [
+0
+],
+"n": 183,
+"src": "AME PART 1 q183"
+},
+{
+"q": "Stall warning systems are generally designed to begin warning the pilot when a stall",
+"o": [
+"Is starting to occur",
+"First affects the outboard portion of the wings",
+"Is imminent"
+],
+"a": [
+2
+],
+"n": 184,
+"src": "AME PART 1 q184"
+},
+{
+"q": "Which of the following is most likely to cause landing gear warning system to sound?",
+"o": [
+"Landing gear locked down and throttle retarded",
+"Landing gear not locked down and throttle retarded",
+"Landing gear locked down and throttle advanced"
+],
+"a": [
+1
+],
+"n": 185,
+"src": "AME PART 1 q185"
+},
+{
+"q": "Landing gear warning system usually provides which of the following indications?",
+"o": [
+"Green light for gear up and down, red light for an unsafe gear",
+"Red light for unsafe gear, green light for gear down and no light for gear up",
+"Red light for unsafe gear, green light for gear up and no light for gear down"
+],
+"a": [
+1
+],
+"n": 186,
+"src": "AME PART 1 q186"
+},
+{
+"q": "i. An aircraft airspeed indicator measures the differential pressure between pitot and static pressure surrounding the aircraft at any moment of flight ii. an airspeed indicator measures the differential pressure between the pitot and the cabin air pressure at moment of flight",
+"o": [
+"Both i. and ii. are correct",
+"Only ii. is correct",
+"Only i. is correct"
+],
+"a": [
+2
+],
+"n": 187,
+"src": "AME PART 1 q187"
+},
+{
+"q": "What will be the result if the instrument static pressure becomes disconnected inside a pressurized cabin during a cruise flight?",
+"o": [
+"The altimeter will read low and the airspeed indicator will read high",
+"The altimeter and the airspeed indicator will both read low",
+"The altimeter and the airspeed indicator will both read high."
+],
+"a": [
+1
+],
+"n": 188,
+"src": "AME PART 1 q188"
+},
+{
+"q": "Magnetic compass bowls are filled with a liquid to?",
+"o": [
+"Dampen oscillation of the float",
+"Reduce deviation errors",
+"Retard precision of the float"
+],
+"a": [
+0
+],
+"n": 189,
+"src": "AME PART 1 q189"
+},
+{
+"q": "A turn coordinate reads;",
+"o": [
+"Both yaw and roll",
+"The need for correction in pitch and bank",
+"The longitudinal attitude of an aircraft in both climb and descent"
+],
+"a": [
+0
+],
+"n": 190,
+"src": "AME PART 1 q190"
+},
+{
+"q": "Turbine engines EGT are measured using",
+"o": [
+"Iron/constantan thermocouple",
+"Chromel/alumel thermocouple",
+"Ratiometer electrical resistance thermometers"
+],
+"a": [
+1
+],
+"n": 191,
+"src": "AME PART 1 q191"
+},
+{
+"q": "Fuel flow transmitters are designed to transmit data",
+"o": [
+"Mechanically",
+"Using fluid power",
+"Electrically"
+],
+"a": [
+2
+],
+"n": 192,
+"src": "AME PART 1 q192"
+},
+{
+"q": "Data transmitted between components in an EFIS are converted into",
+"o": [
+"Digital signal",
+"Analog signal",
+"Carrier wave signal"
+],
+"a": [
+0
+],
+"n": 193,
+"src": "AME PART 1 q193"
+},
+{
+"q": "A radar altimeter determines altitude by?",
+"o": [
+"Means of a transponder interrogation",
+"Receiving signals transmitted from a ground radar station",
+"Transmitting a signal and receiving back a reflected signal"
+],
+"a": [
+2
+],
+"n": 194,
+"src": "AME PART 1 q194"
+},
+{
+"q": "A radar altimeter indicates?",
+"o": [
+"Altitude above ground level",
+"Altitude above sea level",
+"Flight level (pressure) altitude"
+],
+"a": [
+0
+],
+"n": 195,
+"src": "AME PART 1 q195"
+},
+{
+"q": "When flags such as NAV, HDG or GS appear on the HIS, the indication is?",
+"o": [
+"That function is operative",
+"Function is inoperative",
+"To call attention to deviation from the desired setting, or flight path, or heading etc."
+],
+"a": [
+1
+],
+"n": 196,
+"src": "AME PART 1 q196"
+},
+{
+"q": "The green arc on an aircraft temperature gauge indicates?",
+"o": [
+"An instrument is not calibrated",
+"A low unsafe temperature gauge",
+"The desirable temperature range"
+],
+"a": [
+2
+],
+"n": 197,
+"src": "AME PART 1 q197"
+},
+{
+"q": "A certified mechanic with an Airframe and Power plant rating;",
+"o": [
+"May perform minor repairs on aircraft instruments",
+"May not perform minor repairs on instruments",
+"May perform minor repairs and minor alteration on aircraft instruments"
+],
+"a": [
+1
+],
+"n": 198,
+"src": "AME PART 1 q198"
+},
+{
+"q": "An aircraft instrument panel is electrically bonded to aircraft structure to;",
+"o": [
+"Act as a restraint strap",
+"Provide current return path",
+"Aid in panel installation"
+],
+"a": [
+1
+],
+"n": 199,
+"src": "AME PART 1 q199"
+},
+{
+"q": "In general, the purpose of an aircraft transponder is to;",
+"o": [
+"Continually transmit speed, altitude, heading etc information to ATC",
+"Monitor speed, heading , altimeter when ever auto pilot is engaged",
+"Receive an interrogation signal from a ground station and automatically send a signal back"
+],
+"a": [
+2
+],
+"n": 200,
+"src": "AME PART 1 q200"
+},
+{
+"q": "What is the primary purpose of an auto pilot?",
+"o": [
+"To fly a more precise course for the pilot",
+"To obtain all the navigational aid possible for an extended over water flight",
+"To relieve the pilot of control of the aircraft during a long period of flight"
+],
+"a": [
+2
+],
+"n": 201,
+"src": "AME PART 1 q201"
+},
+{
+"q": "A fully integrated auto pilot controls the aircraft around how many axis?",
+"o": [
+"Four",
+"Two",
+"Three"
+],
+"a": [
+2
+],
+"n": 202,
+"src": "AME PART 1 q202"
+},
+{
+"q": "Dutch roll, a combination of yaw and roll oscillation that affects many swept back wing aircrafts is counteracted by?",
+"o": [
+"A yaw damper system",
+"An aileron damper system",
+"A flight director system"
+],
+"a": [
+0
+],
+"n": 203,
+"src": "AME PART 1 q203"
+},
+{
+"q": "When installing pneumatic surface-bonded type deicer boot system,",
+"o": [
+"Apply a solution of glycerin and water between the rubber and the wing skin",
+"Apply a silastic compound between the boot and the wing skin",
+"Remove all paint from the area to be covered with the boots"
+],
+"a": [
+2
+],
+"n": 204,
+"src": "AME PART 1 q204"
+},
+{
+"q": "What controls the inflation sequence of the deicer boots?",
+"o": [
+"Vacuum pump",
+"Shuttle valve",
+"Distributor valve"
+],
+"a": [
+2
+],
+"n": 205,
+"src": "AME PART 1 q205"
+},
+{
+"q": "Which of the following regulates the vacuum of the air pump to hold down the deicer boots deflated to the skin of the aircraft wing when the pneumatic deicing system is off?",
+"o": [
+"Distributor",
+"Pressure regulator",
+"Suction relief valve"
+],
+"a": [
+2
+],
+"n": 206,
+"src": "AME PART 1 q206"
+},
+{
+"q": "What may be used to clean the surface of the deicer boots?",
+"o": [
+"Unleaded gasoline or Jet A1 fuel",
+"Naptha",
+"Soap and water"
+],
+"a": [
+2
+],
+"n": 207,
+"src": "AME PART 1 q207"
+},
+{
+"q": "Some aircrafts are protected from airframe icing by heating the leading edges of the aerofoil and intake ducts. When is this kind of anti-icing usually operated?",
+"o": [
+"Whenever icing conditions are first expected or anticipated",
+"In symmetric cycles during icing conditions to remove ice as it accumulates",
+"Continuously while the aircraft is in flight"
+],
+"a": [
+0
+],
+"n": 208,
+"src": "AME PART 1 q208"
+},
+{
+"q": "How do deicer boots help in removing ice accumulations?",
+"o": [
+"By allowing only a thin layer of ice to build up",
+"By preventing the formation of ice",
+"By breaking up ice formations"
+],
+"a": [
+2
+],
+"n": 209,
+"src": "AME PART 1 q209"
+},
+{
+"q": "Why are deicer boots alternately inflated?",
+"o": [
+"Alternate inflation does not affect or disturb airflow",
+"Alternate inflation keeps air disturbance to a minimum",
+"Alternate inflation of deicer boots reliefs the load on the air pump"
+],
+"a": [
+1
+],
+"n": 210,
+"src": "AME PART 1 q210"
+},
+{
+"q": "What should be used to melt the ice in a turbine engine if the compressor is immobile due to ice?",
+"o": [
+"Anti icing fluid",
+"Deicing fluid",
+"Hot air"
+],
+"a": [
+2
+],
+"n": 211,
+"src": "AME PART 1 q211"
+},
+{
+"q": "Why should a chemical rain repellant not be used on the wind shield?",
+"o": [
+"It will cause glass crazing",
+"It will etch the glass",
+"It will restrict visibility"
+],
+"a": [
+2
+],
+"n": 212,
+"src": "AME PART 1 q212"
+},
+{
+"q": "The cabin pressure of an aircraft is maintained at the selected altitude value in-flight by?",
+"o": [
+"Controlling the airflow rate",
+"Controlling the rate at which air leaves the cabin",
+"Inflating door seals and recirculating conditioned air in the cabin"
+],
+"a": [
+1
+],
+"n": 213,
+"src": "AME PART 1 q213"
+},
+{
+"q": "What controls the operation of the cabin pressure regulator?",
+"o": [
+"Cabin altitude",
+"Bleed air pressure",
+"Compression air pressure"
+],
+"a": [
+0
+],
+"n": 214,
+"src": "AME PART 1 q214"
+},
+{
+"q": "The purpose of a dump valve in a pressurized aircraft cabin is to relief?",
+"o": [
+"Negative pressure differential",
+"Pressure in excess of the maximum",
+"All positive pressure from the cabin"
+],
+"a": [
+2
+],
+"n": 215,
+"src": "AME PART 1 q215"
+},
+{
+"q": "Altitude controller maintains cabin altitude by modulation of the;",
+"o": [
+"Outflow valve",
+"Safety valve",
+"Safety valve and outflow valve"
+],
+"a": [
+0
+],
+"n": 216,
+"src": "AME PART 1 q216"
+},
+{
+"q": "How is the cabin pressure in a pressurized aircraft cabin usually controlled?",
+"o": [
+"By an automatic outflow valve that dumps all the pressure in excess of the amount for which is set",
+"By a pressure sensitive valve that controls the output pressure of the pressurization pump",
+"By a pressure sensitive switch that causes the pressurization pump to turn off"
+],
+"a": [
+0
+],
+"n": 217,
+"src": "AME PART 1 q217"
+},
+{
+"q": "What component of a pressurization system prevents the cabin altitude from becoming higher than the aircraft altitude?",
+"o": [
+"Negative pressure relief valve",
+"Cabin rate of descent control",
+"Positive pressure relief valve"
+],
+"a": [
+0
+],
+"n": 218,
+"src": "AME PART 1 q218"
+},
+{
+"q": "On some cabin pressurization systems, pressurization on ground is restricted by the?",
+"o": [
+"Main landing gear operated switch",
+"Negative pressure relief valve",
+"Cabin pressure regulator"
+],
+"a": [
+0
+],
+"n": 219,
+"src": "AME PART 1 q219"
+},
+{
+"q": "If the cabin rate of climb is too great, the control should be adjusted to cause the;",
+"o": [
+"Cabin compressor speed to decrease",
+"outflow valve to close slower",
+"outflow valve to close faster"
+],
+"a": [
+2
+],
+"n": 220,
+"src": "AME PART 1 q220"
+},
+{
+"q": "The primary function of the cabin pressurization system outflow valve is to?",
+"o": [
+"Maintain the same cabin air pressure at all altitudes",
+"Maintain the desired cabin pressure",
+"Provide protection against over pressurization"
+],
+"a": [
+1
+],
+"n": 221,
+"src": "AME PART 1 q221"
+},
+{
+"q": "Which of these best describe differential pressure?",
+"o": [
+"Difference between ambient and internal pressure",
+"Difference between cabin pressure controller setting and the actual cabin pressure",
+"Difference between cabin flight altitude pressure and mean sea level pressure"
+],
+"a": [
+0
+],
+"n": 222,
+"src": "AME PART 1 q222"
+},
+{
+"q": "Entrained water in aviation turbine fuel is hazard because of its susceptibility to freezing as it passes through the filters. What are common ways of preventing such hazards?",
+"o": [
+"Micro mesh fuel strainers and fuel heaters",
+"Anti-icing fuel additives and fuel heaters",
+"High velocity fuel pumps and fuel heaters"
+],
+"a": [
+1
+],
+"n": 223,
+"src": "AME PART 1 q223"
+},
+{
+"q": "Why are jet fuels more susceptible to water contamination than aviation gasoline?",
+"o": [
+"Jet fuel is lighter than gasoline therefore water is easily suspended",
+"Condensation is greater because of higher volatility of jet fuels",
+"Jet fuel has a higher viscosity than gasoline"
+],
+"a": [
+2
+],
+"n": 224,
+"src": "AME PART 1 q224"
+},
+{
+"q": "How does temperature affect fuel weight?",
+"o": [
+"Warm fuel is heavier per gallon",
+"Temperature has no effect",
+"Cold fuel is heavier per gallon"
+],
+"a": [
+2
+],
+"n": 225,
+"src": "AME PART 1 q225"
+},
+{
+"q": "The primary purpose of an aircraft fuel jettisoning system is to quickly achieve a;",
+"o": [
+"Lower landing weight",
+"Reduce fire hazard",
+"Balance fuel load"
+],
+"a": [
+0
+],
+"n": 226,
+"src": "AME PART 1 q226"
+},
+{
+"q": "An electrical type of fuel indicating system consists of an indicator in cockpit and a?",
+"o": [
+"Float operated transmitter installed in the tank",
+"Float operated receiver installed in the tank",
+"Float resting on the surface of the fuel tank"
+],
+"a": [
+0
+],
+"n": 227,
+"src": "AME PART 1 q227"
+},
+{
+"q": "Smoke detectors which use a measurement of light transmissibility in the air are called?",
+"o": [
+"Visual devices",
+"Electromechanical devices",
+"Photoelectric devices"
+],
+"a": [
+2
+],
+"n": 228,
+"src": "AME PART 1 q228"
+},
+{
+"q": "The proper fire extinguishing agent used on aircraft brakes is the?",
+"o": [
+"Dry powder chemical",
+"Water",
+"Carbon dioxide"
+],
+"a": [
+0
+],
+"n": 229,
+"src": "AME PART 1 q229"
+},
+{
+"q": "A fire extinguisher bottle can be checked to determine its charge by?",
+"o": [
+"Attaching a remote pressure gauge",
+"Weighing the container and its content",
+"A hydrostatic check"
+],
+"a": [
+1
+],
+"n": 230,
+"src": "AME PART 1 q230"
+},
+{
+"q": "As a subsonic aircraft speeds-up, its center of pressure",
+"o": [
+"moves forward",
+"moves aft",
+"is unaffected"
+],
+"a": [
+1
+],
+"n": 1,
+"src": "AME PART 2 q1"
+},
+{
+"q": "If an aircraft is yawing to the left, where would you position the trim tab on the rubber?",
+"o": [
+"to the center",
+"to the right",
+"to the left"
+],
+"a": [
+2
+],
+"n": 2,
+"src": "AME PART 2 q2"
+},
+{
+"q": "If an aircraft is flying with a left wing low, where would you move the left aileron trim tab?",
+"o": [
+"down",
+"up",
+"moving the aileron trim tab will not correct the situation"
+],
+"a": [
+1
+],
+"n": 3,
+"src": "AME PART 2 q3"
+},
+{
+"q": "Extending a leading edge slat will have what effect on the angle of attack of a wing?",
+"o": [
+"increase the angle of attack",
+"decrease the angle of attack",
+"no effect on angle of attack"
+],
+"a": [
+1
+],
+"n": 4,
+"src": "AME PART 2 q4"
+},
+{
+"q": "If an aircraft is yawing left, the trim tab on the rudder would be positioned",
+"o": [
+"left, moving the rudder right",
+"to the centre",
+"to the right, moving the rudder left"
+],
+"a": [
+0
+],
+"n": 5,
+"src": "AME PART 2 q5"
+},
+{
+"q": "Composite materials are bonded by",
+"o": [
+"aluminium wire",
+"special paint",
+"copper wire"
+],
+"a": [
+1
+],
+"n": 6,
+"src": "AME PART 2 q6"
+},
+{
+"q": "The bonding lead to a remote aircraft component must be",
+"o": [
+"0.5 in wide",
+"22 AWG",
+"0.25 in wide and 22 AWG"
+],
+"a": [
+0
+],
+"n": 7,
+"src": "AME PART 2 q7"
+},
+{
+"q": "At force is an I-Beam subjected to?",
+"o": [
+"Tension",
+"Bending",
+"Shear"
+],
+"a": [
+1
+],
+"n": 8,
+"src": "AME PART 2 q8"
+},
+{
+"q": "Precise points are located on an aircraft by a system of",
+"o": [
+"frame stations, vertical lines and lateral lines",
+"longitudinal, vertical and lateral lines",
+"frame stations, water lines and buttock lines"
+],
+"a": [
+2
+],
+"n": 9,
+"src": "AME PART 2 q9"
+},
+{
+"q": "Which of the following is an example of a fail safe structure?",
+"o": [
+"spar",
+"longeron",
+"stringer"
+],
+"a": [
+2
+],
+"n": 10,
+"src": "AME PART 2 q10"
+},
+{
+"q": "In the ATA 100 zonal system the passenger entry door will have a designation of",
+"o": [
+"800",
+"600",
+"400"
+],
+"a": [
+0
+],
+"n": 11,
+"src": "AME PART 2 q11"
+},
+{
+"q": "The ground cable must be",
+"o": [
+"single strand copper wire 0.5 in. cross sectional area",
+"copper stranded 0.5 in. cross sectional area",
+"single strand 18 AWG"
+],
+"a": [
+0
+],
+"n": 12,
+"src": "AME PART 2 q12"
+},
+{
+"q": "Where on the aircraft is FS245, RWS45?",
+"o": [
+"245 inches from the nose of the aircraft and 45 inches from the tip of the right wing",
+"245 inches from the datum line of the aircraft and 45 inches from the centerline of the right wing",
+"245 inches from the nose of the aircraft and 45 inches from the centerline of the right wing"
+],
+"a": [
+1
+],
+"n": 13,
+"src": "AME PART 2 q13"
+},
+{
+"q": "Semi-monocoque construction.",
+"o": [
+"utilizes the safe-life design concept.",
+"is used only for the fuselage.",
+"offers good damage resistance"
+],
+"a": [
+2
+],
+"n": 14,
+"src": "AME PART 2 q14"
+},
+{
+"q": "Most radio aerials are",
+"o": [
+"not bonded",
+"bonded",
+"insulated from the fuselage"
+],
+"a": [
+1
+],
+"n": 15,
+"src": "AME PART 2 q15"
+},
+{
+"q": "The various parts of the aircraft airframe are maintained at the same potential by.",
+"o": [
+"bonding.",
+"earthing.",
+"static wicks."
+],
+"a": [
+0
+],
+"n": 16,
+"src": "AME PART 2 q16"
+},
+{
+"q": "The cross sectional area of a secondary conductor must be not less than.",
+"o": [
+"18 SWG for a single wire.",
+"22 SWG x 0.25.",
+"22 SWG x 0.5"
+],
+"a": [
+0
+],
+"n": 17,
+"src": "AME PART 2 q17"
+},
+{
+"q": "The main forces on an aircraft structure are.",
+"o": [
+"tension, compression, torsion and shear.",
+"tension, compression, torsion and strain.",
+"tension, compression, twisting and shear"
+],
+"a": [
+0
+],
+"n": 18,
+"src": "AME PART 2 q18"
+},
+{
+"q": "The life of the structure is counted by.",
+"o": [
+"landings.",
+"pressurization cycle.",
+"flying hours"
+],
+"a": [
+1
+],
+"n": 19,
+"src": "AME PART 2 q19"
+},
+{
+"q": "What are buttock lines?.",
+"o": [
+"Measurements from the centre line.",
+"Horizontal measurement lines.",
+"Vertical measurement lines"
+],
+"a": [
+0
+],
+"n": 20,
+"src": "AME PART 2 q20"
+},
+{
+"q": "Aircraft fibreglass panels are protected against lighting strikes, partially by.",
+"o": [
+"non-conductive paint.",
+"bonding.",
+"conductive paint"
+],
+"a": [
+2
+],
+"n": 21,
+"src": "AME PART 2 q21"
+},
+{
+"q": "Stringers are used in which of the following types of aircraft fuselage construction?.",
+"o": [
+"Semi-monocoque.",
+"Truss type.",
+"Monocoque."
+],
+"a": [
+0
+],
+"n": 22,
+"src": "AME PART 2 q22"
+},
+{
+"q": "What load is a tie rod designed to accept?.",
+"o": [
+"Bending.",
+"Tensile.",
+"Torsion."
+],
+"a": [
+1
+],
+"n": 23,
+"src": "AME PART 2 q23"
+},
+{
+"q": "Fuselage station numbers are measured from the front of the aircraft in.",
+"o": [
+"feet.",
+"inches.",
+"feet and inches"
+],
+"a": [
+1
+],
+"n": 24,
+"src": "AME PART 2 q24"
+},
+{
+"q": "Which parts of the aircraft are classified secondary structures?.",
+"o": [
+"These parts of the airframe are highly stressed but if damaged will not cause failure of the aircraft.",
+"These parts of the airframe are highly stressed and if damaged may cause failure of the aircraft and loss of life.",
+"These are lightly stressed parts such as fairings, wheel shields and minor component brackets etc."
+],
+"a": [
+0
+],
+"n": 25,
+"src": "AME PART 2 q25"
+},
+{
+"q": "Structure with built in redundancy is called.",
+"o": [
+"double safe.",
+"failsafe.",
+"safe life."
+],
+"a": [
+1
+],
+"n": 26,
+"src": "AME PART 2 q26"
+},
+{
+"q": "A piece of structure which must be replaced at a specified number of cycles, flying hours or years, regardless of its physical condition is what type of item?.",
+"o": [
+"Safe-life.",
+"Fail-safe.",
+"Condition monitored."
+],
+"a": [
+0
+],
+"n": 27,
+"src": "AME PART 2 q27"
+},
+{
+"q": "To prevent a system being affected by high current flows after a lightning strike to a composite aircraft, electricity is discharged through.",
+"o": [
+"a sprayed coat of conductive paint.",
+"a sprayed coat of non-conductive paint.",
+"electrically connected primary conductors."
+],
+"a": [
+2
+],
+"n": 28,
+"src": "AME PART 2 q28"
+},
+{
+"q": "An aircraft structure, having multiple load paths, is known as a.",
+"o": [
+"monocoque design.",
+"fail-safe design.",
+"safe-life design."
+],
+"a": [
+1
+],
+"n": 29,
+"src": "AME PART 2 q29"
+},
+{
+"q": "If a redundant structure fails it becomes.",
+"o": [
+"safe-life.",
+"fatigued.",
+"failsafe."
+],
+"a": [
+0
+],
+"n": 30,
+"src": "AME PART 2 q30"
+},
+{
+"q": "A redundant structure is.",
+"o": [
+"on-condition structure.",
+"a safe-life structure.",
+"a failsafe structure."
+],
+"a": [
+2
+],
+"n": 31,
+"src": "AME PART 2 q31"
+},
+{
+"q": "The measurement of the fuselage perpendicular to horizontal plane measured in inches from bottom of the fuselage is.",
+"o": [
+"butt line.",
+"water line.",
+"fuselage station."
+],
+"a": [
+1
+],
+"n": 32,
+"src": "AME PART 2 q32"
+},
+{
+"q": "What are the four stresses to be considered when building an aircraft?.",
+"o": [
+"Compression, Tension, Torsion, Stress.",
+"Compression, Torsion, Stress, Strain.",
+"Compression, Torsion, Tension, Shear."
+],
+"a": [
+2
+],
+"n": 33,
+"src": "AME PART 2 q33"
+},
+{
+"q": "What kind of seal is used on firewall bulkheads?.",
+"o": [
+"None is required.",
+"Fire-proof grommets.",
+"Soft rubber."
+],
+"a": [
+1
+],
+"n": 34,
+"src": "AME PART 2 q34"
+},
+{
+"q": "The two stages in a good adhesive bond are.",
+"o": [
+"wetting and gripping.",
+"wetting and Setting.",
+"spreading and setting."
+],
+"a": [
+1
+],
+"n": 35,
+"src": "AME PART 2 q35"
+},
+{
+"q": "Prior to aluminium alloy bonding, we use.",
+"o": [
+"acid etch.",
+"alkaline etch.",
+"solvent etch."
+],
+"a": [
+0
+],
+"n": 36,
+"src": "AME PART 2 q36"
+},
+{
+"q": "In semi-monocoque construction, compression loads are taken by.",
+"o": [
+"stringers.",
+"bulkheads.",
+"frames."
+],
+"a": [
+0
+],
+"n": 37,
+"src": "AME PART 2 q37"
+},
+{
+"q": "What material can be chromated as a protection against corrosion?.",
+"o": [
+"Aluminium alloys.",
+"Ferrous alloys.",
+"Magnesium alloys."
+],
+"a": [
+2
+],
+"n": 38,
+"src": "AME PART 2 q38"
+},
+{
+"q": "When carrying out a symmetry check on a large aircraft, what method of measurement is normally used?.",
+"o": [
+"Lateral alignment method.",
+"Longitudinal alignment method.",
+"Steel tape and spring balance."
+],
+"a": [
+2
+],
+"n": 39,
+"src": "AME PART 2 q39"
+},
+{
+"q": "The primary purpose of sealant in use in pressurised aircraft is.",
+"o": [
+"to seal the cabin.",
+"to prevent corrosion.",
+"to provide external streamlining."
+],
+"a": [
+0
+],
+"n": 40,
+"src": "AME PART 2 q40"
+},
+{
+"q": "Why is a joggle joint used?.",
+"o": [
+"Smooth contour of surface.",
+"Added strength.",
+"So countersunk rivets do not need to be used."
+],
+"a": [
+0
+],
+"n": 41,
+"src": "AME PART 2 q41"
+},
+{
+"q": "Why is a joggle joint used?.",
+"o": [
+"To provide a flush fit.",
+"To provide a smooth contour to surface.",
+"To add strength."
+],
+"a": [
+0
+],
+"n": 42,
+"src": "AME PART 2 q42"
+},
+{
+"q": "Skin panels may be strengthened by.",
+"o": [
+"stringers.",
+"struts.",
+"cleats."
+],
+"a": [
+0
+],
+"n": 43,
+"src": "AME PART 2 q43"
+},
+{
+"q": "One of the advantages of the semi-monocoque construction is that it.",
+"o": [
+"is easier to manufacture.",
+"shares the loads.",
+"takes all the loads in the skin."
+],
+"a": [
+1
+],
+"n": 44,
+"src": "AME PART 2 q44"
+},
+{
+"q": "If an aircraft has alkaline batteries, the battery compartment drain pipes will be.",
+"o": [
+"aluminium alloy.",
+"stainless steel.",
+"plastic."
+],
+"a": [
+1
+],
+"n": 45,
+"src": "AME PART 2 q45"
+},
+{
+"q": "An overweight landing is one in which the aircraft has.",
+"o": [
+"a missed placed centre of gravity on landing.",
+"too much kinetic energy on landing.",
+"an excessive fuel load on take-off."
+],
+"a": [
+1
+],
+"n": 46,
+"src": "AME PART 2 q46"
+},
+{
+"q": "Symmetry checks should be carried out.",
+"o": [
+"in the hangar with the aircraft on its wheels.",
+"on the ramp with the aircraft on its wheels.",
+"in the hanger with the aircraft on jacks."
+],
+"a": [
+2
+],
+"n": 47,
+"src": "AME PART 2 q47"
+},
+{
+"q": "The purpose of a wash primer and primer is to.",
+"o": [
+"help bonding for top-coat.",
+"provide more aerodynamic finish for top-coat.",
+"provide a flexible surface for top-coat."
+],
+"a": [
+0
+],
+"n": 48,
+"src": "AME PART 2 q48"
+},
+{
+"q": "The maximum permissible bow in a steel tube is.",
+"o": [
+"1 in 400.",
+"1 in 600.",
+"1 in 200."
+],
+"a": [
+1
+],
+"n": 49,
+"src": "AME PART 2 q49"
+},
+{
+"q": "Buckling in a semi-monocoque structure is prevented by.",
+"o": [
+"longerons.",
+"bulkheads.",
+"stringers."
+],
+"a": [
+2
+],
+"n": 50,
+"src": "AME PART 2 q50"
+},
+{
+"q": "The purpose of a primer is to.",
+"o": [
+"provide flexible surface for the top coat.",
+"help bonding of the topcoat.",
+"provide shiny surface for the topcoat."
+],
+"a": [
+1
+],
+"n": 51,
+"src": "AME PART 2 q51"
+},
+{
+"q": "What opposes buckling in a semi-monocoque structure?.",
+"o": [
+"Bulkheads.",
+"Frames.",
+"Stringers."
+],
+"a": [
+2
+],
+"n": 52,
+"src": "AME PART 2 q52"
+},
+{
+"q": "In a monocoque structure, which component carries the majority of the loads?.",
+"o": [
+"Longerons.",
+"Stringers.",
+"Skin."
+],
+"a": [
+2
+],
+"n": 53,
+"src": "AME PART 2 q53"
+},
+{
+"q": "In a fully monocoque fuselage, all the loads are carried by the.",
+"o": [
+"frames.",
+"skin.",
+"longerons."
+],
+"a": [
+1
+],
+"n": 54,
+"src": "AME PART 2 q54"
+},
+{
+"q": "A spar web will take loads in",
+"o": [
+"bending",
+"tension",
+"shear"
+],
+"a": [
+2
+],
+"n": 55,
+"src": "AME PART 2 q55"
+},
+{
+"q": "A wing's leading edge would have provisions and linkages for slats and",
+"o": [
+"leading edge flaps",
+"trailing edge flaps",
+"slots"
+],
+"a": [
+0
+],
+"n": 56,
+"src": "AME PART 2 q56"
+},
+{
+"q": "The main undercarriage is attached to the",
+"o": [
+"aircraft structure",
+"rear main spar",
+"front main spar"
+],
+"a": [
+0
+],
+"n": 57,
+"src": "AME PART 2 q57"
+},
+{
+"q": "The final coat of sealing in a integral fuel tank is called",
+"o": [
+"fillet",
+"interfay",
+"brush coat"
+],
+"a": [
+2
+],
+"n": 58,
+"src": "AME PART 2 q58"
+},
+{
+"q": "The web of an 'I' beam takes mainly which type of load?",
+"o": [
+"shear",
+"tension",
+"bending"
+],
+"a": [
+0
+],
+"n": 59,
+"src": "AME PART 2 q59"
+},
+{
+"q": "A flying control mass balance weight",
+"o": [
+"tends to move the control surface C of G forward of the hinge line",
+"tends to move the control surface C of G close to the hinge line",
+"keeps the control surface C of G as close to the trailing edge as possible"
+],
+"a": [
+1
+],
+"n": 60,
+"src": "AME PART 2 q60"
+},
+{
+"q": "Aerodynamic balance",
+"o": [
+"will reduce aerodynamic loading",
+"will cause CP to move towards the trailing edge and cause instability",
+"will cause CP to move towards the trailing edge and cause instability"
+],
+"a": [
+0
+],
+"n": 61,
+"src": "AME PART 2 q61"
+},
+{
+"q": "Flutter can be reduced by using",
+"o": [
+"servo tabs",
+"mass balancing",
+"a horn balance"
+],
+"a": [
+1
+],
+"n": 62,
+"src": "AME PART 2 q62"
+},
+{
+"q": "In the flight deck of a pressurized aircraft, there is a gauge that shows",
+"o": [
+"cabin differential pressure",
+"cabin pressure altitude",
+"aircraft altitude"
+],
+"a": [
+0
+],
+"n": 63,
+"src": "AME PART 2 q63"
+},
+{
+"q": "The function of an air mass flow control valve is to",
+"o": [
+"ensure that system differential pressure is not exceeded",
+"maintain a reasonably constant air mass flow into the cabin at all altitudes",
+"control the airflow out of the cabin"
+],
+"a": [
+1
+],
+"n": 64,
+"src": "AME PART 2 q64"
+},
+{
+"q": "A water separator would be installed in a pressurization system to",
+"o": [
+"collect any rain accompanying the ram air",
+"extract surplus water from the charge air",
+"extract water from the cabin air before it is discharged to atmosphere"
+],
+"a": [
+1
+],
+"n": 65,
+"src": "AME PART 2 q65"
+},
+{
+"q": "International markings for air conditioning pipelines are",
+"o": [
+"triangles",
+"rectangles",
+"dots"
+],
+"a": [
+2
+],
+"n": 66,
+"src": "AME PART 2 q66"
+},
+{
+"q": "How much air is required for the flight deck?",
+"o": [
+"10 Ibs/minute",
+"whatever the captain sets",
+"10 cubic feet/minute"
+],
+"a": [
+2
+],
+"n": 67,
+"src": "AME PART 2 q67"
+},
+{
+"q": "Where does the GCU gets its power?",
+"o": [
+"RAT",
+"battery",
+"PMG"
+],
+"a": [
+2
+],
+"n": 68,
+"src": "AME PART 2 q68"
+},
+{
+"q": "Voltage is controlled by",
+"o": [
+"the constant speed drive",
+"the voltage regulator",
+"the swashplate"
+],
+"a": [
+1
+],
+"n": 69,
+"src": "AME PART 2 q69"
+},
+{
+"q": "Distilled water should be added to a ni-cad battery",
+"o": [
+"only in the battery workshop",
+"at any time",
+"when fully charged"
+],
+"a": [
+0
+],
+"n": 70,
+"src": "AME PART 2 q70"
+},
+{
+"q": "What would you use to neutralize nicad battery spillage?",
+"o": [
+"boric acid",
+"distilled water",
+"bicarbonate of soda"
+],
+"a": [
+0
+],
+"n": 71,
+"src": "AME PART 2 q71"
+},
+{
+"q": "CSD warning lights on the flight deck normally indicate",
+"o": [
+"high oil pressure, low oil temperature low oil pressure, high oil temperature",
+"low oil pressure, low oil temperature",
+"low oil pressure, high oil temperature"
+],
+"a": [
+2
+],
+"n": 72,
+"src": "AME PART 2 q72"
+},
+{
+"q": "The output frequency of a hydraulically driven standby generator is controlled by",
+"o": [
+"a hydraulically actuated swash plate",
+"a CSD",
+"an IDG"
+],
+"a": [
+0
+],
+"n": 73,
+"src": "AME PART 2 q73"
+},
+{
+"q": "An AC generator used with a CSD",
+"o": [
+"needs voltage controller to maintain voltage with increasing load",
+"does not need a voltage controller because current is kept constant",
+"does not need a voltage controller because voltage is kept constant"
+],
+"a": [
+0
+],
+"n": 74,
+"src": "AME PART 2 q74"
+},
+{
+"q": "Trip signals for a GCR are",
+"o": [
+"over frequency and under voltage",
+"differential protection and under voltage",
+"under frequency and over current"
+],
+"a": [
+1
+],
+"n": 75,
+"src": "AME PART 2 q75"
+},
+{
+"q": "Abnormal CSD operation is monitored on the flight deck by observing indications of",
+"o": [
+"low oil quantity/low oil temperature",
+"high oil temperature/low oil pressure",
+"high oil temperature/low oil quantity"
+],
+"a": [
+1
+],
+"n": 76,
+"src": "AME PART 2 q76"
+},
+{
+"q": "Wires in hot temperature areas should be bound with",
+"o": [
+"teflon",
+"nomex",
+"PVC"
+],
+"a": [
+0
+],
+"n": 77,
+"src": "AME PART 2 q77"
+},
+{
+"q": "When the temperature increases in a lead acid battery, the SG will",
+"o": [
+"decrease",
+"increase",
+"remain the same"
+],
+"a": [
+0
+],
+"n": 78,
+"src": "AME PART 2 q78"
+},
+{
+"q": "Control of hydraulically powered emergency electrical generator frequency is",
+"o": [
+"by CSU",
+"by angle of swash plate",
+"by IDG"
+],
+"a": [
+1
+],
+"n": 79,
+"src": "AME PART 2 q79"
+},
+{
+"q": "Topping up a Ni-Cad battery in situ",
+"o": [
+"is not allowed",
+"is only allowed in the shop",
+"is permitted"
+],
+"a": [
+0
+],
+"n": 80,
+"src": "AME PART 2 q80"
+},
+{
+"q": "Generator brush bedding",
+"o": [
+"should only be done if 50% of the width and 80% of the length is already being done",
+"should not be done on the aircraft",
+"can be done on the aircraft"
+],
+"a": [
+2
+],
+"n": 81,
+"src": "AME PART 2 q81"
+},
+{
+"q": "Pitot tubes are heated by",
+"o": [
+"DC",
+"AC",
+"AC or DC"
+],
+"a": [
+2
+],
+"n": 82,
+"src": "AME PART 2 q82"
+},
+{
+"q": "When resetting the CSD on the ground, the engine should be",
+"o": [
+"rotating at Nsync",
+"rotating at idle",
+"stationary"
+],
+"a": [
+2
+],
+"n": 83,
+"src": "AME PART 2 q83"
+},
+{
+"q": "One of the main purposes of a CSD is to",
+"o": [
+"prevent engine overload",
+"enable generators to be paralleled",
+"maintain constant load on the generator"
+],
+"a": [
+1
+],
+"n": 84,
+"src": "AME PART 2 q84"
+},
+{
+"q": "If voltage and frequency of the generator drop to zero in flight, it would be an indication that the",
+"o": [
+"bus tie interlock is inoperative",
+"CSD driveshaft had sheared",
+"phase sequence detection circuit has operated"
+],
+"a": [
+1
+],
+"n": 85,
+"src": "AME PART 2 q85"
+},
+{
+"q": "What is the small pin on the DC ground power connector?",
+"o": [
+"positive to external power relay",
+"positive to battery relay",
+"ground or earth"
+],
+"a": [
+0
+],
+"n": 86,
+"src": "AME PART 2 q86"
+},
+{
+"q": "The small pins in the power connector plug are",
+"o": [
+"negative",
+"neutral",
+"positive"
+],
+"a": [
+2
+],
+"n": 87,
+"src": "AME PART 2 q87"
+},
+{
+"q": "AC generator output indications are measured in",
+"o": [
+"KVA & KW",
+"KW & KVAR",
+"KW"
+],
+"a": [
+0
+],
+"n": 88,
+"src": "AME PART 2 q88"
+},
+{
+"q": "The trimmer resister in a carbon pile volts regulator is",
+"o": [
+"in series with the generator field",
+"in series with the generator volts coil",
+"in parallel with the generator volts coil"
+],
+"a": [
+1
+],
+"n": 89,
+"src": "AME PART 2 q89"
+},
+{
+"q": "In nickel-cadmium batteries, a rise in cell temperature",
+"o": [
+"causes an increase in internal resistance",
+"increases cell voltage",
+"causes a decrease in internal resistance"
+],
+"a": [
+2
+],
+"n": 90,
+"src": "AME PART 2 q90"
+},
+{
+"q": "In a delta connected generator",
+"o": [
+"line volts equals 1.73 phase volts",
+"phase volts equals 1.73 line volts",
+"line volts equals phase volts"
+],
+"a": [
+2
+],
+"n": 91,
+"src": "AME PART 2 q91"
+},
+{
+"q": "The specific gravity of the electrolyte in a lead-acid battery",
+"o": [
+"remains constant with changes in the state of charge but is a useful guide to the amount of acid contained in the electrolyte",
+"remains substantially constant regardless of the state of charge and is not therefore a guide to the state of charge",
+"changes with the state of charge and is therefore a measure of the state of charge"
+],
+"a": [
+2
+],
+"n": 92,
+"src": "AME PART 2 q92"
+},
+{
+"q": "When using AC power on the bus bar you require 28V DC for battery charging",
+"o": [
+"an AC inverter would be required",
+"an AC transformer and rectifier would be required",
+"a DC transformer and rectifier would be required"
+],
+"a": [
+1
+],
+"n": 93,
+"src": "AME PART 2 q93"
+},
+{
+"q": "When checking a nicad battery in situ for serviceability",
+"o": [
+"a load is applied to the battery and the voltmeter reading noted",
+"a hydrometer must be used",
+"the electrical circuits must be isolated before installing shorting strips"
+],
+"a": [
+0
+],
+"n": 94,
+"src": "AME PART 2 q94"
+},
+{
+"q": "A DC generator will be connected to the busbar after the RCCO contacts close due to",
+"o": [
+"increasing battery voltage",
+"increasing generator voltage",
+"a differential voltage of 0.5V battery voltage higher than generator"
+],
+"a": [
+1
+],
+"n": 95,
+"src": "AME PART 2 q95"
+},
+{
+"q": "Spillage of a lead acid electrolyte is detected by",
+"o": [
+"indicating paper that turns red",
+"indicating paper that turns blue",
+"litmus paper that turns black"
+],
+"a": [
+0
+],
+"n": 96,
+"src": "AME PART 2 q96"
+},
+{
+"q": "To restore electrolyte after spillage",
+"o": [
+"add a mixture of acid and water of the same s.g. as that in the battery",
+"add acid only",
+"add distilled water only"
+],
+"a": [
+0
+],
+"n": 97,
+"src": "AME PART 2 q97"
+},
+{
+"q": "When a DC generator fails, the pilot will receive the following indications",
+"o": [
+"rising voltage and current discharge with a red PFWL",
+"an audio bell and red PFWL",
+"zero current on the ammeter and a red PFWL"
+],
+"a": [
+2
+],
+"n": 98,
+"src": "AME PART 2 q98"
+},
+{
+"q": "A battery for use on aircraft must have a capacity of",
+"o": [
+"0.8",
+"0.5",
+"0.9"
+],
+"a": [
+0
+],
+"n": 99,
+"src": "AME PART 2 q99"
+},
+{
+"q": "When connecting aircraft batteries, the last lead to connect is the",
+"o": [
+"negative",
+"positive earth",
+"positive"
+],
+"a": [
+0
+],
+"n": 100,
+"src": "AME PART 2 q100"
+},
+{
+"q": "What is monitored in a constant speed drive?",
+"o": [
+"Hi oil temperature and low oil press",
+"low oil press and CSD speed",
+"low oil temperature and low oil press"
+],
+"a": [
+0
+],
+"n": 101,
+"src": "AME PART 2 q101"
+},
+{
+"q": "The CSD or IDG speed governor setting",
+"o": [
+"is adjusted with the engine running",
+"is adjusted with the engine stationary",
+"is not allowed to be adjusted"
+],
+"a": [
+1
+],
+"n": 102,
+"src": "AME PART 2 q102"
+},
+{
+"q": "The APU generator can normally be",
+"o": [
+"connected in parallel with the aircraft's main generators",
+"used during flight as a back up supply if the main aircraft supply fails",
+"connected in parallel with the ground power supply"
+],
+"a": [
+1
+],
+"n": 103,
+"src": "AME PART 2 q103"
+},
+{
+"q": "Cargo and baggage compartments in which a fire is completely confined come under.",
+"o": [
+"Class C.",
+"Class D.",
+"Class B"
+],
+"a": [
+1
+],
+"n": 104,
+"src": "AME PART 2 q104"
+},
+{
+"q": "How often are life jackets inspected?.",
+"o": [
+"In accordance with the manufacturers specification.",
+"In accordance with the AMM.",
+"Every 12 months"
+],
+"a": [
+0
+],
+"n": 105,
+"src": "AME PART 2 q105"
+},
+{
+"q": "Toilets must have a smoke detection",
+"o": [
+"aural and visual warning in the main cabin",
+"light in the cockpit",
+"connected to a pump to pump the smoke out"
+],
+"a": [
+1
+],
+"n": 106,
+"src": "AME PART 2 q106"
+},
+{
+"q": "Where would you find information on life-raft deployment?",
+"o": [
+"JARS",
+"cabin safety on-board card",
+"cabin operations manual"
+],
+"a": [
+2
+],
+"n": 107,
+"src": "AME PART 2 q107"
+},
+{
+"q": "A fire that can be put out by a crew member in a cargo bay is in a.",
+"o": [
+"class A compensation.",
+"class D compensation.",
+"class B compensation"
+],
+"a": [
+2
+],
+"n": 108,
+"src": "AME PART 2 q108"
+},
+{
+"q": "Lavatories must have, in the disposal container",
+"o": [
+"freon extinguisher with white ball markings indicating when discharged",
+"freon extinguisher with black ball markings indicting when discharged",
+"water/glycol extinguisher with white ball markings indicating when discharged"
+],
+"a": [
+1
+],
+"n": 109,
+"src": "AME PART 2 q109"
+},
+{
+"q": "A fire detection loop must be capable of",
+"o": [
+"using master warning visual and aural signals",
+"detecting fire/overheat condition within 5 seconds and extinguisher such that after 30 seconds the condition is no longer present",
+"using master warning visual signals only"
+],
+"a": [
+0
+],
+"n": 110,
+"src": "AME PART 2 q110"
+},
+{
+"q": "A systron-Dooner fire detection system uses",
+"o": [
+"helium gas",
+"oxygen gas",
+"nitrogen"
+],
+"a": [
+0
+],
+"n": 111,
+"src": "AME PART 2 q111"
+},
+{
+"q": "A toilet is fitted with thermal protection",
+"o": [
+"to protect against freezing at altitude",
+"to protect against the dangers of smoke and fire in the event of an overheat",
+"to protect against continuous flushing"
+],
+"a": [
+1
+],
+"n": 112,
+"src": "AME PART 2 q112"
+},
+{
+"q": "What external warning is there for an APU fire?",
+"o": [
+"aural",
+"both aural and a red light",
+"red light"
+],
+"a": [
+1
+],
+"n": 113,
+"src": "AME PART 2 q113"
+},
+{
+"q": "Engine fire bottle pressure switches are operated by",
+"o": [
+"AC or DC",
+"DC",
+"AC"
+],
+"a": [
+1
+],
+"n": 114,
+"src": "AME PART 2 q114"
+},
+{
+"q": "Toilet fire detection issues can be found in",
+"o": [
+"AWN 83",
+"CAAIPs",
+"AWN 80"
+],
+"a": [
+0
+],
+"n": 115,
+"src": "AME PART 2 q115"
+},
+{
+"q": "A cargo compartment which will contain a fire itself and ventilate is a class",
+"o": [
+"A",
+"D",
+"C"
+],
+"a": [
+1
+],
+"n": 116,
+"src": "AME PART 2 q116"
+},
+{
+"q": "In a toilet smoke condition, what would be the indication?",
+"o": [
+"either a light or an audible warning in the cabin",
+"light in the cabin",
+"audible warning in the cabin"
+],
+"a": [
+0
+],
+"n": 117,
+"src": "AME PART 2 q117"
+},
+{
+"q": "How many fire extinguishers are required on an aircraft having 401 - 500 passengers?",
+"o": [
+"6",
+"8",
+"5"
+],
+"a": [
+0
+],
+"n": 118,
+"src": "AME PART 2 q118"
+},
+{
+"q": "The bearing used in a fibre pulley is",
+"o": [
+"a ball bearing",
+"a roller bearing",
+"a plain bearing"
+],
+"a": [
+0
+],
+"n": 119,
+"src": "AME PART 2 q119"
+},
+{
+"q": "A horn balance on a control will",
+"o": [
+"increase degree of movement at high speed",
+"decrease degree of movement at low speed",
+"decrease degree of movement at high speed"
+],
+"a": [
+0
+],
+"n": 120,
+"src": "AME PART 2 q120"
+},
+{
+"q": "To avoid moments bending the root of the wing, the aircraft will be fitted with",
+"o": [
+"integrated fuel monitoring system",
+"symmetrical flight control trim",
+"automatic trim control for controlled turns and rudder movements"
+],
+"a": [
+1
+],
+"n": 121,
+"src": "AME PART 2 q121"
+},
+{
+"q": "A yaw damper gain could be fitted with",
+"o": [
+"decrease sensitivity for decreased speed",
+"increased sensitivity for increased speed",
+"decrease sensitivity for increased speed"
+],
+"a": [
+1
+],
+"n": 122,
+"src": "AME PART 2 q122"
+},
+{
+"q": "Stick shaker activates at a speed which is above the stalling speed by",
+"o": [
+"4%",
+"7%",
+"10.321%"
+],
+"a": [
+1
+],
+"n": 123,
+"src": "AME PART 2 q123"
+},
+{
+"q": "A wing mounted stall warning vane",
+"o": [
+"moves down at impending stall",
+"moves up at impending stall",
+"gives a visual indication of impending stall"
+],
+"a": [
+1
+],
+"n": 124,
+"src": "AME PART 2 q124"
+},
+{
+"q": "Mass balance weights are used to",
+"o": [
+"balance the trailing edge of flying control surfaces",
+"counteract flutter on control surfaces",
+"balance the tabs"
+],
+"a": [
+1
+],
+"n": 125,
+"src": "AME PART 2 q125"
+},
+{
+"q": "Active load control uses.",
+"o": [
+"elevator and aileron.",
+"aileron and spoiler.",
+"elevator and stab"
+],
+"a": [
+1
+],
+"n": 126,
+"src": "AME PART 2 q126"
+},
+{
+"q": "The purpose of the autopilot servo-motor torque setting is to",
+"o": [
+"protect the servo motor",
+"damp the system oscillation",
+"prevent control surface runaway"
+],
+"a": [
+2
+],
+"n": 127,
+"src": "AME PART 2 q127"
+},
+{
+"q": "In a fully fly by wire aircraft, ground spoilers are deployed automatically when the aircraft is on ground and",
+"o": [
+"brakes are deployed",
+"thrust reversers are deployed",
+"weight on ground switch is activated"
+],
+"a": [
+1
+],
+"n": 128,
+"src": "AME PART 2 q128"
+},
+{
+"q": "In a fully fly by wire aircraft, rudder trim is nulled by the",
+"o": [
+"flight augmentation computers",
+"electric flight control unit",
+"flight guidance and management computer"
+],
+"a": [
+0
+],
+"n": 129,
+"src": "AME PART 2 q129"
+},
+{
+"q": "Pitch trimming in autopilot is initiated by",
+"o": [
+"C of G movement",
+"pitch of aircraft I cruise",
+"continued pitch input"
+],
+"a": [
+2
+],
+"n": 130,
+"src": "AME PART 2 q130"
+},
+{
+"q": "On a fly-by-wire aircraft, what controls stabilizer trim?",
+"o": [
+"SEC",
+"ELAC and SEC",
+"ELAC"
+],
+"a": [
+1
+],
+"n": 131,
+"src": "AME PART 2 q131"
+},
+{
+"q": "Flutter can be prevented by",
+"o": [
+"mass balance",
+"trim tabs",
+"balance panels"
+],
+"a": [
+0
+],
+"n": 132,
+"src": "AME PART 2 q132"
+},
+{
+"q": "In a fully fly by wire system, if the elevator losses all electrical power",
+"o": [
+"servos lock at last position",
+"servos remain stationary and provide damping",
+"servos move to neutral and lock"
+],
+"a": [
+1
+],
+"n": 133,
+"src": "AME PART 2 q133"
+},
+{
+"q": "How is automatic angle of attack protection provided?",
+"o": [
+"fast/slow indication",
+"reduce flap deployment",
+"autothrottle applying more power"
+],
+"a": [
+2
+],
+"n": 134,
+"src": "AME PART 2 q134"
+},
+{
+"q": "A single failure of fly by wire",
+"o": [
+"will reduce the operational height and speed",
+"will limit the flight profile",
+"has no effect on the aircraft's operation"
+],
+"a": [
+2
+],
+"n": 135,
+"src": "AME PART 2 q135"
+},
+{
+"q": "How is the stabilizer automatically controlled in normal manual operation?",
+"o": [
+"mach/speed trim",
+"pitch trim",
+"electric trim"
+],
+"a": [
+0
+],
+"n": 136,
+"src": "AME PART 2 q136"
+},
+{
+"q": "A differential aileron system is designed to",
+"o": [
+"minimise flutter",
+"prevent adverse yaw",
+"compensate for aileron reversal"
+],
+"a": [
+1
+],
+"n": 137,
+"src": "AME PART 2 q137"
+},
+{
+"q": "An artificial feel system is required",
+"o": [
+"for power assisted control systems",
+"for proportional control systems",
+"for power operated control systems"
+],
+"a": [
+2
+],
+"n": 138,
+"src": "AME PART 2 q138"
+},
+{
+"q": "A tandem P.F.C.U",
+"o": [
+"has the actuator rams co-axial",
+"has two control surfaces under its control",
+"has the actuator rams parallel"
+],
+"a": [
+0
+],
+"n": 139,
+"src": "AME PART 2 q139"
+},
+{
+"q": "What is the purpose of a differential frise aileron?",
+"o": [
+"to decrease the drag and decrease the rate of yaw and turn",
+"has no effect on rate of yaw and turn",
+"to increase the drag to increase the rate of yaw and turn"
+],
+"a": [
+2
+],
+"n": 140,
+"src": "AME PART 2 q140"
+},
+{
+"q": "Active load control uses",
+"o": [
+"elevator and stab",
+"elevator and ailerons",
+"ailerons and spoilers"
+],
+"a": [
+2
+],
+"n": 141,
+"src": "AME PART 2 q141"
+},
+{
+"q": "An artificial feel system is necessary in a powered flying control system to",
+"o": [
+"increasing the sensitivity of the control system",
+"provide the pilot with simulated stick forces",
+"prevent overloading of the power control units"
+],
+"a": [
+1
+],
+"n": 142,
+"src": "AME PART 2 q142"
+},
+{
+"q": "In the event of hydraulic failure in a power control system, a requirement of the manual reversion is that it must be",
+"o": [
+"operated by the standby hydraulic system",
+"automatic and instantaneous",
+"possible, but not recommended"
+],
+"a": [
+1
+],
+"n": 143,
+"src": "AME PART 2 q143"
+},
+{
+"q": "The purpose of control cable regulators is to",
+"o": [
+"maintain preset cable tensions during flight",
+"compensate for high temperature only",
+"compensate for low temperature only"
+],
+"a": [
+0
+],
+"n": 144,
+"src": "AME PART 2 q144"
+},
+{
+"q": "Range of movements of power operated flying control surfaces are limited by",
+"o": [
+"travel of the jack body",
+"mechanical stops in the control system",
+"travel of the jack ram"
+],
+"a": [
+1
+],
+"n": 145,
+"src": "AME PART 2 q145"
+},
+{
+"q": "A stick shaker is a device which",
+"o": [
+"helps extricate an aircraft from soft ground",
+"gives a short period of extra lift to assist take off",
+"vibrates the control column near stalling speed"
+],
+"a": [
+2
+],
+"n": 146,
+"src": "AME PART 2 q146"
+},
+{
+"q": "A servo tab is operated",
+"o": [
+"directly by the pilot to produce forces which in turn move the main control surfaces",
+"by a trim wheel and moves in the opposite direction to the main control surfaces when moved",
+"automatically, and moves in the same direction as the main control surfaces"
+],
+"a": [
+0
+],
+"n": 147,
+"src": "AME PART 2 q147"
+},
+{
+"q": "When spoilers are used asymmetrically, they combine with",
+"o": [
+"ailerons",
+"elevators",
+"rudder"
+],
+"a": [
+0
+],
+"n": 148,
+"src": "AME PART 2 q148"
+},
+{
+"q": "What is used to correct any tendency of the aircraft to move towards an undesirable flight altitude",
+"o": [
+"trim tabs",
+"spring tabs",
+"balance tabs"
+],
+"a": [
+0
+],
+"n": 149,
+"src": "AME PART 2 q149"
+},
+{
+"q": "With hydraulic ram operated flying controls, when the pressure is reduced to zero, the flying control surfaces",
+"o": [
+"stay at neutral",
+"droop",
+"remain in the position they were when power was removed"
+],
+"a": [
+1
+],
+"n": 150,
+"src": "AME PART 2 q150"
+},
+{
+"q": "Powered flying control actuators",
+"o": [
+"are operated by the autopilot only",
+"transmit pilot input to the control surfaces",
+"provide feedback to the pilot"
+],
+"a": [
+1
+],
+"n": 151,
+"src": "AME PART 2 q151"
+},
+{
+"q": "A stick shaker operates.",
+"o": [
+"just before the stall.",
+"after the stall.",
+"at the onset of the stall"
+],
+"a": [
+0
+],
+"n": 152,
+"src": "AME PART 2 q152"
+},
+{
+"q": "In a power assisted flight control system, the feel required is normally supplied by",
+"o": [
+"Q feel",
+"air loads on the control surfaces",
+"stretching springs"
+],
+"a": [
+1
+],
+"n": 153,
+"src": "AME PART 2 q153"
+},
+{
+"q": "\"Irreversibility of a fully powered control surface is provided by\"",
+"o": [
+"nulling of the servo valve",
+"air loads on the control surface",
+"the jack ram being attached to structure"
+],
+"a": [
+0
+],
+"n": 154,
+"src": "AME PART 2 q154"
+},
+{
+"q": "Q feel units use",
+"o": [
+"pitot pressure only",
+"pitot and static pressures",
+"static pressure only"
+],
+"a": [
+1
+],
+"n": 155,
+"src": "AME PART 2 q155"
+},
+{
+"q": "Spoiler panels are positioned so that when deployed",
+"o": [
+"pitch trim is not affected",
+"no yaw takes place",
+"roll will not occur"
+],
+"a": [
+0
+],
+"n": 156,
+"src": "AME PART 2 q156"
+},
+{
+"q": "Spoiler panels are controlled by",
+"o": [
+"the aileron control wheel and speed brake lever",
+"a speed brake lever only",
+"the aileron control wheel only"
+],
+"a": [
+0
+],
+"n": 157,
+"src": "AME PART 2 q157"
+},
+{
+"q": "A lift transducer is normally fitted",
+"o": [
+"on the elevator control system",
+"to the nose area of the aircraft",
+"on the leading edge of the wing"
+],
+"a": [
+2
+],
+"n": 158,
+"src": "AME PART 2 q158"
+},
+{
+"q": "\"If electrical power is removed from a fly by wire spoiler system, the spoiler panels\"",
+"o": [
+"go to down if any are not already down",
+"go to full up",
+"remain where there are"
+],
+"a": [
+0
+],
+"n": 159,
+"src": "AME PART 2 q159"
+},
+{
+"q": "In a fly-by-wire control system, the follow-up transducer is fitted to",
+"o": [
+"the control system computer",
+"the hydraulic actuator",
+"the pilots input"
+],
+"a": [
+1
+],
+"n": 160,
+"src": "AME PART 2 q160"
+},
+{
+"q": "Asymmetric flap operation is prevented to keep to a minimum the tendency of",
+"o": [
+"yawing",
+"rolling",
+"pitch changes"
+],
+"a": [
+1
+],
+"n": 161,
+"src": "AME PART 2 q161"
+},
+{
+"q": "A differential aileron control is one which gives",
+"o": [
+"a larger aileron up travel than down",
+"the down-going aileron more travel than the up-going one",
+"equal aileron travel in each direction, but variable for stick movement"
+],
+"a": [
+0
+],
+"n": 162,
+"src": "AME PART 2 q162"
+},
+{
+"q": "When the control column is moved back and the hand-wheel turned to the left",
+"o": [
+"the elevators move down and the left aileron moves down",
+"the left aileron moves up and the elevators move up",
+"the elevators move up and the left aileron moves down"
+],
+"a": [
+1
+],
+"n": 163,
+"src": "AME PART 2 q163"
+},
+{
+"q": "A series type yaw damper",
+"o": [
+"moves the rudder and the ailerons to damp out dutch roll",
+"moves the rudder pedals and the rudder",
+"moves the rudder only"
+],
+"a": [
+2
+],
+"n": 164,
+"src": "AME PART 2 q164"
+},
+{
+"q": "When an aileron trim control in the cockpit is moved to counteract a tendency to fly left wing low, an aileron trim tab fitted to the port aileron will",
+"o": [
+"move up and cause the left aileron to move down but the right aileron will remain neutral",
+"move up and cause the left aileron to move down and the right aileron to move down to a lesser degree",
+"move up and this will cause the left aileron to move down and the right aileron to move up"
+],
+"a": [
+1
+],
+"n": 165,
+"src": "AME PART 2 q165"
+},
+{
+"q": "You have adjusted the elevator trim tab to correct for nose heavy. What was the direction of travel of the trim tab?",
+"o": [
+"the port elevator tab has moved up and starboard moved down",
+"the elevator trim tab has moved up",
+"the elevator trim tab has moved down"
+],
+"a": [
+2
+],
+"n": 166,
+"src": "AME PART 2 q166"
+},
+{
+"q": "Pulleys in a flight control system are made from",
+"o": [
+"brass",
+"stainless steel",
+"tufnol or aluminium alloy"
+],
+"a": [
+2
+],
+"n": 167,
+"src": "AME PART 2 q167"
+},
+{
+"q": "A tension regulator in the flight control cable system of a large all metal aircraft is used primarily to",
+"o": [
+"retain a set tension",
+"increase cable tension in cold weather",
+"decrease cable tension in cold weather"
+],
+"a": [
+0
+],
+"n": 168,
+"src": "AME PART 2 q168"
+},
+{
+"q": "An interrupter arm incorporated in a flying control locking mechanism",
+"o": [
+"locks the aileron and elevators",
+"restricts movement of the throttles",
+"dampens the rudder movement"
+],
+"a": [
+1
+],
+"n": 169,
+"src": "AME PART 2 q169"
+},
+{
+"q": "The alpha vane signal can be fed to --------- when the aircraft is close to stall",
+"o": [
+"flap position",
+"fast/slow switch",
+"throttle lever"
+],
+"a": [
+2
+],
+"n": 170,
+"src": "AME PART 2 q170"
+},
+{
+"q": "Moving the elevator trim wheel fully aft, then the",
+"o": [
+"aircraft tends to go nose down",
+"aircraft tends to go nose up",
+"aircraft tends to roll to the right"
+],
+"a": [
+1
+],
+"n": 171,
+"src": "AME PART 2 q171"
+},
+{
+"q": "The effect of the rudder on an aircraft can be increased by",
+"o": [
+"increasing the distance of the control surfaces from the aircraft's centre of gravity",
+"increasing the altitude of the aircraft",
+"decreasing the velocity of the aircraft"
+],
+"a": [
+0
+],
+"n": 172,
+"src": "AME PART 2 q172"
+},
+{
+"q": "A fuel cross feed valve is usually in",
+"o": [
+"the closed position",
+"the open position",
+"its last position"
+],
+"a": [
+0
+],
+"n": 173,
+"src": "AME PART 2 q173"
+},
+{
+"q": "Sliding couplings in fuel systems are used on",
+"o": [
+"low pressure systems",
+"high pressure systems",
+"air or vapour systems"
+],
+"a": [
+2
+],
+"n": 174,
+"src": "AME PART 2 q174"
+},
+{
+"q": "A fuel cross-feed valve is lubricated",
+"o": [
+"by internal cooling",
+"by air",
+"by the fuel"
+],
+"a": [
+2
+],
+"n": 175,
+"src": "AME PART 2 q175"
+},
+{
+"q": "Fuel cross feed valves are operated by the",
+"o": [
+"28 V DC bus",
+"115V AC",
+"battery"
+],
+"a": [
+0
+],
+"n": 176,
+"src": "AME PART 2 q176"
+},
+{
+"q": "Fuel systems that are interconnected must have",
+"o": [
+"separate venting for each tank",
+"no airspace",
+"air spaces interconnected"
+],
+"a": [
+2
+],
+"n": 177,
+"src": "AME PART 2 q177"
+},
+{
+"q": "As fuel level increases, system capacitance",
+"o": [
+"decreases",
+"no change",
+"increases"
+],
+"a": [
+2
+],
+"n": 178,
+"src": "AME PART 2 q178"
+},
+{
+"q": "When refueling",
+"o": [
+"the fuel nozzle will automatically cut off the supply when the tank is full",
+"it is important not to fill the expansion space in the tank",
+"it is important to fill the expansion space in the tank"
+],
+"a": [
+1
+],
+"n": 179,
+"src": "AME PART 2 q179"
+},
+{
+"q": "When using Biopor microbial fuel growth treatment",
+"o": [
+"it is added to the fuel and burnt",
+"it is applied dry and left",
+"it is applied wet and flushed out"
+],
+"a": [
+0
+],
+"n": 180,
+"src": "AME PART 2 q180"
+},
+{
+"q": "Microbial growth is",
+"o": [
+"red dots",
+"brown black slime",
+"green sludge"
+],
+"a": [
+1
+],
+"n": 181,
+"src": "AME PART 2 q181"
+},
+{
+"q": "Bladder type fuel tanks are secured by",
+"o": [
+"bolts",
+"contact adhesive",
+"press type rivets"
+],
+"a": [
+2
+],
+"n": 182,
+"src": "AME PART 2 q182"
+},
+{
+"q": "In biologically contaminated fuel, corrosion takes place",
+"o": [
+"below the fungal colonies",
+"the top of the tank",
+"the bottom 2 inches of the tank"
+],
+"a": [
+0
+],
+"n": 183,
+"src": "AME PART 2 q183"
+},
+{
+"q": "In a fuel system with interconnected vents",
+"o": [
+"an expansion space is not required",
+"the expansion space must be 2% of the tank capacity",
+"the expansion space must be 10% of the tank capacity"
+],
+"a": [
+1
+],
+"n": 184,
+"src": "AME PART 2 q184"
+},
+{
+"q": "Fuel tanks interconnected must have",
+"o": [
+"vents to allow overfueling",
+"protection against overfill for tanks and fuel system",
+"tank where fuel is fed from both tanks to engine inlet"
+],
+"a": [
+1
+],
+"n": 185,
+"src": "AME PART 2 q185"
+},
+{
+"q": "When a FADEC system loses air data input it goes to",
+"o": [
+"soft reversion",
+"hard reversion",
+"mechanical reversion"
+],
+"a": [
+0
+],
+"n": 186,
+"src": "AME PART 2 q186"
+},
+{
+"q": "What is fitted to the fuel jettison pipe to prevent vaporization?",
+"o": [
+"an anti-corona device",
+"a corona device",
+"a nozzle"
+],
+"a": [
+0
+],
+"n": 187,
+"src": "AME PART 2 q187"
+},
+{
+"q": "What happens to the capacitance in a fuel contents gauge as fuel is used?",
+"o": [
+"depends on altitude",
+"increases",
+"decreases"
+],
+"a": [
+2
+],
+"n": 188,
+"src": "AME PART 2 q188"
+},
+{
+"q": "When an aircraft is put into storage for medium/long periods, the fuel tanks should",
+"o": [
+"have some fuel left in to prevent sealant from deteriorating/drying out",
+"be full",
+"be empty"
+],
+"a": [
+0
+],
+"n": 189,
+"src": "AME PART 2 q189"
+},
+{
+"q": "The purpose of a scavenge system within a fuel system is",
+"o": [
+"to ensure that all unused fuel is returned to the tanks efficiently",
+"to ensure that all available fuel can be used",
+"to ensure that any water in the fuel is constantly dispersed thus reducing microbiological contamination"
+],
+"a": [
+2
+],
+"n": 190,
+"src": "AME PART 2 q190"
+},
+{
+"q": "How is fuel supplied to a turbine engine?",
+"o": [
+"by a fuel boost pump",
+"by suction from the engine driven fuel pump",
+"by a gravity feed pump"
+],
+"a": [
+0
+],
+"n": 191,
+"src": "AME PART 2 q191"
+},
+{
+"q": "A fuel tank suction valve will open when",
+"o": [
+"the booster pump fails",
+"both the engine driven and booster pump fail",
+"the engine driven pump fails"
+],
+"a": [
+0
+],
+"n": 192,
+"src": "AME PART 2 q192"
+},
+{
+"q": "To prevent water condensation in a fuel tank",
+"o": [
+"the tank should be filled as full as possible",
+"the tank should be filled with the minimum fuel possible",
+"the filler cap should be left open"
+],
+"a": [
+0
+],
+"n": 193,
+"src": "AME PART 2 q193"
+},
+{
+"q": "To protect the centre tank fuselage area from a vapor build up",
+"o": [
+"ram air is circulated around the tank",
+"a shroud vent and overboard drain is fitted",
+"cabin air is bled around the tank"
+],
+"a": [
+2
+],
+"n": 194,
+"src": "AME PART 2 q194"
+},
+{
+"q": "When a fuel jettison valve is in transit, the magnetic indicator would show",
+"o": [
+"amber and in line",
+"amber and cross line",
+"green and in line"
+],
+"a": [
+1
+],
+"n": 195,
+"src": "AME PART 2 q195"
+},
+{
+"q": "When considering the basic categories of fuel tank construction, which of the following is most prone to leaks?",
+"o": [
+"rigid",
+"integral",
+"flexible"
+],
+"a": [
+1
+],
+"n": 196,
+"src": "AME PART 2 q196"
+},
+{
+"q": "On removal of a fuel tank booster pump, fuel is observed running out of the boost pump canister, this could be caused by",
+"o": [
+"the pressure outlet check valve is not correctly seated",
+"fuel draining out of the pressure switch bleed",
+"fuel leaking past the inlet screens"
+],
+"a": [
+0
+],
+"n": 197,
+"src": "AME PART 2 q197"
+},
+{
+"q": "Cross feed valves are normally fitted with",
+"o": [
+"two 28V DC motors",
+"two three-phase AC motors",
+"two single phase AC motors"
+],
+"a": [
+0
+],
+"n": 198,
+"src": "AME PART 2 q198"
+},
+{
+"q": "A shroud vent and overload drain would normally be found on",
+"o": [
+"fuel tank vent pipes",
+"fuel jettison system",
+"the APU fuel feed"
+],
+"a": [
+0
+],
+"n": 199,
+"src": "AME PART 2 q199"
+},
+{
+"q": "To shut-off the LP fuel supply to the engine for the purpose of engine removal you would",
+"o": [
+"close the cross bleed valve",
+"close the HP fuel lock",
+"pull the fire handle"
+],
+"a": [
+2
+],
+"n": 200,
+"src": "AME PART 2 q200"
+},
+{
+"q": "A leak from a fuel tank which manifest as fuel dripping from the tank is classified as a",
+"o": [
+"stain",
+"seep",
+"run"
+],
+"a": [
+2
+],
+"n": 201,
+"src": "AME PART 2 q201"
+},
+{
+"q": "Calcium Chromate tablets can be fitted in integral tanks. Before installation the linen bag should be wetted with",
+"o": [
+"water",
+"methylated spirit",
+"kerosene"
+],
+"a": [
+0
+],
+"n": 202,
+"src": "AME PART 2 q202"
+},
+{
+"q": "A check valve is fitted to a fuel jettison system to",
+"o": [
+"prevent the centre from being defuelled",
+"prevent the dumping of the outer tanks",
+"automatically stop the fuel jettison operation after period of time"
+],
+"a": [
+1
+],
+"n": 203,
+"src": "AME PART 2 q203"
+},
+{
+"q": "The advantages of integral fuel tanks are that they",
+"o": [
+"are cheaper to manufacture, more durable and easier to maintain",
+"use the maximum volume for fuel and have the minimum amount of weight",
+"are easier to design and construct and use the maximum volume of fuel"
+],
+"a": [
+1
+],
+"n": 204,
+"src": "AME PART 2 q204"
+},
+{
+"q": "On large transport aircraft fuel is delivered to each engine using",
+"o": [
+"a parallel system",
+"the same system for each engine",
+"a separate system for each engine"
+],
+"a": [
+1
+],
+"n": 205,
+"src": "AME PART 2 q205"
+},
+{
+"q": "A purpose of a 'cut-out' in a hydraulic system",
+"o": [
+"is to prevent creep in jack operated services which have several selected positions",
+"is to limit loss of fluid in the event of pipe fracture",
+"is to relieve the pump of load when the operation of services is complete and the accumulator charged with fluid"
+],
+"a": [
+2
+],
+"n": 206,
+"src": "AME PART 2 q206"
+},
+{
+"q": "What happens if a component has an internal hydraulic leak?",
+"o": [
+"fluid loss",
+"increase in fluid pressure",
+"increase in fluid temperature"
+],
+"a": [
+2
+],
+"n": 207,
+"src": "AME PART 2 q207"
+},
+{
+"q": "How is the hydraulic pump depressurizing solenoid actuated?",
+"o": [
+"energized both open and closed depending on cockpit selection",
+"energized open",
+"energized closed for fail-safe"
+],
+"a": [
+2
+],
+"n": 208,
+"src": "AME PART 2 q208"
+},
+{
+"q": "How do you prevent hydraulic fluid frothing?",
+"o": [
+"by pressurizing",
+"vent reservoir to atmosphere",
+"pass over a tray"
+],
+"a": [
+0
+],
+"n": 209,
+"src": "AME PART 2 q209"
+},
+{
+"q": "A fixed volume axial pump contains the following rotating parts",
+"o": [
+"drive shaft, swash plate & valve block",
+"swash plate & valve block",
+"drive shaft, swash plate & cylinder block"
+],
+"a": [
+2
+],
+"n": 210,
+"src": "AME PART 2 q210"
+},
+{
+"q": "In aircraft hydraulic systems, it is permissible to use",
+"o": [
+"only the specified fluid",
+"any fluid of the same specific gravity",
+"any hydraulic fluid available"
+],
+"a": [
+0
+],
+"n": 211,
+"src": "AME PART 2 q211"
+},
+{
+"q": "A deicer boot is completely bonded to the leading edge to",
+"o": [
+"provide smoother airflow over leading edge",
+"prevent electrical static build up",
+"provide more efficient deicer cycles"
+],
+"a": [
+1
+],
+"n": 212,
+"src": "AME PART 2 q212"
+},
+{
+"q": "Windscreen heating is supplied from",
+"o": [
+"frequency wild generator, direct to the windscreen",
+"DC generator, via a transformer",
+"frequency wild generator, via a rectifier"
+],
+"a": [
+0
+],
+"n": 213,
+"src": "AME PART 2 q213"
+},
+{
+"q": "A wing thermal anti-ice annunciator is illuminated permanently in flight deck without selection being made. The most probable cause would be",
+"o": [
+"a short circuit",
+"an open circuit",
+"normal"
+],
+"a": [
+0
+],
+"n": 214,
+"src": "AME PART 2 q214"
+},
+{
+"q": "Spongy brakes are usually a result of",
+"o": [
+"internal leakage",
+"air in the system",
+"external leakage"
+],
+"a": [
+1
+],
+"n": 215,
+"src": "AME PART 2 q215"
+},
+{
+"q": "On a wheel bogie unit, positive camber is when the",
+"o": [
+"bottom of the wheels are closer together",
+"top of the wheels are closer together",
+"front of the wheels are closer together"
+],
+"a": [
+0
+],
+"n": 216,
+"src": "AME PART 2 q216"
+},
+{
+"q": "A badly corroded and pitted brake disk will",
+"o": [
+"wear brake pads too quickly, and should be replaced",
+"be serviceable, and provide better grip",
+"produce a loss fluid"
+],
+"a": [
+0
+],
+"n": 217,
+"src": "AME PART 2 q217"
+},
+{
+"q": "How much oxygen is in a tyre (as a maximum)?",
+"o": [
+"5% by pressure",
+"15% by volume",
+"5% by volume"
+],
+"a": [
+2
+],
+"n": 218,
+"src": "AME PART 2 q218"
+},
+{
+"q": "A tyre specification 32 x 10.75 - 14. What does the 10.75 refer to",
+"o": [
+"section width",
+"bead diameter",
+"overall diameter"
+],
+"a": [
+0
+],
+"n": 219,
+"src": "AME PART 2 q219"
+},
+{
+"q": "On large aircraft, braked wheel assemblies are normally inflated with",
+"o": [
+"nitrogen",
+"an argon and CO2 mixture",
+"nitrogen and not more than 5% of air"
+],
+"a": [
+2
+],
+"n": 220,
+"src": "AME PART 2 q220"
+},
+{
+"q": "An undercarriage that has the axle mounted directly onto the shock absorber is of which type",
+"o": [
+"articulated",
+"hydro mechanical",
+"direct acting"
+],
+"a": [
+2
+],
+"n": 221,
+"src": "AME PART 2 q221"
+},
+{
+"q": "When checking the alignment of a main landing gear, check",
+"o": [
+"symmetry, tracking, camber",
+"symmetry, tracking, twist",
+"symmetry, tracking, splay"
+],
+"a": [
+0
+],
+"n": 222,
+"src": "AME PART 2 q222"
+},
+{
+"q": "Cockpit dome lighting is provided by the",
+"o": [
+"battery bus and ground services bus",
+"battery bus",
+"ground services bus"
+],
+"a": [
+0
+],
+"n": 223,
+"src": "AME PART 2 q223"
+},
+{
+"q": "Pressure breathing systems must be used at altitudes",
+"o": [
+"above 40,000 ft",
+"below 40,000 ft",
+"above 30,000 ft"
+],
+"a": [
+0
+],
+"n": 224,
+"src": "AME PART 2 q224"
+},
+{
+"q": "Two compressors driven by separate engines use",
+"o": [
+"interconnected to share loads",
+"NRVs to prevent compressors driving each other",
+"PRVs"
+],
+"a": [
+1
+],
+"n": 225,
+"src": "AME PART 2 q225"
+},
+{
+"q": "The seal of the valve is replaceable without draining the tanks",
+"o": [
+"the seal of the valve is replaceable without draining the tanks",
+"the tank must be de-fuelled",
+"the seal is not replaceable, the whole drain assembly must be replaced"
+],
+"a": [
+0
+],
+"n": 226,
+"src": "AME PART 2 q226"
+},
+{
+"q": "In a central Air Data Computer (ADC), the rate of climb of an aircraft is produced in the",
+"o": [
+"indicated airspeed module",
+"mach module",
+"altitude module"
+],
+"a": [
+2
+],
+"n": 227,
+"src": "AME PART 2 q227"
+},
+{
+"q": "In a central Air Data Computer, altitude is produced from",
+"o": [
+"static air pressure",
+"pitot air pressure",
+"pitot air pressure and total air temperature"
+],
+"a": [
+0
+],
+"n": 228,
+"src": "AME PART 2 q228"
+},
+{
+"q": "In a central Air Data Computer (CADC) system, True Air Speed (TAS) is derived from the mach information and",
+"o": [
+"static air pressure",
+"pitot air pressure",
+"total air temperature"
+],
+"a": [
+2
+],
+"n": 229,
+"src": "AME PART 2 q229"
+}
+]
