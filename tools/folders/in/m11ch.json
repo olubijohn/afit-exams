@@ -547,6 +547,19 @@
 },
 {
 "s": "11.01 Theory of Flight",
+"q": "The aircraft stalling speed will",
+"o": [
+"increase with an increase in weight",
+"increase with an increase in weight",
+"be unaffected by aircraft weight changes since it is dependant upon the angle of attack"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"s": "11.01 Theory of Flight",
 "q": "In a bank and turn",
 "o": [
 "extra lift is not required",
@@ -830,6 +843,19 @@
 2
 ],
 "x": "CAIPs EEL/1-6 3.8."
+},
+{
+"s": "11.02 Airframe Structures: General Concepts",
+"q": "How is damage to the nose cone of an aircraft prevented during a lightning strike?",
+"o": [
+"Earthing Strap",
+"Bonding Strip",
+"Bonding Strip"
+],
+"a": [
+1
+],
+"x": "Aircraft Electricity and Avionics (5th Edition) Eismin Page 343."
 },
 {
 "s": "11.02 Airframe Structures: General Concepts",
@@ -4681,6 +4707,19 @@
 },
 {
 "s": "11.04 Air Conditioning & Cabin Pressurisation",
+"q": "The inward relief valve is usually set to operate at a cabin differential of",
+"o": [
+"+0.5 PSI.",
+"-0.5 PSI.",
+"+9.25 PSI."
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"s": "11.04 Air Conditioning & Cabin Pressurisation",
 "q": "The humidity within a passenger cabin should",
 "o": [
 "not be greater than 40%",
@@ -7655,6 +7694,19 @@
 0
 ],
 "x": ""
+},
+{
+"s": "11.05.1 Instrument Systems",
+"q": "In a compass swing: North error -2 degrees, South error + 2 degrees. The coefficient C is",
+"o": [
+"+2 degrees",
+"0 degrees",
+"-2 degrees"
+],
+"a": [
+2
+],
+"x": "AL/10-5 Table 1. This is not he same as a previous question."
 },
 {
 "s": "11.05.1 Instrument Systems",
@@ -11496,13 +11548,14 @@
 },
 {
 "s": "11.06 Electrical Power",
-"q": "If an aircraft has no battery charger, the battery is charged by. Option A. constant current until a predetermined limit when it automatically switches to constant voltage",
+"q": "If an aircraft has no battery charger, the battery is charged by",
 "o": [
+"constant current until a predetermined limit when it automatically switches to constant voltage",
 "constant current",
 "constant voltage"
 ],
 "a": [
-1
+2
 ],
 "x": ""
 },
@@ -11521,13 +11574,27 @@
 },
 {
 "s": "11.06 Electrical Power",
-"q": "A paralleled relay for a DC system is energised and connected by. Option A. voltage coil",
+"q": "In a transistor voltage regulator, the voltage output is controlled by",
 "o": [
+"zeners and transistors",
+"diodes and transformers",
+"transformers and transistors"
+],
+"a": [
+0
+],
+"x": "CAIPs EEL/1-2 3.3.1."
+},
+{
+"s": "11.06 Electrical Power",
+"q": "A paralleled relay for a DC system is energised and connected by",
+"o": [
+"voltage coil",
 "current coil",
 "voltage and current coil"
 ],
 "a": [
-1
+2
 ],
 "x": "Pallett Aircraft Electrical Systems Page 16, 17, 18."
 },

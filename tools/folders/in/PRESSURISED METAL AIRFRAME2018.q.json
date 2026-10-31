@@ -253,15 +253,14 @@
 ]
 },
 {
-"q": "Flaps cannot be lowered using the main hydraulic system, but can be lowered by the Emergency",
+"q": "A hydraulic system operational check during ground run up of an aircraft indicates that the Wing\nFlaps cannot be lowered using the main hydraulic system, but can be lowered by the Emergency\nhand pump, which is the most likely cause.",
 "o": [
-"hand pump, which is the most likely cause.",
 "The flap selector valve has a severe internal leak",
 "The pressure accumulator is not supplying pressure to the system",
 "The fluid level in the reservoir is low"
 ],
 "a": [
-3
+2
 ]
 },
 {
@@ -694,7 +693,7 @@
 ]
 },
 {
-"q": "moment of flight. Regarding the above statements:",
+"q": "(1) An airspeed indicator measure the differential between pilot and static air pressures\nsurrounding the aircraft at any moment of flight.\n(2) An airspeed indicator measures the differential between pilot and cabin air pressures at any\nmoment of flight.\nRegarding the above statements:",
 "o": [
 "Both No. 1 and No. 2 are true",
 "Only No. 2 is true",

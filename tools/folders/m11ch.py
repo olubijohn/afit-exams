@@ -17,6 +17,8 @@ out, bad, cur, sec = [], [], None, None
 def flush():
     global cur
     if cur:
+        m0 = re.search(r'\s*Option A\.\s*(.*)$', cur['q'])   # "Option A." printed on the question's line
+        if m0 and len(cur['o']) < 3: cur['o'].insert(0, m0.group(1)); cur['q'] = cur['q'][:m0.start()]
         o = [strip_dot(x) for x in cur['o']]; ans = clean(cur['ans'] or '')
         a = None
         m = re.match(r'^([ABC])[\.\)]?\s+(.*)$', ans)
@@ -25,6 +27,12 @@ def flush():
             ka = k(re.sub(r'^\.?\s*', '', ans))
             hits = [i for i, x in enumerate(o) if k(x) and (k(x) == ka)]
             if not hits: hits = [i for i, x in enumerate(o) if ka and k(x) and (k(x).startswith(ka) or ka.startswith(k(x)))]
+            if len(hits) > 1:   # e.g. +0.5 PSI and -0.5 PSI: compare keeping the signs
+                ks = lambda t: re.sub(r'[^a-z0-9+\-]', '', t.lower().replace('−', '-'))
+                kas = ks(re.sub(r'^\.?\s*', '', ans)).rstrip('.')
+                h2 = [i for i in hits if ks(o[i]).rstrip('.') == kas]
+                if len(h2) == 1: hits = h2
+            if len(hits) > 1 and len({k(o[i]) for i in hits}) == 1: hits = hits[:1]   # the file prints the right option twice
             if len(hits) == 1: a = hits[0]
             elif m: a = 'ABC'.index(m.group(1))
         x = clean(cur['x'] or '')

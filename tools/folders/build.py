@@ -40,6 +40,7 @@ for n, it in enumerate(merged, 1):
 
 folders, subjects, Q, used = [], [], [], set()
 # a question that an earlier (more original) file of the same paper already has is left out: each question appears once per paper
+audit = {}
 prior = collections.defaultdict(lambda: collections.defaultdict(list)); dropped = collections.Counter()
 def is_repeat(paper, q, uo):
     ok = {k(x)[:20] for x in uo}
@@ -47,12 +48,13 @@ def is_repeat(paper, q, uo):
 def folder(fid, name, paper, sections):
     """sections: list of (subject id, section name or None, [questions])"""
     folders.append({'id': fid, 'name': name, 'paper': paper})
-    tot = 0
+    tot = 0; audit[name] = collections.Counter()
     for sid, sname, items in sections:
+        audit[name]['parsed'] += len(items)
         seen, n = set(), 0
         for it in items:
             o = [tidy_o(x) for x in it['o']]; al = [x for x in (it.get('a') or []) if isinstance(x, int) and 0 <= x < len(o)]
-            if not al or len(o) < 2: continue          # the file marks no answer
+            if not al or len(o) < 2: audit[name]['no answer marked'] += 1; continue          # the file marks no answer
             a = al[0]                                    # some questions are marked with two answers in the file: both count
             # the file prints the same option twice: keep one, answer still points at it
             uo, remap = [], {}
@@ -61,7 +63,7 @@ def folder(fid, name, paper, sections):
                 remap[i] = len(uo); uo.append(x)
             if len(uo) < 2: continue
             q = tidy_q(it['q']); key = (k(q)[:90], tuple(sorted(k(x)[:40] for x in uo)))
-            if not k(q) or (key in seen and not it.get('id')): continue          # repeated inside the same file (questions already in the app stay)
+            if not k(q) or (key in seen and not it.get('id')): audit[name]['asked twice in the file'] += 1; continue          # repeated inside the same file (questions already in the app stay)
             # every folder keeps its whole file: questions that other files also have are NOT removed (only repeats inside the same file are)
             prior[paper][k(q)[:70]].append({k(x)[:20] for x in uo})
             seen.add(key); n += 1
@@ -132,3 +134,5 @@ B = {'source': 'One folder per file sent: ' + '; '.join(f['name'] for f in folde
                 {'id': 'pma', 'name': 'Pressurised Airframe', 'short': 'Pressurised'}],
      'folders': folders, 'subjects': [s for s in subjects if s['count']], 'questions': Q}
 json.dump(B, open(DATA, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+
+json.dump(audit, open(os.path.join(H, 'audit.json'), 'w', encoding='utf-8'), indent=1)

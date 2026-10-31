@@ -8,8 +8,7 @@
 ],
 "a": [
 1
-],
-"x": "Assuming that the aircraft is to remain at constant altitude, it must reduce its angle of attack as it speeds-up. This alone will move the CofP rearwards, in accordance with the sub-sonic angle of attack change theory."
+]
 },
 {
 "q": "Wing spoilers, when used asymmetrically, are associated with",
@@ -20,8 +19,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "If an aircraft is yawing to the left, where would you position the trim tab on the rudder?",
@@ -32,8 +30,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "When a leading edge flap is fully extended, what is the slot in the wing for?",
@@ -44,8 +41,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "Which repair would required a landing gear retraction test?",
@@ -56,8 +52,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "Precise points are located on an aircraft by a system of",
@@ -68,20 +63,18 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "In the ATA 100 zonal system the passenger entry door will have a designation of",
 "o": [
-"800.",
-"600.",
-"400."
+"",
+"",
+""
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "The purpose of a restrictor in a hydraulic system is to restrict:",
@@ -92,8 +85,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "Generally, the first step in removing an accumulator from an aircraft is to:",
@@ -104,8 +96,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "A Fuselage Station is a",
@@ -116,8 +107,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "Composite materials are bonded by",
@@ -128,20 +118,18 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "The bonding lead to a remote aircraft component must be",
 "o": [
-"0.5 in wide",
+"5 in wide",
 "22 AWG.",
-"0.25 in wide and 22 AWG."
+"25 in wide and 22 AWG."
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "Which force is an I-Beam subjected to?",
@@ -152,8 +140,7 @@
 ],
 "a": [
 1
-],
-"x": "An I beam is subject to Bending, although different parts of it are subject to tension (upper boom) and shear (the web)."
+]
 },
 {
 "q": "The tropopause exists at about",
@@ -164,8 +151,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "Most radio aerials are",
@@ -176,8 +162,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "Secondary bonding is usually provided with",
@@ -188,8 +173,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "Where on the aircraft is FS245,RWS45?",
@@ -200,8 +184,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "Semi-monocoque construction",
@@ -212,8 +195,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "What governs the ultimate fatigue life of an aircraft?",
@@ -224,8 +206,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "An overweight landing is one in which the aircraft has",
@@ -236,8 +217,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "Cabin altitude in pressurized flight is the",
@@ -248,8 +228,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "In pressurized aircraft, temperature conditioning is mainly achieved by",
@@ -260,8 +239,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "Which best describes cabin differential pressure:",
@@ -272,8 +250,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "In the diluter demand oxygen regulator, when does the demand valve operate?",
@@ -284,8 +261,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "A cold air unit produces a drop in temperature by",
@@ -296,8 +272,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "The control of ventilating and pressurizing air released to atmosphere is achieved by a",
@@ -308,8 +283,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "At which component in air – cycle cooling system does air undergo a pressure and temperature Drop?",
@@ -320,8 +294,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "During a normal pressurized climb following Take – off:",
@@ -332,8 +305,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "The purpose of a mass flow controller is to:",
@@ -344,8 +316,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "Rate of change of cabin pressure is most noticeably shown on a",
@@ -356,8 +327,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "Landing gear warnings systems usually provide which of the following indications?",
@@ -368,20 +338,18 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "Inwards relief valves usually open at a negative differential pressure not exceeding",
 "o": [
-"0.5 p.s.i",
-"1.2 p.s.i",
-"0.16 p.s.i"
+"5 p.s.i",
+"2 p.s.i",
+"16 p.s.i"
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "Failure of the normal maximum differential control is catered for by fitting:",
@@ -392,8 +360,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "In a pneumatic pressurization system, positive pressure signals from the controller will cause:",
@@ -404,8 +371,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "Pressurisation control ensures that",
@@ -416,8 +382,18 @@
 ],
 "a": [
 0
+]
+},
+{
+"q": "Pitot' and 'Static' lines during a cabin pressure test should be",
+"o": [
+"cross connected",
+"disconnected",
+"connected"
 ],
-"x": ""
+"a": [
+2
+]
 },
 {
 "q": "Over pressure is usually caused by",
@@ -428,8 +404,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "If the cabin pressure fails to reach its maximum cabin pressure differential the",
@@ -440,8 +415,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "What would us to neutralize nicad battery spillage",
@@ -452,8 +426,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "CSD warning lights on the flight deck normally indicate",
@@ -464,8 +437,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "An AC generator used with a CSD",
@@ -476,20 +448,18 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "A pressure gauge, such as a hydraulic brake pressure gauge, indicates 1,000 p.s.i. In terms of absolute pressure, this represents",
 "o": [
-"985.3 p.s.i",
+"3 p.s.i",
 "1,014.7 p.s.i",
 "1,000 p.s.i"
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "If an aircraft flying in still air at 400 knots, encounters a head wind of 50 knots, its ground speed is",
@@ -500,8 +470,18 @@
 ],
 "a": [
 1
+]
+},
+{
+"q": "An aircraft flying towards a VOR station shows indications of 120° and 'TO'. After passing over the station, on the same course, the indications will be",
+"o": [
+"120° and FROM.",
+"300° and FROM.",
+"300° and TO."
 ],
-"x": ""
+"a": [
+0
+]
 },
 {
 "q": "A radar altimeter determines attitude by:",
@@ -512,8 +492,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "The main undercarriage is attached to the",
@@ -524,8 +503,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "The air data computer inputs to",
@@ -536,8 +514,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "Cargo and baggage compartments in which a fire is completely confined come under",
@@ -548,8 +525,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "Toilets must have a smoke detection",
@@ -560,8 +536,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "Where would you find information on life raft deployment",
@@ -572,8 +547,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "Lavatories must have in the disposal container",
@@ -584,8 +558,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "A systron-donner fire detection system uses:",
@@ -596,8 +569,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "What external warning is there for an APU fire?",
@@ -608,8 +580,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "Engine fire bottle pressure switches are operated by",
@@ -620,8 +591,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "What is attached to the rear of the vertical stabilizer?",
@@ -632,8 +602,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "Control surface flutter may be caused by",
@@ -644,8 +613,29 @@
 ],
 "a": [
 0
+]
+},
+{
+"q": "The balance tab is an auxiliary surface fitted to a main control surface",
+"o": [
+"operating automatically to provide feel to the controls",
+"operated independently at which point in the length of cable the tensiometer is applied",
+"operating automatically to assist the pilot in moving the controls"
 ],
-"x": ""
+"a": [
+2
+]
+},
+{
+"q": "Aerodynamic balancing of flight controls is achieved by",
+"o": [
+"placing a weight ahead of the hinge point",
+"providing a portion of the control surface ahead of the hinge point",
+"placing a weight in the leading edge of the control surface"
+],
+"a": [
+1
+]
 },
 {
 "q": "An elevator controls the aircraft motion in",
@@ -656,8 +646,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "The maximum permissible bow in a steel tube is",
@@ -668,8 +657,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "Symmetry checks should be carriedout",
@@ -680,8 +668,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "During a pressurization check at maximum differential, if the engines are shut-down",
@@ -692,8 +679,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "What is the colour of the middle marker beacon?",
@@ -704,8 +690,18 @@
 ],
 "a": [
 0
+]
+},
+{
+"q": "In the event of hydraulic failure in a power control system, a requirement of the manual reversion is that it must be",
+"o": [
+"Operated by the standby hydraulic system",
+"Automatic and instantaneous",
+"Possible but not recommended"
 ],
-"x": ""
+"a": [
+1
+]
 },
 {
 "q": "In a fly-by-wire control system, the follow-up transducer is fitted to”",
@@ -716,8 +712,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "Stick shaker:",
@@ -728,8 +723,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "Fuel crossfeed valves are operated by",
@@ -740,8 +734,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "Fuel systems that are interconnected must have",
@@ -752,8 +745,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "As fuel level increases, system capacitance",
@@ -764,8 +756,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "When refuelling",
@@ -776,8 +767,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "When using Biopor microbial fuel growth treatment",
@@ -788,8 +778,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "When a FADEC system loses air data input it goes to",
@@ -800,8 +789,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "What happens to the capacitance in a fuel contents gauge as fuel is used?",
@@ -812,8 +800,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "When an aircraft is put in storage for medium/long periods, the fuel tanks should",
@@ -824,8 +811,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "When considering the basic categories of fuel tank construction, which of the following is most prone to leaks?",
@@ -836,8 +822,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "On removal of a fuel tank booster pump, fuel is observed running out of the boost pump canister, this could be caused by",
@@ -848,8 +833,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "To shut-off the LP fuel supply to the engine for the purpose of engine removal you would",
@@ -860,8 +844,7 @@
 ],
 "a": [
 2
-],
-"x": "After first pulling the fire bottle CBs"
+]
 },
 {
 "q": "On Large transport aircraft fuel is delivered to each engine using",
@@ -872,8 +855,7 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
 "q": "Calcium Chromate tablets can be fitted in integral tanks. Before installation the linen bag should be wetted with",
@@ -884,8 +866,7 @@
 ],
 "a": [
 0
-],
-"x": ""
+]
 },
 {
 "q": "The purpose of a ‘cut-out’ in a hydraulic system:",
@@ -896,8 +877,7 @@
 ],
 "a": [
 2
-],
-"x": ""
+]
 },
 {
 "q": "Where is the temperature over heat switch located in a hydraulic pump?",
@@ -908,43 +888,39 @@
 ],
 "a": [
 1
-],
-"x": ""
+]
 },
 {
-"q": "What happens to hydraulic fluid when it is overheated – increase acidity",
+"q": "How much oxygen is in tyre (as a maximum)",
 "o": [
-"How is the hydraulic pump depressurizing solenoid actuated – energized closed for fail-safe",
-"How you prevent hydraulic frothing – by pressuring",
-"How much oxygen is in tyre (as a maximum)"
-],
-"a": [
-1
-],
-"x": ""
-},
-{
-"q": "5% by pressure",
-"o": [
+"5% by pressure",
 "15% by volume",
-"5% by volume",
-"A tyre specification 32 X 10.75-14. What does the 10.75 refer to?"
+"5% by volume"
 ],
 "a": [
-1
-],
-"x": ""
+2
+]
 },
 {
-"q": "Type of fluid most readily available",
+"q": "A tyre specification 32 X 10.75-14. What does the 10.75 refer to?",
 "o": [
-"The type of seal material",
-"Heat generated in operation of the system",
-"After Main landing gear down and securely locked, a red light is illuminated indicates"
+"Section width",
+"Bead diameter",
+"Overall diameter"
 ],
 "a": [
 0
+]
+},
+{
+"q": "The type of fluid in an oleo strut will depend upon:",
+"o": [
+"Type of fluid most readily available",
+"The type of seal material",
+"Heat generated in operation of the system"
 ],
-"x": ""
+"a": [
+1
+]
 }
 ]

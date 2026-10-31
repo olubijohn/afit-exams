@@ -9,10 +9,11 @@ def flush():
         else: bad.append(cur)
 for s in L:
     m = re.match(r'^(\d+)\s*[\.\)]\s*(.*)$', s)
-    if m and (cur is None or cur['a'] is not None):
+    # next question: after an answer, or (when a question has no answer line) the next number with options already read
+    if m and (cur is None or cur['a'] is not None or (len(cur['o']) >= 2 and 0 < int(m.group(1)) - cur['n'] <= 3)):
         flush(); cur = {'n': int(m.group(1)), 'q': m.group(2), 'o': [], 'a': None}; continue
     if cur is None: continue
-    m = re.match(r'^ANSWER\s*[:\.]?\s*\(?([A-Da-d])\b', s)
+    m = re.search(r'ANSWER\s*[:\.]?\s*\(?([A-Da-d])\b', s)   # also "D. ANSWER: B"
     if m: cur['a'] = 'ABCD'.index(m.group(1).upper()); continue
     if re.match(r'^ANSWER\s*[:\.]?\s*$', s): cur['a'] = -1; continue
     m = re.match(r'^([A-D])\s*[\.\)]\s*(.*)$', s)

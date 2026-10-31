@@ -1166,40 +1166,40 @@
 ]
 },
 {
-"q": "About 80% operating efficiency (20% loss due to fluid friction)",
+"q": "Which characteristics apply to aircraft hydraulic fluid;\nMinimum maintenance requirement\nLight weight\nAbout 80% operating efficiency (20% loss due to fluid friction)\nSimple to inspect",
 "o": [
-"Simple to inspect",
 "I, ii, iii and iv.",
-"I, ii and iv"
+"I, ii and iv",
+"I, iii and iv"
 ],
 "a": [
-2
+1
 ]
 },
 {
-"q": "I, iii and iv",
+"q": "Pressure is the term used to describe force per unit area. Pressure is usually expressed as;",
 "o": [
-"Pressure is the term used to describe force per unit area. Pressure is usually expressed as;",
 "Pounds per inch",
-"Pounds per square inch"
+"Pounds per square inch",
+"Pounds per cubic inch"
 ],
 "a": [
-2
+1
 ]
 },
 {
-"q": "Pounds per cubic inch",
+"q": "If two actuating cylinders which have the same cross sectional area but different length of stroke are connected to the same source of hydraulic pressure, the will exert;",
 "o": [
-"If two actuating cylinders which have the same cross sectional area but different length of stroke are connected to the same source of hydraulic pressure, the will exert;",
 "Different amount of force but will move at the same rate of speed",
+"Equal amount of force and will move at the same rate of speed",
 "Equal amount of force and will move at the same rate of speed"
 ],
 "a": [
-2
+1
 ]
 },
 {
-"q": "Equal amount of force and will move at the same rate of speed Using a hand pump, a force of 100 psi has been built up in a hydraulic system. The hand pump piston is 1inch in diameter. A 1/2inch line connects to the pump to an actuating cylinder 2inch in diameter. What is the pressure in the line between the hand pump and the actuating cylinder?",
+"q": "Using a hand pump, a force of 100 psi has been built up in a hydraulic system. The hand pump piston is 1inch in diameter. A 1/2inch line connects to the pump to an actuating cylinder 2inch in diameter. What is the pressure in the line between the hand pump and the actuating cylinder?",
 "o": [
 "150 PSI",
 "100 PSI",
@@ -1959,18 +1959,18 @@
 ]
 },
 {
-"q": "ii. an antiskid system consists basically of three components; a wheel speed sensor, a control box and a control valve",
+"q": "i. When an aircraft is slowed below approximately 20MPH, the antiskid system automatically disengages to allow the pilot full manual control of the brakes for maneuvering and parking.\nii. an antiskid system consists basically of three components; a wheel speed sensor, a control box and a control valve\nRegarding the above statement;",
 "o": [
-"Regarding the above statement;",
 "Only i. is correct",
-"Both i. and ii. are correct"
+"Both i. and ii. are correct",
+"Only ii. is correct"
 ],
 "a": [
-2
+1
 ]
 },
 {
-"q": "Only ii. is correct In an antiskid system, wheel skid is detected by?",
+"q": "In an antiskid system, wheel skid is detected by?",
 "o": [
 "Sudden rise in brake pressure",
 "A discriminator",
@@ -1981,18 +1981,18 @@
 ]
 },
 {
-"q": "Touchdown protection",
+"q": "Which of the following functions does a skid control system do?\nNormal skid control\nNormal braking\nFail safe protection\nLocked wheel skid control\nTouchdown protection\nTakeoff protection",
 "o": [
-"Takeoff protection",
 "1, 2, 5 and 6",
-"1, 3, 4 and 5"
+"1, 3, 4 and 5",
+"1, 2, 3 and 4"
 ],
 "a": [
-2
+1
 ]
 },
 {
-"q": "1, 2, 3 and 4 At what point in the landing operation does normal skid control performs its normal operation?",
+"q": "At what point in the landing operation does normal skid control performs its normal operation?",
 "o": [
 "When wheel rotation deceleration indicates an impending skid",
 "Anytime the wheel is rotating",

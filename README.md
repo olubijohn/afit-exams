@@ -22,9 +22,9 @@ It's a static site (no build step). Accounts and results are stored in the **Com
 
 ## Question bank
 
-5,466 questions in three papers, chosen with the buttons at the top of every page: **General Paper** (1,660), **Piston Engines** (557) and **Pressurised Airframe** (3,249). Inside each paper there is **one folder per file that was sent**, named after the file and holding that file's questions in its own order. Where a file has its own sections they show inside its folder: the NCAA papers 1 to 3, the Module 11 chapters of NCAA AIRFRAME, and the eight subjects of the first general paper. Each paper has its own home page, Continue, practice, question list and history, and the app remembers the last one used. `/piston` and `/pma` open that paper directly (`vercel.json` sends them to `index.html`), and old single-subject links such as `/law` open the paper they belong to.
+5,477 questions in three papers, chosen with the buttons at the top of every page: **General Paper** (1,663), **Piston Engines** (557) and **Pressurised Airframe** (3,257). Inside each paper there is **one folder per file that was sent**, named after the file and holding that file's questions in its own order. Where a file has its own sections they show inside its folder: the NCAA papers 1 to 3, the Module 11 chapters of NCAA AIRFRAME, and the eight subjects of the first general paper. Each paper has its own home page, Continue, practice, question list and history, and the app remembers the last one used. `/piston` and `/pma` open that paper directly (`vercel.json` sends them to `index.html`), and old single-subject links such as `/law` open the paper they belong to.
 
-The bank is built by `tools/folders/build.py` (`python -I build.py`) from the parsed copy of each file in `tools/folders/in/`. Questions that were already in the app keep their id (only when the file gives the same answer), so people's results carry over. Every folder holds its whole file. A question that the same file asks twice word for word is shown once; questions that several files share stay in each of them. Where a file marks two answers to a question, both count as right. Left out: questions with no marked answer, and ones that need a drawing. `General to use (Deji).docx` is one folder; its topic headings are not split out, and it repeats about 107 of its own questions, so 547 remain. The duplicate `PMA 2019 (1).pdf` was deleted. `tools/import2026/` is the earlier topic-based import and is no longer used.
+The bank is built by `tools/folders/build.py` (`python -I build.py`) from the parsed copy of each file in `tools/folders/in/`. Questions that were already in the app keep their id (only when the file gives the same answer), so people's results carry over. Every folder holds its whole file. A question that the same file asks twice word for word is shown once; questions that several files share stay in each of them. Where a file marks two answers to a question, both count as right. Left out: questions with no marked answer, and ones that need a drawing. `General to use (Deji).docx` is one folder; its topic headings are not split out, and it repeats 107 of its own questions, so 548 remain. The duplicate `PMA 2019 (1).pdf` was deleted. `tools/import2026/` is the earlier topic-based import and is no longer used.
 
 The questions come from these sources:
 
@@ -55,3 +55,21 @@ npx supabase functions deploy afit-account --project-ref npyxfreikuxuaroyvmcp --
 ```
 
 The site is live at https://ncat-exams.vercel.app (Vercel, from the `main` branch of github.com/olubijohn/afit-exams), so pushing to `main` updates it.
+
+### What each folder holds compared with its file (checked Oct 2026)
+`tools/folders/build.py` writes `tools/folders/audit.json` with these counts.
+| File | In the app | Why the count differs from the file |
+|---|---|---|
+| GENERAL PAPER _240124_171633 | 940 | none |
+| GENERAL PAPER | 175 | the PDF skips numbers 42, 45, 47, 74, 77, 87, 89, 125, 149, 158; no. 30 has no answer; no. 107 is garbled; 3 need a drawing; 10 asked twice |
+| General to use (Deji) | 548 | 656 read; 107 asked twice; a few have no answer marked; one needs a symbol picture |
+| SLIDE ON PISTON AND SYSTEMS | 557 | none |
+| PRESSURIZED AIRFRAME NCAA | 378 | 7 asked twice, 2 have no answer marked |
+| 200+PRESSURISED AIRFRAME LICENSE EXAM | 229 | 230 numbered; 215 is used twice; 2 asked twice; "231. Guarded switch" is a stray line. 3 questions are marked with two answers and both count |
+| PMA 2019 | 223 | 10 asked twice, 2 have no answer marked |
+| NCAA AIRFRAME | 1,561 | all 1,567 read; 6 asked twice |
+| PMA 2019 STUDIES-1 | 228 | "Removal of air…" has no answer marked; 2 asked twice |
+| PRESSURISED METAL AIRFRAME2018 | 99 | 1 asked twice |
+| AME PART 1 | 227 | the file has no question 107; no. 106 says "nil" for the answer; 1 asked twice |
+| AME PART 2 | 229 | none |
+| AIRFRAME QUESTION - JULY 2019 | 83 | 5 have no answer marked; one has dots instead of a question; one lost its question text (only "markings?" remains); 3 red notes are not questions |

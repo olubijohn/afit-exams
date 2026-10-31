@@ -1571,7 +1571,29 @@
 ]
 },
 {
-"q": "Become laminar When laying out pattern, orient the metal so that the bends:",
+"q": "The centre of pressure will move, over a cambered aerofoil, in a normal working range aft of the leading edge by",
+"o": [
+"5% - 10%",
+"25% - 30%",
+"35% - 40%"
+],
+"a": [
+1
+]
+},
+{
+"q": "Downstream from the leading edge of an aerofoil, the boundary layer will",
+"o": [
+"Thicken",
+"Thin out",
+"Become laminar"
+],
+"a": [
+0
+]
+},
+{
+"q": "When laying out pattern, orient the metal so that the bends:",
 "o": [
 "are made across the grain as much as possible",
 "are made along the grain as much as possible",
@@ -2033,7 +2055,7 @@
 ]
 },
 {
-"q": "0.004756 inch 142. The strength of a riveted joint compared to that of the original metal is:",
+"q": "142. The strength of a riveted joint compared to that of the original metal is:",
 "o": [
 "75%",
 "100%",

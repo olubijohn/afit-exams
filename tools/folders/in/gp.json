@@ -628,8 +628,19 @@
 "q": "The angle of attack of an aerofoil is the angle that the",
 "o": [
 "Chord line makes with the longitudinal axis",
-"Chord line makes with the relative airflow",
-"Airframe makes with the horizontal when the aircraft is in a rigging ANSWER: B 58. In a Fraise Aileron control system A. The up-going aileron moves through a greater angle than the down-going aileron B. The up-going aileron produces increased drag C. The down-going aileron leading edge protrudes into the airflow"
+"Chord line makes with the relative airflow"
+],
+"a": [
+1
+]
+},
+{
+"n": 58,
+"q": "In a Fraise Aileron control system",
+"o": [
+"The up-going aileron moves through a greater angle than the down-going aileron",
+"The up-going aileron produces increased drag",
+"The down-going aileron leading edge protrudes into the airflow"
 ],
 "a": [
 1
@@ -1505,8 +1516,19 @@
 "o": [
 "Rich mixture",
 "Lean mixture",
-"It does not matter",
-"ANSWER: B 138. An ornithopter is classified under A. Heavier than air machine B. Lighter than air machine C. Rotary machine"
+"It does not matter"
+],
+"a": [
+1
+]
+},
+{
+"n": 138,
+"q": "An ornithopter is classified under",
+"o": [
+"Heavier than air machine",
+"Lighter than air machine",
+"Rotary machine"
 ],
 "a": [
 0
