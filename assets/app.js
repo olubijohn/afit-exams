@@ -1536,7 +1536,7 @@ async function boot() {
     S.papers = bank.papers || [{ id: 'general', name: 'General Paper' }];
     S.folders = bank.folders || [];
     const inFolder = id => S.subjects.filter(x => x.folder === id).length;
-    S.subjects = S.allSubjects = S.subjects.map(x => { const fo = S.folders.find(f => f.id === x.folder); return fo && inFolder(fo.id) > 1 && !fo.files ? { ...x, sec: x.name, name: fo.name } : x;   // sections are not shown: a question is labelled with its file });
+    S.subjects = S.allSubjects = S.subjects.map(x => { const fo = S.folders.find(f => f.id === x.folder); return fo && inFolder(fo.id) > 1 && !fo.files ? { ...x, sec: x.name, name: fo.name } : x; });
     const SHORT = { law: 'LAW', aero1: 'AE1', aero2: 'AE2', sheet: 'SM', hardware: 'HW', drawing: 'DRG', hf1: 'HF1', hf2: 'HF2', piston: 'PE', pma: 'PP', gp: 'GP', deji: 'DJ', p200: '200', jul19: 'J19', ame1: 'AM1', ame2: 'AM2', pma19: 'P19', pmas: 'PMS', pma18: 'P18' };
     S.subjects.forEach(x => { if (/^ncaa-/.test(x.id)) SHORT[x.id] = 'P' + x.id.slice(5); if (/^m11-/.test(x.id)) SHORT[x.id] = x.id.slice(4).replace('-', '.'); });
     S.subjects.forEach((s, i) => { S.subj[s.id] = { ...s, i, short: s.short || SHORT[s.id] || s.name.slice(0, 3).toUpperCase() }; });
