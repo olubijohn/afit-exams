@@ -117,7 +117,7 @@ subjects.sort(key=lambda x: SHOW.index(x['folder']))
 kept = sum(1 for q in Q if q['id'] in old_pma or q['s'] in GEN or q['s'] == 'piston')
 print('total', len(Q), '| ids kept from before:', kept, '| old pressurised ids kept:', sum(q['id'] in old_pma for q in Q), 'of 527')
 # files left with fewer than 20 questions of their own share one folder, so the page isn't full of tiny folders
-SMALL = 20
+SMALL = 0   # 0: every file is its own folder, however few questions it has left
 for paper in ('general', 'piston', 'pma'):
     tiny = [fo for fo in folders if fo['paper'] == paper and sum(x['count'] for x in subjects if x['folder'] == fo['id']) < SMALL]
     if len(tiny) < 2: continue
