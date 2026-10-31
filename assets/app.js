@@ -96,18 +96,22 @@ const folderSubs = id => S.subjects.filter(x => x.folder === id);
 function folderCard(fo, ss) {
   const subs = folderSubs(fo.id); const n = subs.reduce((t, x) => t + x.count, 0);
   const o = subs.reduce((t, x) => { const y = ss[x.id]; t.m += y.mastered; t.x += y.missed; t.s += y.seen; t.r += y.right; t.t += y.tries; return t; }, { m: 0, x: 0, s: 0, r: 0, t: 0 });
-  const multi = subs.length > 1;
-  return `<a class="card subj subj-link folder-card" href="${multi ? `#/folder/${fo.id}` : '#/practice'}" ${multi ? '' : `data-act="subjGo" data-s="${subs[0].id}"`}>
-    <div class="subj-top"><span class="folder-ico">${I.folder}</span><div style="min-width:0"><h4>${esc(fo.name)}</h4><span class="sub">${n.toLocaleString()} questions${multi ? ` · ${subs.length} sections` : ''}</span></div></div>
+  const b = seqBlock(folderSetup(fo.id));
+  const go = !b.ids.length ? 'Go round again' : b.started ? `Continue ${b.from}–${b.to}` : 'Start';
+  return `<a class="card subj subj-link folder-card" href="#/quiz" data-act="folderStart" data-f="${fo.id}">
+    <div class="subj-top"><span class="folder-ico">${I.folder}</span><div style="min-width:0"><h4>${esc(fo.name)}</h4><span class="sub">${n.toLocaleString()} questions</span>${fo.files ? `<span class="sub folder-files">${esc(fo.files.join(' · '))}</span>` : ''}</div></div>
     <div class="bar" title="${o.m} right, ${o.x} wrong"><i class="b-ok" style="width:${(o.m / n) * 100}%"></i><i class="b-bad" style="width:${(o.x / n) * 100}%"></i></div>
-    <div class="subj-meta"><span>${o.s ? `${o.s}/${n} done${o.t ? ` · ${pct(o.r, o.t)}% right` : ''}` : 'Not started'}</span><span class="subj-go">${multi ? 'Open' : 'Practise'} ${I.chev}</span></div></a>`;
+    <div class="subj-meta"><span>${o.s ? `${o.s}/${n} done${o.t ? ` · ${pct(o.r, o.t)}% right` : ''}` : 'Not started'}</span><span class="subj-go">${go} ${I.chev}</span></div></a>`;
 }
+// a folder's questions in the file's order, carrying on where this person stopped
+const folderSetup = id => { const sv = store.get('afit:setup', {}); return { ...defaultSetup(), count: sv.count || 20, shuffle: sv.shuffle ?? true, subjects: folderSubs(id).map(x => x.id), source: 'all', order: 'source', mode: 'practice' }; };
+const folderOfSubjects = list => { const fo = S.folders.find(f => { const ids = folderSubs(f.id).map(x => x.id); return ids.length && ids.length === list.length && ids.every(x => list.includes(x)); }); return fo; };
 const subjCard = (s, o) => `<a class="card subj subj-link" href="#/practice" data-act="subjGo" data-s="${s.id}"><div class="subj-top">${subjBadge(s.id)}<div><h4>${esc(s.sec || s.name)}</h4><span class="sub">${s.count} questions</span></div></div>
   <div class="bar" title="${o.mastered} right, ${o.missed} wrong"><i class="b-ok" style="width:${(o.mastered / s.count) * 100}%"></i><i class="b-bad" style="width:${(o.missed / s.count) * 100}%"></i></div>
   <div class="subj-meta"><span>${o.seen ? `${o.seen}/${s.count} done${o.tries ? ` · ${pct(o.right, o.tries)}% right` : ''}` : 'Not started'}</span><span class="subj-go">Practise ${I.chev}</span></div></a>`;
 function viewFolder(id) {
   const fo = S.folders.find(x => x.id === id);
-  if (!fo || fo.paper !== S.paper) return go('', true);
+  if (!fo || fo.paper !== S.paper || true) return go('', true);
   const subs = folderSubs(id), ss = subjectStats(), n = subs.reduce((t, x) => t + x.count, 0);
   mount(shell('', `<div class="page-head"><div><div class="eyebrow"><a href="#/" class="link-sm">${esc(scopeName())}</a> › Folder</div><h1 class="folder-title">${I.folder}<span>${esc(fo.name)}</span></h1><p>${n.toLocaleString()} questions in ${subs.length} sections, as in the file.</p></div>
     <button class="btn btn-primary" data-act="folderGo" data-f="${id}">${I.play} Practise the whole folder</button></div>
@@ -242,7 +246,7 @@ function resetCursor(subjects) {
   subjects.forEach(s => delete c[s]);
   saveProgress();
 }
-const subjLabel = st => (st.subjects.length === 1 ? S.subj[st.subjects[0]].name : st.subjects.length === S.subjects.length ? 'All subjects' : `${st.subjects.length} subjects`)
+const subjLabel = st => (folderOfSubjects(st.subjects) ? folderOfSubjects(st.subjects).name : st.subjects.length === 1 ? S.subj[st.subjects[0]].name : st.subjects.length === S.subjects.length ? 'All subjects' : `${st.subjects.length} subjects`)
   + (st.source === 'new' ? ' · not seen yet' : st.source === 'missed' ? ' · got wrong' : '');
 // saved settings that covered every subject of the time also cover subjects added since
 const FIRST_SUBJECTS = ['law', 'aero1', 'aero2', 'sheet', 'hardware', 'drawing', 'hf1', 'hf2'];
@@ -553,7 +557,7 @@ function viewDashboard() {
       </div>
     </section>
     ${!myFolders().length ? '' : `<section>
-      <div class="page-head" style="margin-bottom:14px"><div><h2 style="font-size:20px">${esc(scopeName())} files</h2><p class="muted" style="margin:4px 0 0;font-size:14px">One folder for each file, with its questions in the same order.</p></div><a href="#/bank" class="link-sm">Browse all questions</a></div>
+      <div class="page-head" style="margin-bottom:14px"><div><h2 style="font-size:20px">${esc(scopeName())} files</h2><p class="muted" style="margin:4px 0 0;font-size:14px">Tap a file to start its questions.</p></div><a href="#/bank" class="link-sm">Browse all questions</a></div>
       <div class="grid g-subjects">${myFolders().map(fo => folderCard(fo, ss)).join('')}</div>
     </section>`}
     ${Q ? `<div class="card resume"><span class="ico">${I.clock}</span><div class="tx"><b>Unfinished quiz</b><div class="muted" style="font-size:14px">${esc(Q.title)}: ${quizScore(Q).answered} of ${Q.items.length} answered</div></div>
@@ -609,12 +613,10 @@ function renderPractice() {
   <div class="setup-layout">
     <div class="card">
       <div class="setup-sec"><div class="card-head" style="margin-bottom:4px"><h4>${myFolders().length ? "Files" : "Subjects"}</h4><button class="btn btn-ghost btn-sm" data-act="allSubjects">${allOn ? 'Clear' : 'Select all'}</button></div><p>Mix as many as you like.</p>
-        ${(() => { const chip = (s, label) => `<button type="button" class="chip" data-act="toggleSubject" data-s="${s.id}" aria-pressed="${st.subjects.includes(s.id)}"><span class="dot" style="background:${SUBJECT_COLORS[S.subj[s.id].i % SUBJECT_COLORS.length]}"></span>${esc(label)} <span class="n">${s.count}</span></button>`;
-          const fos = myFolders(); if (!fos.length) return `<div class="chips">${S.subjects.map(x => chip(x, x.name)).join('')}</div>`;
-          const single = fos.filter(fo => folderSubs(fo.id).length === 1), multi = fos.filter(fo => folderSubs(fo.id).length > 1);
-          return (single.length ? `<div class="chips">${single.map(fo => chip(folderSubs(fo.id)[0], fo.name)).join('')}</div>` : '')
-            + multi.map(fo => { const subs = folderSubs(fo.id), on = subs.every(x => st.subjects.includes(x.id));
-              return `<div class="chip-folder"><div class="chip-folder-head">${I.folder}<b>${esc(fo.name)}</b><button type="button" class="btn btn-ghost btn-sm" data-act="toggleFolder" data-f="${fo.id}">${on ? 'Clear' : 'Select all'}</button></div><div class="chips">${subs.map(x => chip(x, x.sec || x.name)).join('')}</div></div>`; }).join(''); })()}</div>
+        ${(() => { const fos = myFolders();
+          if (!fos.length) return `<div class="chips">${S.subjects.map(x => `<button type="button" class="chip" data-act="toggleSubject" data-s="${x.id}" aria-pressed="${st.subjects.includes(x.id)}">${esc(x.name)} <span class="n">${x.count}</span></button>`).join('')}</div>`;
+          return `<div class="chips">${fos.map((fo, i) => { const subs = folderSubs(fo.id), on = subs.every(x => st.subjects.includes(x.id)), n = subs.reduce((t, x) => t + x.count, 0);
+            return `<button type="button" class="chip" data-act="toggleFolder" data-f="${fo.id}" aria-pressed="${on}"><span class="dot" style="background:${SUBJECT_COLORS[i % SUBJECT_COLORS.length]}"></span>${esc(fo.name)} <span class="n">${n}</span></button>`; }).join('')}</div>`; })()}</div>
       <div class="setup-sec"><h4>Which questions</h4><p>Go through everything, only ones you haven't seen, or the ones you got wrong.</p>
         ${seg('source', [['all', 'All'], ['new', `Not seen yet (${newCount})`], ['missed', `Got wrong (${missCount})`]])}</div>
       <div class="setup-sec"><h4>How many</h4><p>${seq ? (blk.started ? `${blk.left} of ${blk.total} still to do. You carry on from where you stopped.` : `${blk.total} questions, starting from question 1.`) : `${pool.length} available. Ones you haven't answered come first.`}</p>
@@ -806,7 +808,8 @@ function viewHistory() {
 /* ---------- question bank ---------- */
 function bankMatches() {
   const v = S.bankView, terms = v.q.toLowerCase().split(/\s+/).filter(Boolean);
-  return S.bank.filter(q => (v.s === 'all' || q.s === v.s) && (!terms.length || terms.every(t => (q.q + ' ' + q.o.join(' ')).toLowerCase().includes(t))));
+  const inF = v.s.startsWith('f:') ? new Set(folderSubs(v.s.slice(2)).map(x => x.id)) : null;
+  return S.bank.filter(q => (v.s === 'all' || (inF ? inF.has(q.s) : q.s === v.s)) && (!terms.length || terms.every(t => (q.q + ' ' + q.o.join(' ')).toLowerCase().includes(t))));
 }
 function hl(text) {
   const terms = S.bankView.q.split(/\s+/).filter(t => t.length > 1).map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
@@ -830,7 +833,7 @@ function viewBank() {
   <div class="page-head"><div><div class="eyebrow">Questions</div><h1>${esc(scopeName())}</h1><p>Search or read through every question with its answer.</p></div></div>
   <div class="toolbar">
     <div class="search">${I.search}<input type="search" id="bankq" placeholder="Search, e.g. rivet, QFE, circadian" value="${esc(v.q)}" aria-label="Search questions"></div>
-    <select class="sel" id="banks" aria-label="Subject"><option value="all">All files</option>${myFolders().length ? myFolders().map(fo => { const subs = folderSubs(fo.id); return subs.length === 1 ? `<option value="${subs[0].id}" ${v.s === subs[0].id ? 'selected' : ''}>${esc(fo.name)}</option>` : `<optgroup label="${esc(fo.name)}">${subs.map(x => `<option value="${x.id}" ${v.s === x.id ? 'selected' : ''}>${esc(x.sec || x.name)}</option>`).join('')}</optgroup>`; }).join('') : S.subjects.map(s => `<option value="${s.id}" ${v.s === s.id ? 'selected' : ''}>${esc(s.name)}</option>`).join('')}</select>
+    <select class="sel" id="banks" aria-label="Subject"><option value="all">All files</option>${myFolders().length ? myFolders().map(fo => `<option value="f:${fo.id}" ${v.s === 'f:' + fo.id ? 'selected' : ''}>${esc(fo.name)}</option>`).join('') : S.subjects.map(s => `<option value="${s.id}" ${v.s === s.id ? 'selected' : ''}>${esc(s.name)}</option>`).join('')}</select>
     <label class="switch" style="gap:10px"><span style="font-weight:600;font-size:14px">Show answers</span><input type="checkbox" id="bankshow" ${v.show ? 'checked' : ''}></label>
   </div>
   <div class="toolbar" style="justify-content:space-between"><span class="muted" id="bankcount" style="font-size:14px"></span><button class="btn btn-sm" data-act="practiceBank">${I.play} Quiz me on these</button></div>
@@ -1368,6 +1371,13 @@ const actions = {
     st.subjects = on ? st.subjects.filter(x => !ids.includes(x)) : [...new Set([...st.subjects, ...ids])];
     store.set('afit:setup', st); renderPractice();
   },
+  async folderStart(el, e) {
+    e?.preventDefault();
+    if (S.quiz && !S.quiz.finished && quizScore(S.quiz).answered && !await dialog({ title: 'Leave your unfinished quiz?', body: `${S.quiz.title}: ${quizScore(S.quiz).answered} answered. It will be replaced.`, ok: 'Start this one' })) return;
+    const st = folderSetup(el.dataset.f);
+    if (!seqBlock(st).ids.length) resetCursor(st.subjects);
+    startSeq(st);
+  },
   folderGo(el, e) {
     e?.preventDefault();
     S.setup = { ...defaultSetup(), ...store.get('afit:setup', {}), subjects: folderSubs(el.dataset.f).map(x => x.id) };
@@ -1430,7 +1440,7 @@ const actions = {
   practiceBank() {
     const ids = bankMatches().map(q => q.id);
     const picked = shuffle(ids).slice(0, 50);
-    startQuiz({ title: S.bankView.q ? `Search: “${S.bankView.q}” · ${picked.length} questions` : `${S.bankView.s === 'all' ? 'All subjects' : S.subj[S.bankView.s].name} · ${picked.length} questions`, mode: 'practice', ids: picked });
+    startQuiz({ title: S.bankView.q ? `Search: “${S.bankView.q}” · ${picked.length} questions` : `${S.bankView.s === 'all' ? scopeName() : S.bankView.s.startsWith('f:') ? (S.folders.find(f => 'f:' + f.id === S.bankView.s)?.name || '') : S.subj[S.bankView.s]?.name || ''} · ${picked.length} questions`, mode: 'practice', ids: picked });
   },
 };
 
@@ -1526,7 +1536,7 @@ async function boot() {
     S.papers = bank.papers || [{ id: 'general', name: 'General Paper' }];
     S.folders = bank.folders || [];
     const inFolder = id => S.subjects.filter(x => x.folder === id).length;
-    S.subjects = S.allSubjects = S.subjects.map(x => { const fo = S.folders.find(f => f.id === x.folder); return fo && inFolder(fo.id) > 1 ? { ...x, sec: x.name, name: `${fo.name} · ${x.name}` } : x; });
+    S.subjects = S.allSubjects = S.subjects.map(x => { const fo = S.folders.find(f => f.id === x.folder); return fo && inFolder(fo.id) > 1 && !fo.files ? { ...x, sec: x.name, name: fo.name } : x;   // sections are not shown: a question is labelled with its file });
     const SHORT = { law: 'LAW', aero1: 'AE1', aero2: 'AE2', sheet: 'SM', hardware: 'HW', drawing: 'DRG', hf1: 'HF1', hf2: 'HF2', piston: 'PE', pma: 'PP', gp: 'GP', deji: 'DJ', p200: '200', jul19: 'J19', ame1: 'AM1', ame2: 'AM2', pma19: 'P19', pmas: 'PMS', pma18: 'P18' };
     S.subjects.forEach(x => { if (/^ncaa-/.test(x.id)) SHORT[x.id] = 'P' + x.id.slice(5); if (/^m11-/.test(x.id)) SHORT[x.id] = x.id.slice(4).replace('-', '.'); });
     S.subjects.forEach((s, i) => { S.subj[s.id] = { ...s, i, short: s.short || SHORT[s.id] || s.name.slice(0, 3).toUpperCase() }; });
