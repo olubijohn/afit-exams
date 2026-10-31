@@ -619,3 +619,14 @@ dialog#modal:has(.img-view) { width: min(900px, calc(100vw - 24px)); }
 .paper-btn.on > span { color: inherit; opacity: .85; }
 .paper-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 @media (max-width: 560px) { .paperbar { margin-top: -12px; } .paper-btn { padding: 9px 4px; } .paper-btn b { font-size: 14px; } .paper-btn > span { font-size: 11px; } .paper-btn .pl { display: none; } .paper-btn .ps { display: inline; } }
+
+/* folders: one per file that was sent */
+.folder-ico { flex: none; width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; background: var(--accent-soft, #e8f1fd); color: var(--accent); }
+.folder-ico svg { width: 24px; height: 24px; }
+.folder-card h4 { overflow-wrap: anywhere; }
+.folder-title { display: flex; align-items: center; gap: 10px; overflow-wrap: anywhere; }
+.folder-title svg { flex: none; width: 30px; height: 30px; color: var(--accent); }
+.chip-folder { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.chip-folder-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.chip-folder-head svg { width: 18px; height: 18px; color: var(--accent); flex: none; }
+.chip-folder-head b { flex: 1; min-width: 0; font-size: 14px; overflow-wrap: anywhere; }

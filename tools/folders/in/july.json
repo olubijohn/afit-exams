@@ -1,0 +1,950 @@
+[
+{
+"q": "As a subsonic aircraft speeds-up, its Centre of Pressure",
+"o": [
+"moves forward",
+"moves aft",
+"is unaffected"
+],
+"a": [
+1
+],
+"x": "Assuming that the aircraft is to remain at constant altitude, it must reduce its angle of attack as it speeds-up. This alone will move the CofP rearwards, in accordance with the sub-sonic angle of attack change theory."
+},
+{
+"q": "Wing spoilers, when used asymmetrically, are associated with",
+"o": [
+"ailerons",
+"rudder",
+"elevators"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "If an aircraft is yawing to the left, where would you position the trim tab on the rudder?",
+"o": [
+"To the centre",
+"To the right",
+"To the left"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "When a leading edge flap is fully extended, what is the slot in the wing for?",
+"o": [
+"To allow the flap to retract into it when it retracts",
+"To re-energise the boundary layer",
+"To increase the lift"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "Which repair would required a landing gear retraction test?",
+"o": [
+"Landing gear safety switch",
+"Red warning light bulb",
+"Gear down lock micro switch"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "Precise points are located on an aircraft by a system of",
+"o": [
+"frame stations, vertical lines and lateral lines",
+"longitudinal, vertical and lateral lines",
+"frame stations, water lines and buttock lines"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "In the ATA 100 zonal system the passenger entry door will have a designation of",
+"o": [
+"800.",
+"600.",
+"400."
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "The purpose of a restrictor in a hydraulic system is to restrict:",
+"o": [
+"The rate of building – up of hydraulic hydraulic pressure",
+"The distance of travel of a actuator",
+"The rate of operation of a service component"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "Generally, the first step in removing an accumulator from an aircraft is to:",
+"o": [
+"Relieve system pressure",
+"Discharge the preload",
+"Drain the reservoir"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "A Fuselage Station is a",
+"o": [
+"lateral point on aircraft wing",
+"lateral point on aircraft fuse",
+"longitudinal point on the aircraft fuselage"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "Composite materials are bonded by",
+"o": [
+"aluminium wire",
+"special paint",
+"copper wire"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "The bonding lead to a remote aircraft component must be",
+"o": [
+"0.5 in wide",
+"22 AWG.",
+"0.25 in wide and 22 AWG."
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "Which force is an I-Beam subjected to?",
+"o": [
+"Tension",
+"Bending",
+"Shear"
+],
+"a": [
+1
+],
+"x": "An I beam is subject to Bending, although different parts of it are subject to tension (upper boom) and shear (the web)."
+},
+{
+"q": "The tropopause exists at about",
+"o": [
+"18,000 ft",
+"36,000 ft",
+"30,000 ft"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "Most radio aerials are",
+"o": [
+"not bonded",
+"bonded",
+"insulated from the fuselage"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "Secondary bonding is usually provided with",
+"o": [
+"stranded copper 0.25 inch",
+"single strand 0.25 inch",
+"18 AWG."
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "Where on the aircraft is FS245,RWS45?",
+"o": [
+"245 inches from the nose of the aircraft and 45 inches from the tip of the right wing",
+"245 inches from the datum line of the aircraft and 45 inches from the centreline of the right wing",
+"245 inches from the nose of the aircraft and 45 inches from the centreline of the right wing"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "Semi-monocoque construction",
+"o": [
+"utilizes the safe-life design concept",
+"is used only for the fuselage",
+"offers good damage resistance"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "What governs the ultimate fatigue life of an aircraft?",
+"o": [
+"Pressure Cycles",
+"Flying Hours",
+"Landings"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "An overweight landing is one in which the aircraft has",
+"o": [
+"a missed placed centre of gravity on landing",
+"too much kinetic energy on landing",
+"an excessive fuel load on take-off"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "Cabin altitude in pressurized flight is the",
+"o": [
+"altitude at which cabin altitude equals outside air pressure",
+"pressure altitude of the cabin as corrected to mean sea level I.S.A. conditions",
+"altitude corresponding to cabin pressure irrespective of the altitude for the aircraft"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "In pressurized aircraft, temperature conditioning is mainly achieved by",
+"o": [
+"adding heat to the pressurising air",
+"varying cabin pressure",
+"extracting heat from the pressurizing air"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "Which best describes cabin differential pressure:",
+"o": [
+"Difference between cabin flight altitude pressure and Mean Sea Level Pressure",
+"Difference between the ambient and internal air pressure",
+"Difference between cabin pressure controller setting and actual cabin pressure"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "In the diluter demand oxygen regulator, when does the demand valve operate?",
+"o": [
+"When the diluter control is set at normal",
+"When the user demand 100 percent oxygen",
+"When the user breathes"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "A cold air unit produces a drop in temperature by",
+"o": [
+"reducing pressure and driving the units compressor",
+"driving the units compressor",
+"reducing pressure"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "The control of ventilating and pressurizing air released to atmosphere is achieved by a",
+"o": [
+"discharge valve/inwards relief valve combination",
+"pressure controller/dump valve combination",
+"pressure controller/discharge valve combination"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "At which component in air – cycle cooling system does air undergo a pressure and temperature Drop?",
+"o": [
+"Expansion turbine",
+"Primary heat exchanger",
+"Refrigerator bypass valve"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "During a normal pressurized climb following Take – off:",
+"o": [
+"The cabin ROC is less than the aircraft’s ROC",
+"The cabin ROC is more than the aircraft’s ROC",
+"The ROC is constant"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "The purpose of a mass flow controller is to:",
+"o": [
+"Ensure that a constant mass of air is delivery to the cabin at all times",
+"Allow the pilot to select the desire cabin altitude",
+"Ensure that there is an adequate supply of cool air through the heat exchangers"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "Rate of change of cabin pressure is most noticeably shown on a",
+"o": [
+"cabin V.S.I.",
+"cabin altimeter",
+"cabin pressure gauge"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "Landing gear warnings systems usually provide which of the following indications?",
+"o": [
+"Red light for unsafe gear, no light for gear down, green light for gear up",
+"Green light for gear up and down, red light for unsafe gear",
+"Red light for unsafe gear, green light for gear down, no light for gear up"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "Inwards relief valves usually open at a negative differential pressure not exceeding",
+"o": [
+"0.5 p.s.i",
+"1.2 p.s.i",
+"0.16 p.s.i"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "Failure of the normal maximum differential control is catered for by fitting:",
+"o": [
+"Safely relief valves",
+"Inward relief valves",
+"Altitude selector valves"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "In a pneumatic pressurization system, positive pressure signals from the controller will cause:",
+"o": [
+"The discharge valve to move towards closed",
+"The discharge valve to move towards open",
+"An excessive rate of cabin air discharge"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "Pressurisation control ensures that",
+"o": [
+"at operational altitude the cabin altitude is below 10,000ft",
+"pressurisation does not start before aircraft is above 8,000ft",
+"the cabin is always maintained at sea level"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "Over pressure is usually caused by",
+"o": [
+"The HP shut off valve seized opened",
+"Excessive bleeds switched on",
+"Engine r.p.m too high"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "If the cabin pressure fails to reach its maximum cabin pressure differential the",
+"o": [
+"discharge valve should be adjusted",
+"pressure controller should be adjusted",
+"outward relief valve is inoperative"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "What would us to neutralize nicad battery spillage",
+"o": [
+"Boric acid",
+"Distilled water",
+"Bicarbonate of soda"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "CSD warning lights on the flight deck normally indicate",
+"o": [
+"High oil pressure, low oil temperature, low oil pressure, high oil….",
+"Low oil pressure, low oil temperature",
+"Low oil pressure, high oil temperature"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "An AC generator used with a CSD",
+"o": [
+"Needs a voltage controller to maintain voltage with increasing ……",
+"Does not need a voltage controller because current is kept constant…",
+"Does not need a voltage controller because voltage is kept conatant"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "A pressure gauge, such as a hydraulic brake pressure gauge, indicates 1,000 p.s.i. In terms of absolute pressure, this represents",
+"o": [
+"985.3 p.s.i",
+"1,014.7 p.s.i",
+"1,000 p.s.i"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "If an aircraft flying in still air at 400 knots, encounters a head wind of 50 knots, its ground speed is",
+"o": [
+"450 knots",
+"350 knots",
+"400 knots"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "A radar altimeter determines attitude by:",
+"o": [
+"Transmitting a signal and receiving back a reflected signal",
+"Receiving signals transmitted from ground radar stations",
+"Means of transponder interrogation"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "The main undercarriage is attached to the",
+"o": [
+"aircraft structure",
+"rear main spar",
+"front main spar"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "The air data computer inputs to",
+"o": [
+"altimeter, FMC, secondary radar",
+"mach meter, standby altimeter, ASI.",
+"cabin rate sensors, mach-meters, ASI, altimeter"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "Cargo and baggage compartments in which a fire is completely confined come under",
+"o": [
+"Class C",
+"Class D",
+"Class B"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "Toilets must have a smoke detection",
+"o": [
+"Aural and visual warning in the main cabin",
+"Light in the cockpit",
+"Connected to a pump to pump the smoke out"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "Where would you find information on life raft deployment",
+"o": [
+"NigCARs",
+"Cabin Safety on-board card",
+"Cabun operations manual"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "Lavatories must have in the disposal container",
+"o": [
+"Freon extinguisher with white ball markings",
+"Freon extinguisher with black ball markings",
+"Water/glycol extinguisher with whte ball markings"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "A systron-donner fire detection system uses:",
+"o": [
+"Helium gas",
+"Oxygen gas",
+"Nitrogen gas"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "What external warning is there for an APU fire?",
+"o": [
+"Aural",
+"Both aural and a red light",
+"Red light"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "Engine fire bottle pressure switches are operated by",
+"o": [
+"Ac or dc",
+"Dc",
+"Ac"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "What is attached to the rear of the vertical stabilizer?",
+"o": [
+"Elevator",
+"Aileron",
+"Rudder"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "Control surface flutter may be caused by",
+"o": [
+"excessive play in trim tab attachments",
+"high static friction in trim tab control tabs",
+"incorrect angular movement of trim tabs"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "An elevator controls the aircraft motion in",
+"o": [
+"yaw",
+"pitch",
+"roll"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "The maximum permissible bow in a steel tube is",
+"o": [
+"1 in 400.",
+"1 in 600.",
+"1 in 200."
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "Symmetry checks should be carriedout",
+"o": [
+"in the hangar with the aircraft on its wheels",
+"on the ramp with the aircraft on its wheels",
+"in the hanger with the aircraft on jacks"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "During a pressurization check at maximum differential, if the engines are shut-down",
+"o": [
+"cabin ROC indicator gives indication of cabin seal efficiency",
+"aircraft remains pressurised until the dump valve opens",
+"outflow valve opens immediately"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "What is the colour of the middle marker beacon?",
+"o": [
+"Amber",
+"Blue",
+"White"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "In a fly-by-wire control system, the follow-up transducer is fitted to”",
+"o": [
+"The control system computer",
+"The hydraulic actuator",
+"The pilot input"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "Stick shaker:",
+"o": [
+"Is a linear actuator attached to the base of the control column",
+"Is an eccentric flywheel driven by an electric motor and mounted…",
+"Vibrates the elevators to cause buffeting of the airframe"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "Fuel crossfeed valves are operated by",
+"o": [
+"28 V DC bus",
+"115 V AC",
+"battery"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "Fuel systems that are interconnected must have",
+"o": [
+"separate venting for each tank",
+"no airspace",
+"air spaces interconnected"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "As fuel level increases, system capacitance",
+"o": [
+"decreases",
+"nwo change",
+"increases"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "When refuelling",
+"o": [
+"the fuel nozzle will automatically cut off the supply when the tank is full",
+"it is important not to fill the expansion space in the tank",
+"it is important to fill the expansion space in the tank"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "When using Biopor microbial fuel growth treatment",
+"o": [
+"it is added to the fuel and burnt",
+"it is applied dry and left",
+"it is applied wet and flushed out"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "When a FADEC system loses air data input it goes to",
+"o": [
+"soft reversion",
+"hard reversion",
+"mechanical reversion"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "What happens to the capacitance in a fuel contents gauge as fuel is used?",
+"o": [
+"Depends on altitude",
+"Increases",
+"Decreases"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "When an aircraft is put in storage for medium/long periods, the fuel tanks should",
+"o": [
+"Have some fuel left to prevent sealant from deterioration/drying out",
+"Be full",
+"Be empty"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "When considering the basic categories of fuel tank construction, which of the following is most prone to leaks?",
+"o": [
+"Rigid",
+"Integral",
+"Flexible"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "On removal of a fuel tank booster pump, fuel is observed running out of the boost pump canister, this could be caused by",
+"o": [
+"the pressure outlet check valve is not correctly seated",
+"fuel draining out of the pressure switch bleed",
+"fuel leaking past the inlet screens"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "To shut-off the LP fuel supply to the engine for the purpose of engine removal you would",
+"o": [
+"close the cross bleed valve",
+"close the HP fuel lock",
+"pull the fire handle"
+],
+"a": [
+2
+],
+"x": "After first pulling the fire bottle CBs"
+},
+{
+"q": "On Large transport aircraft fuel is delivered to each engine using",
+"o": [
+"a parallel system",
+"the same system for each engine",
+"a separate system for each engine"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "Calcium Chromate tablets can be fitted in integral tanks. Before installation the linen bag should be wetted with",
+"o": [
+"Water",
+"Methylated Spirit",
+"Kerosene"
+],
+"a": [
+0
+],
+"x": ""
+},
+{
+"q": "The purpose of a ‘cut-out’ in a hydraulic system:",
+"o": [
+"Is to prevent creep in jack operated services which have several selected positions",
+"Is to limit loss of fluid in the event of pipe fracture",
+"Is to relieve the pump of load when the operation of services is complete and the accumulator charged with fluid"
+],
+"a": [
+2
+],
+"x": ""
+},
+{
+"q": "Where is the temperature over heat switch located in a hydraulic pump?",
+"o": [
+"In the pressure line",
+"In the suction line",
+"In the case drain"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "What happens to hydraulic fluid when it is overheated – increase acidity",
+"o": [
+"How is the hydraulic pump depressurizing solenoid actuated – energized closed for fail-safe",
+"How you prevent hydraulic frothing – by pressuring",
+"How much oxygen is in tyre (as a maximum)"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "5% by pressure",
+"o": [
+"15% by volume",
+"5% by volume",
+"A tyre specification 32 X 10.75-14. What does the 10.75 refer to?"
+],
+"a": [
+1
+],
+"x": ""
+},
+{
+"q": "Type of fluid most readily available",
+"o": [
+"The type of seal material",
+"Heat generated in operation of the system",
+"After Main landing gear down and securely locked, a red light is illuminated indicates"
+],
+"a": [
+0
+],
+"x": ""
+}
+]

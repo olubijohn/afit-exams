@@ -1,0 +1,7199 @@
+[
+{
+"q": "The international lapse rate for temperature in the atmospheric region known as the troposphere is:",
+"o": [
+"1.98ºC per 500 ft",
+"1.98ºC per 1000 ft",
+"2.20ºC per 1000 ft"
+],
+"a": [
+1
+]
+},
+{
+"q": "The composition of air in the atmosphere is approximately:",
+"o": [
+"78% oxygen, 21% nitrogen, 1% other gases",
+"21% oxygen, 78% carbon dioxide, 1% other gases",
+"78% nitrogen, 21% oxygen, 1% other gases"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following is correct?",
+"o": [
+"Absolute pressure = Gauge pressure + Atmospheric pressure",
+"Absolute pressure + Atmospheric pressure = Gauge pressure",
+"Atmospheric pressure = Absolute pressure + Gauge pressure"
+],
+"a": [
+0
+]
+},
+{
+"q": "A pitot-static tube will measure:",
+"o": [
+"The static pressure only",
+"The dynamic pressure only",
+"The static plus dynamic pressure"
+],
+"a": [
+1
+]
+},
+{
+"q": "Behind anybody moving in air is a system of eddies which moves at a lower speed than the main stream. This is known as:",
+"o": [
+"Downwash",
+"Wake",
+"Trailing edge effect"
+],
+"a": [
+1
+]
+},
+{
+"q": "The layer of air over the surface of an aerofoil which is moving at a velocity less than free stream air is known as:",
+"o": [
+"stagnation layer",
+"turbulent layer",
+"boundary layer"
+],
+"a": [
+2
+]
+},
+{
+"q": "The mean camber line of an aerofoil is:",
+"o": [
+"a line, each point of which is equidistant from the upper and lower surfaces of an aerofoil section",
+"a straight line drawn through the centres of curvature at the leading and trailing edges of an aerofoil section",
+"a straight line tangential to the top surface at the leading edge"
+],
+"a": [
+0
+]
+},
+{
+"q": "The angle of incidence is the angle between the:",
+"o": [
+"Mean camber line and the chord line",
+"Chord line and the relative airflow",
+"Chord line and the longitudinal axis of the aircraft"
+],
+"a": [
+2
+]
+},
+{
+"q": "Increasing the incidence angle towards the wing tip is known as:",
+"o": [
+"Wash out",
+"Wash in",
+"Wing dihedral"
+],
+"a": [
+1
+]
+},
+{
+"q": "Interference drag can be reduced by the use of:",
+"o": [
+"fairings at junctions between fuselage and wings",
+"streamlining",
+"high aspect ratio wings"
+],
+"a": [
+0
+]
+},
+{
+"q": "Minimum total drag of an aircraft occurs:",
+"o": [
+"at the stalling speed",
+"when induced drag is least",
+"when profile drag equals induced drag"
+],
+"a": [
+2
+]
+},
+{
+"q": "With increase in passengers and cargo Vmdwill occur at:",
+"o": [
+"higher speed",
+"same speed",
+"lower speed"
+],
+"a": [
+0
+]
+},
+{
+"q": "An aircraft in straight and level flight is subject to:",
+"o": [
+"A load factor of unity",
+"A load factor of two",
+"Zero load factor"
+],
+"a": [
+0
+]
+},
+{
+"q": "If the weight of an aircraft is increased, its glide range will:",
+"o": [
+"be the same",
+"be increased",
+"be reduced"
+],
+"a": [
+0
+]
+},
+{
+"q": "An aircraft can climb at a particular speed when:",
+"o": [
+"power available from the engine is less than power required",
+"power available from the engine is greater than power required",
+"power available from the engine is equal to power required"
+],
+"a": [
+1
+]
+},
+{
+"q": "The power required in a horizontal turn:",
+"o": [
+"is greater than that for level flight at the same airspeed",
+"must be the same as that for level flight at the same airspeed",
+"is less than that for level flight at the same airspeed"
+],
+"a": [
+0
+]
+},
+{
+"q": "Wing loading means the ratio of:",
+"o": [
+"The weight of the aerofoil and the wing area",
+"The lift and the aircraft weight",
+"The total weight of the aircraft and the wing area"
+],
+"a": [
+2
+]
+},
+{
+"q": "The weather cock effect on an aircraft executing a take-off performance is caused by a:",
+"o": [
+"cross wind",
+"tail wind",
+"head wind"
+],
+"a": [
+0
+]
+},
+{
+"q": "Stability of an aircraft is:",
+"o": [
+"the tendency of the aircraft to stall at low airspeed",
+"the ability of the aircraft to rotate about an axis",
+"the tendency of the aircraft to automatically return to its original trimmed position after having been displaced"
+],
+"a": [
+2
+]
+},
+{
+"q": "In a Frise Aileron control system:",
+"o": [
+"The up-going aileron moves through a greater angle than the down-going aileron",
+"The up-going aileron produces increased drag",
+"The down-going aileron leading edge protrudes into the airflow"
+],
+"a": [
+1
+]
+},
+{
+"q": "An anti-balance (anti-servo) tab is designed to:",
+"o": [
+"provide a force to move the main control surface to relieve control column effort",
+"provide “feel”, increasing the pilot’s awareness of the loads imposed by control surface deployment",
+"position the control surface in the streamed position in flight after balance tab deployment"
+],
+"a": [
+1
+]
+},
+{
+"q": "The purpose of a spring tab is to:",
+"o": [
+"provide a reduction in the pilot’s effort to move the controls against high air loads",
+"provide a constant spring tension to a trim tab system",
+"provide “feel” feedback in a control system"
+],
+"a": [
+0
+]
+},
+{
+"q": "Krueger flaps are fitted to the:",
+"o": [
+"leading edge on top of the wing",
+"leading edge on the bottom of the wing",
+"trailing edge on the bottom of the wing"
+],
+"a": [
+1
+]
+},
+{
+"q": "A Fowler Flap will increase:",
+"o": [
+"wing area only",
+"camber only",
+"wing area and camber"
+],
+"a": [
+2
+]
+},
+{
+"q": "Mcrit is the speed at which:",
+"o": [
+"A shock wave forms on the wings",
+"The aircraft is considered to be fully supersonic",
+"A shock wave forms at the nose of the aircraft"
+],
+"a": [
+0
+]
+},
+{
+"q": "‘Tuck under’ occurs when:",
+"o": [
+"the aircraft reaches Mcrit",
+"a shock stall warning occurs on the inboard position of a straight wing",
+"a shock stall occurs on the outboard portion of the swept wing"
+],
+"a": [
+0
+]
+},
+{
+"q": "If an engineer forgets to fit a seal to an engine drain plug, he or she has?",
+"o": [
+"made an error of omission",
+"committed a violation",
+"made an error of commission"
+],
+"a": [
+0
+]
+},
+{
+"q": "Murphy's law is perpetuated mainly by?",
+"o": [
+"poor aircraft design",
+"complacency",
+"violations"
+],
+"a": [
+1
+]
+},
+{
+"q": "What do you do when someone is hypothermic?",
+"o": [
+"Feed them sweet things because of their diabetes",
+"Warm them up",
+"Give them a drink because of dehydration"
+],
+"a": [
+1
+]
+},
+{
+"q": "How long can the aural reflex protect the ear from loud noise?",
+"o": [
+"15 minutes",
+"15 seconds",
+"5 seconds"
+],
+"a": [
+0
+]
+},
+{
+"q": "Ultra short-term memory has a duration of about?",
+"o": [
+"80 - 100 milliseconds",
+"10 to 20 seconds",
+"2 seconds"
+],
+"a": [
+2
+]
+},
+{
+"q": "Hypermetropia is the medical name for?",
+"o": [
+"deafness",
+"long sightedness",
+"short sightedness"
+],
+"a": [
+1
+]
+},
+{
+"q": "The inability for the eyes to accommodate sufficiently is known as ?",
+"o": [
+"hypermetropia",
+"presbyopia",
+"myopia"
+],
+"a": [
+1
+]
+},
+{
+"q": "Noise signals are carried to the brain by the?",
+"o": [
+"eustachian nerve",
+"auditory nerve",
+"sensory nerve"
+],
+"a": [
+1
+]
+},
+{
+"q": "The most common cause of myopia is?",
+"o": [
+"weak accommodation",
+"a shortened eyeball",
+"an elongated eyeball"
+],
+"a": [
+2
+]
+},
+{
+"q": "Peer pressure is?",
+"o": [
+"the perceived pressure to conform to what you believe your colleagues expect of you",
+"the perceived pressure to carry out a task in the same way your colleagues would.",
+"the pressure to carry out a task in the same way your relatives"
+],
+"a": [
+0
+]
+},
+{
+"q": "AWN 47 states that the engineer?",
+"o": [
+"does not report for work if unfit",
+"is responsible for the work he has signed for",
+"is responsible for health and safety"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the difference between error and violation?",
+"o": [
+"Error is deliberate, violation is not",
+"Violation is deliberate, error is not",
+"Error is deliberate, violation is deliberate"
+],
+"a": [
+1
+]
+},
+{
+"q": "A mistake is?",
+"o": [
+"a deliberate departure from the rules",
+"an intentional act of sabotage",
+"an unintentional error"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which type of human error is easiest to correct",
+"o": [
+"Variable error",
+"Reversible error",
+"Constant error"
+],
+"a": [
+2
+]
+},
+{
+"q": "The SHEL model of human factors takes into account?",
+"o": [
+"Software, hardware, environment and location",
+"Software, hardware, environment and liveware",
+"Software, hardware, efficiency and liveware"
+],
+"a": [
+1
+]
+},
+{
+"q": "Cold stress can be influenced by?",
+"o": [
+"a drop in body temperature",
+"the wind chill factor",
+"insufficient vitamins in the diet"
+],
+"a": [
+1
+]
+},
+{
+"q": "The normal recovery for Circadian dysrhythmia is ?",
+"o": [
+"at a rate 2.5 hours a day",
+"at a rate 2 hours a day",
+"at a rate 1.5 hours a day"
+],
+"a": [
+2
+]
+},
+{
+"q": "REM sleep can also be referred to as?",
+"o": [
+"slow wave sleep",
+"paradoxical sleep",
+"paranormal sleep"
+],
+"a": [
+1
+]
+},
+{
+"q": "After drinking alcohol, absorption is dependant on ?",
+"o": [
+"weight",
+"age",
+"time"
+],
+"a": [
+2
+]
+},
+{
+"q": "Human Circadian rhythms cycle on a?",
+"o": [
+"24 hour time scale",
+"25 hour timescale",
+"8 hour timescale"
+],
+"a": [
+1
+]
+},
+{
+"q": "The thickness of Registration letters on an aircraft shall be:",
+"o": [
+"Maximum of two inches wide",
+"1/6 of the height",
+"Not more than three inches and not less than one inch"
+],
+"a": [
+1
+]
+},
+{
+"q": "Registration letters, width of each letter on an aircraft fuselage must be:",
+"o": [
+"2/3 of the height of the letter",
+"Maximum of 3/4 of the height",
+"Any reasonable amount to give an even appearance"
+],
+"a": [
+0
+]
+},
+{
+"q": "The identification plate containing owner’s name and aircraft details shall be:",
+"o": [
+"Any material suitably fixed near the main entrance of the aircraft",
+"Made of a fireproof material and is mandatory",
+"A metal plate affixed to the starboard side of the aircraft"
+],
+"a": [
+1
+]
+},
+{
+"q": "The height of the registration letters fixed to a wing shall be:",
+"o": [
+"30 centimeters",
+"Any even size",
+"At least 50 centimeters"
+],
+"a": [
+2
+]
+},
+{
+"q": "An aircraft in Transport category (Passengers) may fly:",
+"o": [
+"To carry passengers only",
+"For any purpose",
+"Not for aerial work"
+],
+"a": [
+2
+]
+},
+{
+"q": "An aircraft in the Private category may fly:",
+"o": [
+"Passenger and aerial work purposes",
+"Any purpose other than public transport and aerial work",
+"Private persons only"
+],
+"a": [
+1
+]
+},
+{
+"q": "A public transport registered in Nigeria on an international flight must carry:",
+"o": [
+"Radio licence, C of A, crew licences, Load sheet, C of M, Tech log, Certificate of registration",
+"Certificate of registration C of A and Tech log only",
+"Certificate of registration C of A and crew licences"
+],
+"a": [
+0
+]
+},
+{
+"q": "An aircraft registered in Nigeria not on public transport is required to carry on international flights:",
+"o": [
+"C of A, Tech log, load sheet, crew licences",
+"C of A, C of reg. Radio station licence, crew licences"
+],
+"a": [
+0
+]
+},
+{
+"q": "An aircraft operating under “B” conditions:",
+"o": [
+"Must be on the register",
+"Need not be registered",
+"Must be marked in an approved manner if not on the register"
+],
+"a": [
+2
+]
+},
+{
+"q": "A Certificate of Maintenance is valid for:",
+"o": [
+"50hrs or one month",
+"100hrs",
+"A period specified in the approved maintenance schedule in either flying hours or calendar time"
+],
+"a": [
+2
+]
+},
+{
+"q": "Radio equipment required to be carried in an aircraft will be found in:",
+"o": [
+"In accordance with NCAR part 7",
+"Not mandatory",
+"Schedule 6 table 2 refers"
+],
+"a": [
+0
+]
+},
+{
+"q": "An aircraft when away from base has work done requiring a C of C, which of the following applies:",
+"o": [
+"Can be flown at the commanders discretion",
+"Can return to its home base",
+"Can be flown at the commanders discretion, with a written report by the commander giving reasons and particulars to be submitted to the Authority within ten days"
+],
+"a": [
+2
+]
+},
+{
+"q": "A type rated AMEL may sign for",
+"o": [
+"Major and minor modifications and C of C’s",
+"C of conformity, C of compliance, C of registration",
+"C of maintenance, C of compliance, C of fitness for flight"
+],
+"a": [
+2
+]
+},
+{
+"q": "Entries made in a log book shall be:",
+"o": [
+"In pencil but legible",
+"In ink or indelible pencil",
+"Any of the above"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which aircraft are allowed to fly in Nigeria?",
+"o": [
+"Nigerian registered only",
+"Nigerian registered or registered in a contracting state or country",
+"Any aircraft"
+],
+"a": [
+1
+]
+},
+{
+"q": "An AMEL of any category can sign for:",
+"o": [
+"C of M",
+"C of M and C of C subject to rating",
+"C of M, C of C and C of fitness to fly subject to rating"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the minimum requirement to register an aircraft in Nigeria:",
+"o": [
+"Owner qualified person",
+"Unqualified owner and qualified charterer",
+"Both owner and charterer to be qualified"
+],
+"a": [
+1
+]
+},
+{
+"q": "When an aircraft changes operators which documents must be transferred:",
+"o": [
+"C of M",
+"C of M, C of R and Tech log",
+"C of M, C of R, C of A, Tech log and the aircraft log books"
+],
+"a": [
+2
+]
+},
+{
+"q": "An aircraft can fly under “B” conditions:",
+"o": [
+"Only if registered",
+"Only if unregistered",
+"Whether registered or not must be suitably marked"
+],
+"a": [
+2
+]
+},
+{
+"q": "Aircraft equipment is specified in:",
+"o": [
+"NCAR, Part 7",
+"5th schedule",
+"6th schedule"
+],
+"a": [
+0
+]
+},
+{
+"q": "Aircraft radio equipment is specified in:",
+"o": [
+"2nd schedule",
+"4th schedule",
+"NCAR, Part 7"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which is illegal without a valid C of A:",
+"o": [
+"glider on aerial work",
+"Aircraft under “A” conditions",
+"Aircraft flying on a C of fitness"
+],
+"a": [
+0
+]
+},
+{
+"q": "Certificate of maintenance is issued for:",
+"o": [
+"Aircraft inspected I.A.W. Maintenance schedule",
+"Aircraft inspected I.A.W. approved Maintenance schedule",
+"After repair and modification"
+],
+"a": [
+1
+]
+},
+{
+"q": "On completion of an aircraft charter the charterer is to:",
+"o": [
+"Hand over the registration",
+"Cancel the registration",
+"Inform the Authority"
+],
+"a": [
+2
+]
+},
+{
+"q": "What signature is required on a C of fitness when flying under “A” conditions:",
+"o": [
+"“A” Licenced aircraft engineer",
+"A & C Licenced engineer",
+"All appropriate categories as required for the aircraft type"
+],
+"a": [
+2
+]
+},
+{
+"q": "A tech log is required for:",
+"o": [
+"All aircraft",
+"All aircraft above 5700kg",
+"All aircraft having a mandatory approved maintenance schedule"
+],
+"a": [
+0
+]
+},
+{
+"q": "The tech log need not be carried when:",
+"o": [
+"It must be carried at all times on the aircraft",
+"The flight begins and ends at the same airfield without passing over any other country"
+],
+"a": [
+0
+]
+},
+{
+"q": "A flight is required at a time when a scheduled inspection is due:",
+"o": [
+"An AMEL can apply an extension for 10% of the time of the inspection type.",
+"It must be completed before the next flight",
+"The aircraft can be flown if the C of A is valid"
+],
+"a": [
+2
+]
+},
+{
+"q": "Rectification in the tech log:",
+"o": [
+"Only requires clearance by an AMEL",
+"C of C only to be kept on the ground",
+"Copy of the C of C in the tech log clearly identifiable against the defect"
+],
+"a": [
+2
+]
+},
+{
+"q": "Minimum height of registration letters on a fuselage:",
+"o": [
+"At least 50 centimetres",
+"At least 15 centimetres",
+"At least 30 centimetres"
+],
+"a": [
+2
+]
+},
+{
+"q": "The performance group of an aircraft is given in:",
+"o": [
+"C of A",
+"By the constructor",
+"The regulations"
+],
+"a": [
+0
+]
+},
+{
+"q": "Certificate of Compliance means:",
+"o": [
+"Part of the aircraft or its components has been overhauled repaired or replaced I.A.W. the approved schedule and manuals and using approved materials",
+"The work has been completed",
+"A mandatory inspection has been carried out"
+],
+"a": [
+0
+]
+},
+{
+"q": "Who can be qualified to be the owner of an aircraft registered in Nigeria:",
+"o": [
+"Citizens of Nigeria or bodies corporate established under and subject to the laws of Nigeria",
+"Anyone",
+"Any company"
+],
+"a": [
+0
+]
+},
+{
+"q": "A suitably licensed AMEL can sign:",
+"o": [
+"C of C, C of M, C of R",
+"C of M, C of C",
+"C of M, C of C, C of fitness"
+],
+"a": [
+2
+]
+},
+{
+"q": "On a private international flight the following documents must be carried:",
+"o": [
+"C of A, Certificate of Registration, Tech log",
+"C of A, C of M, Certificate of Registration",
+"C of M, Crew licenses and radio licenses"
+],
+"a": [
+0
+]
+},
+{
+"q": "An aircraft has recently undergone an engine replacement, the details of which will be recorded in:",
+"o": [
+"The tech log",
+"The engine log books only",
+"The airframe log book and the engine log books"
+],
+"a": [
+1
+]
+},
+{
+"q": "Under Nigerian rules and regulations, hand held fire extinguishers must be located:",
+"o": [
+"The cabin only",
+"The cockpit and the cabin",
+"The cockpit, cabin and cargo holds accessible from the cockpit"
+],
+"a": [
+2
+]
+},
+{
+"q": "In respect to an E.L.T. installed in a aircraft which of the following statements is incorrect:",
+"o": [
+"The date of expiry of the battery must be marked on the outside of the E.L.T.",
+"All aircraft flying in Nigeria must carry an E.L.T.",
+"Only aircraft above 5700kg in any category must carry an E.L.T."
+],
+"a": [
+2
+]
+},
+{
+"q": "The purpose for which an aircraft may fly are as follows:",
+"o": [
+"Transport Category (passenger): any purpose",
+"Transport Category (passenger): any purpose other than aerial work",
+"Transport Category (cargo): any purpose other than public transport of passengers"
+],
+"a": [
+1
+]
+},
+{
+"q": "An owner P.I.C. may perform any task defined as maintenance on an aircraft except as provided in the following:",
+"o": [
+"If the aircraft maximum take-off mass exceeds 2730kg",
+"The aircraft is listed for use by an AOC holder",
+"Both a & b"
+],
+"a": [
+2
+]
+},
+{
+"q": "Except for records maintained by an AOC holder, the owner or operator shall retain the records of maintenance, inspections and minor modification until the work is repeated or superseded by other work for:",
+"o": [
+"1 year",
+"2 years",
+"5 years"
+],
+"a": [
+0
+]
+},
+{
+"q": "The registration letters of a fixed wing aircraft are placed:",
+"o": [
+"On the wing tips only",
+"The wings, fuselage and vertical fin",
+"Both of the above"
+],
+"a": [
+1
+]
+},
+{
+"q": "How long must a certificate of maintenance be retained:",
+"o": [
+"6 months after expiry",
+"Not required after a new one is issued",
+"2 years following expiry of certificate"
+],
+"a": [
+2
+]
+},
+{
+"q": "The aircraft weight schedule shall be retained:",
+"o": [
+"For 6 months following expiry",
+"Not required to be retained following a reweigh and reissue",
+"2 years"
+],
+"a": [
+0
+]
+},
+{
+"q": "The height of the registration letters fixed to a wing shall be:",
+"o": [
+"30 centimetres",
+"Any even size",
+"At least 50 centimetres"
+],
+"a": [
+2
+]
+},
+{
+"q": "An aircraft in the Private category may fly:",
+"o": [
+"Passenger and aerial work purposes",
+"Any purpose other than public transport and aerial work",
+"Private persons only"
+],
+"a": [
+1
+]
+},
+{
+"q": "An aircraft on a flight to Berlin-Germany must have as part of its radio navigation equipment:",
+"o": [
+"A.D.F.",
+"Radio and visual aids only",
+"Radio capable of receiving aeronautical radio station material"
+],
+"a": [
+0
+]
+},
+{
+"q": "A four-engined variable pitch propeller aircraft requires the following log books:",
+"o": [
+"One for the airframe and one for each engine",
+"One for the airframe and one engine",
+"A total of nine, one for the airframe, one for each engine and one for each propeller"
+],
+"a": [
+2
+]
+},
+{
+"q": "The number of fuses which can be changed in flight shall be:",
+"o": [
+"A maximum of 5",
+"15% or 5 of each rating",
+"10% or 3 of each rating whichever is the greater"
+],
+"a": [
+2
+]
+},
+{
+"q": "A Certificate of Maintenance must be retained for:",
+"o": [
+"6 months following expiry",
+"1 year following the date of validity",
+"2 years following expiry"
+],
+"a": [
+1
+]
+},
+{
+"q": "An engine defect occurred in flight; defect and rectification should be recorded in:",
+"o": [
+"Tech log",
+"Tech log and engine log book",
+"Tech log, engine log book and airframe log book"
+],
+"a": [
+1
+]
+},
+{
+"q": "Log books are a mandatory requirement for:",
+"o": [
+"Aircraft and engines.",
+"Any propeller, engines and airframe.",
+"Variable pitch propellers, engines and airframe."
+],
+"a": [
+2
+]
+},
+{
+"q": "For a flight to be carried out under “A” conditions to be carried out",
+"o": [
+"An application for issue or validation or renewal or approval must have been made",
+"Only requires a current C of fitness to fly",
+"Does not need either of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "In which case shall a C of A cease to remain in force:",
+"o": [
+"When the aircraft has been repaired using approved materials",
+"When the aircraft is on scheduled maintenance",
+"When a repair has been carried out using commercial materials"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the minimum requirement to register an aircraft in Nigeria:",
+"o": [
+"Owner qualified person",
+"Unqualified owner and qualified charterer",
+"Both owner and charterer to be qualified"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which is false in a glider:",
+"o": [
+"Can fly unregistered in Nigeria if not on public transport or aerial work",
+"Needs to comply with the equipment in Part 7",
+"Needs not to comply with the radio equipment in Part 7"
+],
+"a": [
+2
+]
+},
+{
+"q": "The Authority can:",
+"o": [
+"Revoke licenses etc",
+"Can alter licenses",
+"Can vary licenses"
+],
+"a": [
+0
+]
+},
+{
+"q": "The performance group of an aircraft is given in:",
+"o": [
+"C of A",
+"By the constructor",
+"The regulations"
+],
+"a": [
+0
+]
+},
+{
+"q": "Certificate of Compliance means:",
+"o": [
+"Part of the aircraft or its components has been overhauled repaired or replaced I.A.W. the approved schedule and manuals and using approved materials",
+"The work has been completed",
+"A mandatory inspection has been carried out"
+],
+"a": [
+0
+]
+},
+{
+"q": "Following maintenance work carried out on a control system a duplicate inspection is required:",
+"o": [
+"This is to be carried out by two engineers, one starting at the back the aircraft and the other at the front.",
+"This is to be carried out by one engineer inspecting the control system twice.",
+"This is to be carried out by two suitably qualified engineers inspecting the control system with no additional work being carried out between the inspections."
+],
+"a": [
+2
+]
+},
+{
+"q": "Who can be qualified to be the owner of an aircraft registered in Nigeria:",
+"o": [
+"Citizens of Nigeria or bodies corporate established under and subject to the laws of Nigeria",
+"Anyone",
+"Any company"
+],
+"a": [
+0
+]
+},
+{
+"q": "A suitably licensed AMEL can sign:",
+"o": [
+"C of C, C of M, C of R",
+"C of M, C of C",
+"C of M, C of C, C of fitness"
+],
+"a": [
+2
+]
+},
+{
+"q": "On a private international flight, the following documents must be carried:",
+"o": [
+"C of A, Certificate of Registration, Tech log",
+"C of A, C of M, Certificate of Registration",
+"C of M, Crew licenses and radio licenses"
+],
+"a": [
+0
+]
+},
+{
+"q": "An aircraft has recently undergone an engine replacement, the details of which will be recorded in:",
+"o": [
+"The tech log",
+"The engine log books only",
+"The airframe log book and the engine log book"
+],
+"a": [
+1
+]
+},
+{
+"q": "In Nigeria a crash axe and crow bar are carried:",
+"o": [
+"On aircraft of over 5700kg and helicopters of over 2730kg",
+"On aircraft with more than nine passenger seats",
+"Both a & b"
+],
+"a": [
+2
+]
+},
+{
+"q": "Under Nigerian rules and regulations:",
+"o": [
+"An aircraft may have more than one registration",
+"An aircraft may be registered in more than one country",
+"Neither of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "Under Nigerian rules and regulations, hand held fire extinguishers must be located:",
+"o": [
+"The cabin only",
+"The cockpit and the cabin",
+"The cockpit, cabin and cargo holds accessible from the cockpit"
+],
+"a": [
+2
+]
+},
+{
+"q": "Before an aircraft can fly commercially in Nigeria, the company or organisation must have:",
+"o": [
+"An AOC",
+"An AMO or a third-party maintenance agreement",
+"Both a & b"
+],
+"a": [
+2
+]
+},
+{
+"q": "Under Nigerian rules and regulations a fireproof metal plate containing registration and ownership details:",
+"o": [
+"Must be carried by all aircraft",
+"Only needs to be carried by aircraft above 2730kg",
+"Must be fixed to the starboard side of the aircraft near the main entrance"
+],
+"a": [
+2
+]
+},
+{
+"q": "An aircraft flying under “B” conditions in Nigeria:",
+"o": [
+"must be registered in Nigeria",
+"must appoint a Pilot in command approved by the aircraft manufacture",
+"may carry persons in the aircraft in order to carry out a technical evaluation"
+],
+"a": [
+2
+]
+},
+{
+"q": "In respect to log books which of the following statements is true:",
+"o": [
+"A log book is required for the aircraft and one for the engines",
+"A log book is required for the aircraft, each engine and each fixed pitch propeller",
+"A log book is required for the aircraft, each engine and each variable pitch propeller"
+],
+"a": [
+2
+]
+},
+{
+"q": "In the event of an unqualified person becoming an owner of an aircraft whilst the aircraft is chartered:",
+"o": [
+"The registration of the aircraft becomes invalid",
+"The charterer must notify the Authority",
+"Both a & b are false"
+],
+"a": [
+1
+]
+},
+{
+"q": "In respect to Maintenance tasks that can be performed by authorised persons:",
+"o": [
+"A pilot licensed by the authority may release an aircraft to service following a 100hr inspection providing the M.T.O.W is less than 2730kg.",
+"An AMO may perform aircraft maintenance within the limits specified by the authority in its approval document",
+"A person not being a CSAM may perform inspections under supervision."
+],
+"a": [
+1
+]
+},
+{
+"q": "The international lapse rate for temperature in the atmospheric region known as the troposphere is:",
+"o": [
+"1.98ºC per 500 ft",
+"1.98ºC per 1000 ft",
+"2.20ºC per 1000 ft"
+],
+"a": [
+1
+]
+},
+{
+"q": "Increase of moisture in the air has the effect of:",
+"o": [
+"reducing the density",
+"increasing the density",
+"reducing the pressure"
+],
+"a": [
+0
+]
+},
+{
+"q": "density varies inversely with humididty when the temp and pressure remains same Bernoulli’s Theorem states that at any point in a flow of a gas:",
+"o": [
+"The static pressure is less than the dynamic pressure",
+"The static pressure and dynamic pressure are equal",
+"The total energy remains constant"
+],
+"a": [
+2
+]
+},
+{
+"q": "77. Which of the following is correct?",
+"o": [
+"Absolute pressure = Gauge pressure + Atmospheric pressure",
+"Absolute pressure + Atmospheric pressure = Gauge pressure",
+"Atmospheric pressure = Absolute pressure + Gauge pressure"
+],
+"a": [
+0
+]
+},
+{
+"q": "Minimum total drag of an aircraft occurs:",
+"o": [
+"at the stalling speed",
+"when induced drag is least",
+"when profile drag equals induced drag"
+],
+"a": [
+2
+]
+},
+{
+"q": "The centre of pressure is:",
+"o": [
+"the point on the chord line through which the total resultant lift force on the aerofoil may be said to act",
+"the point of maximum pressure on the under surface of a wing",
+"the point at which the four forces acting on an aircraft are said to act"
+],
+"a": [
+0
+]
+},
+{
+"q": "An aircraft in straight and level flight is subject to:",
+"o": [
+"A load factor of unity",
+"A load factor of two",
+"Zero load factor"
+],
+"a": [
+0
+]
+},
+{
+"q": "Bernoulli’s Theorem states that at any point in a flow of a gas:",
+"o": [
+"The static pressure is less than the dynamic pressure",
+"The static pressure and dynamic pressure are equal",
+"The total energy remains constant"
+],
+"a": [
+2
+]
+},
+{
+"q": "The dihedral angle is the angle between the:",
+"o": [
+"wing plane and the lateral axis",
+"wing plane and the longitudinal axis",
+"leading edge and the lateral axis"
+],
+"a": [
+0
+]
+},
+{
+"q": "The pressure of air as it passes the throat of a venturi tube",
+"o": [
+"increases",
+"decreases",
+"remains the same"
+],
+"a": [
+0
+]
+},
+{
+"q": "A pitot-static tube will measure:",
+"o": [
+"The static pressure only",
+"The dynamic pressure only",
+"The static plus dynamic pressure"
+],
+"a": [
+1
+]
+},
+{
+"q": "The angle of attack of an aerofoil is the angle that the:",
+"o": [
+"chord line makes with the longitudinal axis",
+"chord line makes with the relative airflow",
+"airframe makes with the horizontal when the aircraft is in a rigging position"
+],
+"a": [
+1
+]
+},
+{
+"q": "The angle of incidence is the angle between the:",
+"o": [
+"Mean camber line and the chord line",
+"Chord line and the relative airflow",
+"Chord line and the longitudinal axis of the aircraft"
+],
+"a": [
+2
+]
+},
+{
+"q": "Increasing the incidence angle towards the wing tip is known as:",
+"o": [
+"Wash out",
+"Wash in",
+"Wing dihedral"
+],
+"a": [
+1
+]
+},
+{
+"q": "The dihedral angle is the angle between the:",
+"o": [
+"wing plane and the lateral axis",
+"wing plane and the longitudinal axis",
+"leading edge and the lateral axis"
+],
+"a": [
+0
+]
+},
+{
+"q": "Pitching is the movement of the aircraft about:",
+"o": [
+"The normal axis",
+"The lateral axis",
+"The longitudinal axis"
+],
+"a": [
+1
+]
+},
+{
+"q": "After an aircraft has been disturbed from its straight and level flight, it returns to its original attitude with a small amount of decreasing oscillation. The aircraft is:",
+"o": [
+"statically unstable but dynamically stable",
+"statically stable but dynamically unstable",
+"statically stable and dynamically stable"
+],
+"a": [
+2
+]
+},
+{
+"q": "An aircraft which is stable about its axis of roll is said to possess:",
+"o": [
+"Longitudinal stability",
+"Lateral stability",
+"Directional stability"
+],
+"a": [
+1
+]
+},
+{
+"q": "The rotational slip stream from the propeller:",
+"o": [
+"will have no effect on the vertical stabilizer due to its symmetrical section",
+"may cause a yawing moment by giving the vertical stabilizer an angle of attack",
+"will only produce a force on the vertical stabilizer when the aircraft is stationary"
+],
+"a": [
+1
+]
+},
+{
+"q": "Effectiveness of any control in the slipstream will be greater. The slipstream meets the fin at an angle and this is corrected by offsetting the fin or trimming rudder. If an aircraft is travelling at Mach 3 when the speed is 324 ms-1, the local speed of sound will be:",
+"o": [
+"975 ms-1",
+"108 ms-1",
+"650 ms-1"
+],
+"a": [
+1
+]
+},
+{
+"q": "Transonic airspeeds are considered to be from:",
+"o": [
+"Mach 0.5 to 0.75",
+"Mach 0.75 to 1.2",
+"Mach 0.75 to 2.0"
+],
+"a": [
+1
+]
+},
+{
+"q": "The formation of shock wave on a wing causes:",
+"o": [
+"loss of lift and increased drag",
+"loss of lift and reduced drag",
+"increased lift and drag"
+],
+"a": [
+0
+]
+},
+{
+"q": "The actual distance a propeller moves forward through the air during one revolution is known as the:",
+"o": [
+"Effective pitch",
+"Geometric pitch",
+"True pitch"
+],
+"a": [
+0
+]
+},
+{
+"q": "Propeller blade angle is the angle between the:",
+"o": [
+"chord of the blade and the relative wind",
+"chord of the blade section and the plane of rotation of the propeller",
+"relative wind and the plane of rotation of the propeller"
+],
+"a": [
+1
+]
+},
+{
+"q": "Become laminar When laying out pattern, orient the metal so that the bends:",
+"o": [
+"are made across the grain as much as possible",
+"are made along the grain as much as possible",
+"either A or B does not matter"
+],
+"a": [
+0
+]
+},
+{
+"q": "The cutting speed when using a ½ ̎ diameter drill for a given material is 400 RPM what speed will be suitable if the hole diameter is made to be ¼ ̎?",
+"o": [
+"200",
+"400",
+"800"
+],
+"a": [
+0
+]
+},
+{
+"q": "A 9 inch general purpose flat file:",
+"o": [
+"has a 3 inch tapered end with both faces double cut and with both edges single cut",
+"has a 6 inch tapered end with both faces single cut and both edges single cut",
+"is parallel in width with both faces double cut and with one safe edge"
+],
+"a": [
+0
+]
+},
+{
+"q": "PLI (Pre Load Indicating) washers:",
+"o": [
+"cannot be used with self-locking nuts",
+"can only be used with self-locking nuts",
+"can only be used with nylon insert self-locking nuts"
+],
+"a": [
+1
+]
+},
+{
+"q": "When fighting a fire involving aircraft fuel, the best extinguisher to use would be:",
+"o": [
+"100% red ̶ water/gas",
+"95% red, 5% cream ̶ foam",
+"95% red, 5% blue ̶ dry powder"
+],
+"a": [
+1
+]
+},
+{
+"q": "The easiest method of ensuring the diameter of a hole is at the correct size is:",
+"o": [
+"Plug Gauge",
+"Internal Micrometer",
+"Vernier Calipers"
+],
+"a": [
+0
+]
+},
+{
+"q": "104. If a bend is made with the sight line too close to the clamp:",
+"o": [
+"The part to be formed will be too long",
+"The part to be formed will be too short",
+"The part to be formed would be of the actual dimension"
+],
+"a": [
+1
+]
+},
+{
+"q": "105. As a precautionary measure in the use of air tools, to test for pressure of the riveter, the tool should be put against?",
+"o": [
+"A steel object",
+"A soft block",
+"A solid object"
+],
+"a": [
+1
+]
+},
+{
+"q": "106. Unless otherwise specified, the radius of a bend is the:",
+"o": [
+"inside radius of the metal being formed",
+"inside radius plus one-half the thickness of the metal being formed",
+"radius of the neutral axis plus one-half the thickness of the metal being formed"
+],
+"a": [
+0
+]
+},
+{
+"q": "107. Setback for a 90º bend if the material is 0.051 inch thick and the radius of bend is specified to be ⅛ inch is:",
+"o": [
+"0.176 inch",
+"0.178 inch",
+"0.125 inch"
+],
+"a": [
+0
+]
+},
+{
+"q": "108. When riveting, the distance from the edge to the rivet (land) should not be less than:",
+"o": [
+"1D",
+"2D",
+"4D"
+],
+"a": [
+1
+]
+},
+{
+"q": "109. The strength of a riveted joint compared to that of the original metal is:",
+"o": [
+"75%",
+"100%",
+"125%"
+],
+"a": [
+0
+]
+},
+{
+"q": "110. A repair has a double riveted joint. The shear strength would be:",
+"o": [
+"125%",
+"75%",
+"100%"
+],
+"a": [
+1
+]
+},
+{
+"q": "111. Calculate the number of rivets required for a 2 inch length of break 0.25 inch thick Aluminium material. The bearing and shear strength are 388 ℓb and 309 ℓb respectively.",
+"o": [
+"121.3",
+"96.64",
+"97"
+],
+"a": [
+0
+]
+},
+{
+"q": "112. What is indicated by the wrinkling of the underside of an aircraft skin?",
+"o": [
+"Hogging",
+"Fretting",
+"Sagging"
+],
+"a": [
+0
+]
+},
+{
+"q": "113. Why is jointing compound applied to the surfaces of material being joined together prior to riveting?",
+"o": [
+"To act as a sealant and prevent filiform corrosion",
+"To inhibit electrolytic action",
+"To prevent swarf damage"
+],
+"a": [
+1
+]
+},
+{
+"q": "114. On an aircraft which has had a heavy landing, on the lower wing you may see:",
+"o": [
+"sagging",
+"hogging",
+"wrinkling"
+],
+"a": [
+2
+]
+},
+{
+"q": "A tapered roller bearing is designed to take",
+"o": [
+"Radial loads only",
+"Axial loads only",
+"Both radial and axial loads"
+],
+"a": [
+2
+]
+},
+{
+"q": "116. The process of using diluted acids to remove rust and scale from corroded steel part is called;",
+"o": [
+"plating",
+"pickling",
+"cladding"
+],
+"a": [
+1
+]
+},
+{
+"q": "117. Which rivets should be selected to join two sheets of 0.032-inch that is made of 2117?",
+"o": [
+"MS20425D-4-3",
+"MS20470AD-4-4",
+"MS20455DD-5-3"
+],
+"a": [
+1
+]
+},
+{
+"q": "118. A rivet set used to drive MS20470 rivets should:",
+"o": [
+"have the same radius as the rivet head",
+"have a slightly greater radius than the rivet head",
+"be nearly flat on the end, with a slight radius on the edge to prevent damage to the sheet being riveted"
+],
+"a": [
+1
+]
+},
+{
+"q": "119. Mold line can be defined as:",
+"o": [
+"the amount of material consumed in making a bend",
+"the line formed by extending the outside surfaces of the leg and flange",
+"distance from the bend tangent line to the mold line"
+],
+"a": [
+1
+]
+},
+{
+"q": "120. The 'setback' is:",
+"o": [
+"the distance from the edge of the metal to the bend tangent line",
+"the distance from the mold point to the bend tangent line",
+"the distance from the bend tangent line to the setback line"
+],
+"a": [
+1
+]
+},
+{
+"q": "121. The formula for setback for a 90° bend is:",
+"o": [
+"(½R + T)",
+"(R + T)",
+"(R + ½T)"
+],
+"a": [
+1
+]
+},
+{
+"q": "122. MS20426DD5-6 rivet will have the following interpretations:",
+"o": [
+"Countersunk head, 2024T, raised dash, 5/16 ̎ dia and 3/16 ̎ length",
+"Brazier head, 2014T, raised double dash, 5/32 ̎ dia and ⅜ ̎ length",
+"Countersunk head, 2024T, raised double dash, 5/32 ̎ dia and ⅜ ̎ length"
+],
+"a": [
+2
+]
+},
+{
+"q": "123. Repairs or splices involving stringers on the lower surface of stressed skin metal wings are usually:",
+"o": [
+"not permitted",
+"permitted only if the damage does not exceed 6 inches in any direction",
+"permitted but are normally more critical in reference to strength in tension than similar repairs to the upper surface"
+],
+"a": [
+2
+]
+},
+{
+"q": "124. The height of water required to produce a head pressure of 1 bar is",
+"o": [
+"9.81 m",
+"11.09 m",
+"10.19 m"
+],
+"a": [
+2
+]
+},
+{
+"q": "125. The amount of material saved by bending around a given radius is called?",
+"o": [
+"Bend allowance",
+"Set back",
+"Minimum radius of bend"
+],
+"a": [
+1
+]
+},
+{
+"q": "126. Joggles in removed rivet shanks would indicate partial:",
+"o": [
+"bearing failure",
+"torsion failure",
+"shear failure"
+],
+"a": [
+2
+]
+},
+{
+"q": "127. The rule when laying out a pattern is?",
+"o": [
+"Orient the metal so that the bends are made along the grain as much as practicable",
+"Orient the metal so that the bends are made across the grain as much as practicable",
+"Orient the metal so that the bends are in any direction not minding the direction of the grain"
+],
+"a": [
+1
+]
+},
+{
+"q": "128. The amount of material consumed in making a bend is known as:",
+"o": [
+"Set back",
+"Bend tangent",
+"Bend Allowance"
+],
+"a": [
+2
+]
+},
+{
+"q": "129. The distance from the bend tangent line to the mold point is known as:",
+"o": [
+"Bend Allowance",
+"Set back",
+"Bend radius"
+],
+"a": [
+1
+]
+},
+{
+"q": "130. The distance from the edge of metal to a mold point or between mold points is called?",
+"o": [
+"Mold dimension line",
+"Mold line",
+"Bend Tangent line"
+],
+"a": [
+0
+]
+},
+{
+"q": "131. The factor(s) which determine/determines the particular shape of the dollies to be used is/are?",
+"o": [
+"The location and accessibility of the rivet to be driven",
+"The alloy of the rivet to be driven",
+"All of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "132. The minimum bend radius for a piece of 0.040 ̎ 2024T4 aluminium alloy is:",
+"o": [
+"3/32 inch",
+"1/16 inch",
+"⅜ inch"
+],
+"a": [
+0
+]
+},
+{
+"q": "133. The bend allowance for a 90º bend in a piece of 0.051 ̎ aluminium alloy bent around a ⅛-inch radius is:",
+"o": [
+"0.232",
+"0.280",
+"0.183"
+],
+"a": [
+0
+]
+},
+{
+"q": "134. The sight line on a sheet metal flat layout to be bent in a cornice or box brake is measured and marked:",
+"o": [
+"one-half radius from either bend tangent line",
+"one radius from either bend tangent line",
+"one radius from the bend tangent line that is placed under the brake"
+],
+"a": [
+2
+]
+},
+{
+"q": "135. The most important factors needed to make a flat pattern layout are:",
+"o": [
+"radius, thickness, and mold line",
+"radius, thickness, and degree of bend",
+"the lengths of the legs (flat sections)"
+],
+"a": [
+1
+]
+},
+{
+"q": "136. Bend radius on sheet metal is:",
+"o": [
+"inside radius + ½ thickness",
+"inside radius",
+"outside radius"
+],
+"a": [
+1
+]
+},
+{
+"q": "138. Using the empirical formula, find the bend allowance for a 90º bend having a radius of ¼ inch for material 0.051 inch thick.",
+"o": [
+"0.4328 inch",
+"0.428 inch",
+"0.004756 inch"
+],
+"a": [
+0
+]
+},
+{
+"q": "139. Setback for a 90º bend if the material is 0.051 inch thick and the radius of bend is specified to be ⅛ inch is:",
+"o": [
+"0.176 inch",
+"0.178 inch",
+"0.125 inch"
+],
+"a": [
+0
+]
+},
+{
+"q": "140. What is the setback for an angle of bend 120º with a radius of bend of 0.125 inch in a sheet 0.032 inch thick:",
+"o": [
+"0.272 inch",
+"0.571 inch",
+"1.732 inch"
+],
+"a": [
+0
+]
+},
+{
+"q": "0.004756 inch 142. The strength of a riveted joint compared to that of the original metal is:",
+"o": [
+"75%",
+"100%",
+"125%"
+],
+"a": [
+0
+]
+},
+{
+"q": "143. A repair has a double riveted joint. The shear strength would be:",
+"o": [
+"125%",
+"75%",
+"100%"
+],
+"a": [
+1
+]
+},
+{
+"q": "144. The standard minimum rivet row spacing is:",
+"o": [
+"2 ¼D",
+"3 D",
+"4 D"
+],
+"a": [
+2
+]
+},
+{
+"q": "145. What is the normal spacing between rivets?",
+"o": [
+"2 D",
+"4 D",
+"3 D"
+],
+"a": [
+1
+]
+},
+{
+"q": "146. In British rivets (solid) what is the length grading unit?",
+"o": [
+"1/16",
+"1/10",
+"1/32"
+],
+"a": [
+0
+]
+},
+{
+"q": "147. To replace one 1/8 inch rivet:",
+"o": [
+"three 1/16 inch rivets would be required",
+"two 1/16 inch rivets would be required",
+"four 1/16 inch rivets would be required"
+],
+"a": [
+2
+]
+},
+{
+"q": "148. If the shear strength of ⅛ inch 2117-T3 (AD) rivet is 344 ℓb and it is necessary to provide a tensile strength of 5600 ℓb to a joint, how many rivets would you recommend:",
+"o": [
+"16.3",
+"16",
+"17"
+],
+"a": [
+2
+]
+},
+{
+"q": "149. The ‘grip’ of a rivet is:",
+"o": [
+"the length of rivet left to form the head",
+"the thickness of plates which can be fastened",
+"the area of the plates held firmly together"
+],
+"a": [
+1
+]
+},
+{
+"q": "150. The strength of a riveted joint is determined by:",
+"o": [
+"shear strength and pitch of rivet",
+"pitch and tensile strength of rivet",
+"shear strength of rivet and material it is made of"
+],
+"a": [
+0
+]
+},
+{
+"q": "151. If the bearing strength of a metal is greater than the shear strength of the rivet, what will occur?",
+"o": [
+"Rivet will joggle",
+"Rivet will show incorrectly installed",
+"Rivet will pull through the metal"
+],
+"a": [
+0
+]
+},
+{
+"q": "152. Aircraft skin is joggled to:",
+"o": [
+"Provide smooth airflow at faying surfaces",
+"Make a frame lighter but stronger.",
+"Conform with the 'Area Rule'."
+],
+"a": [
+0
+]
+},
+{
+"q": "153. The purpose of a joggle is:",
+"o": [
+"to act as a tear stopper",
+"to make the holes for a rivet line up",
+"to produce a flush fit at a metal joint"
+],
+"a": [
+2
+]
+},
+{
+"q": "154. The purpose of a joggle is to:",
+"o": [
+"allow clearance for a sheet or an extrusion",
+"increase obstruction for a sheet or an extrusion",
+"decrease the weight of the part and still retain the necessary strength"
+],
+"a": [
+0
+]
+},
+{
+"q": "155. Caustic soda applied to a metal turns black. This would indicate the metal is:",
+"o": [
+"magnesium alloy",
+"duralumin",
+"aluminium"
+],
+"a": [
+1
+]
+},
+{
+"q": "156. Removal of a scratch from a sheet of metal requires:",
+"o": [
+"polishing",
+"blending",
+"burnishing"
+],
+"a": [
+2
+]
+},
+{
+"q": "157. What is one of the determining factors which permits machine countersinking when flush riveting?",
+"o": [
+"Thickness of the material and rivet diameter are the same",
+"Thickness of the material is less than the thickness of the rivet head",
+"Thickness of the material is greater than the thickness of the rivet head"
+],
+"a": [
+2
+]
+},
+{
+"q": "158. Clad aluminium alloys are used in aircraft because they:",
+"o": [
+"can be heat treated much easier than the other forms of aluminium",
+"are less subject to corrosion than uncoated aluminium alloys",
+"are stronger than unclad aluminium alloys"
+],
+"a": [
+1
+]
+},
+{
+"q": "Short thin dash lines in a drawing indicate",
+"o": [
+"Hidden details",
+"Cutting or viewing planes",
+"Short break lines"
+],
+"a": [
+0
+]
+},
+{
+"q": "If an object is viewed 3/4 face with the base lines revolved through 30º it is:",
+"o": [
+"Oblique",
+"Auxiliary",
+"Isometric"
+],
+"a": [
+2
+]
+},
+{
+"q": "When a drawing dimension is enlarged to twice full size the scale would indicate:",
+"o": [
+"1:2",
+"2:0",
+"2:1"
+],
+"a": [
+2
+]
+},
+{
+"q": "Where surfaces have to meet special requirements, the drawings would be marked with:",
+"o": [
+"a thin chain line",
+"a thin chain line, thick at the ends",
+"a thick chain line"
+],
+"a": [
+2
+]
+},
+{
+"q": "If a design amendment is made to a drawing",
+"o": [
+"the old issue number is retained with a new amendment date added",
+"a new issue number and date is allocated to the drawing",
+"no change in issue number is necessary"
+],
+"a": [
+1
+]
+},
+{
+"q": "About every 30 minutes in early sleep extending to 2 hours in the night.",
+"o": [
+"The regular behaviour of an individual is known as",
+"the norm",
+"habit"
+],
+"a": [
+2
+]
+},
+{
+"q": "culture",
+"o": [
+"Human error can be caused by",
+"high body temperature",
+"low body temperature"
+],
+"a": [
+2
+]
+},
+{
+"q": "normal body temperature",
+"o": [
+"When someone is working in an enclosed space (such a fuel tank), another person should be outside the space in constant communication to",
+"ensure compliance with the maintenance manual",
+"provide instructions to the tradesman",
+"for safety reasons"
+],
+"a": [
+3
+]
+},
+{
+"q": "An engineer who has developed his own way of performing a task",
+"o": [
+"is in regular violation",
+"should be commended for his resourcefulness",
+"is improving maintenance efficiency"
+],
+"a": [
+0
+]
+},
+{
+"q": "The circadian cycle body temperature",
+"o": [
+"varies by 1.5oF",
+"varies by 1.5oC",
+"does not vary"
+],
+"a": [
+0
+]
+},
+{
+"q": "The SHEL model of human factors takes into account",
+"o": [
+"Software, hardware, efficiency and liveware",
+"Software, hardware, environment and liveware",
+"Software, hardware, environment and location"
+],
+"a": [
+1
+]
+},
+{
+"q": "How long can the aural reflex protect the ear from loud noise?",
+"o": [
+"15 seconds",
+"15 minutes",
+"5 seconds"
+],
+"a": [
+1
+]
+},
+{
+"q": "To focus on a near object, the lens of the eye must",
+"o": [
+"be flattened",
+"be thickened",
+"be widened"
+],
+"a": [
+1
+]
+},
+{
+"q": "Narrowing of attention occurs at",
+"o": [
+"high levels of arousal",
+"low levels of arousal",
+"both high and low levels of arousal"
+],
+"a": [
+0
+]
+},
+{
+"q": "An aircraft maintenance engineer who wears glasses or contact lenses should",
+"o": [
+"have their duties restricted accordingly",
+"should not require their duties to be restricted providing they have frequent checks to ensure the adequacy of their glasses/contact lenses",
+"should not require their duties to be restricted providing they wear their glasses/contact lenses at all times they carry out their duties"
+],
+"a": [
+1
+]
+},
+{
+"q": "Human Circadian rhythms cycle on a",
+"o": [
+"24 hour time scale",
+"25 hour timescale",
+"8 hour timescale"
+],
+"a": [
+1
+]
+},
+{
+"q": "A good practice for a shift handover is for shifts to be specifically rostered so there is an overlap of",
+"o": [
+"5 - 10 minutes",
+"20 - 30 minutes",
+"2 - 3 hours"
+],
+"a": [
+1
+]
+},
+{
+"q": "Ultra short-term memory has a duration of about",
+"o": [
+"2 seconds",
+"10 to 20 seconds",
+"80 - 100 milliseconds"
+],
+"a": [
+0
+]
+},
+{
+"q": "180. The incident where a 737 lost oil from both engines is a direct result of",
+"o": [
+"engine vibration",
+"human factors",
+"human error"
+],
+"a": [
+2
+]
+},
+{
+"q": "181. Circadian Rhythms control",
+"o": [
+"urine output",
+"body temperature",
+"sleeping patterns"
+],
+"a": [
+1
+]
+},
+{
+"q": "182. Studies have shown that working outside in a temperature of 55oF will have what effect on hand dexterity?",
+"o": [
+"None",
+"Very slight reduction",
+"Around 50% reduction"
+],
+"a": [
+2
+]
+},
+{
+"q": "183. To establish a reliable means of communication between teams",
+"o": [
+"a detailed written handover is the most effective method",
+"change-over logs and verbal communication are essential",
+"detailed verbal communication is the most effective method"
+],
+"a": [
+1
+]
+},
+{
+"q": "184. Circadian Rhythms have a cycle of",
+"o": [
+"23 Hours",
+"24 Hours",
+"25 Hours"
+],
+"a": [
+2
+]
+},
+{
+"q": "185. A flux is used in soldering to:",
+"o": [
+"Allow the solder to flow more easily",
+"Dissolve oxides",
+"Prevent solder Piles"
+],
+"a": [
+1
+]
+},
+{
+"q": "The purpose of ‘streamlining’ is to reduce:",
+"o": [
+"Skin friction drag",
+"Induced drag",
+"Form drag"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the flame is used for welding aluminium alloy?",
+"o": [
+"carburizing",
+"neutral or slightly carburizing",
+"reducing flame"
+],
+"a": [
+1
+]
+},
+{
+"q": "What type of flare is recommended for welding stainless steel",
+"o": [
+"Slightly Neutral flame",
+"Slightly Carburizing flame",
+"Slightly Oxidizing flame"
+],
+"a": [
+1
+]
+},
+{
+"q": "189. Rivet Pitch is:",
+"o": [
+"The distance between the centres of adjacent rivets in the same row",
+"The distance between the centres of adjacent rivets in the adjacent row",
+"The distance between the centres of adjacent rivets in the opposite rows"
+],
+"a": [
+0
+]
+},
+{
+"q": "190. What is the minimum spacing for a single row of aircraft rivets?",
+"o": [
+"Two times the diameter of the rivet shank",
+"Three times the length of the rivet shank",
+"Three times the diameter of the rivet shank"
+],
+"a": [
+2
+]
+},
+{
+"q": "191. The sharpest curve to which the sheet can be bent without critically weakening that part at the bend is referred to as:",
+"o": [
+"Minimum bend allowance of the bend",
+"Minimum on back of the bend",
+"Minimum radius of bend"
+],
+"a": [
+2
+]
+},
+{
+"q": "192. A portion that neither stretches nor compresses but remains its original dimensions is located?",
+"o": [
+"44.5% of metal thickness from the outside of the bend",
+"44.5% of metal thickness from the inside of the bend",
+"50% of the thickness of the material for practical purposes"
+],
+"a": [
+2
+]
+},
+{
+"q": "193. The dimensions of an MS20430AD-4-8 rivet are:",
+"o": [
+"⅛ inch in diameter and ¼ inch long",
+"⅛ inch in diameter and ½ inch long",
+"4/16 inch in diameter and 8/32 inch long"
+],
+"a": [
+1
+]
+},
+{
+"q": "194. Which rivets should be selected to join two sheets of 0.032-inch that is made of 2117?",
+"o": [
+"MS20425D-4-3",
+"MS20470AD-4-4",
+"MS20455DD-5-3"
+],
+"a": [
+1
+]
+},
+{
+"q": "195. A sheet metal repair is to be made using two pieces of 0.040-inch aluminium riveted together. All rivet holes are drilled for 3/32-inch rivets. The length of the rivets to be used will be:",
+"o": [
+"⅛ inch",
+"¼ inch",
+"5/16 inch"
+],
+"a": [
+1
+]
+},
+{
+"q": "196. The rule when laying out a pattern is?",
+"o": [
+"Orient the metal so that the bends are made along the grain as much as practicable",
+"Orient the metal so that the bends are made across the grain as much as practicable",
+"Orient the metal so that the bends are in any direction not minding the direction of the grain"
+],
+"a": [
+1
+]
+},
+{
+"q": "197. The bend radius specified for a piece of aircraft sheet metal is the radius of the ____ of the bend.",
+"o": [
+"outside",
+"inside",
+"corner"
+],
+"a": [
+1
+]
+},
+{
+"q": "198. The bend allowance for a 90º bend in a piece of 0.051 ̎ aluminium alloy bent around a ⅛-inch radius is:",
+"o": [
+"0.232",
+"0.280",
+"0.183"
+],
+"a": [
+0
+]
+},
+{
+"q": "199. The most important factors needed to make a flat pattern layout are:",
+"o": [
+"radius, thickness, and mold line",
+"radius, thickness, and degree of bend",
+"the lengths of the legs (flat sections)"
+],
+"a": [
+1
+]
+},
+{
+"q": "200. If the thickness of a single sheet of material, about to be joined by riveting was 1/16 of an inch thick what would be the approximate diameter of the rivets to be used?",
+"o": [
+"1/16 inch",
+"3/16 inch",
+"1/8 inch"
+],
+"a": [
+1
+]
+},
+{
+"q": "201. Corrosion damage of Aluminium material is usually detected by:",
+"o": [
+"Reddish brown deposits",
+"White crystalline deposits",
+"Greenish deposits"
+],
+"a": [
+1
+]
+},
+{
+"q": "202. Where do you find information with regards to the details of a rivet:",
+"o": [
+"Aircraft log book",
+"Maintenance manual",
+"Structural repair manual"
+],
+"a": [
+2
+]
+},
+{
+"q": "203. Once a type of repair is determined, the procedures for repairs are outlined in the:",
+"o": [
+"Maintenance repair manual",
+"Structural repair manual",
+"Overhaul repair manual"
+],
+"a": [
+1
+]
+},
+{
+"q": "204. If the shear strength of ⅛ inch 2117-T3 (AD) rivet is 344 ℓb and it is necessary to provide a tensile strength of 5600 ℓb to a joint, how many rivets would you recommend:",
+"o": [
+"16.3",
+"16",
+"17"
+],
+"a": [
+2
+]
+},
+{
+"q": "205. The strength of a riveted joint is determined by:",
+"o": [
+"shear strength and pitch of rivet",
+"pitch and tensile strength of rivet",
+"shear strength of rivet and material it is made of"
+],
+"a": [
+0
+]
+},
+{
+"q": "207. A jury strut is used:",
+"o": [
+"as a reference when checking the C of G position",
+"as a datum when placing the aircraft in a rigging position",
+"to support the structure during repairs"
+],
+"a": [
+2
+]
+},
+{
+"q": "Small indentation in the race of a ball bearing indicate",
+"o": [
+"Brinelling",
+"Corrosion",
+"Overtorqueing"
+],
+"a": [
+0
+]
+},
+{
+"q": "Hatching or sectioning lines are drawn at:",
+"o": [
+"300",
+"600",
+"450"
+],
+"a": [
+2
+]
+},
+{
+"q": "210. Calculate the number of rivets required for a 2 inch length of break 0.25 inch thick Aluminium material. The bearing and shear strength are 388 ℓb and 309 ℓb respectively.",
+"o": [
+"121.3",
+"96.64",
+"97"
+],
+"a": [
+0
+]
+},
+{
+"q": "211. The minimum rivet pitch is:",
+"o": [
+"2 1/2 * the rivet diameter",
+"3 * the rivet diameter",
+"2 * the rivet diameter"
+],
+"a": [
+1
+]
+},
+{
+"q": "212. The purpose of a joggle is:",
+"o": [
+"to act as a tear stopper",
+"to make the holes for a rivet line up",
+"to produce a flush fit at a metal joint"
+],
+"a": [
+2
+]
+},
+{
+"q": "213. The purpose of a joggle is to:",
+"o": [
+"allow clearance for a sheet or an extrusion",
+"increase obstruction for a sheet or an extrusion",
+"decrease the weight of the part and still retain the necessary strength"
+],
+"a": [
+0
+]
+},
+{
+"q": "214. When drawing lines on aluminium alloy sheet prior to bending:",
+"o": [
+"a thin coat of zinc chromate primer should be used, ready for pencil lines",
+"a scriber should be used",
+"a wax pencil should be used"
+],
+"a": [
+0
+]
+},
+{
+"q": "215. What statement is true regarding the inspection of a stressed skin metal wing assembly known to have been critically loaded?",
+"o": [
+"If rivets show no visible distortion, further investigation is unnecessary",
+"If bearing failure has occurred, the rivet shanks will be joggled",
+"If genuine rivet tipping has occurred, groups of consecutive rivet heads will be tipped in the same direction"
+],
+"a": [
+2
+]
+},
+{
+"q": "216. Clad aluminium alloys are used in aircraft because they:",
+"o": [
+"can be heat treated much easier than the other forms of aluminium",
+"are less subject to corrosion than uncoated aluminium alloys",
+"are stronger than unclad aluminium alloys"
+],
+"a": [
+1
+]
+},
+{
+"q": "Semi-rigid fluid lines are sized by wall thickness and:",
+"o": [
+"inside diameter in 1/16 inch increment",
+"outside diameter in 1/16 inch increment",
+"inside diameter in 1/32 inch increment"
+],
+"a": [
+1
+]
+},
+{
+"q": "Flexible hose used in aircraft systems is classified in size according to the:",
+"o": [
+"outside diameter",
+"wall thickness",
+"inside diameter"
+],
+"a": [
+2
+]
+},
+{
+"q": "Groove or knurl around the end of a barrel of a turnbuckle shows that",
+"o": [
+"The tension rod type of turnbuckle",
+"The right hand threaded end",
+"The left hand threaded end"
+],
+"a": [
+2
+]
+},
+{
+"q": "Acetylene gas can be produced by the chemical combination of:",
+"o": [
+"Calcium carbide and water",
+"Zinc chloride and water",
+"Calcium oxide and water"
+],
+"a": [
+0
+]
+},
+{
+"q": "One of the Oxy-Acetylene welding technique requires that:",
+"o": [
+"The filler rod should be held about 1/6 inch above the envelop of the torch flame.",
+"The filler rod should be held 1/6 inch below the envelop of the torch flame.",
+"The filler rod should be held just within the envelop of the torch flame."
+],
+"a": [
+1
+]
+},
+{
+"q": "When a drawing dimension is enlarged to twice full size the scale would indicate:",
+"o": [
+"1:2",
+"2:0",
+"2:1"
+],
+"a": [
+2
+]
+},
+{
+"q": "Where surfaces have to meet special requirements, the drawings would be marked with:",
+"o": [
+"a thin chain line",
+"a thin chain line, thick at the ends",
+"a thick chain line"
+],
+"a": [
+2
+]
+},
+{
+"q": "With reference to altimeters, QFE is:",
+"o": [
+"setting aerodrome atmospheric pressure so that an altimeter reads zero on landing",
+"setting aerodrome atmospheric pressure so that an altimeter reads zero on landing and take off",
+"setting aerodrome atmospheric pressure so that an altimeter reads sea level on landing and take off"
+],
+"a": [
+1
+]
+},
+{
+"q": "Behind anybody moving in air is a system of eddies which moves at a lower speed than the main stream. This is known as:",
+"o": [
+"Downwash",
+"Wake",
+"Trailing edge effect"
+],
+"a": [
+1
+]
+},
+{
+"q": "The layer of air over the surface of an aerofoil which is moving at a velocity less than free stream air is known as:",
+"o": [
+"stagnation layer",
+"turbulent layer",
+"boundary layer"
+],
+"a": [
+2
+]
+},
+{
+"q": "The mean camber line of an aerofoil is:",
+"o": [
+"a line, each point of which is equidistant from the upper and lower surfaces of an aerofoil section",
+"a straight line drawn through the centres of curvature at the leading and trailing edges of an aerofoil section",
+"a straight line tangential to the top surface at the leading edge"
+],
+"a": [
+0
+]
+},
+{
+"q": "The induced drag of an aircraft is the drag due to:",
+"o": [
+"lift being produced",
+"surface roughness",
+"the size of the frontal area"
+],
+"a": [
+0
+]
+},
+{
+"q": "The purpose of ‘streamlining’ is to reduce:",
+"o": [
+"Skin friction drag",
+"Induced drag",
+"Form drag"
+],
+"a": [
+2
+]
+},
+{
+"q": "With increase in passengers and cargo Vmd will occur at:",
+"o": [
+"higher speed",
+"same speed",
+"lower speed"
+],
+"a": [
+0
+]
+},
+{
+"q": "For a high cambered wing section, the zero lift angle of attack will be:",
+"o": [
+"negative",
+"positive",
+"zero"
+],
+"a": [
+0
+]
+},
+{
+"q": "If the weight of an aircraft is increased, its glide range will:",
+"o": [
+"be the same",
+"be increased",
+"be reduced"
+],
+"a": [
+0
+]
+},
+{
+"q": "Wing loading means the ratio of:",
+"o": [
+"The weight of the aerofoil and the wing area",
+"The lift and the aircraft weight",
+"The total weight of the aircraft and the wing area"
+],
+"a": [
+2
+]
+},
+{
+"q": "The take-off ground run is defined as:",
+"o": [
+"The distance travelled from the position of rest to the point where the aircraft first leaves the ground and becomes fully airborne",
+"The horizontal distance from position of rest to the point at which no part of the aircraft is less than 10.7m above the ground",
+"The distance travelled from rest to the point where the aircraft achieves the speed V1 up"
+],
+"a": [
+0
+]
+},
+{
+"q": "The weather cock effect on an aircraft executing a take-off performance is caused by a:",
+"o": [
+"cross wind",
+"tail wind",
+"head wind"
+],
+"a": [
+0
+]
+},
+{
+"q": "Stability of an aircraft is:",
+"o": [
+"the tendency of the aircraft to stall at low airspeed",
+"the ability of the aircraft to rotate about an axis",
+"the tendency of the aircraft to automatically return to its original trimmed position after having been displaced"
+],
+"a": [
+2
+]
+},
+{
+"q": "The three axes concerned with stability of an aircraft have:",
+"o": [
+"longitudinal axis nose to tail, lateral axis at furthest span point, normal axis through centre of pressure",
+"normal axis through C of G, lateral axis – wing tip to wing tip, longitudinal axis – nose to tail but not through C of G",
+"longitudinal, lateral and normal axis all passing through aircraft centre of gravity"
+],
+"a": [
+2
+]
+},
+{
+"q": "After an aircraft has been disturbed from its straight and level flight, it returns to its original attitude with a small amount of decreasing oscillation. The aircraft is:",
+"o": [
+"statically unstable but dynamically stable",
+"statically stable but dynamically unstable",
+"statically stable and dynamically stable"
+],
+"a": [
+2
+]
+},
+{
+"q": "An aircraft which is stable about its axis of roll is said to possess:",
+"o": [
+"Longitudinal stability",
+"Lateral stability",
+"Directional stability"
+],
+"a": [
+1
+]
+},
+{
+"q": "The phenomenon exhibited by sweptback wing airplanes in response to a disturbance from equilibrium in a combined rolling yawing oscillation in which the rolling motion is phased to precede the yawing motion is known as:",
+"o": [
+"Dutch roll",
+"Adverse yaw",
+"Spiral instability"
+],
+"a": [
+0
+]
+},
+{
+"q": "For the vast majority of aircraft, control in three axes of rotation is achieved by three distinct movable surfaces which are:",
+"o": [
+"Elevators for pitch control, ailerons for roll control and rudder for yaw control",
+"Fin for roll control, rudder for yaw control and elevators for pitch control",
+"Elevators for roll control, ailerons for yaw control and trim tab pitch control"
+],
+"a": [
+0
+]
+},
+{
+"q": "The tendency of the nose of an airplane to start to travel in the direction opposite to that desired at the beginning of a turn is called:",
+"o": [
+"Aerodynamic Drift",
+"Side Slip",
+"Adverse Yaw"
+],
+"a": [
+2
+]
+},
+{
+"q": "Adverse yaw when rolling about the longitudinal axis may be prevented by use of:",
+"o": [
+"Increased dihedral",
+"A smaller fin",
+"Differential ailerons"
+],
+"a": [
+2
+]
+},
+{
+"q": "In a Frise Aileron control system:",
+"o": [
+"The up-going aileron moves through a greater angle than the down-going aileron",
+"The up-going aileron produces increased drag",
+"The down-going aileron leading edge protrudes into the airflow"
+],
+"a": [
+1
+]
+},
+{
+"q": "A movable tail surface which combines the functions of a rudder and elevator is called:",
+"o": [
+"Empennage",
+"Ruddervator",
+"Stabilator"
+],
+"a": [
+1
+]
+},
+{
+"q": "An anti-balance (anti-servo) tab is designed to:",
+"o": [
+"provide a force to move the main control surface to relieve control column effort",
+"provide “feel”, increasing the pilot’s awareness of the loads imposed by control surface deployment",
+"position the control surface in the streamed position in flight after balance tab deployment"
+],
+"a": [
+1
+]
+},
+{
+"q": "The purpose of a spring tab is to:",
+"o": [
+"provide a reduction in the pilot’s effort to move the controls against high air loads",
+"provide a constant spring tension to a trim tab system",
+"provide “feel” feedback in a control system"
+],
+"a": [
+0
+]
+},
+{
+"q": "Krueger flaps are fitted to the:",
+"o": [
+"leading edge on top of the wing",
+"leading edge on the bottom of the wing",
+"trailing edge on the bottom of the wing"
+],
+"a": [
+1
+]
+},
+{
+"q": "A Fowler Flap will increase:",
+"o": [
+"wing area only",
+"camber only",
+"wing area and camber"
+],
+"a": [
+2
+]
+},
+{
+"q": "Why does the speed of sound change with altitude?",
+"o": [
+"because the density changes with altitude",
+"because the pressure changes with altitude",
+"because the temperature changes with altitude"
+],
+"a": [
+2
+]
+},
+{
+"q": "Tuck under’ occurs when:",
+"o": [
+"the aircraft reaches Mcrit",
+"a shock stall warning occurs on the inboard position of a straight wing",
+"a shock stall occurs on the outboard portion of the swept wing"
+],
+"a": [
+0
+]
+},
+{
+"q": "Propeller blade station numbers increase from:",
+"o": [
+"hub to tip",
+"tip to hub",
+"leading edge to aft edge"
+],
+"a": [
+0
+]
+},
+{
+"q": "Determine bend allowance for a 2024-T4 material with a thickness of 40 thou and a bend radius of ¼ ̎ with a closed angle of 70 degrees.",
+"o": [
+"0.20168 ̎",
+"0.32735 ̎",
+"0.35635 ̎"
+],
+"a": [
+1
+]
+},
+{
+"q": "254. The length of rivet to be chosen when making a structural repair that involves the joining of 0.032-inch and 0.064-inch aluminium sheet, drilled with a No.30 drill, is",
+"o": [
+"7/16 inch",
+"5/16 inch",
+"¼ inch"
+],
+"a": [
+1
+]
+},
+{
+"q": "255. During rivet installation for countersunk rivets, edge distance should not be less than:",
+"o": [
+"4D",
+"2D",
+"2.5D"
+],
+"a": [
+2
+]
+},
+{
+"q": "256. The factor(s) which determine/determines the particular shape of the dollies to be used is/are?",
+"o": [
+"The location and accessibility of the rivet to be driven",
+"The alloy of the rivet to be driven",
+"All of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "257. When a piece of metal is bent, the surface of the metal on the outside of the bend is:",
+"o": [
+"in compression",
+"neither in tension or in compression",
+"in tension"
+],
+"a": [
+2
+]
+},
+{
+"q": "258. A guillotine should not be used to cut sheet metal thicker than:",
+"o": [
+"16 swg",
+"18 swg",
+"20 swg"
+],
+"a": [
+0
+]
+},
+{
+"q": "259. When riveting, the distance from the edge to the rivet (land) should not be less than:",
+"o": [
+"1D",
+"2D",
+"4D"
+],
+"a": [
+1
+]
+},
+{
+"q": "260. Where do you find information with regards to the details of a rivet:",
+"o": [
+"Aircraft log book",
+"Maintenance manual",
+"Structural repair manual"
+],
+"a": [
+2
+]
+},
+{
+"q": "261. Once a type of repair is determined, the procedures for repairs are outlined in the:",
+"o": [
+"Maintenance repair manual",
+"Structural repair manual",
+"Overhaul repair manual"
+],
+"a": [
+1
+]
+},
+{
+"q": "262. The minimum rivet pitch is:",
+"o": [
+"2 1/2 * the rivet diameter",
+"3 * the rivet diameter",
+"2 * the rivet diameter"
+],
+"a": [
+1
+]
+},
+{
+"q": "263. The riveting defect in the figure shown is:",
+"o": [
+"the snap was not square",
+"the hole was too small",
+"an incorrect snap has been used"
+],
+"a": [
+1
+]
+},
+{
+"q": "What type of rivet will you use when there is access to only one side of the work",
+"o": [
+"Hilok",
+"Pop",
+"Blind"
+],
+"a": [
+2
+]
+},
+{
+"q": "The correct definition of the difference between the limits shown on a drawing is:",
+"o": [
+"Clearance",
+"Tolerance",
+"Fit"
+],
+"a": [
+1
+]
+},
+{
+"q": "A transition fit is classified as being:",
+"o": [
+"light press or push",
+"drive press or force",
+"free running"
+],
+"a": [
+0
+]
+},
+{
+"q": "Better than the problem-solving ability of the last able person in the group",
+"o": [
+"Murphy's law is perpetuated mainly by",
+"poor aircraft design",
+"violations",
+"complacency"
+],
+"a": [
+3
+]
+},
+{
+"q": "To focus on a near object, the lens of the eye must",
+"o": [
+"be flattened",
+"be thickened",
+"be widened"
+],
+"a": [
+1
+]
+},
+{
+"q": "'Risky shift' is",
+"o": [
+"the tendency for a group of workers to arrive at a course of action which is riskier than that which any individual member might pursue",
+"the probability of being assigned to a work task which involves some element of risk or physical danger",
+"the name given to an inadequate shift handover"
+],
+"a": [
+0
+]
+},
+{
+"q": "When taking medicine for the first time",
+"o": [
+"take the first dose at least 24 hours before any duty to ensure that it does not have any adverse effects",
+"consult a doctor if you need to carry out any duties",
+"absent yourself from work for the duration of use of the medicine"
+],
+"a": [
+0
+]
+},
+{
+"q": "'Asynchronous' communication includes",
+"o": [
+"technical manuals, memos, Advisory Circulars and Airworthiness Directives",
+"face-to-face communications",
+"immediate voice communication by radio link"
+],
+"a": [
+0
+]
+},
+{
+"q": "272. Presbyopia often affects the eyes of people after the age of",
+"o": [
+"40",
+"55",
+"70"
+],
+"a": [
+0
+]
+},
+{
+"q": "273. The most effective form of communication is",
+"o": [
+"written communication",
+"explicit communication",
+"verbal communication"
+],
+"a": [
+1
+]
+},
+{
+"q": "275. Charles’ law states that",
+"o": [
+"Volumes varies directly with temperature",
+"Volume equals pressure c temperature",
+"Volume varies inversely with temperature"
+],
+"a": [
+0
+]
+},
+{
+"q": "276. In general, an ageing aeroplane is one which has reached",
+"o": [
+"Its ultimate life",
+"Half its expected life",
+"Two thirds of its expected life"
+],
+"a": [
+1
+]
+},
+{
+"q": "277. A process where heat is not transferred to or from gas in",
+"o": [
+"Adiabatic",
+"Isochoric",
+"Isobaric"
+],
+"a": [
+0
+]
+},
+{
+"q": "278. What shape is a venture tube",
+"o": [
+"Gradually tapering to a minimum cross-sectional area",
+"Maximum cross sectional area in the centre",
+"Minimum cross sectional area in the centre"
+],
+"a": [
+2
+]
+},
+{
+"q": "279. A pull off check on an Amp Crimping tool is required to check the",
+"o": [
+"Grip of the conductor",
+"Go-No go gauge",
+"Grip of the insulation"
+],
+"a": [
+2
+]
+},
+{
+"q": "280. The properties of a scalene triangle are",
+"o": [
+"Acute angle",
+"All sides are equal",
+"All sides different lengths"
+],
+"a": [
+2
+]
+},
+{
+"q": "281. What is octal 13 in base 10?",
+"o": [
+"5",
+"11",
+"4"
+],
+"a": [
+1
+]
+},
+{
+"q": "282. An aircraft maintenance engineer’s license is valid in Nigeria for",
+"o": [
+"60 months",
+"24 months",
+"18 months"
+],
+"a": [
+0
+]
+},
+{
+"q": "283. Excess noise in a working environment can",
+"o": [
+"Lower resistance to other stresses",
+"Not affect performance",
+"Raise resistance to other stresses"
+],
+"a": [
+0
+]
+},
+{
+"q": "284. Bronze is composed of",
+"o": [
+"Copper and Tin",
+"Copper and Zinc",
+"Copper and Aluminium"
+],
+"a": [
+0
+]
+},
+{
+"q": "One of the three features found in a drawing number is:",
+"o": [
+"sheet register number",
+"issue number",
+"project identity"
+],
+"a": [
+2
+]
+},
+{
+"q": "The \"error chain\" theory refers to",
+"o": [
+"a company is only as good as its weakest employee or employees, and removal of that/those employees from the chain should prevent errors",
+"errors are caused by a chain of linked events, and the breaking of one link in the chain will prevent the error",
+"a chain of errors within an organization can be investigated, and similar errors prevented by determining a common link between them"
+],
+"a": [
+1
+]
+},
+{
+"q": "Diffusion of responsibility may occur",
+"o": [
+"to an individual working alone",
+"to an individual working as a member of a team",
+"with certain people whether they are working in a team or alone"
+],
+"a": [
+1
+]
+},
+{
+"q": "Episodic memory",
+"o": [
+"An aircraft maintenance engineer who wears glasses or contact lenses should.",
+"have their duties restricted accordingly",
+"should not require their duties to be restricted providing they have frequent checks to ensure the adequacy of their glasses/contact lenses"
+],
+"a": [
+2
+]
+},
+{
+"q": "should not require their duties to be restricted providing they wear their glasses/contact lenses at all times they carry out their duties 291. Which of the following environments is best suited to aircraft maintenance?",
+"o": [
+"Working outside, at night, in the rain",
+"Working outside, in the direct midday sun",
+"Working inside in a well lit, comfortable hangar"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which part of the SHEL model is most difficult to protect from errors by 'designing out' or to 'work around'",
+"o": [
+"Software",
+"Environment",
+"Liveware"
+],
+"a": [
+2
+]
+},
+{
+"q": "293. In the UK, an airside ramp vehicle driver is most likely to go deaf in",
+"o": [
+"the right ear",
+"the left ear",
+"both ears"
+],
+"a": [
+0
+]
+},
+{
+"q": "The circadian cycle body temperature",
+"o": [
+"varies by 1.5oF",
+"varies by 1.5oC",
+"does not vary"
+],
+"a": [
+0
+]
+},
+{
+"q": "Removal of alcohol from the blood stream",
+"o": [
+"can be speeded up by drinking strong coffee",
+"can be speeded up by sleeping",
+"cannot be speeded up"
+],
+"a": [
+2
+]
+},
+{
+"q": "One of the three features found in a drawing number is:",
+"o": [
+"sheet register number",
+"issue number",
+"project identity"
+],
+"a": [
+2
+]
+},
+{
+"q": "The \"error chain\" theory refers to",
+"o": [
+"a company is only as good as its weakest employee or employees, and removal of that/those employees from the chain should prevent errors",
+"errors are caused by a chain of linked events, and the breaking of one link in the chain will prevent the error",
+"a chain of errors within an organization can be investigated, and similar errors prevented by determining a common link between them"
+],
+"a": [
+1
+]
+},
+{
+"q": "Diffusion of responsibility may occur",
+"o": [
+"to an individual working alone",
+"to an individual working as a member of a team",
+"with certain people whether they are working in a team or alone"
+],
+"a": [
+1
+]
+},
+{
+"q": "1. What is 11110001 in Octal?",
+"o": [
+"684",
+"# b) 361",
+"72"
+],
+"a": [
+1
+]
+},
+{
+"q": "2. The y intercept of 4y = 4x + 8 is",
+"o": [
+"8",
+"4",
+"# c) 2"
+],
+"a": [
+2
+]
+},
+{
+"q": "3. Millibar is the unit of",
+"o": [
+"# a) pressure",
+"density",
+"temperature"
+],
+"a": [
+0
+]
+},
+{
+"q": "4. 0.000006 volts can be written as",
+"o": [
+"60 nanovolts",
+"6 millivolts",
+"# c) 6 microvolts"
+],
+"a": [
+2
+]
+},
+{
+"q": "5. What is 0111000012 in Octal",
+"o": [
+"324",
+"452",
+"# c) 341"
+],
+"a": [
+2
+]
+},
+{
+"q": "6. What is 30% of 0.01?",
+"o": [
+"0.03",
+"0.0003",
+"# c) 0.003"
+],
+"a": [
+2
+]
+},
+{
+"q": "7. 1/7 in decimal is",
+"o": [
+"# a) 0.1428",
+"0.1489",
+"0.1485"
+],
+"a": [
+0
+]
+},
+{
+"q": "8. Hexadecimal is base",
+"o": [
+"2",
+"8",
+"# c) 16"
+],
+"a": [
+2
+]
+},
+{
+"q": "9. y = mx + c can also be written",
+"o": [
+"x = y/m - c",
+"# b) x = (y - c)/m",
+"x = y/(m + c)"
+],
+"a": [
+1
+]
+},
+{
+"q": "10. An aircraft flies 1350nm in 2 hrs 15 minutes. What is the average speed?",
+"o": [
+"650kts",
+"# b) 600kts",
+"850kts"
+],
+"a": [
+1
+]
+},
+{
+"q": "11. What is octal 13 in base 10?",
+"o": [
+"4",
+"# b) 11",
+"5"
+],
+"a": [
+1
+]
+},
+{
+"q": "12. What is the fraction 1/7 in decimal?",
+"o": [
+"0.14295",
+"1.429",
+"# c) 0.14286"
+],
+"a": [
+2
+]
+},
+{
+"q": "13. The supplement of 13 degrees is",
+"o": [
+"76",
+"243",
+"# c) 167"
+],
+"a": [
+2
+]
+},
+{
+"q": "14. 101110 binary is",
+"o": [
+"462",
+"468",
+"# c) 4610"
+],
+"a": [
+2
+]
+},
+{
+"q": "15. What is 3% of 0.001",
+"o": [
+"0.3",
+"0.003",
+"# c) 0.00003"
+],
+"a": [
+2
+]
+},
+{
+"q": "16. Four percent of 0.01 is",
+"o": [
+"0.04",
+"0.004",
+"# c) 0.0004"
+],
+"a": [
+2
+]
+},
+{
+"q": "17. A triangle with equal sides is",
+"o": [
+"Isosceles",
+"Acute",
+"# c) Equilateral"
+],
+"a": [
+2
+]
+},
+{
+"q": "18. Two gears are in mesh, one has twice the number of teeth as the other",
+"o": [
+"the gear with fewer teeth rotates slower than the other",
+"# b) the gear with fewer teeth rotates faster than the other",
+"the two gears rotate at the same speed"
+],
+"a": [
+1
+]
+},
+{
+"q": "19. Make c the subject of the formula y = mx + c",
+"o": [
+"y + mx",
+"# b) y - mx",
+"mx - y"
+],
+"a": [
+1
+]
+},
+{
+"q": "20. Two gears are in mesh, one is larger than the other, the smaller gear rotates",
+"o": [
+"at the same speed",
+"at a lower speed",
+"# c) at a faster speed"
+],
+"a": [
+2
+]
+},
+{
+"q": "21. To convert gallons to liters",
+"o": [
+"multiply by 0.568",
+"# b) multiply by 4.55",
+"multiply by 0.00455"
+],
+"a": [
+1
+]
+},
+{
+"q": "22. An equilateral triangle has",
+"o": [
+"two equal side",
+"no equal sides",
+"# c) three equal sides"
+],
+"a": [
+2
+]
+},
+{
+"q": "23. Convert 162 knots to mph",
+"o": [
+"# a) 186 mph",
+"176 mph",
+"196 mph"
+],
+"a": [
+0
+]
+},
+{
+"q": "24. To convert inches to millimeters, it is necessary to",
+"o": [
+"# a) multiply by 25.4",
+"divide by 25.4",
+"multiply by 2.54"
+],
+"a": [
+0
+]
+},
+{
+"q": "25. Weight is equal to",
+"o": [
+"volume x gravity",
+"mass x acceleration",
+"# c) mass x gravity"
+],
+"a": [
+2
+]
+},
+{
+"q": "26. Express the fraction 7 / 8 as a decimal",
+"o": [
+"# a) 0.875",
+"0.785",
+"0.878"
+],
+"a": [
+0
+]
+},
+{
+"q": "27. To convert pounds of fuel into kilograms, it is necessary to",
+"o": [
+"multiply by 4536",
+"# b) multiply by 0.4536",
+"divide by 0.4536"
+],
+"a": [
+1
+]
+},
+{
+"q": "28. How many centimeters is in an inch?",
+"o": [
+"25.4",
+"0.254",
+"# c) 2.54"
+],
+"a": [
+2
+]
+},
+{
+"q": "29. 7/6 can be expressed as",
+"o": [
+"2.6",
+"1.6",
+"# c) 1.166"
+],
+"a": [
+2
+]
+},
+{
+"q": "30. The ratio of 6:5 can be expressed as",
+"o": [
+"20: 25",
+"# b) 24: 20",
+"10: 16"
+],
+"a": [
+1
+]
+},
+{
+"q": "31. What is 738 in binary coded decimal?",
+"o": [
+"111100010",
+"1011100010",
+"# c) 11100111000"
+],
+"a": [
+2
+]
+},
+{
+"q": "Adiabatic compression is when",
+"o": [
+"kinetic energy is gained",
+"no heat is lost or gained",
+"heat is given off to the surroundings"
+],
+"a": [
+1
+]
+},
+{
+"q": "If a fluid moves slowly it has",
+"o": [
+"high viscosity",
+"low viscosity",
+"medium viscosity"
+],
+"a": [
+0
+]
+},
+{
+"q": "Absolute zero is",
+"o": [
+"0°C",
+"273.15 K",
+"- 273.15°C"
+],
+"a": [
+2
+]
+},
+{
+"q": "The force that acts on a body to cause it to rotate in a circular path is called the",
+"o": [
+"centrifugal force",
+"centripetal force",
+"inertia force"
+],
+"a": [
+1
+]
+},
+{
+"q": "What is meant by adiabatic?",
+"o": [
+"No heat crosses the boundary",
+"All heat crosses the boundary",
+"Some heat crosses the boundary"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the standard temperature and pressure for measuring the density of gases?",
+"o": [
+"20°C and 760 mm of mercury",
+"0°Cand 760 mm of mercury",
+"-20°C and 700 mm of mercury"
+],
+"a": [
+1
+]
+},
+{
+"q": "When gases change temperature/pressure, the scale used is",
+"o": [
+"Kelvin",
+"Degrees Centigrade",
+"Degrees Fahrenheit"
+],
+"a": [
+0
+]
+},
+{
+"q": "An aircraft flies 1350 nmiles in 2h 15mins. What is the average speed",
+"o": [
+"150 nmiles/hour",
+"600 miles/hour",
+"600 nmiles/hour"
+],
+"a": [
+2
+]
+},
+{
+"q": "Liters of fuel exerts a pressure of 10KPa, if a further 125 liters is added, the pressure will now be",
+"o": [
+"50KPa",
+"60KPa",
+"40KPa"
+],
+"a": [
+1
+]
+},
+{
+"q": "A 6000 kg engine is lifted off a wing to a height 0.5 meters and then pushed across the hangar 24 meters. The force required to push the trolley is 12 kN. What is the work done to move the trolley?",
+"o": [
+"298kJ",
+"288kJ",
+"84MJ"
+],
+"a": [
+1
+]
+},
+{
+"q": "The force which opposes twisting deformation is",
+"o": [
+"strain",
+"shear",
+"torsion"
+],
+"a": [
+2
+]
+},
+{
+"q": "12. A micro-shaver is used to:",
+"o": [
+"cut rivets to length prior to forming",
+"mill the rivet head after forming",
+"trim the shank diameter prior to forming"
+],
+"a": [
+1
+]
+},
+{
+"q": "13. A rivet shaver is used to:",
+"o": [
+"mill the head flush.",
+"mill the tail after cutting.",
+"mill the tail after setting."
+],
+"a": [
+0
+]
+},
+{
+"q": "HUMAN FACTORS MODULE 9",
+"o": [
+"Accidents and engineering faults are",
+"insignificant and increasing",
+"insignificant and decreasing",
+"significant and increasing"
+],
+"a": [
+3
+]
+},
+{
+"q": "Information on drugs and alcohol can be found in",
+"o": [
+"AWN 3",
+"AWN 47",
+"BCARs"
+],
+"a": [
+1
+]
+},
+{
+"q": "70 - 80% of the total focusing ability of the eye is carried out by the",
+"o": [
+"iris",
+"lens",
+"cornea"
+],
+"a": [
+2
+]
+},
+{
+"q": "At what distance should a person without hearing difficulties be able to hear an average conversational voice in a quiet room",
+"o": [
+"1 metre (3 feet)",
+"2 metres (6 feet)",
+"3 metres (9 feet)"
+],
+"a": [
+1
+]
+},
+{
+"q": "If you have been prescribed new medicine by your doctor you should",
+"o": [
+"continue with your normal shift pattern",
+"give the new medication a 24 hour trial",
+"take 3 days off work to try out the new medication"
+],
+"a": [
+1
+]
+},
+{
+"q": "After a general anaesthetic you should",
+"o": [
+"return to work as soon as possible",
+"take at least 7 days off work",
+"not return to work for at least 24 to 48 hours (depending on the individual)"
+],
+"a": [
+2
+]
+},
+{
+"q": "Your doctor has prescribed you tranquillizers as you are suffering from depression. You should",
+"o": [
+"tell your employer and carry on work as normal",
+"not work at all when taking the tranquillizers",
+"not tell your employer and carry on work as normal"
+],
+"a": [
+1
+]
+},
+{
+"q": "The use of 'pep' pills by an aircraft engineer",
+"o": [
+"is recommended only when working late or on night shift as they stimulate the senses and make you less prone to accidents",
+"can only be used if prescribed by your doctor",
+"should never be done (except for coffee)"
+],
+"a": [
+2
+]
+},
+{
+"q": "You are taking SUDAFED to relief nasal congestion. You should",
+"o": [
+"continue to take them at work because SUDAFED has no side effects",
+"stay away from work until you no longer require the SUDAFED",
+"avoid making engineering decisions or performing licensed duties"
+],
+"a": [
+2
+]
+},
+{
+"q": "A perforated ear drum could occur if",
+"o": [
+"you were subjected to continuous noise below 8 kHz",
+"you blew your nose excessively",
+"you were subjected to intermittent noise above 25 kHz"
+],
+"a": [
+0
+]
+},
+{
+"q": "How long is the short term memory good for remembering 7 items?",
+"o": [
+"Up to 30 seconds",
+"30 to 60 seconds",
+"Above 60 seconds"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is peer group pressure?",
+"o": [
+"The influence the House of Lords have over the House of Commons",
+"Our behaviour influenced by our friends and colleagues",
+"The influence an individual has over a group of people"
+],
+"a": [
+1
+]
+},
+{
+"q": "What is white finger?",
+"o": [
+"A disorder of the finger which may occur through continuous use of pneumatic tools because of reduced blood flow",
+"A reaction when the white blood cells die and contaminate the fingers",
+"A skin disorder caused by extensive contact with oils and solvents"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is slow wave sleep?",
+"o": [
+"Stage 3/4 sleep",
+"REM",
+"Paradoxical sleep"
+],
+"a": [
+0
+]
+},
+{
+"q": "What constitutes a good work handover?",
+"o": [
+"A written documentation of the work done",
+"A verbal account of the work done",
+"A written and verbal account of the work done"
+],
+"a": [
+2
+]
+},
+{
+"q": "Environmental stresses are",
+"o": [
+"caused by noise, fumes, heat and vibration",
+"not normally cumulative",
+"tolerated by everyone equally"
+],
+"a": [
+0
+]
+},
+{
+"q": "The regular behaviour of an individual is known as",
+"o": [
+"the norm",
+"habit",
+"culture"
+],
+"a": [
+1
+]
+},
+{
+"q": "Phase 3/4 sleep",
+"o": [
+"can be induced by alcohol",
+"occurs only once per sleep cycle",
+"is most beneficial for the body's restoration"
+],
+"a": [
+2
+]
+},
+{
+"q": "Human error can be caused by",
+"o": [
+"high body temperature",
+"low body temperature",
+"normal body temperature"
+],
+"a": [
+1
+]
+},
+{
+"q": "In a discussion, the person who is most likely to be agreed with is",
+"o": [
+"the person with the highest status",
+"the most argumentative person",
+"the person who repeats the point most times"
+],
+"a": [
+0
+]
+},
+{
+"q": "What meal is most recommended after a long shift?",
+"o": [
+"High carbohydrates",
+"Low carbohydrates",
+"High protein"
+],
+"a": [
+0
+]
+},
+{
+"q": "Long shift work will",
+"o": [
+"always increase your diagnostic and maintenance ability",
+"always decrease your diagnostic and maintenance ability",
+"initially decrease your diagnostic and maintenance ability but eventually increase your diagnostic and maintenance ability as you get used to it"
+],
+"a": [
+1
+]
+},
+{
+"q": "When someone is working in an enclosed space (such a fuel tank), another person should be outside the space in constant communication to",
+"o": [
+"ensure compliance with the maintenance manual",
+"provide instructions to the tradesman",
+"for safety reasons"
+],
+"a": [
+2
+]
+},
+{
+"q": "An engineer who has developed his own way of performing a task",
+"o": [
+"is in regular violation",
+"should be commended for his resourcefulness",
+"is improving maintenance efficiency"
+],
+"a": [
+0
+]
+},
+{
+"q": "The circadian cycle body temperature",
+"o": [
+"varies by 1.5oF",
+"varies by 1.5oC",
+"does not vary"
+],
+"a": [
+0
+]
+},
+{
+"q": "The aim of human factors programs within an organizations is",
+"o": [
+"to reduce costs by increasing efficiency, safety and quality and decreasing waste through human error",
+"to optimize the relationship between maintenance personnel and systems with a view to improving safety, efficiency and well-being",
+"to safeguard the health and safety of maintenance personnel by reducing accidents in the workplace"
+],
+"a": [
+1
+]
+},
+{
+"q": "The scientific study of measurements of the human body is known as",
+"o": [
+"anthropometrics",
+"ergonomics",
+"physiology"
+],
+"a": [
+0
+]
+},
+{
+"q": "The SHEL model of human factors takes into account",
+"o": [
+"Software, hardware, efficiency and liveware",
+"Software, hardware, environment and liveware",
+"Software, hardware, environment and location"
+],
+"a": [
+1
+]
+},
+{
+"q": "How long can the aural reflex protect the ear from loud noise?",
+"o": [
+"15 seconds",
+"15 minutes",
+"5 seconds"
+],
+"a": [
+1
+]
+},
+{
+"q": "Acute stress is",
+"o": [
+"typically intense but of short duration",
+"a frequently reoccurring stress or of long duration",
+"intense stress of long duration"
+],
+"a": [
+0
+]
+},
+{
+"q": "What part of the SHEL model would the writing and interpretation of maintenance manuals fit into?",
+"o": [
+"Software",
+"Hardware",
+"Environment"
+],
+"a": [
+0
+]
+},
+{
+"q": "The \"error chain\" theory refers to",
+"o": [
+"a company is only as good as its weakest employee or employees, and removal of that/those employee from the chain should prevent errors",
+"errors are caused by a chain of linked events, and the breaking of one link in the chain will prevent the error",
+"a chain of errors within an organizations can be investigated, and similar errors prevented by determining a common link between them"
+],
+"a": [
+1
+]
+},
+{
+"q": "Murphy's law is perpetuated mainly by",
+"o": [
+"poor aircraft design",
+"violations",
+"complacency"
+],
+"a": [
+2
+]
+},
+{
+"q": "What part of the eye controls the amount of light that is allowed to enter the eye?",
+"o": [
+"The cornea",
+"The iris",
+"The pupil"
+],
+"a": [
+1
+]
+},
+{
+"q": "Learning of a routine by repeated practice is known as",
+"o": [
+"episodic memory",
+"motor programming",
+"cognitive learning"
+],
+"a": [
+1
+]
+},
+{
+"q": "An aircraft engineer who has 'responsibility'",
+"o": [
+"must be licensed on the particular type of aircraft",
+"is in a management position within their company hierarchy",
+"are liable to be called to account as being in charge or control of, or answerable for something"
+],
+"a": [
+2
+]
+},
+{
+"q": "The ear is used to detect",
+"o": [
+"acceleration",
+"speed",
+"neither acceleration or speed"
+],
+"a": [
+0
+]
+},
+{
+"q": "Chronic stress is",
+"o": [
+"typically intense but of short duration",
+"a frequently reoccurring stress or of long duration",
+"intense stress of long duration"
+],
+"a": [
+1
+]
+},
+{
+"q": "Smoking cannabis",
+"o": [
+"subtly impairs performance for up to 24 hours",
+"has only a short term affect upon performance",
+"has a noticeable affect on a person’s behaviour and performance for up to 24 hours"
+],
+"a": [
+0
+]
+},
+{
+"q": "Employers must provide their employees with personal ear protectors if the noise level reaches",
+"o": [
+"60 dB",
+"70 dB",
+"85 dB"
+],
+"a": [
+2
+]
+},
+{
+"q": "The impact of human factors and human error is most important to",
+"o": [
+"technicians and engineers",
+"planners and managers",
+"It is equally important to technicians, engineers, planners and managers"
+],
+"a": [
+2
+]
+},
+{
+"q": "What part of the SHEL model would the aircraft design fit into?",
+"o": [
+"Environment",
+"Hardware",
+"Liveware"
+],
+"a": [
+1
+]
+},
+{
+"q": "Murphy's law can be regarded as the notion",
+"o": [
+"\"If something can go wrong it will\"",
+"\"If something goes wrong I am certain to get the blame\"",
+"\"It can never happen to me\""
+],
+"a": [
+0
+]
+},
+{
+"q": "Light enters the eye through the",
+"o": [
+"cornea",
+"retina",
+"visual cortex"
+],
+"a": [
+0
+]
+},
+{
+"q": "To focus on a near object, the lens of the eye must",
+"o": [
+"be flattened",
+"be thickened",
+"be widened"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which type of memory is most susceptible to interference from external influences?",
+"o": [
+"Ultra short term",
+"Short term",
+"Long term"
+],
+"a": [
+1
+]
+},
+{
+"q": "Where are the responsibilities of Licensed Aircraft Engineers laid down?",
+"o": [
+"The Air Navigation Order",
+"CAP 715",
+"AWN 3"
+],
+"a": [
+2
+]
+},
+{
+"q": "Performance is",
+"o": [
+"directly proportional to the individual's state of arousal",
+"inversely proportional to the individual's state of arousal",
+"greatest only at one optimum level of arousal but diminishes as arousal decreases or increases"
+],
+"a": [
+2
+]
+},
+{
+"q": "Missing a break in an effort to get a job done within a certain time frame",
+"o": [
+"can be done by those actually doing the job providing the supervisors take regular breaks",
+"can be done providing adequate rest period is available at the end of the shift",
+"can be counterproductive, as fatigue diminishes motor skills, perception, awareness and standards"
+],
+"a": [
+2
+]
+},
+{
+"q": "The maximum allowable noise dose is",
+"o": [
+"85 dB",
+"any combination of noise and time which exceeds 90 dB TWA",
+"90 dB for 24 hours"
+],
+"a": [
+1
+]
+},
+{
+"q": "Tiredness causes visual acuity to",
+"o": [
+"increase",
+"decrease",
+"Visual acuity is not affected by tiredness"
+],
+"a": [
+1
+]
+},
+{
+"q": "Peripheral vision is detected by the",
+"o": [
+"cones",
+"rods",
+"fovea"
+],
+"a": [
+1
+]
+},
+{
+"q": "Extreme discomfort experienced by a maintenance engineer due to working in a confined space is known as",
+"o": [
+"claustrophobia",
+"agoraphobia",
+"acrophobia"
+],
+"a": [
+0
+]
+},
+{
+"q": "Diffusion of responsibility may occur",
+"o": [
+"to an individual working alone",
+"to an individual working as a member of a team",
+"with certain people whether they are working in a team or alone"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which part of the SHEL model is most difficult to protect from errors by 'designing out' or to 'work around'",
+"o": [
+"Software",
+"Environment",
+"Liveware"
+],
+"a": [
+2
+]
+},
+{
+"q": "Narrowing of attention occurs at",
+"o": [
+"high levels of arousal",
+"low levels of arousal",
+"both high and low levels of arousal"
+],
+"a": [
+0
+]
+},
+{
+"q": "A good shift handover should include details of",
+"o": [
+"tasks that have been completed; tasks in progress, their status, any problems encountered etc.; tasks to be carried out and general company and technical information.",
+"tasks that have been completed; persons who carried out the tasks; tasks to be carried out and general company and technical information.",
+"tasks that have been completed; tasks in progress, their status, any problems encountered etc.; tasks to be carried out and tools required to carry out the tasks."
+],
+"a": [
+0
+]
+},
+{
+"q": "The blood/alcohol limit is",
+"o": [
+"20 milligrams of alcohol per 100 millilitres of blood for commercial aircrew, air traffic controllers and 40 milligrams of alcohol per 100 millilitres of blood for maintenance engineers",
+"40 milligrams of alcohol per 100 millilitres of blood",
+"20 milligrams of alcohol per 100 millilitres of blood for commercial aircrew, air traffic controllers and maintenance engineers"
+],
+"a": [
+2
+]
+},
+{
+"q": "A company's safety policy should be defined in",
+"o": [
+"the Maintenance Organization Exposition",
+"the Maintenance Schedule",
+"in CAP 716"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following is least associated with the study of human factors?",
+"o": [
+"Ergonomics",
+"Health and Safety",
+"Human error"
+],
+"a": [
+1
+]
+},
+{
+"q": "What part of the eye is colour sensitive?",
+"o": [
+"The cones",
+"The rods",
+"The iris"
+],
+"a": [
+0
+]
+},
+{
+"q": "'Risky shift' is",
+"o": [
+"the tendency for a group of workers to arrive at a course of action which is riskier than that which any individual member might pursue",
+"the probability of being assigned to a work task which involves some element of risk or physical danger",
+"the name given to an inadequate shift handover"
+],
+"a": [
+0
+]
+},
+{
+"q": "Paradoxical sleep is also known as",
+"o": [
+"Stage 3 sleep",
+"Stage 4 sleep",
+"REM sleep"
+],
+"a": [
+2
+]
+},
+{
+"q": "Technical communication between two engineers can go wrong if",
+"o": [
+"the recipient makes an assumption of the meaning of the information being transmitted",
+"the sender uses a sketch to augment the information transmittal",
+"the recipient uses body language to provide feedback to the sender"
+],
+"a": [
+0
+]
+},
+{
+"q": "What type of lens is used to overcome short sightedness?",
+"o": [
+"Convex",
+"Concave",
+"Bi-focal"
+],
+"a": [
+1
+]
+},
+{
+"q": "To ensure that a technician remains reasonably current on the aircraft types to which they hold authorizations, they are required that",
+"o": [
+"they are involved in at least 6 months of actual aircraft maintenance experience in any 2 year period only",
+"they have appropriate continuation/refresher training only",
+"they are involved in at least 6 months of actual aircraft maintenance experience in any 2 year period and they have appropriate continuation/refresher training"
+],
+"a": [
+2
+]
+},
+{
+"q": "When taking medicine for the first time",
+"o": [
+"take the first dose at least 24 hours before any duty to ensure that it does not have any adverse effects",
+"consult a doctor if you need to carry out any duties",
+"absent yourself from work for the duration of use of the medicine"
+],
+"a": [
+0
+]
+},
+{
+"q": "For a man to maintain his fitness and health the conducive maximum recommended alcohol intake is",
+"o": [
+"3 - 4 units per week",
+"28 units per week",
+"28 units per day"
+],
+"a": [
+1
+]
+},
+{
+"q": "The type of memory which is most easily influenced by a person's expectations of what should have happened is the",
+"o": [
+"semantic memory",
+"episodic memory",
+"long term memory"
+],
+"a": [
+1
+]
+},
+{
+"q": "The inability for the eyes to accommodate sufficiently is known as",
+"o": [
+"Myopia",
+"Hypermetropia",
+"Presbyopia"
+],
+"a": [
+2
+]
+},
+{
+"q": "An aircraft maintenance engineer who wears glasses or contact lenses should",
+"o": [
+"have their duties restricted accordingly",
+"should not require their duties to be restricted providing they have frequent checks to ensure the adequacy of their glasses/contact lenses",
+"should not require their duties to be restricted providing they wear their glasses/contact lenses at all times they carry out their duties"
+],
+"a": [
+1
+]
+},
+{
+"q": "The difference between what a person 'can' do and what he 'will' do is largely determined by his",
+"o": [
+"physical and mental health",
+"motivation",
+"education and training"
+],
+"a": [
+1
+]
+},
+{
+"q": "Human Circadian rhythms cycle on a",
+"o": [
+"24 hour time scale",
+"25 hour timescale",
+"8 hour timescal"
+],
+"a": [
+1
+]
+},
+{
+"q": "Whose responsibility is it that an engineer remains current on new technology and procedures?",
+"o": [
+"The engineer's",
+"The organization's",
+"The NCAA's"
+],
+"a": [
+0
+]
+},
+{
+"q": "When inspecting an airframe structure for small cracks, to avoid a crack being missed you should",
+"o": [
+"constantly move the eye across and around the area of interest to avoid the crack falling into the eye's natural blind spot",
+"hold the vision stationary for several seconds on each area to allow the eye to focus correctly",
+"not use a mirror as mirrors absorb and refract light and may obscure a crack"
+],
+"a": [
+0
+]
+},
+{
+"q": "A good practice for a shift handover is for shifts to be specifically rostered so there is an overlap of",
+"o": [
+"5 - 10 minutes",
+"20 - 30 minutes",
+"2 - 3 hours"
+],
+"a": [
+1
+]
+},
+{
+"q": "Ultra short term memory has a duration of about",
+"o": [
+"2 seconds",
+"10 to 20 seconds",
+"80 - 100 milliseconds"
+],
+"a": [
+0
+]
+},
+{
+"q": "What type of lens is used to correct long sightedness?",
+"o": [
+"Convex",
+"Concave",
+"Bi-focal"
+],
+"a": [
+0
+]
+},
+{
+"q": "A violation in an aircraft maintenance procedure",
+"o": [
+"is always considered an act of vandalism or sabotage",
+"is usually carried out with the best intentions from a genuine desire to 'get the job done'",
+"is always carried out to satisfy some personal need, often unrelated to the actual task"
+],
+"a": [
+1
+]
+},
+{
+"q": "Removal of alcohol from the blood stream",
+"o": [
+"can be speeded up by drinking strong coffee",
+"can be speeded up by sleeping",
+"cannot be speeded up"
+],
+"a": [
+2
+]
+},
+{
+"q": "Visual Acuity is the ability",
+"o": [
+"to differentiate between different colours",
+"to detect objects in the peripheral vision",
+"of the eye to discriminate sharp detail at varying distances"
+],
+"a": [
+2
+]
+},
+{
+"q": "According to Maslow, safety needs (protection from potentially dangerous objects or situations)",
+"o": [
+"is the most primal need of humans",
+"is second only to physiological needs (food drink, oxygen etc.)",
+"is the last need of human after all other needs have been satisfied."
+],
+"a": [
+1
+]
+},
+{
+"q": "For a person with normal Circadian rhythms, the body temperature will be lowest",
+"o": [
+"at midday",
+"upon waking",
+"between 4 and 6 o'clock in the morning"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which type of human error is easiest to correct?",
+"o": [
+"Variable error",
+"Constant error",
+"Reversible error"
+],
+"a": [
+1
+]
+},
+{
+"q": "If a maintenance engineer has a cold or flu he should",
+"o": [
+"only absent himself from duty if his work contract includes sickness pay",
+"only absent himself from duty if there are no staff shortages at his workplace or within his work team",
+"absent himself from duty until fully recovered, regardless of other factors"
+],
+"a": [
+2
+]
+},
+{
+"q": "'Environmental capture' is a type of error possible when an engineer does the same job repeatedly",
+"o": [
+"on the same type of aircraft",
+"but on different types of aircraft",
+"in a short timescale"
+],
+"a": [
+0
+]
+},
+{
+"q": "Consumption of alcohol",
+"o": [
+"increases mental and physical reaction times",
+"decreases mental and physical reaction times",
+"has no affect upon mental and physical reaction times"
+],
+"a": [
+0
+]
+},
+{
+"q": "'Asynchronous' communication includes",
+"o": [
+"technical manuals, memos, Advisory Circulars and Airworthiness Directives",
+"face-to-face communications",
+"immediate voice communication by radio link"
+],
+"a": [
+0
+]
+},
+{
+"q": "The \"working memory\" is",
+"o": [
+"ultra short term memory",
+"short term memory",
+"long term memory"
+],
+"a": [
+1
+]
+},
+{
+"q": "Colour defective vision affects",
+"o": [
+"almost 1 in 10 of men",
+"almost 1 in 10 of women",
+"more women than men"
+],
+"a": [
+0
+]
+},
+{
+"q": "At lower light levels, the visual sensing is performed mainly by the",
+"o": [
+"cones",
+"rods",
+"fovea"
+],
+"a": [
+1
+]
+},
+{
+"q": "The symptoms of de-motivation are very similar to the symptoms of",
+"o": [
+"stress",
+"tiredness",
+"mental illness"
+],
+"a": [
+0
+]
+},
+{
+"q": "Alertness and performance is reduced when the body temperature is",
+"o": [
+"below normal",
+"above normal",
+"either above or below normal"
+],
+"a": [
+0
+]
+},
+{
+"q": "In the 'slips, lapses and mistakes' definition of errors, forgetting to replace an engine cowling would be considered a",
+"o": [
+"slip",
+"lapse",
+"mistake"
+],
+"a": [
+1
+]
+},
+{
+"q": "If an image formed on the retina of the eye is inverted relative to the viewers normal perception of the image, the viewer will",
+"o": [
+"become disoriented and dizzy",
+"behave and feel normal",
+"consciously mentally revert the image so as to make sense of his/her surroundings"
+],
+"a": [
+1
+]
+},
+{
+"q": "The \"cocktail party effect\" is descriptive of",
+"o": [
+"selective attention",
+"divided attention",
+"focused attention"
+],
+"a": [
+0
+]
+},
+{
+"q": "Hypermetropia is the medical name for",
+"o": [
+"long sightedness",
+"short sightedness",
+"deafness"
+],
+"a": [
+0
+]
+},
+{
+"q": "What range of sound is usually impaired first with the onset of presbycusis",
+"o": [
+"high pitch sound",
+"mid range sound",
+"low pitch sound"
+],
+"a": [
+0
+]
+},
+{
+"q": "100. In the UK, an airside ramp vehicle driver is most likely to go deaf in",
+"o": [
+"the right ear",
+"the left ear",
+"both ears"
+],
+"a": [
+0
+]
+},
+{
+"q": "101.The amount of light which is allowed to enter the eye can vary by a factor of",
+"o": [
+"5:1",
+"50:1",
+"500:1"
+],
+"a": [
+0
+]
+},
+{
+"q": "102. The desire of an individual to 'conform' to a group by allowing one's opinions, attitudes and actions to be affected by prevailing conditions is known as",
+"o": [
+"culture issues",
+"esteem needs",
+"peer pressure"
+],
+"a": [
+2
+]
+},
+{
+"q": "103. A good rule of thumb for an adequate amount of sleep is",
+"o": [
+"two hours of high quality sleep is good for one hour of activity",
+"one hour of high quality sleep is good for one hour of activity",
+"one hour of high quality sleep is good for two hours of activity"
+],
+"a": [
+2
+]
+},
+{
+"q": "104. In the 'slips, lapses and mistakes' definition of errors, a mistake would typically occur at the",
+"o": [
+"execution stage",
+"storage (memory) stage",
+"planning stage"
+],
+"a": [
+2
+]
+},
+{
+"q": "105. Presbyopia often affects the eyes of people after the age of",
+"o": [
+"40",
+"55",
+"70"
+],
+"a": [
+0
+]
+},
+{
+"q": "106. When a person moves from a poorly lit area to a well lit area, what is the minimum time they should allow for the eyes to adapt?",
+"o": [
+"7 minutes",
+"7 seconds",
+"30 seconds"
+],
+"a": [
+0
+]
+},
+{
+"q": "107. From what age does hearing ability normally begin to decline?",
+"o": [
+"30",
+"40",
+"50"
+],
+"a": [
+0
+]
+},
+{
+"q": "108. 'Confirmation bias' is",
+"o": [
+"the subconscious attention to evidence which confirms an engineer's beliefs, and inattention to evidence which contradicts his beliefs",
+"an inspection of work carried out by an independent inspector or supervisor",
+"error in work carried out by a supervisor who has also inspected and signed for his own work"
+],
+"a": [
+0
+]
+},
+{
+"q": "109. Finding that familiar tasks (such as programming the video recorder) seems more complicated than usual, could be an early indication of",
+"o": [
+"acute stress",
+"chronic fatigue",
+"a cold or flu"
+],
+"a": [
+1
+]
+},
+{
+"q": "110. Up to what proximity to an aircraft with engines running is the use of ear protection recommended for maintenance personnel?",
+"o": [
+"20 - 30 metres",
+"200 - 300 metres",
+"2 - 3 metres"
+],
+"a": [
+1
+]
+},
+{
+"q": "111. A person with 20/40 vision has",
+"o": [
+"better eyesight than a person with 20/20 vision",
+"worse eyesight as a person with 20/20 vision",
+"the same eyesight as a person with 20/20 vision"
+],
+"a": [
+1
+]
+},
+{
+"q": "112. A person with low self-esteem is",
+"o": [
+"more likely to conform to peer pressure",
+"less likely to conform to peer pressure",
+"Conformity to peer pressure is not affected by level of self-esteem"
+],
+"a": [
+0
+]
+},
+{
+"q": "113. Long term memory capacity is usually",
+"o": [
+"4 - 8 years",
+"12 months",
+"unlimited"
+],
+"a": [
+2
+]
+},
+{
+"q": "114. The inability for the eyes to accommodate sufficiently is known as",
+"o": [
+"myopia",
+"hypermetropia",
+"presbyopia"
+],
+"a": [
+2
+]
+},
+{
+"q": "115. Ultra short term memory has a duration of about",
+"o": [
+"2 seconds",
+"10 to 20 seconds",
+"80 - 100 milliseconds"
+],
+"a": [
+0
+]
+},
+{
+"q": "116. The only permitted stimulant is",
+"o": [
+"caffeine",
+"bromine",
+"amphetamine"
+],
+"a": [
+0
+]
+},
+{
+"q": "117. The incident where a 737 lost oil from both engines is a direct result of",
+"o": [
+"engine vibration",
+"human factors",
+"human error"
+],
+"a": [
+2
+]
+},
+{
+"q": "118. Motivation is",
+"o": [
+"the thing that drives someone to do something",
+"a reward or punishment designed to reduce errors",
+"a reward or punishment designed to increase work rate"
+],
+"a": [
+0
+]
+},
+{
+"q": "119. On a task that is complex, an engineer uses his own procedures due to pressure. This is legally termed",
+"o": [
+"violation",
+"initiative",
+"modification"
+],
+"a": [
+0
+]
+},
+{
+"q": "120. Large amounts of caffeine can",
+"o": [
+"cause anxiety, headaches and stress",
+"improve alertness and increase awareness",
+"reduce anxiety and stress"
+],
+"a": [
+0
+]
+},
+{
+"q": "121. The symptoms of stress are",
+"o": [
+"indications of improved work performance",
+"violence, sickness, absence from work, drug and alcohol abuse",
+"irritability, forgetfulness, sickness, absence from work, drug and alcohol abuse"
+],
+"a": [
+2
+]
+},
+{
+"q": "122. Sleeping tablets can",
+"o": [
+"help REM sleep and realign circadian rhythms",
+"slow reaction time and dull the senses",
+"increase alertness after waking the following morning"
+],
+"a": [
+1
+]
+},
+{
+"q": "123. Peer pressure is",
+"o": [
+"typified by the expression \"the way we do it around here\"",
+"the perceived pressure to carry out a task in the same way your colleagues would",
+"the perceived pressure to conform to what you believe your colleagues expect of you."
+],
+"a": [
+2
+]
+},
+{
+"q": "124. Studies have shown that working outside in a temperature of 55oF will have what effect on hand dexterity?",
+"o": [
+"None",
+"Very slight",
+"Around 50%"
+],
+"a": [
+2
+]
+},
+{
+"q": "125. When working with bright lights consideration should be given to",
+"o": [
+"glare",
+"shadows",
+"blurred image"
+],
+"a": [
+0
+]
+},
+{
+"q": "126. Visual inspection by an 'experienced' maintenance engineer is",
+"o": [
+"knowledge and rule base behaviour",
+"skill and knowledge based behaviour",
+"skill and rule based behaviour"
+],
+"a": [
+0
+]
+},
+{
+"q": "127. Information for certifying staff when medically unfit is found in",
+"o": [
+"ANO",
+"AWN 3",
+"AWN 47"
+],
+"a": [
+2
+]
+},
+{
+"q": "128. The eyesight of an engineer is the responsibility of",
+"o": [
+"the optician",
+"the engineer",
+"the Quality Manager"
+],
+"a": [
+1
+]
+},
+{
+"q": "129. What effect would the consumption of 3 - 5 units of alcohol?",
+"o": [
+"Loss of quality of sleep",
+"Low REM sleep",
+"A drop in body temperature"
+],
+"a": [
+0
+]
+},
+{
+"q": "130. The best type of handover is",
+"o": [
+"the use of handover logs and a brief by the shift supervisor",
+"when each individual gets a personal handover of the job",
+"when written instructions are given by the engineer finishing his shift to the engineer just beginning a shift."
+],
+"a": [
+0
+]
+},
+{
+"q": "131. Long shift work",
+"o": [
+"decreases the ability to recognize defects",
+"increases the ability to recognize defects",
+"has no effect on the ability to recognize defects"
+],
+"a": [
+0
+]
+},
+{
+"q": "132. A good team is one where every member has",
+"o": [
+"an opinion",
+"an input",
+"a job"
+],
+"a": [
+1
+]
+},
+{
+"q": "133. The memory can be aided by",
+"o": [
+"memory checking",
+"mind logging",
+"a checklist"
+],
+"a": [
+2
+]
+},
+{
+"q": "134. In AWN 47 what is the recommended hearing test?",
+"o": [
+"The ability to hear an average conversation voice at a distance of 10 feet",
+"The ability to hear a certain noise at 8 feet",
+"The ability to hear an average conversation voice at a distance of 6 feet"
+],
+"a": [
+2
+]
+},
+{
+"q": "135. The most effective form of communication is",
+"o": [
+"written communication",
+"explicit communication",
+"verbal communication"
+],
+"a": [
+1
+]
+},
+{
+"q": "136. Circadian Rhythms control",
+"o": [
+"urine output",
+"body temperature",
+"sleeping patterns"
+],
+"a": [
+1
+]
+},
+{
+"q": "137. Cycles of sleep repeat",
+"o": [
+"approximately each 4 hours",
+"approximately each 90 minutes",
+"approximately 20 minutes"
+],
+"a": [
+1
+]
+},
+{
+"q": "138. Iconic memory",
+"o": [
+"stores visual information and lasts up to ½ second",
+"stores sounds and lasts up to 2 seconds",
+"stores visual information and lasts up to 2 seconds"
+],
+"a": [
+0
+]
+},
+{
+"q": "139. The first stage in information processing is",
+"o": [
+"perception",
+"memorizing",
+"decision"
+],
+"a": [
+0
+]
+},
+{
+"q": "140. Information, if not rehearsed is lost in",
+"o": [
+"10 - 20 seconds",
+"1 minute",
+"30 - 40 seconds"
+],
+"a": [
+0
+]
+},
+{
+"q": "141. In AWN 47, what is the standard hearing test?",
+"o": [
+"The ability to hear a conversation in a quiet room at 2 metres",
+"The ability to hear a conversation in a quiet room at 10 metres",
+"The ability to hear a conversation in a noisy room at 2 metres"
+],
+"a": [
+0
+]
+},
+{
+"q": "142. Which of the following is true?",
+"o": [
+"Noise does not affect a person's standard of work",
+"Noise does affect the standard of work with certain people",
+"Noise affects the standard of work proportionately with the level of the noise"
+],
+"a": [
+1
+]
+},
+{
+"q": "143. AWN 47 states that the engineer",
+"o": [
+"is responsible for the work he has signed for",
+"is responsible for health and safety",
+"does not report for work if unfit"
+],
+"a": [
+2
+]
+},
+{
+"q": "144. Information in the short term memory not rehearsed will be lost is",
+"o": [
+"1 - 3 months",
+"2 - 3 weeks",
+"10 - 20 seconds"
+],
+"a": [
+2
+]
+},
+{
+"q": "145. The effect on an engineer of environmental noise is",
+"o": [
+"it improves concentration and quality of work",
+"it decreases concentration and quality of work",
+"it has no affect on concentration of quality of work"
+],
+"a": [
+1
+]
+},
+{
+"q": "146. If a 737 had both engines serviced and lost oil from both engines in flight, this",
+"o": [
+"can be considered an acceptable probability",
+"can be expected to happen statistically due to the number of aircraft in service",
+"would be a direct result of human error"
+],
+"a": [
+2
+]
+},
+{
+"q": "147. Excess noise in a working environment can",
+"o": [
+"not affect performance",
+"lower resistance to other stresses",
+"raise resistance to other stresses"
+],
+"a": [
+1
+]
+},
+{
+"q": "148. What do you do when someone is hypothermic?",
+"o": [
+"Warm them up",
+"Give them a drink because of dehydration",
+"Feed them sweet things because of their diabetes"
+],
+"a": [
+0
+]
+},
+{
+"q": "149. An effective group work is when",
+"o": [
+"everyone discusses ideas and opinions",
+"everyone has a job to do",
+"everyone contributes in some way"
+],
+"a": [
+2
+]
+},
+{
+"q": "150. A stimulant allowed to be taken without a doctor's prescription is",
+"o": [
+"bromine",
+"caffeine",
+"antihistamine"
+],
+"a": [
+1
+]
+},
+{
+"q": "151. The conditions laid down in AWN 47 are applicable to aircraft engineers",
+"o": [
+"who sign for work completed",
+"for their safety at work",
+"when under the influence of drink or drugs"
+],
+"a": [
+2
+]
+},
+{
+"q": "152. Which of the following defines a peer pressure situation?",
+"o": [
+"Your girlfriend telling you to go out with her",
+"Your supervising manager pressuring you to complete the current task on time",
+"Your colleagues pressuring you to work faster so they can go home"
+],
+"a": [
+2
+]
+},
+{
+"q": "153. If the temperature is - 15oC and you are working on the line, you should",
+"o": [
+"stop all maintenance until the weather improves",
+"carry on regardless of the weather to keep the aircraft flying",
+"rotate engineers regularly and have a supervisor keep an eye on them"
+],
+"a": [
+0
+]
+},
+{
+"q": "154. What is the NCAA standard for vision?",
+"o": [
+"Acceptable uncorrected vision",
+"Acceptable corrected vision",
+"18/20 vision"
+],
+"a": [
+1
+]
+},
+{
+"q": "155. Trouble shooting is",
+"o": [
+"rule based",
+"skill based",
+"knowledge based"
+],
+"a": [
+0
+]
+},
+{
+"q": "156. A violation is",
+"o": [
+"a deliberate departure from the rules",
+"an unintentional error",
+"an intentional act of sabotage"
+],
+"a": [
+0
+]
+},
+{
+"q": "157. A mistake is",
+"o": [
+"a deliberate departure from the rules",
+"an unintentional error",
+"an intentional act of sabotage"
+],
+"a": [
+1
+]
+},
+{
+"q": "158. Consumption of 3 - 4 units of alcohol before sleep can",
+"o": [
+"lower the body temperature",
+"decrease the quality of sleep",
+"increase REM sleep"
+],
+"a": [
+1
+]
+},
+{
+"q": "159. The cycles of body temperature, sleep requirement and alertness are called",
+"o": [
+"earth cycles",
+"ecto - meridian cycles",
+"circadian rhythms"
+],
+"a": [
+2
+]
+},
+{
+"q": "160. Studies have shown that working outside in a temperature of 55oF will have what effect on hand dexterity?",
+"o": [
+"None",
+"Very slight reduction",
+"Around 50% reduction"
+],
+"a": [
+2
+]
+},
+{
+"q": "161. To establish a reliable means of communication between teams",
+"o": [
+"a detailed written handover is the most effective method",
+"change-over logs and verbal communication are essential",
+"detailed verbal communication is the most effective method"
+],
+"a": [
+1
+]
+},
+{
+"q": "162. In theory, human error is most likely to occur",
+"o": [
+"when the body temperature is stable",
+"during very hot weather",
+"when the body temperature is at its lowest"
+],
+"a": [
+2
+]
+},
+{
+"q": "163. What happened to contribute towards the incident in 1995 where a Boeing 737 lost oil pressure and had to divert?",
+"o": [
+"The boroscope inspection had been inadequate",
+"The HP rotor drive covers of both engines had not been refitted after a boroscope inspection",
+"Both warning indications were faulty, due to crossed connections"
+],
+"a": [
+1
+]
+},
+{
+"q": "164. What is the most common cause of in-flight engine shutdown?",
+"o": [
+"Foreign object damage",
+"Improper fault isolation, inspection or test",
+"Incomplete installation"
+],
+"a": [
+2
+]
+},
+{
+"q": "165. Organizational culture (whether good or bad) is best described as",
+"o": [
+"\"the way we do things around here\"",
+"written procedures",
+"team resource management"
+],
+"a": [
+0
+]
+},
+{
+"q": "166. The main disadvantage of carrying out critical inspections under very bright artificial light is",
+"o": [
+"shadows",
+"glare",
+"filtered light"
+],
+"a": [
+1
+]
+},
+{
+"q": "167. An individual suffering from stress when confronted with a task within his capability is likely to think the task is",
+"o": [
+"too demanding",
+"someone else's responsibility",
+"not demanding enough"
+],
+"a": [
+1
+]
+},
+{
+"q": "168. Trouble shooting is",
+"o": [
+"skill based",
+"knowledge based",
+"rule based"
+],
+"a": [
+2
+]
+},
+{
+"q": "169. An experienced engineer fits the wrong seal during a routine component change, this is",
+"o": [
+"skill based",
+"knowledge based",
+"rule based"
+],
+"a": [
+2
+]
+},
+{
+"q": "170. An engineer is working on a wing and kicks a spanner off into an engine cowl and breaks a sensor, this is",
+"o": [
+"skill based error",
+"knowledge based error",
+"rule based error"
+],
+"a": [
+0
+]
+},
+{
+"q": "171. AWN 47 does not mention",
+"o": [
+"sudafed",
+"pep's",
+"melatonin"
+],
+"a": [
+2
+]
+},
+{
+"q": "172. The incident in 1995 where a Boeing 737 lost oil pressure and had to divert was",
+"o": [
+"a typical human factors related error",
+"to be expected due to the number of flights each day",
+"due to Murphy's law"
+],
+"a": [
+0
+]
+},
+{
+"q": "173. 3 - 4 units of alcohol taken before sleep reduces",
+"o": [
+"quality of sleep",
+"quantity of sleep",
+"both"
+],
+"a": [
+2
+]
+},
+{
+"q": "174. The retina is situated",
+"o": [
+"in front of the cornea",
+"behind the cornea with the lens",
+"at the back of the eye with the optic nerve"
+],
+"a": [
+2
+]
+},
+{
+"q": "175. An effective shift handover will comprise of",
+"o": [
+"the outgoing and incoming personnel individually handing over ongoing tasks",
+"the shift supervisor informing personnel of all ongoing work",
+"handing over ongoing tasks in a designated area"
+],
+"a": [
+2
+]
+},
+{
+"q": "176. Which is important in sleep?",
+"o": [
+"Quality",
+"Quantity",
+"Both"
+],
+"a": [
+2
+]
+},
+{
+"q": "177. The difference between a mistake and a violation is",
+"o": [
+"a mistake is less serious than a violation",
+"a violation is not deliberate",
+"a mistake is unintentional and a violation is deliberate"
+],
+"a": [
+2
+]
+},
+{
+"q": "178. Stressors in the environment of noise and heat will cause",
+"o": [
+"a total loss of attention",
+"a loss of attention and a distraction",
+"no loss of attention"
+],
+"a": [
+1
+]
+},
+{
+"q": "179. When going from day shift to night shift, efficiency",
+"o": [
+"stays the same",
+"will drop off in the first four weeks",
+"will drop off after the first four weeks"
+],
+"a": [
+1
+]
+},
+{
+"q": "180. An engineer finds his own method of doing a repetitive job.",
+"o": [
+"He should be commended for his resourcefulness",
+"He should hand it on to his junior colleagues",
+"He is in regular violation"
+],
+"a": [
+2
+]
+},
+{
+"q": "181. When working on aircraft, the consumption of alcohol",
+"o": [
+"a certain amount is permissible",
+"is permissible providing the drink driving limit is not exceeded",
+"you cannot work on aircraft even 8 hours after consuming large quantities of alcohol"
+],
+"a": [
+2
+]
+},
+{
+"q": "182. An experienced engineer is fitting a valve. A required seal is not fitted. What type of error is this?",
+"o": [
+"Rule based",
+"Skill based",
+"Knowledge based"
+],
+"a": [
+0
+]
+},
+{
+"q": "183. Most engineering related incidents are due to",
+"o": [
+"installing dirty connectors",
+"installing components incorrectly",
+"installing worn or old components"
+],
+"a": [
+1
+]
+},
+{
+"q": "184. What is the most important means of communication in aircraft maintenance engineering?",
+"o": [
+"Written",
+"Implicit",
+"Verbal"
+],
+"a": [
+0
+]
+},
+{
+"q": "185. Drinking 3 - 4 units of alcohol before sleeping results in",
+"o": [
+"a drop in body temperature",
+"loss of quality sleep",
+"loss of non-REM sleep"
+],
+"a": [
+1
+]
+},
+{
+"q": "186. Environmental stresses in an extreme high temperature and noisy environment causes",
+"o": [
+"no loss of attention or distraction",
+"total loss of attention",
+"attention to be disturbed and distributed"
+],
+"a": [
+2
+]
+},
+{
+"q": "187. In an organization which practices human factors there is",
+"o": [
+"a no blame culture",
+"no blame unless there is a deliberate violation",
+"punishment for all violations"
+],
+"a": [
+1
+]
+},
+{
+"q": "188. What effect does alcohol have on sleep?",
+"o": [
+"Decreases quantity of sleep",
+"Decreases quality of sleep",
+"Both"
+],
+"a": [
+2
+]
+},
+{
+"q": "189. The most effective form of communication is",
+"o": [
+"written communication",
+"implicit communication",
+"verbal communication"
+],
+"a": [
+2
+]
+},
+{
+"q": "190. The hub of the SHEL model of human factors is",
+"o": [
+"liveware",
+"hardware",
+"environment"
+],
+"a": [
+0
+]
+},
+{
+"q": "191. Motor programme refers to",
+"o": [
+"a task that has been carried out so many times that it becomes automatic",
+"motivational computer software",
+"a task that becomes programmed into short term memory"
+],
+"a": [
+0
+]
+},
+{
+"q": "192. Memory which can be influenced by a person’s expectations of what should have happened is",
+"o": [
+"episodic",
+"semantic",
+"echoic"
+],
+"a": [
+0
+]
+},
+{
+"q": "193. Little black books are",
+"o": [
+"not to be used as information stored may be out of date",
+"a good time saving device for an engineer",
+"ok as long as the information stored is from an approved source"
+],
+"a": [
+0
+]
+},
+{
+"q": "194. A person can be said to be motivated if",
+"o": [
+"they are taking action to achieve something",
+"they cut corners to get the job done quickly",
+"they are on a productivity bonus"
+],
+"a": [
+0
+]
+},
+{
+"q": "195. Group polarisation can result in",
+"o": [
+"a group making a more cautious or extreme decision",
+"a group making a better decision than the individual",
+"members of the group not talking to one another"
+],
+"a": [
+0
+]
+},
+{
+"q": "196. Narrowing of attention occurs in states of",
+"o": [
+"low arousal",
+"high arousal",
+"optimum arousal"
+],
+"a": [
+1
+]
+},
+{
+"q": "197. If you are given a task that you are unsure of you should",
+"o": [
+"ask someone that’s done it before",
+"consult the appropriate approved data",
+"consult type course notes"
+],
+"a": [
+1
+]
+},
+{
+"q": "198. A type 1 visual inspection error occurs when",
+"o": [
+"a good item is incorrectly identified as faulty",
+"a faulty item is missed",
+"a duplicate inspection is not carried out"
+],
+"a": [
+0
+]
+},
+{
+"q": "199. Hypoxia can",
+"o": [
+"impair the sensitivity of the rods and hence have a detrimental effect on eyesight",
+"improve the night vision of the cones of the eyes",
+"cause a person to slip into a coma if they are not quickly warmed up again"
+],
+"a": [
+0
+]
+},
+{
+"q": "200. You are taking prescribed drugs.",
+"o": [
+"Carry on working, as long as you know the primary and secondary side effects",
+"Do not carry out aircraft maintenance",
+"Carry on as normal"
+],
+"a": [
+0
+]
+},
+{
+"q": "201. Information in the long term memory",
+"o": [
+"is easily lost",
+"is easily transferred to the short term memory",
+"is only available under hypnosis"
+],
+"a": [
+0
+]
+},
+{
+"q": "202. How many things can be stored in the short term memory?",
+"o": [
+"0 - 5",
+"9 - 15",
+"No limit"
+],
+"a": [
+1
+]
+},
+{
+"q": "203. Which of the following is an acceptable substance, with regard to aircraft maintenance?",
+"o": [
+"Caffeine",
+"Penicillin",
+"Beta Blockers"
+],
+"a": [
+0
+]
+},
+{
+"q": "204. Which of the following environments is best suited to aircraft maintenance?",
+"o": [
+"Working outside, at night, in the rain",
+"Working outside, in the direct midday sun",
+"Working inside in a well lit, comfortable hangar"
+],
+"a": [
+2
+]
+},
+{
+"q": "205. What is the difference between error and violation?",
+"o": [
+"Error is deliberate, violation is not",
+"Violation is deliberate, error is not",
+"No difference"
+],
+"a": [
+1
+]
+},
+{
+"q": "206. Circadian Rhythms have a cycle of",
+"o": [
+"23 Hours",
+"24 Hours",
+"25 Hours"
+],
+"a": [
+2
+]
+},
+{
+"q": "207. Which of the following statements is true regarding human performance?",
+"o": [
+"Human performance is better with less stress, and in the morning",
+"Human performance is better with less stress, and in the afternoon",
+"Human performance is better with less stress, irrespective of the time of day"
+],
+"a": [
+2
+]
+},
+{
+"q": "208. What causes the most aircraft accidents?",
+"o": [
+"Technical Fault",
+"Communication",
+"Misunderstanding between ATC and pilot on approach"
+],
+"a": [
+1
+]
+},
+{
+"q": "209. What is a latent failure?",
+"o": [
+"A mistake that has already been made, but has not yet caused an accident",
+"Receiving bad instruction from a manager who is out of touch with maintenance",
+"A failure which could not have been predicted"
+],
+"a": [
+0
+]
+},
+{
+"q": "210. What happens when you break the \"chain of error\"?",
+"o": [
+"Accident does not happen",
+"Accident happens",
+"Pilot submits report within 72 hours"
+],
+"a": [
+0
+]
+},
+{
+"q": "211. Engineers often work on raised platforms, ladders etc. What dangers can this contribute to?",
+"o": [
+"Staging may be made of wood",
+"Ladder may slip and man falls",
+"Two workers may be carrying out maintenance on the same lift"
+],
+"a": [
+0
+]
+},
+{
+"q": "212. Intense or loud noise may lead to",
+"o": [
+"fatigue",
+"deafness",
+"no effects"
+],
+"a": [
+0
+]
+},
+{
+"q": "213. After drinking alcohol, absorption is dependant on",
+"o": [
+"weight",
+"age",
+"time"
+],
+"a": [
+2
+]
+},
+{
+"q": "214. Who is most likely to deviate from standard procedure?",
+"o": [
+"Old tired man",
+"Over confident, young man",
+"Young, inexperienced man"
+],
+"a": [
+1
+]
+},
+{
+"q": "215. The percentage of accidents attributable to aircraft maintenance and inspection causes is",
+"o": [
+"significant and rising",
+"now less significant due to more advanced maintenance practices",
+"now less significant due to the introduction of more sophisticated aircraft"
+],
+"a": [
+0
+]
+},
+{
+"q": "216. Whilst working on an aircraft a spanner placed on the wing surface is kicked off and subsequently falls into an open engine cowl, breaking off a sensor connector. This is an example of",
+"o": [
+"a skill based error",
+"a punishable occurrence",
+"Murphy's law"
+],
+"a": [
+0
+]
+},
+{
+"q": "217. In the human eye most of the refraction required to bring an image into focus on the retina is accomplished by the",
+"o": [
+"cornea",
+"iris",
+"lens"
+],
+"a": [
+0
+]
+},
+{
+"q": "218. The average capacity of the working memory is about",
+"o": [
+"4 chunks of information",
+"12 chunks of information",
+"7 chunks of information"
+],
+"a": [
+2
+]
+},
+{
+"q": "219. Itemized checklists should be dealt with",
+"o": [
+"as memorized",
+"item by item, in order, to cover every step diligently",
+"in any order, provided all steps are completed"
+],
+"a": [
+1
+]
+},
+{
+"q": "220. Successful working teams have the following attributes:-",
+"o": [
+"Members participate in team activities but retain their own individual requirements",
+"All the team members work in isolation and therefore provide highly individual solutions to the same problems",
+"All the members participate in team activities and discussions"
+],
+"a": [
+0
+]
+},
+{
+"q": "221. Good aircraft maintenance supervisory judgment is usually based upon",
+"o": [
+"knowledge and experience and reference to course notes",
+"the evidence available and forceful management ability",
+"knowledge and experience and reference to approved data"
+],
+"a": [
+2
+]
+},
+{
+"q": "222. The intake of caffeine in moderate quantities can result in",
+"o": [
+"lack of sleep and subsequent disruption to the circadian rhythms",
+"a temporary increase in the ability to sustain vigilance and increased alertness",
+"anxiety, headaches and negative mood states"
+],
+"a": [
+1
+]
+},
+{
+"q": "223. Cold stress can be influenced by",
+"o": [
+"the wind chill factor",
+"insufficient vitamins in the diet",
+"a drop in body temperature"
+],
+"a": [
+0
+]
+},
+{
+"q": "224. Working excessively long shifts during unsociable hours can lead to",
+"o": [
+"decreased ability to detect defects during aircraft maintenance",
+"increased ability to detect defects during aircraft maintenance",
+"an increased immunity to stress"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the information may not be provided by a drawing, if applicable",
+"o": [
+"Alteration list",
+"Schedule of parts",
+"Issue number"
+],
+"a": [
+1
+]
+},
+{
+"q": "Why does drawing number often appears in the top left corner of the drawing up-side down or at least more than once on the drawing paper",
+"o": [
+"To easily identify drawing when stored in the wrong way round or prevent lose when any one of the number is obliterated",
+"To comply with the BS drawing code requirement",
+"To comply with the organisation’s standard"
+],
+"a": [
+0
+]
+},
+{
+"q": "In first angle projection",
+"o": [
+"The RH side view is shown on the LH side of the front view",
+"The RH side view is shown on the RH side of the front view",
+"The LH side view is shown on the LH side of the front view"
+],
+"a": [
+0
+]
+},
+{
+"q": "In third angle projection",
+"o": [
+"The RH side view is shown on the LH side of the front view",
+"The RH side view is shown on the RH side of the front view",
+"The LH side view is shown on the LH side of the front view"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which is a form of pictorial drawing",
+"o": [
+"Orthographic drawing",
+"Oblique drawing",
+"Sectional view"
+],
+"a": [
+1
+]
+},
+{
+"q": "Dimensions on a drawing should be able to be read, from the ____ or ____ side of the drawing",
+"o": [
+"Bottom, right",
+"Top, left",
+"Bottom, left"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following is not usually sectioned in a sectional view",
+"o": [
+"Boss",
+"washer",
+"grooves"
+],
+"a": [
+1
+]
+},
+{
+"q": "The symbol ₵ is used to represent",
+"o": [
+"Clearance",
+"Centre line",
+"Countersunk"
+],
+"a": [
+1
+]
+},
+{
+"q": "Thin chain line are used to represent",
+"o": [
+"Cutting planes",
+"Centre line",
+"Hidden edges"
+],
+"a": [
+1
+]
+},
+{
+"q": "Thick continuous lines are used for",
+"o": [
+"Hidden outlines",
+"Fictitious outlines",
+"Visible outlines"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which is not a type of sectioning:",
+"o": [
+"Half sectioning",
+"Plane sectioning",
+"Revolved sectioning"
+],
+"a": [
+1
+]
+},
+{
+"q": "How many holes of a linear pitch is to be drilled for the patch of the aircraft skin as shown in the drawing in the fig 20.1 above",
+"o": [
+"One hole",
+"Three holes on each side",
+"Fourteen holes"
+],
+"a": [
+2
+]
+},
+{
+"q": "The abbreviation “A/F” means",
+"o": [
+"American Fine",
+"Associated Fine",
+"Across Flat"
+],
+"a": [
+2
+]
+},
+{
+"q": "Isometric projection has",
+"o": [
+"Equal dimension on either side of a vertical line 300 to the horizontal",
+"Unequal dimension on either side of a vertical line 300 to the horizontal",
+"Equal angles of 300 to the horizontal on either side of a vertical line"
+],
+"a": [
+1
+]
+},
+{
+"q": "Orthographic projection is a projection having",
+"o": [
+"Full face and 450 to the horizontal",
+"Full face and 300 to the horizontal",
+"2 or more views to highlight necessary detail"
+],
+"a": [
+2
+]
+},
+{
+"q": "Hatching or sectioning lines are drawn at:",
+"o": [
+"300",
+"600",
+"450"
+],
+"a": [
+2
+]
+},
+{
+"q": "“break lines” are sometimes used",
+"o": [
+"To determine the extremity of an object in drawing",
+"To locate areas of attention in a drawing",
+"Where it will be inconvenient to draw long lengths of standard section"
+],
+"a": [
+2
+]
+},
+{
+"q": "“first angle projection” has each view representing",
+"o": [
+"The side of the object furthest from it in the adjacent side",
+"The side of the object nearest from it in the adjacent side",
+"Angular inclination of faces to the main object"
+],
+"a": [
+1
+]
+},
+{
+"q": "“handed parts” are parts",
+"o": [
+"Are drawn free-hand",
+"Can be fitted either way-left or right",
+"Are intended specifically for after left or right, port or starboard"
+],
+"a": [
+2
+]
+},
+{
+"q": "The title of a drawing is",
+"o": [
+"The name of the component drawn",
+"The type of projection used in the drawing",
+"The class of safety observed with respect to airworthiness requirements"
+],
+"a": [
+0
+]
+},
+{
+"q": "Dimensions which can be calculated from other dimensions on the drawing is known as",
+"o": [
+"Leader dimension",
+"Datum dimension",
+"Redundant dimension"
+],
+"a": [
+2
+]
+},
+{
+"q": "Short thin dash lines in a drawing indicate",
+"o": [
+"Hidden details",
+"Cutting or viewing planes",
+"Short break lines"
+],
+"a": [
+0
+]
+},
+{
+"q": "The scale of a drawing is",
+"o": [
+"The linear representation",
+"The paper size used",
+"The type of projection used"
+],
+"a": [
+0
+]
+},
+{
+"q": "Perspective view is the drawing of an object",
+"o": [
+"Drawn to scale",
+"As it appears to the eyes",
+"Drawn free-handed"
+],
+"a": [
+1
+]
+},
+{
+"q": "Loci are",
+"o": [
+"Representation of circular objects in the drawing",
+"Parts generated by certain conditions",
+"Main features of a drawing"
+],
+"a": [
+1
+]
+},
+{
+"q": "In first angle projection",
+"o": [
+"Plan is always above the front view",
+"Front is always below the plan view",
+"Plan is always above the front view"
+],
+"a": [
+2
+]
+},
+{
+"q": "In third angle projection",
+"o": [
+"Plan is usually above the front view",
+"Plan is usually below the front view",
+"Plan is usually below the end view"
+],
+"a": [
+1
+]
+},
+{
+"q": "i. The width in the side view correspond with the depths in the plan.",
+"o": [
+"ii. Drawing should be interpreted by viewing from the RH side or bottom RH side of the drawing.",
+"i only is correct",
+"ii only is correct",
+"i and ii are correct"
+],
+"a": [
+3
+]
+},
+{
+"q": "Which is not part of a conic section",
+"o": [
+"Circle",
+"Ellipse",
+"Segment"
+],
+"a": [
+2
+]
+},
+{
+"q": "Drawing practice used in the UK conforms to",
+"o": [
+"BS 8888 code",
+"BS 105 code",
+"BS 3333 code"
+],
+"a": [
+0
+]
+},
+{
+"q": "A drawing which give information for the assembly of individual parts of sub-assemblies can be referred to as a",
+"o": [
+"Wiring diagram",
+"Flow chart",
+"Main assembly drawing"
+],
+"a": [
+2
+]
+},
+{
+"q": "Application of this symbol is to give information about the",
+"o": [
+"General tolerance",
+"Material specification",
+"Surface finish"
+],
+"a": [
+2
+]
+},
+{
+"q": "Orthographic projection is a projection having",
+"o": [
+"Full face and 450 to the horizontal",
+"Full face and 300 to the horizontal",
+"2 or more views to highlight necessary detail"
+],
+"a": [
+2
+]
+},
+{
+"q": "The width of visible outline on a drawing is about",
+"o": [
+"3mm",
+"5mm",
+"7mm"
+],
+"a": [
+2
+]
+},
+{
+"q": "On an engineering drawing how are sectioned parts indicated",
+"o": [
+"Short thin hatching",
+"Short thin chain",
+"Cross hatches"
+],
+"a": [
+2
+]
+},
+{
+"q": "The drawing which shows all information necessary to manufacture or inspect an item is a:",
+"o": [
+"Collective",
+"Single part",
+"Combine"
+],
+"a": [
+1
+]
+},
+{
+"q": "Adjustments, clearances and settings can be found on a:",
+"o": [
+"detail drawing",
+"installation drawing",
+"sub-assembly drawing"
+],
+"a": [
+1
+]
+},
+{
+"q": "If an object is viewed 3/4 face with the base lines revolved through 30º it is:",
+"o": [
+"Oblique",
+"Auxiliary",
+"Isometric"
+],
+"a": [
+2
+]
+},
+{
+"q": "When a drawing dimension is enlarged to twice full size the scale would indicate:",
+"o": [
+"1:2",
+"2:0",
+"2:1"
+],
+"a": [
+2
+]
+},
+{
+"q": "Where surfaces have to meet special requirements, the drawings would be marked with:",
+"o": [
+"a thin chain line",
+"a thin chain line, thick at the ends",
+"a thick chain line"
+],
+"a": [
+2
+]
+},
+{
+"q": "The correct definition of the difference between the limits shown on a drawing is:",
+"o": [
+"Clearance",
+"Tolerance",
+"Fit"
+],
+"a": [
+1
+]
+},
+{
+"q": "A transition fit is classified as being:",
+"o": [
+"light press or push",
+"drive press or force",
+"free running"
+],
+"a": [
+0
+]
+},
+{
+"q": "One of the three features found in a drawing number is:",
+"o": [
+"sheet register number",
+"issue number",
+"project identity"
+],
+"a": [
+2
+]
+},
+{
+"q": "The drawing grid on an engineering drawing is used to:",
+"o": [
+"show the list of parts required for maintenance",
+"show the locations of parts on the drawing",
+"identity the drawing"
+],
+"a": [
+1
+]
+},
+{
+"q": "A ruled line with short zig-zags shown on an engineering drawing indicates:",
+"o": [
+"long breaks",
+"centre lines",
+"short breaks"
+],
+"a": [
+0
+]
+},
+{
+"q": "Drawings used in support of assembly and disassembly instructions would be",
+"o": [
+"outline view",
+"exploded view",
+"open plan view"
+],
+"a": [
+1
+]
+},
+{
+"q": "Auxiliary views are used to:",
+"o": [
+"show how individual items are used to form an assembly",
+"show hidden detail",
+"show the true shape of an inclined surface"
+],
+"a": [
+2
+]
+},
+{
+"q": "The grid referencing system used on some drawings, is used to:",
+"o": [
+"Accurately locate items noted in the schedule of parts.",
+"Denote where the parts are fitted in a sub or major assembly.",
+"Show how the drawing is to be folded."
+],
+"a": [
+0
+]
+},
+{
+"q": "In what type of electrical diagram are images of components used instead of conventional electrical symbols?",
+"o": [
+"A pictorial diagram",
+"A schematic diagram",
+"A block diagram"
+],
+"a": [
+0
+]
+},
+{
+"q": "(1) Schematic diagrams indicate the location of individual components in the aircraft.",
+"o": [
+"(2) Schematic diagrams indicate the location of components with respect to each other within the system. Regarding the above statements,",
+"only No. 1 is true",
+"both No. 1 and No. 2 are true",
+"only No. 2 is true"
+],
+"a": [
+3
+]
+},
+{
+"q": "In the reading of aircraft blueprints, the term ‘tolerance’ used in association with aircraft parts or components",
+"o": [
+"is the tightest permissible fit for proper construction and operation of mating parts",
+"is the difference between extreme permissible dimension that a part may have and still be acceptable",
+"represents the limit of galvanic compatibility between different adjoining material types in aircraft parts"
+],
+"a": [
+1
+]
+},
+{
+"q": "Flatness",
+"o": [
+"If a design amendments is made to a drawing",
+"the old issue number is retained with a new amendment date added",
+"a new issue number and date is allocated to the drawing"
+],
+"a": [
+2
+]
+}
+]

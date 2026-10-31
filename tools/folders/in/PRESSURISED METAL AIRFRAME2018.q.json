@@ -1,0 +1,1103 @@
+[
+{
+"q": "The pressure source for aircraft brakes is:",
+"o": [
+"The main hydraulic system",
+"The power brake reservoir",
+"A master cylinder"
+],
+"a": [
+0
+]
+},
+{
+"q": "The purpose of a relief valve in a brake system is to:",
+"o": [
+"Reduce pressure for brake application",
+"Prevent the tyre from skidding",
+"Compensate for thermal expansion"
+],
+"a": [
+2
+]
+},
+{
+"q": "Extension of an oleo shock strut is measured to determine the:",
+"o": [
+"Amount of oil in strut",
+"Physical condition of the strut itself",
+"Proper operating position of the strut"
+],
+"a": [
+2
+]
+},
+{
+"q": "In an aircraft anti – skid system, the electrical solenoid:",
+"o": [
+"Allow less brake pressure by allowing a shuttling of the brake booster",
+"Relieves the pressure to the brakes of the affected wheels",
+"Immediately creates a transfer of pressure to the unaffected wheel brakes"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which repair would required a landing gear retraction test?",
+"o": [
+"Landing gear safety switch",
+"Red warning light bulb",
+"Gear down lock micro switch"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following conditions is most likely to cause the landing gear warning signal to sound?",
+"o": [
+"Landing gear locked down and throttle advanced",
+"Landing gear locked down and throttle retarded",
+"Landing gear not locked down and throttle retarded"
+],
+"a": [
+2
+]
+},
+{
+"q": "Landing gear warnings systems usually provide which of the following indications?",
+"o": [
+"Red light for unsafe gear, no light for gear down, green light for gear up",
+"Green light for gear up and down, red light for unsafe gear",
+"Red light for unsafe gear, green light for gear down, no light for gear up"
+],
+"a": [
+2
+]
+},
+{
+"q": "The valve stem of the tube of an airplane tyre should be lined up with:",
+"o": [
+"The red dot on the tyre",
+"The line that indicated a possible slippage of the tyre on the wheel",
+"The valve core of the tube at the red dot on the tyre"
+],
+"a": [
+0
+]
+},
+{
+"q": "After bleeding the brakes, an engineer finds they are still spongy. This is probably caused by:",
+"o": [
+"Extremely rigid flexible hose installed in the brake system",
+"Flexible hose that has deteriorated",
+"Incorrect fluid in the brake system"
+],
+"a": [
+1
+]
+},
+{
+"q": "The name of the hydraulic valve that opens the landing gear door prior to landing gear extension:",
+"o": [
+"Sequence valve",
+"Gear – door time lag valve",
+"Time lag extension valve"
+],
+"a": [
+0
+]
+},
+{
+"q": "The principal types of hydraulic fluid used in aircraft systems are:",
+"o": [
+"Butylene, polyvinyl and mineral based",
+"Vegetable, phosphate ester and mineral based",
+"Viscous naphthalene, mineral based"
+],
+"a": [
+1
+]
+},
+{
+"q": "The purpose of a hydraulic actuator is:",
+"o": [
+"To act physically during fluid flow",
+"To actuate hydraulic motions",
+"To transform fluid flow into linear or rotary motion"
+],
+"a": [
+2
+]
+},
+{
+"q": "The purpose of a restrictor in a hydraulic system is to restrict:",
+"o": [
+"The rate of building – up of hydraulic hydraulic pressure",
+"The distance of travel of a actuator",
+"The rate of operation of a service component"
+],
+"a": [
+2
+]
+},
+{
+"q": "The function of an accumulator in a hydraulic system is to:",
+"o": [
+"Relieve excess pressure from the system",
+"Store hydraulic fluid under pressure",
+"Collect air from the hydraulic fluid thus reducing the requirement for frequent bleeding"
+],
+"a": [
+1
+]
+},
+{
+"q": "Pneumatic systems utilize:",
+"o": [
+"Return lines",
+"Relief valves",
+"Diluter valves"
+],
+"a": [
+1
+]
+},
+{
+"q": "What type of selector valve is most commonly used in hydraulic systems to provide for simultaneous flow of fluid into and out of a connected actuating unit:",
+"o": [
+"Four – port, closed – center valve",
+"Three – port, four – way valve",
+"Two – port, open – center valve"
+],
+"a": [
+0
+]
+},
+{
+"q": "Generally, the first step in removing an accumulator from an aircraft is to:",
+"o": [
+"Relieve system pressure",
+"Discharge the preload",
+"Drain the reservoir"
+],
+"a": [
+0
+]
+},
+{
+"q": "The internal resistance of a fluid which tends to prevent it from flowing is called:",
+"o": [
+"Volatility",
+"Viscosity",
+"Acidity"
+],
+"a": [
+1
+]
+},
+{
+"q": "If an aircraft is flying with a left wing low, where would you move the left aileron trim tab?",
+"o": [
+"Down",
+"Up",
+"Moving the aileron trim tab will not correct the situation"
+],
+"a": [
+1
+]
+},
+{
+"q": "Quick – disconnect couplings in hydraulic system provide a means of:",
+"o": [
+"Easily replacing hydraulic lines in areas where leaks are common",
+"Quickly connecting and disconnecting hydraulic lines and eliminate the possibility of contaminates entering the system",
+"Quickly connecting and disconnecting hydraulic lines without loss of fluid or entrance of air into the system"
+],
+"a": [
+2
+]
+},
+{
+"q": "Ailerons controls the aircraft in the.",
+"o": [
+"Longitudinal plane",
+"Directional plane",
+"Lateral plane"
+],
+"a": [
+2
+]
+},
+{
+"q": "Dutch roll is movement in.",
+"o": [
+"Yaw and roll",
+"Yaw and pitch",
+"Pitch and roll"
+],
+"a": [
+0
+]
+},
+{
+"q": "What controls the inflation sequence in a pneumatic deicer boot system:",
+"o": [
+"Shuttle valve",
+"Vacuum pump",
+"Distributor valve"
+],
+"a": [
+2
+]
+},
+{
+"q": "Flaps cannot be lowered using the main hydraulic system, but can be lowered by the Emergency",
+"o": [
+"hand pump, which is the most likely cause.",
+"The flap selector valve has a severe internal leak",
+"The pressure accumulator is not supplying pressure to the system",
+"The fluid level in the reservoir is low"
+],
+"a": [
+3
+]
+},
+{
+"q": "Due to the change of lift forces resulting from the extension of flaps in flight.",
+"o": [
+"Nose should be lowered, reducing AoA",
+"Nose should remain in the same position, maintaining same AoA",
+"Nose should be raised, including AoA"
+],
+"a": [
+0
+]
+},
+{
+"q": "A hydraulic accumulator is charge with an air preload of 1,000 PSI. When a hydraulic system pressure of 3,000 PSI is developed, the pressure on the air side of the accumulator will be:",
+"o": [
+"1,000 PSL",
+"3,000 PSL",
+"4,000 PSL"
+],
+"a": [
+1
+]
+},
+{
+"q": "How is the air in the hydraulic accumulator prevented from entering into the fluid system?",
+"o": [
+"By forcing the oil/air mixture through a centrifugal separating chamber that prevents the air from leaving the accumulator",
+"By physically separating the air chamber from the oil chamber with flexible or movable separator",
+"By including a valve that automatically closes when the fluid level lowers to a preset amount."
+],
+"a": [
+1
+]
+},
+{
+"q": "After a hydraulic accumulator has been installed and air chamber charged, the main system Hydraulic pressure gauge will not show a hydraulic pressure reading until:",
+"o": [
+"At least one sector valve has been actuated to allow fluid flow into the fluid side of the accumulator",
+"The air pressure has become equal to the fluid pressure",
+"The fluid side of the accumulator has been charged"
+],
+"a": [
+2
+]
+},
+{
+"q": "The air that is expended and no longer needed when an actuating unit is operated IN A Pneumatic System is?",
+"o": [
+"Exhausted or dumped, usually overboard",
+"Returned to the compressor",
+"Charged or pressurized for use during the next operating cycle"
+],
+"a": [
+0
+]
+},
+{
+"q": "Before removing the filter cap of a pressurized hydraulic reservoir, in order to service the system, You must:",
+"o": [
+"Relieve the hydraulic system pressure",
+"Pressurize all components in the system",
+"Relieve the air pressure"
+],
+"a": [
+2
+]
+},
+{
+"q": "What device in a hydraulic system with a constant delivery pump allows circulation of the fluid When no demands are on the system?",
+"o": [
+"Pressure relief valve",
+"Shuttle valve",
+"Pressure regulator"
+],
+"a": [
+2
+]
+},
+{
+"q": "The primary function of the cabin pressurization system outflow valve is to:",
+"o": [
+"Provide protection against over pressurization",
+"Maintain the desired cabin pressure",
+"Maintain the same cabin air pressure at all altitudes"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which best describes cabin differential pressure:",
+"o": [
+"Difference between cabin flight altitude pressure and Mean Sea Level Pressure",
+"Difference between the ambient and internal air pressure",
+"Difference between cabin pressure controller setting and actual cabin pressure"
+],
+"a": [
+1
+]
+},
+{
+"q": "On some cabin pressurization systems, pressurization on the ground is restricted by the:",
+"o": [
+"Main landing gear operated switch",
+"Cabin pressure regular",
+"Negative pressure – relief valve"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the purpose of a mixing valve in air – conditioning system?",
+"o": [
+"Control the supply of hot, cool, and cold air",
+"Distribute conditioned air evenly to all parts of the cabin",
+"Combine ram air with conditioned air"
+],
+"a": [
+0
+]
+},
+{
+"q": "In the diluter demand oxygen regulator, when does the demand valve operate?",
+"o": [
+"When the diluter control is set at normal",
+"When the user demand 100 percent oxygen",
+"When the user breathes"
+],
+"a": [
+2
+]
+},
+{
+"q": "If an aircraft is aerodynamically stable",
+"o": [
+"Aircraft becomes too sensitive",
+"Aircraft returns to trimmed attitude",
+"C of P moves back"
+],
+"a": [
+1
+]
+},
+{
+"q": "When an aircraft’s oxygen system has developed a leak, the lines and fittings should be:",
+"o": [
+"Removed and replaces",
+"Inspected using a special oxygen system dye penetrant",
+"Bubble tested with a special soap solution manufactured specifically for this purpose"
+],
+"a": [
+2
+]
+},
+{
+"q": "What test is used to determine the serviceability of an oxygen cylinder?",
+"o": [
+"Pressure test with manometer",
+"Pressure test with nitrogen",
+"Pressure test with water"
+],
+"a": [
+2
+]
+},
+{
+"q": "At which component in air – cycle cooling system does air undergo a pressure and temperature Drop?",
+"o": [
+"Expansion turbine",
+"Primary heat exchanger",
+"Refrigerator bypass valve"
+],
+"a": [
+0
+]
+},
+{
+"q": "Hot compressor bleed air operates the conditioned air system on some turbine aircraft; How is cold Air supplied?",
+"o": [
+"By air cycle machine turbine",
+"By the flow control unit",
+"By the ram cycle cooling unit"
+],
+"a": [
+0
+]
+},
+{
+"q": "Cabin heating systems that utilize an exhaust heat exchanger as a source of Heated air:",
+"o": [
+"Should be checked frequently for leaks of exhaust gases",
+"Should be checked with a carbon monoxide testing instrument",
+"Both A and B are correct"
+],
+"a": [
+2
+]
+},
+{
+"q": "If the compressor fails, which of the following prevents loss of cabin pressurization:",
+"o": [
+"Air that is available from the secondary system",
+"A check valve (one – way valve) in the air duct",
+"The secondary cabin outflow valve"
+],
+"a": [
+1
+]
+},
+{
+"q": "When checking for oxygen leaks, you should use:",
+"o": [
+"A high flash – point mineral solution",
+"A soap solution specially prepared for this purpose",
+"Any suitable solution that will be compatible since oxygen is not inflammable"
+],
+"a": [
+1
+]
+},
+{
+"q": "The purpose of a mass flow controller is to:",
+"o": [
+"Ensure that a constant mass of air is delivery to the cabin at all times",
+"Allow the pilot to select the desire cabin altitude",
+"Ensure that there is an adequate supply of cool air through the heat exchangers"
+],
+"a": [
+0
+]
+},
+{
+"q": "To ensure that a wing stalls at the root first, stall wedges are.",
+"o": [
+"Installed at the wing trailing edge at the wing root",
+"Installed at the wing tip",
+"Installed on the wing leading edge at the wing root"
+],
+"a": [
+2
+]
+},
+{
+"q": "Failure of the normal maximum differential control is catered for by fitting:",
+"o": [
+"Safely relief valves",
+"Inward relief valves",
+"Altitude selector valves1"
+],
+"a": [
+0
+]
+},
+{
+"q": "During a normal pressurized climb following Take – off:",
+"o": [
+"The cabin ROC is less than the aircraft’s ROC",
+"The cabin ROC is more than the aircraft’s ROC",
+"The ROC is constant"
+],
+"a": [
+0
+]
+},
+{
+"q": "Cabin pressurization is achieved by:",
+"o": [
+"Controlling the supply of air to the cabin",
+"Controlling the amount of air release from the cabin",
+"Varying the output of the compressor"
+],
+"a": [
+1
+]
+},
+{
+"q": "In a pneumatic pressurization system, positive pressure signals from the controller will cause:",
+"o": [
+"The discharge valve to move towards closed",
+"The discharge valve to move towards open",
+"An excessive rate of cabin air discharge"
+],
+"a": [
+0
+]
+},
+{
+"q": "In pressurized aircraft, temperature control is mainly achieved by:",
+"o": [
+"Adding heat to the pressurizing air",
+"Extracting heat from the pressurizing air",
+"Varying the cabin pressure"
+],
+"a": [
+1
+]
+},
+{
+"q": "The purpose of a spill valve is to:",
+"o": [
+"Provide additional heat by creating back pressure",
+"Release excess air being delivered at sea level and lower altitude",
+"Relieve excess pressure in the air supply ducting."
+],
+"a": [
+1
+]
+},
+{
+"q": "When aircraft stalls.",
+"o": [
+"Lift decreases and drag increases",
+"Lift and drag increase",
+"Lift and drag decreases"
+],
+"a": [
+0
+]
+},
+{
+"q": "The exhaust heater system uses:",
+"o": [
+"Charge air to heat the cabin",
+"Ram air to heat the cabin",
+"Compressor air to heat the cabin"
+],
+"a": [
+1
+]
+},
+{
+"q": "To ensure the correct mixing of the conditioned air, mixing chamber has:",
+"o": [
+"Jet pumps",
+"Baffles",
+"Swirl devices"
+],
+"a": [
+2
+]
+},
+{
+"q": "The water extractor is normally located:",
+"o": [
+"Before the cold air unit",
+"Between the cold air unit and the outlet to the cabin",
+"Between the cold air unit compressor and turbine"
+],
+"a": [
+1
+]
+},
+{
+"q": "Turbine engine air used for air – conditioning and pressurization is generally called:",
+"o": [
+"Compressed air",
+"Ram air",
+"Bleed air"
+],
+"a": [
+2
+]
+},
+{
+"q": "What controls the operation of the cabin pressure regulator?",
+"o": [
+"Cabin altitude",
+"Bleed air pressure",
+"Compression air pressure"
+],
+"a": [
+0
+]
+},
+{
+"q": "The basic air – cycle cooling system consists of:",
+"o": [
+"A source of compressed air, heat exchangers and a turbine",
+"Heaters, coolers and compressors",
+"Ram air source, compressors and engine bleeds"
+],
+"a": [
+0
+]
+},
+{
+"q": "The layer of air over the surface of an aerofoil which is slower moving, in relation to the rest of airflow, is known as.",
+"o": [
+"Camber layer",
+"None of the above is correct",
+"Boundary layer"
+],
+"a": [
+2
+]
+},
+{
+"q": "Where does the last stage of cooling in an air – cycle air – conditioning system occur?",
+"o": [
+"Refrigeration unit compressor",
+"Secondary heat exchange",
+"Expansion turbine"
+],
+"a": [
+2
+]
+},
+{
+"q": "The cabin pressure control setting has a direct influence upon the:",
+"o": [
+"Outflow valve opening",
+"Pneumatic system pressure",
+"Inflow valve opening"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following instruments normally have operating range and unit markings?",
+"o": [
+"Directional gyro and airspeed indicator",
+"Cylinder head temperature gage (CHT) and altimeter",
+"Airspeed indicator and CHT"
+],
+"a": [
+0
+]
+},
+{
+"q": "moment of flight. Regarding the above statements:",
+"o": [
+"Both No. 1 and No. 2 are true",
+"Only No. 2 is true",
+"Only No.1 is true"
+],
+"a": [
+2
+]
+},
+{
+"q": "The primary purpose of the autopilot is to:",
+"o": [
+"Hold a predetermined heading of the aircraft under adverse wing conditions",
+"Relieve the pilot of undue stress during long period of flight",
+"Aid the pilot when the actual landing (not simulated) on the runway"
+],
+"a": [
+1
+]
+},
+{
+"q": "A radar altimeter determines attitude by:",
+"o": [
+"Transmitting a signal and receiving back a reflected signal",
+"Receiving signals transmitted from ground radar stations",
+"Means of transponder interrogation"
+],
+"a": [
+0
+]
+},
+{
+"q": "A radar altimeter indicates:",
+"o": [
+"Flight level (pressure) altitude",
+"Altitude above sea level",
+"Altitude above ground level"
+],
+"a": [
+2
+]
+},
+{
+"q": "When flags such as NAV, HDG or GS are displayed on an HIS, the indication is:",
+"o": [
+"That function is inoperative",
+"That function is operative",
+"To call attention to deviation from desired setting or flight path, or heading"
+],
+"a": [
+0
+]
+},
+{
+"q": "A fully integrated autopilot controls the aircraft around how many axes:",
+"o": [
+"Two",
+"Three",
+"Four"
+],
+"a": [
+1
+]
+},
+{
+"q": "Dutch roll, a combination OF yawing and rolling oscillation that Affects many swept wing aircraft, is Counteracted with:",
+"o": [
+"A flight director system",
+"An aileron damper system",
+"A yaw damper"
+],
+"a": [
+2
+]
+},
+{
+"q": "Installed radio equipment is protected from damage due to jolts and vibration by:",
+"o": [
+"Shocks mounts",
+"Spring and/or viscous damper mounted racks",
+"Rubber or foam cushioning material between circuit chassis and case"
+],
+"a": [
+0
+]
+},
+{
+"q": "How does temperature affect fuel weight?",
+"o": [
+"Cold fuel is heavier per gallon",
+"Warm fuel is heavier per gallon",
+"Temperature has no effect"
+],
+"a": [
+0
+]
+},
+{
+"q": "Due to the change of lift forces resulting from the extension of flaps in flight",
+"o": [
+"Nose should be lowered, reducing AoA",
+"Nose should remain in the same position, maintain same AoA",
+"Nose should be raised, increasing AoA"
+],
+"a": [
+0
+]
+},
+{
+"q": "An electrical – type fuel quality indicating system consists of an indicator in the cockpit and a:",
+"o": [
+"Float – operated transmitter installed in the tank",
+"Float resting on the surface of the tank",
+"Float – operated receiver installed in the tank"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the purpose of flapper – type check valves in integral fuel tanks:",
+"o": [
+"To allow defueling of the tanks by suction",
+"To prevent fuel from flowing away from the boost pumps",
+"To allow the engine – driven pumps to draw fuel directly from the tank if the boost pump fails"
+],
+"a": [
+1
+]
+},
+{
+"q": "Aircraft defueling should be accomplished:",
+"o": [
+"With the aircraft’s communication equipment on and in contract with the tower in case of fire",
+"In a hanger where activities can be controlled",
+"In the open air for good ventilation"
+],
+"a": [
+2
+]
+},
+{
+"q": "When removing ground power from an aircraft after starting engines:",
+"o": [
+"Removal of the ground power plug always automatically transfers power to the aircraft system",
+"The ground power supply should be switched off before removing the ground power supply plug",
+"The ground power unit will automatically stop on removal of the ground power plug"
+],
+"a": [
+1
+]
+},
+{
+"q": "If the Aircraft is flying nose heavy, which direction would you move the elevator trim tab?",
+"o": [
+"Up to move elevator up",
+"Down to move elevator up",
+"Up to move elevator down"
+],
+"a": [
+1
+]
+},
+{
+"q": "Since electrical supply taken from a bus – bar are parallel, isolating some of the services would:",
+"o": [
+"Reducing the current consumption from the bus – bar",
+"Not affect the current consumption, it would reduce the voltage",
+"Increase the current consumption from the bus – bar"
+],
+"a": [
+1
+]
+},
+{
+"q": "When resistor are in parallel:",
+"o": [
+"The total resistance is smaller than the smallest resistor",
+"The total resistance is large than smaller resistor",
+"The total resistance is the sum of all resistor"
+],
+"a": [
+0
+]
+},
+{
+"q": "If a Ni – Cad battery overheats, it is an indication of:",
+"o": [
+"Thermal runaway",
+"The generator not being connected to the bus – bar",
+"Tool low generator voltage regulator setting"
+],
+"a": [
+0
+]
+},
+{
+"q": "The result of an insulation resistance test of an electrical cable:",
+"o": [
+"Also indicates continuity of the cable",
+"May vary with the weather conditions under which the aircraft is tested",
+"Will always be infinity if the cable is correctly installed"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is required when operating two aircraft AC generators in parallel?",
+"o": [
+"Amperes and frequency must both be equal",
+"Frequency and voltage must both be equal",
+"Amperes and voltage must both be equal"
+],
+"a": [
+1
+]
+},
+{
+"q": "Grounding is electrically connecting a conductive object to the primary structure. One purpose of Grounding is to:",
+"o": [
+"Prevent current return paths",
+"Allow static charge accumulation",
+"Prevent development of radio frequency potentials"
+],
+"a": [
+2
+]
+},
+{
+"q": "Circuits that must be operated only in an emergency or whose in advertent activation could endanger a system frequently employ:",
+"o": [
+"Guarded switches",
+"Push – pull – type circuit breakers only (no switches)",
+"Spring – loaded to off toggle or rocker switches"
+],
+"a": [
+0
+]
+},
+{
+"q": "If it is necessary to use an electrical connector where it may be exposed to moisture, the mechanic should:",
+"o": [
+"Coat the connector with grease",
+"Use a special moisture – proof type",
+"Spray the connector with varnish or zinc – chromate"
+],
+"a": [
+1
+]
+},
+{
+"q": "The three kinds of circuit – protection devices used most commonly in aircraft circuits are:",
+"o": [
+"Circuit breakers, resistors and current limiters",
+"Circuit breakers, fuses and current limiters",
+"Circuit breakers, capacitors and current limiters plugins mechanical reset types"
+],
+"a": [
+1
+]
+},
+{
+"q": "A battery – generator system provides direct current. On installations requiring alternating current from the battery – generator system, it is necessary to have:",
+"o": [
+"A transformer",
+"An inverter",
+"A variable resistor between the battery and generator"
+],
+"a": [
+1
+]
+},
+{
+"q": "Stall warning systems are generally designed to begin warning the pilot when a stall:",
+"o": [
+"Is imminent",
+"Is starting to occur",
+"First affects the outboard portions of the wing"
+],
+"a": [
+0
+]
+},
+{
+"q": "The identification of the horn for the landing gear and the stall warning is achieved by:",
+"o": [
+"Pulsing the gear warning horn",
+"Using horns of different notes",
+"Pulsing the stall warning horn"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following conditions is most likely to cause the landing gear warning signal to sound:",
+"o": [
+"Landing gear locked down and throttled advance",
+"Landing gear locked down and throttled retarded",
+"Landing gear not locked down and the throttle retarded"
+],
+"a": [
+2
+]
+},
+{
+"q": "What safely device is actuated by the compression and extension of a landing gear strut?",
+"o": [
+"Up lock switch",
+"Downlock switch",
+"Ground safety switch"
+],
+"a": [
+2
+]
+},
+{
+"q": "What controls the inflation sequence in a pneumatic deicer boot system:",
+"o": [
+"Shuttle valve",
+"Vacuum pump",
+"Distributor valve"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following regulates the vacuum of the air pump to hold the deicing boots deflated when the pneumatic deicing system is off?",
+"o": [
+"Distributor valve",
+"Pressure regulator",
+"Suction relief valve"
+],
+"a": [
+2
+]
+},
+{
+"q": "What may be used to clean deicer boots?",
+"o": [
+"Unleaded gasoline or Jet A fuel",
+"Naphtha",
+"Soap and water"
+],
+"a": [
+2
+]
+},
+{
+"q": "During aircraft operation, a wheel brake fire occurs. Which of the following should be used to extinguish this type of fire:",
+"o": [
+"Dry chemicals",
+"Moist chemicals",
+"Foam similar as that used to coat the runway in case of an aircraft wheels up landing"
+],
+"a": [
+0
+]
+},
+{
+"q": "You are instructed to check a fire extinguisher bottle for full charge. You can determine the amount of the content by:",
+"o": [
+"Checking the pressure of the extinguisher bottle",
+"Checking the height of the content by looking the sight gage",
+"Weighing the bottle"
+],
+"a": [
+2
+]
+},
+{
+"q": "Smoke detectors which use a measurement of light transmissibility in the air are called:",
+"o": [
+"Electromechanical devices",
+"Photoelectrical devices",
+"Visual devices"
+],
+"a": [
+1
+]
+},
+{
+"q": "A fire – extinguisher container can be checked to determine its charge by:",
+"o": [
+"Attaching a remote pressure gauge",
+"Weighing the container and its contents",
+"A hydrostatic test"
+],
+"a": [
+1
+]
+},
+{
+"q": "The most common cause of false fire warnings in continuous – loop fiRe – detection system is:",
+"o": [
+"Improper routing or clamping loops",
+"Moisture",
+"Dents, kinks or crushed sensor"
+],
+"a": [
+2
+]
+}
+]
