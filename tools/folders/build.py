@@ -89,6 +89,7 @@ folder('gp', 'GENERAL PAPER', 'general', [('gp', None, gp)])
 deji = [{**q, 'q': re.sub(r'^\d+[.)]\s+', '', q['q'])} for q in I('deji.json')]   # one folder, its topics are not split out
 folder('deji', 'General to use (Deji)', 'general', [('deji', None, deji)])
 folder('g23', '2023 GENERALS', 'general', [('g23', None, I('g23.json'))])   # one folder, like Deji
+folder('gp2', 'GENERAL PAPER 2', 'general', [('gp2', None, I('gp2.json'))])   # one folder, like Deji
 
 # ---------- Piston ----------
 folder('pist', 'SLIDE ON PISTON AND SYSTEMS', 'piston', [('piston', None, piston)])
@@ -113,7 +114,7 @@ ame = I('ame.json')
 folder('ame1', 'AME PART 1', 'pma', [('ame1', None, [q for q in ame if q['src'].startswith('AME PART 1')])])
 folder('ame2', 'AME PART 2', 'pma', [('ame2', None, [q for q in ame if q['src'].startswith('AME PART 2')])])
 folder('jul19', 'AIRFRAME QUESTION - JULY 2019', 'pma', [('jul19', None, I('july.json'))])
-SHOW = ['gp24', 'gp', 'deji', 'g23', 'pist', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa']
+SHOW = ['gp24', 'gp', 'deji', 'g23', 'gp2', 'pist', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa']
 live = {x['folder'] for x in subjects if x['count']}
 folders = sorted([fo for fo in folders if fo['id'] in live], key=lambda fo: SHOW.index(fo['id']))   # a file with nothing new is not shown
 subjects.sort(key=lambda x: SHOW.index(x['folder']))

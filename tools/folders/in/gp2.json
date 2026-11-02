@@ -1,0 +1,939 @@
+[
+{
+"q": "The phenomenon exhibited by sweptback wing airplanes in response to a disturbance from equilibrium in a combined rolling yawing oscillation in which the roling motion is phased to precede the yawing motion is known as:",
+"o": [
+"Spiral instability",
+"Adverse yaw",
+"Dutch roll"
+],
+"a": [
+2
+]
+},
+{
+"q": "After the removal of corrosion from aluminum alloys, reprotection is by applying brush alocrom 1200 and",
+"o": [
+"Drying immediately and applying primers and top coats within a maximum of 24 hours.",
+"Allowing it to dry for a maximum of 2 hours, then primer is applied within 48 hours.",
+"then rinsing off, following with etch primer and applying primer within 48 hours"
+],
+"a": [
+1
+]
+},
+{
+"q": "Who can be qualified to be the owner of an aircraft registered in Nigeria:",
+"o": [
+"Citizens of Nigeria or bodies corporate established under and subject to the laws of Nigeria",
+"Anyone",
+"Any company"
+],
+"a": [
+0
+]
+},
+{
+"q": "Why does the speed of sound change with altitude?",
+"o": [
+"Because the pressure changes with altitude",
+"Because the density changes with altitude",
+"Because the temperature changes with altitude"
+],
+"a": [
+2
+]
+},
+{
+"q": "Entries made in log book shall be:",
+"o": [
+"In ink or indelible pencil",
+"Any of the above",
+"In pencil but legible"
+],
+"a": [
+0
+]
+},
+{
+"q": "Interference drag can be reduced by the use of:",
+"o": [
+"High inspect ratio wings",
+"Streaming",
+"Fairing at junction between fuselage and wings"
+],
+"a": [
+2
+]
+},
+{
+"q": "Certificate of registration is valid",
+"o": [
+"12 months",
+"12 years",
+"Perpetual"
+],
+"a": [
+2
+]
+},
+{
+"q": "Charles’ law states that",
+"o": [
+"Volume varies directly with temperature",
+"Volume equals pressure x temperature",
+"Volume varies inversely with temperature"
+],
+"a": [
+0
+],
+"x": "The file highlights 'Volume equals pressure x temperature'; Charles' law is volume proportional to temperature."
+},
+{
+"q": "Type rated AMEL may sign for:",
+"o": [
+"C of Release to Service, C of fitness for flight",
+"C of conformity, C of compliance, C of registration",
+"Major and minor modification and C of C’s"
+],
+"a": [
+0
+]
+},
+{
+"q": "Four engine variable pitch propeller aircraft requires the following log books",
+"o": [
+"One for the airframe and one for each engine",
+"A total of nine, one for the airframe, one for each engine and one for each propeller",
+"One for the airframe and one engine"
+],
+"a": [
+1
+]
+},
+{
+"q": "What part of the SSHEL model would the aircraft design fit into?",
+"o": [
+"Hardware",
+"Liveware",
+"Environment"
+],
+"a": [
+0
+]
+},
+{
+"q": "In the event of an unqualified person becoming an owner of an aircraft whilst the aircraft is chartered",
+"o": [
+"The charterer must nobly the Authority",
+"The registration of the aircraft becomes invalid",
+"Both options are better"
+],
+"a": [
+0
+]
+},
+{
+"q": "Where higher speeds are involved needle roller bearings are:",
+"o": [
+"Caged",
+"Uncaged",
+"Tapered"
+],
+"a": [
+0
+]
+},
+{
+"q": "Following a C of A inspection the aircraft has to be flown to another place for weighing:",
+"o": [
+"This requires a permit to fly",
+"Does not require either of the two options",
+"This is permissible"
+],
+"a": [
+0
+]
+},
+{
+"q": "‘Tuck under’ occurs when",
+"o": [
+"A shock stall warning occurs on the inboard position of a straight wing",
+"A shock stall occurs on the outboard portion of the swept wing",
+"The aircraft reaches Ment"
+],
+"a": [
+1
+]
+},
+{
+"q": "An aircraft travels 2150 nautical miles in 2 hours 30 minutes. What is the average speed of the aircraft?",
+"o": [
+"860 knots",
+"550 knots",
+"600 knots"
+],
+"a": [
+0
+]
+},
+{
+"q": "The length of rivet to be chosen when making a structural repair that involves the joining of 0.032 inch and 0.064 inch aluminum sheet, drilled with a No 30 drill is",
+"o": [
+"5/16 inch",
+"7/16",
+"¼ inch"
+],
+"a": [
+0
+]
+},
+{
+"q": "The power required in a horizontal turn",
+"o": [
+"Must be the same as that for level flight at the same airspeed",
+"Its less than that for level flight at the same airspeed",
+"Is greater than that for level flight at the same airspeed"
+],
+"a": [
+2
+]
+},
+{
+"q": "When an aircraft changes operators which documents must be transferred?",
+"o": [
+"C of R, C of A, Tech log and the aircraft log books",
+"C of M",
+"C of M, C of R and Tech log"
+],
+"a": [
+0
+]
+},
+{
+"q": "The registration letters on the wings shall be:",
+"o": [
+"Tops of the letters and numbers shall be towards the loading edge of the wings",
+"Tops of the letters and numbers shall be towards the leading edge of the wings",
+"Tops of the letters and numbers shall towards the fuse"
+],
+"a": [
+1
+]
+},
+{
+"q": "Excess noise in a working environment can",
+"o": [
+"Lower resistance to other stresses",
+"Not affect performance",
+"Raise resistance to other stresses"
+],
+"a": [
+2
+]
+},
+{
+"q": "The performance group of an aircraft is given in:",
+"o": [
+"C of A",
+"By the constructor",
+"The regulation"
+],
+"a": [
+0
+]
+},
+{
+"q": "Pre load indicating washers:",
+"o": [
+"Can only be used with self locking nuts",
+"Can only be used with nylon insert self locking nuts",
+"Cannot be used with self locking nuts"
+],
+"a": [
+0
+]
+},
+{
+"q": "In respect to maintenance tasks that can be performed by authorized persons:",
+"o": [
+"A pilot licensed by the authority may release an aircraft to service following a 100hr inspection providing the M T O W is less than 2730kg",
+"An AMO may perform aircraft maintenance within the limits specified by the authority in its approval document",
+"A person not being a C5AM may perform inspections under supervision"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which is illegal without a valid C of A",
+"o": [
+"Glifder on aerial work",
+"Aircraft flying on a C of fitness for light",
+"Aircraft under ‘A’ conditions"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the setback for an angle of bend 120° with a radius of bend of 0.125 inch in a sheet 0.032 inch thick.",
+"o": [
+"1.732 inch",
+"0.571 inch",
+"0.272 inch"
+],
+"a": [
+2
+]
+},
+{
+"q": "Stability of an aircraft is:",
+"o": [
+"The ability of the aircraft to rotate about an axis",
+"The tendency of the aircraft to automatically return to its original position after been displaced",
+"The tendency of the aircraft to staff at low aircraft"
+],
+"a": [
+1
+]
+},
+{
+"q": "Joggles in removed rivet shanks would indicate partial",
+"o": [
+"Torsion failure",
+"Sham failure",
+"Thananing failure"
+],
+"a": [
+0
+]
+},
+{
+"q": "The number of fuses which can be changed in flight shall be",
+"o": [
+"15% or 5 each rating",
+"A maximum of 5",
+"10% or 3 of each rating whichever is the greater"
+],
+"a": [
+2
+]
+},
+{
+"q": "In some instances, it is difficult to use a hole finder. Another method to locate holes is use:",
+"o": [
+"Test",
+"Bisecting lines",
+"Hole finders"
+],
+"a": [
+1
+]
+},
+{
+"q": "In respect to log books which of the following statements is true",
+"o": [
+"A log book is required for the aircraft, each engine and each variable pitch propeller",
+"A log book is required for the aircraft and one for the engines",
+"A log book is required for the aircraft, each engine and each fixed pitch propeller"
+],
+"a": [
+0
+]
+},
+{
+"q": "If the weight of an aircraft is increased, its glide range will",
+"o": [
+"be increased",
+"be the same",
+"be reduced"
+],
+"a": [
+2
+]
+},
+{
+"q": "A regular behavior of an individual is known as:",
+"o": [
+"the norm",
+"habit",
+"culture"
+],
+"a": [
+1
+]
+},
+{
+"q": "Before an aircraft can fly commercially in Nigeria, the company or organization must have:",
+"o": [
+"An A.O.C",
+"An A.M.O or a third party maintenance agreement",
+"Both options are correct"
+],
+"a": [
+2
+]
+},
+{
+"q": "The take –off ground run is defined as:",
+"o": [
+"The horizontal distance from position of rest to the point at which no part of the aircraft is less than 10.7m above the ground",
+"The distance travelled from rest to the point where the aircraft achieves the speed V1 up",
+"The distance travelled from the position of rest to the point where the aircraft first leaves the ground and becomes fully airborne"
+],
+"a": [
+2
+]
+},
+{
+"q": "Lateral stability is reduced by increasing",
+"o": [
+"Sweepback",
+"Anhedral",
+"Dihedral"
+],
+"a": [
+1
+],
+"x": "The file highlights Dihedral; dihedral (and sweepback) add lateral stability, anhedral reduces it."
+},
+{
+"q": "Minimum height of registration letters on fuselage",
+"o": [
+"At least 15 centimetres",
+"At least 50 centimetres",
+"At least 30 centimetres"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the correct method of storage for an engine lubrication system?",
+"o": [
+"Filled with normal engine oil",
+"Filled with inhibiting oil",
+"As stated in the aircraft maintenance manual"
+],
+"a": [
+2
+]
+},
+{
+"q": "The heat required to change a solid to a liquid is called the heat of",
+"o": [
+"Vaporization",
+"Condensation",
+"Fusion"
+],
+"a": [
+2
+]
+},
+{
+"q": "An aircraft has recently undergone an engine replacement, the details of which will be recorded in",
+"o": [
+"The airframe log book and true engine log books",
+"The engine log books only",
+"The tech log"
+],
+"a": [
+1
+]
+},
+{
+"q": "The cutting speed when using a ¼ inch diameter drill for a given material is 400RPM, what speed will be suitable if the hole diameter is increased to ½ inch?",
+"o": [
+"800",
+"200",
+"400"
+],
+"a": [
+1
+]
+},
+{
+"q": "The circadian cycle body temperature",
+"o": [
+"Varies by 1.5 o F",
+"Does not vary",
+"Varies by 1.5 o C"
+],
+"a": [
+2
+]
+},
+{
+"q": "When bending sheet metal around a bend bar, the start and end of the bend are first identified, then the sight line located at:",
+"o": [
+"A point the radius away from the start of the bend line",
+"A point the radius away from the end of the bend",
+"The mind point between the bend lines"
+],
+"a": [
+0
+]
+},
+{
+"q": "During rivet installation for countersunk rivets, edge distance should not be less than",
+"o": [
+"2D",
+"2.5D",
+"4D"
+],
+"a": [
+0
+]
+},
+{
+"q": "Light corrosion can be removed from magnesium alloy using the following solution 10% by weight of chronic acid and",
+"o": [
+"1% by volume of sulphuric acid in water",
+"0.1% by volume of sulphuric acid in water",
+"0.2% by volume of sulphuric acid in water"
+],
+"a": [
+1
+]
+},
+{
+"q": "A gullatine should not be used to cut sheet metal thicker than",
+"o": [
+"10swg",
+"20swg",
+"15swg"
+],
+"a": [
+2
+]
+},
+{
+"q": "Certificate of Compliance means",
+"o": [
+"A mandatory inspection has been carried out",
+"The work has been cancelled",
+"Part of the aircraft or its components has been overhauled repaired or replaced I.A.W the approved schedule and manuals and using approved material."
+],
+"a": [
+2
+]
+},
+{
+"q": "An owner PLC may perform and task defined as maintenance on an aircraft except as provided in the following:",
+"o": [
+"The aircraft is asked for use by A.O.C holder",
+"If the aircraft maximum take-off mass second 2730kg",
+"Both options are correct"
+],
+"a": [
+2
+]
+},
+{
+"q": "As a precautionary measure in the use of air tools to test for pressure of the riveter, the tool should be put against?",
+"o": [
+"A soft block",
+"A solid object",
+"A steel object"
+],
+"a": [
+0
+]
+},
+{
+"q": "Registration letters width of each letter on an aircraft fuselage must be:",
+"o": [
+"Maximum of 3/4 of the height",
+"2/3 of the height of the letter",
+"Any reasonable amount to give an oven appearance"
+],
+"a": [
+1
+]
+},
+{
+"q": "Except for records maintained by an AOC holder the owner or operator shall retain the records of maintenance. Inspections and minor modifications until the work is repeated or super sacked by other work for",
+"o": [
+"1 year",
+"2 year",
+"5 years"
+],
+"a": [
+0
+]
+},
+{
+"q": "Access to the A/C Airworthiness inspections is a function:",
+"o": [
+"Decided by the operator",
+"Decided by the NGAA local area surveyor",
+"Decide by the Authority"
+],
+"a": [
+2
+]
+},
+{
+"q": "How can the desiccant slide-gel be activated",
+"o": [
+"Damping with measure",
+"Heating an oven",
+"Cooling in a refrigerator"
+],
+"a": [
+1
+]
+},
+{
+"q": "Equipments carried by an aircraft registered in Nigeria",
+"o": [
+"Laid down in Part 7 Nig CARs",
+"Specified in schedule 5 according to circumstances as required",
+"is specified by the manufacturer"
+],
+"a": [
+0
+]
+},
+{
+"q": "Having used abrasive cleaning pads to remove corrosion from aluminum alloy the pads",
+"o": [
+"may be re-used provided the metal is anodic to aluminum alloy",
+"must not subsequently be used on other metals",
+"may be re-used provident the metal is cationic to aluminum alloy"
+],
+"a": [
+1
+]
+},
+{
+"q": "The riveting defect in the figure shown in the attached diagram is",
+"o": [
+"the snap was not square",
+"the dopy was not square",
+"too much hammering"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is minimum requirement to register an aircraft in Nigeria?",
+"o": [
+"Owner qualified person",
+"Unqualified owner and qualified to register charterer",
+"Both owner and charterer to be qualified"
+],
+"a": [
+1
+]
+},
+{
+"q": "A Certificate of Registration must be issued accordance with the requirements of:",
+"o": [
+"Part 4 of NigCARs",
+"Part 2 of NigCARs",
+"Part 6 of NigCARs"
+],
+"a": [
+0
+]
+},
+{
+"q": "Where do you find information with regards to the detail of a rivet?",
+"o": [
+"Maintenance manual",
+"Aircraft fog book",
+"Structural repair manual"
+],
+"a": [
+2
+]
+},
+{
+"q": "The maximum depth of metal removed from dad aluminum alloy may be best determined by using a",
+"o": [
+"Venire height gauge",
+"Comparator or “clock” gauge",
+"micrometer"
+],
+"a": [
+0
+]
+},
+{
+"q": "British cables are proof loaded to:",
+"o": [
+"20% of their minimum bearing load",
+"50% of their minimum bearing load",
+"30% of their minimum bearing load"
+],
+"a": [
+1
+]
+},
+{
+"q": "The primary purpose of propeller is to:",
+"o": [
+"change engine Horsepower to thrust",
+"create lift on the aero foils at take-off",
+"build up enough slipstream to support the aerofoil"
+],
+"a": [
+0
+]
+},
+{
+"q": "An aircraft first of its type in Nigeria:",
+"o": [
+"Certificate of conformity",
+"Requires Type certificate acceptance",
+"Requires NGAA C of A test flight"
+],
+"a": [
+1
+]
+},
+{
+"q": "An engine defect occurred in flight, defect and rectification should be recorded in?",
+"o": [
+"Tech log and engine log book",
+"Tech log",
+"Tech log, engine log book and airframe log book"
+],
+"a": [
+0
+]
+},
+{
+"q": "Two gears are in meth, one has twice the number of tower at the other",
+"o": [
+"the gear with lower teeth rotates than he other",
+"that two gears rotate at the settle",
+"the gear with tower teeth rotates slower that the other"
+],
+"a": [
+0
+]
+},
+{
+"q": "Under Nigerian rules and regulation:",
+"o": [
+"An aircraft may be registered in more than one country",
+"Neither of the above",
+"An aircraft may have more than one registration"
+],
+"a": [
+1
+]
+},
+{
+"q": "An aircraft flying under “8” conditions In Nigeria",
+"o": [
+"Must appoint a Pilot in command approved by the aircraft manufacture",
+"Must be registered in Nigeria",
+"May carry persons in the aircraft in order to carry out technical evaluation"
+],
+"a": [
+2
+]
+},
+{
+"q": "The strength of a riveted joint is determined by",
+"o": [
+"shear strength of rivet and material it is made of",
+"shear strength and pitch of rivet",
+"pitch and tensile strength of rivet"
+],
+"a": [
+1
+]
+},
+{
+"q": "The thickness of Registration letters on an aircraft shall be",
+"o": [
+"Not more than three inches and not les than one inch ]",
+"Maximum of two inches wide",
+"1/6 of the height"
+],
+"a": [
+2
+]
+},
+{
+"q": "On completion of an aircraft charter the character is to:",
+"o": [
+"inform the Authority",
+"Hand over the registration",
+"Cancel the registration"
+],
+"a": [
+0
+]
+},
+{
+"q": "Following maintenance work carried out on a control system a duplicate inspection is required:",
+"o": [
+"This is to be carried out by one engineer inspecting the control system twice",
+"This is to be carried out by two sustainably qualified engineers inspecting the control system with no additional work being carried out between the inspection",
+"This is to be carried out by two engineers, on starting at the back the aircraft and the other at the front."
+],
+"a": [
+1
+]
+},
+{
+"q": "The factor(s) which determine/determines the particular shape of the dollars to be used is/are",
+"o": [
+"The location and accessibility of the rivet to be driven",
+"The alloy of the rivet to be driven",
+"All options are correct"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is 3% of 0.001",
+"o": [
+"0.3",
+"0.003",
+"0.00003"
+],
+"a": [
+2
+]
+},
+{
+"q": "If an aircraft is travelling at Mach 3 when the speed is 324 ms-1, the local speed of sound will be",
+"o": [
+"108 ms-1",
+"975 ms-1",
+"650 ms-1"
+],
+"a": [
+0
+]
+},
+{
+"q": "If the C of A has expired and the aircraft needs to be weighed",
+"o": [
+"Does not need a certificate of fitness to fly",
+"It cannot fly unless weighed first",
+"It can fly under the condition of a special flight permit"
+],
+"a": [
+2
+]
+},
+{
+"q": "101110 binary is",
+"o": [
+"4810",
+"468",
+"462"
+],
+"a": [
+2
+]
+},
+{
+"q": "The height of the registration letters fixed to a wing shall be:",
+"o": [
+"30 centimeters",
+"Any even size",
+"At least 50 centimeters"
+],
+"a": [
+2
+]
+},
+{
+"q": "A process where heat is not transferred to or from a gas is",
+"o": [
+"Adiabatic",
+"Isochoric",
+"Isobaric"
+],
+"a": [
+0
+]
+},
+{
+"q": "Kerosene should only be used as a lubricant when drilling",
+"o": [
+"Mild stool",
+"Magnesium alloys",
+"Aluminum alloys"
+],
+"a": [
+2
+]
+},
+{
+"q": "The lead of an imperial micrometer is",
+"o": [
+"0.010 o",
+"0.05 o",
+"0.025 o"
+],
+"a": [
+2
+]
+},
+{
+"q": "What shape is a ventun tube",
+"o": [
+"Gradually tampering to a minimum cross sectional area",
+"Maximum cross sectional area in the centre",
+"Minimum cross sectional area in the centre"
+],
+"a": [
+2
+]
+},
+{
+"q": "The tendency of the nose of an airplane to start to travel in the direction opposite to that desired at the beginning of a turn is called",
+"o": [
+"Aerodynamic drill",
+"Adverse yaw",
+"Side slip"
+],
+"a": [
+1
+]
+},
+{
+"q": "Determine bend allowance for a 2024 – T4 material with a thickness of 40 thou and a bend radius at 14 with a closed angle of 79 degrees",
+"o": [
+"0.20168",
+"0.25635",
+"0.32735"
+],
+"a": [
+2
+]
+},
+{
+"q": "Murphy’s Law is perpetuated mainly by",
+"o": [
+"Complacency",
+"Violation",
+"Poor aircraft design"
+],
+"a": [
+0
+]
+},
+{
+"q": "A tech log is required for:",
+"o": [
+"All aircraft above 5700kg",
+"All aircraft having a mandatory approved maintenance schedule",
+"All aircraft"
+],
+"a": [
+2
+]
+}
+]
