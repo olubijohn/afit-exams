@@ -1,0 +1,30 @@
+[
+ [
+  "ICE AND RAIN PROTECTION SYSTEM",
+  "3 options, 0 marked",
+  "Which is one advantage of a bonded de-icer boot",
+  [
+   "Provides smoother airfoil",
+   "Reduces static electricity",
+   "Take less air to operate"
+  ]
+ ],
+ [
+  "ELECTRICAL SYSTEM",
+  "3 options, 2 marked",
+  "A current regulator is a device which protects the aircraft",
+  [
+   "Consumer devices against excessive current",
+   "Generator against supply of excessive current",
+   "Batteries against supply of excessive current"
+  ]
+ ],
+ [
+  "ELECTRICAL SYSTEM",
+  "1 options, 1 marked",
+  "A test to determine if there is a break or high joint resistance in a circuit is referred to as",
+  [
+   "Continuity test"
+  ]
+ ]
+]
