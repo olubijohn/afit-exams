@@ -1,0 +1,2955 @@
+[
+{
+"q": "Lines joining points of equal dip are referred to as;",
+"o": [
+"Aclinic lines",
+"Isoclinals lines",
+"Airpath compass lines"
+],
+"a": [
+1
+]
+},
+{
+"q": "The angle between earth geographical north pole and magnetic North pole is;",
+"o": [
+"The magnetic variation",
+"The angle of dip",
+"The angle of inclination"
+],
+"a": [
+0
+]
+},
+{
+"q": "Small seasonal changes imposed on the secular change are referred to as;",
+"o": [
+"Annular change",
+"Diurnal change",
+"Biannual change"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following is true? The earth’s magnetic",
+"o": [
+"is asymmetrical",
+"poles do not rotate",
+"is symmetrical"
+],
+"a": [
+0
+]
+},
+{
+"q": "Components of the earth’s magnetic field comprise;",
+"o": [
+"Horizontal (H) component occurring at the magnetic poles (supposed to be ‘at the magnetic equator’), vertical (Z) component occurring at the magnetic poles.",
+"Dip (D) occurring at the magnetic equator, Horizontal (H) occurring at the magnetic poles.",
+"Dip (D) occurring at the magnetic equator, Horizontal (H) occurring at the magnetic poles."
+],
+"a": [
+0
+]
+},
+{
+"q": "Components of the earth’s magnetic field comprise;",
+"o": [
+"Horizontal (H) component occurring at the magnetic poles, vertical (Z) component occurring at the magnetic poles.",
+"Dip (D) occurring at the magnetic equator, Horizontal (H) occurring at the magnetic poles.",
+"Dip (D) occurring at the magnetic equator, Horizontal (H) occurring at the magnetic poles."
+],
+"a": [
+0
+]
+},
+{
+"q": "A line joining points, where the lines of magnetic force are horizontal to the earth’s surface is referred to as magnetic;",
+"o": [
+"Equator",
+"Meridian",
+"Dip"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following is true, dip angle?",
+"o": [
+"Decreases with latitude",
+"Increases with latitude",
+"Is constant everywhere on the earth"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following lies on the lateral axis of the aircraft, and has no effects on E – W heading but maximum effect on N – S heading?",
+"o": [
+"Component P",
+"Component Q",
+"Component R"
+],
+"a": [
+1
+]
+},
+{
+"q": "Suppose an aircraft is heading towards North in a level attitude. Which of the following is correct?",
+"o": [
+"Component R acts lime Component Q causing Compass deviation",
+"Component R acts like Component P",
+"No component R deviation on the compass"
+],
+"a": [
+2
+]
+},
+{
+"q": "The athwart ship component of hard iron is;",
+"o": [
+"Component P",
+"Component Q",
+"Component R"
+],
+"a": [
+1
+]
+},
+{
+"q": "Magnetic flux is measured in;",
+"o": [
+"Tesia",
+"Ampere turn",
+"Webber"
+],
+"a": [
+2
+]
+},
+{
+"q": "The nearer you approach the poles;",
+"o": [
+"The less the dip angle",
+"The more the dip angle",
+"The dip angle remains unchanged"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following is true, deviation?",
+"o": [
+"Can act so that the compass can over read on a given magnetic heading",
+"Must be given polarity in relation to magnetic south",
+"Metal – bellows type chamber connected to the bowl"
+],
+"a": [
+0
+]
+},
+{
+"q": "All navigation charts and maps are drawn with reference to magnetic;",
+"o": [
+"North",
+"South",
+"Meridian"
+],
+"a": [
+0
+]
+},
+{
+"q": "The earth is considered as having a huge permanent magnet situated near the",
+"o": [
+"North pole",
+"South pole",
+"Centre"
+],
+"a": [
+2
+]
+},
+{
+"q": "The Direct reading magnetic compass has",
+"o": [
+"Direction seeking property",
+"No direction seeking property",
+"None of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "The Direct reading magnetic compass is supplied with 400 Hz A.C. to run it The above statement is:",
+"o": [
+"True",
+"False"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following is Not a correct functional testing procedure for the Direct reading Magnetic compass?",
+"o": [
+"Ensure the mountings are secure and there are leaks",
+"Move a ferrous screwdriver or spanner towards it gently and check that the compass card remains rigid",
+"All of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "The direct reading magnetic compass is only able to tract",
+"o": [
+"Earth’s magnetic north",
+"Earth’s magnetic south",
+"Earth’s geographic poles"
+],
+"a": [
+0
+]
+},
+{
+"q": "The effects of dip on a compass used in an aero plane is reduced by pivoting the magnet assembly.",
+"o": [
+"above its centre of gravity",
+"below its centre of gravity",
+"at its centre of gravity"
+],
+"a": [
+0
+]
+},
+{
+"q": "Aero plane magnetic compasses are filed with a transparent liquid to",
+"o": [
+"lubricate the pivot",
+"prevent parallax errors",
+"damp the magnetic assembly"
+],
+"a": [
+2
+]
+},
+{
+"q": "Discoloration of the liquid in a compass which does not impair its readability",
+"o": [
+"Still requires the compass to be changed",
+"is acceptable subject to a compass swing",
+"is acceptable subject to a satisfactory pivot friction check"
+],
+"a": [
+0
+]
+},
+{
+"q": "The sign + or – given to an angle of variation indicates the sense of the",
+"o": [
+"Correction to be applied to a compass",
+"Error in a compass reading",
+"Change due to the rotation of the magnetic poles"
+],
+"a": [
+1
+]
+},
+{
+"q": "The liquid in a magnetic compass reduces;",
+"o": [
+"Sensitivity",
+"Angle of dip",
+"Oscillations"
+],
+"a": [
+2
+]
+},
+{
+"q": "The liquid in a compass also;",
+"o": [
+"Acts as temperature compensation",
+"Decrease the sensitivity",
+"Lubricates the pivot"
+],
+"a": [
+2
+]
+},
+{
+"q": "The expansion chamber in a compass;",
+"o": [
+"Prevents the formation of bubbles",
+"Prevents a decrease in damping efficiency with temperature",
+"Allows the compass to be used"
+],
+"a": [
+1
+]
+},
+{
+"q": "From your understanding of Compasses, which of the following is correct?",
+"o": [
+"All navigation Charts and maps are drawn with reference to the magnetic north pole",
+"All navigation Charts and maps are drawn with reference to the geographic north pole",
+"Only some navigation Charts are drawn with reference the pole"
+],
+"a": [
+0
+]
+},
+{
+"q": "The E – type compass has its compass card graduated in increments of",
+"o": [
+"100",
+"10",
+"1"
+],
+"a": [
+1
+]
+},
+{
+"q": "The correction for Dip reduces the angle to",
+"o": [
+"minimum of 30 at 600 latitude",
+"maximum of 30 at 600 latitude",
+"maximum of 30 at to 600 latitude"
+],
+"a": [
+2
+]
+},
+{
+"q": "Deviation is:",
+"o": [
+"the angular difference existing between the aircraft and the magnetic compass North",
+"the angular difference existing between the aircraft compass pointer and the magnetic North",
+"the difference between the orientation of a suspended bar magnet and magnetic North"
+],
+"a": [
+1
+]
+},
+{
+"q": "Mechanical compensation devices consist of two pairs of magnets fitted so that:",
+"o": [
+"One pair of magnets lies laterally for the adjustments of coefficient ‘B’",
+"the other pair lies longitudinally for the adjustment of coefficient ‘C’",
+"all of the above."
+],
+"a": [
+2
+]
+},
+{
+"q": "To Check for roughness, ‘hard sports’ and backlash in the gearing, for Compasses in which the deviation compensation devices are built in, the magnet adjusting screws should be slowly rotated through their:",
+"o": [
+"full range",
+"half range",
+"none of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "If by switching on the integral lighting of a compass, deflection of the magnet system occurs, it implies that:",
+"o": [
+"the damping test has failed",
+"Mechanical compensation devices are not working",
+"the influence of magnetic field around the conductor for the integral light has not effectively neutralized"
+],
+"a": [
+2
+]
+},
+{
+"q": "On light aircraft, the magnetic compass is used as:",
+"o": [
+"the master compass",
+"stand – by compass",
+"none of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "The direction an aircraft is pointed with respect to Magnetic north will best be referred to as;",
+"o": [
+"Magnetic south",
+"Geographic north",
+"Magnetic heading"
+],
+"a": [
+2
+]
+},
+{
+"q": "A form of aircraft magnetic compass that has damping vanes on the float to keep the compass from oscillating when flying in rough air or when the aircraft is tuned to a new heading is referred to as:",
+"o": [
+"E – Type Compass",
+"Aperiodic Compass",
+"Remote reading compass"
+],
+"a": [
+1
+]
+},
+{
+"q": "The compass heading of an aircraft can be defined as;",
+"o": [
+"Magnetic heading plus or minus deviation",
+"Compass indication needed to make good a desired course",
+"All of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "The accuracy of a compass;",
+"o": [
+"Decreases with increase in dip angle",
+"Increases with increase in dip angle towards south pole",
+"Is not effected with changes in dip angle"
+],
+"a": [
+0
+]
+},
+{
+"q": "When it is necessary to run the wiring for a.d.c circuit close to a compass position, what wiring system must be used?",
+"o": [
+"Single – wire earthed system",
+"Double – wire earthed system",
+"Two – wire unearthed system"
+],
+"a": [
+2
+]
+},
+{
+"q": "For proper storage of a direct reading magnetic compass,",
+"o": [
+"the magnet system must be well guarded against any rotation",
+"the magnet system must be free to rotate",
+"the storage limiting period is one (1) year only"
+],
+"a": [
+0
+]
+},
+{
+"q": "Are the readings of compasses affected by turning and acceleration of an aircraft?",
+"o": [
+"Yes",
+"Yes, but not in the south",
+"Magnetic compass"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is used to correct the effects of temperature change on the damping fluid of a compass compensated? By means of",
+"o": [
+"Pivot friction compensation",
+"mechanical compensation devices connected to the bowl",
+"metal – bellows type chamber connected to the bowl"
+],
+"a": [
+2
+]
+},
+{
+"q": "The direction in which a freely suspended compass needle would point under the influence of earth’s magnetic field is known as magnetic;",
+"o": [
+"South",
+"Equator",
+"Meridian"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following is true? with an increases of temperature, the comparing liquid volume is further increased by expansion and so flexible element will be",
+"o": [
+"further compressed to take up the increased volume",
+"Further expanded to take up the increased volume",
+"remain unchanged to ensure the accurate indication"
+],
+"a": [
+0
+]
+},
+{
+"q": "A drum – like scale, marked in degrees, from 00 to 360; fastened around the float in an aircraft magnetic compass is",
+"o": [
+"compass rose",
+"compass locator",
+"compass card."
+],
+"a": [
+2
+]
+},
+{
+"q": "A navigation instrument that indicates the direction to the earths magnetic norh pole is",
+"o": [
+"Directional gyro",
+"Flight Director",
+"Compass."
+],
+"a": [
+2
+]
+},
+{
+"q": "During a compass saving, after the deviation error is minis don all headings.",
+"o": [
+"a compass correction and is filled out and mounted on the instruments panel next to the compass",
+"a certificate of return to service is completed",
+"a certificate of compliance is filled."
+],
+"a": [
+0
+]
+},
+{
+"q": "When aligning an aircraft for a compass swing, the maximum allowable error is",
+"o": [
+"5 degrees",
+"1 degrees",
+"3 degrees"
+],
+"a": [
+0
+]
+},
+{
+"q": "In a compass swing: North error -2 degrees, South error -2. The coefficient C is",
+"o": [
+"+ 2 degrees",
+"- 2 degrees",
+"0 degrees"
+],
+"a": [
+2
+]
+},
+{
+"q": "Standby Compass adjusting magnets (flinders Bars) exert the most amount of influence.",
+"o": [
+"When 90 degrees apart",
+"When parallel to each other",
+"When 45 degrees apart."
+],
+"a": [
+0
+]
+},
+{
+"q": "If the compass fluid has bubbles at low altitude",
+"o": [
+"this is due to excessive high cabin altitude flying",
+"this has no influence on compass readings",
+"this is due to insufficient de-aeration"
+],
+"a": [
+2
+]
+},
+{
+"q": "A compass has a residual deviation of + 1 degrees. To steer a true heading of 180 degrees the pilot must steer.",
+"o": [
+"179 degrees",
+"180 degrees",
+"181 degrees"
+],
+"a": [
+0
+]
+},
+{
+"q": "A desiccant used in the storage of instruments",
+"o": [
+"is Sodium-bicarbonate",
+"is Silica-gel",
+"is anti-freeze oil."
+],
+"a": [
+1
+]
+},
+{
+"q": "Coefficient A is adjusted",
+"o": [
+"at 360 degrees",
+"at 270 degrees",
+"on any heading"
+],
+"a": [
+2
+]
+},
+{
+"q": "With an aircraft which has more than one compass system",
+"o": [
+"master and slave adjusted, correction card for master only.",
+"master adjusted, slave adjusted, each having a corrected compass card.",
+"Both are adjusted on each heading."
+],
+"a": [
+1
+]
+},
+{
+"q": "A DC electrical cable must be positioned how far away from a compass?",
+"o": [
+"10 Inches",
+"20 Inches",
+"24 Inches."
+],
+"a": [
+2
+]
+},
+{
+"q": "Horizontal component increases",
+"o": [
+"90% at magnetic equator",
+"180% at magnetic equator",
+"100% at magnetic equator."
+],
+"a": [
+2
+]
+},
+{
+"q": "Horizontal component",
+"o": [
+"Zero at the poles -compass reading impossible",
+"Maximum at the poles- compass reading possible",
+"Average at the poles- compass reading impossible."
+],
+"a": [
+0
+]
+},
+{
+"q": "Angle of dip at pole is",
+"o": [
+"90 degrees",
+"180 degrees",
+"0 degrees"
+],
+"a": [
+0
+]
+},
+{
+"q": "Angle of dip at equator is",
+"o": [
+"0 degrees",
+"90 degrees",
+"180 degrees."
+],
+"a": [
+0
+]
+},
+{
+"q": "In an airplane a magnetic compass",
+"o": [
+"Tips without the airplane tipping",
+"Tips when the airplane tips.",
+"Does not tip at all."
+],
+"a": [
+1
+]
+},
+{
+"q": "When the bar magnets are level",
+"o": [
+"they are influenced by only the vertical component of the earth's field.",
+"they are not influenced by any component for the compass to give reliable reading.",
+"they are influenced only by horizontal component of the earth's field."
+],
+"a": [
+2
+]
+},
+{
+"q": "The magnetic compass gives",
+"o": [
+"a reliable and steady heading indication of the airplane",
+"a highly reliable heading indication of the airplane",
+"a reliable, though unsteady heading indication of the airplane."
+],
+"a": [
+2
+]
+},
+{
+"q": "The compass card assembly includes a pair of needle magnets",
+"o": [
+"attached above it",
+"attached below it",
+"None of the above"
+],
+"a": [
+1
+]
+},
+{
+"q": "The Lubber line of the magnetic compass is",
+"o": [
+"fixed to the case in the pilots view.",
+"is suspended in the compass bowl",
+"It is attached to the glass cover"
+],
+"a": [
+0
+]
+},
+{
+"q": "The compass needle magnets see",
+"o": [
+"only the horizontal component of the earth's field.",
+"only the vertical component of the magnetic compass.",
+"both vertical and horizontal component. Answer. A."
+],
+"a": [
+0
+]
+},
+{
+"q": "The aircraft must be wing level for the",
+"o": [
+"The magnetic compass to be very well horizontal",
+"The Magnetic compass does not require that",
+"The magnetic compass can take any position."
+],
+"a": [
+0
+]
+},
+{
+"q": "The banking of the aircraft",
+"o": [
+"does not disturb the magnetic compass to make the card completely useless.",
+"Airplane banking is sufficient to disturb the magnetic compass therefore making the card useless in manoeuvres.",
+"The compass card is independent of the aircraft banking."
+],
+"a": [
+0
+]
+},
+{
+"q": "A. the Gyro Compass was obsolete when electrical remote reading, Gyro-stabilized compass system was introduced.",
+"o": [
+"the Gyro compass was not obsolete when electrical remote reading Gyro stabilized compass system was introduced.",
+"Both the gyro compass and electrical remote reading ,gyro-stabilized compass are no longer in use."
+],
+"a": [
+0
+]
+},
+{
+"q": "Prior to making a manoeuvre",
+"o": [
+"the pilot would manually set the gyro compass to agree with the magnetic compass in level flight.",
+"the pilot does not need to manually set the gyro compass with the magnetic compass in level flight.",
+"the pilot sets the gyro compass manually only after the manoeuvre."
+],
+"a": [
+0
+]
+},
+{
+"q": "The various parts of an aircraft airframe are maintained at the same potential by",
+"o": [
+"the supply bus-bar",
+"the static discharge wicks",
+"Bonding"
+],
+"a": [
+2
+]
+},
+{
+"q": "Magnetic inclination is the least at the",
+"o": [
+"Poles",
+"equator",
+"Isoclines"
+],
+"a": [
+1
+]
+},
+{
+"q": "Ferromagnetic materials can be magnetized.",
+"o": [
+"below a certain temperature",
+"above a certain temperature",
+"within a band of temperatures."
+],
+"a": [
+0
+]
+},
+{
+"q": "Glass is an example of a",
+"o": [
+"Coercive material",
+"paramagnetic material",
+"diamagnetic material."
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following materials is easiest to magnetize",
+"o": [
+"High grade steel",
+"Soft iron",
+"Cast iron."
+],
+"a": [
+1
+]
+},
+{
+"q": "The earth's magnetic field is greatest at the",
+"o": [
+"Magnetic equator",
+"geographic poles",
+"Magnetic poles."
+],
+"a": [
+2
+]
+},
+{
+"q": "Where is the magnetic dip least",
+"o": [
+"Poles",
+"Isoclinals",
+"Equator"
+],
+"a": [
+2
+]
+},
+{
+"q": "If the North pole of a magnet is brought nearer to the North pole of another magnet",
+"o": [
+"attraction between them will be increased",
+"repulsion between them will be reduced",
+"repulsion between them will be increased."
+],
+"a": [
+2
+]
+},
+{
+"q": "Lines of magnetic flux pass from",
+"o": [
+"South to North",
+"East to West",
+"North to South."
+],
+"a": [
+2
+]
+},
+{
+"q": "Inherent error in magnetic compasses called deviation is caused:",
+"o": [
+"Other aircraft signals interfering with magnetic fields",
+"Magnetic field in the aircraft interfering with those of the earth",
+"Magnetic field outside the aircraft interfering with those of the earth."
+],
+"a": [
+1
+]
+},
+{
+"q": "Compensated magnets in the housing may be adjusted to",
+"o": [
+"Cancel the effect of earth magnetic field.",
+"Correct the effect of earth magnetic field",
+"Cancel effect of all the local magnetic fields in the aircraft."
+],
+"a": [
+2
+]
+},
+{
+"q": "Deviation error is uncorrected error caused by local magnetism",
+"o": [
+"Is different for each heading but changes with location of the aircraft.",
+"Is same for each heading but changes with the location of the aircraft.",
+"Is different for each heading but does not change with the location of the aircraft"
+],
+"a": [
+2
+]
+},
+{
+"q": "Deviation error is uncorrected error caused by local magnetism",
+"o": [
+"Is different for each heading",
+"Is same for each heading but changes with location of the aircraft.",
+"Is different for each heading but does not change with location of the aircraft."
+],
+"a": [
+2
+]
+},
+{
+"q": "A compass rose should be",
+"o": [
+"far from electrical interference but should not marked.",
+"far from electrical interference and a location where the maintenance personnel may be undisturbed while swinging the compass.",
+"None of the above"
+],
+"a": [
+1
+]
+},
+{
+"q": "Adjusting the magnetic compass compensator screw the Aircraft Maintenance Engineer must use",
+"o": [
+"A magnetic screw driver",
+"A non-magnetic screwdriver",
+"Any screw driver will do the job."
+],
+"a": [
+1
+]
+},
+{
+"q": "Acceleration and Turning error occurs",
+"o": [
+"while the aircraft is on ground",
+"both in flight and on ground",
+"Only in Flight."
+],
+"a": [
+2
+]
+},
+{
+"q": "The main body of the magnetic compass is",
+"o": [
+"a cast copper housing",
+"a cast iron housing",
+"a cast aluminium housing."
+],
+"a": [
+2
+]
+},
+{
+"q": "The vertical reference mark in the magnetic compass is called",
+"o": [
+"A Rubber line",
+"A Lubber line",
+"A Blubber line"
+],
+"a": [
+1
+]
+},
+{
+"q": "The compass fluid is",
+"o": [
+"a hydrocarbon product similar to kerosene",
+"a hydrocarbon product similar to mineral oil.",
+"a hydrocarbon product similar to demineralised fluid."
+],
+"a": [
+0
+]
+},
+{
+"q": "The magnetic compass housing",
+"o": [
+"must be completely full with no bubbles and an expansion diaphragm",
+"must be partially filled with no bubbles and expansion diaphragm",
+"must be completely full with bubbles and expansion diaphragm."
+],
+"a": [
+0
+]
+},
+{
+"q": "Which is correct for magnetic compass it is therefore",
+"o": [
+"said that the compass leads the aircraft in south turns and lags the aircraft in turns to the south",
+"Said that the compass leads the aircraft in North turns and lags the aircraft in turns to the North.",
+"said that the compass leads the aircraft in South Turns and lags the aircraft in turns to the north."
+],
+"a": [
+2
+]
+},
+{
+"q": "The bar magnet in the magnetic compass is",
+"o": [
+"an electromagnet",
+"a diamagnetic material",
+"a permanent magnet."
+],
+"a": [
+2
+]
+},
+{
+"q": "A magnetic compass is",
+"o": [
+"an optional equipment",
+"mandatory equipment for aircraft continued airworthiness",
+"It is a back up for the aircraft main compass system."
+],
+"a": [
+1
+]
+},
+{
+"q": "The magnetic compass on the aircraft",
+"o": [
+"is part of the one- wire system on the aircraft",
+"is supported by a standby battery",
+"is the only system that operates a two wire system"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of these stores is approved for aircraft serviceable part",
+"o": [
+"Quarantine store",
+"Bogus store",
+"Bonded stores."
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of this is correct about serviceable aircraft part",
+"o": [
+"must have NCAA form One and approved by the authority before it can be installed on the aircraft.",
+"must have NCAA form one and can be installed on the aircraft in line with relevant AMM by the qualified License AME.",
+"must have NCAA form one only."
+],
+"a": [
+1
+]
+},
+{
+"q": "No part of a magnetic compass in an aircraft can be replaced except",
+"o": [
+"In accordance with Aircraft Maintenance Manual AMM, Approved Maintenance Programme AMP and Nig.CAR.",
+"In accordance with Aircraft Maintenance Manual AMM and Approved Maintenance Programme AMP.",
+"Only in accordance with AMM."
+],
+"a": [
+0
+]
+},
+{
+"q": "The parts of an aircraft magnetic compass system are",
+"o": [
+"Diamagnetic materials",
+"Paramagnetic materials",
+"Non Magnetic materials."
+],
+"a": [
+2
+]
+},
+{
+"q": "The smallest part of a magnetic material is referred to as",
+"o": [
+"Iron",
+"Domain",
+"Pole"
+],
+"a": [
+1
+]
+},
+{
+"q": "Magnetic field is",
+"o": [
+"The immediate area around the magnet within which the magnetic force acts",
+"The influence of the invisible lines of force which leaves the north pole to enter the south pole of a magnet",
+"All of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "The angle between earth geographical north pole and magnetic north pole is",
+"o": [
+"Magnetic variation",
+"Angle of dip",
+"Angle of inclination"
+],
+"a": [
+0
+]
+},
+{
+"q": "Copper can be said to be an example of",
+"o": [
+"Paramagnetic material",
+"Diamagnetic",
+"Electromagnetic material"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following is used in the case of coils to determine the direction of the magnetic field",
+"o": [
+"Right Hand Rule",
+"Left hand Rule",
+"Corkscrew rule"
+],
+"a": [
+1
+]
+},
+{
+"q": "Temporary magnets are made from materials with",
+"o": [
+"High permeability",
+"Low permeability"
+],
+"a": [
+0
+]
+},
+{
+"q": "The lagging of magnetic flux density B behind magnetic field strength H when a specimen is magnetized and demagnetized is Hysteresis",
+"o": [
+"True",
+"False"
+],
+"a": [
+0
+]
+},
+{
+"q": "If a material is removed from the influence of a magnetic field and it retains its magnetism for a substantial period then,",
+"o": [
+"A permanent magnet is formed",
+"A temporary magnet is formed",
+"None of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "Electromagnets are considered to be",
+"o": [
+"Permanent magnets",
+"Temporary magnets",
+"None of the above"
+],
+"a": [
+1
+]
+},
+{
+"q": "The immediate area around a magnet within which a magnetic force acts is best referred to as",
+"o": [
+"Magnetic force",
+"Magnetic flux",
+"Magnetic field"
+],
+"a": [
+2
+]
+},
+{
+"q": "The angle between the geographical and magnetic north directions is",
+"o": [
+"Angle of declination",
+"Angle of Variation",
+"All of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "The angle formed between a bar magnet freely aligned with the earth’s magnetic field and the horizontal plane is?",
+"o": [
+"Angle of dip",
+"Angle of declination",
+"Angle of variation"
+],
+"a": [
+0
+]
+},
+{
+"q": "The most effective method of demagnetization is",
+"o": [
+"Hammering",
+"Heating",
+"Alternating current"
+],
+"a": [
+2
+]
+},
+{
+"q": "In the single touch or stroking method of magnetization, the polarity produced at the end of the bar where the stroking finishes is of the same kind to that of the stroking pole. This statement is",
+"o": [
+"True",
+"False"
+],
+"a": [
+1
+]
+},
+{
+"q": "The platinum as a magnetic material belongs to the group called",
+"o": [
+"Ferromagnetic",
+"Paramagnetic",
+"Diamagnetic"
+],
+"a": [
+1
+]
+},
+{
+"q": "A solenoid as an electromagnet is",
+"o": [
+"Movable type",
+"Fixed core",
+"Movable core"
+],
+"a": [
+2
+]
+},
+{
+"q": "The magnetic strength of an electromagnet",
+"o": [
+"Increases with decrease in current in the coil",
+"Decreases with increases in the number of turns of the coil",
+"Increases with increase in current for a fixed number of turns"
+],
+"a": [
+2
+]
+},
+{
+"q": "In the right hand rule for straight conductors the thumbs position points in the direction of",
+"o": [
+"Magnetic field lines",
+"Current flow",
+"Motion of the coil"
+],
+"a": [
+1
+]
+},
+{
+"q": "In the corkscrew rule the field direction is",
+"o": [
+"Clockwise",
+"Straight",
+"Anticlockwise"
+],
+"a": [
+0
+]
+},
+{
+"q": "Magnetic flux is measured in",
+"o": [
+"Tesla",
+"Webers",
+"Henry/meter"
+],
+"a": [
+1
+]
+},
+{
+"q": "The ratio of magnetomotive force to mean flux path length is",
+"o": [
+"Magnetic field strength",
+"Magnetic flux density",
+"Permeability"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following is a constant",
+"o": [
+"Absolute permeability",
+"Relative permeability",
+"Permeability of free space"
+],
+"a": [
+2
+]
+},
+{
+"q": "When storing magnets, bar magnets are stored in pairs with opposite poles adjacent to each other and with a small piece of wood called keepers. The above statement is",
+"o": [
+"True",
+"False"
+],
+"a": [
+1
+]
+},
+{
+"q": "In mutual induction, which of the following is common",
+"o": [
+"Coil",
+"Core",
+"Reluctance"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following statement is correct",
+"o": [
+"The more the speed of the conductor in a given magnetic field the more the induced voltage",
+"The less the speed of the conductor in a given magnetic field the less the induced voltage"
+],
+"a": [
+0
+]
+},
+{
+"q": "The earth’s magnetic flux density is normally…………..in strength from place to place",
+"o": [
+"Increasing",
+"Constant",
+"Decreasing"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following methods of demagnetization always take advantage of the earths magnetic field",
+"o": [
+"Hammering",
+"Heating",
+"Electrical method"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the inductance when a current of 2A produce flux linkage of 4weber",
+"o": [
+"4 henry",
+"8 henry",
+"2 henry"
+],
+"a": [
+2
+]
+},
+{
+"q": "The length of conductor exposed to a given field is inversely proportional to emf in it. This statement is",
+"o": [
+"True",
+"False"
+],
+"a": [
+1
+]
+},
+{
+"q": "The difference between a relay and a contactor is",
+"o": [
+"A relay handles less current",
+"A contactot handles more current",
+"All of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "The sensing element of the flux valve:",
+"o": [
+"aligns itself to the new heading as the aircraft turns.",
+"remains in the same position attached to the aircraft structure",
+"aligns itself to the new heading of the aircraft after it has stabilized."
+],
+"a": [
+0
+]
+},
+{
+"q": "What kind of a gyro is a rate gyro?",
+"o": [
+"Tied down",
+"Displacement",
+"Space"
+],
+"a": [
+0
+]
+},
+{
+"q": "The apparent wander for directional gyro is",
+"o": [
+"Compensated by applying a constant torque",
+"Maximum at the pole",
+"dependant on the longitude."
+],
+"a": [
+0
+]
+},
+{
+"q": "The Directional gyro is checked every 15 minutes for:",
+"o": [
+"erection",
+"toppling",
+"Drift"
+],
+"a": [
+2
+]
+},
+{
+"q": "Random drift of a gyro is caused by",
+"o": [
+"error in roll when aircraft is turning",
+"aircraft turning with an error in roll",
+"gyro friction and unbalance"
+],
+"a": [
+2
+]
+},
+{
+"q": "With an aircraft which has more than one compass system",
+"o": [
+"master adjusted, slave adjusted, each having a corrected compass card.",
+"both are adjusted on each heading.",
+"Master and slave adjusted, correction card for master only."
+],
+"a": [
+0
+]
+},
+{
+"q": "A DC electrical cables must be positioned how far away from a compass?",
+"o": [
+"20 inches",
+"24 inches",
+"So as to give no more than 2 degrees deflection of compass."
+],
+"a": [
+1
+]
+},
+{
+"q": "When power is switched off, the gimbals brake",
+"o": [
+"stops outer gimbal",
+"restricts outer gimbals",
+"restricts inner gimbal."
+],
+"a": [
+2
+]
+},
+{
+"q": "In a compass system, what senses the horizontal component of the earths magnetic field and where is it normally fitted?",
+"o": [
+"Directional gyro mounted on the roll axis of the aircraft.",
+"A procession device mounted on the yaw axis of the aircraft",
+"Flux detectors fitted in the wing tips."
+],
+"a": [
+2
+]
+},
+{
+"q": "Compared to air driven gyros, the electric gyro runs.",
+"o": [
+"Faster",
+"Slower",
+"same speed."
+],
+"a": [
+0
+]
+},
+{
+"q": "What is apparent drift due to?",
+"o": [
+"Errors when aircraft is banking",
+"Earth's rotation",
+"Gyro pivot friction"
+],
+"a": [
+1
+]
+},
+{
+"q": "The flux detector element",
+"o": [
+"gives heading with respect to magnetic north",
+"changes heading with the heading of the aircraft",
+"changes its position after the aircraft heading is changed"
+],
+"a": [
+0
+]
+},
+{
+"q": "The needle of a resolver is connected to:",
+"o": [
+"two coils and an electromagnet",
+"two coils and a permanent magnet",
+"two coils only"
+],
+"a": [
+2
+]
+},
+{
+"q": "A remote compass compensator unit is replaced. Which of the following is correct",
+"o": [
+"The swing can be performed at a later date",
+"No swing is required if the new heading is within 5 degrees of the old.",
+"A compass swing must be performed."
+],
+"a": [
+2
+]
+},
+{
+"q": "Apparent drift of a directional gyro is due to;",
+"o": [
+"the effect of the earth's rotation",
+"unbalance of the gimbals",
+"bearing friction."
+],
+"a": [
+0
+]
+},
+{
+"q": "The erection system on a directional gyroscope has.",
+"o": [
+"a switch on the outer gimbal controlling a motor on the inner gimbal",
+"a switch on the inner gimbal controlling a motor on the inner gimbal",
+"A switch on the inner gimbal controlling a motor on the outer gimbal"
+],
+"a": [
+2
+]
+},
+{
+"q": "In a rate gyro used to detect movements about a vertical axis, the amount the gimbal ring moves would be increased if the",
+"o": [
+"angle through which the gyros moves in azimuth increases",
+"rotor speed decreases",
+"spring tension was increased,"
+],
+"a": [
+1
+]
+},
+{
+"q": "Why is a directional gyro inner gimbal restricted to +/- 85 degrees",
+"o": [
+"To ensure outer gimbal erection system works correctly.",
+"To prevent outer gimbal rotating",
+"To prevent gyro going into gimbal lock"
+],
+"a": [
+2
+]
+},
+{
+"q": "In a directional gyro, the inner/outer gimbal is corrected to",
+"o": [
+"15 sine latitude",
+"15 cosine latitude",
+"15 sine longitude"
+],
+"a": [
+0
+]
+},
+{
+"q": "The electrolyte switches' used in gyro systems rely upon",
+"o": [
+"change in inductance to operate",
+"change in resistance to operate",
+"changes in voltage"
+],
+"a": [
+1
+]
+},
+{
+"q": "Procession of a gyro depends on",
+"o": [
+"both answers (a) and (b)",
+"angular velocity of the rotor only",
+"moment of inertia of the rotor only."
+],
+"a": [
+0
+]
+},
+{
+"q": "Air driven gyros, compared to electric gyros, generally rotate",
+"o": [
+"faster",
+"the same speed",
+"slower"
+],
+"a": [
+2
+]
+},
+{
+"q": "Gyro rigidity is proportional to",
+"o": [
+"Mass and speed",
+"mass, and radius of mass from spin axis",
+"mass, speed and radius of mass from spin axis."
+],
+"a": [
+2
+]
+},
+{
+"q": "Gyro processional force is",
+"o": [
+"inversely proportional to the applied force",
+"directly proportional to applied force",
+"proportional to the square of the applied force"
+],
+"a": [
+1
+]
+},
+{
+"q": "The speed of a vacuum driven gyro horizon rotor is approximately",
+"o": [
+"22,000 rpm",
+"15,000 rpm",
+"4,200 rpm"
+],
+"a": [
+1
+]
+},
+{
+"q": "Aircraft heading (HDG) is",
+"o": [
+"the angle between True North and longitudinal axis of the aircraft.",
+"the angle between True North and the desired track",
+"the angle between True North and the actual track."
+],
+"a": [
+0
+]
+},
+{
+"q": "Agonic lines link places of",
+"o": [
+"zero variation",
+"different variation",
+"equal variation"
+],
+"a": [
+0
+]
+},
+{
+"q": "The supply of Desynn indicating system:",
+"o": [
+"is Direct Current",
+"is Alternating Current at 400 c/s",
+"is Alternating Current at 50 c/s"
+],
+"a": [
+0
+]
+},
+{
+"q": "The aeroplane monitor on the artificial horizon is fitted to the",
+"o": [
+"inner gimbal",
+"Rotor",
+"instrument case."
+],
+"a": [
+2
+]
+},
+{
+"q": "The type of gyro used in a gyro compass is a",
+"o": [
+"directional gyro",
+"vertical gyro",
+"rate gyro"
+],
+"a": [
+0
+]
+},
+{
+"q": "A gyroscope having one plane of freedom at right angles to the plane of rotation, and its gimbal restrained either electrically or by a spring, is known as",
+"o": [
+"a rate gyro",
+"an earth gyro",
+"a tied gyro"
+],
+"a": [
+0
+]
+},
+{
+"q": "The HSI compass card is positioned by the",
+"o": [
+"compass system",
+"aircraft ADF system",
+"heading select knob."
+],
+"a": [
+0
+]
+},
+{
+"q": "The term used to denote the strength of a magnetic field is",
+"o": [
+"retentivity",
+"hysteresis",
+"flux density"
+],
+"a": [
+2
+]
+},
+{
+"q": "A non - magnetic metal",
+"o": [
+"has high retentivity",
+"has no permeability",
+"is a poor conductor"
+],
+"a": [
+1
+]
+},
+{
+"q": "Flux density will",
+"o": [
+"increase linearly with coercive force",
+"decrease linearly with magnetic flux",
+"increase linearly with magnetic flux."
+],
+"a": [
+2
+]
+},
+{
+"q": "The flux valve is more stable than a magnetic compass because",
+"o": [
+"It is not subject to the momentum forces",
+"It is subject to the momentum forces",
+"None of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "Momentum forces in aircraft compass system",
+"o": [
+"Causes overshooting errors in indication for magnetic compass only",
+"Causes overshooting errors in both magnetic and flux valve compass system",
+"Causes overshooting errors only in flux valve system."
+],
+"a": [
+0
+]
+},
+{
+"q": "One common error in flux valve system is being subject to",
+"o": [
+"Southerly Turning error which results when it is not vertical",
+"Northerly Turning error which results when it is not horizontal",
+"Northerly Turning error which results when it is horizontal."
+],
+"a": [
+1
+]
+},
+{
+"q": "The signal from the flux valve system is not used for direct indication in the cockpit compass indicator due",
+"o": [
+"Southerly Turning errors",
+"Northerly Turning errors",
+"Both are correct"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which is the correct function of the flux valve",
+"o": [
+"Correct over a short term the stabilized source information",
+"Correct over a medium term the stabilized source information",
+"Correct over a long term the stabilized source information."
+],
+"a": [
+2
+]
+},
+{
+"q": "The purpose of the damping fluid between the two cases in a flux valve is",
+"o": [
+"Prevents the sensing element from becoming an active pendulum",
+"Helps the sensing element act like a pendulum",
+"None of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "In a cross sectional view of the flux valve",
+"o": [
+"The two cases are not hermetically sealed",
+"It is just one case that is hermetically sealed.",
+"The two cases are hermetically sealed. Compass License Questions AAVO-14"
+],
+"a": [
+2
+]
+},
+{
+"q": "The principle advantage of a gyromagnetic compass (slaved gyro compass) is :",
+"o": [
+"It does precess",
+"None of the above",
+"It combines the north-seeking ability of the magnetic compass with the stability of the direction indicator",
+"It does not have to be aligned with the north"
+],
+"a": [
+2
+]
+},
+{
+"q": "A remote indicating compass has usually less deviation error than a panel mounted compass because",
+"o": [
+"It receives a higher flux-density from the earth’s magnetic field",
+"The indication system consists of toroidal –wound coils forming a magnesyn system with little interference",
+"It is normally mounted in a part of the airplane where magnetic interference is minimal",
+"It is carrying a well damped floating magnet"
+],
+"a": [
+2
+]
+},
+{
+"q": "In a standby compass the magnet system is immersed in a transparent liquid. The purpose of this liquid is to:",
+"o": [
+"Increase sensitivity decrease aperiodicity",
+"Increase sensitivity at high latitude, lubricate bearings",
+"Increase sensitivity, reduce liquid swirl",
+"Increase sensitivity, increase aperiodicity"
+],
+"a": [
+3
+]
+},
+{
+"q": "when carrying out a turn at the magnetic equator there will be:",
+"o": [
+"a tendency to under read turns due to liquid swirl",
+"no turning error",
+"no turning error when turning through east or west only",
+"a tendency to under read turns through south and over read turns through north"
+],
+"a": [
+0
+]
+},
+{
+"q": "when accelerating on an easterly heading in the northern hemisphere, the magnet system of a direct reading magnetic compass will;",
+"o": [
+"turn anti-clockwise, indicating an apparent turn towards north",
+"turn clockwise, indicating an apparent turn towards south",
+"turn clockwise, indicating an apparent turn north",
+"turn anti-clockwise, indicating an apparent turn towards south"
+],
+"a": [
+2
+]
+},
+{
+"q": "the quadrantal deviation of the magnetic compass is due to the action of",
+"o": [
+"the hard iron pieces influenced by the mild iron pieces]",
+"the hard iron ices and the soft iron pieces influenced by the hard iron",
+"the soft iron pieces influenced by the geomagnetic field",
+"the hard iron pieces influenced by the geomagnetic field"
+],
+"a": [
+2
+]
+},
+{
+"q": "During a sustained turn.. the nearer magnetic pole, the effect of liquid swirl will ......... compass",
+"o": [
+"Away from; not effect",
+"Towards, increase",
+"Towards, not effect",
+"Away from, increases"
+],
+"a": [
+1
+]
+},
+{
+"q": "The purpose of a compass swing is to attempt to coincide the indication to coincide the indication of:",
+"o": [
+"Compass north and magnetic north",
+"True north and magnetic north",
+"Compass north and true north",
+"Compass north and the lubber line"
+],
+"a": [
+0
+]
+},
+{
+"q": "To improve the horizontality of a compass, the magnet assembly is suspended from a point",
+"o": [
+"Above the center of gravity",
+"Below the center of gravity",
+"On the center line of the magnet",
+"Varying with magnetic latitude"
+],
+"a": [
+0
+]
+},
+{
+"q": "What should be the indication on the magnetic compass when rolling into a standard rate turn to the right from a south heading in the Northern hemisphere?",
+"o": [
+"The compass will remain on south for a short time, then gradually catch up to the magnetic heading of the airplane",
+"The compass will indicate the appropriate correct magnetic heading if the roll into the turn is smooth",
+"The compass will indicate a turn to the right, but at a faster rate than is actually occurring",
+"The compass will indicate a turn to the left"
+],
+"a": [
+2
+]
+},
+{
+"q": "The magnetic heading can be derived from the true heading by means of a",
+"o": [
+"Map showing the isoclinic lines",
+"Map showing the isogonal lines",
+"Deviation correction curve",
+"Compass swinging curve"
+],
+"a": [
+1
+]
+},
+{
+"q": "The detector unit of a remote indicating compass is normally;",
+"o": [
+"Fixed in the vertical plane only",
+"Free in the vertical",
+"Fixed in the azimuth",
+"Free in the horizontal plane"
+],
+"a": [
+2
+]
+},
+{
+"q": "Aircraft magnetism:",
+"o": [
+"Varies with aircraft heading and latitude",
+"Does not vary with aircraft heading or latitude",
+"Does not vary with aircraft latitude but does vary with aircraft heading",
+"Varies with latitude but does not vary with aircraft heading"
+],
+"a": [
+3
+]
+},
+{
+"q": "In a steep turn, the northerly turning error on a magnetic compass on the northern hemisphere is:",
+"o": [
+"None on a 270* heading in a left turn",
+"Equal to 180* on a 090* heading in a right turn",
+"Equal to 180* on a 270* heading in a right turn",
+"None on a 090* heading in a right turn"
+],
+"a": [
+1
+]
+},
+{
+"q": "When turning from 060* to 320* in the northern hemisphere the direct reading compass will, (i) causing an ....., (ii) indication of the turn liquid swirl will ...., (iii)the error....",
+"o": [
+"(i) under read (ii) over (iii) decrease",
+"(i) under read (ii) over (iii) increase",
+"(i) over read (ii) under (iii) increase",
+"(i) over read (ii) under (iii) decrease"
+],
+"a": [
+2
+]
+},
+{
+"q": "In the northern hemisphere, a magnetic compass will normally indicate a turn towards north if;",
+"o": [
+"A right turn is entered from an east heading",
+"An aircraft is accelerated while on an east or west heading",
+"A left turn is entered from a west heading",
+"An aircraft is decelerated while on an east or west heading"
+],
+"a": [
+1
+]
+},
+{
+"q": "In the northern hemisphere, during deceleration following a landing in an easterly direction, the magnetic compass will indicate",
+"o": [
+"A constant heading",
+"A heading fluctuating about 090*",
+"An apparent turn to the north",
+"An apparent turn to the left"
+],
+"a": [
+3
+]
+},
+{
+"q": "Which of the following statements are correct",
+"o": [
+"Dip is inversely proportional to H",
+"Dip decreases with increase in latitude",
+"Dip is proportional to H",
+"Dip is inversely proportional to Z"
+],
+"a": [
+0
+]
+},
+{
+"q": "In a remote indicating compass, direction sensing is achieved by means of",
+"o": [
+"A magnet mounted in the unit which is always located in the port wing",
+"The RMI which acts as a master indicator, transmitting signals to the aircraft instruments regarding heading",
+"A detector unit is attached to the aircraft structure and senses the value of DIP to establish the aircraft position in the earth’s field",
+"Direction of the earth’s magnetic flux and uses the direction and intensity of the flux density, measured in a magnetic bar to indicate direction"
+],
+"a": [
+3
+]
+},
+{
+"q": "The main requirements of a direct reading compass are that it should be:",
+"o": [
+"Aperiodic, horizontal, sensitive",
+"Easily read, floating in a transparent liquid, quick to react to change in aircraft heading",
+"Positioned directly in front of the pilot, easily corrected for magnetic deviation, aperiodic",
+"Horizontal, sensitive, periodic"
+],
+"a": [
+0
+]
+},
+{
+"q": "The deviating effect of vertical soft iron. (i) with decrease of magnetic latitude, due to the..., (ii) of H and the...., (iii) of Z",
+"o": [
+"(i) decreases (ii) increase (iii) increase",
+"(i) decreases (ii) increase (iii) decrease",
+"(i) increases (ii) decrease (iii) decrease",
+"(i) increases (ii) decrease (iii) increase"
+],
+"a": [
+1
+]
+},
+{
+"q": "When accelerating on a westerly heading in the northern hemisphere the needle of the DIC will",
+"o": [
+"Turn anti-clockwise giving an apparent turn towards north",
+"Turn clockwise giving an apparent turn towards north",
+"Turn anti-clockwise giving an apparent turn towards south",
+"Turn clockwise giving an apparent turn towards south"
+],
+"a": [
+0
+]
+},
+{
+"q": "The compass heading can be derived from the magnetic heading by reference to a;",
+"o": [
+"Map showing the isoclinic lines",
+"Compass swinging curve",
+"Map showing the isogonic lines",
+"Deviation correction curve"
+],
+"a": [
+3
+]
+},
+{
+"q": "If an aircraft, fitted with a DIC, takes off on a westerly heading, in the northern hemisphere, the DRMC will indicate",
+"o": [
+"A turn to south",
+"A turn to the north",
+"No turn",
+"Oscillates about west"
+],
+"a": [
+1
+]
+},
+{
+"q": "The fields affecting a magnetic compass originate from;  Magnetic masses  Ferrous metal masses  Non ferrous metal masses  Electrical currents  the combination of correct statements are",
+"o": [
+"1,2,4",
+"1,2,3,4",
+"1,3,4",
+"1,2,3"
+],
+"a": [
+0
+]
+},
+{
+"q": "Magnetic compass swinging is carried out to reduce as much as possible:",
+"o": [
+"Variation",
+"Deviation",
+"Regulation",
+"Acceleration"
+],
+"a": [
+1
+]
+},
+{
+"q": "The purpose of compass swing is to determine the deviation of a magnetic compass;",
+"o": [
+"On a given heading",
+"On any heading",
+"At a given latitude",
+"At any latitude"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following will effect? Ferrous metals Non-ferrous metals Electrical equipment",
+"o": [
+"1 & 3",
+"1 only",
+"1& 2",
+"All 3"
+],
+"a": [
+0
+]
+},
+{
+"q": "An aircraft turns left from 045* in the southern hemisphere. The magnets turn (i) .... and liquid swirls (ii) ... causing an error",
+"o": [
+"(i) clockwise (ii) anti-clockwise",
+"(i) anti-clockwise (ii) anti-clockwise",
+"(i) clockwise (ii) clockwise",
+"(i) anti-clockwise (ii) clockwise"
+],
+"a": [
+0
+]
+},
+{
+"q": "In the southern hemisphere, during deceleration following a landing in a westerly direction, the magnetic compass will induce",
+"o": [
+"A heading fluctuating about 270*",
+"An apparent turn to the south",
+"An apparent turn to the north",
+"No apparent turn"
+],
+"a": [
+2
+]
+},
+{
+"q": "The main cause of error in a DRMC is:",
+"o": [
+"Magnetic deviation",
+"Crosswinds – particularly on east\\west headings",
+"turning",
+"parallax in the nose"
+],
+"a": [
+2
+]
+},
+{
+"q": "if the CH = 220*, variation = E12, dev = W2. What is the corresponding TH?",
+"o": [
+"TH = 230*",
+"TH = 210*",
+"TH = 234*",
+"TH = 206*"
+],
+"a": [
+0
+]
+},
+{
+"q": "The sensor part of the flux valve is;",
+"o": [
+"Separate GPS signal receiver",
+"The two pickoff coils",
+"Separate electronic magnetic compass",
+"The three pickoff coils"
+],
+"a": [
+3
+]
+},
+{
+"q": "In the northern hemisphere, during deceleration following a landing in a westerly direction, the magnetic compass will indicate:",
+"o": [
+"An apparent turn to the north",
+"An apparent turn to the south",
+"No apparent turn",
+"A heading fluctuating about 270*"
+],
+"a": [
+1
+]
+},
+{
+"q": "When turning onto a northerly heading, the rose of a magnetic compass tends to “undershoot” when turning onto a southerly heading it tends to “overshoot”  These compass indication are less reliable in the northerly hemisphere than in the southern hemisphere  These compass oscillations following a lateral gust are not identical if the aircraft is heading north or south  This behaviour is due to the mechanical construction of the compass  This behaviour is a symptom of a badly swung compass  The correct statements are",
+"o": [
+"1,2 & 4",
+"1 & 3",
+"2,3 & 4",
+"2 & 3"
+],
+"a": [
+3
+]
+},
+{
+"q": "A pilot wishes to turn right on to a northerly heading with 20* bank at a latitude of 40* north. Using a direct reading compass, in order to achieve this he must stop the turn on an appropriate heading of:",
+"o": [
+"360*",
+"010*",
+"330*",
+"030*"
+],
+"a": [
+2
+]
+},
+{
+"q": "Variation is defined as the angle between",
+"o": [
+"TN and CN",
+"MN and CN",
+"CN and the longitudinal axis of the aircraft",
+"TN and MN"
+],
+"a": [
+3
+]
+},
+{
+"q": "For a position in the southern hemisphere, the effect of acceleration errors are greatest on headings:",
+"o": [
+"180* (c) and 360* (c)",
+"045* (c) and 225* (c)",
+"090* (c) and 270* (c)",
+"135* (c) and 315* (c)"
+],
+"a": [
+2
+]
+},
+{
+"q": "A compass swing is used to:",
+"o": [
+"Get TN and lubber line aligned",
+"Align MN and TN",
+"Align CN and MN",
+"Align CN and TN"
+],
+"a": [
+2
+]
+},
+{
+"q": "In a standby direct reading compass there is:",
+"o": [
+"A non-pendulously mounted magnet system",
+"A circular magnet or pair of bar magnet pendulously mounted",
+"A low magnetic moment system, either of circular or bar configuration",
+"A single pendulously mounted bar magnet"
+],
+"a": [
+1
+]
+},
+{
+"q": "During acceleration following a landing in the northerly direction, the magnetic compass will indicate:",
+"o": [
+"A heading fluctuating about 360*",
+"An apparent turn to the west",
+"An apparent turn to the east",
+"No apparent turn"
+],
+"a": [
+3
+]
+},
+{
+"q": "During acceleration following a landing in the southerly direction, a magnetic compass made for the northern hemisphere indicates:",
+"o": [
+"An apparent turn to the east",
+"No apparent turn only on northern latitude",
+"No apparent turn",
+"An apparent turn to the west"
+],
+"a": [
+2
+]
+},
+{
+"q": "A pilot wishes to turn right on a southerly heading with 20* bank at a latitude of 20* north. Using a direct reading compass in order to achieve this he must stop the turn on an appropriate heading of:",
+"o": [
+"190*",
+"150*",
+"170*",
+"210*"
+],
+"a": [
+3
+]
+},
+{
+"q": "With reference to the flux valve of a remote indicating compass:",
+"o": [
+"The flux valve is not subject to acceleration errors",
+"The flux valve is pendulously mounted and is free to turn to remain aligned with the earth magnetic field",
+"The flux valve is fixed to the aircraft so turns with the aircraft to measure the angle between the aircraft and the earth’s magnetic field",
+"The flux valve is pendulously mounted and so it is not subject to or affected by the earth’s magnetic field"
+],
+"a": [
+2
+]
+},
+{
+"q": "The main reason for having the center of gravity below the pivot point in a card type magnetic compass is:",
+"o": [
+"To compensate for the vertical magnetic Z component such that the magnet system is within approximately 2” of the true horizontal between 60* N and 40* S",
+"To make it less sensitive to hard and soft-iron magnetism in the aircraft",
+"To compensate for the horizontal magnetic component H such that the magnet system is within approximately 2” of the horizontal between 60* N and 40* S.",
+"To cancel out the systems pendulousity and its tendency to oscillate backwards and forwards about its equilibrium position"
+],
+"a": [
+0
+]
+},
+{
+"q": "An aircraft takes off on a runway with an alignment of 45*. The isogonic lines on the area chart indicate 0*. The compass deviation 0*. On a takeoff with zero wind, the northerly turning error:",
+"o": [
+"Will be null if the wings are kept level",
+"Is such that the compass will indicate a value noticeably before 045*",
+"Is such that the compass will indicate a value noticeably above 045*",
+"Will be null"
+],
+"a": [
+1
+]
+},
+{
+"q": "During deceleration following a landing in a southerly direction, the magnetic compass will indicate:",
+"o": [
+"An apparent turn to the west",
+"No apparent turn",
+"A heading fluctuating about 180*",
+"An apparent turn to the east"
+],
+"a": [
+1
+]
+},
+{
+"q": "A picture of a remote indicating compass is attached. What are the components X, Y and Z?",
+"o": [
+"AC excitation, pick-off coils and rotor",
+"Pick-off coil, rotor and stator",
+"Pick-off coil, stator and rotor",
+"Stator, ac excitation and pick-off coil"
+],
+"a": [
+2
+]
+},
+{
+"q": "The quadrantal deviation of a magnetic compass is corrected by using",
+"o": [
+"Hard iron pieces",
+"Pairs of permanent magnets",
+"Magnetized needles",
+"Soft iron pieces"
+],
+"a": [
+3
+]
+},
+{
+"q": "Concerning magnetic compasses, deviation is:",
+"o": [
+"Compass north",
+"A card in the cockpit showing compass heading errors",
+"The angular difference between MN and CN",
+"The angular difference between MN and TN"
+],
+"a": [
+2
+]
+},
+{
+"q": "The directive force of the earth’s magnetic field:",
+"o": [
+"Increases as the magnetic variation increases",
+"Increases as magnetic latitude increases",
+"Is greatest at the magnetic equator",
+"Varies with the heading of the aircraft"
+],
+"a": [
+2
+]
+},
+{
+"q": "The purpose of the annunciator unit of the remote indicating compass is to:",
+"o": [
+"Show whether the compass is operating either in the GYRO or COMPASS mode",
+"Advise if the gyro is exposed to excessive wander",
+"Display the serviceability of the compass",
+"Indicate that the gyro is synchronized with the detector unit"
+],
+"a": [
+3
+]
+},
+{
+"q": "A pilot wishes to turn left on a northerly heading with 10* bank at a latitude of 50* north. Using a direct reading compass, in order to achieve this he must stop the turn on an appropriate heading of:",
+"o": [
+"330*",
+"355*",
+"030*",
+"015*"
+],
+"a": [
+2
+]
+},
+{
+"q": "Among the errors of a magnetic compass, are errors:",
+"o": [
+"In north seeking, due to bank angle and magnetic heading",
+"Of parallax, due to oscillations of the compass rose",
+"due to Schuler type oscillations",
+"Due to crosswind gusts particularly on westerly or easterly headings"
+],
+"a": [
+0
+]
+},
+{
+"q": "An aircraft is fitted with a direct reading magnetic compass. Upon landing in a northerly direction the compass will indicate:",
+"o": [
+"No change",
+"A turn towards east",
+"A turn towards west",
+"An oscillation to its north alignment"
+],
+"a": [
+0
+]
+},
+{
+"q": "A pilot wishes to turn left on to a southerly heading with 20* bank at a latitude of 20* NORTH. Using a direct reading compass, in order to achieve this he must stop the turn on an appropriate heading of:",
+"o": [
+"160*",
+"170*",
+"190*",
+"200*"
+],
+"a": [
+0
+]
+},
+{
+"q": "In the southern hemisphere, during deceleration following a landing in an easterly direction, the magnetic compass will indicate:",
+"o": [
+"A heading fluctuating about 090*",
+"No apparent turn",
+"An apparent turn to the south",
+"An apparent turn to the north COMPASS"
+],
+"a": [
+3
+]
+},
+{
+"q": "Permalloy, a magnetic material from its B/H curve has",
+"o": [
+"Low remnant and low permeability",
+"High remnant and high permeability",
+"High permeability and low remnant"
+],
+"a": [
+2
+]
+},
+{
+"q": "The power of rotating magnetism in a magnetic material is",
+"o": [
+"permeability",
+"reminant",
+"Coacitivity"
+],
+"a": [
+2
+]
+},
+{
+"q": "The flux detector Ream helps to concentrate",
+"o": [
+"The earth’s magnetic field around the detector element",
+"The primary flux around the detector",
+"The secondary flux around the detector"
+],
+"a": [
+0
+]
+},
+{
+"q": "The three spokes of the detector element are",
+"o": [
+"180 degrees apart",
+"120 degrees apart",
+"100 degrees apart"
+],
+"a": [
+1
+]
+},
+{
+"q": "The power supply to the flux detector exciter is",
+"o": [
+"115v ac 400Hz",
+"26v ac 400Hz",
+"23v ac 400Hz"
+],
+"a": [
+1
+]
+},
+{
+"q": "The flux detector element is suspended by a universal joint known as Hook joint which",
+"o": [
+"Allows typically 250 freedom in pitch",
+"Allows typically 250 freedom in roll",
+"All of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "Permeability is defined as",
+"o": [
+"The ratio of flux density B to magnetizing force H",
+"the ease at which magnetic force is",
+"All of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "Flux valve open the gate of earth static magnetic component to flow through",
+"o": [
+"When the primary excitation current increases in reluctance of the core material",
+"When the core material is reduces by the excitation current",
+"When the permeability of the material change"
+],
+"a": [
+1
+]
+},
+{
+"q": "The flux valve above is",
+"o": [
+"Hermetically sealed and partially filled with oil",
+"Hermetically sealed and filled with alcohol",
+"hermetically filled to reduce oscillation"
+],
+"a": [
+0
+]
+},
+{
+"q": "Flux valve typical locations are",
+"o": [
+"wing tips and vertical stabilizers",
+"Tail boom area",
+"All of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "In many magnetic heading reference system installations, the detector elements are of Pre- indexed type.",
+"o": [
+"The detector element must be adjusted for coefficient A when removed and replaced.",
+"A complete compass swing must be carried out after replacement.",
+"The system does not required coefficient of A adjustment after detector element replacement."
+],
+"a": [
+2
+]
+},
+{
+"q": "Magnetic inductance is defined as:",
+"o": [
+"The opposition to established of a flux density.",
+"Opposition to establishment of a magnetic field.",
+"The force that restores flux density to zero."
+],
+"a": [
+1
+]
+},
+{
+"q": "The compensator adjustment is done when:",
+"o": [
+"There is a different between the standby compass and the compass system.",
+"When compass flag is in",
+"During compass swing"
+],
+"a": [
+2
+]
+},
+{
+"q": "The value of the static flux for any position of the detector element is:",
+"o": [
+"The cosine of the angle between the earth magnetic component H and that of the axis of the detector element.",
+"The sine of the angle between the earth Horizontal component H and thee axis of the detector element.",
+"The cosine of the angle between earth horizontal component H and that of the Z component."
+],
+"a": [
+0
+]
+},
+{
+"q": "With the introduction of the earth component H.",
+"o": [
+"The magnetizing force of the exciter drive the detector element flux density into saturation.",
+"The magnetizing force of the shift to the positive or negative side of the flux density",
+"All of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "During each half cycle of the primary excitation voltage, the small flux of the earth component H cut the secondary pick up coils:",
+"o": [
+"Once",
+"twice",
+"thrice"
+],
+"a": [
+1
+]
+},
+{
+"q": "The frequency of the pick off the secondary coil is",
+"o": [
+"Twice that of the exciter",
+"Is second harmonic frequency of 800Hz",
+"All of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "To sense maximum effect of the earth component H",
+"o": [
+"The detector element must have freedom in Azimuth.",
+"Must have no freedom in Azimuth.",
+"Has freedom in pitch and roll"
+],
+"a": [
+0
+]
+},
+{
+"q": "A red warning flag in view on a radio magnetic inductor or horizontal situation indicates.",
+"o": [
+"System automatic synchronization in progress.",
+"Loss of 26v ac power to the compass system.",
+"Either of the above."
+],
+"a": [
+2
+]
+},
+{
+"q": "The radio magnetic indicator (RMI) the pilot with:",
+"o": [
+"Magnetic heading and ADF information.",
+"VOR and ADF information.",
+"Compass ADF and VOR information."
+],
+"a": [
+2
+]
+},
+{
+"q": "On DG mode error signal is detected by.",
+"o": [
+"DG control transmitter.",
+"Slaving control transmitter.",
+"Flux valve control transformer."
+],
+"a": [
+1
+]
+},
+{
+"q": "At magnetic saturation:",
+"o": [
+"Retentivity is greater than residual magnetism.",
+"Residual magnetisim is greater than retentivity.",
+"Retentivity and residual magnetism are equal."
+],
+"a": [
+2
+]
+},
+{
+"q": "One of the slots in the mounting flange of the flux detector is calibrated a limited number of degrees on each side of the zero position.",
+"o": [
+"The zero position corresponds to aircraft heading.",
+"The zero position is for centralizing the flux detector.",
+"The zero position corresponds to aircraft installation datum for adjustment A."
+],
+"a": [
+2
+]
+},
+{
+"q": "The normal automatic synchronization of a typical heading reference system takes place at the rate of:",
+"o": [
+"1 degree for 2 minutes.",
+"2 degrees per minute.",
+"5 degrees per minute."
+],
+"a": [
+0
+]
+},
+{
+"q": "Manual synchronization takes place at a fast rate which is typically:",
+"o": [
+"2 degrees per minute.",
+"1 degrees per minute.",
+"3 degrees per minute."
+],
+"a": [
+2
+]
+},
+{
+"q": "When the pointer of the synchronizing indicator deflects to the cross position:",
+"o": [
+"This indicate an under reading of the compass dial.",
+"This indicate an over reading of the compass dial.",
+"This calls for a decrease of the compass dial indication."
+],
+"a": [
+0
+]
+},
+{
+"q": "Heading knob on the RMI or HSI",
+"o": [
+"Drives the compass dial",
+"Drives the heading bug",
+"Drives the heading pointer"
+],
+"a": [
+1
+]
+},
+{
+"q": "The heading pointer is",
+"o": [
+"A fixed lubber line",
+"A rotating lubar line",
+"Also the heading bug"
+],
+"a": [
+0
+]
+},
+{
+"q": "The heading bug information is coupled to",
+"o": [
+"Flight director system",
+"Compass system",
+"Directional gyro"
+],
+"a": [
+0
+]
+},
+{
+"q": "Heading data signals can be obtained for autopilot control system from.",
+"o": [
+"Flux detector.",
+"Directional gyro and RMI.",
+"RMI or HIS only."
+],
+"a": [
+1
+]
+},
+{
+"q": "The electromagnetic compensator are connected to",
+"o": [
+"The exciter of the detector element",
+"The slaving synchro transmitter stator",
+"Pick off coil windings"
+],
+"a": [
+2
+]
+},
+{
+"q": "The power supply to the compensator unit is",
+"o": [
+"26v ac 400Hz",
+"28v DC",
+"115v ac 400Hz"
+],
+"a": [
+0
+]
+},
+{
+"q": "During compass damping test a typical time for compass to return through 850",
+"o": [
+"Should not be more than 10 seconds",
+"should not be more than 20 seconds",
+"should not be more than 15 seconds"
+],
+"a": [
+0
+]
+},
+{
+"q": "The accuracy of the compass base should be check",
+"o": [
+"Every 10 years",
+"Every 5 years",
+"By annually"
+],
+"a": [
+1
+]
+},
+{
+"q": "During standby compass friction pivot check the difference between the two circuit point should not exceed",
+"o": [
+"2 degrees",
+"3degrees",
+"4 degrees"
+],
+"a": [
+0
+]
+},
+{
+"q": "The inductance of the detector element of the flux valve is varied by:",
+"o": [
+"The current flowing through the secondary pick of coils",
+"The alternative flux due to the primary coil",
+"The alignment of earth magnetic field"
+],
+"a": [
+2
+]
+}
+]

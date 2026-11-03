@@ -90,6 +90,7 @@ deji = [{**q, 'q': re.sub(r'^\d+[.)]\s+', '', q['q'])} for q in I('deji.json')] 
 folder('deji', 'General to use (Deji)', 'general', [('deji', None, deji)])
 folder('g23', '2023 GENERALS', 'general', [('g23', None, I('g23.json'))])   # one folder, like Deji
 folder('gp2', 'GENERAL PAPER 2', 'general', [('gp2', None, I('gp2.json'))])   # one folder, like Deji
+folder('comp', 'DIRECT READING COMPASS QUESTIONS', 'compass', [('comp', None, I('compass.json'))])   # its own section, Compass
 
 # ---------- Piston ----------
 folder('pist', 'SLIDE ON PISTON AND SYSTEMS', 'piston', [('piston', None, piston)])
@@ -114,7 +115,7 @@ ame = I('ame.json')
 folder('ame1', 'AME PART 1', 'pma', [('ame1', None, [q for q in ame if q['src'].startswith('AME PART 1')])])
 folder('ame2', 'AME PART 2', 'pma', [('ame2', None, [q for q in ame if q['src'].startswith('AME PART 2')])])
 folder('jul19', 'AIRFRAME QUESTION - JULY 2019', 'pma', [('jul19', None, I('july.json'))])
-SHOW = ['gp24', 'gp', 'deji', 'g23', 'gp2', 'pist', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa']
+SHOW = ['gp24', 'gp', 'deji', 'g23', 'gp2', 'comp', 'pist', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa']
 live = {x['folder'] for x in subjects if x['count']}
 folders = sorted([fo for fo in folders if fo['id'] in live], key=lambda fo: SHOW.index(fo['id']))   # a file with nothing new is not shown
 subjects.sort(key=lambda x: SHOW.index(x['folder']))
@@ -123,7 +124,7 @@ kept = sum(1 for q in Q if q['id'] in old_pma or q['s'] in GEN or q['s'] == 'pis
 print('total', len(Q), '| ids kept from before:', kept, '| old pressurised ids kept:', sum(q['id'] in old_pma for q in Q), 'of 527')
 # files left with fewer than 20 questions of their own share one folder, so the page isn't full of tiny folders
 SMALL = 0   # 0: every file is its own folder, however few questions it has left
-for paper in ('general', 'piston', 'pma'):
+for paper in ('general', 'piston', 'pma', 'compass'):
     tiny = [fo for fo in folders if fo['paper'] == paper and sum(x['count'] for x in subjects if x['folder'] == fo['id']) < SMALL]
     if len(tiny) < 2: continue
     mid = paper + '-other'
@@ -133,7 +134,7 @@ for paper in ('general', 'piston', 'pma'):
     print(paper, 'OTHER FILES:', [fo['name'] for fo in tiny])
 B = {'source': 'One folder per file sent: ' + '; '.join(f['name'] for f in folders),
      'papers': [{'id': 'general', 'name': 'General Paper', 'short': 'General'}, {'id': 'piston', 'name': 'Piston Engines', 'short': 'Piston'},
-                {'id': 'pma', 'name': 'Pressurised Airframe', 'short': 'Pressurised'}],
+                {'id': 'pma', 'name': 'Pressurised Airframe', 'short': 'Pressurised'}, {'id': 'compass', 'name': 'Compass', 'short': 'Compass'}],
      'folders': folders, 'subjects': [s for s in subjects if s['count']], 'questions': Q}
 json.dump(B, open(DATA, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 

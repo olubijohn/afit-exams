@@ -389,9 +389,9 @@ function authLayout(inner) {
       ${logo()}
       <div>
         <h2>NCAT exam practice</h2>
-        <p class="lead">Past questions for the general paper, piston engines and pressurised airframe, marked as you go.</p>
+        <p class="lead">Past questions for the general paper, piston engines, pressurised airframe and compass, marked as you go.</p>
         <ul class="feat">
-          <li><span class="tick">${I.check}</span><span><b>${S.full.length.toLocaleString()} questions</b> in three papers: ${S.papers.map(p => esc(p.name)).join(', ').replace(/, ([^,]*)$/, ' and $1')}.</span></li>
+          <li><span class="tick">${I.check}</span><span><b>${S.full.length.toLocaleString()} questions</b> in ${["no", "one", "two", "three", "four", "five", "six"][S.papers.length] || S.papers.length} papers: ${S.papers.map(p => esc(p.name)).join(', ').replace(/, ([^,]*)$/, ' and $1')}.</span></li>
           <li><span class="tick">${I.check}</span><span>Pick an answer and see straight away if it's right, and what the right answer is.</span></li>
           <li><span class="tick">${I.check}</span><span>Your scores are saved, so you can go back over the ones you missed.</span></li>
         </ul>
@@ -1548,7 +1548,7 @@ async function boot() {
     S.folders = bank.folders || [];
     const inFolder = id => S.subjects.filter(x => x.folder === id).length;
     S.subjects = S.allSubjects = S.subjects.map(x => { const fo = S.folders.find(f => f.id === x.folder); return fo && inFolder(fo.id) > 1 && fo.paper !== 'general' ? { ...x, sec: x.name, name: fo.name } : x; });
-    const SHORT = { law: 'LAW', aero1: 'AE1', aero2: 'AE2', sheet: 'SM', hardware: 'HW', drawing: 'DRG', hf1: 'HF1', hf2: 'HF2', piston: 'PE', pma: 'PP', gp: 'GP', deji: 'DJ', g23: 'G23', gp2: 'GP2', p200: '200', jul19: 'J19', ame1: 'AM1', ame2: 'AM2', pma19: 'P19', pmas: 'PMS', pma18: 'P18' };
+    const SHORT = { law: 'LAW', aero1: 'AE1', aero2: 'AE2', sheet: 'SM', hardware: 'HW', drawing: 'DRG', hf1: 'HF1', hf2: 'HF2', piston: 'PE', pma: 'PP', gp: 'GP', deji: 'DJ', g23: 'G23', gp2: 'GP2', comp: 'CMP', p200: '200', jul19: 'J19', ame1: 'AM1', ame2: 'AM2', pma19: 'P19', pmas: 'PMS', pma18: 'P18' };
     S.subjects.forEach(x => { if (/^ncaa-/.test(x.id)) SHORT[x.id] = 'P' + x.id.slice(5); if (/^m11-/.test(x.id)) SHORT[x.id] = x.id.slice(4).replace('-', '.'); });
     S.subjects.forEach((s, i) => { S.subj[s.id] = { ...s, i, short: s.short || SHORT[s.id] || s.name.slice(0, 3).toUpperCase() }; });
     const k = {};
