@@ -45,9 +45,9 @@ prior = collections.defaultdict(lambda: collections.defaultdict(list)); dropped 
 def is_repeat(paper, q, uo):
     ok = {k(x)[:20] for x in uo}
     return any(len(ok & other) >= 2 for other in prior[paper][k(q)[:70]])
-def folder(fid, name, paper, sections):
-    """sections: list of (subject id, section name or None, [questions])"""
-    folders.append({'id': fid, 'name': name, 'paper': paper})
+def folder(fid, name, paper, sections, topics=False):
+    """sections: list of (subject id, section name or None, [questions]); topics=True opens the folder onto its sections"""
+    folders.append({'id': fid, 'name': name, 'paper': paper, **({'topics': True} if topics else {})})
     tot = 0; audit[name] = collections.Counter()
     for sid, sname, items in sections:
         audit[name]['parsed'] += len(items)
@@ -121,7 +121,7 @@ AAP = {'AIRCRAFT GROUND HANDLING': 'gh', 'LANDING GEAR': 'lg', 'AIRCRAFT STRUCTU
        'ICE AND RAIN PROTECTION SYSTEM': 'ice', 'HYDRAULICS & PNEUMATIC SYSTEM': 'hyd', 'TYRES': 'tyre', 'WHEELS': 'whl',
        'BRAKES': 'brk', 'ANTI-SKID': 'ask', 'CABIN EQUIPMENT': 'cab', 'AIRCRAFT FIRE PROTECTION SYSTEMS': 'fire',
        'VACUUM SYSTEM': 'vac', 'WATER AND WASTE SYSTEMS': 'ww', 'ELECTRICAL SYSTEM': 'elec'}
-folder('aap14', 'UNPRESSURIZED LICENSE AAP14', 'upma', [('aap14-' + AAP[s['name']], s['name'], s['qs']) for s in I('aap14.json')])
+folder('aap14', 'UNPRESSURIZED LICENSE AAP14', 'upma', [('aap14-' + AAP[s['name']], s['name'], s['qs']) for s in I('aap14.json')], topics=True)
 SHOW = ['gp24', 'gp', 'deji', 'g23', 'gp2', 'comp', 'pist', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa', 'aap14']
 live = {x['folder'] for x in subjects if x['count']}
 folders = sorted([fo for fo in folders if fo['id'] in live], key=lambda fo: SHOW.index(fo['id']))   # a file with nothing new is not shown
