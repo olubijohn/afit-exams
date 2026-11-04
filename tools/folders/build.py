@@ -1,5 +1,5 @@
 """Build data/questions.json with one folder per file that was sent, in that file's own order.
-Papers: General Paper, Piston Engines, Pressurised Airframe, Unpressurised Metal Airframe, Compass. Each folder holds the file's questions;
+Papers: General Paper, Piston Engines, Pressurised Airframe, Unpressurised Metal Airframe, Gas Turbine Engine, Compass. Each folder holds the file's questions;
 where the file has its own sections (NCAA papers 1-3, Module 11 chapters, the general paper's subjects)
 they become sections inside the folder.
 Questions that were already in the app keep their id, so people's progress carries over.
@@ -122,7 +122,12 @@ AAP = {'AIRCRAFT GROUND HANDLING': 'gh', 'LANDING GEAR': 'lg', 'AIRCRAFT STRUCTU
        'BRAKES': 'brk', 'ANTI-SKID': 'ask', 'CABIN EQUIPMENT': 'cab', 'AIRCRAFT FIRE PROTECTION SYSTEMS': 'fire',
        'VACUUM SYSTEM': 'vac', 'WATER AND WASTE SYSTEMS': 'ww', 'ELECTRICAL SYSTEM': 'elec'}
 folder('aap14', 'UNPRESSURIZED LICENSE AAP14', 'upma', [('aap14-' + AAP[s['name']], s['name'], s['qs']) for s in I('aap14.json')], topics=True)
-SHOW = ['gp24', 'gp', 'deji', 'g23', 'gp2', 'comp', 'pist', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa', 'aap14']
+# ---------- Gas Turbine Engine ----------
+# two files, each split into its own topics (gte.py: the Word file's six papers by their headings, the PDF's 15.1-15.22)
+G = I('gte.json')
+folder('gte24', 'GTE LICENSE EXAM COMPILATION 2024', 'gte', [(f'gte24-{i}', s['name'], s['qs']) for i, s in enumerate(G['doc'], 1)], topics=True)
+folder('m15', 'EASA PART 66 BLOG Module 15, Gas Turbine Engine', 'gte', [('m15-' + s['name'].split(' ')[0].split('.')[1], s['name'], s['qs']) for s in G['pdf']], topics=True)
+SHOW = ['gp24', 'gp', 'deji', 'g23', 'gp2', 'comp', 'pist', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa', 'aap14', 'gte24', 'm15']
 live = {x['folder'] for x in subjects if x['count']}
 folders = sorted([fo for fo in folders if fo['id'] in live], key=lambda fo: SHOW.index(fo['id']))   # a file with nothing new is not shown
 subjects.sort(key=lambda x: SHOW.index(x['folder']))
@@ -131,7 +136,7 @@ kept = sum(1 for q in Q if q['id'] in old_pma or q['s'] in GEN or q['s'] == 'pis
 print('total', len(Q), '| ids kept from before:', kept, '| old pressurised ids kept:', sum(q['id'] in old_pma for q in Q), 'of 527')
 # files left with fewer than 20 questions of their own share one folder, so the page isn't full of tiny folders
 SMALL = 0   # 0: every file is its own folder, however few questions it has left
-for paper in ('general', 'piston', 'pma', 'upma', 'compass'):
+for paper in ('general', 'piston', 'pma', 'upma', 'gte', 'compass'):
     tiny = [fo for fo in folders if fo['paper'] == paper and sum(x['count'] for x in subjects if x['folder'] == fo['id']) < SMALL]
     if len(tiny) < 2: continue
     mid = paper + '-other'
@@ -142,7 +147,8 @@ for paper in ('general', 'piston', 'pma', 'upma', 'compass'):
 B = {'source': 'One folder per file sent: ' + '; '.join(f['name'] for f in folders),
      'papers': [{'id': 'general', 'name': 'General Paper', 'short': 'General'}, {'id': 'piston', 'name': 'Piston Engines', 'short': 'Piston'},
                 {'id': 'pma', 'name': 'Pressurised Airframe', 'short': 'Pressurised'},
-                {'id': 'upma', 'name': 'Unpressurised Metal Airframe', 'short': 'Unpressurised'}, {'id': 'compass', 'name': 'Compass', 'short': 'Compass'}],
+                {'id': 'upma', 'name': 'Unpressurised Metal Airframe', 'short': 'Unpressurised'},
+                {'id': 'gte', 'name': 'Gas Turbine Engine', 'short': 'Gas Turbine'}, {'id': 'compass', 'name': 'Compass', 'short': 'Compass'}],
      'folders': folders, 'subjects': [s for s in subjects if s['count']], 'questions': Q}
 json.dump(B, open(DATA, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 

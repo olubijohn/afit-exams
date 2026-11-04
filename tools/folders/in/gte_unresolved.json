@@ -1,0 +1,130 @@
+[
+ [
+  "BASIC HELICOPTER POWER PLANT EXAMINATION",
+  "2 options, 0 marked",
+  "In the NCAR 145 rating system the rating B relates to:",
+  [
+   "Components",
+   "Aircraft not exceeding 5700=B\\"
+  ]
+ ],
+ [
+  "GAS TURBINE ENGINE CURRENTS OCTOBER 2020",
+  "3 options, 3 marked",
+  "Electrical de-icing operates.",
+  [
+   "continuously and intermittently.",
+   "cyclically independent of ambient air temperature.",
+   "cyclically dependent on ambient air temperature."
+  ]
+ ],
+ [
+  "GAS TURBINE ENGINE CURRENTS OCTOBER 2020",
+  "3 options, 2 marked",
+  "The term 'Ram Ratio' with regard to air intakes in the relationship between",
+  [
+   "Ambient pressure and Ambient temperature ambient",
+   "Ambient temperature and compressor inlet temperature",
+   "Ambient pressure and compressor inlet pressure"
+  ]
+ ],
+ [
+  "GAS TURBINE ENGINE CURRENTS OCTOBER 2020",
+  "3 options, 2 marked",
+  "When the leading edge of a first -stage turbine blade is found to have stress Rupture cracks, which of the following should be suspected?",
+  [
+   "Faulty cooling shield",
+   "Over temperature condition",
+   "Overs peed condition"
+  ]
+ ],
+ [
+  "GAS TURBINE ENGINE CURRENTS OCTOBER 2020",
+  "3 options, 2 marked",
+  "What is the proper starting sequence for a turbojet engine?",
+  [
+   "Ignition, starter, fuel",
+   "Starter, ignition, fuel",
+   "Starter, fuel, ignition"
+  ]
+ ],
+ [
+  "GAS TURBINE ENGINE CURRENTS OCTOBER 2020",
+  "3 options, 2 marked",
+  "Components that are having ultimate retirement life are said to be on what system of maintenance?",
+  [
+   "Condition Monitoring",
+   "Hard Time",
+   "Fixed Time"
+  ]
+ ],
+ [
+  "GAS TURBINE ENGINE CURRENTS OCTOBER 2020",
+  "3 options, 2 marked",
+  "Turbine blades are generally more susceptible to operating damage than compressor blades because of?",
+  [
+   "Higher centrifugal loading",
+   "Exposure to high temperatures",
+   "High pressure and high velocity gas flow"
+  ]
+ ],
+ [
+  "GAS TURBINE ENGINE CURRENTS OCTOBER 2020",
+  "2 options, 0 marked",
+  "Temperature of the mass airflow through a Gas Turbine Engine. ption A. increases from the inlet, through the compressor and the diffuser into the burner, and decreases through the turbine into the exhaust.",
+  [
+   "increases from the inlet, through the compressor and remains constant through the diffuser and increases at the burner, and decreases through the turbine into the exhaust.",
+   "remains constant at the inlet, increases from the compressor and the diffuser into the burner, and decreases through the turbine into the exhaust."
+  ]
+ ],
+ [
+  "GAS TURBINE ENGINE OBJECTIVE TEST QUESTIONS",
+  "1 options, 0 marked",
+  "The correct sequence for starting gas turbine engine is",
+  [
+   "Starter, ignition and Fuel Fuel, Ignition and starter Starter, fuel and ignition"
+  ]
+ ],
+ [
+  "GAS TURBINE ENGINE OBJECTIVE TEST QUESTIONS",
+  "0 options, 0 marked",
+  "A jet engine gear box breather is prevented from leaking oil to atmosphere by the action of:",
+  []
+ ],
+ [
+  "GAS TURBINE ENGINE OBJECTIVE TEST QUESTIONS",
+  "0 options, 0 marked",
+  "A full flow oil system has:",
+  []
+ ],
+ [
+  "GAS TURBINE ENGINE OBJECTIVE TEST QUESTIONS",
+  "1 options, 0 marked",
+  "What would be the effect on the engine if the B.P.C half ball valve in the servo line sticks open?",
+  [
+   "An increase of fuel flow, therefore an increase in RPM. The B.P.C would be ineffective at sea level only. A reduction of fuel flow, therefore a decrease in RPM."
+  ]
+ ],
+ [
+  "15.7 Engine Exhaust",
+  "answer not one of the options",
+  "Thrust reversers utilizing a pneumatic actuating system, usually receive operating pressure from.",
+  [
+   "the engine bleed air system.",
+   "high pressure air reservoirs.",
+   "an on-board hydraulic or electrical powered compressor.",
+   "ANSWER: sand or other foreign object ingestion, hot gas re-ingestion, compressor stalls."
+  ]
+ ],
+ [
+  "15.21 Engine Monitoring and Ground Operation",
+  "answer not one of the options",
+  "The blending of blades and vanes in a turbine engine.",
+  [
+   "may sometimes be accomplished with the engine installed, ordinarily using power tools.",
+   "should be performed parallel to the length of the blade using smooth contours to minimize stress points.",
+   "is usually accomplished only at engine overhaul.",
+   "ANSWER: No Answer."
+  ]
+ ]
+]
