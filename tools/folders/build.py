@@ -127,7 +127,9 @@ folder('aap14', 'UNPRESSURIZED LICENSE AAP14', 'upma', [('aap14-' + AAP[s['name'
 G = I('gte.json')
 folder('gte24', 'GTE LICENSE EXAM COMPILATION 2024', 'gte', [(f'gte24-{i}', s['name'], s['qs']) for i, s in enumerate(G['doc'], 1)], topics=True)
 folder('m15', 'EASA PART 66 BLOG Module 15, Gas Turbine Engine', 'gte', [('m15-' + s['name'].split(' ')[0].split('.')[1], s['name'], s['qs']) for s in G['pdf']], topics=True)
-SHOW = ['gp24', 'gp', 'deji', 'g23', 'gp2', 'comp', 'pist', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa', 'aap14', 'gte24', 'm15']
+# a slide deck with no topics of its own: one folder (gte_ncaa.py: the bold green option is the answer)
+folder('gtencaa', 'GTE General NCAA 1', 'gte', [('gtencaa', None, I('gte_ncaa.json'))])
+SHOW = ['gp24', 'gp', 'deji', 'g23', 'gp2', 'comp', 'pist', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa', 'aap14', 'gte24', 'm15', 'gtencaa']
 live = {x['folder'] for x in subjects if x['count']}
 folders = sorted([fo for fo in folders if fo['id'] in live], key=lambda fo: SHOW.index(fo['id']))   # a file with nothing new is not shown
 subjects.sort(key=lambda x: SHOW.index(x['folder']))
