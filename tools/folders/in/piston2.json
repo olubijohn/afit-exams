@@ -1,0 +1,6647 @@
+{
+"pdf": [
+{
+"name": null,
+"qs": [
+{
+"q": "To comply with Regulations, the Certificate of Fitness for flight under the ‘A Condition’ must be signed by",
+"o": [
+"a category A (Aircraft) licence holder only",
+"a category A (Aircraft) and a category C (Engineer) licence holders only",
+"all the categories licence holders relevant to the aircraft"
+],
+"a": [
+2
+]
+},
+{
+"q": "The radio apparatus required for Nigerian registered aircraft can be found in",
+"o": [
+"the fourth schedule to the Regulations",
+"the fifth schedule to the Regulations",
+"the sixth schedule to the Regulations"
+],
+"a": [
+1
+]
+},
+{
+"q": "A defect affecting the engine occurred in flight and was recorded in the technical log by the pilot. The defect was rectified by an engineer. The recording of this defect with its rectification must be made in:",
+"o": [
+"the technical log only",
+"the technical log and the engine log book",
+"the technical log, the engine log book and the aircraft log book"
+],
+"a": [
+1
+]
+},
+{
+"q": "Log book entry must be made not later than",
+"o": [
+"seven days after the occurrence",
+"seven days after the expiration of the Certificate of Maintenance (if any) in force in respect of the aircraft at the time of the occurrence",
+"ten days after the occurrence"
+],
+"a": [
+1
+]
+},
+{
+"q": "Certificate of maintenance are issued in duplicate:",
+"o": [
+"and shall both be carried in the aircraft",
+"both should be kept on the ground in all cases",
+"one should be kept in the aircraft and the other kept by the operator elsewhere other than in the aircraft"
+],
+"a": [
+2
+]
+},
+{
+"q": "A Certificate of Release to Service certifies that",
+"o": [
+"all necessary regulations have been complied with in repairing the aircraft",
+"the part of the aircraft/equipment has been overhauled, repaired, replaced or modified in an approved manner and with approval materials",
+"Rectifications have been carried out on the aircraft"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following statements is true:",
+"o": [
+"Any aircraft registered in Nigeria must carry a fireproof metal plate bearing the registration marks together with the name and address of the registered owner of the aircraft",
+"The nameplate is only mandatory for transport category aircraft",
+"Nameplate has nothing to do with the Regulations"
+],
+"a": [
+0
+]
+},
+{
+"q": "Maintenance schedule is not mandatory for:",
+"o": [
+"Transport category (Passenger) aircraft",
+"Transport category (Cargo) aircraft",
+"Private category aircraft"
+],
+"a": [
+2
+]
+},
+{
+"q": "The technical log is:",
+"o": [
+"Mandatory for all aircraft registered in Nigeria",
+"Mandatory for all aircraft for which maintenance to approved maintenance schedule is mandatory",
+"Mandatory for all Aircraft above 12,500lb"
+],
+"a": [
+0
+]
+},
+{
+"q": "For any defect cleared on a technical log:",
+"o": [
+"Signing out the snag by an appropriate Engineer is all that is required",
+"The issue of Certificate of Compliance to be kept in the office after signing out the snag is all that is required",
+"A copy of the Certificate of Compliance shall be entered in the technical log in such a position or manner as to be readily identifiable with entry of the defect to which it relates"
+],
+"a": [
+2
+]
+},
+{
+"q": "When a component is replaced:",
+"o": [
+"A Certificate of Compliance is signed",
+"A Certificate of Maintenance is signed",
+"Both Certificate of Compliance and Certificate of Maintenance should be signed"
+],
+"a": [
+0
+]
+},
+{
+"q": "Weight schedule shall be preserved until:",
+"o": [
+"Another weighing is carried out",
+"Six months following the next weighing",
+"Two years following the next weighing"
+],
+"a": [
+1
+]
+},
+{
+"q": "If an aircraft has four engines with variable pitch propellers, the number of log books to be kept are:",
+"o": [
+"6",
+"5",
+"9"
+],
+"a": [
+2
+]
+},
+{
+"q": "After conducting an annual inspection, who is qualified to return the aircraft to service?",
+"o": [
+"A certificated A & C personnel",
+"A certificated mechanic with an inspection authorisation of privileges",
+"An DSRAM inspector only"
+],
+"a": [
+1
+]
+},
+{
+"q": "An aircraft is due for an inspection specified in its maintenance schedule, to demand for flying the aircraft the thing to",
+"o": [
+"For a licensed engineer to extend the inspection period and stamp it in the log book before flying the aircraft",
+"To insist that the aircraft must be inspected as specified before it can perform the flight",
+"Fly the aircraft before carrying out the inspection in as much as it has a current Certificate of Airworthiness"
+],
+"a": [
+1
+]
+},
+{
+"q": "An engine with a combustion chamber of 0.4m3 capacity and a piston displacement of 1.6m3 has a compression ratio of:",
+"o": [
+"5:1",
+"7:1",
+"6:1"
+],
+"a": [
+0
+]
+},
+{
+"q": "The root mean square of 2, 3, 4 and 5",
+"o": [
+"√(27/2)",
+"√54",
+"√30"
+],
+"a": [
+0
+]
+},
+{
+"q": "Given that the bore of an engine’s cylinder is 2cm and its stroke is 10cm, then its swept volume is:",
+"o": [
+"20πcm3",
+"5πcm3",
+"10πcm3"
+],
+"a": [
+2
+]
+},
+{
+"q": "The cube root of 1/27 is",
+"o": [
+"3",
+"1⁄2",
+"1/3"
+],
+"a": [
+2
+]
+},
+{
+"q": "The value of 20 to the power of zero i.e. 20° is:",
+"o": [
+"20",
+"1",
+"0 + 0.001"
+],
+"a": [
+1
+]
+},
+{
+"q": "On drawing, a dimension is given as 2.50 ̶ 0.002; the tolerance is",
+"o": [
+"0.002",
+"0.003",
+"2.497"
+],
+"a": [
+1
+]
+},
+{
+"q": "The principle of a micrometer is that:",
+"o": [
+"the barrel is divided into 50 parts",
+"the ratchet on the thimble makes it easy to retain a reading",
+"the spindle advances 1/40 inch with each revolution of the thimble"
+],
+"a": [
+2
+]
+},
+{
+"q": "The total jaw thickness of a vernier caliper is 1⁄4inch; this implies that:",
+"o": [
+"the minimum internal diameter that can be measured is 0.25inch",
+"to obtain the true diameter, 0.25 inch is added to the reading",
+"Both are correct"
+],
+"a": [
+2
+]
+},
+{
+"q": "When air is compressed:",
+"o": [
+"the temperature increases and the density decreases",
+"the pressure increases and density decreases",
+"the density increases and temperature increases"
+],
+"a": [
+2
+]
+},
+{
+"q": "An aircraft bolt with a single raised star on the head would indicate a:",
+"o": [
+"Corrosion resistant steel bolt",
+"Standard steel bolt",
+"A magnetically inspected bolt"
+],
+"a": [
+1
+]
+},
+{
+"q": "If the volume of a gas is constant then:",
+"o": [
+"Its pressure is proportional to its temperature",
+"Its pressure is inversely proportional to its absolute temperature",
+"P1V1 = P2V2"
+],
+"a": [
+0
+]
+},
+{
+"q": "Force is proportional to mass and acceleration is:",
+"o": [
+"Newton’s 1st law of motion",
+"Newton’s 2nd law of motion",
+"Newton’s 3rd law of motion"
+],
+"a": [
+1
+]
+},
+{
+"q": "The law relating the pressure and absolute temperature of a given mass of gas at constant volume is:",
+"o": [
+"Charles’ law",
+"Boyle’s law",
+"Newton’s law"
+],
+"a": [
+0
+]
+},
+{
+"q": "During the combustion cycle of a reciprocating engine, the governing gas law is:",
+"o": [
+"Charles’ law",
+"Boyle’s law",
+"Bernoulli’s Principle"
+],
+"a": [
+0
+]
+},
+{
+"q": "Slight corrosion was removed from the fin of a cylinder barrel.",
+"o": [
+"The surface need not to be protected because the original protection was heavy",
+"The surface has to be protected by Enamel coating",
+"The surface has to be protected by priming and coating"
+],
+"a": [
+2
+]
+},
+{
+"q": "From the definition of Logarithms, log28 is equal to:",
+"o": [
+"10",
+"3",
+"2"
+],
+"a": [
+1
+]
+},
+{
+"q": "The float level of a float-type carburetor is measured in fractions of an inch from:",
+"o": [
+"Bottom of float chamber",
+"Parting line of float bowl",
+"Top of float chamber"
+],
+"a": [
+1
+]
+},
+{
+"q": "A carburetor setting should always favour:",
+"o": [
+"A slightly lean mixture",
+"lean-best power mixture",
+"A slightly rich mixture"
+],
+"a": [
+2
+]
+},
+{
+"q": "In a fuel system containing the items mentioned in series, what would be the sequence starting from the tank (Fuel pump means engine-driven pump)",
+"o": [
+"Pressure gauge, shut off, hand pump, pressure pump",
+"Hand pump, shut off, fuel pump, pressure gauge",
+"Shut off, hand pump, fuel pump, pressure gauge"
+],
+"a": [
+2
+]
+},
+{
+"q": "Extreme humps or bends in fuel lines are to be avoided due to the possibility of",
+"o": [
+"Enriched mixture",
+"Bursting lines",
+"Failure of fuel pump"
+],
+"a": [
+1
+]
+},
+{
+"q": "A leak in the induction pipe will result into",
+"o": [
+"A rich mixture",
+"A lean mixture",
+"Mixture remains unaffected"
+],
+"a": [
+1
+]
+},
+{
+"q": "Most engine wear on aircraft engines occurs during:",
+"o": [
+"take-off power setting",
+"starting and warm-up period",
+"climb"
+],
+"a": [
+1
+]
+},
+{
+"q": "Excessive fluctuation of an oil pressure gauge may be caused by:",
+"o": [
+"Leak in pump housing",
+"Excessive engine vibration",
+"A completely clogged oil pressure gauge line"
+],
+"a": [
+0
+]
+},
+{
+"q": "Good design requires that engine oil temperature be taken at:",
+"o": [
+"tank inlet",
+"tank outlet",
+"engine inlet"
+],
+"a": [
+2
+]
+},
+{
+"q": "The first thing to check if oil pressure will not build-up sufficiently is:",
+"o": [
+"insufficient oil supply",
+"pressure gauge broken",
+"pressure relief valve setting"
+],
+"a": [
+0
+]
+},
+{
+"q": "A scavenge pump:",
+"o": [
+"Supplies pressure oil to the engine",
+"Removes oil from the engine crankcase",
+"Supplies oil to the propeller feathering system"
+],
+"a": [
+1
+]
+},
+{
+"q": "Main bearings are sometimes installed with an oil seal at the ends. This seal is primarily to:",
+"o": [
+"Prevent oil leaking into crankcase",
+"Control oil consumption",
+"Prevent oil film forming on cylinder walls"
+],
+"a": [
+1
+]
+},
+{
+"q": "Viscosity of oil is an indication of its:",
+"o": [
+"Resistance to being poured",
+"Weight",
+"Reaction to temperature"
+],
+"a": [
+0
+]
+},
+{
+"q": "Piston pins are lubricated by:",
+"o": [
+"Oil mist thrown from revolving crankshaft parts",
+"Hand packed grease prior to assembly",
+"Pressure from crankshaft through drilled passage in connecting rod"
+],
+"a": [
+0
+]
+},
+{
+"q": "A limit switch is:",
+"o": [
+"A device to limit generator output",
+"A switch to shut off electrical units",
+"A switch to prevent overspeeding of a series motor"
+],
+"a": [
+1
+]
+},
+{
+"q": "What is the total resistance in a circuit having an e.m.f. of 24 volts and a current of 3 amps?",
+"o": [
+"20 ohms",
+"8 ohms",
+"72 ohms"
+],
+"a": [
+1
+]
+},
+{
+"q": "An instrument to measure the resistance to electrical flow encountered in a conductor through which current is passed is called:",
+"o": [
+"A resistometer",
+"A rheostat",
+"An ohmmeter"
+],
+"a": [
+2
+]
+},
+{
+"q": "Aviation fuel, is frequently red, reddish brown, or blue in colour. This colour is caused by:",
+"o": [
+"The presence of tetra-ethyl lead",
+"Dye to indicate the fuel is leaded",
+"Nothing – this is the natural colour of gasoline."
+],
+"a": [
+1
+]
+},
+{
+"q": "It is well known that tetraethyl lead is added to aviation gasoline. Specifically this is for the purpose of:",
+"o": [
+"increasing burning rate",
+"reducing burning rate",
+"increasing the heat value"
+],
+"a": [
+1
+]
+},
+{
+"q": "A bourdon-tube of instrument would be associated with what part of fuel system?",
+"o": [
+"Exhaust gas analyzer",
+"Inlet air temperature",
+"Fuel pressure"
+],
+"a": [
+2
+]
+},
+{
+"q": "A normal fuel-air ratio will be indicated by which of the following types of exhaust",
+"o": [
+"A long light blue flame with a yellow tip",
+"A short dark blue flame",
+"A purple flame with a blue tip and light smoke"
+],
+"a": [
+1
+]
+},
+{
+"q": "An engine lopes and emits black smoke when idling, this may be due to",
+"o": [
+"Clogged idle discharge nozzle",
+"Oversize main metering jet",
+"Oversize idle metering jet"
+],
+"a": [
+2
+]
+},
+{
+"q": "Other than preventing metal-to-metal contact of moving metal parts, the lubricating system of an engine is used to:",
+"o": [
+"Aid in dissipation of heat",
+"Prevent inter-crystalline corrosion",
+"Operate ground-adjustable propellers"
+],
+"a": [
+0
+]
+},
+{
+"q": "Worn bearings in a four-cylinder opposed aircraft engine would result in:",
+"o": [
+"Low oil consumption",
+"Failure of scavenge pump",
+"Low oil pressure"
+],
+"a": [
+2
+]
+},
+{
+"q": "The first thing to check if oil pressure will not build-up sufficiently is:",
+"o": [
+"insufficient oil supply",
+"pressure gauge broken",
+"pressure relief valve setting"
+],
+"a": [
+0
+]
+},
+{
+"q": "A scavenge pump:",
+"o": [
+"Supplies pressure oil to the engine",
+"Removes oil from the engine crankcase",
+"Supplies oil to the propeller feathering system"
+],
+"a": [
+1
+]
+},
+{
+"q": "A low tension ignition system is:",
+"o": [
+"One having individual coils for each spark plug",
+"A system in which the spark plug voltage is held to only a few hundred volts",
+"Any system designed for use on light aircraft"
+],
+"a": [
+0
+]
+},
+{
+"q": "Piston rings are usually made of:",
+"o": [
+"Stainless steel",
+"Grey cast iron",
+"Cast aluminium"
+],
+"a": [
+1
+]
+},
+{
+"q": "Nitriding is a process given to cylinder barrels to:",
+"o": [
+"Anneal them",
+"Straighten them",
+"Harden them"
+],
+"a": [
+2
+]
+},
+{
+"q": "Aircraft pistons are commonly made of:",
+"o": [
+"Aluminium alloy",
+"Stainless steel",
+"Aluminium bronze"
+],
+"a": [
+0
+]
+},
+{
+"q": "Crankshafts are usually constructed of:",
+"o": [
+"Forged nickel steel and heat-treated for hardness",
+"Forged aluminium and heat-treated for hardness",
+"High strength alloy steel and annealed"
+],
+"a": [
+0
+]
+},
+{
+"q": "A battery generator system provides direct current. On installations requiring alternating current from the battery-generator system, it is necessary to have:",
+"o": [
+"An inverter",
+"A voltage regulator to provide alternating current",
+"A transformer"
+],
+"a": [
+0
+]
+},
+{
+"q": "Conduit is sometimes drilled with small holes in the bottom to:",
+"o": [
+"Provide moisture drain",
+"Give inspection openings",
+"Give static discharge opening"
+],
+"a": [
+0
+]
+},
+{
+"q": "The resistance to electrical flow of a wire depends on:",
+"o": [
+"Length and material of wire only",
+"Diameter of wire only",
+"Diameter, length and material of wire"
+],
+"a": [
+2
+]
+},
+{
+"q": "The opposition offered by a coil of wire to the flow of alternating current is called:",
+"o": [
+"inductive reactance",
+"conductance resistance",
+"capacitive reactance"
+],
+"a": [
+0
+]
+},
+{
+"q": "A reversible propeller is one that:",
+"o": [
+"Will deliver a negative thrust",
+"Can be operated in either direction of rotation",
+"Can be installed in either of two ways"
+],
+"a": [
+0
+]
+},
+{
+"q": "The term “Constant speed” in reference to propellers means:",
+"o": [
+"A uniform rate of pitch change at all times",
+"The propeller maintains constant r.p.m. in normal conditions",
+"The engine maintains constant r.p.m. in normal operation"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following should be checked on a propeller at daily line inspection?",
+"o": [
+"Blade angle settings",
+"Propeller track",
+"Shaft for alignment"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following methods would be used to check for cracks in a steel propeller blade?",
+"o": [
+"Magnaflux",
+"Zyglo",
+"Dye check"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is meant by a propeller’s “critical range”?",
+"o": [
+"An r.p.m. range during which severe vibrations may occur",
+"The maximum r.p.m. obtainable at high pitch",
+"A propeller’s range of operation from low to high pitch"
+],
+"a": [
+0
+]
+},
+{
+"q": "Steel propeller hubs should best be cleaned with:",
+"o": [
+"Emery paper and steel wool",
+"Sand blasting",
+"Soap and water, or gasoline"
+],
+"a": [
+2
+]
+},
+{
+"q": "A friction brake is employed on:",
+"o": [
+"All propellers to cause them to stop when feathered",
+"All propellers going into reverse pitch",
+"Electric propellers to stop the pitch changing motor"
+],
+"a": [
+2
+]
+},
+{
+"q": "The blade angle (pitch) of a fully feathered propeller is about:",
+"o": [
+"45°",
+"20°",
+"89°"
+],
+"a": [
+2
+]
+},
+{
+"q": "If an engine were started on a cold day and ran normally a few revolutions and then stopped, the cause would most likely be:",
+"o": [
+"Booster inoperative",
+"Moisture shorting spark plugs",
+"Weak magneto magnet"
+],
+"a": [
+1
+]
+},
+{
+"q": "A battery generator system provides direct current. On installations requiring alternating current from the battery-generator system, it is necessary to have:",
+"o": [
+"A voltage regulator to provide alternating current",
+"A transformer",
+"An inverter"
+],
+"a": [
+2
+]
+},
+{
+"q": "A type of battery in which the electrolyte is in a comparatively dry form and which cannot be re-charged is called:",
+"o": [
+"A primary cell",
+"A storage battery",
+"An accumulator"
+],
+"a": [
+0
+]
+},
+{
+"q": "Three condensers, each having a capacity of 15 microfarads, are connected in series. The combined capacity of the condensers is:",
+"o": [
+"5 microfarads",
+"3.3 microfarads",
+"45 microfarads"
+],
+"a": [
+0
+]
+},
+{
+"q": "A rheostat is a type of:",
+"o": [
+"Transformer",
+"Master switch",
+"Resistor"
+],
+"a": [
+2
+]
+},
+{
+"q": "The power actually received by an aircraft propeller is called:",
+"o": [
+"Rated horse power",
+"Brake horse power",
+"Indicated power output"
+],
+"a": [
+1
+]
+},
+{
+"q": "A propeller reduction gear is necessary primarily to utilize full engine power and:",
+"o": [
+"Keep engine from over-speeding",
+"Prevent propeller torque",
+"Keep down propeller tip speed"
+],
+"a": [
+2
+]
+},
+{
+"q": "A cylindrical tube narrows down at a point when air flows through the tube, there will be:",
+"o": [
+"pressure build-up at this point",
+"depression at this point",
+"temperature rise at this point"
+],
+"a": [
+1
+]
+},
+{
+"q": "Bernoulli’s theorem is",
+"o": [
+"Momentum law for a gas",
+"Energy law for a gas",
+"Inertial law for a gas"
+],
+"a": [
+1
+]
+},
+{
+"q": "When volume of a given mass of gas is doubled at constant temperature its pressure is:",
+"o": [
+"doubled",
+"quadrupled",
+"halved"
+],
+"a": [
+2
+]
+},
+{
+"q": "When volume of a given mass of gas is doubled at constant pressure its temperature is:",
+"o": [
+"doubled",
+"halved",
+"quadrupled"
+],
+"a": [
+0
+]
+},
+{
+"q": "According to Newton’s law the force acting on a body is proportional to:",
+"o": [
+"the rate of action on it",
+"the rate of change of its momentum",
+"Acceleration"
+],
+"a": [
+2
+]
+},
+{
+"q": "The approximate governing gas law during the compression stroke of an engine is:",
+"o": [
+"Charles’ law",
+"Boyle’s law",
+"Momentum law"
+],
+"a": [
+1
+]
+},
+{
+"q": "Late ignition timing is defined as:",
+"o": [
+"Number of degrees of crankshaft rotation at which spark occurs A.T.C.",
+"Number of degrees of crankshaft rotation at which spark occurs after manufacturer’s specification",
+"Number of degrees of crankshaft rotation at which spark occurs B.T.C."
+],
+"a": [
+1
+]
+},
+{
+"q": "Compression ratio is ratio of:",
+"o": [
+"Volume of cylinder with piston at B.D.C. to volume at T.D.C.",
+"Piston travel on compression stroke to travel on intake stroke",
+"Mixture of fuel to air in combustion chamber"
+],
+"a": [
+0
+]
+},
+{
+"q": "A low tension ignition system is:",
+"o": [
+"One having individual coils for each spark plug",
+"A system in which the spark plug voltage is held to only a few hundred volts",
+"Any system designed for use on light aircraft"
+],
+"a": [
+0
+]
+},
+{
+"q": "The purpose of the magnet in a magneto is to:",
+"o": [
+"Provide lines of flux",
+"Attracts poles shoes and keep them joined",
+"Stores current to prevent arcing of breaker points"
+],
+"a": [
+0
+]
+},
+{
+"q": "If a magneto grounded wire becomes chafed and worn through its insulation until it contacted the engine mount, it would cause:",
+"o": [
+"Failure of magneto to fire plugs",
+"Intermittent missing of engine at all speed",
+"Failure of an engine to stop at switch off"
+],
+"a": [
+0
+]
+},
+{
+"q": "Failure of an engine to stop with switch turned off may indicate:",
+"o": [
+"Breaker points sticking",
+"Magneto grounded",
+"Broken ground wire"
+],
+"a": [
+2
+]
+},
+{
+"q": "An 18mm spark plug is one that has:",
+"o": [
+"18 threads per millimeter",
+"A reach of 18 millimeters",
+"A thread diameter of 18 millimeters"
+],
+"a": [
+2
+]
+},
+{
+"q": "The four strokes of a four-stroke cycle engine in order of occurrence are:",
+"o": [
+"Power, intake, compression, exhaust",
+"Exhaust, compression, intake, power",
+"Intake, compression, power, exhaust"
+],
+"a": [
+2
+]
+},
+{
+"q": "If the wires connecting both primary windings of a dual magneto to the cockpit switch are shorted, the immediate result will be:",
+"o": [
+"Nothing",
+"Failure of engine to continue to operate",
+"Inability to stop the engine"
+],
+"a": [
+1
+]
+},
+{
+"q": "Magneto timing consists of degrees before top dead centre on:",
+"o": [
+"Intake stroke",
+"Compression stroke",
+"Power stroke"
+],
+"a": [
+1
+]
+},
+{
+"q": "Sodium-filled valves are advantageous in that they:",
+"o": [
+"Dissipate heat well",
+"Cost less",
+"Have great strength properties"
+],
+"a": [
+0
+]
+},
+{
+"q": "Nitriding is a process given to cylinder barrels to:",
+"o": [
+"Anneal them",
+"Straighten them",
+"Harden them"
+],
+"a": [
+2
+]
+}
+]
+}
+],
+"doc": [
+{
+"name": "500 Questions on Powerplant (Solo-P)",
+"qs": [
+{
+"q": "A leaky intake pipe would have the most critical effect on engine performance at",
+"o": [
+"Cruising",
+"Idling",
+"Full throttle at take-off"
+],
+"a": [
+2
+]
+},
+{
+"q": "Carburetor icing is best prevented by",
+"o": [
+"Alcohol injection",
+"Hot oil circulation",
+"Gapped ice guards."
+],
+"a": [
+0
+]
+},
+{
+"q": "When starting an aircraft engine, carburetor heat control should be in",
+"o": [
+"Hot position",
+"Neutral position",
+"Cold Position"
+],
+"a": [
+2
+]
+},
+{
+"q": "Air leak in the induction manifold of a naturally aspirated engine will cause",
+"o": [
+"Loss of charge to the atmosphere",
+"Leaning out of mixture going to cylinders",
+"Too rich mixture admitted to cylinders"
+],
+"a": [
+1
+]
+},
+{
+"q": "The use of carburetor hot air reduces engine power because",
+"o": [
+"The weight of mixture to the cylinder is decrease",
+"The weight of mixture to the cylinder is increased",
+"The weight of mixture to the cylinder is unaltered"
+],
+"a": [
+0
+]
+},
+{
+"q": "Carburetor icing is likely under conditions of",
+"o": [
+"High relative humidity and low temp.",
+"Low relative humidity and low temp.",
+"Low relative humidity and high temp."
+],
+"a": [
+0
+]
+},
+{
+"q": "Increased water vapour (high relative humidity) in the incoming air to a reciprocating engine will normally result in which of the following",
+"o": [
+"Decreased engine power at a constant RPM and manifold pressure.",
+"Increased power output due to increased volumetric efficiency.",
+"A leaning effect on engines which use non-automatic carburetors."
+],
+"a": [
+0
+]
+},
+{
+"q": "When will small induction system air leaks have the most noticeable effect on engine operation.",
+"o": [
+"At high RPM",
+"At maximum continuous and off power settings",
+"At low RPM"
+],
+"a": [
+2
+]
+},
+{
+"q": "A method commonly used to prevent carburetor icing is to",
+"o": [
+"Preheat the intake air",
+"Mix alcohol with the fuel",
+"Electrically heat the venturi and throttle"
+],
+"a": [
+0
+]
+},
+{
+"q": "Carburetor icing is more severe at",
+"o": [
+"air temperature between 30 and 40oF",
+"high altitude",
+"low engine temperature"
+],
+"a": [
+0
+]
+},
+{
+"q": "Into what part of a reciprocating engine induction system is deicing alcohol normally injected.",
+"o": [
+"The supercharger or impeller section",
+"The airstream ahead of the carburetor",
+"The low pressure area ahead of the throttle valve"
+],
+"a": [
+1
+]
+},
+{
+"q": "Carburetor icing may be eliminated by which of the following methods",
+"o": [
+"Alcohol spray and electrically heated induction duct",
+"Ethylene glycol spray and heated induction air",
+"Alcohol spray and heated induction air"
+],
+"a": [
+2
+]
+},
+{
+"q": "Where would a carburetor air heater be located in a fuel injection system",
+"o": [
+"At the air intake entrance",
+"None is require",
+"Between the air intake and the venture"
+],
+"a": [
+1
+]
+},
+{
+"q": "An increase in manifold pressure when carburetor heat is applied indicates",
+"o": [
+"Ice was forming in the carburetor",
+"Mixture was too lean",
+"Overheating of cylinder heads."
+],
+"a": [
+0
+]
+},
+{
+"q": "The use of the carburetor air heater when it is not needed causes",
+"o": [
+"a very lean mixture",
+"Excessive increase in manifold pressure",
+"A decrease in power and possibly detonation"
+],
+"a": [
+2
+]
+},
+{
+"q": "Lead is added to a fuel",
+"o": [
+"To increase octane rating",
+"To increase calorific valve",
+"To decrease risk of detonation"
+],
+"a": [
+0
+]
+},
+{
+"q": "Fuel tanks are vented",
+"o": [
+"To prevent overfilled",
+"To ensure no pressure difference between atmosphere and tank interior.",
+"To prevent fuel boiling at high altitudes."
+],
+"a": [
+1
+]
+},
+{
+"q": "Back firing on starting can be caused by",
+"o": [
+"Throttle too far open",
+"Over priming",
+"Throttle not open sufficiently"
+],
+"a": [
+0
+]
+},
+{
+"q": "To prevent water condensing in fuel tanks",
+"o": [
+"Keeps tanks as full as possible and secure filler cap",
+"Secure filler cap",
+"Drain tanks and secure filler cap"
+],
+"a": [
+0
+]
+},
+{
+"q": "Excessive heating of the air-fuel mixture will probably result in",
+"o": [
+"Loss of power",
+"Too rich mixture",
+"Excessive fuel consumption"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following will not cause pre-ignition",
+"o": [
+"Too rich mixture",
+"Too lean mixture",
+"Low grade of fuel"
+],
+"a": [
+0
+]
+},
+{
+"q": "Octane rating of a fuel and compression ratio have which of the following relations?",
+"o": [
+"The lower the octane rating, the higher the possible compression",
+"There is no relation, the two have no connection",
+"The higher the octane, the higher the possible compression."
+],
+"a": [
+2
+]
+},
+{
+"q": "A venturi in a float-type carburetor",
+"o": [
+"Regulates flow of mixture to induction system",
+"Controls the flow of fuel from main jet",
+"Decrease air pressure at main jet"
+],
+"a": [
+2
+]
+},
+{
+"q": "Excessive cylinder head temperature indicates which of the following?",
+"o": [
+"Icing conditions",
+"excessively rich mixture",
+"detonation"
+],
+"a": [
+2
+]
+},
+{
+"q": "Fuel lines too close to the exhaust system may cause",
+"o": [
+"Preignition",
+"Engine to stop due to vapour lock",
+"Lean mixture"
+],
+"a": [
+1
+]
+},
+{
+"q": "How can aviation gasoline that contains tetra-ethyl lead be identified",
+"o": [
+"By its lower specific gravity",
+"By its content of water",
+"By the color of the fuel"
+],
+"a": [
+2
+]
+},
+{
+"q": "During rapid power increase an excessively lean mixture is prevented by",
+"o": [
+"An accelerator pump",
+"A diffuser",
+"Extra fuel jets"
+],
+"a": [
+0
+]
+},
+{
+"q": "When the engine is stationary the petrol level in the float chamber will be",
+"o": [
+"Lower than in the jet tube",
+"Higher than in the jet tube",
+"The same as in the jet tube"
+],
+"a": [
+0
+]
+},
+{
+"q": "In the “slow-running”, the venturi action in the choke tube",
+"o": [
+"Cease to exist altogether",
+"Is transferred mainly to the edge of the throttle valve",
+"Is greatly increased"
+],
+"a": [
+1
+]
+},
+{
+"q": "An accelerator pump provided extra fuel to",
+"o": [
+"Prevent a “flat spot” on rapid power increase",
+"Provide extra rich mixture for take off",
+"Ensure a good starting procedure"
+],
+"a": [
+0
+]
+},
+{
+"q": "The effect of a block float chamber vent is",
+"o": [
+"Fuel starvation",
+"excessive, mixture",
+"Collapse of float chamber"
+],
+"a": [
+0
+]
+},
+{
+"q": "Sudden throttle opening in the basic carburetor will result in",
+"o": [
+"Pre-ignition",
+"Over-heating and eventual detonation",
+"Flat spot"
+],
+"a": [
+2
+]
+},
+{
+"q": "If an engine failure is accompanied by a mechanical noise and the propeller stops rotating, the cause of the engine failure is most likely",
+"o": [
+"Fuel starvation",
+"Failure of a magneto",
+"Break-up of a piston or valve"
+],
+"a": [
+2
+]
+},
+{
+"q": "Following a sudden and complete loss of power from the engine, there is no mechanical noise and the propeller continues to windmill. The likely cause of the power loss is",
+"o": [
+"Fuel starvation",
+"Failure of a magneto",
+"Break-up of a piston or valve"
+],
+"a": [
+0
+]
+},
+{
+"q": "The amount of fuel that flow through the carburetor is directly controlled by the",
+"o": [
+"Accelerator pump",
+"Throttle",
+"Airflow through the carburetor venturi"
+],
+"a": [
+2
+]
+},
+{
+"q": "The mixture control is used to",
+"o": [
+"Alter the fuel flow to the main jet of the carburetor",
+"Increase the volume of air through the carburetor",
+"Increase the fuel flow through the accelerator pump"
+],
+"a": [
+0
+]
+},
+{
+"q": "An aero plane climbs to higher altitudes with the mixture control set in RICH, the fuel/air mixture",
+"o": [
+"does not change",
+"Becomes leaner",
+"Becomes richer"
+],
+"a": [
+2
+]
+},
+{
+"q": "The correct procedure to achieve the best fuel/air mixture when cruising at altitude is to move the mixture control towards LEAN until the engine rpm",
+"o": [
+"Drops to a minimum value",
+"Reaches a peak value",
+"Passes through a peak value at which point the mixture control is returned to a slightly richer position"
+],
+"a": [
+2
+]
+},
+{
+"q": "A cold engine needs to be primed for start-up. The fuel-priming pump operated by the pilot delivers fuel",
+"o": [
+"Through the carburetor to the induction manifold or inlet valve ports",
+"Through the carburetor and directly into each of the cylinder",
+"To the induction manifold or inlet valve ports, by passing the carburetor."
+],
+"a": [
+2
+]
+},
+{
+"q": "If the fuel strainer drain valve is left open following the pre-flight inspection of a low-wing aeroplane",
+"o": [
+"The fuel tanks will empty",
+"The effect will be negligible",
+"The engine-driven fuel pump may not be able to supply sufficient fuel to the engine, resulting in fuel starvation unless an electric fuel pump is in use"
+],
+"a": [
+0
+]
+},
+{
+"q": "When priming, fuel is introduced into",
+"o": [
+"The combustion chamber",
+"The diffuser",
+"The induction manifold"
+],
+"a": [
+2
+]
+},
+{
+"q": "Mixture supplied by the carburetor is said to be rich when",
+"o": [
+"The proportion of air in the mixture is insufficient to allow full combustion of the fuel.",
+"The proportion of the air in the mixture is greater than that needed for full combustion of the fuel",
+"The grade of fuel is lower than that specified for the engine used and the fuel"
+],
+"a": [
+0
+]
+},
+{
+"q": "Overheating of a piston engine is likely to result from",
+"o": [
+"An excessively rich mixture",
+"An excessively weak mixture",
+"An excessively high barometric pressure"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which fuel/Air mixture will result in the highest engine temperature (all other factors remaining constant)",
+"o": [
+"A mixture leaner than a rich best power mixture of 1:12",
+"A mixture richer than a full-rich mixture of 1:11",
+"A mixture leaner than a manual lean mixture of 1:17"
+],
+"a": [
+2
+]
+},
+{
+"q": "Reduced air density at high altitude has a decided effect on carburetion, resulting in a reduction of engine power by",
+"o": [
+"Excessively enriching the fuel/Air mixture",
+"Excessively fuel/Air mixture",
+"Reducing fuel vaporization"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following conditions would most likely lead to detonation?",
+"o": [
+"late ignition timing",
+"use of fuel with too high an octane rating",
+"use of fuel with too low an octane rating"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following would most likely cause a reciprocating engine to backfire through the induction system at low RPM OPERATION?",
+"o": [
+"idle mixture too rich",
+"clogged derichment valve",
+"lean mixture"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which statement pertaining to fuel/Air ratio is true?",
+"o": [
+"The mixture ratio which gives the best power is richer than the mixture ratio which gives maximum economy",
+"A rich mixture is faster burning than a normal mixture",
+"The mixture ratio which gives maximum economy may also be designated as best power mixture."
+],
+"a": [
+0
+]
+},
+{
+"q": "Backfiring through the carburetor generally result from the use of",
+"o": [
+"an excessively lean mixture",
+"excessively atomized fuel",
+"an excessively rich mixture"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of these conditions will cause an engine to have an increase tendency to detonate? (1) High manifold pressure (2) High intake air temperature (3) Engine overheated (4) Late ignition timing",
+"o": [
+"1, 4",
+"1, 2, 3",
+"1, 2, 3, 4"
+],
+"a": [
+1
+]
+},
+{
+"q": "One cause of after firing in an aircraft engine is",
+"o": [
+"Sticking intake valves",
+"An excessively lean mixture",
+"An excessively rich mixture"
+],
+"a": [
+0
+]
+},
+{
+"q": "During full power output of an unsupercharged engine equipped with a float-type carburetor in which of the following area will the highest pressure exist.",
+"o": [
+"Venturi",
+"Intake manifold",
+"Carburetor air scoop"
+],
+"a": [
+2
+]
+},
+{
+"q": "As manifold pressure increases in a reciprocating engine, the",
+"o": [
+"Volume of air in the cylinder increases",
+"Weight of the fuel/Air charge decreases",
+"Density of the air in the cylinder increases."
+],
+"a": [
+2
+]
+},
+{
+"q": "What is done to Avgas to minimize lead residue in engine?",
+"o": [
+"Introduction of lead oxide",
+"Introduction of lead bromide",
+"Introduction of pure lead only"
+],
+"a": [
+1
+]
+},
+{
+"q": "What is done to leaded Avgas for visual identification?",
+"o": [
+"Dye is added to the lead and the fuel is given a specification",
+"The fuel is colorless but is given a number",
+"Only the container is evidently tagged-AVIATION FUEL"
+],
+"a": [
+0
+]
+},
+{
+"q": "The float type carburetor meters",
+"o": [
+"Only air",
+"Only fuel",
+"Mixture of air and fuel"
+],
+"a": [
+2
+]
+},
+{
+"q": "In an engine operating on a pressure injection carburetor, a selected r.p.m. is maintained by",
+"o": [
+"Balancing Air metering force and fuel metering force",
+"Balancing Air pressure and fuel pressure",
+"Balancing the forces of all the chambers (A.B.C and D)"
+],
+"a": [
+0
+]
+},
+{
+"q": "A mixture control in a fuel system",
+"o": [
+"Regulates the mixture strength",
+"Regulates the weight of the mixture",
+"Regulates the volume of mixture"
+],
+"a": [
+0
+]
+},
+{
+"q": "To obtain a correct mixture for best combustion, air and fuel Ratio are measured by",
+"o": [
+"Volume",
+"Weight",
+"Speed"
+],
+"a": [
+1
+]
+},
+{
+"q": "Vapor lock can result from",
+"o": [
+"High volatility of fuel",
+"Low volatility of fuel",
+"Can not result from volatility"
+],
+"a": [
+0
+]
+},
+{
+"q": "After spark plugs from an opposed Engine have been serviced, in what position should they be reinstalled?",
+"o": [
+"Next in firing order to the one from which they were removed",
+"Swapped bottom to top",
+"Next in firing order to the one from which they were removed and swapped bottom to top"
+],
+"a": [
+2
+]
+},
+{
+"q": "An Engine misses in both the right and left positions of the magneto switch. The quickest method for locating the trouble is to",
+"o": [
+"Check for one or more cold cylinders",
+"Perform a compression check",
+"Check each spark plug."
+],
+"a": [
+0
+]
+},
+{
+"q": "One of the best indicators of reciprocating engine combustion chamber problems is",
+"o": [
+"excessive engine vibration",
+"starting difficulties",
+"spark plug conditions"
+],
+"a": [
+2
+]
+},
+{
+"q": "The magnetic field in a magneto is provided by",
+"o": [
+"Battery current",
+"An excitation field circuit",
+"A permanent magnet"
+],
+"a": [
+2
+]
+},
+{
+"q": "Excessive arcing across the contact breaker points of magneto when the points are open is prevented by",
+"o": [
+"a diode being fitted",
+"A condenser being fitted",
+"Insulation of the contacts"
+],
+"a": [
+1
+]
+},
+{
+"q": "If the switch of a magneto becomes disconnected in flight",
+"o": [
+"The affected magneto will automatically stop in flight",
+"The alternative magneto will maintain ignition",
+"The affected magneto will continue to provide a spark"
+],
+"a": [
+2
+]
+},
+{
+"q": "The primary coil of a magneto consists of",
+"o": [
+"Fewer windings of thicker wire than the secondary coil",
+"Fewer windings of thin wire than the secondary coil",
+"Fewer windings of the same thickness of wire as the secondary coil"
+],
+"a": [
+0
+]
+},
+{
+"q": "The distributor rotor on a four stroke engine rotates at",
+"o": [
+"The same speed as the engine",
+"Twice the speed of the engine",
+"Half the speed of the engine"
+],
+"a": [
+2
+]
+},
+{
+"q": "The primary winding of a magneto is earthen when the ignition switch is placed to",
+"o": [
+"Start",
+"on",
+"off"
+],
+"a": [
+2
+]
+},
+{
+"q": "The spark plugs in a piston engine are provided with a high-energy (or high-tension electrical supply from",
+"o": [
+"The battery at all times",
+"The magnetos, which each have a self-contained generation and distribution system",
+"The battery at start-up and then the magnetos"
+],
+"a": [
+1
+]
+},
+{
+"q": "A safety gap is incorporated in the magneto ignition system to",
+"o": [
+"Cut down radio interference",
+"For protection if a plug lead falls off",
+"To prevent static electricity from damaging the air frame"
+],
+"a": [
+1
+]
+},
+{
+"q": "The distributor conducts",
+"o": [
+"Voltage from the magneto primary winding to the spark plug",
+"Voltage from the magneto secondary winding to the spark plug",
+"Voltage from the secondary winding to the contact breaker"
+],
+"a": [
+1
+]
+},
+{
+"q": "The electrical components of aircraft systems are screened to",
+"o": [
+"Bond the circuit to reduce risk of fire",
+"Prevent short circuits of radio equipment",
+"Prevent them interfering with the function of radio equipment"
+],
+"a": [
+2
+]
+},
+{
+"q": "As engine speed increases the position of the ignition spark is",
+"o": [
+"Advanced",
+"Retarded",
+"Not altered"
+],
+"a": [
+0
+]
+},
+{
+"q": "The sparks delivered at the spark plugs are of",
+"o": [
+"Low tension from a low tension magneto",
+"Low tension from a high tension magneto",
+"High tension from any type of magneto"
+],
+"a": [
+2
+]
+},
+{
+"q": "In a screened/shielded ignition harnesses and plugs, spark plug electrodes are protected by",
+"o": [
+"The screening and shielding",
+"Incorporating ceramic insulation",
+"Incorporating a resistor"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following magnetos can produce the highest number of spark per revolution",
+"o": [
+"The inductor type",
+"The Rotating magnet type",
+"The Rotating armature type"
+],
+"a": [
+0
+]
+},
+{
+"q": "The carbon brush in a magneto rotor",
+"o": [
+"Conducts current from secondary coil terminal to distributor rotor",
+"Conducts current from contact breaker points to the distributor brush",
+"Eliminates residual current from the condenser"
+],
+"a": [
+0
+]
+},
+{
+"q": "The E-gap or Efficiency gap of a magneto is",
+"o": [
+"The correct gap opening of the contact breaker points for maximum efficiency",
+"The position of the magnets when magnetic flux in the core is at maximum value.",
+"The angular position of magnet from core zero flux position when contact points open."
+],
+"a": [
+2
+]
+},
+{
+"q": "The magnetic field in a magneto is originated by",
+"o": [
+"Battery current",
+"An excitation field circuit",
+"A permanent magnet"
+],
+"a": [
+2
+]
+}
+]
+},
+{
+"name": "Piston Systems Question Bank EASA",
+"qs": [
+{
+"q": "If the oil pressure of a cold engine is higher than at normal operating temperatures, the",
+"o": [
+"oil system relief valve should be readjusted.",
+"engine's lubrication system is probably operating normally.",
+"oil dilution system should be turned on immediately."
+],
+"a": [
+1
+]
+},
+{
+"q": "An engine misses in both the right and left positions of the magneto switch. The quickest method for locating the trouble is to",
+"o": [
+"check for one or more cold cylinders.",
+"perform a compression check.",
+"check each spark plug."
+],
+"a": [
+0
+]
+},
+{
+"q": "If an engine cylinder is to be removed, at what position in the cylinder should the piston be?",
+"o": [
+"Bottom dead center.",
+"Top dead center.",
+"Halfway between top and bottom dead center."
+],
+"a": [
+1
+]
+},
+{
+"q": "The horsepower developed in the cylinders of a reciprocating engine is known as the",
+"o": [
+"shaft horsepower.",
+"indicated horsepower.",
+"brake horsepower."
+],
+"a": [
+1
+]
+},
+{
+"q": "What does valve overlap promote?",
+"o": [
+"Lower intake manifold pressure and temperatures.",
+"A backflow of gases across the cylinder.",
+"Better scavenging and cooling characteristics."
+],
+"a": [
+2
+]
+},
+{
+"q": "Which fuel/air mixture will result in the highest engine temperature (all other factors remaining constant)?",
+"o": [
+"A mixture leaner than a rich best power mixture of .085",
+"A mixture richer than a full rich mixture of .087",
+"A mixture leaner than a manual lean mixture of .060"
+],
+"a": [
+2
+]
+},
+{
+"q": "When does valve overlap occur in the operation of an aircraft reciprocating engine?",
+"o": [
+"At the end of the exhaust stroke and the beginning of the intake stroke.",
+"At the end of the power stroke and the beginning of the exhaust stroke.",
+"At the end of the compression stroke and the beginning of the power stroke."
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the best indication of worn valve guides?",
+"o": [
+"High oil consumption.",
+"Low compression.",
+"Low oil pressure."
+],
+"a": [
+0
+]
+},
+{
+"q": "If the ignition switch is moved from BOTH to either LEFT or RIGHT during an engine ground check, normal operation is usually indicated by a",
+"o": [
+"large drop in RPM.",
+"momentary interruption of both ignition systems.",
+"slight drop in RPM."
+],
+"a": [
+2
+]
+},
+{
+"q": "Engine operating flexibility is the ability of the engine to",
+"o": [
+"deliver maximum horsepower at a specific altitude.",
+"meet exacting requirements of efficiency and low weight per horsepower ratio.",
+"run smoothly and give the desired performance at all speeds."
+],
+"a": [
+2
+]
+},
+{
+"q": "If the oil pressure gauge fluctuates over a wide range from zero to normal operating pressure, the most likely cause is",
+"o": [
+"low oil supply.",
+"broken or weak pressure relief valve spring.",
+"air lock in the scavenge pump intake."
+],
+"a": [
+0
+]
+},
+{
+"q": "A characteristic of dyna focal engine mounts as applied to aircraft reciprocating engines is that the",
+"o": [
+"shock mounts eliminate the torsional flexing of the powerplant.",
+"engine attaches to the shock mounts at the engine's center of gravity.",
+"shock mounts point toward the engine's center of gravity."
+],
+"a": [
+2
+]
+},
+{
+"q": "Excessive valve clearance results in the valves opening",
+"o": [
+"late and closing early.",
+"early and closing late.",
+"late and closing late."
+],
+"a": [
+0
+]
+},
+{
+"q": "After spark plugs from an opposed engine have been serviced, in what position should they be reinstalled?",
+"o": [
+"Next in firing order to the one from which they were removed.",
+"Swapped bottom to top.",
+"Next in firing order to the one from which they were removed and swapped bottom to top."
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the purpose of a power check on a reciprocating engine?",
+"o": [
+"To check magneto drop.",
+"To determine satisfactory performance.",
+"To determine if the fuel/air mixture is adequate."
+],
+"a": [
+1
+]
+},
+{
+"q": "Which statement is true regarding bearings used in high powered reciprocating aircraft engines?",
+"o": [
+"The outer race of a single row, self aligning ball bearing will always have a radius equal to the radius of the balls.",
+"There is less rolling friction when ball bearings are used than when roller bearings are employed.",
+"Crankshaft bearings are generally of the ball-type due to their ability to withstand extreme loads without overheating."
+],
+"a": [
+1
+]
+},
+{
+"q": "The five events of a four stroke cycle engine in the order of their occurrence are",
+"o": [
+"intake, ignition, compression, power, exhaust.",
+"intake, power, compression, ignition, exhaust.",
+"intake, compression, ignition, power, exhaust."
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following is a characteristic of a thrust bearing used in most radial engines?",
+"o": [
+"Tapered roller.",
+"Double row ball.",
+"Deep groove ball."
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the principal advantage of using propeller reduction gears?",
+"o": [
+"To enable the propeller RPM to be increased without an accompanying increase in engine RPM.",
+"To enable the engine RPM to be increased with an accompanying increase in power and allow the propeller to remain at a lower, more efficient RPM.",
+"To enable the engine RPM to be increased with an accompanying increase in propeller RPM."
+],
+"a": [
+1
+]
+},
+{
+"q": "Which condition would be the least likely to be caused by failed or failing engine bearings?",
+"o": [
+"Excessive oil consumption.",
+"High oil temperatures.",
+"Low oil temperatures."
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the basic operational sequence for reducing the power output of an engine equipped with a constant speed propeller?",
+"o": [
+"Reduce the RPM, then the manifold pressure.",
+"Reduce the manifold pressure, then retard the throttle to obtain the correct RPM.",
+"Reduce the manifold pressure, then the RPM."
+],
+"a": [
+2
+]
+},
+{
+"q": "When will small induction system air leaks have the most noticeable effect on engine operation?",
+"o": [
+"At high RPM.",
+"At maximum continuous and takeoff power settings.",
+"At low RPM."
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following would most likely cause a reciprocating engine to backfire through the induction system at low RPM operation?",
+"o": [
+"Idle mixture too rich.",
+"Clogged derichment valve.",
+"Lean mixture."
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following conditions would most likely lead to detonation?",
+"o": [
+"Late ignition timing.",
+"Use of fuel with too high an octane rating.",
+"Use of fuel with too low an octane rating."
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following engine servicing operations generally requires engine pre oiling prior to starting the engine?",
+"o": [
+"Engine oil and filter change.",
+"Engine installation.",
+"Replacement of oil lines."
+],
+"a": [
+1
+]
+},
+{
+"q": "Increased water vapor (higher relative humidity) in the incoming air to a reciprocating engine will normally result in which of the following?",
+"o": [
+"Decreased engine power at a constant RPM and manifold pressure.",
+"Increased power output due to increased volumetric efficiency.",
+"A leaning effect on engines which use non automatic carburetors."
+],
+"a": [
+0
+]
+},
+{
+"q": "An increase in manifold pressure with a constant RPM will cause the bearing load in an engine to",
+"o": [
+"decrease.",
+"remain relatively constant.",
+"increase."
+],
+"a": [
+2
+]
+},
+{
+"q": "Direct mechanical push pull carburetor heat control linkages should normally be adjusted so that the stop located on the diverter valve will be contacted",
+"o": [
+"before the stop at the control lever is reached in both HOT and COLD positions.",
+"before the stop at the control lever is reached in the HOT position and after the stop at the control lever is reached in the COLD position.",
+"after the stop at the control lever is reached in both HOT and COLD positions."
+],
+"a": [
+0
+]
+},
+{
+"q": "One cause of afterfiring in an aircraft engine is",
+"o": [
+"sticking intake valves.",
+"an excessively lean mixture.",
+"an excessively rich mixture."
+],
+"a": [
+2
+]
+},
+{
+"q": "To what altitude will a turbo charged engine maintain sea level pressure?",
+"o": [
+"Critical altitude.",
+"Service ceiling.",
+"Pressure altitude."
+],
+"a": [
+0
+]
+},
+{
+"q": "Master rod bearings are generally what type?",
+"o": [
+"Plain.",
+"Roller.",
+"Ball."
+],
+"a": [
+0
+]
+},
+{
+"q": "Grinding the valves of a reciprocating engine to a feather edge is likely to result in",
+"o": [
+"normal operation and long life.",
+"excessive valve clearance.",
+"preignition and burned valves."
+],
+"a": [
+2
+]
+},
+{
+"q": "The primary concern in establishing the firing order for an opposed engine is to",
+"o": [
+"provide for balance and eliminate vibration to the greatest extent possible.",
+"keep power impulses on adjacent cylinders as far apart as possible in order to obtain the greatest mechanical efficiency.",
+"keep the power impulses on adjacent cylinders as close as possible in order to obtain the greatest mechanical efficiency."
+],
+"a": [
+0
+]
+},
+{
+"q": "The actual power delivered to the propeller of an aircraft engine is called",
+"o": [
+"friction horsepower.",
+"brake horsepower.",
+"indicated horsepower."
+],
+"a": [
+1
+]
+},
+{
+"q": "Cam ground pistons are installed in some aircraft engines to",
+"o": [
+"provide a better fit at operating temperatures.",
+"act as a compensating feature so that a compensated magneto is not required.",
+"equalize the wear on all pistons."
+],
+"a": [
+0
+]
+},
+{
+"q": "If the hot clearance is used to set the valves when the engine is cold, what will occur during operation of the engine?",
+"o": [
+"The valves will open early and close early.",
+"The valves will open late and close early.",
+"The valves will open early and close late."
+],
+"a": [
+1
+]
+},
+{
+"q": "Full floating piston pins are those which allow motion between the pin and",
+"o": [
+"the piston.",
+"both the piston and the large end of the connecting rod.",
+"both the piston and the small end of the connecting rod."
+],
+"a": [
+2
+]
+},
+{
+"q": "When is the fuel/air mixture ignited in a conventional reciprocating engine?",
+"o": [
+"When the piston has reached top dead center of the intake stroke.",
+"Shortly before the piston reaches the top of the compression stroke.",
+"When the piston reaches top dead center on the compression stroke."
+],
+"a": [
+1
+]
+},
+{
+"q": "On which part of the cylinder walls of a normally operating engine will the greatest amount of wear occur?",
+"o": [
+"Near the center of the cylinder where piston velocity is greatest.",
+"Near the top of the cylinder.",
+"Wear is normally evenly distributed."
+],
+"a": [
+1
+]
+},
+{
+"q": "Some cylinder barrels are hardened by",
+"o": [
+"nitriding.",
+"shot peening.",
+"tempering."
+],
+"a": [
+0
+]
+},
+{
+"q": "If an engine with a stroke of 6 inches is operated at 2,000 RPM, the piston movement within the cylinder will be",
+"o": [
+"at maximum velocity around TDC.",
+"constant during the entire 360° of crankshaft travel.",
+"at maximum velocity 90° after TDC."
+],
+"a": [
+2
+]
+},
+{
+"q": "Some aircraft engine manufacturers equip their product with choked or taper-ground cylinders in order to",
+"o": [
+"provide a straight cylinder bore at operating temperatures.",
+"flex the rings slightly during operation and reduce the possibility of the rings sticking in the grooves.",
+"increase the compression pressure for starting purposes."
+],
+"a": [
+0
+]
+},
+{
+"q": "During overhaul, the disassembled parts of an engine are usually degreased with some form of mineral spirits solvent rather than water mixed degreasers primarily because",
+"o": [
+"solvent degreasers are much more effective.",
+"water mixed degreaser residues may cause engine oil contamination in the overhauled engine.",
+"water-mixed degreasers cause corrosion."
+],
+"a": [
+1
+]
+},
+{
+"q": "The volume of a cylinder equals 70 cubic inches when the piston is at bottom center. When the piston is at the top of the cylinder, the volume equals 10 cubic inches. What is the compression ratio?",
+"o": [
+"1:7",
+"7:10",
+"7:1"
+],
+"a": [
+2
+]
+},
+{
+"q": "Compression ratio is the ratio between the",
+"o": [
+"piston travel on the compression stroke and on the intake stroke.",
+"combustion chamber pressure on the combustion stroke and on the exhaust stroke.",
+"cylinder volume with piston at bottom dead center and at top dead center."
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following is a primary engine instrument?",
+"o": [
+"Tachometer.",
+"Fuel flowmeter.",
+"Airspeed indicator."
+],
+"a": [
+0
+]
+},
+{
+"q": "Which statement is true regarding a thermocouple type cylinder head temperature measuring system?",
+"o": [
+"The resistance required for cylinder head temperature indicators is measured in farads.",
+"The voltage output of a thermocouple system is determined by the temperature difference between the two ends of the thermocouple.",
+"When the master switch is turned on, a thermocouple indicator will move off scale to the low side."
+],
+"a": [
+1
+]
+},
+{
+"q": "Basically, the indicator of a tachometer system is responsive to change in",
+"o": [
+"current flow.",
+"frequency.",
+"voltage."
+],
+"a": [
+1
+]
+},
+{
+"q": "A manifold pressure gauge is designed to",
+"o": [
+"maintain constant pressure in the intake manifold.",
+"indicate differential pressure between the intake manifold and atmospheric pressure.",
+"indicate absolute pressure in the intake manifold."
+],
+"a": [
+2
+]
+},
+{
+"q": "Thermocouple leads",
+"o": [
+"may be installed with either lead to either post of the indicator.",
+"are designed for a specific installation and may not be altered.",
+"may be repaired using solderless connectors."
+],
+"a": [
+1
+]
+},
+{
+"q": "If the thermocouple leads were inadvertently crossed at installation, what would the cylinder temperature gauge pointer indicate?",
+"o": [
+"Normal temperature for prevailing condition.",
+"Moves off scale on the zero side of the meter.",
+"Moves off scale on the high side of the meter."
+],
+"a": [
+1
+]
+},
+{
+"q": "The fuel flow indication system used with many fuel-injected opposed engine airplanes utilizes a measure of",
+"o": [
+"fuel flow volume.",
+"fuel pressure.",
+"fuel flow mass."
+],
+"a": [
+1
+]
+},
+{
+"q": "The fuel flowmeter used with a continuous-fuel injection system installed on an aircraft horizontally opposed reciprocating engines measures the fuel pressure drop across the",
+"o": [
+"manifold valve.",
+"fuel nozzles.",
+"metering valve."
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following fire detection systems measures temperature rise compared to a reference temperature?",
+"o": [
+"Thermocouple.",
+"Thermal switch.",
+"Lindberg continuous element."
+],
+"a": [
+0
+]
+},
+{
+"q": "The most satisfactory extinguishing agent for a carburetor or intake fire is",
+"o": [
+"carbon dioxide.",
+"dry chemical.",
+"methyl bromide."
+],
+"a": [
+0
+]
+},
+{
+"q": "The fire detection system that uses a single wire surrounded by a continuous string of ceramic beads in a tube is the",
+"o": [
+"Fenwal system.",
+"Kidde system.",
+"thermocouple system."
+],
+"a": [
+0
+]
+},
+{
+"q": "A continuous loop fire detector is what type of detector?",
+"o": [
+"Spot detector.",
+"Overheat detector.",
+"Rate of temperature rise detector."
+],
+"a": [
+1
+]
+},
+{
+"q": "After a fire is extinguished, or overheat condition removed in aircraft equipped with a Systron- Donner fire detector, the detection system",
+"o": [
+"must be manually reset.",
+"automatically resets.",
+"sensing component must be replaced."
+],
+"a": [
+1
+]
+},
+{
+"q": "What is the function of a fire detection system?",
+"o": [
+"To discharge the powerplant fire extinguishing system at the origin of the fire.",
+"To activate a warning device in the event of a powerplant fire.",
+"To identify the location of a powerplant fire."
+],
+"a": [
+1
+]
+},
+{
+"q": "What retains the nitrogen charge and fire extinguishing agent in a high rate of discharge (HRD) container?",
+"o": [
+"Breakable disk and fusible disk.",
+"Pressure switch and check tee valve.",
+"Pressure gauge and cartridge."
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following fire detectors are commonly used in the power section of an engine nacelle?",
+"o": [
+"CO detectors.",
+"Smoke detectors.",
+"Rate of temperature rise detectors."
+],
+"a": [
+2
+]
+},
+{
+"q": "What type of lubricant may be used to aid in pulling electrical wires or cables through conduits?",
+"o": [
+"Silicone grease.",
+"Soapstone talc.",
+"Rubber lubricant."
+],
+"a": [
+1
+]
+},
+{
+"q": "What type of oil do most engine manufacturers recommend for new reciprocating engine break in?",
+"o": [
+"Ashless dispersant oil.",
+"Straight mineral oil.",
+"Semi synthetic oil."
+],
+"a": [
+1
+]
+},
+{
+"q": "How are the teeth of the gears in the accessory section of an engine normally lubricated?",
+"o": [
+"By splashed or sprayed oil.",
+"By submerging the load bearing portions in oil.",
+"By surrounding the load bearing portions with baffles or housings within which oil pressure can be maintained."
+],
+"a": [
+0
+]
+},
+{
+"q": "If the oil in the oil cooler core and annular jacket becomes congealed, what unit prevents damage to the cooler?",
+"o": [
+"Oil pressure relief valve.",
+"Airflow control valve.",
+"Surge protection valve."
+],
+"a": [
+2
+]
+},
+{
+"q": "What will result if an oil filter becomes completely blocked?",
+"o": [
+"Oil will flow at a reduced rate through the system.",
+"Oil flow to the engine will stop.",
+"Oil will flow at the normal rate through the system."
+],
+"a": [
+2
+]
+},
+{
+"q": "The vent line connecting the oil supply tank and the engine in some dry sump engine installations permits",
+"o": [
+"pressurization of the oil supply to prevent cavitation of the oil supply pump.",
+"oil vapors from the engine to be condensed and drained into the oil supply tank.",
+"the oil tank to be vented through the normal engine vent."
+],
+"a": [
+2
+]
+},
+{
+"q": "In order to maintain a constant oil pressure as the clearances between the moving parts of an engine increase through normal wear, the supply pump output",
+"o": [
+"increases as the resistance offered to the flow of oil increases.",
+"remains relatively constant (at a given RPM) with less oil being returned to the pump inlet by the relief valve.",
+"remains relatively constant (at a given RPM) with more oil being returned to the pump inlet by the relief valve."
+],
+"a": [
+1
+]
+},
+{
+"q": "An engine lubrication system pressure relief valve is usually located between the",
+"o": [
+"oil cooler and the scavenger pump.",
+"scavenger pump and the external oil system.",
+"pump and the internal oil system."
+],
+"a": [
+2
+]
+},
+{
+"q": "A drop in oil pressure may be caused by",
+"o": [
+"the temperature regulator sticking open.",
+"the bypass valve sticking open.",
+"foreign material under the relief valve."
+],
+"a": [
+2
+]
+},
+{
+"q": "Which type valve prevents oil from entering the main accessory case when the engine is not running?",
+"o": [
+"Bypass.",
+"Relief.",
+"Check."
+],
+"a": [
+2
+]
+}
+]
+},
+{
+"name": "Fuel System",
+"qs": [
+{
+"q": "What maintains the float level in the float type carburetor chamber",
+"o": [
+"The needle valve",
+"The float",
+"The ‘U’ tube principle."
+],
+"a": [
+2
+]
+},
+{
+"q": "The effect of blocked float chamber vent is:",
+"o": [
+"Fuel starvation",
+"Excessive mixture",
+"Collapse of float chamber"
+],
+"a": [
+0
+]
+},
+{
+"q": "The pressure balance duct",
+"o": [
+"Supplements the needle valve",
+"Supplements the vent",
+"Supplements the airport type mixture control"
+],
+"a": [
+1
+]
+},
+{
+"q": "What prevents fuel from spilling out of chamber with anti-G device during inverted flight",
+"o": [
+"The collar",
+"The ball valve",
+"The control stand tube"
+],
+"a": [
+1
+]
+},
+{
+"q": "What prevents fuel starvation during abnormal flight condition with float type carburetor having anti-G device:",
+"o": [
+"Control stand tube",
+"The ball valve",
+"The collar"
+],
+"a": [
+0
+]
+},
+{
+"q": "Detonation is directly dependent on all but one of the following:",
+"o": [
+"Mixture settings",
+"Engine oil grade",
+"Air inlet temperatures."
+],
+"a": [
+1
+]
+},
+{
+"q": "To avoid pre-ignition setting-in, the pilot is advised to monitor:",
+"o": [
+"Fuel grade",
+"Oil grade",
+"Cylinder head temperature"
+],
+"a": [
+2
+]
+},
+{
+"q": "The fuel used for oil dilution during cold starts:",
+"o": [
+"Is transferred back into the fuel tank after dilution",
+"Settles at the bottom of the sump and is later drained through special drain plugs.",
+"Evaporates into the air"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is used in the induction system to control carburetor icing?",
+"o": [
+"Air scoop from the carburetor intake",
+"Alternate valve from exhaust muff air",
+"Warm air drafted from exhaust pipe into the carburetor barrel"
+],
+"a": [
+1
+]
+},
+{
+"q": "Black smoke from an exhaust indicates",
+"o": [
+"That there is an excessive build-up of carbon in the cylinders.",
+"That the mixture is too rich",
+"That the engine is burning too much oil"
+],
+"a": [
+1
+]
+},
+{
+"q": "The purpose of a diffuser fitted in a carburetor is:",
+"o": [
+"To meter the fuel correctly for all speeds of the engine",
+"To emulsify the fuel and deliver it correctly balanced to fuel nozzle",
+"To balance the mixture for the various altitude reached"
+],
+"a": [
+0
+]
+},
+{
+"q": "A typical fuel/air ratio is:",
+"o": [
+"15 parts of air to one part of fuel by volume",
+"20 parts of air to one part of fuel by volume",
+"15 parts of air to one part of fuel by weight."
+],
+"a": [
+2
+]
+},
+{
+"q": "An accelerator pump provide extra fuel to:",
+"o": [
+"Ensure a good starting procedure",
+"Prevent a weak cut (flat spot) on rapid power increases",
+"Provide extra rich mixture for take-off"
+],
+"a": [
+1
+]
+},
+{
+"q": "In a direct fuel injection engine system pressure for startup is provided by:",
+"o": [
+"An engine driven spur gear pump",
+"A multi-piston pump",
+"An electrically operated booster pump"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following conditions would most likely lead to detonation",
+"o": [
+"Retarded ignition timing",
+"Use of fuel with too high octane rating",
+"Use of fuel with too low octane rating"
+],
+"a": [
+2
+]
+},
+{
+"q": "Backfiring through the carburetor generally result from the use of:",
+"o": [
+"An excessively lean mixture",
+"Excessively atomized fuel",
+"An excessive rich mixture"
+],
+"a": [
+0
+]
+},
+{
+"q": "When carburetor hot air is selected during engine operation:",
+"o": [
+"Exhaust gas flows into the carburetor through the alternate air valve",
+"A mixture of hot exhaust gas and fresh air flow into the system",
+"Warm air from exhaust manifold shroud flows into the carburetor"
+],
+"a": [
+2
+]
+},
+{
+"q": "A method commonly used to prevent carburetor icing is to:",
+"o": [
+"Preheat the intake air",
+"Mix alcohol with the fuel",
+"Electrically heat the venturi and throttle valve."
+],
+"a": [
+0
+]
+},
+{
+"q": "The effect of unblocked float chamber vent is:",
+"o": [
+"Free starvation",
+"Excessive mixture",
+"Collapse of float chamber"
+],
+"a": [
+0
+]
+},
+{
+"q": "Carburetor icing in the induction system is controlled by",
+"o": [
+"Air scoop from the carburetor intake",
+"Alternate valve from exhaust muff air",
+"Warm air drafted from exhaust pipe into the carburetor barrel"
+],
+"a": [
+1
+]
+}
+]
+},
+{
+"name": "Lubrication System",
+"qs": [
+{
+"q": "One of these is NOT an advantage of synthetic lubrication oil.",
+"o": [
+"High viscosity with no heavy reciprocating loads and more power usually required at low temperature.",
+"Anti freeze for low temperature operation at higher altitudes",
+"Fewer tendency to evaporate at high altitudes."
+],
+"a": [
+0
+]
+},
+{
+"q": "The oil scavenge strainers are usually located.",
+"o": [
+"At the outlet of the pumps",
+"On the inlet of the scavenge pumps",
+"At inlet of the lubrication components."
+],
+"a": [
+1
+]
+},
+{
+"q": "The setting of the oil filter pre-blockage indicator is always:",
+"o": [
+"Lower than the bypass valve",
+"Higher than the bypass valve",
+"The same as the pump valve"
+],
+"a": [
+0
+]
+},
+{
+"q": "In which type of oil system does the oil pressure pump draw oil from tank through a suction filter",
+"o": [
+"Full flow oil system",
+"Pressure relief valve system",
+"re-circulatory oil system."
+],
+"a": [
+2
+]
+},
+{
+"q": "The oil pressure in the oil system normally reaches.",
+"o": [
+"40 psi",
+"75 psi",
+"30 psi"
+],
+"a": [
+0
+]
+},
+{
+"q": "What could be the maximum oil temperature",
+"o": [
+"75°C",
+"60°C",
+"115°C"
+],
+"a": [
+2
+]
+},
+{
+"q": "Pre heating of fuel is necessary to prevent ice formation when:",
+"o": [
+"A fuel cooled oil cooler is used",
+"The ambient temperature is below 0°C",
+"air cooled oil cooler is used"
+],
+"a": [
+0
+]
+},
+{
+"q": "The magnetic chip detector is positioned on the:",
+"o": [
+"Scavenge line",
+"Feed line",
+"Both lines depending on the manufacturer."
+],
+"a": [
+0
+]
+},
+{
+"q": "The type of oil system that does not the oil pressure pump draw oil from tank through a suction filter",
+"o": [
+"Full flow oil system",
+"Pressure relief oil system",
+"re-circulatory oil system"
+],
+"a": [
+2
+]
+},
+{
+"q": "De aerator serves the same function as:",
+"o": [
+"Heat exchanger",
+"Centrifugal breather",
+"Pressure relief valve"
+],
+"a": [
+1
+]
+},
+{
+"q": "The pressure relief valve in the lubrication system, determines:",
+"o": [
+"Oil pressure in the engine system",
+"Oil pressure of the pump",
+"The crankcase pressure generally."
+],
+"a": [
+0
+]
+},
+{
+"q": "The reserve of lubricating oil of a wet sump piston engine is stored in",
+"o": [
+"The sump",
+"A separate tank",
+"The pipe system"
+],
+"a": [
+0
+]
+},
+{
+"q": "When rotating, the gear type oil pump:",
+"o": [
+"Draws oil into the pump and carries it round between the gear teeth and casing.",
+"Oil is drawn into the pump and through the intermeshing gears to the outlet.",
+"Oil is drawn into the pump, half being carried around between pump and casing, the other half passing between the gears to the outlet."
+],
+"a": [
+1
+]
+},
+{
+"q": "A breather is fitted to an engine to:",
+"o": [
+"Allow for changes in oil pressure",
+"Allow for changes in atmospheric pressure",
+"Relieve pressures in the crankcase"
+],
+"a": [
+2
+]
+},
+{
+"q": "If the oil pressure of a cold engine is higher than at normal operating temperatures, the",
+"o": [
+"Oil system relief valve should be readjusted",
+"Engines lubrication system is probably operating normally",
+"Oil dilution system should be turned on immediately."
+],
+"a": [
+1
+]
+},
+{
+"q": "Excessive fluctuation of an oil pressure gauge may be caused by",
+"o": [
+"Leak in pump housing",
+"Excessive engine vibration",
+"A completely kluged oil pressure gauge line"
+],
+"a": [
+0
+]
+}
+]
+},
+{
+"name": "Ignition System",
+"qs": [
+{
+"q": "The contact breakers of a magneto is connected in the:",
+"o": [
+"Circuit between distributor and spark plugs",
+"Secondary winding circuit",
+"Primary winding circuit"
+],
+"a": [
+2
+]
+},
+{
+"q": "Magneto switch is electrically open when the magneto is:",
+"o": [
+"ON",
+"OFF",
+"Either ON or OFF"
+],
+"a": [
+0
+]
+},
+{
+"q": "Booster coils impulse couplings are used with some magnetos so as to:",
+"o": [
+"Safeguard against magneto failure",
+"Overcome low sparking intensity at commencement of engine starting",
+"Boost sparking intensity during starting and duration of engine run."
+],
+"a": [
+1
+]
+},
+{
+"q": "The function of the choke employed in the high energy ignition system is:",
+"o": [
+"Ensure high voltage discharged when required",
+"Ensure high current is developed across the ignition",
+"Prolong the duration of discharge through the high tension lead to the igniter."
+],
+"a": [
+0
+]
+},
+{
+"q": "Magnetos",
+"o": [
+"Are supplied from A.C bus-bar",
+"Are supplied from D.C",
+"Generates their own power"
+],
+"a": [
+2
+]
+},
+{
+"q": "The speed of the distributor rotor is:",
+"o": [
+"Twice that of the magneto shaft",
+"Half that of the crankshaft",
+"Half that of the magneto shaft"
+],
+"a": [
+1
+]
+},
+{
+"q": "Heat range of a plug is determined by the:",
+"o": [
+"Plugs rate of heat absorption",
+"Plugs rate of heat generation",
+"Plugs rate of heat dissipation"
+],
+"a": [
+2
+]
+},
+{
+"q": "After servicing spark plugs from an opposed engine, the recommended position for reinstalling them should be:",
+"o": [
+"Next in firing order to the one from which they were removed",
+"Swap bottom to top, top to bottom on cylinders from which they were removed",
+"Swapping them to different cylinders from the ones they were removed."
+],
+"a": [
+1
+]
+},
+{
+"q": "If an aircraft ignition switch is turned off and the engine did not stop running, the likely cause is:",
+"o": [
+"An open ground lead in the magneto",
+"Arcing breaker points of the magneto",
+"Grounded primary lead of the magneto."
+],
+"a": [
+0
+]
+},
+{
+"q": "Which is correct combination",
+"o": [
+"Hot plugs on engine with very high operating temperatures",
+"Cold plugs on engine with relatively high operating temperatures",
+"Cold plugs on engine with relatively low operating temperatures."
+],
+"a": [
+1
+]
+},
+{
+"q": "The purpose of an impulse coupling on a magneto is:",
+"o": [
+"To facilitate quick start of engine",
+"To facilitate quick stop of engine",
+"To sustain a pre-set engine speed"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which would be cause for rejecting a spark plug",
+"o": [
+"Carbon fouling at the electrodes",
+"Cracked electrode insulation",
+"Lead fouling of the electrode and insulator."
+],
+"a": [
+1
+]
+},
+{
+"q": "When starting an engine it is dangerous to \"pump\" the throttle lever because:",
+"o": [
+"The engine will not start",
+"Would start too rapidly",
+"There is a risk of fire in the carburetor intake"
+],
+"a": [
+2
+]
+},
+{
+"q": "What causes burnt contact breaker points:",
+"o": [
+"Failure of the contact breaker condenser",
+"Shorting of the high tension (HT) leads",
+"Distributor tracking."
+],
+"a": [
+0
+]
+},
+{
+"q": "The primary purpose of a dual ignition system is:",
+"o": [
+"To ensure safety from ignition",
+"To maximize power output of engine",
+"To ensure adequate combustion of mixture"
+],
+"a": [
+2
+]
+},
+{
+"q": "In a high tension magneto ignition:",
+"o": [
+"The condenser is in the secondary circuit",
+"The contact-Breaker points are in the secondary circuit",
+"All the above are in the primary circuit"
+],
+"a": [
+2
+]
+}
+]
+},
+{
+"name": "Induction System",
+"qs": [
+{
+"q": "Air leak out of the induction manifold of a naturally aspirated engine will cause:",
+"o": [
+"Loss of charge to the atmosphere",
+"Leaning out of mixture going to cylinders",
+"Too rich mixture admitted to cylinders."
+],
+"a": [
+0
+]
+},
+{
+"q": "When will small induction system air leaks have the most noticeable effect on engine operation",
+"o": [
+"At high RPM",
+"At maximum continuous and take off power settings",
+"At low RPM"
+],
+"a": [
+2
+]
+},
+{
+"q": "Air leak in the induction manifold of a naturally aspirated engine will cause",
+"o": [
+"Loss of charge to the atmosphere",
+"Too rich mixture admitted to cylinder",
+"Leaning out of mixture going into the cylinder"
+],
+"a": [
+2
+]
+},
+{
+"q": "When will a small induction system air leaks have most noticeable effect on engine operation",
+"o": [
+"At low RPM",
+"At high RPM",
+"At maximum continuous and take-off power setting"
+],
+"a": [
+0
+]
+},
+{
+"q": "Carburetor icing is likely under conditions of",
+"o": [
+"Low relative humidity and low temperature",
+"Low relative humidity and high temperature",
+"High relative humidity and low temperature"
+],
+"a": [
+2
+]
+},
+{
+"q": "A cylindrical tube narrows down at a point when air flows through the tube, there will be",
+"o": [
+"Pressure build-up at this point",
+"Depression at this point",
+"Temperature rises at this point"
+],
+"a": [
+1
+]
+},
+{
+"q": "A leak in the induction pipe will result into",
+"o": [
+"A rich mixture",
+"A lean mixture",
+"Mixture remains unaffected"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following would most likely cause a reciprocating engine to backfire through the induction system at low RPM operation",
+"o": [
+"Idle mixture too rich",
+"Clogged enrichment valve",
+"Lean mixture"
+],
+"a": [
+2
+]
+},
+{
+"q": "What part of an aircraft in flight will begin to accumulate ice before any other",
+"o": [
+"Wing leading edge",
+"Propeller spinner or dome",
+"Carburetor"
+],
+"a": [
+2
+]
+},
+{
+"q": "A method commonly used to prevent carburetor icing is to",
+"o": [
+"Preheat the intake air",
+"Mix alcohol with the fuel",
+"Electrically heat the venturi and throttle valve"
+],
+"a": [
+0
+]
+},
+{
+"q": "Increased engine heat will cause volumetric efficiency to",
+"o": [
+"Remain the same",
+"Decrease",
+"Increase"
+],
+"a": [
+1
+]
+},
+{
+"q": "Heat decrease around the intake of a normally aspirated engine will cause the volumetric efficiency to:",
+"o": [
+"Remain the same",
+"Decrease",
+"Increase"
+],
+"a": [
+2
+]
+}
+]
+},
+{
+"name": "Exhaust System",
+"qs": [
+{
+"q": "Compared to normally aspirated engines, exhaust engine driven system operate at",
+"o": [
+"Similar temperatures and higher pressures",
+"Higher temperatures and higher pressures",
+"Similar temperatures and pressures"
+],
+"a": [
+0
+]
+},
+{
+"q": "What could be a result of undetected exhaust system leaks in a reciprocating engine powered airplane",
+"o": [
+"Pilot/passenger incapacitation caused by carbon monoxide entering the cabin",
+"A rough-running engine with increased fuel consumption",
+"Too low exhaust back pressure resulting in the desired power settings not being attained"
+],
+"a": [
+0
+]
+},
+{
+"q": "An excessive oil loss through the rings can be detected by",
+"o": [
+"Blue smoke from exhaust",
+"Black smoke from exhaust",
+"High cylinder head temperature"
+],
+"a": [
+0
+]
+},
+{
+"q": "An excessive rich mixture can be detected by",
+"o": [
+"Blue smoke from exhaust",
+"Black smoke from exhaust",
+"High cylinder head temperature"
+],
+"a": [
+1
+]
+},
+{
+"q": "Why is high nickel chromium steel used in many exhaust systems",
+"o": [
+"High heat conductivity and flexibility",
+"Corrosion resistance and high heat conductivity",
+"Corrosion resistance and low expansion coefficient"
+],
+"a": [
+2
+]
+}
+]
+},
+{
+"name": "Starting System",
+"qs": [
+{
+"q": "The most common type of starter used on piston engine today is",
+"o": [
+"Hand inertia starter",
+"Direct electric starter",
+"Cranking electric starter"
+],
+"a": [
+1
+]
+},
+{
+"q": "The purpose of overrunning clutch drive is to allow for",
+"o": [
+"Direct contact",
+"Overrunning contact",
+"Positive meshing"
+],
+"a": [
+2
+]
+},
+{
+"q": "Direct cranking starters is commonly of",
+"o": [
+"Inertia and electric",
+"Hand and inertia",
+"Electric and hand"
+],
+"a": [
+2
+]
+},
+{
+"q": "Roller type of overrunning clutch drive consists of",
+"o": [
+"Contact pinion",
+"Splined shaft",
+"Inner collar"
+],
+"a": [
+2
+]
+},
+{
+"q": "When the engine starts to fire the starter",
+"o": [
+"Manually disengages",
+"Automatically disengages",
+"Mechanically stops"
+],
+"a": [
+1
+]
+}
+]
+},
+{
+"name": "Cooling System",
+"qs": [
+{
+"q": "What is the position of the cow/flaps during engine starting and warm up operations under normal conditions",
+"o": [
+"Full open at all times",
+"Full closed at all times",
+"Open for starting, closed for warm up"
+],
+"a": [
+0
+]
+},
+{
+"q": "Prolonged idling of an engine will usually result in",
+"o": [
+"Excessive cylinder head temperatures",
+"Increased oil consumption",
+"Foreign material buildup on spark plugs"
+],
+"a": [
+2
+]
+},
+{
+"q": "During ground operations of an engine, the cowl flaps should be in what position",
+"o": [
+"Fully closed",
+"fully open",
+"Opened according to ambient conditions"
+],
+"a": [
+1
+]
+},
+{
+"q": "A broken cooling fin on a cylinder head",
+"o": [
+"Is cause for rejection of the head",
+"May be filed to smooth contours if damage and/or repair limits are not exceeded",
+"Should be left alone"
+],
+"a": [
+1
+]
+},
+{
+"q": "In an air-cooled piston engine",
+"o": [
+"Air is used to cool the cooling oil",
+"Air is ducted through drillings in the cylinder head walls",
+"Fins are incorporated to increase the cylinder head surface areas"
+],
+"a": [
+2
+]
+},
+{
+"q": "Engine temperature is normally indicated by",
+"o": [
+"Cylinder head temperature gauge",
+"Engine master temperature gauge",
+"Engine lubrication system temperature gauge"
+],
+"a": [
+0
+]
+},
+{
+"q": "Cooling air is normally provided by",
+"o": [
+"Ram air",
+"Airflow from a supercharger",
+"Airflow from a compressor bleed"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following defects would likely cause a hot spot on a reciprocating engine cylinder",
+"o": [
+"Too much cooling fin area broken off",
+"A cracked cylinder baffle",
+"Cowling air seal leakage"
+],
+"a": [
+0
+]
+},
+{
+"q": "High cylinder head temperatures are likely to result from",
+"o": [
+"a very lean mixture at high power settings",
+"Fouled spark plugs",
+"a very rich mixture at high power settings"
+],
+"a": [
+0
+]
+},
+{
+"q": "How do cowl flaps aid in cooling a horizontally opposed aircraft engine",
+"o": [
+"Re circulates air through the engine cylinders",
+"Directs air through the engine cylinders",
+"Controls the amount of air flowing around the cylinders"
+],
+"a": [
+2
+]
+}
+]
+},
+{
+"name": "Mixed Piston Systems Questions",
+"qs": [
+{
+"q": "Manifold pressure increases when:",
+"o": [
+"Volume of the fuel air charge increases",
+"Weight of the fuel air charge decreases",
+"Density of air in the cylinder increases"
+],
+"a": [
+2
+]
+},
+{
+"q": "At full power output of engine with a float type carburetor, the area with the highest pressure exist in the:",
+"o": [
+"Venturi",
+"Intake manifold",
+"Carburetor air scoop"
+],
+"a": [
+2
+]
+},
+{
+"q": "Method commonly used to prevent carburetor icing is to",
+"o": [
+"Preheat the intake air",
+"Mix alcohol with the fuel",
+"Electrically heat the venturi & throttle valve"
+],
+"a": [
+0
+]
+},
+{
+"q": "Carburetor icing is most severe at",
+"o": [
+"Air temperature between 30 and 40°F",
+"High altitudes",
+"Low engine temperature"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following would be a factor in the failure of an engine to develop full power at take-off?",
+"o": [
+"Improper adjustment of carburetor heat valve control linkage",
+"Excessively rich setting on the idle mixture adjustment",
+"Failure of the economizer valve to remain closed at take-off throttle setting"
+],
+"a": [
+0
+]
+},
+{
+"q": "If a fire starts in the induction system during the engine starting procedure, what should the operator do?",
+"o": [
+"Turn off the fuel switches to stop the fuel",
+"Continue cranking the engine",
+"Turn off all switches"
+],
+"a": [
+1
+]
+},
+{
+"q": "An engine equipped with an alternate air system, if the main air duct filter becomes clogged the",
+"o": [
+"System will automatically allow warm unfiltered air to be drawn into the engine",
+"Flow of air into the engine will be slowed or cut off unless alternate air is selected",
+"System will automatically allow warm, filtered alternate air to be drawn into the engine"
+],
+"a": [
+0
+]
+},
+{
+"q": "If carburetor or induction system icing is not present when carburetor heat is applied with no change in throttle setting, the",
+"o": [
+"Mixture will become richer",
+"Manifold pressure will increase",
+"Engine RPM will increase"
+],
+"a": [
+0
+]
+},
+{
+"q": "The action of a carburetor air scoop is to supply air to the carburetor, but it may also",
+"o": [
+"Cool the engine",
+"Keep fuel lines cool and prevent vapour lock",
+"Increase the pressure of the incoming air by ram effect"
+],
+"a": [
+2
+]
+},
+{
+"q": "The position of the cowl flaps during normal cruise flight conditions is",
+"o": [
+"Closed",
+"Open",
+"Half open"
+],
+"a": [
+0
+]
+},
+{
+"q": "How do cowl flaps aid in cooling a horizontally opposed aircraft engine?",
+"o": [
+"Recirculates air through the engine cylinders",
+"Directs air through the engine cylinders",
+"Controls the amount of air flowing around the cylinders"
+],
+"a": [
+2
+]
+},
+{
+"q": "Where are cooling fins usually located on air-cooled engines?",
+"o": [
+"Exhaust side of the cylinder head, inside the pistons, and connecting rods",
+"Cylinder head, cylinder walls, and inside the piston",
+"Cylinder head, cylinder barrel, and inside the piston"
+],
+"a": [
+2
+]
+},
+{
+"q": "Increased engine heat will cause volumetric efficiency to",
+"o": [
+"Increase",
+"Decrease",
+"Remain the same"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following results in a decrease in volumetric efficiency?",
+"o": [
+"Part throttle operation",
+"Short intake pipes of large diameter",
+"Cylinder head temperature too low"
+],
+"a": [
+0
+]
+},
+{
+"q": "The greatest portion of heat generated by combustion in a typical aircraft reciprocating engine is",
+"o": [
+"Converted into useful power",
+"Carried out with the exhaust gases",
+"Dissipated through the cylinder walls and heads"
+],
+"a": [
+1
+]
+},
+{
+"q": "What part of an air cooled cylinder assembly has the greatest fin area?",
+"o": [
+"Cylinder barrel",
+"Exhaust valve port",
+"Rear of the cylinder head"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following defects would likely cause a hot spot on a reciprocating engine cylinder?",
+"o": [
+"A cracked cylinder baffle",
+"Cowling air seal leakage",
+"Too much cooling fin area broken off"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following assists in removing heat from the metal walls and fins of an air-cooled cylinder assembly?",
+"o": [
+"An intercooler system",
+"A baffle and cowl arrangement",
+"An engine induction system"
+],
+"a": [
+1
+]
+},
+{
+"q": "High cylinder head temperatures are likely to result from",
+"o": [
+"Fouled spark plugs",
+"a very rich mixture at high power settings",
+"a very lean mixture at high power settings"
+],
+"a": [
+2
+]
+},
+{
+"q": "What maintains the float level in the float type carburetor chamber?",
+"o": [
+"The needle valve",
+"The float",
+"The ‘U’ tube principle"
+],
+"a": [
+2
+]
+},
+{
+"q": "The effect of blocked float chamber vent is:",
+"o": [
+"Fuel starvation",
+"Excessive mixture",
+"Collapse of float chamber"
+],
+"a": [
+0
+]
+},
+{
+"q": "The pressure balance duct",
+"o": [
+"Supplements the needle valve",
+"Supplements the vent",
+"Supplements the airport type mixture control"
+],
+"a": [
+1
+]
+},
+{
+"q": "What prevents fuel from spilling out of chamber with anti-G device during inverted flight?",
+"o": [
+"The collar",
+"The ball valve",
+"The control stand tube"
+],
+"a": [
+1
+]
+},
+{
+"q": "What prevents fuel starvation during abnormal flight condition with float type carburetor having anti-G device:",
+"o": [
+"Control stand tube",
+"The ball valve",
+"The collar"
+],
+"a": [
+0
+]
+},
+{
+"q": "Detonation is directly dependent on all but one of the following:",
+"o": [
+"Mixture settings",
+"Engine oil grade",
+"Air inlet temperatures"
+],
+"a": [
+1
+]
+},
+{
+"q": "To avoid pre-ignition setting-in, the pilot is advised to monitor:",
+"o": [
+"Fuel grade",
+"Oil grade",
+"Cylinder head temperature"
+],
+"a": [
+2
+]
+},
+{
+"q": "The fuel used for oil dilution during cold starts:",
+"o": [
+"Is transferred back into the fuel tank after dilution",
+"Settles at the bottom of the sump and is later drained through special drain plugs",
+"Evaporates into the air"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is used in the induction system to control carburetor icing?",
+"o": [
+"Air scoop from the carburetor intake",
+"Alternate valve from exhaust muff air",
+"Warm air drafted from exhaust pipe into the carburetor barrel"
+],
+"a": [
+1
+]
+},
+{
+"q": "Black smoke from an exhaust indicates",
+"o": [
+"That there is an excessive build-up of carbon in the cylinders",
+"That the mixture is too rich",
+"That the engine is burning too much oil"
+],
+"a": [
+1
+]
+},
+{
+"q": "One of these is NOT an advantage of synthetic lubrication oil.",
+"o": [
+"High viscosity with no heavy reciprocating loads and more power usually required at low temperature",
+"Anti freeze for low temperature operation at higher altitudes",
+"Fewer tendency to evaporate at high altitudes"
+],
+"a": [
+0
+]
+},
+{
+"q": "The oil scavenge strainers are usually located:",
+"o": [
+"At the outlet of the pumps",
+"On the inlet of the scavenge pumps",
+"At inlet of the lubrication components"
+],
+"a": [
+1
+]
+},
+{
+"q": "The oil pressure in the oil system normally reaches:",
+"o": [
+"40 psi",
+"75 psi",
+"30 psi"
+],
+"a": [
+0
+]
+},
+{
+"q": "Pre heating of fuel is necessary to prevent ice formation when:",
+"o": [
+"A fuel cooled oil cooler is used",
+"The ambient temperature is below 0°C",
+"air cooled oil cooler is used"
+],
+"a": [
+0
+]
+},
+{
+"q": "The pressure relief valve in the lubrication system, determines:",
+"o": [
+"Oil pressure in the engine system",
+"Oil pressure of the pump",
+"The crankcase pressure generally"
+],
+"a": [
+0
+]
+},
+{
+"q": "The reserve of lubricating oil of a wet sump piston engine is stored in",
+"o": [
+"The sump",
+"A separate tank",
+"The pipe system"
+],
+"a": [
+0
+]
+},
+{
+"q": "When rotating, the gear type oil pump:",
+"o": [
+"Draws oil into the pump and carries it round between the gear teeth and casing.",
+"Oil is drawn into the pump and through the intermeshing gears to the outlet.",
+"Oil is drawn into the pump, half being carried around between pump and casing, the other half passing between the gears to the outlet."
+],
+"a": [
+0
+]
+},
+{
+"q": "A breather is fitted to an engine to:",
+"o": [
+"Allow for changes in oil pressure",
+"Allow for changes in atmospheric pressure",
+"Relieve pressures in the crankcase"
+],
+"a": [
+2
+]
+},
+{
+"q": "If the oil pressure of a cold engine is higher than at normal operating temperatures, the",
+"o": [
+"Oil system relief valve should be readjusted",
+"Engines lubrication system is probably operating normally",
+"Oil dilution system should be turned on immediately"
+],
+"a": [
+1
+]
+},
+{
+"q": "Excessive fluctuation of an oil pressure gauge may be caused by",
+"o": [
+"Leak in pump housing",
+"Excessive engine vibration",
+"A completely kluged oil pressure gauge line"
+],
+"a": [
+0
+]
+},
+{
+"q": "Compared to normally aspirated engines, exhaust engine driven system operate at",
+"o": [
+"Similar temperatures and higher pressures",
+"Higher temperatures and higher pressures",
+"Similar temperatures and pressures"
+],
+"a": [
+0
+]
+},
+{
+"q": "What could be a result of undetected exhaust system leaks in a reciprocating engine powered airplane",
+"o": [
+"Pilot/passenger incapacitation caused by carbon monoxide entering the cabin",
+"A rough-running engine with increased fuel consumption",
+"Too low exhaust back pressure resulting in the desired power settings not being attained"
+],
+"a": [
+0
+]
+},
+{
+"q": "An excessive oil loss through the rings can be detected by",
+"o": [
+"Blue smoke from exhaust",
+"Black smoke from exhaust",
+"High cylinder head temperature"
+],
+"a": [
+0
+]
+},
+{
+"q": "An excessive rich mixture can be detected by",
+"o": [
+"Blue smoke from exhaust",
+"Black smoke from exhaust",
+"High cylinder head temperature"
+],
+"a": [
+1
+]
+},
+{
+"q": "Why is high nickel chromium steel used in many exhaust systems?",
+"o": [
+"High heat conductivity and flexibility",
+"Corrosion resistance and high heat conductivity",
+"Corrosion resistance and low expansion coefficient"
+],
+"a": [
+2
+]
+},
+{
+"q": "The most common type of starter used on piston engine today is",
+"o": [
+"Hand inertia starter",
+"Direct electric starter",
+"Cranking electric starter"
+],
+"a": [
+1
+]
+},
+{
+"q": "The purpose of overrunning clutch drive is to allow for",
+"o": [
+"Direct contact",
+"Overrunning contact",
+"Positive meshing"
+],
+"a": [
+2
+]
+},
+{
+"q": "Direct cranking starters is commonly of",
+"o": [
+"Inertia and electric",
+"Hand and inertia",
+"Electric and hand"
+],
+"a": [
+2
+]
+},
+{
+"q": "Roller type of overrunning clutch drive consists of",
+"o": [
+"Contact pinion",
+"Splined shaft",
+"Inner collar"
+],
+"a": [
+2
+]
+},
+{
+"q": "When the engine starts to fire the starter",
+"o": [
+"Manually disengages",
+"Automatically disengages",
+"Mechanically stops"
+],
+"a": [
+1
+]
+},
+{
+"q": "The purpose of a safety gap in a magneto is to",
+"o": [
+"Prevent burning out the primary winding",
+"Protect the high voltage winding from damage",
+"Prevent burning of contact points"
+],
+"a": [
+1
+]
+},
+{
+"q": "In a high tension ignition system, the voltage in the magneto secondary winding is",
+"o": [
+"Conducted from the primary winding via the discharge of the capacitor",
+"Induced when the primary circuit is interrupted",
+"Induced when the primary circuit discharges via the breaker points"
+],
+"a": [
+1
+]
+},
+{
+"q": "As an aircraft engine’s speed is increased, the voltage induced in the primary coil of the magneto",
+"o": [
+"Remains constant",
+"Increases",
+"Varies with the setting of the voltage regulator"
+],
+"a": [
+1
+]
+},
+{
+"q": "When will the voltage in the secondary winding of a magneto, installed on a normally operating engine, be at its highest value?",
+"o": [
+"Just prior to spark plug firing",
+"Toward the latter part of the spark duration when the flame front reaches its maximum velocity",
+"Immediately after the breaker points close"
+],
+"a": [
+0
+]
+},
+{
+"q": "In an aircraft ignition system, one of the functions of the capacitor is to",
+"o": [
+"Regulate the flow of current between the primary and secondary coil",
+"Facilitate a more rapid collapse of the magnetic field in the primary coil",
+"Stop the flow of magnetic lines of force when the points open"
+],
+"a": [
+1
+]
+},
+{
+"q": "What components make up the magnetic system of a magneto?",
+"o": [
+"Pole shoes, the pole shoe extensions, and the primary coil",
+"Primary and secondary coils",
+"Rotating magnet, the pole shoes, the pole shoe extensions, and the coil core"
+],
+"a": [
+2
+]
+},
+{
+"q": "When timing a magneto internally, the alignment of the timing marks indicates that the",
+"o": [
+"Breaker points are just closing",
+"Magnets are in the neutral position",
+"Magnets are in the E-gap position"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the electrical location of the primary capacitor in a high tension magneto?",
+"o": [
+"In parallel with the breaker points",
+"In series with the breaker points",
+"In series with the primary and secondary winding"
+],
+"a": [
+0
+]
+},
+{
+"q": "If the ground wire of a magneto is disconnected at the ignition switch, the result will be the",
+"o": [
+"Affected magneto will be isolated and the engine will run on the opposite magneto",
+"Engine will stop running",
+"Engine will not stop running when the ignition switch is turned off"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the approximate position of the rotating magnet in a high tension magneto when the points first close?",
+"o": [
+"Full register",
+"Neutral",
+"A few degrees after neutral"
+],
+"a": [
+0
+]
+},
+{
+"q": "A hissing sound from the exhaust stacks when the propeller is being pulled through manually indicates",
+"o": [
+"A cracked exhaust stack",
+"Exhaust valve blow-by",
+"Worn piston rings"
+],
+"a": [
+1
+]
+},
+{
+"q": "If air is heard coming from the crankcase breather or oil filler during a differential compression check, what is this an indication of?",
+"o": [
+"Exhaust valve leakage",
+"Intake valve leakage",
+"Piston ring leakage"
+],
+"a": [
+2
+]
+},
+{
+"q": "Standard sea level pressure is",
+"o": [
+"29,00 in Hg",
+"29,29 in Hg",
+"29,92 in Hg"
+],
+"a": [
+2
+]
+},
+{
+"q": "The fuel flow meter used with a continuous fuel injection system installed on an aircraft horizontally opposed reciprocating engine measures the fuel pressure drop across the",
+"o": [
+"Manifold valve",
+"Fuel nozzles",
+"Metering valve"
+],
+"a": [
+2
+]
+},
+{
+"q": "The principle fault in the pressure type fuel flow meter indicating system, installed on a horizontally opposed continuous-flow fuel injection aircraft reciprocating engine, is that a plugged fuel injection nozzle will cause a",
+"o": [
+"Normal operation indication",
+"Lower than normal fuel flow indication",
+"High than normal fuel flow indication"
+],
+"a": [
+2
+]
+},
+{
+"q": "The fuel-flow indication system used with many fuel-injected opposed engine airplanes utilizes a measure of",
+"o": [
+"Fuel flow volume",
+"Fuel pressure",
+"Fuel flow mass"
+],
+"a": [
+1
+]
+},
+{
+"q": "Thermocouple are usually inserted or installed on the",
+"o": [
+"Front cylinder of the engine",
+"Rear cylinder of the engine",
+"Hottest cylinder of the engine"
+],
+"a": [
+2
+]
+},
+{
+"q": "When an electric primer is used, fuel pressure is built up by the",
+"o": [
+"Internal pump in the primer solenoid",
+"Suction at the main discharge nozzle",
+"Booster pump"
+],
+"a": [
+2
+]
+},
+{
+"q": "If a fire starts in the induction system during the starting procedure, what should the operator do?",
+"o": [
+"Turn off the fuel switches to stop the fuel",
+"Continue cranking the engine",
+"Turn off all switches"
+],
+"a": [
+1
+]
+},
+{
+"q": "An engine becomes overheated due to excessive taxiing or improper ground run-up. Prior to shutdown, operation must continue until cylinders have cooled, by running engine at",
+"o": [
+"Low RPM with oil dilution system activated",
+"Idle RPM",
+"High RPM with maximum control in rich position"
+],
+"a": [
+1
+]
+},
+{
+"q": "High cylinder head temperatures are likely to result from",
+"o": [
+"A very lean mixture at high power settings",
+"fouledspark plugs.",
+"A very rich mixture at high power setting"
+],
+"a": [
+0
+]
+},
+{
+"q": "In a reciprocating engine oil system, the temperature bulb senses oil temperature",
+"o": [
+"at a point after the oil has passed through the oil cooler.",
+"While the oil is in the hottest area of the engine.",
+"Immediately before the oil enters the oil cooler"
+],
+"a": [
+0
+]
+},
+{
+"q": "On which part of the cylinder walls of a normally operating engine will the greatest amount of wear occur?",
+"o": [
+"Near the center of the cylinder where piston velocity is greatest.",
+"Near the top of the cylinder."
+],
+"a": [
+1
+]
+},
+{
+"q": "If metallic particles are found in the oil filter during an inspection.",
+"o": [
+"it is an indication of normal engine wear unless the particles arc nonferrous.",
+"the cause should be identified and corrected before the aircraft is released for flight.",
+"it is an indication of normal engine wear unless the deposit exceeds a specified amount."
+],
+"a": [
+1
+]
+},
+{
+"q": "How may it be determined that a reciprocating engine with a dry sump is pre-oiled sufficiently?",
+"o": [
+"The engine oil pressure gauge will indicate normal oil pressure",
+"Oil will flow from the engine return line or indicator port",
+"When the quantity of oil specified by the manufacturer has been pumped into the engine"
+],
+"a": [
+1
+]
+},
+{
+"q": "During engine operation, if carburetor heat is applied, it will",
+"o": [
+"Increase air-to-fuel ratio",
+"Increase engine RPM",
+"Decreases the air density to the carburetor"
+],
+"a": [
+2
+]
+},
+{
+"q": "Carburetor icing on an engine equipped with a constant speed propeller can be detected by",
+"o": [
+"A decrease in power output with no change in manifold pressure or RPM",
+"An increase in manifold pressure with constant RPM",
+"A decreases in manifold pressure with a constant RPM"
+],
+"a": [
+2
+]
+},
+{
+"q": "What part of an aircraft in flight will begin to accumulate ice before any other?",
+"o": [
+"Wing leading edge",
+"Propeller spinner or dome",
+"Carburetor"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following Statements regarding volumetric efficiency of an engine is true?",
+"o": [
+"The volumetric efficiency of an engine will remain the same regardless of the amount of throttle opening",
+"It is impossible to exceed 100 percent volumetric efficiency of any engine regardless of the type of supercharger used,",
+"It is possible to exceed 100 percent volumetric efficiency of some engines by the use of superchargers of the proper type."
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following would be a factor in the failure of an engine to develop full power at takeoff?",
+"o": [
+"Improper adjustment of carburetor heat valve control linkage",
+"Excessively rich setting on the idle mixture adjustment.",
+"Failure of the economizer valve to takeoff throttle setting"
+],
+"a": [
+0
+]
+},
+{
+"q": "If carburetor or induction system icing is not present when carburetor heat is applied with no change in the throttle setting, the",
+"o": [
+"Mixture will become richer",
+"Manifold pressure will increase",
+"Engine RPM will increase"
+],
+"a": [
+0
+]
+},
+{
+"q": "The application of carburetor heat will have which of the following effects?",
+"o": [
+"The manifold pressure will be increased",
+"The mixture will become leaner",
+"The mixture will become richer"
+],
+"a": [
+2
+]
+},
+{
+"q": "In addition to causing accelerated wear, dust or sand ingested by a reciprocating engine may also cause",
+"o": [
+"Silicon fouling of spark plugs",
+"Sludge formation",
+"Acid formation"
+],
+"a": [
+0
+]
+},
+{
+"q": "In an airplane equipped with an alternate air system, if the main air duct air filter becomes blocked or clogged, the",
+"o": [
+"System will automatically allow warm, unfiltered air to be drawn into the engine",
+"Flow of air into the engine will be showed or cut off unless alternate air is selected",
+"System will automatically allow warm, filtered alternate air to be drawn into the engine"
+],
+"a": [
+0
+]
+},
+{
+"q": "On small aircraft engines, fuel vaporization may be increased by",
+"o": [
+"Cooling the air before it enters the engine",
+"Circulating the fuel and air mixture through passages in the oil sump",
+"Heating the fuel before it enters the carburetor"
+],
+"a": [
+1
+]
+},
+{
+"q": "The action of a carburetor air scoop is to supply air to the carburetor, but it may also",
+"o": [
+"Cool the engine",
+"Keep fuel lines cool and prevent vapor lock",
+"Increase the pressure of the incoming air by ram effect"
+],
+"a": [
+2
+]
+},
+{
+"q": "A carburetor air pre-heater is not generally used on takeoff unless absolutely necessary because of the",
+"o": [
+"Loss of power and possible detonation",
+"Possibility of induction system overboost",
+"Inability of the engine to supply enough heat to make a significant difference"
+],
+"a": [
+0
+]
+},
+{
+"q": "One source of commonly used for carburetor air heat is",
+"o": [
+"Turbocharger heated air",
+"Alternate air heat",
+"Exhaust gases"
+],
+"a": [
+2
+]
+}
+]
+},
+{
+"name": "Exhaust Systems",
+"qs": [
+{
+"q": "On a reciprocating engine aircraft using a shrouded exhaust muffler system as a source for cabin heat, the exhaust system should be",
+"o": [
+"Visually inspected for any indication of cracks or an operational carbon monoxide detection test should be done",
+"Replaced at each reciprocating engine overhaul by a new or overhauled exhaust system or a hydrostatic test should be accomplished",
+"Removed magnetic particle inspection method or a hydraulic test should be done on the exhaust muffler"
+],
+"a": [
+0
+]
+},
+{
+"q": "Why is high nickel chromium steel used in many exhaust systems?",
+"o": [
+"High heat conductivity and flexibility",
+"Corrosion resistance and low expansion coefficient",
+"Corrosion resistance and high heat conductivity"
+],
+"a": [
+1
+]
+},
+{
+"q": "Reciprocating engine exhaust system design commonly used to provide for ease of installation and/or allow for expansion and contraction, may include the use of (1) Spring loaded ball/flexible joints (2) Slip joints (3) Bellow (4) Flexible metal tubing",
+"o": [
+"1,2, and/or 4",
+"1,2 and/or 4",
+"1,2 and/or 3"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the purpose of a slip joint in an exhaust collector ring?",
+"o": [
+"It aids in alignment and absorbs expansion",
+"It reduces vibration and increases cooling",
+"It permits the collector ring to be installed in one piece"
+],
+"a": [
+0
+]
+},
+{
+"q": "What type nuts are used to hold and exhaust system to the cylinders?",
+"o": [
+"Brass or heat-resistant nuts",
+"High temperature fiber self-locking nuts",
+"High temperature aluminum self-locking nuts"
+],
+"a": [
+0
+]
+},
+{
+"q": "Repair of exhaust system components",
+"o": [
+"Is impossible because the material cannot be identified",
+"Must be accomplished by the component manufacturer",
+"Is not recommended to be accomplished in the field"
+],
+"a": [
+2
+]
+},
+{
+"q": "On an aircraft that utilizes an exhaust heat exchanger as a source of cabin heat, how should the exhaust system be inspected?",
+"o": [
+"X-rayed to detect ant cracks",
+"Hydrostatically tested",
+"With the heater air shroud removed"
+],
+"a": [
+2
+]
+},
+{
+"q": "How should ceramic-coated exhaust components be cleaned?",
+"o": [
+"With alkali",
+"By degreasing",
+"By mechanical means"
+],
+"a": [
+1
+]
+},
+{
+"q": "Select a characteristic of a good weld on exhaust stacks",
+"o": [
+"The weld should be built up 1/8 inch",
+"Porousness or projecting globules should show in the weld",
+"The weld should taper off smoothly into the base metal"
+],
+"a": [
+2
+]
+},
+{
+"q": "How should corrosion resistant steel parts such as exhaust collectors be blast cleaned?",
+"o": [
+"Use steel grit which has not previously been used on soft iron",
+"Use super fine granite grit",
+"Use sand which has not previously been used on iron steel"
+],
+"a": [
+2
+]
+},
+{
+"q": "Reciprocating engine exhaust systems that have repairs or sloppy weld beads which protrude internally are unacceptable because they cause",
+"o": [
+"Base metal fatigue",
+"Localized cracks",
+"Local hot spots"
+],
+"a": [
+2
+]
+},
+{
+"q": "Ball joints in reciprocating engine exhaust systems should be",
+"o": [
+"Tight enough to prevent any movement",
+"Disassembled and the seals replaced every engine change",
+"Loose enough to permit some movement"
+],
+"a": [
+2
+]
+},
+{
+"q": "All of the following are recommended markers for reciprocating engine exhaust systems except",
+"o": [
+"India ink",
+"Lead pencil",
+"Prussian blue"
+],
+"a": [
+1
+]
+},
+{
+"q": "Augmenter tubes are part of which reciprocating engine system?",
+"o": [
+"Induction",
+"Exhaust",
+"Fuel"
+],
+"a": [
+1
+]
+},
+{
+"q": "Dislodged internal muffler baffles on a small reciprocating engine may",
+"o": [
+"Obstruct the muffler outlet and cause excessive exhaust back pressure",
+"Cause the engine to run excessively cool",
+"Cause high fuel and oil consumption"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the purpose of an exhaust outlet guard on a small reciprocating engine?",
+"o": [
+"To prevent dislodged muffler baffles from obstructing the muffler outlet",
+"To reduce spark exit",
+"To shield adjacent components from excessive heat"
+],
+"a": [
+0
+]
+},
+{
+"q": "What could be a result of undetected exhaust system leaks in a reciprocating engine powered airplane?",
+"o": [
+"Pilot/passenger incapacitation caused by carbon monoxide entering the cabin",
+"A rough-running engine with increased fuel consumption",
+"Too low exhaust back pressure resulting in the desired power setting not being attained"
+],
+"a": [
+0
+]
+},
+{
+"q": "How may reciprocating engine exhaust system leaks be detected?",
+"o": [
+"an exhaust trail aft of the tailpipe on the airplane exterior",
+"fluctuating manifold pressure indication",
+"signs of exhaust soot inside cowling and on adjacent components"
+],
+"a": [
+2
+]
+},
+{
+"q": "What component is used to ensure fuel delivery during periods of rapid engine acceleration?",
+"o": [
+"Acceleration pump",
+"Water injection pump",
+"Power enrichment unit"
+],
+"a": [
+0
+]
+},
+{
+"q": "The device that controls the ratio of the fuel/air mixture to the cylinders is called a",
+"o": [
+"Throttle valve",
+"Mixture control",
+"Metering unit"
+],
+"a": [
+1
+]
+},
+{
+"q": "The device that controls the volume of the fuel/air mixture to the cylinders is called a",
+"o": [
+"Mixture control",
+"Metering jet",
+"Throttle valve"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which statement is correct regarding a continuous-flow fuel injection system used on many reciprocating engines?",
+"o": [
+"Fuel is injected directly into each cylinder",
+"Fuel is injected at each cylinder intake port",
+"Two injector nozzles are used in the injector fuel system for various speeds"
+],
+"a": [
+1
+]
+},
+{
+"q": "During the operation of an aircraft engine, the pressure drop in the carburetor venturi depends primarily upon the",
+"o": [
+"Air temperature",
+"Barometric pressure",
+"Air velocity"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following causes a singled diaphragm accelerator pump to discharged fuel?",
+"o": [
+"An increase in venturi suction when the throttle valve is open",
+"An increase in manifold pressure that occurs when the throttle valve is opened",
+"A decrease in manifold pressure that occurs when the throttle valve is opened"
+],
+"a": [
+1
+]
+},
+{
+"q": "At what engine speed does the main metering jet actually function as a metering jet in a float-type carburetor?",
+"o": [
+"All RPMs",
+"Cruising RPM only",
+"All RPMs above idle range"
+],
+"a": [
+2
+]
+},
+{
+"q": "An aircraft engine continuous cylinder fuel injection system normally discharges fuel during which stroke(s)",
+"o": [
+"Intake",
+"Intake and compression",
+"All (continuously)"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the purpose of the carburetor accelerating system?",
+"o": [
+"Supply and regulate the fuel required for engine speeds above idle",
+"Temporarily enrich the mixture when the throttle is suddenly opened",
+"Supply and regulate additional fuel required for engine speeds above cruising"
+],
+"a": [
+1
+]
+},
+{
+"q": "What is the relationship between the accelerating pump and the enrichment valve in a pressure injection carburetor?",
+"o": [
+"No relationship since they operate independently",
+"Unmetered fuel pressure affects both units",
+"The accelerating pump actuates the enrichment valve"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the relationship between the pressure existing within the throat of a venturi and the velocity of the air passing through the venturi?",
+"o": [
+"There is no direct relationship between the pressure and the velocity",
+"The pressure is directly proportional to the velocity",
+"The pressure is inversely proportional to the velocity"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following is least likely to occur during operation of an engine equipped with a direct cylinder fuel injection system?",
+"o": [
+"After firing",
+"Kickback during start",
+"Backfiring"
+],
+"a": [
+2
+]
+},
+{
+"q": "What carburetor component actually limits the desired maximum airflow to the engine at full throttle?",
+"o": [
+"Throttle valve",
+"Venturi",
+"Manifold intake"
+],
+"a": [
+1
+]
+},
+{
+"q": "On a carburetor without an automatic mixture control as you ascend to altitude, the mixture will",
+"o": [
+"Be enriched",
+"Be leaned",
+"Not be affected"
+],
+"a": [
+0
+]
+},
+{
+"q": "The desired engine idle speed and mixture setting",
+"o": [
+"Is adjusted with engine warmed up and operating",
+"Should give minimum RPM with minimum manifold pressure",
+"Is usually adjusted in the following sequence; speed first, then mixture"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is a function of the idling air bleed in a float-type carburetor?",
+"o": [
+"It provides a means for adjusting the mixture at idle speeds",
+"It vaporizes the fuel at idling speeds",
+"It aids in emulsifying/vaporizing the fuel at idle speeds"
+],
+"a": [
+2
+]
+},
+{
+"q": "If the volume of air passing through a carburetor venturi is reduced, the pressure at the venturi throat will",
+"o": [
+"Decrease",
+"Be equal to the pressure at the venturi outlet",
+"Increase"
+],
+"a": [
+2
+]
+},
+{
+"q": "What will occur if the vapor vent float in a pressure carburetor loses its buoyancy?",
+"o": [
+"The amount of fuel returning to the fuel tank from the carburetor will be increased",
+"The engine will continue to run after the mixture control is placed in IDLE CUTOFF",
+"A rich mixture will occur at all engine speeds"
+],
+"a": [
+0
+]
+},
+{
+"q": "What method is ordinarily used to make idle speed adjustment on a float-type carburetor?",
+"o": [
+"An adjustment throttle stop or linkage",
+"An orifice and adjustment tapered needle",
+"An adjustment needle in the drilled passageway which connects the airspace of the float chamber and the carburetor venturi"
+],
+"a": [
+0
+]
+},
+{
+"q": "(1) The mixture used at rated power in air cooled reciprocating engines is richer than the mixture used through the normal cruising range (2) The mixture used at idle in air cooled reciprocating engines is richer than the mixture used at rated power. Regarding the above statements,",
+"o": [
+"Only No. 1 is true",
+"Only No. 2 is true",
+"Both No. 1 and No. 2 are true"
+],
+"a": [
+2
+]
+},
+{
+"q": "During idle mixture adjustments, which of the following is normally observed to determine when the correct mixture has been achieved?",
+"o": [
+"Changes in fuel/air pressure ratio",
+"Fuel flowmeter",
+"Changes in RPM or manifold pressure"
+],
+"a": [
+2
+]
+},
+{
+"q": "An indication that the optimum idle mixture has been obtained occurs when the mixture control is moved to IDLE CUTOFF and manifold pressure",
+"o": [
+"Decreases momentarily and RPM drops slightly before the engine ceases to fire",
+"Increases momentarily and RPM drop slightly before the engine ceases to fire",
+"Decreases and RPM increases momentarily before the engine ceases to fire"
+],
+"a": [
+2
+]
+},
+{
+"q": "The use of less than normal throttle opening during starting will cause",
+"o": [
+"A rich mixture",
+"A lean mixture",
+"Backfire due to lean fuel/air ratio"
+],
+"a": [
+0
+]
+},
+{
+"q": "When checking the idle mixture on a carburetor, the engine should be idling normally, then pull the mixture control toward the IDLE CUTOFF position. A correct idling mixture will be indicated by",
+"o": [
+"An immediate decrease in RPM",
+"A decreases of 20 to 30 RPM before quitting",
+"An increase of 10 to 50 RPM before decreasing"
+],
+"a": [
+2
+]
+},
+{
+"q": "When a new carburetor is installed on an engine,",
+"o": [
+"Warm up the engine and adjust the flow level",
+"Do not adjust the idle mixture setting, this was accomplished on the flow bench",
+"And the engine is warmed up to normal temperature, adjust the idle mixture, then the idle speed"
+],
+"a": [
+2
+]
+},
+{
+"q": "Reciprocating engine power will be decreased at all altitudes if the",
+"o": [
+"Air density is increased",
+"Humidity is increased",
+"Manifold pressure is increased"
+],
+"a": [
+1
+]
+},
+{
+"q": "If the idling jet becomes clogged in a float-type carburetor, the",
+"o": [
+"Engine operation will not be affected at any RPM",
+"Engine will not idle",
+"Idled mixture becomes richer"
+],
+"a": [
+1
+]
+},
+{
+"q": "An aircraft equipped with a pressure typed carburetor is started with the",
+"o": [
+"Printer while the mixture control is positioned at IDLE CUTOFF",
+"Mixture control in the FULL-RICH position",
+"Printer while the mixture control is positioned at the FULL-LEAN position"
+],
+"a": [
+0
+]
+},
+{
+"q": "One of the best ways to increase engine power and control detonation and preignition is to",
+"o": [
+"Enrich the fuel/air mixture",
+"Use water injection",
+"Lean the fuel/air mixture"
+],
+"a": [
+1
+]
+},
+{
+"q": "An excessively lean fuel/air mixture may cause",
+"o": [
+"An increase in cylinder head temperature",
+"High oil pressure",
+"Backfiring through the exhaust"
+],
+"a": [
+0
+]
+},
+{
+"q": "The density of air is very important when mixing fuel and air to obtain a correct fuel-to-air ratio. Which of the following weighs the most?",
+"o": [
+"75 parts of dry air and 25 parts of water vapor",
+"100 parts of dry air",
+"50 parts of dry air and 50 parts of water vapor"
+],
+"a": [
+1
+]
+},
+{
+"q": "An air/fuel mixture ratio of 11:1 normally refers to",
+"o": [
+"A stoichiometric mixture",
+"1 part air to 11 parts fuel",
+"1 part fuel to 11 part air"
+],
+"a": [
+2
+]
+},
+{
+"q": "The economizer system in a float-type carburetor",
+"o": [
+"Keeps the fuel/air ratio constant",
+"Functions only at cruised and idle speeds",
+"Increases the fuel/air ratio at high power settings"
+],
+"a": [
+2
+]
+},
+{
+"q": "A carburetor is prevented from leaning out during quick acceleration by the",
+"o": [
+"power enrichment system",
+"Mixture control system",
+"Accelerating system"
+],
+"a": [
+2
+]
+},
+{
+"q": "What could cause a lean mixture and high cylinder head temperature at sea level or low altitude",
+"o": [
+"Mixture control valve fully closed",
+"Automatic mixture control stuck in the extended position",
+"Defective accelerating system"
+],
+"a": [
+1
+]
+},
+{
+"q": "Detonation occurs when the air/fuel mixture",
+"o": [
+"Burns too fast",
+"Ignites before the time of normal ignition",
+"Is too rich"
+],
+"a": [
+0
+]
+},
+{
+"q": "The primary purpose of the air bleed openings used with continuous flow fuel injector nozzles is to",
+"o": [
+"Provide for automatic mixture control",
+"Lean out the mixture",
+"Aid in proper fuel vaporization"
+],
+"a": [
+2
+]
+},
+{
+"q": "A pilot reports that the fuel pressure fluctuates and exceeds the upper limits whenever the throttle is advanced. The most likely cause of the trouble is",
+"o": [
+"A ruptured fuel pump relief-valve diaphragm",
+"A sticking fuel pump relief-valve body",
+"An air leak at the fuel pump relief-valve body"
+],
+"a": [
+1
+]
+},
+{
+"q": "If an engine equipped with a float type carburetor backfires or misses when the throttle is advanced, a likely cause is that the",
+"o": [
+"Float level is too high",
+"Main air bleed is clogged",
+"Accelerating pump is not operating properly"
+],
+"a": [
+2
+]
+},
+{
+"q": "How often should float carburetors be overhauled?",
+"o": [
+"At engine overhaul",
+"Annually",
+"At engine change"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the final authority for the details of carburetor overhaul?",
+"o": [
+"The local FAA safety inspector",
+"The Type Certificate Data Sheet for the engine",
+"The manufacturer’s recommendations"
+],
+"a": [
+2
+]
+},
+{
+"q": "Excessively rich or lean idle mixture results in",
+"o": [
+"Too rapid completion of combustion",
+"Incomplete combustion",
+"Incomplete cylinder scavenging"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which statement is true regarding proper throttled rigging of an airplane?",
+"o": [
+"The throttle stop on the carburetor must be contacted before the top stop in the cockpit",
+"The stop in the cockpit must be contacted before the stop on the carburetor",
+"The throttle control is properly adjusted when neither stop makes contact"
+],
+"a": [
+0
+]
+},
+{
+"q": "Maximum power is normally considered to be developed in a reciprocating engine with an air/fuel mixture ratio of approximately",
+"o": [
+"8:1",
+"12:1",
+"15:1"
+],
+"a": [
+1
+]
+},
+{
+"q": "When operating an engine, the application of carburetor heat will have what effect on the fuel/air mixture?",
+"o": [
+"Enriching the mixture because the AMC cannot make a correction for increased temperature",
+"Enriching the mixture until the AMC can make a compensation",
+"Leaning the mixture until the AMC can make a compensation"
+],
+"a": [
+1
+]
+}
+]
+},
+{
+"name": "Starting Systems",
+"qs": [
+{
+"q": "What type of electric motor is generally used with a direct-cranking engine starter?",
+"o": [
+"Direct current, shunt-wound motor.",
+"Direct current, series-wound motor.",
+"Synchronous motor."
+],
+"a": [
+1
+]
+},
+{
+"q": "A high surge of current is required when a DC electric motor is first started. As the speed of the motor increases,",
+"o": [
+"the counter EMF decreases proportionally.",
+"the applied EMF increases proportionally.",
+"the counter EMF builds up and opposes the applied EMF, thus reducing the current flow through the armature."
+],
+"a": [
+2
+]
+},
+{
+"q": "Electric motors are often classified according to the method of connecting the field coils and armature. Aircraft engine starter motors are generally of which type?",
+"o": [
+"Compound.",
+"Series.",
+"Shunt (parallel)."
+],
+"a": [
+1
+]
+},
+{
+"q": "What are two types of AC motors that are used to produce a relatively high torque",
+"o": [
+"Shaded pole and shunt field",
+"Shunt field and single phase",
+"Three-phase induction and capacitor start"
+],
+"a": [
+2
+]
+},
+{
+"q": "As a general rule, starter brushes are replaced when they are approximately",
+"o": [
+"one-half their original length.",
+"one-third their original length.",
+"two-thirds their original length."
+],
+"a": [
+0
+]
+},
+{
+"q": "The purpose of an under current relay in a starter-generator system is to",
+"o": [
+"Provide a backup for the starter relay",
+"Disconnect power from the starter generator and ignition when sufficient engine speed is reached",
+"Keep current flow to the starter generator under the circuit capacity maximum"
+],
+"a": [
+1
+]
+},
+{
+"q": "A typical starter-generator system, under which of the following starting circumstances may it be necessary to use the start stop switch?",
+"o": [
+"Hung start",
+"Hot start",
+"Contacts stick open"
+],
+"a": [
+0
+]
+},
+{
+"q": "When using an electric starter motor, current usage",
+"o": [
+"Is highest at the start of motor rotation",
+"Remains relatively constant throughout the starting cycle",
+"Is highest just before starter cutoff (at highest RPM)"
+],
+"a": [
+0
+]
+},
+{
+"q": "When using an electric starter motor, the current flow through it",
+"o": [
+"Is highest at the start of motor rotation",
+"Remains relatively constant throughout the starting cycle",
+"Is highest just before starter cutoff (at highest RPM)"
+],
+"a": [
+0
+]
+}
+]
+},
+{
+"name": "Engine Ignition Systems",
+"qs": [
+{
+"q": "What tool is generally used to measure the crankshaft rotation in degrees?",
+"o": [
+"Dial indicator.",
+"Timing disk.",
+"Prop protractor."
+],
+"a": [
+1
+]
+},
+{
+"q": "If the ignition switch is moved from BOTH to either LEFT or RIGHT during an engine ground check. normal operation is usually indicated by a",
+"o": [
+"large drop in RPM.",
+"momentary interruption of both ignition systems.",
+"slight drop in RPM."
+],
+"a": [
+2
+]
+},
+{
+"q": "One of the best indicators of reciprocating engine combustion chamber problems is",
+"o": [
+"excessive engine vibration.",
+"starting difficulties.",
+"spark plug condition."
+],
+"a": [
+2
+]
+},
+{
+"q": "When a magneto is disassembled, keepers are usually placed across the poles of the rotating magnet to reduce the loss of magnetism. These keepers are usually made of",
+"o": [
+"chrome magnet steel.",
+"soft iron.",
+"cobalt steel."
+],
+"a": [
+1
+]
+},
+{
+"q": "The E-gap angle is usually defined as the number of degrees between the neutral position of the rotating magnet and the position",
+"o": [
+"Where the contact points close",
+"Where the contact points open",
+"Of greatest magnetic flux density"
+],
+"a": [
+1
+]
+},
+{
+"q": "The greatest density of flux lines in the magnetic circuit of a rotating magnet-type magneto occurs when the magneto is in what petition?",
+"o": [
+"Full alignment with the field shoe faces",
+"A certain angular displacement beyond the neutral position, referred to as E-gap angle or position",
+"The position where the contact points open"
+],
+"a": [
+0
+]
+},
+{
+"q": "Magneto breaker point opening relative to the position of the rotating magnet and distributor rotor (internal timing) can be set most accurately",
+"o": [
+"During the magneto-to-engine timing operation",
+"During assembly of the magneto before installation on the engine",
+"By setting the points roughly at the required clearance before installing the magneto and then making the fine breaker pint adjustment after installation to compensate for wear in the magneto drive train"
+],
+"a": [
+1
+]
+},
+{
+"q": "Why are high-tension Ignition cables frequently routed from the distributors to the spark plugs in Flexible metallic conduits?",
+"o": [
+"To eliminate high altitude flashover.",
+"To reduce the formation of corona and nitric oxide on the cubic insulation.",
+"To reduce the effect of the high-frequency electromagnetic waves emanated during operation."
+],
+"a": [
+2
+]
+},
+{
+"q": "What will be the results of increasing the gap of the breaker points in a magneto?",
+"o": [
+"Retard the spark and increase its intensity.",
+"Advance the spark and decrease its intensity.",
+"Retard the spark and decrease its intensity."
+],
+"a": [
+1
+]
+},
+{
+"q": "What is the purpose of the safety gap in some magnetos?",
+"o": [
+"To discharge the secondary coil's voltage if an open occurs in the secondary circuit.",
+"To ground the magneto when the ignition switch is off.",
+"To prevent flashover in the distributor."
+],
+"a": [
+0
+]
+},
+{
+"q": "When timing a magneto internally, the alignment of the timing marks indicates that the",
+"o": [
+"breaker points are just closing.",
+"magnets arc in the neutral position.",
+"magnets are in the E-gap position."
+],
+"a": [
+2
+]
+},
+{
+"q": "When internally timing magneto, the breaker points begin to open when the rotating magnet is",
+"o": [
+"Fully aligned with the pole shoes",
+"A few degrees past full alignment with the pole shoes",
+"A few degrees past the neutral position"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the electrical location of the primary capacitor in a high-tension magneto?",
+"o": [
+"In parallel with the breaker points",
+"In series with the breaker points",
+"In a series with the primary and secondary winding"
+],
+"a": [
+0
+]
+},
+{
+"q": "In high-tension ignition system, the current in the magneto secondary winding is",
+"o": [
+"Conducted from the primary winding via the discharge of the capacitor",
+"Induced when the primary circuit is interrupted",
+"Induced when the primary circuit discharges via the breaker points"
+],
+"a": [
+1
+]
+},
+{
+"q": "When a “Shower of Spark” ignition system is activated at an engine start, a spark plug fires",
+"o": [
+"A soon as the advance breaker points open",
+"Only while both the retard and advance breaker points are closed",
+"Only while both the retard and advance breaker points are open"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the radial location of the two north poles s of a four-pole rotating magnet in a high-tension magneto?",
+"o": [
+"180° apart.",
+"270° apart.",
+"90° apart."
+],
+"a": [
+0
+]
+},
+{
+"q": "Magneto timing drift is caused by erosion of the breaker points and",
+"o": [
+"excessive spark plug gap.",
+"wear of the cam followers.",
+"loss of magnetism in the rotor."
+],
+"a": [
+1
+]
+},
+{
+"q": "Capacitance after firing in most modern spark plugs is reduced by the use of",
+"o": [
+"fine wire electrodes.",
+"a built-in resistor in each plug.",
+"aluminum oxide insulation."
+],
+"a": [
+1
+]
+},
+{
+"q": "What components make up the magnetic system of a magneto?",
+"o": [
+"Pole shoes, the pole shoe extensions, and the primary coil.",
+"Primary and secondary coils.",
+"Rotating magnet, the pole shoes, the pole shoe extensions, and the coil core."
+],
+"a": [
+2
+]
+},
+{
+"q": "In an aircraft ignition system, one of the function of the capacitor is to",
+"o": [
+"regulate the now of current between the primary and secondary coil",
+"facilitate a more rapid collapse of the magnetic field In the primary coil.",
+"stop the now of magnetic lines of force when the points open."
+],
+"a": [
+1
+]
+},
+{
+"q": "When will the voltage in the secondary winding of a magneto, installed on a normally operating engine be at its highest value?",
+"o": [
+"Just prior to spark plug firing",
+"Toward the latter part of the spark duration when the flame front reaches its maximum velocity",
+"Immediately after the breaker points close"
+],
+"a": [
+0
+]
+},
+{
+"q": "When the switch is off in a battery ignition system, the primary circuit is",
+"o": [
+"Grounded",
+"Opened",
+"Shorted"
+],
+"a": [
+1
+]
+},
+{
+"q": "As an aircraft engine’s speed is increased, the voltage induced in the primary coil of the magneto",
+"o": [
+"Remains constant",
+"Increases",
+"Varies with the setting of the voltage regulator"
+],
+"a": [
+1
+]
+},
+{
+"q": "When internally timing a magneto, the breaker points begin to open when",
+"o": [
+"The piston has passed TDC at the end of the compression stroke",
+"The magnet poles are a few degrees beyond the neutral position",
+"The magnet poles are fully aligned with the pole shoes"
+],
+"a": [
+1
+]
+},
+{
+"q": "The purpose of a safety gap in a magneto is to",
+"o": [
+"Prevent burning out the primary winding",
+"Protect the high voltage winding from damage",
+"Prevent burning of contact points"
+],
+"a": [
+1
+]
+},
+{
+"q": "A magneto ignition switch is connected",
+"o": [
+"In series with the breaker points",
+"Parallel to the breaker points",
+"In series with the primary capacitors and parallel to the breaker points"
+],
+"a": [
+1
+]
+},
+{
+"q": "The spark is produced in a magneto ignition system when the breaker points are",
+"o": [
+"Fully open",
+"Beginning to open",
+"Fully closed"
+],
+"a": [
+1
+]
+},
+{
+"q": "Shielding is used to spark plug and ignition wires to",
+"o": [
+"Protect the wires from short circuits as a result of chafing and rubbing",
+"Prevent outside electromagnetic emission from disrupting the operation of the ignition system",
+"Prevent interference with radio reception"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the purpose of using an impulse coupling with a magneto?",
+"o": [
+"To absorb impulse vibrations between the magneto and the engine",
+"To compensate for backlash in the magneto and the engine gears",
+"To produce a momentary high rotational speed of the magneto"
+],
+"a": [
+2
+]
+},
+{
+"q": "The purpose of staggered ignition is to compensate for",
+"o": [
+"Short ignition harness",
+"Rich fuel/air mixture around exhaust valve",
+"Diluted fuel/air mixture around exhaust valve"
+],
+"a": [
+2
+]
+},
+{
+"q": "Aircraft magneto housing are usually ventilated in order to",
+"o": [
+"Prevent the entrance of outside air which may contain moisture",
+"Allow heated air from the accessory compartment to keep the internal parts of the magneto dry",
+"Provide cooling and remove corrosive gases produced by normal arcing"
+],
+"a": [
+2
+]
+},
+{
+"q": "Failure of an engine to cease firing after turning the magneto switch off is an indication of",
+"o": [
+"An open high tension lead",
+"An open P-lead to ground",
+"A grounded magneto switch"
+],
+"a": [
+1
+]
+},
+{
+"q": "Alignment of the marks provided for internal timing of a magneto indicates that the",
+"o": [
+"Breaker points are just beginning to close for No. 1 cylinder",
+"Magneto is in E-gap position",
+"No. 1 cylinder is on TDC of compression stroke"
+],
+"a": [
+1
+]
+},
+{
+"q": "When using a timing light to time a magneto to an aircraft engine, the magneto switch should be placed in the",
+"o": [
+"BOTH position.",
+"OFF position.",
+"LEFT or RIGHT position (either one)."
+],
+"a": [
+0
+]
+},
+{
+"q": "What test instrument could be used to test an ignition harness for suspected leakage?",
+"o": [
+"A high-tension lead tester.",
+"A high voltage DC voltmeter.",
+"A high amperage DC ammeter."
+],
+"a": [
+0
+]
+},
+{
+"q": "The amount of voltage generated in any magneto secondary coil is determined by the number of Windings and by the",
+"o": [
+"rate of buildup of the magnetic field around the primary coil.",
+"rate of collapse of the magnetic field around the primary coil.",
+"amount of charge released by the capacitor."
+],
+"a": [
+1
+]
+},
+{
+"q": "Magneto breaker points must be timed to open when the",
+"o": [
+"Rotating magnet is positioned a few degrees before neutral",
+"Greatest magnetic field stress exists in the magnetic circuit",
+"Rotating magnet is in the full register position"
+],
+"a": [
+1
+]
+},
+{
+"q": "In reference to a “Shower of Sparks” ignition system: (1) the retard breaker points are designed to keep the affected ignition system operating if the advance breaker points should fail during normal engine operation (after start) (2) the timed opening of the retard breaker points is designed to prevent engine kickback during start Regarding the above statements,",
+"o": [
+"Only No. 1 is true",
+"Only No. 2 is true",
+"Both No. 1 and No. 2 are true"
+],
+"a": [
+1
+]
+},
+{
+"q": "What will be the effect of the spark plugs are gapped too wide?",
+"o": [
+"Insulation failure",
+"Hard starting",
+"Lead damage"
+],
+"a": [
+1
+]
+},
+{
+"q": "When removing a shielded spark plug, which of the following is most likely to be damaged?",
+"o": [
+"Center electrode.",
+"Shell section.",
+"Core insulator."
+],
+"a": [
+2
+]
+},
+{
+"q": "What likely effect would a cracked distributor rotor have on a magneto?",
+"o": [
+"Ground the secondary circuit through the crack.",
+"Fire two cylinders simultaneously.",
+"Ground the primary circuit through the crack."
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following breaker point characteristics is associated with a faulty capacitor?",
+"o": [
+"Crowned.",
+"Fine grained.",
+"Coarse grained."
+],
+"a": [
+2
+]
+},
+{
+"q": "Capacitance after firing of a spark plug is caused by",
+"o": [
+"the stored energy in the ignition shielded lead unloading after normal limed ignition.",
+"excessive center electrode erosion.",
+"constant polarity firing."
+],
+"a": [
+0
+]
+},
+{
+"q": "If it is found that a shielded ignition system does not adequately reduce ignition noise, it may be necessary to install",
+"o": [
+"A second layer of shielding",
+"A filter between the magneto and magneto switch",
+"Bonding wires from the sheadings to ground"
+],
+"a": [
+0
+]
+},
+{
+"q": "When a magneto is operating, what is the probable cause for a shift in internal timing?",
+"o": [
+"The rotating magnet looses its magnetism",
+"The distributor gear teeth are wearing on the rotor gear teeth",
+"The cam follower wears and/or the breaker point wear"
+],
+"a": [
+2
+]
+},
+{
+"q": "What should be used to clean grease or carbon tracks from capacitors or coils that are used in magnetos?",
+"o": [
+"Solvent",
+"Acetone",
+"Naphtha"
+],
+"a": [
+1
+]
+},
+{
+"q": "The electrical circuit from the spark plug back to the magneto is completed by grounding through the",
+"o": [
+"Engine structure",
+"P-lead",
+"Cockpit switch"
+],
+"a": [
+0
+]
+},
+{
+"q": "Spark plugs are considered worn out when the",
+"o": [
+"Electrodes have worn away to about one-half of their original dimensions",
+"Centre electrode edges have become rounded",
+"Electrodes have worn away to about two-thirds of their original dimensions"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following could cause damage to the nose ceramic or to the electrode of an aircraft spark plug",
+"o": [
+"Plug installed without a copper gasket.",
+"Improper gapping procedures.",
+"Excessive magneto voltage."
+],
+"a": [
+0
+]
+},
+{
+"q": "After spark plugs from an opposed engine have been serviced, in what position should they be reinstalled?",
+"o": [
+"Next in firing order to the one from which they are removed.",
+"Swapped bottom to top",
+"Next in firing order to the one from which they were removed and swapped bottom to top"
+],
+"a": [
+2
+]
+},
+{
+"q": "Sharp bends should be avoided in ignition leads primarily because",
+"o": [
+"weak points may develop in the insulation through which high tension current can leak.",
+"ignition lead wire conductor material is brittle and may break.",
+"ignition lead shielding effectiveness will be reduced."
+],
+"a": [
+0
+]
+},
+{
+"q": "In a high-tension ignition system, a primary capacitor of too low capacity will cause",
+"o": [
+"excessive primary voltage,",
+"excessively high secondary voltage.",
+"the breaker contacts to burn."
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following, obtained during magneto check at 1.700 RPM, indicates a short (grounded) circuit between the right magneto primary and the ignition switch?",
+"o": [
+"BOTH-1,700 RPM, R-1,625 RPM, L-1,700 RPM",
+"BOTH 1,700 RPM, R-0 RPM, L-1,700 RPM",
+"BOTH 1,700 RPM, R-0 RPM, 1,675 RPM"
+],
+"a": [
+1
+]
+},
+{
+"q": "If an aircraft ignition switch is turned off and the engine continues to run normally, the trouble is probably caused by",
+"o": [
+"An open ground lead in the magneto",
+"Arcing magneto breaker points",
+"Primary lead grounding"
+],
+"a": [
+0
+]
+},
+{
+"q": "When the ignition switch of a single (Reciprocating) engine aircraft is turned to the OFF position",
+"o": [
+"The primary circuits of both magnetos are grounded",
+"The secondary circuits of both magnetos are opened",
+"All circuits are automatically opened"
+],
+"a": [
+0
+]
+},
+{
+"q": "A spark plug’s heat range is the result of",
+"o": [
+"The area of the plug exposed to the cooling airstream",
+"Its ability to transfer from the firing end of the spark plug to the cylinder head",
+"The heat intensity of the spark"
+],
+"a": [
+1
+]
+},
+{
+"q": "If staggered ignition timing is used, the",
+"o": [
+"Spark plug nearest exhaust valve will fire first",
+"Spark will be automatically advanced as engine speed increases",
+"Spark plug nearest the intake valve will fire first"
+],
+"a": [
+0
+]
+},
+{
+"q": "The term \"reach,\" as applied to spark plug design and/or type, indicates the",
+"o": [
+"linear distance from the shell gasket to the end of the threads on the shell skirt.",
+"Length of center electrode exposed to the flame of combustion.",
+"Length of the shielded barrel."
+],
+"a": [
+0
+]
+},
+{
+"q": "The numbers appearing on the ignition distributor block indicate the",
+"o": [
+"sparking order of the distributor.",
+"relation between distributor terminal numbers and cylinder numbers.",
+"firing order of the engine."
+],
+"a": [
+0
+]
+},
+{
+"q": "When testing a magneto distributor block for electrical leakage. which of the following pieces of test equipment should be used?",
+"o": [
+"A high-tension harness tester",
+"A continuity tester.",
+"A high-range ammeter."
+],
+"a": [
+0
+]
+},
+{
+"q": "(1) The platinum and iridium ground electrodes used on fine wire spark plugs arc extremely brittle and can be broken if they are improperly handled or adjusted. (2) When gapping massive-electrode spark plugs, a wire gauge should be inserted between the center and ~round electrodes while moving the ground electrode In order to avoid setting the gap too close. Regarding the above statements,",
+"o": [
+"only No. I is true.",
+"onlyNo.2 is true.",
+"both No. I and No.2 are true."
+],
+"a": [
+0
+]
+},
+{
+"q": "Hot spark plugs are generally used in aircraft power plants",
+"o": [
+"With comparatively high compression or high operating temperature",
+"With comparatively low operating temperatures",
+"Which produce high power per cubic in displacement"
+],
+"a": [
+1
+]
+},
+{
+"q": "If a spark plug lead becomes grounded, the",
+"o": [
+"Magneto will not be affected",
+"Distributor rotor finger will discharge to the next closest electrode within the distributor",
+"Capacitor will break down"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following statements most accurately describes spark plug heat range?",
+"o": [
+"The length of the threaded portion of the shell usually denotes the spark plug heat range",
+"A hot plug is designed so that the insulator tip is reasonably short to hasten the rate of heat transfer from the tip through the spark plug shell to the cylinder head",
+"A cold plug is designed so that the insulator tip is reasonably short to hasten the rate of heat transfer from the tip through the spark plug shell to the cylinder head"
+],
+"a": [
+0
+]
+},
+{
+"q": "When does battery current flow through the primary circuit of a battery ignition coil?",
+"o": [
+"Only when the breaker points are open",
+"At all times when the ignition switch is on",
+"When the breaker points are closed and the ignition switch is on"
+],
+"a": [
+2
+]
+},
+{
+"q": "In order to turn a magneto off the primary circuit must be",
+"o": [
+"grounded.",
+"opened.",
+"shorted."
+],
+"a": [
+0
+]
+},
+{
+"q": "When performing a magneto ground check on an engine, correct operation is indicated by",
+"o": [
+"a slight increase in RPM.",
+"no drop in RPM.",
+"a slight drop in RPM."
+],
+"a": [
+2
+]
+},
+{
+"q": "Defective spark plugs will cause the engine to run rough at",
+"o": [
+"high speeds only.",
+"low speeds only.",
+"all speeds."
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following would be cause for rejection of a spark plug?",
+"o": [
+"Carbon fouling of the electrode and insulator.",
+"Insulator tip cracked.",
+"Lead fouling of the electrode and insulator."
+],
+"a": [
+1
+]
+},
+{
+"q": "What will be the result of using too hot a spark plug?",
+"o": [
+"Fouling of plug",
+"Preignition",
+"Burned capacitor"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following are distinct circuits of a high-tension magneto? (1) Magnetic. (2) Primary. (3) E-gap. (4) P-lead. (5) Secondary.",
+"o": [
+"1, 2, and 5.",
+"1,3, and 4.",
+"2,4, and 5."
+],
+"a": [
+0
+]
+},
+{
+"q": "What are two parts of a distributor in an aircraft engine ignition system? (1) Coil (2) Block (3) Stator (4) Rotor (5) Transformer",
+"o": [
+"2 and 4",
+"3 and 4",
+"2 and 5"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is a result of “flashover” in a distributor?",
+"o": [
+"Intense voltage at the spark plug",
+"Reversal of current flow",
+"Conductive carbon trail"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the relationship between distributor and crankshaft speed of aircraft reciprocating engine?",
+"o": [
+"The distributor turns at one-half crankshaft speed",
+"The distributor turns at one and one-half crankshaft speed",
+"The crankshaft turns at one-half distributor speed"
+],
+"a": [
+0
+]
+},
+{
+"q": "At what RPM is a reciprocating engine ignition switch check made?",
+"o": [
+"1,500 RPM",
+"The slowest possible RPM",
+"Full throttle RPM"
+],
+"a": [
+1
+]
+},
+{
+"q": "What is the approximate position of the rotating magnet in a high-tension magneto when the points first close?",
+"o": [
+"Full register",
+"Neutral",
+"A few degrees after neutral"
+],
+"a": [
+0
+]
+},
+{
+"q": "What component of a dual magneto is shared by both ignition systems?",
+"o": [
+"High-tension coil.",
+"Rotating magnet.",
+"Capacitor"
+],
+"a": [
+1
+]
+},
+{
+"q": "What would be the result if a magneto breaker point mainspring did not have sufficient tension?",
+"o": [
+"The points will stick.",
+"The points will not open to the specified gap.",
+"The points will float or bounce."
+],
+"a": [
+2
+]
+},
+{
+"q": "The secondary coil of a magneto is grounded through the",
+"o": [
+"ignition switch.",
+"primary coil.",
+"grounded side of the breaker points."
+],
+"a": [
+1
+]
+},
+{
+"q": "In the aircraft magneto system, if the P-lead is disconnected, the magneto will be",
+"o": [
+"on regardless of ignition switch position.",
+"grounded regardless of ignition switch position.",
+"Open regardless or ignition switch position."
+],
+"a": [
+0
+]
+},
+{
+"q": "A spark plug is fouled when",
+"o": [
+"its spark grounds by jumping electrodes.",
+"it causes preignition.",
+"its Spark grounds without jumping electrodes."
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following statements regarding magneto switch circuits is NOT true?",
+"o": [
+"In the BOTH position, the right and left magneto circuits are grounded",
+"In the OFF position, neither the right nor left magneto circuits are open",
+"In the RIGHT position, the right magneto circuit is open and the left magneto circuit is grounded"
+],
+"a": [
+0
+]
+}
+]
+},
+{
+"name": "Cooling Systems",
+"qs": [
+{
+"q": "The primary purpose of baffles and deflectors installed around cylinders of air-cooled aircraft engines is to",
+"o": [
+"create a low pressure area aft of the cylinders.",
+"force cooling air into close contact with all parts of the cylinders.",
+"increase the volume of air used to cool the engine."
+],
+"a": [
+1
+]
+},
+{
+"q": "What is the purpose of an augmenter used in some reciprocating engine exhaust systems?",
+"o": [
+"To reduce exhaust back pressure.",
+"To aid in cooling the engine.",
+"To assist in displacing the exhaust gases."
+],
+"a": [
+1
+]
+},
+{
+"q": "Cracks in cooling fins that do not extend into the cylinder head, may be repaired by",
+"o": [
+"filling the extremities of the crack with liquid metal.",
+"removing the affected area and contour filing within limits.",
+"welding and then grinding or filing to original thickness."
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following should a mechanic consult to determine the maximum amount of cylinder cooling fin that could be removed when cracks are found?",
+"o": [
+"AC 43.13-1.",
+"Engine manufacturers service overhaul manual.",
+"Engine Structure repair manual."
+],
+"a": [
+1
+]
+},
+{
+"q": "A bent cooling fin on an aluminum cylinder head",
+"o": [
+"should be sawed off and filed smooth.",
+"should be left alone if no crack has formed.",
+"should be stop drilled or a small radius filed at the point of the bend"
+],
+"a": [
+1
+]
+},
+{
+"q": "Where are cooling fins usually located on air-cooled engines?",
+"o": [
+"Exhaust side of the cylinder head, inside the pistons, and connecting rods",
+"Cylinder head, cylinder walls, and inside the piston head",
+"Cylinder head, cylinder barrel, and inside the piston head"
+],
+"a": [
+1
+]
+},
+{
+"q": "How do cowl flaps in cooling a horizontally opposed aircraft engine?",
+"o": [
+"Recirculates air through the engine cylinders",
+"Directs air through the engine cylinders",
+"Controls the amount of air flowing around the cylinders"
+],
+"a": [
+2
+]
+},
+{
+"q": "The position of the cowl flaps during normal cruise flight conditions is",
+"o": [
+"Closed",
+"Open",
+"One half open"
+],
+"a": [
+0
+]
+},
+{
+"q": "Generally, a small crack just started in a cylinder baffle",
+"o": [
+"Requires repair by reinforcing, such as installation of a doubler over the area",
+"Requires no action unless it grows or is branched into two cracks",
+"May be stop drilled"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following assists in removing heat from the metal walls and fins of an air-cooled cylinder assembly?",
+"o": [
+"An intercooler system",
+"A baffle and cowl arrangement",
+"An engine induction system"
+],
+"a": [
+1
+]
+},
+{
+"q": "During ground operation of an engine, the cowl flaps should be in what position?",
+"o": [
+"Fully closed",
+"Fully open",
+"Opened according to ambient conditions"
+],
+"a": [
+1
+]
+},
+{
+"q": "(1) Some aircraft exhaust systems include an augmenter system to draw adaptation air over the engine for cooling (2) Augmenter systems are used to create a low pressure area at the lower rear of the aircraft engine cowling. Regarding these statements,",
+"o": [
+"Only No. 1 is true",
+"Both No. 1 and No. 2 are true",
+"Only No. 2 is true"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following defects would likely cause a hot spot on a reciprocating engine cylinder?",
+"o": [
+"Too much cooling fin area broken off",
+"A cracked cylinder baffle",
+"cowling air seal leakage"
+],
+"a": [
+0
+]
+},
+{
+"q": "What part of an air-cooled cylinder assembly has the greatest fin area per square inch?",
+"o": [
+"Cylinder barrel",
+"Rear of the cylinder head",
+"Exhaust valve port"
+],
+"a": [
+2
+]
+},
+{
+"q": "Reciprocating engines used in helicopters are cooled by",
+"o": [
+"The downdraft from the main rotor",
+"A fan mounted on the engine",
+"Blast tubes on either side of the engine mount"
+],
+"a": [
+1
+]
+},
+{
+"q": "The greatest portion of heat generated by combustion in a typical aircraft reciprocating engine is",
+"o": [
+"Converted into useful power",
+"Carried out with the exhaust gases",
+"Dissipated thorough the cylinder walls and heads"
+],
+"a": [
+1
+]
+},
+{
+"q": "A broken cooling fin on a cylinder head",
+"o": [
+"Is cause for rejection of the head",
+"May be filled to smooth contours if damages and/or repair limits are not exceeded",
+"Should be left alone"
+],
+"a": [
+1
+]
+},
+{
+"q": "Cylinder head temperatures are measured by means of an indicator and a",
+"o": [
+"Resistance bulb sensing device",
+"Wheatstone bridge sensing device",
+"Thermocouple sensing device"
+],
+"a": [
+2
+]
+},
+{
+"q": "Prolonged idling of an engine will usually result in",
+"o": [
+"Excessive cylinder head temperatures",
+"Increased oil consumption",
+"Foreign material buildup on spark plug"
+],
+"a": [
+2
+]
+},
+{
+"q": "The most common method and generally the best conduction of heat from the inside of a cylinder barrel to the cooling air is accomplished by",
+"o": [
+"Machining fins directly on the outside of the barrel",
+"Shrinking on a jacket or muff of aluminum cooling fins around a steel cylinder sleeve",
+"Machining fins directly on the outside of the barrel and shrinking on a jacket or muff of aluminum cooling fins around a steel cylinder sleeve (on different areas of the barrel)"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the function of a blast tube as found on aircraft engines?",
+"o": [
+"A means of cooling the engines by utilizing the propeller backwash",
+"A tube used to load a cartridge starter",
+"A device to cool an engine accessory"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the position of the cowl flaps during engine starting and warm-up operations under normal conditions?",
+"o": [
+"Full open at all times",
+"Full closed at all times",
+"Open for starting closed for warm-up"
+],
+"a": [
+0
+]
+},
+{
+"q": "Aircraft reciprocating engine cylinder baffles and deflectors should be repaired as required to prevent loss of",
+"o": [
+"Power",
+"Fin area",
+"Cooling"
+],
+"a": [
+2
+]
+}
+]
+}
+]
+}

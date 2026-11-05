@@ -1,0 +1,22 @@
+[
+ [
+  null,
+  "needs a figure",
+  "The figure is a prism with an isosceles triangular section and its dimensions are as shown: What is its volume?",
+  [
+   "120cu.cm",
+   "60cu.cm",
+   "75cu.cm"
+  ]
+ ],
+ [
+  null,
+  "needs a figure",
+  "At section B-B of the above figure, the pressure is:",
+  [
+   "Maximum",
+   "Minimum",
+   "The same as in section C-C"
+  ]
+ ]
+]

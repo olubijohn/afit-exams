@@ -94,6 +94,10 @@ folder('comp', 'DIRECT READING COMPASS QUESTIONS', 'compass', [('comp', None, I(
 
 # ---------- Piston ----------
 folder('pist', 'SLIDE ON PISTON AND SYSTEMS', 'piston', [('piston', None, piston)])
+# two more files (piston2.py: answer = red bold option); the Word bank is split by its own headings
+P2 = I('piston2.json')
+folder('pncaa', 'PISTON ENGINE NCAA', 'piston', [('pncaa', None, P2['pdf'][0]['qs'])])
+folder('psb', 'piston systems Bank', 'piston', [(f'psb-{i}', x['name'], x['qs']) for i, x in enumerate(P2['doc'], 1)], topics=True)
 
 # ---------- Pressurised Airframe ----------
 # processed from the most original copy down, so a repeat stays in the first file; shown in the order the files are listed
@@ -150,7 +154,7 @@ folder('cc-prep', 'PREPARATORY GUIDE TO FLIGHT ATTENDANT LICENCE EXAM', 'cc-lice
        [('cc-prep-type', 'Aircraft Type B737', CC('prep-type')), ('cc-prep-gen', 'Air Law / General Paper', CC('prep-gen'))], topics=True)
 folder('cc-ncaa2', 'NCAA QUESTIONS 2', 'cc-licence', [('cc-ncaa2', None, CC('ncaa2'))])
 CARDS = [{'id': f'card-{i}', **c} for i, c in enumerate(CC('cards'), 1)]
-SHOW = ['gp24', 'gp', 'deji', 'g23', 'gp2', 'comp', 'pist', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa', 'aap14', 'gte24', 'm15', 'gtencaa', 'hba18', 'hafl', 'hlic', 'hsys',
+SHOW = ['gp24', 'gp', 'deji', 'g23', 'gp2', 'comp', 'pist', 'pncaa', 'psb', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa', 'aap14', 'gte24', 'm15', 'gtencaa', 'hba18', 'hafl', 'hlic', 'hsys',
         'cc-airlaw', 'cc-mockairlaw34', 'cc-b737exam', 'cc-progress2', 'cc-cctb36', 'cc-sep', 'cc-dg', 'cc-firstaid', 'cc-prep', 'cc-ncaa2']
 live = {x['folder'] for x in subjects if x['count']}
 folders = sorted([fo for fo in folders if fo['id'] in live], key=lambda fo: SHOW.index(fo['id']))   # a file with nothing new is not shown
