@@ -75,6 +75,21 @@
  "GTE General NCAA 1": {
   "parsed": 362
  },
+ "BASIC HELICOPTER AIRFRAME 2018": {
+  "parsed": 75,
+  "asked twice in the file": 1
+ },
+ "HELICOPTER AIRFRAME LICENSE": {
+  "parsed": 50
+ },
+ "HELICOPTER LICENSE": {
+  "parsed": 125,
+  "asked twice in the file": 1
+ },
+ "Helicopter systems obj": {
+  "parsed": 177,
+  "asked twice in the file": 3
+ },
  "AIR LAW AND PROCEDURES EXAMINATION": {
   "parsed": 49
  },

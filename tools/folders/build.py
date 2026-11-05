@@ -1,5 +1,5 @@
 """Build data/questions.json with one folder per file that was sent, in that file's own order.
-Papers: General Paper, Piston Engines, Pressurised Airframe, Unpressurised Metal Airframe, Gas Turbine Engine, Compass. Each folder holds the file's questions;
+Papers: General Paper, Piston Engines, Pressurised Airframe, Unpressurised Metal Airframe, Gas Turbine Engine, Helicopter License Exam, Compass. Each folder holds the file's questions;
 where the file has its own sections (NCAA papers 1-3, Module 11 chapters, the general paper's subjects)
 they become sections inside the folder.
 Questions that were already in the app keep their id, so people's progress carries over.
@@ -129,6 +129,13 @@ folder('gte24', 'GTE LICENSE EXAM COMPILATION 2024', 'gte', [(f'gte24-{i}', s['n
 folder('m15', 'EASA PART 66 BLOG Module 15, Gas Turbine Engine', 'gte', [('m15-' + s['name'].split(' ')[0].split('.')[1], s['name'], s['qs']) for s in G['pdf']], topics=True)
 # a slide deck with no topics of its own: one folder (gte_ncaa.py: the bold green option is the answer)
 folder('gtencaa', 'GTE General NCAA 1', 'gte', [('gtencaa', None, I('gte_ncaa.json'))])
+# ---------- Helicopter License Exam ----------
+# one folder per Word file; the file's own papers / parts are sections (heli.py: answer = red or bold option)
+HL = {f['file']: f['secs'] for f in I('heli.json')}
+for fid, fn in [('hba18', 'BASIC HELICOPTER AIRFRAME 2018.docx'), ('hafl', 'HELICOPTER AIRFRAME LICENSE.docx'),
+                ('hlic', 'HELICOPTER LICENSE.docx'), ('hsys', 'Helicopter systems obj.docx')]:
+    sec = HL[fn]
+    folder(fid, fn.rsplit('.', 1)[0], 'heli', [(fid if len(sec) == 1 else f'{fid}-{i}', x['name'], x['qs']) for i, x in enumerate(sec, 1)], topics=len(sec) > 1)
 # ---- Cabin Crew department: tools/cabin/parse_cabin.py reads the files into in/cabin-*.json (one folder per file)
 CC = lambda f: I(f'cabin-{f}.json')
 folder('cc-airlaw', 'AIR LAW AND PROCEDURES EXAMINATION', 'cc-law', [('cc-airlaw', None, CC('airlaw'))])
@@ -143,7 +150,7 @@ folder('cc-prep', 'PREPARATORY GUIDE TO FLIGHT ATTENDANT LICENCE EXAM', 'cc-lice
        [('cc-prep-type', 'Aircraft Type B737', CC('prep-type')), ('cc-prep-gen', 'Air Law / General Paper', CC('prep-gen'))], topics=True)
 folder('cc-ncaa2', 'NCAA QUESTIONS 2', 'cc-licence', [('cc-ncaa2', None, CC('ncaa2'))])
 CARDS = [{'id': f'card-{i}', **c} for i, c in enumerate(CC('cards'), 1)]
-SHOW = ['gp24', 'gp', 'deji', 'g23', 'gp2', 'comp', 'pist', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa', 'aap14', 'gte24', 'm15', 'gtencaa',
+SHOW = ['gp24', 'gp', 'deji', 'g23', 'gp2', 'comp', 'pist', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa', 'aap14', 'gte24', 'm15', 'gtencaa', 'hba18', 'hafl', 'hlic', 'hsys',
         'cc-airlaw', 'cc-mockairlaw34', 'cc-b737exam', 'cc-progress2', 'cc-cctb36', 'cc-sep', 'cc-dg', 'cc-firstaid', 'cc-prep', 'cc-ncaa2']
 live = {x['folder'] for x in subjects if x['count']}
 folders = sorted([fo for fo in folders if fo['id'] in live], key=lambda fo: SHOW.index(fo['id']))   # a file with nothing new is not shown
@@ -153,7 +160,7 @@ kept = sum(1 for q in Q if q['id'] in old_pma or q['s'] in GEN or q['s'] == 'pis
 print('total', len(Q), '| ids kept from before:', kept, '| old pressurised ids kept:', sum(q['id'] in old_pma for q in Q), 'of 527')
 # files left with fewer than 20 questions of their own share one folder, so the page isn't full of tiny folders
 SMALL = 0   # 0: every file is its own folder, however few questions it has left
-for paper in ('general', 'piston', 'pma', 'upma', 'gte', 'compass'):
+for paper in ('general', 'piston', 'pma', 'upma', 'gte', 'heli', 'compass'):
     tiny = [fo for fo in folders if fo['paper'] == paper and sum(x['count'] for x in subjects if x['folder'] == fo['id']) < SMALL]
     if len(tiny) < 2: continue
     mid = paper + '-other'
@@ -165,12 +172,13 @@ B = {'source': 'One folder per file sent: ' + '; '.join(f['name'] for f in folde
      'papers': [{'id': 'general', 'name': 'General Paper', 'short': 'General'}, {'id': 'piston', 'name': 'Piston Engines', 'short': 'Piston'},
                 {'id': 'pma', 'name': 'Pressurised Airframe', 'short': 'Pressurised'},
                 {'id': 'upma', 'name': 'Unpressurised Metal Airframe', 'short': 'Unpressurised'},
-                {'id': 'gte', 'name': 'Gas Turbine Engine', 'short': 'Gas Turbine'}, {'id': 'compass', 'name': 'Compass', 'short': 'Compass', 'dept': 'avionics'},
+                {'id': 'gte', 'name': 'Gas Turbine Engine', 'short': 'Gas Turbine'},
+                {'id': 'heli', 'name': 'Helicopter License Exam', 'short': 'Helicopter'}, {'id': 'compass', 'name': 'Compass', 'short': 'Compass', 'dept': 'avionics'},
                 {'id': 'cc-law', 'name': 'Air Law & Procedures', 'short': 'Air Law', 'dept': 'cabin'},
                 {'id': 'cc-type', 'name': 'Aircraft Type (B737)', 'short': 'B737 Type', 'dept': 'cabin'},
                 {'id': 'cc-safety', 'name': 'Safety, Dangerous Goods & Medicine', 'short': 'Safety & DG', 'dept': 'cabin'},
                 {'id': 'cc-licence', 'name': 'Licence Preparation', 'short': 'Licence prep', 'dept': 'cabin'}],
-     'departments': [{'id': 'ame', 'name': 'AME (Airframe and Powerplant)', 'sub': 'NCAA licence papers: General, Piston Engines, Pressurised and Unpressurised Airframe, Gas Turbine Engine'},
+     'departments': [{'id': 'ame', 'name': 'AME (Airframe and Powerplant)', 'sub': 'NCAA licence papers: General, Piston Engines, Pressurised and Unpressurised Airframe, Gas Turbine Engine, Helicopter'},
                      {'id': 'avionics', 'name': 'AME (Avionics)', 'sub': 'NCAA avionics licence papers: Compass'},
                      {'id': 'cabin', 'name': 'Cabin Crew', 'sub': 'Air Law, B737 type, safety, dangerous goods, first aid and licence preparation'}],
      'folders': folders, 'subjects': [s for s in subjects if s['count']], 'questions': Q, 'cards': CARDS}

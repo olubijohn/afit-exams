@@ -1,0 +1,4754 @@
+[
+{
+"file": "BASIC HELICOPTER AIRFRAME 2018.docx",
+"secs": [
+{
+"name": null,
+"qs": [
+{
+"q": "Helicopters with hydraulic boost to controls often use a gradient unit to:",
+"o": [
+"Artificially add “feel” to the controls",
+"Give indication of smoothness of rate of climb",
+"Assist in forward running take off"
+],
+"a": [
+0
+]
+},
+{
+"q": "A blade angle of attack is:",
+"o": [
+"The angle between the blade chord line and the horizontal centre line",
+"The angle between the plane of rotation and the chord line",
+"The angle between the chord line and the resultant airflow"
+],
+"a": [
+2
+]
+},
+{
+"q": "The centre of pressure of a main rotor blade is said to be:",
+"o": [
+"A point at the blade root where centrifugal force is at its greatest",
+"A point on the chord line where aerodynamic forces act",
+"A point on the chord line about which the blade pivots"
+],
+"a": [
+1
+]
+},
+{
+"q": "The tail rotor compensates for torque, during autorotation the engine rpm is reduced, the tail rotor:",
+"o": [
+"Rpm is reduced by the same amount giving equilibrium",
+"Free wheel unit allows the tail rotor to rotate at normal rpm",
+"Must be adjusted to compensate for drop in torque."
+],
+"a": [
+2
+]
+},
+{
+"q": "Rotor blades naturally move faster at the tip than the root, blade twist is introduced to:",
+"o": [
+"Give even lift by increasing angle of attack at the root",
+"Ensure the outer blade sections give more lift",
+"Ensure even lift by decreasing angle of attack at the root"
+],
+"a": [
+0
+]
+},
+{
+"q": "The term “Phase Lag” means:",
+"o": [
+"The advancing and dragging period as a blade rotates",
+"Action occurring 90 degrees. From the applied force in the same direction of rotation",
+"The time delay between moving a control and the movement taking place"
+],
+"a": [
+1
+]
+},
+{
+"q": "A clutch assembly is necessary between the engine and transmission on helicopters with:",
+"o": [
+"Reciprocating engines",
+"Gas Turbine Engine",
+"Reciprocating and some Gas Turbine Engines"
+],
+"a": [
+2
+]
+},
+{
+"q": "Some helicopters have belt driven transmission, the clutch used on this type is the:",
+"o": [
+"Shoe and Drum",
+"Belt tensioner",
+"Hydro mechanical"
+],
+"a": [
+1
+]
+},
+{
+"q": "Transmission lubrication is normally carried out by:",
+"o": [
+"Engine oil",
+"Engine oil, filtered and boosted",
+"Independent lubrication systems"
+],
+"a": [
+2
+]
+},
+{
+"q": "Gears with helical teeth are often used in gearboxes, this will provide:",
+"o": [
+"Quieter running at high torque",
+"More positive engagement",
+"More efficient gear lubrication"
+],
+"a": [
+0
+]
+},
+{
+"q": "The transmission drive shaft to the fail rotor is usually made from:",
+"o": [
+"Hollow steel",
+"High Alloy",
+"tungum"
+],
+"a": [
+1
+]
+},
+{
+"q": "A lord mount is a type of:",
+"o": [
+"Bonded rubber mounting",
+"Flexible steel mounting",
+"Safety cable mounting"
+],
+"a": [
+0
+]
+},
+{
+"q": "A nodal beam mounting is used on transmission with:",
+"o": [
+"Fully articulated heads",
+"Rigid rotor heads",
+"Semi rigid rotor heads"
+],
+"a": [
+2
+]
+},
+{
+"q": "The tail rotor drive provides an increase in torque, rpm is increased approximately:",
+"o": [
+"Six times main rotor speed",
+"Twice main rotor speed",
+"Four times main rotor speed"
+],
+"a": [
+2
+]
+},
+{
+"q": "A freewheel unit will allow:",
+"o": [
+"The driving component to under speed the driven component",
+"The driven component to under speed the driven component",
+"The driving component to over speed the driven component"
+],
+"a": [
+0
+]
+},
+{
+"q": "A Splined Coupling is one which transmits drive and allows:",
+"o": [
+"Flexing and radial movement",
+"Changes in direction and radial movement",
+"Flexing and axial movement"
+],
+"a": [
+2
+]
+},
+{
+"q": "A viscous damped bearing is one which:",
+"o": [
+"Absorbs vibration and is self aligning",
+"Prevents tail rotor flutter",
+"Ensure gearbox stability"
+],
+"a": [
+0
+]
+},
+{
+"q": "The conformal gear provides:",
+"o": [
+"The main engine output reduction",
+"Better cooling abilities",
+"A wider contact area"
+],
+"a": [
+2
+]
+},
+{
+"q": "“Run Out” of a transmission shaft is a term used to express:",
+"o": [
+"Eccentric rotation about its axis",
+"Over speeding",
+"Elongation due to overstressing"
+],
+"a": [
+0
+]
+},
+{
+"q": "In gearbox lubrication a “Boundary” situation exists when:",
+"o": [
+"Inner and Outer oil layers are equal",
+"When a film of oil exists between surfaces",
+"The oil film cannot be maintained"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which component assists in a quick oil warm up in a gearbox system:",
+"o": [
+"A thermostatic valve",
+"A check valve",
+"An oil cooler matrix"
+],
+"a": [
+0
+]
+},
+{
+"q": "Metal particles in a gearbox oil system can give visual warning by a:",
+"o": [
+"Filter protruding indicator",
+"Oil sample system",
+"Illuminated warning in Cockpit"
+],
+"a": [
+2
+]
+},
+{
+"q": "Tracking on a helicopter means:",
+"o": [
+"That all blades travel in the same tip path plane",
+"That blades are subject to leading edge checks with a straight edge",
+"That the rotor keeps fuel helicopter in a straight path in forward flight"
+],
+"a": [
+0
+]
+},
+{
+"q": "The purpose of a clutch in a transmission system is to:",
+"o": [
+"Unload the engine during starting",
+"Give immediate freedom for auto rotation",
+"Prevent overrun"
+],
+"a": [
+0
+]
+},
+{
+"q": "Transmission lubrication is normally carried out by:",
+"o": [
+"Engine oil",
+"Engine oil, filtered and boosted",
+"Independent lubrication systems"
+],
+"a": [
+2
+]
+},
+{
+"q": "Movement of the collective stick will:",
+"o": [
+"Alter the pitch of the advancing blades more than the retreating blades",
+"Alter the pitch on all blades equally",
+"Tilt the swashplate forward"
+],
+"a": [
+1
+]
+},
+{
+"q": "The reason for fitting a tail rotor on a helicopter is:",
+"o": [
+"To counter torque",
+"To prevent sideways drift",
+"To ensure thrust is in the same direction as the couple produced by engine torque"
+],
+"a": [
+0
+]
+},
+{
+"q": "The pitch on a puller tail rotor is forward flight with the pedals central is:",
+"o": [
+"In neutral",
+"In positive pitch",
+"In negative pitch"
+],
+"a": [
+1
+]
+},
+{
+"q": "A Thomas coupling consist of:",
+"o": [
+"Rubber blocks between vanes",
+"Flexible steel shims",
+"A yoke and trunnion"
+],
+"a": [
+1
+]
+},
+{
+"q": "The coning angle of the rotor blades is the angle between:",
+"o": [
+"The normal axis and the rotor blade",
+"The rotor blades and the tip path plane",
+"The horizontal and the rotor blade"
+],
+"a": [
+1
+]
+},
+{
+"q": "The forces which the blades coning angle are:",
+"o": [
+"Lift: weight: thrust",
+"Lift: centrifugal force: thrust",
+"Lift: centrifugal force: weight"
+],
+"a": [
+2
+]
+},
+{
+"q": "The RPM of the rotor blades are kept constant, within small limits to:",
+"o": [
+"Prevent blades ‘folding up’ during flight",
+"Prevent blades over speeding",
+"Reduce torque loading"
+],
+"a": [
+0
+]
+},
+{
+"q": "The angle between the chord line of the blade and a plane at right angles to the rotor shaft is known as the:",
+"o": [
+"Angle of attack",
+"Pitch angle",
+"Coning angle"
+],
+"a": [
+1
+]
+},
+{
+"q": "A helicopter is hovering and the pilot applies right pedals assuming the main rotor rotates anti – clockwise viewed from above, the helicopter will:",
+"o": [
+"Descend unless the pilot applies more collective pitch",
+"Ascend, unless the pilot decreases rotor RPM",
+"Descent unless the pilot inches the throttle open"
+],
+"a": [
+1
+]
+},
+{
+"q": "When the rotor blade is flapping up the angle of attach is:",
+"o": [
+"Greater than the pitch angle",
+"Is less than the pitch angle",
+"The same as the pitch"
+],
+"a": [
+1
+]
+},
+{
+"q": "As a helicopter accelerates in forward flight above approximately 15 knots, it will be necessary to:",
+"o": [
+"Reduce power because rotor profile drag is reduced",
+"Increased power the rotor RPM are increasing",
+"Reduce power because of additional lift in transitional flight"
+],
+"a": [
+2
+]
+},
+{
+"q": "A helicopter tail rotor is fitted to:",
+"o": [
+"Permit directional control",
+"Counteract rotor torque and provide rapid turn facilities",
+"Counteract engine torque and provide normal directional control"
+],
+"a": [
+2
+]
+},
+{
+"q": "Phase log is due to the blades",
+"o": [
+"Speed",
+"Weight",
+"Inertia"
+],
+"a": [
+2
+]
+},
+{
+"q": "The airflow over part of the main rotor will be in the reverse direction:",
+"o": [
+"In the vortex ring state",
+"In ground cushion effect",
+"At high forward speeds"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which direction is the air flowing the main rotor during autorotation?",
+"o": [
+"Upward",
+"Downwards",
+"Parallel to the rotor blade chord line"
+],
+"a": [
+0
+]
+},
+{
+"q": "The coriolis effect on the helicopters means:",
+"o": [
+"The blade which flaps down will accelerate",
+"The blade which flaps up will accelerate",
+"The axis of rotation is not perpendicular to the plan of rotation"
+],
+"a": [
+1
+]
+},
+{
+"q": "Excessive cyclic stick shake felt on a power operated control system could be caused by:",
+"o": [
+"Low accumulator nitrogen pressure",
+"System regulator cut out pressure set too high",
+"Air in the hydraulic actuator"
+],
+"a": [
+0
+]
+},
+{
+"q": "Accelerometers are used during tracking of the main rotors:",
+"o": [
+"To give visual indication of any climbing blade",
+"To ensure vibration and its magnitude affecting the aircraft to give",
+"An indication of any blade cross over"
+],
+"a": [
+1
+]
+},
+{
+"q": "What adjustments would have to be made to a blade, which tends to climb with an increase in airspeed?",
+"o": [
+"Adjust the pitch change link on the affected blade",
+"Raise the tab on the affected blade",
+"Lower the tab on the affected blade"
+],
+"a": [
+0
+]
+},
+{
+"q": "A mixer box is used in helicopter control systems to ensure that:",
+"o": [
+"Left and right movements of the anti – torque pedals are moved to change the pitch by the required amount",
+"To prevent the collective input affecting the cyclic input as they move together",
+"Twist grip throttles and cyclic can be mover independently"
+],
+"a": [
+1
+]
+},
+{
+"q": "Helicopter transmissions are designed to reduce engine rpm to the main rotor, this is to:",
+"o": [
+"Keep rotor tip speeds subsonic",
+"Reduce the amount of engine power absorbed",
+"Limit the forward speed of the helicopter"
+],
+"a": [
+0
+]
+},
+{
+"q": "Transmission drive shafts are fitted with flexible couplings to:",
+"o": [
+"Allow free wheeling in autorotation",
+"Absorb torsional loads and flexible",
+"To supply break points on long shafts"
+],
+"a": [
+1
+]
+},
+{
+"q": "Some helicopters have stabilizer bars, they are:",
+"o": [
+"Connected through linkage to the rotating swashplate and rotor blades",
+"Connected to the swashplate and pilots controls",
+"Fixed to the pitch change mechanism only"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the purpose of the swahplate fitted to the main rotor mast of a helicopter?",
+"o": [
+"To prevent cyclic selections to be input to the rotor blades as they rotate",
+"To prevent collective selections to the rotor blades from interfering with cyclic selections already made",
+"To permit cyclic and collective inputs to be made to the rotor blades individually or simultaneously whilst the blades rotate"
+],
+"a": [
+2
+]
+},
+{
+"q": "Elastomeric bearing used in helicopter rotor heads are constructed from:",
+"o": [
+"Steel with white metal liners",
+"A sandwich of rubber and steel washers bonded together",
+"Roller bearings lubricated by oil from reservoirs on top of the head"
+],
+"a": [
+1
+]
+},
+{
+"q": "B.I.M indicators are fitted to some aircraft:",
+"o": [
+"To give an indication of cracks in the rotor blade spar",
+"To give an indication of contamination of the transmission oil system",
+"To give warning of a crack in the rotor head trunnion"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the purpose of counter weights fitted to some rotor heads?",
+"o": [
+"To assist the blade CTM which tends to increase the pitch angle",
+"To counter the blade CTM which tends to increase the pitch angle",
+"To counter the blade CTM which tends to decrease the pitch angle"
+],
+"a": [
+2
+]
+},
+{
+"q": "What could be the likely result of a defective rotor head damper?",
+"o": [
+"It could cause a lateral vibration to be felt in the aircraft",
+"It could affect the tracking of the blade",
+"It could cause a vertical vibration to be felt in the aircraft"
+],
+"a": [
+0
+]
+},
+{
+"q": "In the event of an flight engine failure on an aircraft with hydraulically powered controls, flying control operational would:",
+"o": [
+"Revert to manual control",
+"Be unaffected since the hydraulic pump is geared to the transmission",
+"Be operated by an electrically driven pump"
+],
+"a": [
+1
+]
+},
+{
+"q": "One purpose of the freewheeling unit required between the engine and the helicopter transmission is to:",
+"o": [
+"Automatically disengage the rotor from the engine in case of an engine failure",
+"Disconnect the rotor from the engine to relieve the starter load",
+"Permit practice of autorotation landings"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the purpose of flapping restrainers fitted to helicopters?",
+"o": [
+"To restrict the flapping of a blade at low rotor RPM",
+"To restrict the flapping of a blade in flight",
+"To control the speed of a blade as it flaps during flight"
+],
+"a": [
+0
+]
+},
+{
+"q": "Are droops stops in or out during flight?",
+"o": [
+"In forward flight – in",
+"In",
+"Out"
+],
+"a": [
+2
+]
+},
+{
+"q": "What defects could possibly cause a helicopter to go into ground resonance?",
+"o": [
+"Out of balance rotor and incorrectly filled oleos",
+"Hovering too close to the ground",
+"Tail rotor of balance"
+],
+"a": [
+0
+]
+},
+{
+"q": "Rotor brakes are used on most helicopters:",
+"o": [
+"To stop the rotor to prevent sailing in gusty conditions",
+"To stop the engine and rotor after shut down",
+"To bring the blade to feather"
+],
+"a": [
+0
+]
+},
+{
+"q": "An intermediate gearbox is fitted into a transmission to:",
+"o": [
+"Break a long transmission shaft",
+"To change the drive angle",
+"To reduce load on the main rotor gearbox"
+],
+"a": [
+1
+]
+},
+{
+"q": "On some installations, a coupling gearbox is used, its function is to:",
+"o": [
+"Couple to engines to a single output",
+"Couple to engine to the main rotor gearbox",
+"Allow two engines to run on a single freewheel unit"
+],
+"a": [
+0
+]
+},
+{
+"q": "Engine speed to the main rotor is reduced through:",
+"o": [
+"A double hyperelliptical reduction gear",
+"A simple spur type reduction gear",
+"A sun and planet reduction gear"
+],
+"a": [
+2
+]
+},
+{
+"q": "Why is force gradients used in helicopter control systems?",
+"o": [
+"To relieve the pilot of the tick forces created by moving his cyclic controls",
+"To provide a fond of artificial feel to power operated controls which is proportional to the amount of control movement",
+"To provide the necessary force to move the controls against high air loading"
+],
+"a": [
+1
+]
+},
+{
+"q": "If during a ground tracking check, one blade of an articulated head was seen to fly low, what adjustments would you make?",
+"o": [
+"Raise the low blade by adjusting the pitch change link",
+"Lower the high blades by adjusting the pitch change links",
+"Raise the low blade and lower the high blades until they all fly in the same tip path plane"
+],
+"a": [
+0
+]
+},
+{
+"q": "Bell cranks are frequently used in aircraft controls systems:",
+"o": [
+"To reduce the length of control rods used",
+"To change the direction of control movement",
+"To convert rotary control movement to linear control movement"
+],
+"a": [
+1
+]
+},
+{
+"q": "What type of gear is most likely to be fitted in a tail rotor gear box?",
+"o": [
+"Helical, to provide a thrust load for pitch change operation",
+"Worm gear in order to alter the input/output speed ration",
+"Spiral level gears for smooth quiet operation"
+],
+"a": [
+2
+]
+},
+{
+"q": "If the input gear to a tail rotor gear box had 31 teeth on it and the output gear has 21 teeth on it, what would the tail rotor speed be relative to the input drive speed?",
+"o": [
+"Faster than the input drive speed",
+"Slower than the input speed",
+"The same as the input drive speed"
+],
+"a": [
+0
+]
+},
+{
+"q": "The vertical flight of a helicopter is controlled by:",
+"o": [
+"Collective pitch changes",
+"Cyclic pitch charges",
+"Increasing or decreasing the RPM of the main rotor"
+],
+"a": [
+0
+]
+},
+{
+"q": "A helicopter in forward flight, cruise configuration, changes direction by:",
+"o": [
+"Varying the pitch of the main rotor blades",
+"Charging rotor RPM",
+"Tilting the main rotor disk in the desired direction"
+],
+"a": [
+2
+]
+},
+{
+"q": "If a single – rotor helicopter is in forward horizontal flight, the angle of attack of the advancing blade is:",
+"o": [
+"More than the retreating blade",
+"Equal to the retreating blade",
+"Less than the retreating blade"
+],
+"a": [
+2
+]
+},
+{
+"q": "Movement about the longitudinal axis (roll) in a helicopter is effected by movement of the:",
+"o": [
+"Collective pitch control",
+"Cyclic pitch control",
+"Tail rotor pitch control"
+],
+"a": [
+1
+]
+},
+{
+"q": "Movement about the lateral axis (pitch) in a helicopter is effected by movement of the:",
+"o": [
+"Collective pitch control",
+"Cyclic pitch control",
+"Tail rotor pitch control"
+],
+"a": [
+1
+]
+},
+{
+"q": "In rotorcraft external – loading, the ideal location of the cargo release is where the line of action passes:",
+"o": [
+"Aft of the center of gravity at all times",
+"Forward of the center of gravity at all times",
+"Through the center of gravity at all times"
+],
+"a": [
+2
+]
+},
+{
+"q": "In a hovering helicopter equipped with a tail rotor, directional control is maintained by:",
+"o": [
+"Changing the tail rotor RPM",
+"Tilting the main rotor disk in the desired direction",
+"Varying the pitch of the tail rotor blades"
+],
+"a": [
+2
+]
+},
+{
+"q": "The purpose in checking main rotor blade tracking is to determine the:",
+"o": [
+"Relative position of the blades during rotation",
+"Flight path of the blades during rotation",
+"Extent of an out of balance condition during rotation"
+],
+"a": [
+0
+]
+}
+]
+}
+]
+},
+{
+"file": "HELICOPTER AIRFRAME LICENSE.docx",
+"secs": [
+{
+"name": null,
+"qs": [
+{
+"q": "Which of the following documents is not subject to renewal?",
+"o": [
+"Certificate of Airworthiness",
+"Certificate of Registration",
+"Certificate of Approval"
+],
+"a": [
+1
+]
+},
+{
+"q": "Technical log is:",
+"o": [
+"Retained at base",
+"Carried in the aircraft",
+"Kept in the store"
+],
+"a": [
+1
+]
+},
+{
+"q": "The certificate valid for one year is",
+"o": [
+"Certificate of registration",
+"Certificate of Release to Service & Maintenance Statement",
+"Certificate of Airworthiness"
+],
+"a": [
+2
+]
+},
+{
+"q": "Quarantine store is:",
+"o": [
+"Store where fully released items are kept",
+"Stores for parts awaiting proof of serviceability",
+"Stores for commercial equipment"
+],
+"a": [
+1
+]
+},
+{
+"q": "Above what weight is an Air Operators Certificate required",
+"o": [
+"2300 kg",
+"3600 kg",
+"all aircraft flying for public transport"
+],
+"a": [
+2
+]
+},
+{
+"q": "Tracking on a helicopter means",
+"o": [
+"That all blades travel in the same tip path plane",
+"That blades are subject to leading edge checks with a straight edge",
+"That the rotor keeps fuel helicopter in a straight path in forward flight"
+],
+"a": [
+0
+]
+},
+{
+"q": "The purpose of a clutch in a transmission system is to",
+"o": [
+"unload the engine during starting",
+"give immediate freedom for auto rotation",
+"prevent overrun"
+],
+"a": [
+0
+]
+},
+{
+"q": "Transmission lubrication is normally carried out by",
+"o": [
+"engine oil",
+"engine oil, filtered and boosted",
+"independent lubrication systems"
+],
+"a": [
+2
+]
+},
+{
+"q": "Movement of the collective stick will",
+"o": [
+"alter the pitch of the advancing blades more than the retreating blades",
+"alter the pitch on all blades equally",
+"tilt the swashplate forward"
+],
+"a": [
+1
+]
+},
+{
+"q": "The reason for fitting a tail rotor on a helicopter is",
+"o": [
+"to counteract torque",
+"to prevent sideways drift",
+"to ensure thrust is in the same direction as the couple produced by engine torque"
+],
+"a": [
+0
+]
+},
+{
+"q": "The pitch on a puller tail rotor in forward flight with the pedals central is",
+"o": [
+"in neutral",
+"in positive pitch",
+"in negative pitch"
+],
+"a": [
+1
+]
+},
+{
+"q": "A Thomas coupling consist of",
+"o": [
+"rubber blocks between vanes",
+"flexible steel shims",
+"a yoke and trunnion"
+],
+"a": [
+1
+]
+},
+{
+"q": "The coning angle of the rotor blades is the angle between",
+"o": [
+"the normal axis and the rotor blade",
+"the rotor blades and the tip path plane",
+"the horizontal and the rotor blade"
+],
+"a": [
+1
+]
+},
+{
+"q": "The forces which the blades coning angle are:",
+"o": [
+"Lift: weight: thrust.",
+"Lift: centrifugal force: thrust.",
+"Lift: centrifugal force: weight."
+],
+"a": [
+2
+]
+},
+{
+"q": "The RPM of the rotor blades are kept constant, within small limits to:",
+"o": [
+"Prevent blades ‘folding up’ during flight",
+"Prevent blades overspeeding",
+"Reduce torque loading"
+],
+"a": [
+1
+]
+},
+{
+"q": "The angle between the chord line of the blade and a plane at right angles to the rotor shaft is known as the:",
+"o": [
+"Angle of attack",
+"Pitch angle",
+"Coning angle"
+],
+"a": [
+1
+]
+},
+{
+"q": "A helicopter is hovering and the pilot applies right pedals assuming the main rotor rotates anti-clockwise viewed from above, the helicopter will:",
+"o": [
+"Descend unless the pilot applies more collective pitch",
+"Ascend, unless the pilot decreases rotor RPM",
+"Descend unless the pilot inches the throttle open"
+],
+"a": [
+1
+]
+},
+{
+"q": "When the rotor blade is flapping up, the angle of attack is",
+"o": [
+"Greater than the pitch angle",
+"Is less than the pitch angle",
+"The same as the pitch"
+],
+"a": [
+1
+]
+},
+{
+"q": "As a helicopter accelerates in forward flight above approximately 15 knots, it will be necessary to:",
+"o": [
+"Reduce power because rotor profile drag is reduced",
+"Increased power the rotor RPM are increasing",
+"Reduce power because of additional lift in transitional flight"
+],
+"a": [
+2
+]
+},
+{
+"q": "A helicopter tail rotor is fitted to",
+"o": [
+"Permit directional control",
+"Counteract rotor torque and provide rapid turn facilities",
+"Counteract engine torque and provide normal directional control"
+],
+"a": [
+2
+]
+},
+{
+"q": "Phase lag is due to the blades",
+"o": [
+"Speed",
+"Weight",
+"Inertia"
+],
+"a": [
+2
+]
+},
+{
+"q": "The airflow over part of the main rotor will be in the reverse direction:",
+"o": [
+"In the vortex ring state",
+"In ground cushion effect",
+"At high forward speeds"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which direction is the air flowing through the main rotor during autorotation?",
+"o": [
+"Upward",
+"Downwards",
+"Parallel to the rotor blade chord line"
+],
+"a": [
+0
+]
+},
+{
+"q": "The coriolis effect on the helicopters means",
+"o": [
+"The blades which flaps down will accelerate",
+"The blade which flaps up will accelerate",
+"The axis of rotation is not perpendicular to the plane of rotation"
+],
+"a": [
+1
+]
+},
+{
+"q": "Excessive cyclic stick shake felt on a power operated control system could be caused by:",
+"o": [
+"Low accumulator nitrogen pressure",
+"System regulator cut out pressure set too high",
+"Air in the hydraulic actuator"
+],
+"a": [
+2
+]
+},
+{
+"q": "Accelerometers are used during tracking of the main rotors",
+"o": [
+"To give visual indication of any climbing blade",
+"To ensure vibration and its magnitude affecting the aircraft to give",
+"An indication of any blade cross over"
+],
+"a": [
+1
+]
+},
+{
+"q": "What adjustments would have to be made to a blade, which tends to climb with an increase in airspeed?",
+"o": [
+"Adjust the pitch change link on the affected blade",
+"Raise the tab on the affected blade",
+"Lower the tab on the affected blade"
+],
+"a": [
+2
+]
+},
+{
+"q": "A mixer box is used in helicopter control systems to ensure that",
+"o": [
+"Left and right movements of the anti-torque pedals are moved to change the pitch by the required amount",
+"To prevent the collective input affecting the cyclic input as they move together",
+"Twist grip throttles and cyclic can be moved independently"
+],
+"a": [
+1
+]
+},
+{
+"q": "Helicopter transmissions are designed to reduce engine rpm to the main rotor, this is to",
+"o": [
+"Keep rotor tip speeds subsonic",
+"Reduce the amount of engine power absorbed",
+"Limit the forward speed of the helicopter"
+],
+"a": [
+0
+]
+},
+{
+"q": "Transmission drive shafts are fitted with flexible couplings to",
+"o": [
+"Allow free wheeling in autorotation",
+"Absorb torsional loads and flexible",
+"To supply break points on long shafts"
+],
+"a": [
+1
+]
+},
+{
+"q": "Some helicopters have stabilizer bars, they are",
+"o": [
+"Connected through linkage to the rotating swashplate and rotor blades",
+"Connected to the swashplate and pilots controls",
+"Fixed to the pitch change mechanism only"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the purpose of the swashplate fitted to the main rotor mast of a helicopter?",
+"o": [
+"To permit cyclic selections to be input to the rotor blades as they rotate",
+"To permit collective selections to the rotor blades from interfering with cyclic selections already made.",
+"To permit cyclic and collective inputs to be made to the rotor blades individually or simultaneously whilst the blades rotate."
+],
+"a": [
+2
+]
+},
+{
+"q": "Elastomeric bearing used in helicopter rotor heads are constructed from:",
+"o": [
+"Steel with white metal liners",
+"A sandwich of rubber and steel washers bonded together",
+"Roller bearings lubricated by oil from reservoirs on top of the head"
+],
+"a": [
+1
+]
+},
+{
+"q": "B.I.M indicators are fitted to some aircraft:",
+"o": [
+"To give an indication of cracks in the rotor blade spar",
+"To give an indication of contamination of the transmission oil system",
+"To give warning of a crack in the rotor head trunnion."
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the purpose of counter weights fitted to some rotor heads?",
+"o": [
+"To assist the blade CTM which tends to increase the pitch angle",
+"To counter the blade CTM which tends to increase the pitch angle",
+"To counter the blade CTM which tends to decrease the pitch angle"
+],
+"a": [
+2
+]
+},
+{
+"q": "What could be the likely result of a defective rotor head damper?",
+"o": [
+"It could cause a lateral vibration to be felt in the aircraft",
+"It could affect the tracking of the blade",
+"It could cause a vertical vibration to be felt in the aircraft."
+],
+"a": [
+0
+]
+},
+{
+"q": "In the event of an in-flight engine failure on an aircraft with hydraulically powered controls, flying control operational would:",
+"o": [
+"Revert to manual control",
+"Be unaffected since the hydraulic pump is geared to the transmission",
+"Be operated by an electrically driven pump"
+],
+"a": [
+1
+]
+},
+{
+"q": "Why is freewheel unit necessary on a helicopter transmission system?",
+"o": [
+"To enable the engine to be started",
+"So that when the helicopter is in forward flight the freewheel unit takes the load",
+"In the event of an engine failure the rotor will continue to turn."
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the purpose of flapping restrainers fitted to helicopters?",
+"o": [
+"To restrict the flapping of a blade at low rotor RPM",
+"To restrict the flapping of a blade in flight",
+"To control the speed of a blade as it flaps during flight"
+],
+"a": [
+0
+]
+},
+{
+"q": "Are droop stops in or out during flight?",
+"o": [
+"In forward flight-in",
+"In",
+"Out"
+],
+"a": [
+2
+]
+},
+{
+"q": "What defects could possibly cause a helicopter to go into ground resonance?",
+"o": [
+"Out of balance rotor and incorrectly filled oleos",
+"Hovering too close to the ground",
+"Tail rotor out of balance"
+],
+"a": [
+0
+]
+},
+{
+"q": "Rotor brakes are used on most helicopters",
+"o": [
+"to stop the rotor to prevent sailing in gusty conditions",
+"to stop the engine and rotor after shut down",
+"to bring the blade to feather"
+],
+"a": [
+0
+]
+},
+{
+"q": "An intermediate gearbox is fitted into a transmission to",
+"o": [
+"Break a long transmission shaft",
+"To change the drive angle",
+"To reduce load on the main rotor gearbox"
+],
+"a": [
+1
+]
+},
+{
+"q": "On some installations, a coupling gearbox is used, its function is to",
+"o": [
+"Couple to engines to a single output",
+"Couple the engine to the main rotor gearbox",
+"Allow two engines to run on a single freewheel unit"
+],
+"a": [
+0
+]
+},
+{
+"q": "Engine speed to the main rotor is reduced through",
+"o": [
+"A double hyperelliptical reduction gear",
+"A simple spur type reduction gear",
+"A sun and planet reduction gear"
+],
+"a": [
+2
+]
+},
+{
+"q": "Why are force gradients used in helicopter control systems?",
+"o": [
+"To relieve the pilot of the stick forces created by moving his cyclic controls",
+"To provide a fond of artificial feel to power operated controls which is proportional to the amount of control movement",
+"To provide the necessary force to move the controls against high air loading"
+],
+"a": [
+1
+]
+},
+{
+"q": "If during a ground tracking check, one blade of an articulated head were seen to fly low, what adjustments would you make?",
+"o": [
+"Raise the low blade by adjusting the pitch change link",
+"Lower the high blades by adjusting the pitch change links",
+"Raise the low blade and lower the high blades until they all fly in the same tip path plane."
+],
+"a": [
+0
+]
+},
+{
+"q": "Bell cranks are frequently used in aircraft control systems",
+"o": [
+"To reduce the length of control rods used",
+"To change the direction of control movement",
+"To covert rotary control movement to linear control movement"
+],
+"a": [
+1
+]
+},
+{
+"q": "What type of gear are most likely to be fitted in a tail rotor gear box?",
+"o": [
+"Helical, to provide a thrust load for pitch change operation",
+"Worm gear in order to alter the input/output speed ratio",
+"Spiral level gears for smooth quiet operation"
+],
+"a": [
+2
+]
+},
+{
+"q": "If the input gear to a tail rotor gear box had 31 teeth on it and the output gear has 21 teeth on it, what would the tail rotor speed be relative to the input drive speed?",
+"o": [
+"Faster than the input drive speed",
+"Slower than the input drive speed",
+"The same as the input drive speed"
+],
+"a": [
+0
+]
+}
+]
+}
+]
+},
+{
+"file": "HELICOPTER LICENSE.docx",
+"secs": [
+{
+"name": "Paper 1 – Category ‘A’ Airframe 2010",
+"qs": [
+{
+"q": "Helicopters with hydraulic boost to controls often use a gradient unit to:",
+"o": [
+"Artificially add “feel” to the controls",
+"Give indication of smoothness of rate of climb",
+"Assist in forward running take off"
+],
+"a": [
+0
+]
+},
+{
+"q": "A blade angle of attack is:",
+"o": [
+"The angle between the blade chord line and the horizontal centre line",
+"The angle between the plane of rotation and the chord line",
+"The angle between the chord line and the resultant airflow"
+],
+"a": [
+2
+]
+},
+{
+"q": "The centre of pressure of a main rotor blade is said to be:",
+"o": [
+"A point at the blade root where centrifugal force is at its greatest",
+"A point on the chord line where aerodynamic forces act",
+"A point on the chord line about which the blade pivots"
+],
+"a": [
+1
+]
+},
+{
+"q": "The tail rotor compensates for torque, during autorotation the engine rpm is reduced, the tail rotor:",
+"o": [
+"rpm is reduced by the same amount giving equilibrium",
+"free wheel unit allows the tail rotor to rotate at normal rpm",
+"must be adjusted to compensate for drop in torque"
+],
+"a": [
+2
+]
+},
+{
+"q": "Rotor blades naturally move faster at the tip than the root, blade twist is introduced to:",
+"o": [
+"Give even lift by increasing angle of attack at the root",
+"Ensure the outer blade sections give more lift",
+"Ensure even lift by decreasing angle of attack at the root"
+],
+"a": [
+0
+]
+},
+{
+"q": "The term “Phase Lag” means:",
+"o": [
+"The advancing and dragging period as a blade rotates",
+"Action occurring 90 degrees from the applied force in the same direction of rotation",
+"The time delay between moving a control and the movement taking place"
+],
+"a": [
+1
+]
+},
+{
+"q": "A clutch assembly is necessary between the engine and transmission on helicopters with:",
+"o": [
+"Reciprocating engines",
+"Gas Turbine Engines",
+"Reciprocating and some Gas Turbine Engines"
+],
+"a": [
+2
+]
+},
+{
+"q": "Some helicopters have belt driven transmission, the clutch used on this type is the:",
+"o": [
+"Shoe and Drum",
+"Belt tensioner",
+"Hydromechanical"
+],
+"a": [
+1
+]
+},
+{
+"q": "Transmission lubrication is normally carried out by:",
+"o": [
+"Engine oil",
+"Engine oil, filtered and boosted",
+"Independent lubrication systems"
+],
+"a": [
+2
+]
+},
+{
+"q": "Gears with helical teeth are often used in gearboxes, this will provide:",
+"o": [
+"Quieter running at high torque",
+"More positive engagement",
+"More efficient gear lubrication"
+],
+"a": [
+0
+]
+},
+{
+"q": "The transmission drive shaft to the tail rotor is usually made from:",
+"o": [
+"Hollow Steel",
+"Light Alloy",
+"Tungum"
+],
+"a": [
+1
+]
+},
+{
+"q": "A lord mount is a type of:",
+"o": [
+"Bonded rubber mounting",
+"Flexible steel mounting",
+"Safety cable mounting"
+],
+"a": [
+0
+]
+},
+{
+"q": "A nodal beam mounting is used on transmissions with:",
+"o": [
+"Fully articulated heads",
+"Rigid rotor heads",
+"Semi rigid rotor heads"
+],
+"a": [
+2
+]
+},
+{
+"q": "The tail rotor drive provides an increase in torque, rpm is increased approximately:",
+"o": [
+"Six times main rotor speed",
+"Twice main rotor speed",
+"Four times main rotor speed"
+],
+"a": [
+0
+]
+},
+{
+"q": "A freewheel unit will allow:",
+"o": [
+"The driving component to underspeed the driven component",
+"The driven component to under speed the driving component",
+"The driving component to overspeed the driven component"
+],
+"a": [
+0
+]
+},
+{
+"q": "A Splined Coupling is one which transmits drive and allows:",
+"o": [
+"Flexing and radial movement",
+"Changes in direction and radial movement",
+"Flexing and axial movement"
+],
+"a": [
+2
+]
+},
+{
+"q": "A viscous damped bearing is one which:",
+"o": [
+"Absorbs vibration and is self aligning",
+"Prevents tail rotor flutter",
+"Ensures gearbox stability"
+],
+"a": [
+0
+]
+},
+{
+"q": "The conformal gear provides:",
+"o": [
+"The main engine output reduction",
+"Better cooling abilities",
+"A wider contact area"
+],
+"a": [
+2
+]
+},
+{
+"q": "“Run Out” of a transmission shaft is a term used to express:",
+"o": [
+"Eccentric rotation about its axis",
+"Overspeeding",
+"Elongation due to overstressing"
+],
+"a": [
+0
+]
+},
+{
+"q": "In gearbox lubrication a “Boundary” situation exists when:",
+"o": [
+"Inner and Outer oil layers are equal",
+"When a film of oil exists between surfaces",
+"The oil film cannot be maintained"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which component assists in a quick oil warm up in a gearbox system:",
+"o": [
+"A thermostatic valve",
+"A check valve",
+"An oil cooler matrix"
+],
+"a": [
+0
+]
+},
+{
+"q": "Metal particles in a gearbox oil system can give visual warning by a:",
+"o": [
+"Filter protruding indicator",
+"Oil sample system",
+"Illuminated warning in Cockpit"
+],
+"a": [
+2
+]
+},
+{
+"q": "Tracking on a helicopter means:",
+"o": [
+"That all blades travel in the same tip path plane",
+"That blades are subject to leading edge checks with a straight edge",
+"That the rotor keeps fuel helicopter in a straight path in forward flight"
+],
+"a": [
+0
+]
+},
+{
+"q": "The purpose of a clutch in a transmission system is to:",
+"o": [
+"Unload the engine during starting",
+"Give immediate freedom for auto rotation",
+"Prevent overrun"
+],
+"a": [
+0
+]
+},
+{
+"q": "Transmission lubrication is normally carried out by:",
+"o": [
+"Engine oil",
+"Engine oil, filtered and boosted",
+"Independent lubrication systems"
+],
+"a": [
+2
+]
+},
+{
+"q": "Movement of the collective stick will:",
+"o": [
+"alter the pitch of the advancing blades more than the retreating blades",
+"alter the pitch on all blades equally",
+"tilt the swashplate forward"
+],
+"a": [
+1
+]
+},
+{
+"q": "The reason for fitting a tail rotor on a helicopter is:",
+"o": [
+"to counteract torque",
+"to prevent sideways drift",
+"to ensure thrust is in the same direction as the couple produced by engine torque"
+],
+"a": [
+0
+]
+},
+{
+"q": "The pitch on a puller tail rotor in forward flight with the pedals central is:",
+"o": [
+"in neutral",
+"in positive pitch",
+"in negative pitch"
+],
+"a": [
+1
+]
+},
+{
+"q": "A Thomas coupling consist of:",
+"o": [
+"rubber blocks between vanes",
+"flexible steel shims",
+"a yoke and trunnion"
+],
+"a": [
+1
+]
+},
+{
+"q": "The coning angle of the rotor blades is the angle between:",
+"o": [
+"the normal axis and the rotor blade",
+"the rotor blades and the tip path plane",
+"the horizontal and the rotor blade"
+],
+"a": [
+1
+]
+},
+{
+"q": "The forces which the blades coning angle are:",
+"o": [
+"Lift: weight: thrust",
+"Lift: centrifugal force: thrust",
+"Lift: centrifugal force: weight"
+],
+"a": [
+2
+]
+},
+{
+"q": "The RPM of the rotor blades are kept constant, within small limits to:",
+"o": [
+"Prevent blades ‘folding up’ during flight",
+"Prevent blades overspeeding",
+"Reduce torque loading"
+],
+"a": [
+0
+]
+},
+{
+"q": "The angle between the chord line of the blade and a plane at right angles to the rotor shaft is known as the:",
+"o": [
+"Angle of attack",
+"Pitch angle",
+"Coning angle"
+],
+"a": [
+1
+]
+},
+{
+"q": "A helicopter is hovering and the pilot applies right pedals assuming the main rotor rotates anti-clockwise viewed from above, the helicopter will:",
+"o": [
+"Descend unless the pilot applies more collective pitch",
+"Ascend, unless the pilot decreases rotor RPM",
+"Descent unless the pilot inches the throttle open"
+],
+"a": [
+1
+]
+},
+{
+"q": "When the rotor blade is flapping up, the angle of attack is",
+"o": [
+"Greater than the pitch angle",
+"Is less than the pitch angle",
+"The same as the pitch angle"
+],
+"a": [
+1
+]
+},
+{
+"q": "As a helicopter accelerates in forward flight above approximately 15 knots, it will be necessary to:",
+"o": [
+"Reduce power because rotor profile drag is reduced",
+"Increase power because the rotor RPM is increasing",
+"Reduce power because of additional lift in transitional flight"
+],
+"a": [
+2
+]
+},
+{
+"q": "A helicopter tail rotor is fitted to:",
+"o": [
+"Permit directional control",
+"Counteract rotor torque and provide rapid turn facilities",
+"Counteract engine torque and provide normal directional control"
+],
+"a": [
+2
+]
+},
+{
+"q": "Phase lag is due to the blades",
+"o": [
+"Speed",
+"Weight",
+"Inertia"
+],
+"a": [
+2
+]
+},
+{
+"q": "The airflow over part of the main rotor will be in the reverse direction:",
+"o": [
+"In the vortex ring state",
+"In ground cushion effect",
+"At high forward speeds"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which direction is the air flowing through the main rotor during autorotation?",
+"o": [
+"Upwards",
+"Downwards",
+"Parallel to the rotor blade chord line"
+],
+"a": [
+0
+]
+},
+{
+"q": "The coriolis effect on the helicopters means",
+"o": [
+"The blade which flaps down will accelerate",
+"The blade which flaps up will accelerate",
+"The axis of rotation is not perpendicular to the plane of rotation"
+],
+"a": [
+1
+]
+},
+{
+"q": "Excessive cyclic stick shake felt on a power operated control system could be caused by:",
+"o": [
+"Low accumulator nitrogen pressure",
+"System regulator cut out pressure set too high",
+"Air in the hydraulic actuator"
+],
+"a": [
+2
+]
+},
+{
+"q": "Accelerometers are used during tracking of the main rotors",
+"o": [
+"To give visual indication of any climbing blade",
+"To measure vibration and its magnitude affecting the aircraft to give",
+"An indication of any blade cross over"
+],
+"a": [
+1
+]
+},
+{
+"q": "What adjustments would have to be made to a blade which tends to climb with an increase in airspeed?",
+"o": [
+"Adjust the pitch change link on the affected blade",
+"Raise the tab on the affected blade",
+"Lower the tab on the affected blade"
+],
+"a": [
+2
+]
+},
+{
+"q": "A mixer box is used in helicopter control systems to ensure that",
+"o": [
+"Left and right movements of the anti-torque pedals are moved to change the pitch by the required amount",
+"To prevent the collective input affecting the cyclic input as they move together",
+"Twist grip throttles and cyclic can be moved independently"
+],
+"a": [
+1
+]
+},
+{
+"q": "Helicopter transmissions are designed to reduce engine rpm to the main rotor, this is to:",
+"o": [
+"Keep rotor tip speeds subsonic",
+"Reduce the amount of engine power absorbed",
+"Limit the forward speed of the helicopter"
+],
+"a": [
+0
+]
+},
+{
+"q": "Transmission drive shafts are fitted with flexible couplings to:",
+"o": [
+"Allow freewheeling in autorotation",
+"Absorb torsional loads and flexible",
+"To supply break points on long shafts"
+],
+"a": [
+1
+]
+},
+{
+"q": "Some helicopters have stabilizer bars, they are:",
+"o": [
+"Connected through linkage to the rotating swashplate and rotor blades",
+"Connected to the swashplate and pilots controls",
+"Fixed to the pitch change mechanism only"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the purpose of the swashplate fitted to the main rotor mast of a helicopter?",
+"o": [
+"To prevent cyclic selections to be input to the rotor blades as they rotate",
+"To prevent collective selections to the rotor blades from interfering with cyclic selections already made",
+"To permit cyclic and collective inputs to be made to the rotor blades individually or simultaneously whilst the blades rotate"
+],
+"a": [
+2
+]
+},
+{
+"q": "Elastomeric bearing used in helicopter rotor heads are constructed from:",
+"o": [
+"Steel with white metal liners",
+"A sandwich of rubber and steel washers bonded together",
+"Roller bearings lubricated by oil from reservoirs on top of the head"
+],
+"a": [
+1
+]
+},
+{
+"q": "B.I.M indicators are fitted to some aircraft:",
+"o": [
+"To give an indication of cracks in the rotor blade spar",
+"To give an indication of contamination of the transmission oil system",
+"To give warning of a crack in the rotor head trunnion"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the purpose of counter weights fitted to some rotor heads?",
+"o": [
+"To assist the blade CTM which tends to increase the pitch angle",
+"To counter the blade CTM which tends to increase the pitch angle",
+"To counter the blade CTM which tends to decrease the pitch angle"
+],
+"a": [
+2
+]
+},
+{
+"q": "What could be the likely result of a defective rotor head damper?",
+"o": [
+"It could cause a lateral vibration to be felt in the aircraft",
+"It could affect the tracking of the blade",
+"It could cause a vertical vibration to be felt in the aircraft"
+],
+"a": [
+0
+]
+},
+{
+"q": "In the event of an in-flight engine failure on an aircraft with hydraulically powered controls, flying control operation would:",
+"o": [
+"Revert to manual control",
+"Be unaffected since the hydraulic pump is geared to the transmission",
+"Be operated by an electrically driven pump"
+],
+"a": [
+1
+]
+},
+{
+"q": "One purpose of the freewheeling unit required between the engine and the helicopter transmission is to:",
+"o": [
+"automatically disengage the rotor from the engine in case of an engine failure",
+"disconnect the rotor from the engine to relieve the starter load",
+"permit practice of autorotation landings"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the purpose of flapping restrainers fitted to helicopters?",
+"o": [
+"To restrict the flapping of a blade at low rotor RPM",
+"To restrict the flapping of a blade in flight",
+"To control the speed of a blade as it flaps during flight"
+],
+"a": [
+0
+]
+},
+{
+"q": "Are droops stops in or out during flight?",
+"o": [
+"In forward flight-in",
+"In",
+"Out"
+],
+"a": [
+2
+]
+},
+{
+"q": "What defects could possibly cause a helicopter to go into ground resonance?",
+"o": [
+"Out of balance rotor and incorrectly filled oleos",
+"Hovering too close to the ground",
+"Tail rotor out of balance"
+],
+"a": [
+0
+]
+},
+{
+"q": "Rotor brakes are used on most helicopters:",
+"o": [
+"To stop the rotor to prevent sailing in gusty conditions",
+"To stop the engine and rotor after shut down",
+"To bring the blade to feather"
+],
+"a": [
+0
+]
+},
+{
+"q": "An intermediate gearbox is fitted into a transmission to:",
+"o": [
+"Break a long transmission shaft",
+"To change the drive angle",
+"To reduce load on the main rotor gearbox"
+],
+"a": [
+1
+]
+},
+{
+"q": "On some installations, a coupling gearbox is used, its function is to:",
+"o": [
+"Couple two engines to a single output",
+"Couple the engine to the main rotor gearbox",
+"Allow two engines to run on a single freewheel unit"
+],
+"a": [
+0
+]
+},
+{
+"q": "Engine speed to the main rotor is reduced through:",
+"o": [
+"A double hyperelliptical reduction gear",
+"A simple spur type reduction gear",
+"A sun and planet reduction gear"
+],
+"a": [
+2
+]
+},
+{
+"q": "Why are force gradients used in helicopter control systems?",
+"o": [
+"To relieve the pilot of the stick forces created by moving his cyclic controls",
+"To provide a fond of artificial feel to power operated controls which is proportional to the amount of control movement",
+"To provide the necessary force to move the controls against high air loading"
+],
+"a": [
+1
+]
+},
+{
+"q": "If during a ground tracking check, one blade of an articulated head was seen to fly low, what adjustments would you make?",
+"o": [
+"Raise the low blade by adjusting the pitch change link",
+"Lower the high blades by adjusting the pitch change links",
+"Raise the low blade and lower the high blades until they all fly in the same tip path plane"
+],
+"a": [
+0
+]
+},
+{
+"q": "Bell cranks are frequently used in aircraft control systems",
+"o": [
+"To reduce the length of control rods used",
+"To change the direction of control movement",
+"To convert rotary control movement to linear control movement"
+],
+"a": [
+1
+]
+},
+{
+"q": "What type of gear is most likely to be fitted in a tail rotor gear box?",
+"o": [
+"Helical, to provide a thrust load for pitch change operation",
+"Worm gear in order to alter the input/output speed ratio",
+"Spiral bevel gears for smooth quiet operation"
+],
+"a": [
+2
+]
+},
+{
+"q": "If the input gear to a tail rotor gear box had 31 teeth on it and the output gear has 21 teeth on it, what would the tail rotor speed be relative to the input drive speed?",
+"o": [
+"Faster than the input drive speed",
+"Slower than the input drive speed",
+"The same as the input drive speed"
+],
+"a": [
+0
+]
+},
+{
+"q": "The vertical flight of a helicopter is controlled by:",
+"o": [
+"Collective pitch changes",
+"Cyclic pitch changes",
+"Increasing or decreasing the RPM of the main rotor"
+],
+"a": [
+0
+]
+},
+{
+"q": "A helicopter in forward flight, cruise configuration, changes direction by:",
+"o": [
+"Varying the pitch of the main rotor blades",
+"Changing rotor RPM",
+"Tilting the main rotor disk in the desired direction"
+],
+"a": [
+2
+]
+},
+{
+"q": "If a single-rotor helicopter is in forward horizontal flight, the angle of attack of the advancing blade is:",
+"o": [
+"more than the retreating blade",
+"equal to the retreating blade",
+"less than the retreating blade"
+],
+"a": [
+2
+]
+},
+{
+"q": "Movement about the longitudinal axis (roll) in a helicopter is effected by movement of the:",
+"o": [
+"collective pitch control",
+"cyclic pitch control",
+"tail rotor pitch control"
+],
+"a": [
+1
+]
+},
+{
+"q": "Movement about the lateral axis (pitch) in a helicopter is effected by movement of the:",
+"o": [
+"collective pitch control",
+"cyclic pitch control",
+"tail rotor pitch control"
+],
+"a": [
+1
+]
+},
+{
+"q": "In rotorcraft external-loading, the ideal location of the cargo release is where the line of action passes:",
+"o": [
+"aft of the centre of gravity at all times",
+"forward of the centre of gravity at all times",
+"through the centre of gravity at all times"
+],
+"a": [
+2
+]
+},
+{
+"q": "In a hovering helicopter equipped with a tail rotor, directional control is maintained by:",
+"o": [
+"changing the tail rotor RPM",
+"tilting the main rotor disk in the desired direction",
+"varying the pitch of the tail rotor blades"
+],
+"a": [
+2
+]
+},
+{
+"q": "The purpose in checking main rotor blade tracking is to determine the:",
+"o": [
+"Relative position of the blades during rotation",
+"Flight path of the blades during rotation",
+"Extent of an out of balance condition during rotation"
+],
+"a": [
+0
+]
+}
+]
+},
+{
+"name": "Basic Helicopter (Airframe) Licence Examination 2006",
+"qs": [
+{
+"q": "Which of the following documents is not subject to renewal?",
+"o": [
+"Certificate of Airworthiness",
+"Certificate of Registration",
+"Certificate of Approval"
+],
+"a": [
+1
+]
+},
+{
+"q": "Technical log is:",
+"o": [
+"Retained at base",
+"Carried in the aircraft",
+"Kept in the store"
+],
+"a": [
+1
+]
+},
+{
+"q": "The certificate valid for one year is",
+"o": [
+"Certificate of registration",
+"Certificate of Release to Service & Maintenance Statement",
+"Certificate of Airworthiness"
+],
+"a": [
+2
+]
+},
+{
+"q": "Quarantine store is:",
+"o": [
+"Store where fully released items are kept",
+"Stores for parts awaiting proof of serviceability",
+"Stores for commercial equipment"
+],
+"a": [
+1
+]
+},
+{
+"q": "Above what weight is an Air Operators Certificate required",
+"o": [
+"2300 kg",
+"3600 kg",
+"all aircraft flying for public transport"
+],
+"a": [
+2
+]
+},
+{
+"q": "Tracking on a helicopter means",
+"o": [
+"That all blades travel in the same tip path plane",
+"That blades are subject to leading edge checks with a straight edge",
+"That the rotor keeps fuel helicopter in a straight path in forward flight"
+],
+"a": [
+0
+]
+},
+{
+"q": "The purpose of a clutch in a transmission system is to",
+"o": [
+"unload the engine during starting",
+"give immediate freedom for auto rotation",
+"prevent overrun"
+],
+"a": [
+0
+]
+},
+{
+"q": "Transmission lubrication is normally carried out by",
+"o": [
+"engine oil",
+"engine oil, filtered and boosted",
+"independent lubrication systems"
+],
+"a": [
+2
+]
+},
+{
+"q": "Movement of the collective stick will",
+"o": [
+"alter the pitch of the advancing blades more than the retreating blades",
+"alter the pitch on all blades equally",
+"tilt the swashplate forward"
+],
+"a": [
+1
+]
+},
+{
+"q": "The reason for fitting a tail rotor on a helicopter is",
+"o": [
+"to counteract torque",
+"to prevent sideways drift",
+"to ensure thrust is in the same direction as the couple produced by engine torque"
+],
+"a": [
+0
+]
+},
+{
+"q": "The pitch on a puller tail rotor in forward flight with the pedals central is",
+"o": [
+"in neutral",
+"in positive pitch",
+"in negative pitch"
+],
+"a": [
+1
+]
+},
+{
+"q": "A Thomas coupling consist of",
+"o": [
+"rubber blocks between vanes",
+"flexible steel shims",
+"a yoke and trunnion"
+],
+"a": [
+1
+]
+},
+{
+"q": "The coning angle of the rotor blades is the angle between",
+"o": [
+"the normal axis and the rotor blade",
+"the rotor blades and the tip path plane",
+"the horizontal and the rotor blade"
+],
+"a": [
+1
+]
+},
+{
+"q": "The forces which the blades coning angle are:",
+"o": [
+"Lift: weight: thrust.",
+"Lift: centrifugal force: thrust.",
+"Lift: centrifugal force: weight."
+],
+"a": [
+2
+]
+},
+{
+"q": "The RPM of the rotor blades are kept constant, within small limits to:",
+"o": [
+"Prevent blades ‘folding up’ during flight",
+"Prevent blades overspeeding",
+"Reduce torque loading"
+],
+"a": [
+0
+]
+},
+{
+"q": "The angle between the chord line of the blade and a plane at right angles to the rotor shaft is known as the:",
+"o": [
+"Angle of attack",
+"Pitch angle",
+"Coning angle"
+],
+"a": [
+1
+]
+},
+{
+"q": "A helicopter is hovering and the pilot applies right pedals assuming the main rotor rotates anti-clockwise viewed from above, the helicopter will:",
+"o": [
+"Descend unless the pilot applies more collective pitch",
+"Ascend, unless the pilot decreases rotor RPM",
+"Descend unless the pilot inches the throttle open"
+],
+"a": [
+1
+]
+},
+{
+"q": "When the rotor blade is flapping up, the angle of attack is",
+"o": [
+"Greater than the pitch angle",
+"Is less than the pitch angle",
+"The same as the pitch"
+],
+"a": [
+1
+]
+},
+{
+"q": "As a helicopter accelerates in forward flight above approximately 15 knots, it will be necessary to:",
+"o": [
+"Reduce power because rotor profile drag is reduced",
+"Increased power the rotor RPM are increasing",
+"Reduce power because of additional lift in transitional flight"
+],
+"a": [
+2
+]
+},
+{
+"q": "A helicopter tail rotor is fitted to",
+"o": [
+"Permit directional control",
+"Counteract rotor torque and provide rapid turn facilities",
+"Counteract engine torque and provide normal directional control"
+],
+"a": [
+2
+]
+},
+{
+"q": "Phase lag is due to the blades",
+"o": [
+"Speed",
+"Weight",
+"Inertia"
+],
+"a": [
+2
+]
+},
+{
+"q": "The airflow over part of the main rotor will be in the reverse direction:",
+"o": [
+"In the vortex ring state",
+"In ground cushion effect",
+"At high forward speeds"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which direction is the air flowing through the main rotor during autorotation?",
+"o": [
+"Upward",
+"Downwards",
+"Parallel to the rotor blade chord line"
+],
+"a": [
+0
+]
+},
+{
+"q": "The coriolis effect on the helicopters means",
+"o": [
+"The blades which flaps down will accelerate",
+"The blade which flaps up will accelerate",
+"The axis of rotation is not perpendicular to the plane of rotation"
+],
+"a": [
+1
+]
+},
+{
+"q": "Excessive cyclic stick shake felt on a power operated control system could be caused by:",
+"o": [
+"Low accumulator nitrogen pressure",
+"System regulator cut out pressure set too high",
+"Air in the hydraulic actuator"
+],
+"a": [
+2
+]
+},
+{
+"q": "Accelerometers are used during tracking of the main rotors",
+"o": [
+"To give visual indication of any climbing blade",
+"To ensure vibration and its magnitude affecting the aircraft to give",
+"An indication of any blade cross over"
+],
+"a": [
+1
+]
+},
+{
+"q": "What adjustments would have to be made to a blade, which tends to climb with an increase in airspeed?",
+"o": [
+"Adjust the pitch change link on the affected blade",
+"Raise the tab on the affected blade",
+"Lower the tab on the affected blade"
+],
+"a": [
+2
+]
+},
+{
+"q": "A mixer box is used in helicopter control systems to ensure that",
+"o": [
+"Left and right movements of the anti-torque pedals are moved to change the pitch by the required amount",
+"To prevent the collective input affecting the cyclic input as they move together",
+"Twist grip throttles and cyclic can be moved independently"
+],
+"a": [
+1
+]
+},
+{
+"q": "Helicopter transmissions are designed to reduce engine rpm to the main rotor, this is to",
+"o": [
+"Keep rotor tip speeds subsonic",
+"Reduce the amount of engine power absorbed",
+"Limit the forward speed of the helicopter"
+],
+"a": [
+0
+]
+},
+{
+"q": "Transmission drive shafts are fitted with flexible couplings to",
+"o": [
+"Allow free wheeling in autorotation",
+"Absorb torsional loads and flexible",
+"To supply break points on long shafts"
+],
+"a": [
+1
+]
+},
+{
+"q": "Some helicopters have stabilizer bars, they are",
+"o": [
+"Connected through linkage to the rotating swashplate and rotor blades",
+"Connected to the swashplate and pilots controls",
+"Fixed to the pitch change mechanism only"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the purpose of the swashplate fitted to the main rotor mast of a helicopter?",
+"o": [
+"To permit cyclic selections to be input to the rotor blades as they rotate",
+"To permit collective selections to the rotor blades from interfering with cyclic selections already made.",
+"To permit cyclic and collective inputs to be made to the rotor blades individually or simultaneously whilst the blades rotate."
+],
+"a": [
+2
+]
+},
+{
+"q": "Elastomeric bearing used in helicopter rotor heads are constructed from:",
+"o": [
+"Steel with white metal liners",
+"A sandwich of rubber and steel washers bonded together",
+"Roller bearings lubricated by oil from reservoirs on top of the head"
+],
+"a": [
+1
+]
+},
+{
+"q": "B.I.M indicators are fitted to some aircraft:",
+"o": [
+"To give an indication of cracks in the rotor blade spar",
+"To give an indication of contamination of the transmission oil system",
+"To give warning of a crack in the rotor head trunnion."
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the purpose of counter weights fitted to some rotor heads?",
+"o": [
+"To assist the blade CTM which tends to increase the pitch angle",
+"To counter the blade CTM which tends to increase the pitch angle",
+"To counter the blade CTM which tends to decrease the pitch angle"
+],
+"a": [
+2
+]
+},
+{
+"q": "What could be the likely result of a defective rotor head damper?",
+"o": [
+"It could cause a lateral vibration to be felt in the aircraft",
+"It could affect the tracking of the blade",
+"It could cause a vertical vibration to be felt in the aircraft."
+],
+"a": [
+0
+]
+},
+{
+"q": "In the event of an in-flight engine failure on an aircraft with hydraulically powered controls, flying control operational would:",
+"o": [
+"Revert to manual control",
+"Be unaffected since the hydraulic pump is geared to the transmission",
+"Be operated by an electrically driven pump"
+],
+"a": [
+1
+]
+},
+{
+"q": "Why is freewheel unit necessary on a helicopter transmission system?",
+"o": [
+"To enable the engine to be started",
+"So that when the helicopter is in forward flight the freewheel unit takes the load",
+"In the event of an engine failure the rotor will continue to turn."
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the purpose of flapping restrainers fitted to helicopters?",
+"o": [
+"To restrict the flapping of a blade at low rotor RPM",
+"To restrict the flapping of a blade in flight",
+"To control the speed of a blade as it flaps during flight"
+],
+"a": [
+0
+]
+},
+{
+"q": "Are droop stops in or out during flight?",
+"o": [
+"In forward flight-in",
+"In",
+"Out"
+],
+"a": [
+2
+]
+},
+{
+"q": "What defects could possibly cause a helicopter to go into ground resonance?",
+"o": [
+"Out of balance rotor and incorrectly filled oleos",
+"Hovering too close to the ground",
+"Tail rotor out of balance"
+],
+"a": [
+0
+]
+},
+{
+"q": "Rotor brakes are used on most helicopters",
+"o": [
+"to stop the rotor to prevent sailing in gusty conditions",
+"to stop the engine and rotor after shut down",
+"to bring the blade to feather"
+],
+"a": [
+0
+]
+},
+{
+"q": "An intermediate gearbox is fitted into a transmission to",
+"o": [
+"Break a long transmission shaft",
+"To change the drive angle",
+"To reduce load on the main rotor gearbox"
+],
+"a": [
+1
+]
+},
+{
+"q": "On some installations, a coupling gearbox is used, its function is to",
+"o": [
+"Couple two engines to a single output",
+"Couple the engine to the main rotor gearbox",
+"Allow two engines to run on a single freewheel unit"
+],
+"a": [
+0
+]
+},
+{
+"q": "Engine speed to the main rotor is reduced through",
+"o": [
+"A double hyperelliptical reduction gear",
+"A simple spur type reduction gear",
+"A sun and planet reduction gear"
+],
+"a": [
+2
+]
+},
+{
+"q": "Why are force gradients used in helicopter control systems?",
+"o": [
+"To relieve the pilot of the stick forces created by moving his cyclic controls",
+"To provide a fond of artificial feel to power operated controls which is proportional to the amount of control movement",
+"To provide the necessary force to move the controls against high air loading"
+],
+"a": [
+1
+]
+},
+{
+"q": "If during a ground tracking check, one blade of an articulated head were seen to fly low, what adjustments would you make?",
+"o": [
+"Raise the low blade by adjusting the pitch change link",
+"Lower the high blades by adjusting the pitch change links",
+"Raise the low blade and lower the high blades until they all fly in the same tip path plane."
+],
+"a": [
+0
+]
+},
+{
+"q": "Bell cranks are frequently used in aircraft control systems",
+"o": [
+"To reduce the length of control rods used",
+"To change the direction of control movement",
+"To convert rotary control movement to linear control movement"
+],
+"a": [
+1
+]
+},
+{
+"q": "What type of gear are most likely to be fitted in a tail rotor gear box?",
+"o": [
+"Helical, to provide a thrust load for pitch change operation",
+"Worm gear in order to alter the input/output speed ratio",
+"Spiral bevel gears for smooth quiet operation"
+],
+"a": [
+2
+]
+},
+{
+"q": "If the input gear to a tail rotor gear box had 31 teeth on it and the output gear has 21 teeth on it, what would the tail rotor speed be relative to the input drive speed?",
+"o": [
+"Faster than the input drive speed",
+"Slower than the input drive speed",
+"The same as the input drive speed"
+],
+"a": [
+0
+]
+}
+]
+}
+]
+},
+{
+"file": "Helicopter systems obj.docx",
+"secs": [
+{
+"name": "Rotor Heads, Tracking and Vibration",
+"qs": [
+{
+"q": "A Semi rigid rotor head:",
+"o": [
+"Is one that can drag, flap and change feathering angle",
+"Has a hub manufactured as one complete unit",
+"Has no individual flapping or drag hinge"
+],
+"a": [
+2
+]
+},
+{
+"q": "The crack detection system in which the rotor blade is filled with Nitrogen is known as:",
+"o": [
+"B I M",
+"B I S",
+"B I N"
+],
+"a": [
+0
+]
+},
+{
+"q": "The damper system failure may cause:",
+"o": [
+"Vertical vibrations",
+"Lateral vibrations",
+"Either lateral or vertical vibration"
+],
+"a": [
+1
+]
+},
+{
+"q": "A teethering rotor head is usually:",
+"o": [
+"A number of blades each flapping at its root end on the flapping hinge",
+"A rotor head set off to one side",
+"Two blades, semi-rigid, one flapping up and the other down with no separate flapping hinges"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the purpose of flapping restrainers, fitted to helicopters?",
+"o": [
+"To restrict the flapping of a blade at low R.P.M.",
+"To restrict the flapping of a blade in flight",
+"To control the speed a blade flaps during flight"
+],
+"a": [
+0
+]
+},
+{
+"q": "The horizontal pin, which is fitted in the bore of the drag hinge trunnion, allows the blade to:",
+"o": [
+"Flap in the vertical plane",
+"Drag in the horizontal plane",
+"Change pitch"
+],
+"a": [
+0
+]
+},
+{
+"q": "Spanwise balancing of rotor blades can be achieved by:",
+"o": [
+"Removing weights from pitch horn attachment bolts",
+"Adding weights to the blade tip",
+"By sweeping the blade fore or aft"
+],
+"a": [
+0
+]
+},
+{
+"q": "Track may be checked in the air by the:",
+"o": [
+"Flag method",
+"Stick method",
+"Strobe method"
+],
+"a": [
+2
+]
+},
+{
+"q": "When a blade is said to be pre-tracked:",
+"o": [
+"The blade may be installed without a further requirement for dynamic balance",
+"The blade is matched to a master blade in a preflown factory test and adjustments required on installation stenciled on the blade butt",
+"The blade pitch angle must never be readjusted"
+],
+"a": [
+1
+]
+},
+{
+"q": "A main function of the magnetic pickup in the dynamic balance kit is to:",
+"o": [
+"Trigger the strobex for the observation of main blade track",
+"Measure the level of vibration in the main rotor head",
+"Pick-up a bearing failure in the rotor head"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following tracking methods can be used for both ground and in-flight tracking:",
+"o": [
+"Light reflector method",
+"Pre-track method",
+"Stick method"
+],
+"a": [
+0
+]
+},
+{
+"q": "Different manufacturers adopt different methods of damping the basic vibrations, these include:",
+"o": [
+"The installation of resonant mass in rotor heads or the use of Nodal beam damping.",
+"The installation of accelerometers.",
+"The pre-tracking of all rotor blades"
+],
+"a": [
+0
+]
+},
+{
+"q": "The term “Sweeping the blade” is associated with:",
+"o": [
+"Semi-rigid rotors",
+"Fully articulated rotors",
+"Composite rotor blades"
+],
+"a": [
+0
+]
+},
+{
+"q": "The balance chart:",
+"o": [
+"Is used in conjunction with the vibrex unit to check blade track",
+"Enables vibrations to be shown graphically and corrective motion determined",
+"Allows the intensity of vibration in I.P.S. to be monitored"
+],
+"a": [
+1
+]
+},
+{
+"q": "There are many sources of vibration in helicopters. These include:",
+"o": [
+"Mechanical sources e.g. rotors, drive shafts and gearbox.",
+"The Nodal beam, the resonant mass and counterweights in rotor heads.",
+"The cyclic and collective controls as well as the anti-torque pedals."
+],
+"a": [
+0
+]
+},
+{
+"q": "To determine the result of rotor system adjustment",
+"o": [
+"The helicopter must be flight tested",
+"Duplicate Inspection must be carried out",
+"Carry out symmetry check on the collective system"
+],
+"a": [
+0
+]
+},
+{
+"q": "A vertical 1/Rev. vibration is caused by:",
+"o": [
+"Blades out-of-track",
+"Spanwise out-of-balance",
+"Chordwise out-of-balance"
+],
+"a": [
+0
+]
+},
+{
+"q": "Dynamic chordwise unbalance is corrected in a two bladed rotor system by:",
+"o": [
+"Sweeping a blade",
+"Taping a blade",
+"Bending a trim tab"
+],
+"a": [
+0
+]
+},
+{
+"q": "In a rigid head the blades:",
+"o": [
+"Do not drag or flap at all",
+"All movements are achieved by the total movement of the rotor hub",
+"The blades flex to achieve dragging and flapping"
+],
+"a": [
+2
+]
+},
+{
+"q": "Dynamic chordwise unbalance is corrected in a two bladed rotor system by:",
+"o": [
+"Sweeping a blade",
+"Taping a blade",
+"Bending a trim tab"
+],
+"a": [
+0
+]
+},
+{
+"q": "The starflex main rotor absorbs centrifugal force by:",
+"o": [
+"Tension-torsion strap installed in the rotor head",
+"Steel ball bearing",
+"Elastomeric spherical thrust bearing becoming rigid under compression load"
+],
+"a": [
+2
+]
+},
+{
+"q": "A fully articulated rotor head allows the blades to:",
+"o": [
+"Flap, drag, change pitch",
+"Change pitch, droop, flap",
+"Flap, sail, change pitch"
+],
+"a": [
+0
+]
+},
+{
+"q": "The main spar rovings of a composite blade will be laid:",
+"o": [
+"At + 45°",
+"At + 60°",
+"Uni-directional spanwise"
+],
+"a": [
+0
+]
+},
+{
+"q": "One disadvantage of elastomeric bearings over a conventional bearing is that they:",
+"o": [
+"Have to be larger to carry the same load",
+"Need to be dismantled for inspection",
+"Generally have a shorter ‘in-service’ life"
+],
+"a": [
+0
+]
+},
+{
+"q": "Flight stress loads in a multi bladed bearingless rotor system are relieved by:",
+"o": [
+"Allowing the blades and hub to flex",
+"By using elastomeric type bearings",
+"Absorbing all loads in a robust and rigid hub assembly"
+],
+"a": [
+0
+]
+},
+{
+"q": "A blade damper malfunction would probably cause:",
+"o": [
+"Low frequency vertical vibration",
+"Low frequency lateral vibration",
+"An increase in vibration with an increase in forward airspeed"
+],
+"a": [
+1
+]
+},
+{
+"q": "Some two bladed rotors are fitted with a drag brace which:",
+"o": [
+"Prevents in-plane oscillations of the blade",
+"Allows the blades to be aligned and prevents blade lead lag",
+"Absorbs blade drag loads"
+],
+"a": [
+2
+]
+},
+{
+"q": "A flapping hinge is:",
+"o": [
+"One which allows for movement of the blade in the vertical plane",
+"One which allows the blade to move in a horizontal plane during its cycle of rotation",
+"One which allows the blade to move horizontally thus maintaining correct rotor R.P.M."
+],
+"a": [
+0
+]
+},
+{
+"q": "Drag hinges are fitted to:",
+"o": [
+"Allow the blades to flap due to differences in the resultant force of lift and weight",
+"Prevent undue fatigue at the blade roots",
+"Compensate for dissymmetry of lift"
+],
+"a": [
+1
+]
+},
+{
+"q": "A fully articulated rotor head allows the blades to:",
+"o": [
+"Flap, drag, change pitch",
+"Change pitch, droop, flap",
+"Flap, sail, change pitch"
+],
+"a": [
+0
+]
+},
+{
+"q": "A rigid rotor allows:",
+"o": [
+"No dragging to take place",
+"Dragging by tilting the rotor hub",
+"Flapping and dragging in this installation is achieved by bending in the appropriate sense"
+],
+"a": [
+2
+]
+},
+{
+"q": "Rotor trim tabs:",
+"o": [
+"Are adjusted for some tracking",
+"Cannot be adjusted",
+"Are not fitted with adjustable pitch change rods"
+],
+"a": [
+0
+]
+},
+{
+"q": "The distance traveled by an out of balance shaft from its normal axis centre is called:",
+"o": [
+"Amplitude",
+"Resonance",
+"Frequency"
+],
+"a": [
+0
+]
+},
+{
+"q": "Low frequency vibrations are:",
+"o": [
+"Associated with the main rotor which rotates in the 300 – 500 R.P.M. range.",
+"Distinguished by a buzz or high pitched whine and are sometimes felt as a tingling sensation.",
+"Difficult for the maintenance engineer to identify without the use of test equipment."
+],
+"a": [
+0
+]
+},
+{
+"q": "With a leading edge pitch change rod adjustment for tracking:",
+"o": [
+"The pitch change rod lengthening increases pitch",
+"The pitch change rod lengthening decreases pitch",
+"The pitch change rod shortening increases pitch."
+],
+"a": [
+0
+]
+},
+{
+"q": "The higher the frequency of vibration felt by man:",
+"o": [
+"The lower the limit of unconfortable vibration.",
+"The higher the limit of vibration",
+"None of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "Rotor blade alignment is a common maintenance practice on:",
+"o": [
+"Semi-rigid two bladed rotors",
+"All rotor system",
+"Rigid multi-rotor systems"
+],
+"a": [
+0
+]
+},
+{
+"q": "When carrying out blade chordwise balance",
+"o": [
+"Never sweep blade aft",
+"It is impossible to sweep a blade in either direction on the semi-rigid rotor",
+"Never sweep a blade forward"
+],
+"a": [
+2
+]
+},
+{
+"q": "Vibration in helicopters can be sensed through the use of:",
+"o": [
+"Magnetic pick up",
+"Interrupters",
+"Accelerometers"
+],
+"a": [
+2
+]
+},
+{
+"q": "When the flag method is used to check blade track:",
+"o": [
+"One notch appearing, indicates that the blades are in perfect dynamic balance.",
+"One notch appearing, indicates that the blades are in track and no adjustments will be required.",
+"Two notches appearing indicates that two blades only are in track."
+],
+"a": [
+1
+]
+},
+{
+"q": "Track may be adjusted by:",
+"o": [
+"Trim tabs",
+"Pitch change rods",
+"Either (a) or (b) above depending on the helicopter"
+],
+"a": [
+2
+]
+},
+{
+"q": "Vertical vibration is usually more prominent in:",
+"o": [
+"Hover",
+"Forward speed",
+"Low rotor R.P.M."
+],
+"a": [
+1
+]
+},
+{
+"q": "On a fully articulated rotor head the hinge that allows blade movement about a horizontal axis is called the:",
+"o": [
+"Drag hinge",
+"Flapping hinge",
+"Pitch change hinge"
+],
+"a": [
+1
+]
+},
+{
+"q": "The bearing ‘stack’ inside a sleeve and spindle of a tail rotor would consist of:",
+"o": [
+"Roller thrust bearings",
+"Needle roller bearings",
+"Ball thrust bearings"
+],
+"a": [
+1
+]
+},
+{
+"q": "A high frequency vibration indicates:",
+"o": [
+"Main rotor out of balance",
+"Tail rotor out of balance",
+"Main rotor out of track"
+],
+"a": [
+1
+]
+},
+{
+"q": "The primary reason for balancing the main rotor is to:",
+"o": [
+"Reduce vertical vibration levels",
+"Reduce inertia thus allowing rotor r.p.m. to decay faster",
+"Reduce lateral vibration levels"
+],
+"a": [
+2
+]
+},
+{
+"q": "The rigid rotor head utilizes a single hinge, this hinge is used for:",
+"o": [
+"Flapping",
+"Dragging",
+"Feathering"
+],
+"a": [
+2
+]
+},
+{
+"q": "Vibration caused by the main rotor blades at normally operating RPM could be of:",
+"o": [
+"Both low and medium frequency",
+"Low frequency",
+"Low and high frequency."
+],
+"a": [
+1
+]
+},
+{
+"q": "Hertz (Hz) and Inches Per Second (IPS) are both measurements of vibration, but:",
+"o": [
+"Hertz measures amplitude",
+"Inches Per Second measures frequency",
+"IPS measures amplitude"
+],
+"a": [
+1
+]
+},
+{
+"q": "The term resonance refers to a component on assemblies:",
+"o": [
+"Vibration amplitude",
+"Susceptibility to vibration",
+"Natural vibration frequency"
+],
+"a": [
+2
+]
+},
+{
+"q": "The Nodal Points on a vibrating beam are:",
+"o": [
+"Used to attach the main gearbox to the fuselage",
+"The points on the beam where no movement occurs",
+"The points where vibrations are reversed"
+],
+"a": [
+1
+]
+},
+{
+"q": "The rate at which a vibration occurs is known as its:",
+"o": [
+"Frequency",
+"Amplitude",
+"Resonance"
+],
+"a": [
+0
+]
+},
+{
+"q": "Helicopter vibration trends that cannot be improved without a design change by the manufacturer are:",
+"o": [
+"Correctable",
+"Characteristic",
+"Non-acceptable"
+],
+"a": [
+2
+]
+},
+{
+"q": "To counteract the effect of blade sailing:",
+"o": [
+"Flapping restrainers are fitted",
+"Droop restrainers are fitted",
+"Flapping and droop restrainers are fitted."
+],
+"a": [
+2
+]
+},
+{
+"q": "Friction dampers are fitted to control system to:",
+"o": [
+"Permit the pilot to set the feel of its controls to his own particular liking",
+"Lock the controls for hands off flying only",
+"Dampen friction in the flying control run."
+],
+"a": [
+0
+]
+},
+{
+"q": "Drag dampers are fitted to:",
+"o": [
+"Control the rate of hunting and limit the range of movement about the drag hinge.",
+"Control the rate of oscillatory movement about the horizontal hinge",
+"Dampen out vertical vibration in rotor heads"
+],
+"a": [
+0
+]
+},
+{
+"q": "With a leading edge pitch change rod adjustment for tracking:",
+"o": [
+"The pitch change rod lengthening increases pitch",
+"The pitch change rod lengthening decreases pitch",
+"The pitch change rod shortening increases pitch."
+],
+"a": [
+0
+]
+},
+{
+"q": "Mass balancing of the controls:",
+"o": [
+"Prevents flutter",
+"Assists the pilot",
+"Positions the C of G of the blade in the correct place."
+],
+"a": [
+0
+]
+},
+{
+"q": "Rotor blade flap stops:",
+"o": [
+"Prevents excessive flapping in gusts at low R.P.M.",
+"Prevent excessive coning in flight",
+"Limit ground resonance."
+],
+"a": [
+0
+]
+}
+]
+},
+{
+"name": "Flying Control Systems Test AAP6",
+"qs": [
+{
+"q": "What is the purpose of counter weight fitted in some rotor heads?",
+"o": [
+"To assist the blade CTM which tends to increase the pitch angle",
+"To counter the blade CTM which tends to increase the pitch angle",
+"To counter the blade CTM which tends to decrease the pitch angle"
+],
+"a": [
+2
+]
+},
+{
+"q": "In the event of an in flight engine failures on an aircraft with hydraulic powered controls, flying control operational would:",
+"o": [
+"Revert to manual control",
+"Be unaffected since the hydraulic pump is geared to the transmission",
+"Be operated by electrical driven pump"
+],
+"a": [
+1
+]
+},
+{
+"q": "To reduce dissymmetry of lift a 2 bladed tail rotor would:",
+"o": [
+"Incorporate washout on it blades",
+"Make use of delta 3 hinges",
+"Be positioned within the main rotor’s downwash"
+],
+"a": [
+1
+]
+},
+{
+"q": "Why is force gradient used in helicopter control system?",
+"o": [
+"To relieve the pilot of the stick forces created by moving his cyclic controls",
+"To provide a found of artificial feel to power operated control which is proportional to the amount of controls movement",
+"To provide the necessary force to move the control against light air loading"
+],
+"a": [
+1
+]
+},
+{
+"q": "Bell cranks are fitted frequently used in aircraft control systems",
+"o": [
+"To reduce the length of the control rods used",
+"To change the direction of control movement",
+"To provide the necessary force to move the control against light air"
+],
+"a": [
+1
+]
+},
+{
+"q": "Follow-up “or” “Feedback” in power flight control ensures that:",
+"o": [
+"The control surface movement is proportional to the amount of selection made",
+"The control surface movement is inversely proportional to the amount of selection made",
+"The control surface is manually controlled"
+],
+"a": [
+0
+]
+},
+{
+"q": "The majority of power flying controls are:",
+"o": [
+"Hydraulically operated",
+"Pneumatically operated",
+"Manually operated"
+],
+"a": [
+0
+]
+},
+{
+"q": "The hydraulic actuator used in power flying control system is:",
+"o": [
+"Balance type",
+"Single actuating type",
+"Double-actuating type"
+],
+"a": [
+0
+]
+},
+{
+"q": "When checking the tension of a control cable:",
+"o": [
+"The tension meter should be applied where possible to a point adjacent to the control",
+"The tension meter should be applied where possible to a point near the middle of the cable length",
+"It is immaterial at which point in the length of cable the tension meter is applied"
+],
+"a": [
+1
+]
+},
+{
+"q": "A practical way of checking a control cable for broken wire is by:",
+"o": [
+"Passing a hand along its length and feeling for any points striking up",
+"Passing a hard piece of wood along its length and observing points where the wood catches",
+"Passing a cloth along its length and observing points where the cloth catches"
+],
+"a": [
+2
+]
+},
+{
+"q": "The main purpose of a chain guard is?",
+"o": [
+"To prevent the chain coming off the sprocket if the chain become slack",
+"To prevent foreign bodies entering between the chain and the sprocket",
+"To prevent the chain coming off the sprocket if the support bolt shear"
+],
+"a": [
+0
+]
+},
+{
+"q": "A control cable that has been contaminated with acid should be:",
+"o": [
+"Cleaned",
+"Cleaned, inspected and re-inspected after a period of time",
+"Rejected"
+],
+"a": [
+2
+]
+},
+{
+"q": "Dampers are incorporated in the servo valve body to:",
+"o": [
+"Permit hydraulic flow",
+"Offer resistance to flow",
+"Permit smooth operation of the unit"
+],
+"a": [
+2
+]
+},
+{
+"q": "An artificial feel system is necessary in power flying control system to:",
+"o": [
+"Provide the pilot with simulated control forces",
+"Prevent overloading of the power control actors",
+"Increase the sensitivity of the control system"
+],
+"a": [
+0
+]
+},
+{
+"q": "A fully powered control surface is irreversible due to:",
+"o": [
+"Nulling of the servo valve",
+"The air loads on the control blades",
+"The actuator ram being attached to the main surface structure"
+],
+"a": [
+0
+]
+},
+{
+"q": "The reason for fitting a tail rotor on a helicopter:",
+"o": [
+"To counteract torque",
+"To prevent side way drift",
+"To ensure thrust is in the same direction as the system produced by engine torque"
+],
+"a": [
+0
+]
+},
+{
+"q": "A stabilizer bar is fitted to some rotor system to:",
+"o": [
+"Increase the stability of forward flight of helicopter",
+"Increase the stability of the unstable rotor system",
+"Increase the stability of cyclic control"
+],
+"a": [
+2
+]
+},
+{
+"q": "Force gradient units are used in helicopter control system to give the pilot:",
+"o": [
+"Artificial feel",
+"Proportional feed back",
+"Spring feedback"
+],
+"a": [
+0
+]
+},
+{
+"q": "If during the inspections of a chain run is found to have stretched more than 2%",
+"o": [
+"The whole assembly should be changed",
+"That section must be replaced before the chain is returned to service",
+"Realigned and return to service"
+],
+"a": [
+0
+]
+},
+{
+"q": "The rotating star has several attachment points:",
+"o": [
+"Different from the number of rotor blades",
+"Equals in number to the amount of rotor blade",
+"Not important provided there is a linkage"
+],
+"a": [
+1
+]
+},
+{
+"q": "Rotating scissors are fitted to the azimuth star assembly by the transmission from the:",
+"o": [
+"Rotating star to the main rotor head",
+"Non rotating star to main rotor head",
+"From cockpit control to swash plate"
+],
+"a": [
+0
+]
+},
+{
+"q": "The purpose of a control system is to transmit",
+"o": [
+"Linear movement from the non-rotating assemblies on the rotating blades",
+"Rotary movement from the non-rotating assemblies on to the rotating blades",
+"Cyclic movement from the non-rotating assemblies on to the rotating blade"
+],
+"a": [
+0
+]
+},
+{
+"q": "The function of the cyclic controls is required flight",
+"o": [
+"To tilt the main rotor disc in the direction of required flight",
+"To tilt the main rotor shaft in the direction of required flight",
+"To tilt the mast in the direction of required flight"
+],
+"a": [
+0
+]
+},
+{
+"q": "Fore and aft and lateral controls of the helicopter are functions of:",
+"o": [
+"The collective control system",
+"The cyclic control system",
+"Anti-torque control system"
+],
+"a": [
+1
+]
+},
+{
+"q": "To counteract “power torque” the pitch angle of the tail rotor blade is automatically changed together by:",
+"o": [
+"Cycle lever",
+"Collective lever",
+"Pilot yaw pedal"
+],
+"a": [
+1
+]
+},
+{
+"q": "Interconnection between collective and throttle will automatically compensate for:",
+"o": [
+"Change in pitch angle",
+"Change in engine power required",
+"Change in angle attack"
+],
+"a": [
+1
+]
+},
+{
+"q": "The function of the azimuth star assembly is to:",
+"o": [
+"Transfer a non-rotating linear input on to a rotating rotor head",
+"Transfer a rotating linear input in to a rotating rotor head",
+"Transfer a non-rotating rotor input on to a rotating rotor head"
+],
+"a": [
+0
+]
+},
+{
+"q": "The helicopter control that changes the pitch of the rotor blades at a certain point in their rotations is",
+"o": [
+"Collective pitch control",
+"Cyclic pitch control",
+"Throttle control"
+],
+"a": [
+1
+]
+},
+{
+"q": "The fuselage of some helicopters is kept relatively level in flight at high airspeed by using:",
+"o": [
+"Synchronized elevator",
+"Horizontal stabilizer",
+"Collective pitch lever"
+],
+"a": [
+0
+]
+},
+{
+"q": "The pitch of the tail rotor is controlled by:",
+"o": [
+"Throttle control",
+"Pedal",
+"Pitch link"
+],
+"a": [
+1
+]
+},
+{
+"q": "When the rotor blade is flapping up the angle of attack is",
+"o": [
+"Greater than the pitch angle",
+"Less than the pitch angle",
+"The same as the pitch angle"
+],
+"a": [
+1
+]
+},
+{
+"q": "A tail rotor located within a circular duct is called",
+"o": [
+"NOTAR",
+"FENESTRON",
+"CO-AXIAL"
+],
+"a": [
+1
+]
+},
+{
+"q": "A helicopter is inherently:",
+"o": [
+"Stable",
+"Unstable",
+"Neutral"
+],
+"a": [
+1
+]
+},
+{
+"q": "Movement of the collective stick will:",
+"o": [
+"Alter the pitch of the advancing blades more than the retreating blades",
+"Alter the pitch of all the blades equally",
+"Tilt the swash plate forward"
+],
+"a": [
+1
+]
+},
+{
+"q": "One of these systems cannot be used to increase the stability of a helicopter:",
+"o": [
+"Stability augmentation",
+"Offset flapping hinges",
+"Throttle system"
+],
+"a": [
+2
+]
+},
+{
+"q": "Maximum and minimum collection blade pitch angle are limited by:",
+"o": [
+"Friction brake",
+"Mechanical stops",
+"Collective pitch lock"
+],
+"a": [
+1
+]
+},
+{
+"q": "To prevent undesired movement of the collective lever during flight, use",
+"o": [
+"Friction brake",
+"Collective pitch lock",
+"Mechanical stops"
+],
+"a": [
+0
+]
+},
+{
+"q": "Excessive cyclic stick felt on a power operated control system could be caused by:",
+"o": [
+"Low accumulator nitrogen pressure",
+"System regulator cut-out pressure set too high",
+"Air in the hydraulic actuator"
+],
+"a": [
+2
+]
+},
+{
+"q": "Some helicopter have stabilizer bars, they are:",
+"o": [
+"Connected through linkage to the rotating swash plate and rotor blades",
+"Connected to the swashplate and pilot and rotor",
+"Fixed to the pitch change mechanism only"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the purpose of flapping restrainers fitted to helicopter?",
+"o": [
+"To restrict the flapping of a blade at low rotor RPM",
+"To restrict the flapping of a blade in flight",
+"To control the speed of the blade as it flaps during flight"
+],
+"a": [
+0
+]
+},
+{
+"q": "In main rotor control system, MIXING takes place between:",
+"o": [
+"Cyclic yaw always",
+"Cyclic and collective always",
+"Collective and yaw some timer"
+],
+"a": [
+1
+]
+},
+{
+"q": "Droop stops are designed to be effective at:",
+"o": [
+"Main rotor speeds",
+"High rotor speeds",
+"Low rotor speeds"
+],
+"a": [
+2
+]
+},
+{
+"q": "Force gradient unit are normally used with:",
+"o": [
+"A magnetic brake",
+"A Trim actuator",
+"A hydraulic servo"
+],
+"a": [
+0
+]
+},
+{
+"q": "Another name for the collective control lever is the:",
+"o": [
+"Throttle",
+"Power lever",
+"Pitch lever"
+],
+"a": [
+0
+]
+},
+{
+"q": "Pitch change at the rotor blade is achieved by:",
+"o": [
+"Linear motion transfer via universal coupling to rotating linkage at the blade",
+"Rotary motion transferred to rotary motion via swash plate and blades",
+"Linear motion transferred to rotary motion via swash plate and back to linear at the blade"
+],
+"a": [
+2
+]
+},
+{
+"q": "When an aircraft is placed in the rigging position it is leveled in:",
+"o": [
+"Both longitudinal and lateral planes",
+"Longitudinal plane",
+"Lateral plane"
+],
+"a": [
+0
+]
+},
+{
+"q": "Cyclic stick to the left:",
+"o": [
+"Helicopter moves to the right",
+"Helicopter moves to the left",
+"Helicopter moves to forward"
+],
+"a": [
+1
+]
+},
+{
+"q": "Collective lever up:",
+"o": [
+"The pitch angle of all the main rotor blades increases",
+"The pitch angle of all the main rotor blades decreases",
+"The pitch angle of all the tail rotor blades increases"
+],
+"a": [
+0
+]
+},
+{
+"q": "Cyclic lever forward:",
+"o": [
+"The advancing blade decreases its pitch by 900 before it reaches the forward position",
+"The advancing blade increases its pitch by 900 before it reaches the forward position",
+"The refractory blade decreases its pitch by 900 before it reaches its reaches its rear position"
+],
+"a": [
+0
+]
+},
+{
+"q": "A helicopter has a minor adjustment made to the flying controls when away from base. The duplicate inspection may be carried out by:",
+"o": [
+"A pilot with a license endorsed for the helicopter type",
+"By any pilot holding a commercial license",
+"Only an engineer license for helicopter"
+],
+"a": [
+0
+]
+},
+{
+"q": "Correct tensioning control cables provides:",
+"o": [
+"Compensation for temperature change in a cable run",
+"Artificial “feel” in a powered control system",
+"Full and free movement with no friction"
+],
+"a": [
+0
+]
+},
+{
+"q": "The twist Grip Throttled:",
+"o": [
+"Enables small changes of power to be made without any change of pitch",
+"Enables the pitch angle to be increased or decreased",
+"Is used to balance the rotor R.P.M by small adjustments of rotor disc attitude"
+],
+"a": [
+0
+]
+},
+{
+"q": "A rotor head swash plate:",
+"o": [
+"Allows for the effects of phase lag",
+"Reduces the amplitude of control inputs to the rotor",
+"Transmit control inputs to the rotating assembly"
+],
+"a": [
+2
+]
+},
+{
+"q": "The swash plate system comprises:",
+"o": [
+"Two rotating star",
+"one star rotating with the rotor and one engine driven star",
+"one rotating star and one fixed star"
+],
+"a": [
+2
+]
+},
+{
+"q": "The main rotor swash plate is used for:",
+"o": [
+"collective pitch change only",
+"cyclic pitch changes only",
+"both cyclic and collective control"
+],
+"a": [
+2
+]
+},
+{
+"q": "Movement of helicopter flying controls is limited by:",
+"o": [
+"Droop restrainers",
+"Droop and flapping restrainers",
+"Primary and secondary stop"
+],
+"a": [
+2
+]
+},
+{
+"q": "Control cable direction is altered by:",
+"o": [
+"Bell crank",
+"Pulleys",
+"Pushrods"
+],
+"a": [
+1
+]
+},
+{
+"q": "If a cyclic input is held on when a collective input is made:",
+"o": [
+"All the blades changes pitch equally",
+"The blades will not change pitch",
+"Only the blades subjected to a cyclic input will change pitch"
+],
+"a": [
+0
+]
+},
+{
+"q": "Flying controls are normally provided with",
+"o": [
+"One set of limiting stops",
+"Two sets of limiting stops",
+"Combination of droop stops and flapping restrainer"
+],
+"a": [
+1
+]
+},
+{
+"q": "Moving the cyclic stick aft in a helicopter in forward flight will initially:",
+"o": [
+"Cause the advancing blade to decrease pitch and the retreating blade to increase pitch",
+"Cause the advancing blade to increase pitch and the retreating blade to decrease pitch",
+"Cause all blades to increase pitch equally and simultaneously"
+],
+"a": [
+1
+]
+}
+]
+},
+{
+"name": "Transmission System",
+"qs": [
+{
+"q": "The reduction of the engine speed to the required main rotor speed is achieved with the:",
+"o": [
+"Main rotor head",
+"Main rotor gearbox",
+"Accessory gears"
+],
+"a": [
+1
+]
+},
+{
+"q": "During autorotation, the tail rotor is driven by the:",
+"o": [
+"Engine",
+"Main rotor",
+"Induced flow"
+],
+"a": [
+0
+]
+},
+{
+"q": "Main rotor gearbox is usually made from:",
+"o": [
+"aluminium alloy and contains steel gears",
+"magnesium and contains steel gears and shafting",
+"titanium alloy and contain alloy steel gears and shafting"
+],
+"a": [
+1
+]
+},
+{
+"q": "The free wheel unit is used to:",
+"o": [
+"Isolate the main rotor from the engine and tail rotor",
+"Prevent engine being driven by the main rotor",
+"Relieve torsional stress in the gearbox and rotor drive when starting acceleration and shutting down"
+],
+"a": [
+1
+]
+},
+{
+"q": "Rotor brake is used on main helicopter to:",
+"o": [
+"To hold the second engine’s free turbine while in the accessory drive",
+"Stop the engine and main rotor on engine shut down",
+"Stop the main rotor and prevent blade sailing in windy condition"
+],
+"a": [
+1
+]
+},
+{
+"q": "A helicopter which is powered by a fixed turbine will be fitted with a:",
+"o": [
+"Coupling gearbox",
+"Freewheel unit",
+"Drive clutch assembly"
+],
+"a": [
+2
+]
+},
+{
+"q": "An expansion coupling is normally associated with:",
+"o": [
+"Main rotor gearbox",
+"Free turbine engine",
+"Piston engine"
+],
+"a": [
+1
+]
+},
+{
+"q": "A gear system used in helicopter transmission which can be used to achieve reduction of 100:1 is the:",
+"o": [
+"Bevel pair",
+"Conformal gear",
+"Epicyclic gear"
+],
+"a": [
+2
+]
+},
+{
+"q": "In the planetary gear assembly the ring:",
+"o": [
+"Rotates around the planet gear",
+"The sun gear directly meshes with the ring gear and rides around it",
+"Normally form part of the gearbox casing"
+],
+"a": [
+0
+]
+},
+{
+"q": "In the normal helicopter operation the main rotor gearbox is driven by the:",
+"o": [
+"Main rotor head",
+"Tail gearbox",
+"Engine"
+],
+"a": [
+2
+]
+},
+{
+"q": "When power is transmitted from one stage of the epicyclic gear to another stage:",
+"o": [
+"the planetary gears carrier of one stage is connected to the sun gear of the other",
+"the sun gear of one stage is connected to the ring gear of the second stage",
+"the sun gear of one stage is connected to the input of the second stage"
+],
+"a": [
+0
+]
+},
+{
+"q": "Why might it be necessary to increase the size or number of planet in the main rotor gearbox? To:",
+"o": [
+"Counteract the large increase in torque caused by the transmission speed reduction",
+"Absorb the torque produced as the transmission speed increases",
+"Provide extra lateral support to the main rotor"
+],
+"a": [
+0
+]
+},
+{
+"q": "Excessive main rotor gearbox oil temperature indications may be the result of:",
+"o": [
+"Excessive gearbox oil level affecting the operation of the oil temperature sensor which is mounted upstream of the oil cooler",
+"Excessive gearbox oil pressure caused by a filter in which the by-pass valve has opened",
+"A lubrication system which is not operating efficiently and is causing the temperature sensor downstream of the oil cooler to operate"
+],
+"a": [
+2
+]
+},
+{
+"q": "Control rings which are used in main rotor gearboxes:",
+"o": [
+"Are set by the manufacturer to regulate oil flow on the gearbox lay shafts",
+"Can be adjusted to ensure correct gear backlash",
+"Will require that the main rotor gearbox be returned to the manufacturer if a control ring is lost"
+],
+"a": [
+2
+]
+},
+{
+"q": "Transmission drive shafts are fitted with flexible drive coupling to:",
+"o": [
+"Absorb torsional and flexing of the helicopter structure",
+"Allow for angular changes in the tail cone and pylon",
+"Provide brake point in shafts and to join long section together"
+],
+"a": [
+0
+]
+},
+{
+"q": "Conformal gears are gears which have:",
+"o": [
+"Line contact between two meshing teeth",
+"Are contact between two meshing teeth",
+"Tangential contact between two meshing teeth"
+],
+"a": [
+2
+]
+},
+{
+"q": "Mechanical or hydro mechanical clutches are required to be used on helicopters:",
+"o": [
+"With a fixed turbine or piston engine",
+"To allow the combining gearbox to rotate freely",
+"With a piston engine or a free turbine"
+],
+"a": [
+0
+]
+},
+{
+"q": "What type of gear are normally used in a tail rotor gearbox?",
+"o": [
+"Helical bond gear to give a smooth and quiet reduction in rotor speed",
+"Epicyclic gear to alter the input to output gear ratio",
+"Hypoid gear to resist the thrust of the tail rotor hub"
+],
+"a": [
+0
+]
+},
+{
+"q": "The lubrication of a free wheel unit is:",
+"o": [
+"Not necessary as they require metal to metal during operation",
+"Provided from the main rotor gearbox pressurizes oil system",
+"Carried out at regular interval which are stated in the helicopter maintenance manual"
+],
+"a": [
+1
+]
+},
+{
+"q": "Indication to the flight crew that the rotor brake is on is by a:",
+"o": [
+"is by a pressure switch when the pressure is at minimum",
+"Mechanically operated switch when the rotor brake is fully applied",
+"is by a pressure switch when the pressure is at maximum"
+],
+"a": [
+2
+]
+},
+{
+"q": "Magnetic chip detectors are used to:",
+"o": [
+"Prevent failure of the gearbox",
+"Indicate the failure of the gearbox",
+"Indicate the cleanliness of the gearbox"
+],
+"a": [
+0
+]
+},
+{
+"q": "Magnetic chip detectors is used to pick-up:",
+"o": [
+"Aluminium alloy chips",
+"Ferrous particles in the gearbox",
+"Any kind of loose chip liberated in the gearbox"
+],
+"a": [
+1
+]
+},
+{
+"q": "In a transmission system, excessively high temperature maybe as a result of:",
+"o": [
+"Defective oil pressure switch",
+"Presence of particles in the filter",
+"Low oil level"
+],
+"a": [
+2
+]
+},
+{
+"q": "Aluminium particle in the main gearbox can be identified by reaction with:",
+"o": [
+"Sulphuric acid",
+"Nitric acid",
+"Hydrochloric acid"
+],
+"a": [
+2
+]
+},
+{
+"q": "Oil pump commonly found in transmission system are normally:",
+"o": [
+"Spur Gear, Vane type and the variable delivery multiple piston type",
+"Vane type and Gerotor type",
+"Gerotor and spur gear type"
+],
+"a": [
+2
+]
+},
+{
+"q": "Majority of helicopters main gearbox lubrication systems provides warning indications to the pilot, and will be:",
+"o": [
+"High oil temperature, low oil pressure, impending oil filter bypass and chip detector.",
+"Low oil temperature, high oil pressure and impending filter bypass",
+"Oil level, low oil pressure, high oil temperature and chip detector."
+],
+"a": [
+0
+]
+},
+{
+"q": "Aluminium and magnesium particle, if found in the oil system may be indicating:",
+"o": [
+"Pump interior wear.",
+"Gear teeth wear, and if found in large quantity may require replacement.",
+"Normal gearing wear."
+],
+"a": [
+0
+]
+},
+{
+"q": "Which is used to pick-up level of vibration on the helicopter:",
+"o": [
+"Accelerometer",
+"Magnetic pick-up",
+"Pulse modulator"
+],
+"a": [
+0
+]
+},
+{
+"q": "Torque is the:",
+"o": [
+"Measure of shaft horse power applied by the engine to the transmission system",
+"Measure of the shaft speed supplied by the engine to the transmission system",
+"Measure of the oil pressure developed by the main gearbox"
+],
+"a": [
+0
+]
+},
+{
+"q": "The main drive shaft:",
+"o": [
+"is a solid shaft which transmits the power output to the transmission system",
+"is the hollow shaft which transmits power from the main gearbox to the intermediate gearbox",
+"is the hollow shaft joining the engine or combining gearbox to the main rotor gearbox"
+],
+"a": [
+2
+]
+},
+{
+"q": "The main components of a typical main rotor gearbox are the: except",
+"o": [
+"Input housing",
+"Lower housing and bearing support",
+"gymbal cover"
+],
+"a": [
+2
+]
+},
+{
+"q": "Excessively high oil temperatures may be the result of: except",
+"o": [
+"Correct oil levels within the gearbox",
+"Defective oil cooling system",
+"Blockage of oil filter"
+],
+"a": [
+0
+]
+},
+{
+"q": "Particles normally found in a main rotor gearbox analysis in order are:",
+"o": [
+"Aluminium, Magnesium, Phenolic.",
+"Copper, Aluminium, Magnesium, Calcium and Steel.",
+"Brass, Bronze, Aluminium, Phenolic and Steel."
+],
+"a": [
+0
+]
+},
+{
+"q": "This material may result from use of mallet and drift:",
+"o": [
+"Aluminium, Steel",
+"Aluminium, Magnesium, Phenolic",
+"Brass and Bronze"
+],
+"a": [
+1
+]
+},
+{
+"q": "Bearing cage wear is indicated by the presence of:",
+"o": [
+"Steel",
+"Copper, Silver, condi",
+"Brass and Bronze"
+],
+"a": [
+2
+]
+},
+{
+"q": "Backlash can be defined as the following except:",
+"o": [
+"Play between two meshing gear",
+"The distance between two teeth and the width of the engage teeth",
+"The clearance between bearings which allow for movement without cracking of bearing teeth"
+],
+"a": [
+2
+]
+},
+{
+"q": "The rotor brake performs the following functions except:",
+"o": [
+"stop rotor from wind milling after landing to prevent blade sailing",
+"stop the rotor from wind milling in flight at shut down",
+"hold the turbine engine in free turbine and keep the shaft stationary against gas flow"
+],
+"a": [
+1
+]
+},
+{
+"q": "On certain helicopter design:",
+"o": [
+"Expansion coupling is used between hot turbine and output coupling",
+"Expansion coupling is used between hot turbine and input drive coupling",
+"Thomas coupling is used between hot turbine and output coupling"
+],
+"a": [
+0
+]
+},
+{
+"q": "In a helicopter using a mechanical clutch, the clutch is engaged by:",
+"o": [
+"increasing the engine rpm",
+"operating a lever in the cockpit",
+"operating an electro-mechanical switch"
+],
+"a": [
+0
+]
+},
+{
+"q": "The free wheel in a transmission system:",
+"o": [
+"relieves torsional stresses in the gearbox and rotor driveshaft when starting up and accelerating",
+"isolates the main rotor from the engine and the tail rotor",
+"prevents the rotor driving the engine"
+],
+"a": [
+2
+]
+},
+{
+"q": "Transmission drive shafts are fitted with flexible couplings to:",
+"o": [
+"allow for angular changes in the tail cone and pylon",
+"join sections of drive shafting together and allow for flexing of the structure",
+"absorb torsional loads and provide break points"
+],
+"a": [
+1
+]
+},
+{
+"q": "The power being applied to the transmission is indicated to the pilot by:",
+"o": [
+"rotor speed compared to free power turbine speed on the triple tacho",
+"engine speed and temperature",
+"a torquemeter system"
+],
+"a": [
+2
+]
+},
+{
+"q": "The main rotor gearbox lubrication system oil temperature bulb will be fitted:",
+"o": [
+"after the oil cooler and before the oil jets",
+"in the inlet to the oil cooler",
+"after the pump and before the thermostatic valve"
+],
+"a": [
+0
+]
+},
+{
+"q": "Rotor brakes are used on most helicopters to:",
+"o": [
+"stop the engine and rotor on shut down",
+"stop the rotor and prevent blade sailing in gusty conditions",
+"hold stationary the free power turbine of the second engine when in accessories drive"
+],
+"a": [
+1
+]
+},
+{
+"q": "The expansion coupling is normally found on a:",
+"o": [
+"gas turbine engined helicopter",
+"piston engined helicopter",
+"main gearbox"
+],
+"a": [
+0
+]
+},
+{
+"q": "The gears found in the accessory drive gearbox are usually:",
+"o": [
+"bevel gears",
+"helical gears",
+"spur gears"
+],
+"a": [
+2
+]
+},
+{
+"q": "Shims in a helicopter transmission system are used:",
+"o": [
+"to adjust expansion couplings",
+"to make sure that after the bolts on a coupling are tightened, there is no stress on the shaft",
+"to adjust expansion couplings"
+],
+"a": [
+1
+]
+},
+{
+"q": "The gears in an intermediate gearbox are lubricated by:",
+"o": [
+"pressure jets",
+"immersion and pressure film",
+"splash"
+],
+"a": [
+2
+]
+},
+{
+"q": "The component which controls the flow of lubricating oil through the oil cooler is the:",
+"o": [
+"thermostatic valve",
+"cooling fan",
+"pressure relief valve"
+],
+"a": [
+0
+]
+},
+{
+"q": "On the main rotor gearbox, magnetic chip detectors are normally found:",
+"o": [
+"adjacent to the oil jets",
+"in the inlet to the gearbox oil pump or in the sump",
+"in the scavenge oil line"
+],
+"a": [
+1
+]
+},
+{
+"q": "The indication of current clutch engagement is shown to the pilot by the:",
+"o": [
+"rotor speed needle matching with the engine speed needle on the NR gauge",
+"clutch operating light is extinguished",
+"engine is seen to lag behind the rotor when raising the collective"
+],
+"a": [
+0
+]
+},
+{
+"q": "For small changes in direction of a drive shaft a:",
+"o": [
+"splined coupling is used",
+"universal coupling is used",
+"flanged coupling is used"
+],
+"a": [
+1
+]
+},
+{
+"q": "Free wheel units:",
+"o": [
+"are lubricated by a supply from the main rotor gearbox",
+"do not require lubrication",
+"are sealed and packed with grease at manufacture"
+],
+"a": [
+0
+]
+},
+{
+"q": "Tail rotor gearboxes normally use:",
+"o": [
+"spur gears",
+"hypoid gears",
+"helical bevel gears"
+],
+"a": [
+2
+]
+},
+{
+"q": "The intermediate gear box in a tail rotor drive is fitted primarily to:",
+"o": [
+"alter the angle of the drive",
+"support the tail rotor drive shaft",
+"change the drive shaft rpm"
+],
+"a": [
+0
+]
+},
+{
+"q": "The indication to the crew that the rotor brake is on is by a:",
+"o": [
+"mechanically operated switch when the rotor brake is fully applied",
+"pressure switch sensing the brake pressure is at a minimum",
+"pressure switch when the brake pressure is at a maximum"
+],
+"a": [
+1
+]
+},
+{
+"q": "Combining gearboxes are used in helicopters to:",
+"o": [
+"drive the main rotor gearbox by a multi-engine installation",
+"drive the accessories and house the free wheel unit",
+"automatically change the drive when a starter/generator is installed on the main rotor gearbox"
+],
+"a": [
+0
+]
+},
+{
+"q": "A helicopter with a fixed turbine engine is fitted with a:",
+"o": [
+"freewheel only",
+"freewheel and clutch",
+"clutch only"
+],
+"a": [
+1
+]
+}
+]
+}
+]
+}
+]
