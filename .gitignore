@@ -7,3 +7,7 @@ supabase/.temp/
 tools/cabin/src/
 tools/cabin/scan/
 tools/cabin/survey.txt
+.vercel
+
+.vercel
+.env*
