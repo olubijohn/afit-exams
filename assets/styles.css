@@ -645,6 +645,7 @@ dialog#modal:has(.img-view) { width: min(900px, calc(100vw - 24px)); }
 .dept-card .sub { color: var(--muted); font-size: 14px; }
 .dept-ic { width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent); }
 .dept-ic svg { width: 24px; height: 24px; }
+.dept-ic svg:not([fill]) { fill: currentColor; }   /* the plane icon is a filled shape */
 
 /* ---------- study cards ---------- */
 .seg-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }

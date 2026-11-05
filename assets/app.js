@@ -407,7 +407,7 @@ function authLayout(inner) {
       ${logo()}
       <div>
         <h2>NCAT exam practice</h2>
-        <p class="lead">Past questions for Aircraft Maintenance (AME) licence papers and Cabin Crew, marked as you go. Choose your department after you sign in.</p>
+        <p class="lead">Past questions for AME (Airframe and Powerplant), AME (Avionics) and Cabin Crew, marked as you go. Choose your department after you sign in.</p>
         <ul class="feat">
           <li><span class="tick">${I.check}</span><span><b>${S.full.length.toLocaleString()} questions</b> in ${["no", "one", "two", "three", "four", "five", "six"][S.papers.length] || S.papers.length} papers: ${S.papers.map(p => esc(p.name)).join(', ').replace(/, ([^,]*)$/, ' and $1')}.</span></li>
           <li><span class="tick">${I.check}</span><span>Pick an answer and see straight away if it's right, and what the right answer is.</span></li>
@@ -551,7 +551,7 @@ const scoreCls = p => (p >= PASS ? 'pass' : 'fail');
 const myAttempts = () => S.attempts.filter(a => a.subjects?.length && a.subjects.some(x => S.subjects.some(s => s.id === x)));
 
 function viewDept() {
-  const icon = id => id === 'cabin' ? I.users || I.home : I.plane || I.book;
+  const icon = id => id === 'cabin' ? I.users : id === 'avionics' ? I.target : I.plane;
   mount(`<div class="dept-page"><div class="dept-in">${logo()}
     <h1>Which department?</h1><p class="lead">Choose where you want to practise. You only see that department's questions. You can switch later from the account menu.</p>
     <div class="grid dept-grid">${S.departments.map(d => {

@@ -165,12 +165,13 @@ B = {'source': 'One folder per file sent: ' + '; '.join(f['name'] for f in folde
      'papers': [{'id': 'general', 'name': 'General Paper', 'short': 'General'}, {'id': 'piston', 'name': 'Piston Engines', 'short': 'Piston'},
                 {'id': 'pma', 'name': 'Pressurised Airframe', 'short': 'Pressurised'},
                 {'id': 'upma', 'name': 'Unpressurised Metal Airframe', 'short': 'Unpressurised'},
-                {'id': 'gte', 'name': 'Gas Turbine Engine', 'short': 'Gas Turbine'}, {'id': 'compass', 'name': 'Compass', 'short': 'Compass'},
+                {'id': 'gte', 'name': 'Gas Turbine Engine', 'short': 'Gas Turbine'}, {'id': 'compass', 'name': 'Compass', 'short': 'Compass', 'dept': 'avionics'},
                 {'id': 'cc-law', 'name': 'Air Law & Procedures', 'short': 'Air Law', 'dept': 'cabin'},
                 {'id': 'cc-type', 'name': 'Aircraft Type (B737)', 'short': 'B737 Type', 'dept': 'cabin'},
                 {'id': 'cc-safety', 'name': 'Safety, Dangerous Goods & Medicine', 'short': 'Safety & DG', 'dept': 'cabin'},
                 {'id': 'cc-licence', 'name': 'Licence Preparation', 'short': 'Licence prep', 'dept': 'cabin'}],
-     'departments': [{'id': 'ame', 'name': 'Aircraft Maintenance (AME)', 'sub': 'NCAA licence papers: General, Piston, Airframes, Gas Turbine, Compass'},
+     'departments': [{'id': 'ame', 'name': 'AME (Airframe and Powerplant)', 'sub': 'NCAA licence papers: General, Piston Engines, Pressurised and Unpressurised Airframe, Gas Turbine Engine'},
+                     {'id': 'avionics', 'name': 'AME (Avionics)', 'sub': 'NCAA avionics licence papers: Compass'},
                      {'id': 'cabin', 'name': 'Cabin Crew', 'sub': 'Air Law, B737 type, safety, dangerous goods, first aid and licence preparation'}],
      'folders': folders, 'subjects': [s for s in subjects if s['count']], 'questions': Q, 'cards': CARDS}
 for p in B['papers']: p.setdefault('dept', 'ame')
