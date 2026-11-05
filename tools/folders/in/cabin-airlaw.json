@@ -1,0 +1,584 @@
+[
+{
+"q": "What are the forces acting on aircraft during flight?",
+"o": [
+"Lift, weight, propulsion and balance",
+"lift, weight, thrust and drag",
+"Power, speed, gravitation and height",
+"2 forces only, weight and lift"
+],
+"a": [
+1
+]
+},
+{
+"q": "The primary danger of decompression is",
+"o": [
+"Heart attack",
+"ear blockade",
+"hypoxia",
+"heart exhaustion"
+],
+"a": [
+2
+]
+},
+{
+"q": "Halon removes one of these sides of the triangle of fire, which one?",
+"o": [
+"heat",
+"oxygen",
+"gases",
+"smoke"
+],
+"a": [
+1
+]
+},
+{
+"q": "The type AF (fixed automobile) ELT means?",
+"o": [
+"When immersed in water",
+"by inertia force on crash impact",
+"When switched on",
+"only when immersed in salt water"
+],
+"a": [
+0
+]
+},
+{
+"q": "What actions must be taken if a passenger boards an aircraft with excessive cabin baggage?",
+"o": [
+"Place in cargo hold",
+"place under the seat",
+"Off-load with stern warning",
+"place behind the last row of seats"
+],
+"a": [
+0
+]
+},
+{
+"q": "What happens if you us water extinguisher on class ‘B’ fire?",
+"o": [
+"you may spread the fire",
+"you may put the fire out initially, however it may re-ignite",
+"you may be electrocuted",
+"all of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is on all aircraft to aid passenger evacuation, if you must stay low or crawl?",
+"o": [
+"Crash axe",
+"exit signs",
+"kneepads",
+"emergency floor level lighting"
+],
+"a": [
+3
+]
+},
+{
+"q": "What happens if you use water to extinguish a class ‘C’ fire?",
+"o": [
+"You may spread the fire",
+"you may put the fire out initially however it may re-ignite",
+"You may be electrocuted",
+"All of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "On aircraft equipped with a drop-down 02 system, when decompression occurs at 35,000 feet, which one of the listed procedures will you do?",
+"o": [
+"Tell a captain",
+"Pull oxygen mask, put it on immediately, sit down and fasten seatbelt",
+"Continue serving until notified by captain",
+"Move passengers to more comfortable seats"
+],
+"a": [
+1
+]
+},
+{
+"q": "At what cabin altitude (pressure) will oxygen mask doors automatically drop?",
+"o": [
+"6,000 feet",
+"10,000 feet",
+"14,000 feet",
+"27,000 feet"
+],
+"a": [
+2
+]
+},
+{
+"q": "You are permitted to scuba-dive before a flight as long as it is …… hour before a flight",
+"o": [
+"24 hours",
+"28 hours",
+"8 hours",
+"48 hours"
+],
+"a": [
+2
+]
+},
+{
+"q": "The following command will indicate that evacuation is not necessary immediately",
+"o": [
+"Cancel evacuation, remain seated, keep those seat belts fastened",
+"Remain seated, remain seated",
+"Cancel evacuation, cancel evacuation for hell sake",
+"Abort evacuation, abort evacuation, abort evacuation"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the purpose of extension seatbelt?",
+"o": [
+"To tie down briefcases and bulky luggage",
+"To lengthen a normal seatbelt to accommodate very fat people",
+"To strap a door closed for smoke extraction",
+"Not necessary for our aircraft type"
+],
+"a": [
+1
+]
+},
+{
+"q": "Survival means?",
+"o": [
+"Staying alive until rescued",
+"freedom from danger",
+"Protection",
+"evacuation"
+],
+"a": [
+0
+]
+},
+{
+"q": "Factors that determine survival are?",
+"o": [
+"Determination and will",
+"will and knowledge",
+"Protection and knowledge",
+"water and food"
+],
+"a": [
+1
+]
+},
+{
+"q": "The 3 ‘S’ survival are?",
+"o": [
+"Sea worthiness, signaling and survival",
+"Signaling, survival and sea worthiness",
+"Survival, sea worthiness and signaling"
+],
+"a": [
+0
+]
+},
+{
+"q": "The survival kit is found in",
+"o": [
+"The eclipse side",
+"Dinghies or raft",
+"The a/c galley",
+"First aid kits"
+],
+"a": [
+1
+]
+},
+{
+"q": "The principles of survival are?",
+"o": [
+"Location-protection-water-food",
+"Water-food-protection-location",
+"Protection-location-water-food",
+"Protection-location-food-water"
+],
+"a": [
+2
+]
+},
+{
+"q": "S A R stands for",
+"o": [
+"Search and resuscitate",
+"Search and rescue",
+"Search and remind",
+"Severe acute respiratory syndrome"
+],
+"a": [
+1
+]
+},
+{
+"q": "The international distress signal is",
+"o": [
+"Triangular fire",
+"Rectangular fire",
+"Circular fire",
+"Open fire"
+],
+"a": [
+0
+]
+},
+{
+"q": "After exiting the aircraft you must",
+"o": [
+"Never re-enter the aircraft",
+"Assist in evacuating others",
+"Not move 100 yards away from aircraft",
+"Re-entry only to rescue a crew member"
+],
+"a": [
+0
+]
+},
+{
+"q": "After evacuation what piece of element is available to mobilize your passengers?",
+"o": [
+"P. A. System",
+"Megaphone",
+"Interphone",
+"Whistle"
+],
+"a": [
+1
+]
+},
+{
+"q": "The first aid kit must be in stowage and ………….",
+"o": [
+"Locked",
+"Wire sealed",
+"Well painted",
+"Key locked"
+],
+"a": [
+1
+]
+},
+{
+"q": "The crash axe is insulated against voltage as high as….",
+"o": [
+"2400 volts)",
+"24000 volts",
+"240000 volts",
+"24 volts"
+],
+"a": [
+1
+]
+},
+{
+"q": "Within……….feet of every fire extinguisher is a P. B. E",
+"o": [
+"2",
+"1",
+"3",
+"10"
+],
+"a": [
+2
+]
+},
+{
+"q": "The type ‘W’ or ‘S’ ELT (Radio beacon) transmits",
+"o": [
+"48 hours",
+"38 hours",
+"2 days",
+"48 seconds"
+],
+"a": [
+0
+]
+},
+{
+"q": "NCAA stands for?",
+"o": [
+"Nigerian Council of Aviation Authority",
+"Nigerian Civil Aviation Authority",
+"National Civil Aviation Authority",
+"Nigeria Civil Aviation Authority"
+],
+"a": [
+1
+]
+},
+{
+"q": "As a cabin crew, type rating on a jet aircraft qualifies you to fly as a crew member on",
+"o": [
+"All jet aircraft",
+"jet and turbo propeller",
+"The specified aircraft only",
+"None of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "When an aircraft carries 152 passengers, what is the minimum number of flight attendants required on board?",
+"o": [
+"5",
+"4",
+"3",
+"2"
+],
+"a": [
+1
+]
+},
+{
+"q": "Cabin attendants are carried on board",
+"o": [
+"To assist passengers with luggage",
+"For passenger meal service",
+"For passenger safety and comfort",
+"For passenger comfort and safety"
+],
+"a": [
+2
+]
+},
+{
+"q": "Recurrent medical examination for cabin attendants must be carried out",
+"o": [
+"Every six months",
+"Every 12 months",
+"Every 12 days",
+"Every year"
+],
+"a": [
+1
+]
+},
+{
+"q": "The canopy in Dinghy is colour",
+"o": [
+"Orange",
+"Yellow",
+"Silver",
+"Pink"
+],
+"a": [
+0
+]
+},
+{
+"q": "The standard priority in P.A system is",
+"o": [
+"Tape reproducer, Cabin crew, Captain, Entertainment System",
+"Captain, Cabin crew, Tape reproducer, Entertainment system",
+"Cabin crew, Captain, Entertainment system, Tape reproducer",
+"Captain, Cabin crew, Entertainment system, Tape reproducer"
+],
+"a": [
+1
+]
+},
+{
+"q": "What regulatory classification under the CAR would cover a commercially operated turbo having a 38 passenger seats?",
+"o": [
+"Private operator passenger transportation",
+"Air taxi operator",
+"Commuter operator",
+"Airline Operator"
+],
+"a": [
+3
+]
+},
+{
+"q": "Under which cases may the wreckage of an aircraft be moved or removed?",
+"o": [
+"To rescue survivors",
+"To extinguish a fire",
+"To remove the aircraft",
+"A and B"
+],
+"a": [
+3
+]
+},
+{
+"q": "Multi-engine aircraft able to maintain on failure of critical engine, require life preservers when beyond………. from shores",
+"o": [
+"400NM",
+"50NM",
+"300NM",
+"Gliding distance"
+],
+"a": [
+1
+]
+},
+{
+"q": "………and ……….. are the critical phases of flight",
+"o": [
+"Take off, descent",
+"Landing, descent",
+"Take off, landing",
+"Cruising, approach"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following indicates a PBE is almost out of Oxygen?",
+"o": [
+"Integral light, turns red",
+"Integral light turns green",
+"Hood begins to collapse",
+"A and C are correct"
+],
+"a": [
+3
+]
+},
+{
+"q": "Whose responsibility is it to conduct 30 seconds review?",
+"o": [
+"Captain",
+"Cabin crew",
+"Pursers",
+"Everyone"
+],
+"a": [
+3
+]
+},
+{
+"q": "In the night prior to take off and landing, cabin lights should be set",
+"o": [
+"Channel 12",
+"Bright",
+"Dim",
+"Off"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following is not a dangerous good?",
+"o": [
+"Mercury",
+"Blood sample",
+"Butane Lighter",
+"None of the above"
+],
+"a": [
+3
+]
+},
+{
+"q": "Dry ice is considered a dangerous good because",
+"o": [
+"Leads to cabin freezing",
+"Makes the cabin frosty",
+"Takes 02 away from the cabin"
+],
+"a": [
+2
+]
+},
+{
+"q": "Whose responsibility is it to ensure compliance with the provisions of the ‘AOC’ ?",
+"o": [
+"Captain",
+"Airline operator",
+"Cabin attendants",
+"None of the above"
+],
+"a": [
+1
+]
+},
+{
+"q": "If a passenger is choking (because food has entered the air passage) , would you",
+"o": [
+"Try to remove the obstruction if possible with tongs, then use an abdominal thrust",
+"Slap the passenger between shoulder blades, commence mouth to mouth",
+"Check mouth, try if possible to remove the obstruction, if not then bend passenger forward so that the head is lower than the chest, give up five sharp blows to their back between the shoulder blades, followed by abdominal thrust if necessary."
+],
+"a": [
+2
+]
+},
+{
+"q": "If passenger is having an asthmatic attack how would you treat him/her?",
+"o": [
+"Advice passenger to sit down and sit upright leaning forward on lap tray, allow passenger to use his/her own inhaler, have oxygen available, remain with passenger until better",
+"Administer oxygen, place in recovery, position if passenger becomes unconscious",
+"Advice passenger to lean back, breathe deeply, not to smoke for remainder of flight"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the first aid for a passenger who is hyper ventilating?",
+"o": [
+"Recline seat, administer oxygen on high flow, request medical aid to meet the aircraft",
+"Loosen tight clothing, reassure while advising passenger to breathe in and out of paper bag or aircraft sick bag for few minutes to restore carbon-dioxide and oxygen balance",
+"Slap passenger across the face, tell him to pull himself together, treat for nervous shock, give oxygen if necessary."
+],
+"a": [
+1
+]
+},
+{
+"q": "If a known diabetic passenger (insulin reaction) is found in a hypoglycemic condition and appears too confused to help himself, what would you do?",
+"o": [
+"Tell the captain to radio ahead and ask for medical assistance to meet the aircraft on landing at normal destination",
+"Dissolve one large table spoon of sugar in a little warm water, help to administer fluid while reassuring passenger. There is generally a dramatic improvement in a passenger’s condition within 10-15 minutes, however treatment may be repeated after 15 minutes",
+"None of the above"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following is true of carriage of PRM?",
+"o": [
+"PRM’s are not allocated nor occupy seats where their presence could impede the crew in their duties",
+"PRM’s are not allocated nor occupy seat where their presence could obstruct access to emergency equipments",
+"PRM’s are not allocated nor occupy seats where their presence could impede the emergency evacuation of the aeroplane",
+"None of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "………….must be notified when an inadmissible passenger, deportee or persons in custody boards an aeroplane",
+"o": [
+"The commander",
+"Cabin crew only",
+"The operator",
+"None of the above."
+],
+"a": [
+0
+]
+}
+]

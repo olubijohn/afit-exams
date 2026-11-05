@@ -1,0 +1,588 @@
+[
+{
+"q": "What will cause the NO SMOKING, FASTEN SEATBELTS and RETURN TO CABIN SIGNS (ON AIR CRAFT) to illuminate automatically?",
+"o": [
+"Decompression",
+"Pressurization",
+"Smoke in cabin",
+"Wing contamination"
+],
+"a": [
+0
+]
+},
+{
+"q": "One of the primary dangers of decompression is",
+"o": [
+"Heart attack",
+"Ear blockade",
+"Hypoxia",
+"Heart exhaustion"
+],
+"a": [
+2
+]
+},
+{
+"q": "The Automatic Extinguisher will discharge when the fire temperature rises to?",
+"o": [
+"1250F",
+"1550F",
+"1700F",
+"1850 F"
+],
+"a": [
+2
+]
+},
+{
+"q": "How many ABP’s should you assign per window exit in an Emergency?",
+"o": [
+"4",
+"3",
+"2",
+"6"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is on all aircraft to aid passenger evacuation, if you must stay low or crawl?",
+"o": [
+"Crash Axe",
+"Exit signs",
+"Knee pads",
+"Emergency floor level lighting"
+],
+"a": [
+3
+]
+},
+{
+"q": "The B737-300 aircraft is equipped with a drop-down 02 system, when decompression occurs at 35,000 feet, which one of the procedures listed below will you do?",
+"o": [
+"Tell the captain",
+"Put oxygen mask on immediately, sit down and fasten seatbelt.",
+"Continue serving until notified by captain.",
+"Move passengers to more comfortable seats."
+],
+"a": [
+1
+]
+},
+{
+"q": "At what cabin altitude pressures will the oxygen mask doors automatically open",
+"o": [
+"6,000 feet",
+"10,000 feet",
+"14,000 feet",
+"27,000 feet"
+],
+"a": [
+2
+]
+},
+{
+"q": "If you had a fire in one of the electrical Systems of the aircraft, what extinguisher will you use",
+"o": [
+"H20 fire extinguisher",
+"Halon fire extinguisher",
+"Crash axe to cut the wires and use Halon 1211 fire extinguisher",
+"Air sickness bag filled with water"
+],
+"a": [
+1
+]
+},
+{
+"q": "The water glycol extinguisher should be used for?",
+"o": [
+"Electrical fires only",
+"Oil and grease fires only",
+"Material fires only",
+"Metal fires"
+],
+"a": [
+2
+]
+},
+{
+"q": "In an unplanned emergency, how many ABP’s should you require for a door exit?",
+"o": [
+"2",
+"3",
+"4",
+"6"
+],
+"a": [
+1
+]
+},
+{
+"q": "If you use water glycol extinguisher on an electrical fire ---",
+"o": [
+"It may generate move electricity",
+"It may increase or spread the fire",
+"It will cause panic in the cabin",
+"It may cause shock or electrocution"
+],
+"a": [
+3
+]
+},
+{
+"q": "The ABC of Emergency is?",
+"o": [
+"Accident, basic centre",
+"Awareness, Behaviour, Consequence",
+"Accident, behavior, command.",
+"Aircraft Boarding control"
+],
+"a": [
+1
+]
+},
+{
+"q": "Factors that determine survival are:",
+"o": [
+"Determination and will",
+"Will and knowledge",
+"Protection and knowledge",
+"Water and food"
+],
+"a": [
+1
+]
+},
+{
+"q": "The 3 ‘S’ of survival are:",
+"o": [
+"Sea worthiness signaling and survival",
+"Signaling, Survival and Seaworthiness",
+"Survival, Seaworthiness and Signaling",
+", Seaworthiness ,Survival and Signaling"
+],
+"a": [
+3
+]
+},
+{
+"q": "The principles of survival are?",
+"o": [
+"Location-protection-water-food",
+"Water-food-protection-location",
+"Protection-location-water-food.",
+"Provision , water location and food"
+],
+"a": [
+2
+]
+},
+{
+"q": "S A R stands for………………………………………………..?",
+"o": [
+"Search and Resuscitate",
+"Search and Rescue",
+"Search and Remind",
+"Stop and search"
+],
+"a": [
+1
+]
+},
+{
+"q": "The international distress signal is?",
+"o": [
+"Triangular fire",
+"Rectangular fire",
+"Circular fire",
+"None of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "After exiting the aircraft in an emergency, you must…",
+"o": [
+"Never re-enter the aircraft",
+"Assist in evacuating others",
+"Move 100 yard away from aircraft",
+"To take some food and drinks"
+],
+"a": [
+0
+]
+},
+{
+"q": "After evacuation, what piece of equipment is available to mobilize your passengers?",
+"o": [
+"P.A. System",
+"Megaphone",
+"Interphone",
+"Whistle"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the  following indicates that the PBE is almost out of oxygen",
+"o": [
+"Integral light, turns red",
+"integral turns green",
+"Hood begins to collapse",
+"A and C are correct"
+],
+"a": [
+3
+]
+},
+{
+"q": "What steps would you take to fight an Oven fire?",
+"o": [
+"Pull-in circuit breaker, switch off oven power, slightly open door and spray the extinguisher, close oven and monitor",
+"Pull-out circuit breaker, switch off oven power, slightly open oven spray extinguisher and close oven , monitor oven",
+"Pull-off circuit open oven door and spray extinguisher",
+"Put-off power open oven and spray extinguisher"
+],
+"a": [
+1
+]
+},
+{
+"q": "Emergency is anything that endangers",
+"o": [
+"The Captain and the Aircraft",
+"The Aircraft and runway",
+"The passengers, Crew and Aircraft",
+"Only the Aircraft"
+],
+"a": [
+2
+]
+},
+{
+"q": "………………..of Air accident happen during",
+"o": [
+"80%.......take -off and descent",
+"20%.......ascent and landing",
+"80%.......take- off and landing",
+"80%..... cruising and descent"
+],
+"a": [
+2
+]
+},
+{
+"q": "Cabin Attendants should evacuate passengers when?",
+"o": [
+"There is a structural damage to the aircraft",
+"There is fire and smoke",
+"Aircraft is out of the runway",
+"all of the above"
+],
+"a": [
+3
+]
+},
+{
+"q": "In an unplanned Emergency evacuation, the pre – impact commands will be",
+"o": [
+"Brace! Brace!",
+"Heads down! Grab Ankles! Stay down",
+"Put hands behind body",
+"Open seat belts!"
+],
+"a": [
+1
+]
+},
+{
+"q": "In a planned evacuation, the preparations are in the following order:",
+"o": [
+"Crew, Passenger and Cabin preparation",
+"Passenger, Cabin and Crew preparation",
+"Cabin, Passenger, and crew preparation"
+],
+"a": [
+0
+]
+},
+{
+"q": "The Smoke hood works for approximately?",
+"o": [
+"15 sec",
+"10 min",
+"15 min",
+"15hrs"
+],
+"a": [
+2
+]
+},
+{
+"q": "The safety/serviceability check on the Oxygen Cylinder includes Date last checked / Date next due outlets covered masks attached, On/ Off knob carrying strap fixed?",
+"o": [
+"True",
+"False",
+"There are no checks",
+"That cylinder is not carried onboard"
+],
+"a": [
+0
+]
+},
+{
+"q": "The primary exit in a ditching is?",
+"o": [
+"Forward entry door",
+"All service doors",
+"Aft entry door",
+"Over-wing exit"
+],
+"a": [
+3
+]
+},
+{
+"q": "In the absence of a raft, the slide may be used as a flotation device?",
+"o": [
+"True",
+"False",
+"The B737 carries no slide",
+"None of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "In the initial preparation for planned emergency, cabin lights should be turned on:",
+"o": [
+"Fully Bright",
+"Dim",
+"Semi Bright",
+"None of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "During planned emergency preparation, heavier luggage should be placed:",
+"o": [
+"In the rack",
+"In the lavatory",
+"under the seat",
+"in the Galley"
+],
+"a": [
+2
+]
+},
+{
+"q": "To know that fire has burned in the cabinet under the toilet wash hand basin, the temperature indicator placard changes from",
+"o": [
+"Green/ Grey to brown",
+"Grey/ silver to black",
+"Black to Grey/ Silver",
+"Silver/Grey brown"
+],
+"a": [
+1
+]
+},
+{
+"q": "The sequence of passenger’s evacuation is:",
+"o": [
+"Mobile adults, Unaccompanied Minors, Mothers with babies, disable passengers",
+"U. M., Mobile adults, Mothers with babies, disable persons",
+"Disabled person, U. M, Mothers with babies and Mobile adults.",
+"All of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "The following, information must be gathered from the captain, in a planned emergency:",
+"o": [
+"Brace signal and special instruction",
+"All of the above",
+"Information is not necessary."
+],
+"a": [
+1
+]
+},
+{
+"q": "In planned emergency evacuation ABP’s are to hold?",
+"o": [
+"Bottom of slide",
+"Tail cone",
+"Capt/ Co-pilot",
+"The Cabin Crew"
+],
+"a": [
+0
+]
+},
+{
+"q": "Cabin Crew should open exits when…..",
+"o": [
+"Aircraft has come to a final stop",
+"Capt. Gives evacuation order",
+"After checking outside condition and slide is armed",
+"All of the above"
+],
+"a": [
+3
+]
+},
+{
+"q": "Survival simply means….",
+"o": [
+"Being alive",
+"Staying alive until rescued",
+"Freedom from danger",
+"staying awake"
+],
+"a": [
+1
+]
+},
+{
+"q": "Factors that determine survival are…..",
+"o": [
+"The will and knowledge of survival",
+"Knowledge of survival",
+"Knowledge of equipment",
+"Knowledge of the environment"
+],
+"a": [
+0
+]
+},
+{
+"q": "In order of priority, principles of survival are",
+"o": [
+"Water, food, protection, location",
+"Protection, location, water, food",
+"Location, water, protection, food",
+"Location, food water, protection,"
+],
+"a": [
+1
+]
+},
+{
+"q": "The normal body temperature is",
+"o": [
+"94.8°F",
+"98.4°F",
+"102°F",
+"37F"
+],
+"a": [
+1
+]
+},
+{
+"q": "The average body contains approximately ………pint of water",
+"o": [
+"88",
+"99",
+"68",
+"78"
+],
+"a": [
+0
+]
+},
+{
+"q": "After the loss of ……..pint of water, you become comatose.",
+"o": [
+"88",
+"99",
+"11",
+"44"
+],
+"a": [
+2
+]
+},
+{
+"q": "The jungle is the easiest place to survive because;",
+"o": [
+"There is abundant supply of food and water",
+"There is shelter",
+"The location is visible",
+"The location is comfortable"
+],
+"a": [
+0
+]
+},
+{
+"q": "When dealing with plants in the jungle you must;",
+"o": [
+"Eat anything with a milky sap",
+"Avoid brightly colored plants",
+"Avoid all jungle fungi",
+"B and C"
+],
+"a": [
+3
+]
+},
+{
+"q": "The dangers of the desert are;",
+"o": [
+"A sea of sand and oasis",
+"Scarcity of water and hot temperature",
+"Wild natives",
+"None of the above"
+],
+"a": [
+1
+]
+},
+{
+"q": "How many liters of O2 are contained in the bottle?",
+"o": [
+"410 liters",
+"310 liters",
+"210 liters",
+"110 liters"
+],
+"a": [
+1
+]
+},
+{
+"q": "Can the smoke detector be demobilized and rendered in active?",
+"o": [
+"It cannot be reached",
+"It can’t be touched because it will shock",
+"It can be demobilized",
+"There is no difference"
+],
+"a": [
+2
+]
+},
+{
+"q": "The Smoke hood is used?",
+"o": [
+"Crew walk around after a decompression",
+"O2 administration on a sick passenger",
+"To fight fire in a smoky environment",
+"To court fire in a smoky environment"
+],
+"a": [
+2
+]
+}
+]

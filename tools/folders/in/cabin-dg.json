@@ -1,0 +1,283 @@
+[
+{
+"q": "The term dangerous goods refer to…….",
+"o": [
+"Article or Substances capable of posing a significant threat to passengers, crew and aircraft",
+"Liquid substances capable of posing a significant threat to passengers, crew and aircraft",
+"Article or substances capable of posing a significant threat to passengers and aircraft"
+],
+"a": [
+0
+]
+},
+{
+"q": "When do dangerous goods become dangerous?",
+"o": [
+"If a passenger swallows it",
+"When cabin crew members are not adequately trained and are careless in stowing baggage",
+"At the moment they are spilled or get into contact with another substance and start reacting."
+],
+"a": [
+2
+]
+},
+{
+"q": "The term IATA stands for …..",
+"o": [
+"International Air Transport Association",
+"International Aviation Trade Association",
+"International Association of Travel Agencies"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which one of these best describes the categories of dangerous goods?",
+"o": [
+"Forbidden, wanted, unwanted and acceptable",
+"Forbidden, acceptable, unwanted and excepted",
+"Accepted, Forbidden, exempted and excepted"
+],
+"a": [
+2
+]
+},
+{
+"q": "Examples of forbidden dangerous goods are",
+"o": [
+"Classes 1 and 7",
+"Classes 1 and 9",
+"Classes 7 and 9"
+],
+"a": [
+0
+]
+},
+{
+"q": "which of the following is not a dangerous good?",
+"o": [
+"Nail remover",
+"Car paint",
+"None of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "Why is dry ice considered to be a dangerous good?",
+"o": [
+"it starves the compartment of oxygen",
+"it can cause the tire",
+"it can cause common cold"
+],
+"a": [
+0
+]
+},
+{
+"q": "which one of the following is dangerous when wet?",
+"o": [
+"Sulphoric acid",
+"Mercury",
+"c\tSodium"
+],
+"a": [
+0
+]
+},
+{
+"q": "Oily paint is considered a dangerous good as it may cause……",
+"o": [
+"Skin injury",
+"Fire",
+"Slippery"
+],
+"a": [
+1
+]
+},
+{
+"q": "Mercury as a dangerous good can cause…..",
+"o": [
+"Corrosion",
+"Explosion",
+"Fire"
+],
+"a": [
+0
+]
+},
+{
+"q": "Dangerous goods class 6 is…..",
+"o": [
+"Poison",
+"Explosive",
+"Radioactive"
+],
+"a": [
+0
+]
+},
+{
+"q": "Magnet is classified under ……",
+"o": [
+"Radioactive substances",
+"Miscellaneous",
+"Flammable solid"
+],
+"a": [
+1
+]
+},
+{
+"q": "Kerosine in a 4liter gallon is a……..",
+"o": [
+"Flammable liquid",
+"Gaseous substances",
+"Flammable solid"
+],
+"a": [
+0
+]
+},
+{
+"q": "Handle dangerous goods leak or spill, cabin crew must……",
+"o": [
+"Wear protective hand glove",
+"Cover mouth and nose with PBE for gas leak",
+"All of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "Label with 2 black arrows pointed up means that …….",
+"o": [
+"Article must be placed upside down",
+"Article must be placed upright in tile direction of arrow",
+"Article must loaded with special care"
+],
+"a": [
+1
+]
+},
+{
+"q": "Label with drinking glass means……",
+"o": [
+"Article is fragile",
+"Article is perishable",
+"Article has liquid content"
+],
+"a": [
+0
+]
+},
+{
+"q": "Label with an umbrella attach to a baggage means …..",
+"o": [
+"Article is owned by PDP",
+"Article must be protected from rain and water",
+"Article must be covered with an umbrella"
+],
+"a": [
+1
+]
+},
+{
+"q": "What class of dangerous goods is miscellaneous……",
+"o": [
+"5",
+"7",
+"9",
+"8"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which one of the following is not a dangerous good?",
+"o": [
+"Blood sample",
+"Gallon of car paint",
+"Small clinical thermometer",
+"None of the above"
+],
+"a": [
+3
+]
+},
+{
+"q": "The ………. Restrictions guide the carriage of dangerous goods on board an aircraft",
+"o": [
+"Quality per package and correct packaging",
+"All dangerous goods must be carried under license",
+"Consideration of aircraft altitude and range"
+],
+"a": [
+0
+]
+},
+{
+"q": "When do dangerous good become dangerous…….",
+"o": [
+"If a passenger swallows it",
+"When cabin crew members are not adequately trained and are careless in stowing baggage",
+"At the moment they are spilled or get into contact with another substance and start reacting"
+],
+"a": [
+2
+]
+},
+{
+"q": "If an unknown person approaches you at the Airport to take a parcel of his sick mother in mail, what should your response be……..",
+"o": [
+"Be kind and take the parcel",
+"Refuse and report the matter to security",
+"Sony it’s not your problem"
+],
+"a": [
+1
+]
+},
+{
+"q": "If a passenger boarded your aircraft with a package displaying a Class 1 sticker, your actions should be to…….",
+"o": [
+"Accept the package as baggage and redirect the passenger to the Airline Sales Department",
+"Challenge the passenger as to the contents, investigate to ensure that the contents are safe for carriage.",
+"If contents are safe, remove or obliterate sticker. If unsafe direct passenger to the cargo department",
+"Take the package from the passenger and have it placed in the tail of the plane as cargo. Advice the",
+"Captain"
+],
+"a": [
+1
+]
+},
+{
+"q": "Which of the following is not a dangerous good…….",
+"o": [
+"Mercury",
+"Sodium",
+"Butane lighter",
+"None of the above"
+],
+"a": [
+3
+]
+},
+{
+"q": "Dry ice is considered a dangerous goods because it ……..",
+"o": [
+"Lead to Cabin freezing",
+"Makes the cabin frosty",
+"Take 02 away from the cabin",
+"All of the above"
+],
+"a": [
+2
+]
+}
+]

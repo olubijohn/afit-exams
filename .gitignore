@@ -2,3 +2,8 @@ node_modules/
 supabase/.temp/
 .env*
 *.log
+
+# Cabin Crew source copies and scans stay local
+tools/cabin/src/
+tools/cabin/scan/
+tools/cabin/survey.txt

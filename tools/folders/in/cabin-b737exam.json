@@ -1,0 +1,601 @@
+[
+{
+"q": "Passenger seating capacity all economy in B737-300 is?",
+"o": [
+"145",
+"149",
+"147",
+"148"
+],
+"a": [
+3
+]
+},
+{
+"q": "Crew recommended for this Aircraft is?",
+"o": [
+"1 Captain and 1 first officer only",
+"1 Captain and up to 4 Cabin Crew Member (CCMS)",
+"2 Captain and 1 first only",
+"1 Captain and 1 first officer and up to 4 CCMS"
+],
+"a": [
+3
+]
+},
+{
+"q": "The Maximum speed of the B737-300 is?",
+"o": [
+"433 Knots (.8 mach)",
+"436 Knots (.8 mach)",
+"435 Knots (.8 mach)",
+"434 Knots (.8 mach)"
+],
+"a": [
+2
+]
+},
+{
+"q": "The maximum operating Altitude of the B737-300 is?",
+"o": [
+"35,000 feet",
+"38,000 feet",
+"36,000 feet",
+"37,000 feet"
+],
+"a": [
+3
+]
+},
+{
+"q": "The APU is a gas turbine engine capable of?",
+"o": [
+"Operating only in the air",
+"Operating only on ground",
+"Operating both in the air and on ground",
+"Operating with batteries attached"
+],
+"a": [
+2
+]
+},
+{
+"q": "The electrical power system supplies?",
+"o": [
+"115 Volt AC and 20 Volt DC electrical power",
+"115 Volt AC and 24 Volt DC electrical power",
+"115 Volt AC and 28 Volt DC electrical power",
+"115 Volt AC and 26 Volt DC electrical power"
+],
+"a": [
+2
+]
+},
+{
+"q": "On ground, power can also be provided by the APU or by?",
+"o": [
+"Internal power carts",
+"External ground power carts",
+"Generating power unit",
+"None of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "Normally, bleed air for air conditioning and pressurization is supplied by?",
+"o": [
+"APU",
+"GPU",
+"Engines",
+"Batteries"
+],
+"a": [
+0
+]
+},
+{
+"q": "Temperature is controlled separately for the flight deck and the passenger cabin",
+"o": [
+"Located forward and aft",
+"On the right side of the aircraft only",
+"Only in the forward",
+"Located forward and aft side of the aircraft"
+],
+"a": [
+0
+]
+},
+{
+"q": "The passenger cabin is served by two entry doors",
+"o": [
+"Located forward and aft",
+"On the right side of the aircraft only",
+"Only in the forward",
+"Located forward and aft left side of the aircraft"
+],
+"a": [
+3
+]
+},
+{
+"q": "What is the normal pressure of the escape slide air bottle?",
+"o": [
+"2600-3000 psi",
+"2000-2700 psi",
+"2700-3000 psi",
+"1500-2700 psi"
+],
+"a": [
+2
+]
+},
+{
+"q": "Which entry door is equipped with an Airstair?",
+"o": [
+"Door L2",
+"Door L1",
+"Door R2",
+"Door R1"
+],
+"a": [
+1
+]
+},
+{
+"q": "Where is the auxiliary power unit (APU) located?",
+"o": [
+"In the cargo hold",
+"At the tail of the aircraft",
+"In the cabin",
+"None of the above"
+],
+"a": [
+1
+]
+},
+{
+"q": "What services are normally found in a passenger service unit (PSU)?",
+"o": [
+"Oxygen masks, Crew call button speaker, and reading lights",
+"Reading lights, air-vent, speaker, and crew call button.",
+"Oxygen masks, reading lights, air-vent, crew call button, no-smoking and fasten seatbelt signs and seat indicator signs",
+"None of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "How many oxygen masks are normally found in a flight attendant or lavatory service unit?",
+"o": [
+"4 each",
+"2 each",
+"3 each",
+"6 each"
+],
+"a": [
+1
+]
+},
+{
+"q": "Where are the ceiling and window lights controlled in the cabin?",
+"o": [
+"From the cockpit",
+"From the aft attendants control panel",
+"From the forward attendances control panel",
+"From both forward and aft attendants control panel"
+],
+"a": [
+2
+]
+},
+{
+"q": "From which station can passenger announcements be made?",
+"o": [
+"Forward station only",
+"Aft station only",
+"From both forward and aft",
+"None of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "The water quantity indicator has?",
+"o": [
+"E, ½, 1/4 , and F indicators",
+"E,1/4, 1/2 , and F indicators",
+"E, 1/4, 1/2 ,3/4 and F indicators",
+"E, ½, 3/4 , and F indicators"
+],
+"a": [
+2
+]
+},
+{
+"q": "The galley power switch on the B737-300 is?",
+"o": [
+"Located in the rear attendant panel",
+"Located in the toilet",
+"Located in the galley areas",
+"Located in the cockpit overhead panel"
+],
+"a": [
+3
+]
+},
+{
+"q": "The height of the aircraft from the tail to the ground?",
+"o": [
+"38 feet 9 inches",
+"37 feet 7 inches",
+"36 feet 6 inches",
+"36 feet 5 inches"
+],
+"a": [
+2
+]
+},
+{
+"q": "The flight deck deadbolt locking system?",
+"o": [
+"Rotating both levers in the vertical positions unlock the door",
+"Rotating only the forward levels to the locked position allows the door to be unlocked from the cabin side with a key inserted into the keyhole",
+"Rotating both bolt levers to the horizontal locked position prevents the Boeing key from unlocking the door",
+"All of the above"
+],
+"a": [
+3
+]
+},
+{
+"q": "The B737-300 door description will include?",
+"o": [
+"Red flag, door window and door handle",
+"Slide pressure gauge",
+"Girt bar, floor bracket",
+"All of the above including a door safety strap"
+],
+"a": [
+3
+]
+},
+{
+"q": "A pre- flight check on a B737-300 door includes?",
+"o": [
+"Door window is clear and red flag is attached to the door",
+"Needle is in the green band on the slide pressure guage on the door",
+"Girt bar stowed correctly on the stowage hooks.",
+"All of the above"
+],
+"a": [
+3
+]
+},
+{
+"q": "Cabin Crew seats are?",
+"o": [
+"Pull down types that will not automatically return to the stowage position when unoccupied",
+"Pull down types that automatically return to the stowed position when unoccupied",
+"Answer",
+"is correct plus a combination of seatbelt shoulder harness and padded headrests are installed on the seat",
+"None of the above."
+],
+"a": [
+2
+]
+},
+{
+"q": "To move the flight deck crew seat forward or aft?",
+"o": [
+"Push the seat  track movement lever aft and slides the seat on the rails",
+"Pull the seat track movement aft and slide the seat  on the rails",
+"None of the above",
+"I don’t know"
+],
+"a": [
+1
+]
+},
+{
+"q": "The Airstairs Exterior operation is possible?",
+"o": [
+"The panel is below the Forward entry Door",
+"The panel is below and Aft of the Forward Entry Door",
+"The panel is below Aft Entry Door",
+"The panel is above the Forward Service Door"
+],
+"a": [
+1
+]
+},
+{
+"q": "The Flight Deck Deadbolt Locking System?",
+"o": [
+"Rotating both bolt levers in the vertical position unlock the door",
+"Rotating only the forward levers to locked position unlock the door from the cabin allows the door to be unlocked",
+"Rotating both bolt levers in the horizontal  lock position prevents the Boeing key from unlocking the door",
+"All of the above"
+],
+"a": [
+3
+]
+},
+{
+"q": "Seats immediately in front of the overwing exit rows?",
+"o": [
+"Recline forward only",
+"Recline rearwards only",
+"Do not recline",
+"None of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "The overhead stowage bin?",
+"o": [
+"Has a placard stating maximum weight capacity",
+"Has a placard stating minimum weight capacity",
+"Has a placard stating some weight capacity",
+"Has a placard stating all weight capacity"
+],
+"a": [
+0
+]
+},
+{
+"q": "The 373-300/400/500 Aircraft cabin doors are?",
+"o": [
+"Plug type doors that open inward",
+"Plug type that open outward automatically",
+"Plug type doors retracting upwards",
+"Plug type that swing outward"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the function of the gust lock on the B737-300/400/500 doors?",
+"o": [
+"To keep the door from closing in windy conditions or in an abnormal attitude",
+"To keep the door closed in an abnormal attitude",
+"These doors are not equipped with gust lock",
+"To stabilize the slides/rafts in windy conditions"
+],
+"a": [
+0
+]
+},
+{
+"q": "How are the escapes slides armed on the B737-300/400/500 aircraft?",
+"o": [
+"Detach the girt bar from stowage clips secured it to the floor brackets",
+"Lift the cover and move the lever to the armed mode",
+"Detach the girt bar from the floor brackets and attach to the clips on the bustle",
+"Lift the flap and pull the handle"
+],
+"a": [
+0
+]
+},
+{
+"q": "Where are the water shut off valves located on the B737-300/400/500?",
+"o": [
+"Behind a panel below each toilet hand basin and in each galley areas",
+"Behind the last row of seats in the economy class under a cover",
+"In the flight  deck, behind the first officers seat"
+],
+"a": [
+0
+]
+},
+{
+"q": "How is the escape slides disarmed on the B737-300/400/500/",
+"o": [
+"Lift the cover and move the arming lever to the disarmed mode",
+"Detach the girt bar from the floor brackets, secure it to the clips on the bottom of the bustle",
+"Lift the flap and pull the handle",
+"Detach the girt bar from the bustle and attach it to the brackets on the floor"
+],
+"a": [
+1
+]
+},
+{
+"q": "What indications will there be in the cabin on the B737-300/400/500 when receiving an interphone call from another attendant?",
+"o": [
+"A single high/low chime, steady pink light illuminating on the master call indicator",
+"A double high/low chime, pink light illuminating on the master call indicator",
+"A single low chime, pink light illuminating on the master call indicator",
+"A single low chime amber light illuminating on the master call indicator"
+],
+"a": [
+1
+]
+},
+{
+"q": "The Airstairs operating can be operated",
+"o": [
+"To extend only",
+"To extend and retract",
+"To retract only",
+"To extand, retract in normal and standby modes"
+],
+"a": [
+3
+]
+},
+{
+"q": "Airstairs operating panel and control are:",
+"o": [
+"On top of the forward entry door",
+"Below the forward entry door",
+"Top right hand side of forward and aft entry door",
+"None of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "The water quantity indicator gauge is located?",
+"o": [
+"Above the forward entry door",
+"Above the aft service door",
+"Above the forward service door",
+"Above the aft entry door"
+],
+"a": [
+1
+]
+},
+{
+"q": "The emergency exit master light switch in the cabin is located at?",
+"o": [
+"Cockpit",
+"The forward cabin crew panel",
+"The aft cabin crew panel",
+"Both forward and aft cabin crew panel"
+],
+"a": [
+2
+]
+},
+{
+"q": "The flight deck oxygen system is supplied by?",
+"o": [
+"A single, double compartment cylinder",
+"A single cylinder",
+"A double cylinder",
+"A double-sided cylinder"
+],
+"a": [
+1
+]
+},
+{
+"q": "The B737-300/400/500 door description will include?",
+"o": [
+"Red flag, door window and door control handle",
+"Slide pressure gauge",
+"Girt bar, floor brackets",
+"All of the above including door safety strap"
+],
+"a": [
+3
+]
+},
+{
+"q": "How does one from outside know that the toilet door is locked?",
+"o": [
+"The key is always on the door",
+"There is an indication on the door that says “Occupied”",
+"There is no indication on the door that says “Occupied”",
+"The door simply says locked"
+],
+"a": [
+1
+]
+},
+{
+"q": "If there is fire in the toilet waste bin, how do you fight the fire?",
+"o": [
+"The halon 1211 extinguisher is used to fight it",
+"The water glycol is used to fight it manually",
+"The Freon extinguisher discharges automatically to put on the fire",
+"You may use tea or water since it is material fire"
+],
+"a": [
+2
+]
+},
+{
+"q": "The function of the Temperature Indicator Placard?",
+"o": [
+"To indicate the intensity of the smoke",
+"To indicate the intensity of the heat of the fire",
+"To indicate where the fire burned",
+"To indicate when the fire burned"
+],
+"a": [
+1
+]
+},
+{
+"q": "The temperature indicator placard is located?",
+"o": [
+"In the aircraft toilet",
+"In the compartment beneath the wash hand basin",
+"In the compartment above the wash hand basin"
+],
+"a": [
+1
+]
+},
+{
+"q": "The function of the water shut-off valve is:",
+"o": [
+"To supply water to toilet",
+"To supply water to a galley",
+"To cut-off water to a toilet only",
+"To cut-off supply of water to a toilet/galley"
+],
+"a": [
+3
+]
+},
+{
+"q": "Where is the toilet shut-off valve located",
+"o": [
+"In the compartment beneath the wash hand basin",
+"In the compartment above wash hand basin",
+"In the toilet overhead panel",
+"In the toilet control panel"
+],
+"a": [
+0
+]
+},
+{
+"q": "How many galleys are provided on the B737-300/400/500 Aircarft?",
+"o": [
+"Two, one forward and one aft",
+"Three, one forward and two aft",
+"Three, two forward and one aft",
+"Four, two forward and two aft"
+],
+"a": [
+0
+]
+},
+{
+"q": "What equipment on B737-300/400/500 aircraft will you use to fight fire in the toilet",
+"o": [
+"Halon 1211 extinguisher",
+"Smoke hood",
+"Fire axe",
+"All of the above"
+],
+"a": [
+3
+]
+},
+{
+"q": "Which door on B737-300/400/500Aircarft is considered as least risk disposal of an explosive device if found on board",
+"o": [
+"L1",
+"L2",
+"R1",
+"R2"
+],
+"a": [
+3
+]
+}
+]

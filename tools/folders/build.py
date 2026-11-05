@@ -129,7 +129,22 @@ folder('gte24', 'GTE LICENSE EXAM COMPILATION 2024', 'gte', [(f'gte24-{i}', s['n
 folder('m15', 'EASA PART 66 BLOG Module 15, Gas Turbine Engine', 'gte', [('m15-' + s['name'].split(' ')[0].split('.')[1], s['name'], s['qs']) for s in G['pdf']], topics=True)
 # a slide deck with no topics of its own: one folder (gte_ncaa.py: the bold green option is the answer)
 folder('gtencaa', 'GTE General NCAA 1', 'gte', [('gtencaa', None, I('gte_ncaa.json'))])
-SHOW = ['gp24', 'gp', 'deji', 'g23', 'gp2', 'comp', 'pist', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa', 'aap14', 'gte24', 'm15', 'gtencaa']
+# ---- Cabin Crew department: tools/cabin/parse_cabin.py reads the files into in/cabin-*.json (one folder per file)
+CC = lambda f: I(f'cabin-{f}.json')
+folder('cc-airlaw', 'AIR LAW AND PROCEDURES EXAMINATION', 'cc-law', [('cc-airlaw', None, CC('airlaw'))])
+folder('cc-mockairlaw34', 'MOCK AIR LAW - 34', 'cc-law', [('cc-mockairlaw34', None, CC('mockairlaw34'))])
+folder('cc-b737exam', 'B737 AIRCRAFT TYPE EXAM', 'cc-type', [('cc-b737exam', None, CC('b737exam'))])
+folder('cc-progress2', 'AIRCRAFT TYPE B737-300 PROGRESS TEST II', 'cc-type', [('cc-progress2', None, CC('progress2'))])
+folder('cc-cctb36', 'CCTB 36 MOCK PAPER II', 'cc-type', [('cc-cctb36', None, CC('cctb36'))])
+folder('cc-sep', 'SEP EXAM', 'cc-safety', [('cc-sep', None, CC('sep'))])
+folder('cc-dg', 'DANGEROUS GOODS EXAM', 'cc-safety', [('cc-dg', None, CC('dg'))])
+folder('cc-firstaid', 'FIRST AID AND AVIATION MEDICINE EXAM', 'cc-safety', [('cc-firstaid', None, CC('firstaid'))])
+folder('cc-prep', 'PREPARATORY GUIDE TO FLIGHT ATTENDANT LICENCE EXAM', 'cc-licence',
+       [('cc-prep-type', 'Aircraft Type B737', CC('prep-type')), ('cc-prep-gen', 'Air Law / General Paper', CC('prep-gen'))], topics=True)
+folder('cc-ncaa2', 'NCAA QUESTIONS 2', 'cc-licence', [('cc-ncaa2', None, CC('ncaa2'))])
+CARDS = [{'id': f'card-{i}', **c} for i, c in enumerate(CC('cards'), 1)]
+SHOW = ['gp24', 'gp', 'deji', 'g23', 'gp2', 'comp', 'pist', 'p200', 'jul19', 'ame1', 'ame2', 'm11', 'pma19', 'pmas', 'pma18', 'ncaa', 'aap14', 'gte24', 'm15', 'gtencaa',
+        'cc-airlaw', 'cc-mockairlaw34', 'cc-b737exam', 'cc-progress2', 'cc-cctb36', 'cc-sep', 'cc-dg', 'cc-firstaid', 'cc-prep', 'cc-ncaa2']
 live = {x['folder'] for x in subjects if x['count']}
 folders = sorted([fo for fo in folders if fo['id'] in live], key=lambda fo: SHOW.index(fo['id']))   # a file with nothing new is not shown
 subjects.sort(key=lambda x: SHOW.index(x['folder']))
@@ -150,8 +165,15 @@ B = {'source': 'One folder per file sent: ' + '; '.join(f['name'] for f in folde
      'papers': [{'id': 'general', 'name': 'General Paper', 'short': 'General'}, {'id': 'piston', 'name': 'Piston Engines', 'short': 'Piston'},
                 {'id': 'pma', 'name': 'Pressurised Airframe', 'short': 'Pressurised'},
                 {'id': 'upma', 'name': 'Unpressurised Metal Airframe', 'short': 'Unpressurised'},
-                {'id': 'gte', 'name': 'Gas Turbine Engine', 'short': 'Gas Turbine'}, {'id': 'compass', 'name': 'Compass', 'short': 'Compass'}],
-     'folders': folders, 'subjects': [s for s in subjects if s['count']], 'questions': Q}
+                {'id': 'gte', 'name': 'Gas Turbine Engine', 'short': 'Gas Turbine'}, {'id': 'compass', 'name': 'Compass', 'short': 'Compass'},
+                {'id': 'cc-law', 'name': 'Air Law & Procedures', 'short': 'Air Law', 'dept': 'cabin'},
+                {'id': 'cc-type', 'name': 'Aircraft Type (B737)', 'short': 'B737 Type', 'dept': 'cabin'},
+                {'id': 'cc-safety', 'name': 'Safety, Dangerous Goods & Medicine', 'short': 'Safety & DG', 'dept': 'cabin'},
+                {'id': 'cc-licence', 'name': 'Licence Preparation', 'short': 'Licence prep', 'dept': 'cabin'}],
+     'departments': [{'id': 'ame', 'name': 'Aircraft Maintenance (AME)', 'sub': 'NCAA licence papers: General, Piston, Airframes, Gas Turbine, Compass'},
+                     {'id': 'cabin', 'name': 'Cabin Crew', 'sub': 'Air Law, B737 type, safety, dangerous goods, first aid and licence preparation'}],
+     'folders': folders, 'subjects': [s for s in subjects if s['count']], 'questions': Q, 'cards': CARDS}
+for p in B['papers']: p.setdefault('dept', 'ame')
 json.dump(B, open(DATA, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 
 json.dump(audit, open(os.path.join(H, 'audit.json'), 'w', encoding='utf-8'), indent=1)

@@ -1,0 +1,302 @@
+[
+{
+"q": "The Boeing B737-300 Aircraft is a twin engine Aircraft and operates",
+"o": [
+"Short range only",
+"Medium range only",
+"Short and Long range",
+"Short and Medium range"
+],
+"a": [
+3
+]
+},
+{
+"q": "The B737-300 Aircraft has a Maximum operating altitude of",
+"o": [
+"30,000feet",
+"25,000feet",
+"35,000feet",
+"37,000feet"
+],
+"a": [
+3
+]
+},
+{
+"q": "The B737-300 Aircraft is a 2-man cockpit for operation but has capacity for",
+"o": [
+"2",
+"3",
+"4",
+"5"
+],
+"a": [
+2
+]
+},
+{
+"q": "The minimum number of CCMs (Cabin Crew Members) that the B737-300 can operate with is",
+"o": [
+"2",
+"3",
+"4",
+"7"
+],
+"a": [
+1
+]
+},
+{
+"q": "The B737-300 Door features have 2 of the following",
+"o": [
+"Assist handles and shut-off valve",
+"Assist handles and red flag",
+"Assist handles and redine botton",
+"Assist handles and call button"
+],
+"a": [
+1
+]
+},
+{
+"q": "Another features on the Door of the B737-30 Aircraft are",
+"o": [
+"Slide bustle and Girt bar only",
+"Slide bustle, Girt bar and Door strap location",
+"Girt bar only",
+"Slide pressure indicator only"
+],
+"a": [
+1
+]
+},
+{
+"q": "In opening the B737-300 Door CCM must (in normal situation)",
+"o": [
+"Look outside",
+"Ensure door is armed",
+"Ensure door is disarmed",
+"Answer a-c and rotates handle to open position"
+],
+"a": [
+3
+]
+},
+{
+"q": "In door operation, you rotate the door handle to open position and",
+"o": [
+"Pull the door to full close position",
+"Pull the door to full open position",
+"Push the door to full open position",
+"Push the door to full close position"
+],
+"a": [
+2
+]
+},
+{
+"q": "The door safety strap can be",
+"o": [
+"Installed and Checked",
+"Installed and Removed",
+"Installed and Hooked",
+"Installed and unhooked"
+],
+"a": [
+1
+]
+},
+{
+"q": "To close the B737-300 Aircraft door, you must first of all",
+"o": [
+"Press on the Gust lock Lever",
+"Press on the Girt Bar Lever",
+"Press the Red Flag Lever",
+"Press the Handle Lever"
+],
+"a": [
+0
+]
+},
+{
+"q": "To Arm the B737-300 door, you must",
+"o": [
+"Place Red Flag Across window",
+"Insert Girt Bar into Floor brackets",
+"Answer a + b are correct",
+"None of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "To disarm the B737-300 door, you must",
+"o": [
+"Remove Girt Bar and Stow on slide bustles",
+"Remove red flag",
+"Do not remove red flag",
+"Answer a + b are correct"
+],
+"a": [
+3
+]
+},
+{
+"q": "The B737-300 Aircraft has",
+"o": [
+"2Cargo compartments",
+"3Cargo compartments",
+"1Cargo compartments",
+"No Cargo compartments"
+],
+"a": [
+0
+]
+},
+{
+"q": "The B737-300 Aircraft servicing are carried out",
+"o": [
+"On  the Left Hand side of the Aircraft",
+"On  the Right Hand side of the Aircraft",
+"At the Aft of the Aircraft",
+"At the forward  of the Aircraft"
+],
+"a": [
+1
+]
+},
+{
+"q": "The B737-300 Aircraft water quality gauge is located above",
+"o": [
+"Door L1",
+"Door L2",
+"Door R1",
+"Door R2"
+],
+"a": [
+3
+]
+},
+{
+"q": "The water quality gauge has",
+"o": [
+"2Indicators",
+"3Indicators",
+"4Indicators",
+"5Indicators"
+],
+"a": [
+3
+]
+},
+{
+"q": "The B737-300Aircraft has in the Cabin",
+"o": [
+"3Cabin Attendant Panels",
+"2Cabin Attendant Panels",
+"4Cabin Attendant Panels",
+"Only 1 Cabin Attendant Panels"
+],
+"a": [
+1
+]
+},
+{
+"q": "The B737-300 Aircraft has provisions for",
+"o": [
+"3Galleys",
+"4Galleys",
+"2Galleys",
+"1Galley only"
+],
+"a": [
+2
+]
+},
+{
+"q": "The Passenger Service Unit (PSU) consists of",
+"o": [
+"Reading Light",
+"Air Vent",
+"Crew call button",
+"All of the above"
+],
+"a": [
+3
+]
+},
+{
+"q": "The B737-300 Aircraft has",
+"o": [
+"10Exits",
+"8Exits",
+"6Exits",
+"4Exits"
+],
+"a": [
+1
+]
+},
+{
+"q": "The B737-300 Aircraft has in the Cabin",
+"o": [
+"10Exits",
+"8Exits",
+"6Exits",
+"4Exits"
+],
+"a": [
+2
+]
+},
+{
+"q": "The 2 Overwing exits in the Cabin have escape ropes primarily for",
+"o": [
+"Fire escape",
+"Slide evacuation",
+"Ditching",
+"Land evacuation"
+],
+"a": [
+2
+]
+},
+{
+"q": "The B737-300 Aircraft has in the cockpit",
+"o": [
+"2 overwing windows",
+"2 clearview windows",
+"2 clearview windows with escape ropes",
+"2 windows viewer"
+],
+"a": [
+2
+]
+},
+{
+"q": "The Cabin Master call lights indicate",
+"o": [
+"Blue, Pink and Amber",
+"Red, Green and Amber",
+"Blue, Yellow and Amber",
+"Red, Pink and Amber"
+],
+"a": [
+0
+]
+},
+{
+"q": "The Cabin Lighting Systems are",
+"o": [
+"Normal Lighting only",
+"Emergency Lighting only",
+"Normal and Emergency Lighting",
+"None of the above"
+],
+"a": [
+2
+]
+}
+]

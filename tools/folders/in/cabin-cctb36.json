@@ -1,0 +1,602 @@
+[
+{
+"q": "The B737-300 aircraft cabin doors are?",
+"o": [
+"Plug type doors that open outward automatically.",
+"Plug type doors that open inward only.",
+"Plug type that swings outward.",
+"Plug type inward, outward type of doors hinged at the top and bottom."
+],
+"a": [
+3
+]
+},
+{
+"q": "The maximum cruising altitude of B737-300/400/500 is?",
+"o": [
+"37,000 ft",
+"35,000 ft",
+"10,700 ft",
+"25,000 ft"
+],
+"a": [
+0
+]
+},
+{
+"q": "Drop down oxygen mask compartment can be manually opened by ……..",
+"o": [
+"inserting a sharp object into the hole on the compartment door.",
+"informing the captain to initiate it.",
+"if compartment doesn’t open, passenger can be transferred to another seat with open compartment.",
+"allowing the engineers to open it."
+],
+"a": [
+0
+]
+},
+{
+"q": "How is entry gained into the cockpit using the entry pad located by the door?",
+"o": [
+"By knocking and waiting until the door is opened",
+"By entering the correct security code, light changes from red to amber then green. Door access would be available for 5 seconds.",
+"By entering security code, waiting for 5 seconds then opening the door",
+"Only the SCCM can use the entry pad to gain entry"
+],
+"a": [
+1
+]
+},
+{
+"q": "Where are entry light switches located?",
+"o": [
+"forward attendant panel only and has 3 positions",
+"aft attendant panel only and has 3 positions",
+"mid cabin",
+"forward and aft attendant panels and both have 3 positions respectively"
+],
+"a": [
+3
+]
+},
+{
+"q": "How many master display panels are in the cabin of the B737 classics?",
+"o": [
+"2 – one forward and one aft lowered ceiling",
+"2 – forward and aft attendant stations",
+"1 – forward lowered ceiling only",
+"3– mid-cabin, forward and aft attendant stations"
+],
+"a": [
+1
+]
+},
+{
+"q": "The Emergency Light Switch at the aft attendant panel overrides the one in the cockpit. How many positions does it have?",
+"o": [
+"3 (ON, ARMED, OFF)",
+"3 (ON, NORM & OFF)",
+"2 (ON & NORM)",
+"2 (ON & OFF)"
+],
+"a": [
+2
+]
+},
+{
+"q": "When operating the airstair door in standby mode, electrical power is provided by",
+"o": [
+"APU",
+"28V dc power",
+"115V ac power",
+"GPU"
+],
+"a": [
+2
+]
+},
+{
+"q": "An attendant call initiated from the cabin to the cockpit will illuminate ………..",
+"o": [
+"blue Colour with a single chime on cockpit over head panel and pink colour on the cabin annunciator.",
+"blue Colour with a single chime on cockpit over head panel and no colour on the cabin annunciator.",
+"pink Colour with a single chime on cockpit over head panel and pink colour on the cabin annunciator.",
+"yellow Color with a single chime on cockpit over head panel and pink colour on the cabin annunciator"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which of the following is correct in order of priority?",
+"o": [
+"captain, attendant, prerecorded announcements, music",
+"music, electronic safety briefing, attendant, captain",
+"attendant, music, captain, electronic safety briefing",
+"cabin , electronic safety briefing, attendant, captain"
+],
+"a": [
+0
+]
+},
+{
+"q": "Where is the water quantity indicator located?",
+"o": [
+"above the forward service door.",
+"aft galley complex above service door.",
+"above the entry door.",
+"at individual galleys"
+],
+"a": [
+1
+]
+},
+{
+"q": "What is the capacity of the water tank on the B737-300 aircraft?",
+"o": [
+"10US gallons",
+"20US gallons",
+"20liters",
+"30US gallons"
+],
+"a": [
+3
+]
+},
+{
+"q": "What must be checked on the B737-300 before operating a main cabin door?",
+"o": [
+"inside condition and appropriate armed/disarmed mode.",
+"permission has been obtained before opening the door.",
+"the gust lock is in the correct position.",
+"outside condition and appropriate armed/disarmed mode."
+],
+"a": [
+3
+]
+},
+{
+"q": "How is the airstair door operated from outside?",
+"o": [
+"from a panel located above and aft of forward entry door, switch to normal or standby mode and extend",
+"from a panel located below and aft of aft entry door, switch to normal or standby mode and extend",
+"from a panel located below and aft of forward entry door, switch to normal or standby mode and extend",
+"from a panel located above forward entry door only, switch to normal or standby mode and extend"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the function of the gust lock?",
+"o": [
+"It provides support for the door during an emergency",
+"It prevents the door from moving in windy conditions",
+"It serves as assist handle for the crew in an emergency",
+"It used to lock the door closed."
+],
+"a": [
+1
+]
+},
+{
+"q": "The aircraft electrical power system supplies?",
+"o": [
+"115 volt AC and 25 volt DC electrical power.",
+"112 volt AC and 25 volt DC electrical power.",
+"115 volt AC and 28 volt DC electrical power.",
+"115 volt AC and 20 volt DC electrical power."
+],
+"a": [
+2
+]
+},
+{
+"q": "When ground power is connected….",
+"o": [
+"the lavatory fluorescent light will only come on when door is latched.",
+"only lavatory dome light will be on",
+"the lavatory lights will be off",
+"the lavatory fluorescent light will be on regardless of the door position."
+],
+"a": [
+3
+]
+},
+{
+"q": "What is the standard capacity of a B737 classic aircraft overhead bin?",
+"o": [
+"180lbs",
+"180kg",
+"90lbs",
+"100kg"
+],
+"a": [
+0
+]
+},
+{
+"q": " The cockpit quick donning oxygen mask has how many positions?",
+"o": [
+"3 positions – off, normal, 100%",
+"3 positions – normal, 100%, emergency",
+"2 positions – normal, on",
+"1 positions – normal."
+],
+"a": [
+1
+]
+},
+{
+"q": " The BRT (bright) position on the ceiling light switches…",
+"o": [
+"turns on all fluorescent ceiling lights and window lights to the brightest lighting level.",
+"turns on all fluorescent ceiling lights to the brightest lighting level.",
+"turns on ceiling lights and entry lights only.",
+"only works when the engines are running"
+],
+"a": [
+1
+]
+},
+{
+"q": " Galley lighting is controlled by switches located where?",
+"o": [
+"individual galleys",
+"cockpit overhead panel",
+"attendant station",
+"passenger cabin"
+],
+"a": [
+0
+]
+},
+{
+"q": " With emergency lights switch turned on, the following lights will come on.",
+"o": [
+"all interior and exterior emergency lights, exit locator signs, ceiling lights.",
+"all cabin lights.",
+"cockpit lights",
+"all interior and exterior emergency lights, exit locator signs, floor path lighting."
+],
+"a": [
+3
+]
+},
+{
+"q": " What colour on the master display panel (MDP) is illuminated, if a distress call from the lavatory initiates a single chime?",
+"o": [
+"pink on the MDP and at originating lavatory by the door.",
+"amber on the MDP only.",
+"amber on the MDP and orange at originating lavatory by the door.",
+"amber at attendant station."
+],
+"a": [
+2
+]
+},
+{
+"q": " How is the amber indication on the Master Display Panel reset?",
+"o": [
+"by depressing the distress call button inside originating lavatory",
+"at closest Attendant station",
+"by depressing the Indicator button outside originating lavatory",
+"automatically when the door is open"
+],
+"a": [
+2
+]
+},
+{
+"q": "How can the lavatory door be opened from outside?",
+"o": [
+"by knocking and asking the occupant to open",
+"by sliding the occupied sign on door to vacant",
+"the door can be automatically opened",
+"the door can only be opened from inside"
+],
+"a": [
+1
+]
+},
+{
+"q": "What is the indication that the water heater in the lavatory is working?",
+"o": [
+"green light on heater",
+"blue light on the heater",
+"amber light on the heater",
+"there is no indication"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is the function of the drain selector on the lavatory water supply selector valve?",
+"o": [
+"to drain water overboard",
+"to cut off water supply to individual lavatories",
+"to drain water into the heated masts",
+"to drain waste water from lavatory tanks"
+],
+"a": [
+0
+]
+},
+{
+"q": "The Lavatory fire indicator placard changes colour depending on intensity of fire. What is the observable indication?",
+"o": [
+"black dots turn white",
+"yellow dots turn black",
+"there is no indication",
+"grey dots turn black"
+],
+"a": [
+3
+]
+},
+{
+"q": "A lavatory flush cycle will last for how long?",
+"o": [
+"4seconds",
+"20seconds",
+"10seconds",
+"15seconds"
+],
+"a": [
+2
+]
+},
+{
+"q": "Cabin temperature is automatically controlled from the cockpit to be maintained between?",
+"o": [
+"85˚F (28˚C) and 95˚F (29˚C)",
+"65˚F (18˚C) and 85˚F (29˚C)",
+"65˚F (18˚C) and 105˚F (39˚C)",
+"75˚F (28˚C) and 105˚F (59˚C)"
+],
+"a": [
+1
+]
+},
+{
+"q": "The lavatory automatic extinguisher will discharge its content at what temperature?",
+"o": [
+"170˚F (76˚C)",
+"85˚F (39˚C)",
+"190˚F (88˚C)",
+"85˚F (29˚C)"
+],
+"a": [
+0
+]
+},
+{
+"q": "When discharged, the lavatory automatic extinguisher tips/nozzles changes colour.",
+"o": [
+"from aluminum to black",
+"white to black",
+"red to black",
+"from black to aluminum"
+],
+"a": [
+3
+]
+},
+{
+"q": "When potable water tank is emptied, fresh hot water charge will be available in how many minutes?",
+"o": [
+"4minutes",
+"20mimutes",
+"15 minutes",
+"10minutes"
+],
+"a": [
+3
+]
+},
+{
+"q": "A serviceable escape slide will have its indicator in what band?",
+"o": [
+"red band",
+"green band",
+"yellow band",
+"brown band"
+],
+"a": [
+1
+]
+},
+{
+"q": "What should be the pressure gauge of the escape slide if serviceable?",
+"o": [
+"2,800 to 3,000psi",
+"2000 to 3000psi",
+"2,700 to 3000psi",
+"2,800 to 1,000psi"
+],
+"a": [
+2
+]
+},
+{
+"q": "How long does it take the escape slide to inflate?",
+"o": [
+"20seconds",
+"5 seconds",
+"12 seconds",
+"10seconds"
+],
+"a": [
+3
+]
+},
+{
+"q": "How is the overwing exit opened from outside?",
+"o": [
+"pull placarded panel on upper side of hatch, pull hatch out",
+"push placarded panel on upper side of hatch, hatch falls inside",
+"it can only be opened from inside",
+"only an engineer can open it"
+],
+"a": [
+1
+]
+},
+{
+"q": "After opening the door in an emergency, the manual inflation handle will…",
+"o": [
+"be on the crew’s right, girt area",
+"be on the crew’s left, girt area",
+"on top of the slide",
+"on the door"
+],
+"a": [
+0
+]
+},
+{
+"q": "What indications will be observed on cabin signs and PSU with controls in automatic,?",
+"o": [
+"only fasten seat belt signs will be on",
+"no smoking and fasten seat belts will be on whenever the landing gears are extended",
+"only no smoking signs will be on",
+"there is no indication"
+],
+"a": [
+1
+]
+},
+{
+"q": "The following are considered ditching exits by priority…",
+"o": [
+"all cabin doors",
+"forward doors above water, overwing exits, aft doors above water",
+"over-wing exits, forward doors above water, aft doors above water",
+"cockpit windows, overwing exits, cabin doors"
+],
+"a": [
+2
+]
+},
+{
+"q": "How are the emergency flash lights powered?",
+"o": [
+"individual batteries",
+"aircraft battery",
+"electrical Power",
+"aircraft power"
+],
+"a": [
+3
+]
+},
+{
+"q": "Where is the location of the internal control panel for the airstair?",
+"o": [
+"above the forward entry door towards the right",
+"above the aft entry door towards the right",
+"forward attendant panel",
+"it can only be operated from outside"
+],
+"a": [
+0
+]
+},
+{
+"q": "How is temperature controlled in the cockpit and cabin of the B737 classic aircraft?",
+"o": [
+"separately from a control at forward attendant station",
+"there is one control for cockpit and cabin",
+"separately from a control in the cockpit",
+"the engine just sucks in air; there is no control"
+],
+"a": [
+2
+]
+},
+{
+"q": "How does escape slide armed on the B737 classic aircraft?",
+"o": [
+"remove girt bar from stowage hook and place in floor bracket",
+"remove girt bar from floor bracket and place in stowage hook then remove red warning flag",
+"It is the responsibility of the SCCM",
+"cross red warning flag over view port, remove girt bar from stowage hook and place in floor bracket"
+],
+"a": [
+3
+]
+},
+{
+"q": "Lavatory light is controlled from",
+"o": [
+"toilet door lock/unlock system",
+"fwd crew control panel",
+"from the aft crew control panel.",
+"from the flight deck"
+],
+"a": [
+0
+]
+},
+{
+"q": "Crew composition for this Aircraft is?",
+"o": [
+"1 Captain and 1 First Officer and up to 4 CCMS",
+"1 Captain and 1 First Officer only",
+"1 Captain and up to 4 Cabin Crew Members(CCMS)",
+"2 Captain and 1 First Officer only"
+],
+"a": [
+0
+]
+},
+{
+"q": "The water quantity indicator has?",
+"o": [
+"E, ½, ¼, and F indicators",
+"E, ¼, ½, ¾ and F indictors",
+"E, ¼, ½, and F indictors",
+"E, ½, ¾ and F indictors"
+],
+"a": [
+1
+]
+},
+{
+"q": "How does one from outside know that the toilet door is locked?",
+"o": [
+"the key is always on the door",
+"there is no indication on the door that says “occupied”",
+"the door simply indicates locked",
+"there is an indication on the door that says “occupied”"
+],
+"a": [
+3
+]
+},
+{
+"q": "How do we detach the slide from the aircraft if necessary?",
+"o": [
+"pulling the slide handle detachment handle and then pulling the quick release handle.",
+"raising the girt bar flap, pulling on the slide detachment handle and then pull on the quick release handle.",
+"raising the grit bar flap marked for ditching only and pulling the slide detachment handle",
+"push the release handle marked for ditching only and pulling the slide detachment handle"
+],
+"a": [
+2
+]
+},
+{
+"q": "How many temperature sensors are on the B737 – 300/500 and B737 – 400 respectively?",
+"o": [
+"1 forward cabin overhead bin LHS, 2 forward and aft cabin overhead bin RHS",
+"1 forward cabin overhead bin RHS, 2 forward and aft cabin overhead bin RHS",
+"2 forward cabin overhead bin RHS, 2 forward and aft cabin overhead bin RHS",
+"1 forward cabin overhead bin LHS, 3 forward and aft cabin overhead bin RHS"
+],
+"a": [
+0
+]
+}
+]

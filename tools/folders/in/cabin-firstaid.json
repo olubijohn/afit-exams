@@ -1,0 +1,275 @@
+[
+{
+"q": "What is First Aid?",
+"o": [
+"The immediate help giving to a sick passenger on board",
+"The immediate care giving to a sick person before help arrives.",
+"The immediate treatment rendered to a sick person before help arrives"
+],
+"a": [
+1
+]
+},
+{
+"q": "How would you asses a casualty on board an Aircraft?",
+"o": [
+"Check for danger, check for response and shout for help to assist",
+"Check for danger, check response, shout for help, check airway, check breathing and confirm circulation.",
+"Asses’ airway, asses breathing, confirms circulation, check disability and body examination."
+],
+"a": [
+1
+]
+},
+{
+"q": "What constitute disability/dysfunction check of a casualty",
+"o": [
+"Performing the head to toe examination on the casualty",
+"Check alertness, voice responsiveness, pain and unresponsiveness and alertness"
+],
+"a": [
+1
+]
+},
+{
+"q": "How do you carry out Casualty Examination?",
+"o": [
+"Look through the body from Head to Toe",
+"Check for Pain while you do the Head to toe body check",
+"Do head to toe body check, check for Allergies, Medication, Past medical history, Last food or fluid intake and Extra"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is Basic Life Support?",
+"o": [
+"Airway Breathing and Circulation",
+"Check for danger, response and shout for help",
+"By giving Oxygen and ensuring Circulation"
+],
+"a": [
+2
+]
+},
+{
+"q": "How do you perform an initial Assessment on a collapsed Casualty",
+"o": [
+"Ensure Airway is clear, Check for Breathing and confirm Circulation",
+"Asses the casualty’s level of responsiveness before you shout for help",
+"Asses the scene for any risk, asses the casualty’s level of responsiveness, attract the attention of second crew member, then the ABC DE check"
+],
+"a": [
+0
+]
+},
+{
+"q": "During the assessment on a collapsed casualty, if there is breathing, what next?",
+"o": [
+"If there is breathing confirm circulation and place in the recovery position",
+"If there is breathing, confirm circulation check Disability / Dysfunction arid final Examination",
+"If there is breathing, place in the recovery position"
+],
+"a": [
+0
+]
+},
+{
+"q": "During CPR, what are the rate of compression to breathe rate in an Adult; Child and infant?",
+"o": [
+"30-2-30; 5-30-2 (one hand); 5-30-2 (two finger)",
+"2-30-30; 5 breath -30 compression -2 breath; 5-30-2-30;",
+"2 breath -1 compression; 5-15-2; 5-15-2"
+],
+"a": [
+1
+]
+},
+{
+"q": "How would you describe Heart Attack?",
+"o": [
+"The sudden stoppage of the Heart beat",
+"A temporary stoppage of the Heart function; when the Heart is no working but just shaking",
+"A temporary stoppage of the Heart function with a severe pain."
+],
+"a": [
+2
+]
+},
+{
+"q": "How would you describe a Cardiac Arrest?",
+"o": [
+"The sudden stoppage of Heart beat",
+"A temporary stoppage of the Heat function; hen the Heat is not working but just shaking",
+"A temporary stoppage of the Heart functions with a severe pain in the chest area."
+],
+"a": [
+0
+]
+},
+{
+"q": "What is stroke?",
+"o": [
+"It is an irreparable damage to a part of the brain",
+"The lack of function of certain part of the body",
+"The lack of flow of blood to certain area of the brain"
+],
+"a": [
+0
+]
+},
+{
+"q": "What first Aid treatment would you give for a chemical Burns (e.g. hydraulic fluid)?",
+"o": [
+"Run water on the affected area of 20mills",
+"Run water  on the affected area for 10mins",
+"Cover the affected area with bandages or plaster"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is shock and when does it occur?",
+"o": [
+"Shock is a sudden seizure when the blood pressure and oxygen level in the blood drops.",
+"Shock occurs when the blood pressure and the level oxygen in the blood drops.",
+"Shock is present in ill, injured or nervous passengers"
+],
+"a": [
+0
+]
+},
+{
+"q": "What is choking and how do you treat?",
+"o": [
+"A chronic airway obstruction; encourage victim to cough, 5 sharp back blows between the shoulder blades and 5 abdominal thrust.",
+"5 sharp back-blows between the shoulders bide and 5 abdominal thrust repeat until item is dislodged.",
+"A chronic airway obstruction , encourage victim to cough until items is dislodged"
+],
+"a": [
+0
+]
+},
+{
+"q": "A passenger collapses and then regains consciousness but has difficulty speaking and one side of the face and body appear to be paralyzed. What signs are these?",
+"o": [
+"Seizure",
+"Stroke",
+"Diabetic emergency"
+],
+"a": [
+1
+]
+},
+{
+"q": "How would you treat a passenger who is Hyperventilating?",
+"o": [
+"Slap passenger across the face, tell him to push himself together treat for shock and give oxygen if need be.",
+"Relax passenger and advise to breath in deeply and breath out slowly",
+"Relax passenger and advise to breath in and out of aircraft sick bag for a few minutes to restore carbon dioxide and oxygen balance."
+],
+"a": [
+2
+]
+},
+{
+"q": "During the care for a victim of a heat related emergency becomes unconscious. What should you do first?",
+"o": [
+"Pour water on her face to try to revive him",
+"Inform another colleague and proceed to treat unconsciousness",
+"Give the victim ice to eat."
+],
+"a": [
+1
+]
+},
+{
+"q": "How would you treat a threatened Miscarriage in flight?",
+"o": [
+"Put passenger in recovery position",
+"Make passenger comfortable, treat for shock",
+"Make passenger walk through the cabin to recluse"
+],
+"a": [
+1
+]
+},
+{
+"q": "The following are common causes of Abdominal pain:",
+"o": [
+"Nausea, Vomiting & Diarrhoea, Dehydration, Gastrointestinal",
+"Appendicitis, Cholecystitis, Vomiting & Diarrhoe, Nausea",
+"Vomiting & Diarrhoea, Appendicitis, Cholecystitis, Ruptured Peptic Ulcer Renal Colic."
+],
+"a": [
+2
+]
+},
+{
+"q": "What is fainting and how do you treat?",
+"o": [
+"A brief loss of responsiveness, Elevate legs while lying down, allow flow of blood to the Brain.",
+"A brief reaction of body to lack of oxygen; Elevate legs while lying down to allow the flow of blood.",
+"A brief loss of responsiveness; Allow flow of blood to the brain"
+],
+"a": [
+0
+]
+},
+{
+"q": "What treatment would you give for motion sickness or",
+"o": [
+"Move to window seat overwing or forward, advise movement and avoid reading",
+"Give passenger paracetamol or medicatiom from the medical Kit.",
+"Ask passenger to drink plenty of water."
+],
+"a": [
+0
+]
+},
+{
+"q": "Hypoxia is a pathological condition ill which the body as a whole is deprived of adequate oxygen. What are the signs / symptoms?",
+"o": [
+"Confusion, Disorientation, Judgment impairment, Agitation, Rapid pulse. Fatigue, Headaches",
+"Disorientation, Judgments impairment, agitation, aggression rapid pulse, bulging eyeballs"
+],
+"a": [
+0
+]
+},
+{
+"q": "Cabin must not indulge in self medication but to consult othordox medical practitioners only:",
+"o": [
+"False",
+"True",
+"Use local herbs"
+],
+"a": [
+1
+]
+},
+{
+"q": "Hypoxia is a decompression sickness. How should you treat?",
+"o": [
+"Administer CPR",
+"Administer Oxygen",
+"Treat passenger as fainting"
+],
+"a": [
+1
+]
+},
+{
+"q": "A cabin Crew suffering from cold and catarrh;",
+"o": [
+"Shall avoid operating all flights",
+"Must operate only revenue flights",
+"Must operate all flights to keep the job."
+],
+"a": [
+0
+]
+}
+]

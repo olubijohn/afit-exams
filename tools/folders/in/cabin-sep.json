@@ -1,0 +1,224 @@
+[
+{
+"q": "Which of the following statement is correct?",
+"o": [
+"A forced landing on the ground is referred to as an Emergency Landing.",
+"A forced landing on water is referred to as a Ditching.",
+"a & b are correct",
+"none of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is the correct brace position for crew members?",
+"o": [
+"AFT facing crew: chin on chest, hands under thighs, legs slightly apart. FWD facing crew: Chin up, hands under thighs, legs slightly apart.",
+"FWD facing crew: chin on chest, hands under thighs, legs slightly apart. AFT facing crew: Chin up, hands under thighs, legs slightly apart.",
+"Aft facing crew: chin on chest, hands under thighs, legs together. Fwd facing crew: Chin up, hands under thighs, legs together."
+],
+"a": [
+1
+]
+},
+{
+"q": "Who is responsible for the evacuation command?",
+"o": [
+"Captain and First Officer",
+"Cabin Crew only",
+"All crew members"
+],
+"a": [
+0
+]
+},
+{
+"q": "How many seconds will be required for the evacuation of all crew and passengers after an emergency landing?",
+"o": [
+"60secs",
+"90secs",
+"100secs"
+],
+"a": [
+1
+]
+},
+{
+"q": "What post evacuation equipment are required to be taken out of aircraft after an emergency?",
+"o": [
+"Flash light, First Aid Kit, ELT, Megaphone.",
+"Flash light, First Aid Kit, ELT, Oxygen bottle.",
+"Flash light, Medical Kit, ELT, Megaphone."
+],
+"a": [
+0
+]
+},
+{
+"q": "NITS stands for.",
+"o": [
+"Nature of Emergency, Intention of Captain, Time Available, Special/Specific instructions.",
+"Not an Emergency, Intention of Captain, Time Available, Special/Specific instructions.",
+"Nature of Emergency, Intention of all crew members, Time Available, Special/Specific instructions."
+],
+"a": [
+2
+]
+},
+{
+"q": "Which of the following indicates an emergency?",
+"o": [
+"Crew to cockpit/6chimes.",
+"Purser to cockpit/6chimes.",
+"Cabin crew seats for landing."
+],
+"a": [
+1
+]
+},
+{
+"q": "Prior to an emergency, initial demo for passengers should be done with lights………",
+"o": [
+"Dim",
+"Fully bright",
+"Night mode"
+],
+"a": [
+1
+]
+},
+{
+"q": "What are the principles of survival?",
+"o": [
+"Location, Protection, Water, Food.",
+"Will and Knowledge.",
+"Protection, Location, Water, Food."
+],
+"a": [
+2
+]
+},
+{
+"q": "What is Survival?",
+"o": [
+"Search and Rescue.",
+"Staying Alive until Rescued.",
+"Ability to survive after a crash."
+],
+"a": [
+1
+]
+},
+{
+"q": "What are the factors of Survival?",
+"o": [
+"Will and knowledge.",
+"Protection, Location, Water, Food.",
+"Knowledge and Will."
+],
+"a": [
+0
+]
+},
+{
+"q": "What are the 3 ‘S’ of Survival?",
+"o": [
+"Signaling, Seaworthiness, Survival.",
+"Seaworthiness, Signaling, Survival.",
+"Survival, Seaworthiness, Signaling."
+],
+"a": [
+1
+]
+},
+{
+"q": "What does the acronym CAT mean?",
+"o": [
+"Clear Air Turbulence",
+"Clear Aim Turbulence",
+"Clean Air Turbulence"
+],
+"a": [
+0
+]
+},
+{
+"q": "While in the jungle after an emergency landing, the following should be avoided.",
+"o": [
+"Little bush animals, fruits.",
+"Brightly coloured plants, Jungle Fungi, Plants with milky sap.",
+"Food from the aircraft."
+],
+"a": [
+1
+]
+},
+{
+"q": "Once activated, the Portable ELT will last for.",
+"o": [
+"48 hours",
+"2 days",
+"24 hours"
+],
+"a": [
+0
+]
+},
+{
+"q": "When can a cabin crew initiate evacuation of passengers after an emergency landing?",
+"o": [
+"After captain gives evacuation command.",
+"If there is immediate threat to lives in the cabin.",
+"Once you hear brace brace.",
+"A and B are correct"
+],
+"a": [
+3
+]
+},
+{
+"q": "Once passengers and crew are out of the aircraft, they should all move………………",
+"o": [
+"100 metres upwind.",
+"150 metres downwind.",
+"150 metres upwind."
+],
+"a": [
+2
+]
+},
+{
+"q": "Whose responsibility is it to attend Pre-flight briefing?",
+"o": [
+"SCCM",
+"Captain",
+"All crew members"
+],
+"a": [
+2
+]
+},
+{
+"q": "What is a cabin crew member’s first action in a decompression?",
+"o": [
+"Pull mask, secure self, wear mask, assist others",
+"Pull mask, wear mask, secure self, help others",
+"Secure work trolley, pull mask, wear mask, help others"
+],
+"a": [
+1
+]
+},
+{
+"q": "Drop down oxygen masks will drop when cabin altitude exceeds …………… feet.",
+"o": [
+"12,000ft",
+"14,000ft",
+"10,000ft"
+],
+"a": [
+1
+]
+}
+]

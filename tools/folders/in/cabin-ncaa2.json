@@ -1,0 +1,739 @@
+[
+{
+"q": "Who removes the mega phone during an evacuation?",
+"o": [
+"SCCM & CCM",
+"Purser & SCCM",
+"Purser & CCM"
+],
+"a": [
+1
+]
+},
+{
+"q": "Should the first class divider be open or close for takeoff and landing?",
+"o": [
+"The dividers must be close for takeoff and open for landing",
+"The dividers must be close for landing and open for take off",
+"The dividers must be open for takeoff and landing"
+],
+"a": [
+2
+]
+},
+{
+"q": "When there is dangerous goods spillage on board, what important information do you give the ATC?",
+"o": [
+"Quality and type of package",
+"What it looks like and where it was spilled",
+"All of the above"
+],
+"a": [
+2
+]
+},
+{
+"q": "If the toilet fire extinguisher, smoke detector is inoperative the toilet must be declared",
+"o": [
+"Inoperative and locked up",
+"Unserviceable and not to be used during flight",
+"Unserviceable and to be locked up"
+],
+"a": [
+2
+]
+},
+{
+"q": "The following emergency equipment are found in the forward overhead locker",
+"o": [
+"Mega phone, halon, first aid kit, PBE, portable oxygen bottle, oxygen mask",
+"PBE, Halon 1211, water fire extinguisher",
+"Mega phone, Halon 1211, PBE"
+],
+"a": [
+0
+]
+},
+{
+"q": "The emergency exit lights are powered by",
+"o": [
+"Airplane electrical powered",
+"Individual NiCad batteries",
+"All of the above"
+],
+"a": [
+1
+]
+},
+{
+"q": "The emergency exit light is normally controlled by",
+"o": [
+"Switch on the pilot overhead panel",
+"Switch at aft attendant panel",
+"Switch at each individual exit location"
+],
+"a": [
+0
+]
+},
+{
+"q": "What are your commands at the exit?",
+"o": [
+"Open seatbelts, leave everything come this way, get out",
+"Open seatbelts, leave everything behind go down and slide",
+"Open seatbelts, leave everything behind jump down the slide"
+],
+"a": [
+2
+]
+},
+{
+"q": "What happens when oxygen is generated in the and how long does it last?",
+"o": [
+"A burning smell and generator becomes hot, oxygen last for 12 minutes",
+"An acrid burning smell, generators becomes hot, oxygen last for 12 minutes",
+"An acrid burning smell, generators becomes hot, oxygen last for 15 minutes"
+],
+"a": [
+1
+]
+},
+{
+"q": "Where is the water fire extinguisher stowed at the rear of the aircraft?",
+"o": [
+"It is stowed adjacent to the rear service door",
+"Inside the dog box behind last row of seats right side",
+"Last overhead locker right hand side"
+],
+"a": [
+0
+]
+},
+{
+"q": "Where are extension seatbelt stowed?",
+"o": [
+"Last overhead locker right hand side",
+"Last overhead locker left hand side",
+"Inside the dog box right hand side"
+],
+"a": [
+1
+]
+},
+{
+"q": "Where are child life vest stowed?",
+"o": [
+"Under the last row of seats left hand side",
+"Last overhead locker right hand side",
+"Last overhead locker left hand side"
+],
+"a": [
+2
+]
+},
+{
+"q": "How many oxygen mask are locked at crew station?",
+"o": [
+"3",
+"2",
+"4"
+],
+"a": [
+1
+]
+},
+{
+"q": "When you find a gun when you are airborne where should it be stowed?",
+"o": [
+"Lavatory",
+"Cockpit",
+"Galley"
+],
+"a": [
+1
+]
+},
+{
+"q": "Where is the nearest BCF extinguisher to the rear?",
+"o": [
+"It is stowed adjacent to the rear doors",
+"Inside the dog box behind the last row of seat left hand side",
+"Last overhead locker right hand side"
+],
+"a": [
+0
+]
+},
+{
+"q": "The airplane water tank capacity is",
+"o": [
+"30 US gallons and is pressurized from left engine only",
+"20 US gallons and is pressurized from APU only",
+"None of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "Where is the smoke detector units located?",
+"o": [
+"In the ceiling adjacent to the flight deck and the rear toilets",
+"Above the forward passenger door",
+"In the ceiling inside individual lavatory"
+],
+"a": [
+2
+]
+},
+{
+"q": "Should the forward passenger door be closed before retracting the air stairs?",
+"o": [
+"No",
+"Yes",
+"I am not sure"
+],
+"a": [
+1
+]
+},
+{
+"q": "Should the girt bar be engaged or disengaged before a pre-planned ditching?",
+"o": [
+"Engaged",
+"Disengaged",
+"Deployed"
+],
+"a": [
+0
+]
+},
+{
+"q": "One of the primary danger of decompression is",
+"o": [
+"Heart attack",
+"Ear blockage",
+"Hypoxia",
+"Heat exhaustion"
+],
+"a": [
+2
+]
+},
+{
+"q": "The following emergency equipment are found in the rear overhead locker",
+"o": [
+"Mega phone, Halon 1211, First Aid Kit, PBE, Portable oxygen bottle, oxygen mask",
+"PBE, Halon 1211, water fire extinguisher, extra seatbelt",
+"Mega phone, Halon 1211, PBE, First Aid Kit, extra life vest, oxygen mask"
+],
+"a": [
+2
+]
+},
+{
+"q": "Rejected take off is recognized by",
+"o": [
+"Discontinuing take off after the takeoff roll is initiated",
+"Aircraft malfunction",
+"Notification from ATC",
+"None of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "The ELT transmit",
+"o": [
+"48hrs",
+"24hrs",
+"72hrs"
+],
+"a": [
+0
+]
+},
+{
+"q": "You are seated on your jump seat facing the aft, what is your brace position?",
+"o": [
+"Head down, chin on chest",
+"Head back, looking towards ceiling",
+"Head down, chin on chest, looking downwards"
+],
+"a": [
+1
+]
+},
+{
+"q": "How many doors are there to the avionics system?",
+"o": [
+"6",
+"1",
+"3",
+"2"
+],
+"a": [
+1
+]
+},
+{
+"q": "The normal body temperature is",
+"o": [
+"98.6F",
+"98.4F",
+"94.8F"
+],
+"a": [
+0
+]
+},
+{
+"q": "Halon removes one of the sides of triangle of fire, which one?",
+"o": [
+"Heat",
+"Oxygen",
+"Gas"
+],
+"a": [
+1
+]
+},
+{
+"q": "Emergency shut off valve is found in the",
+"o": [
+"Lavatory",
+"Galley",
+"Both Lavatory and Galley"
+],
+"a": [
+2
+]
+},
+{
+"q": "An assigned crew member who is on duty will not drink alcohol or consume intoxicating substances",
+"o": [
+"8 hours before flight",
+"10 hours before flight",
+"12 hours before flight",
+"5 hours before flight"
+],
+"a": [
+0
+]
+},
+{
+"q": "We have............type of emergency",
+"o": [
+"Four",
+"Two",
+"Three"
+],
+"a": [
+1
+]
+},
+{
+"q": "During the initial preparation of the cabin for a planned emergency the cabin lighting should be",
+"o": [
+"Dim",
+"Turned off",
+"Turned on brightly"
+],
+"a": [
+2
+]
+},
+{
+"q": "Once activation the dropdown oxygen mask last for",
+"o": [
+"15 minutes",
+"12 minutes",
+"20 minutes"
+],
+"a": [
+1
+]
+},
+{
+"q": "Master control for the emergency light is located in the flight deck and has following switch",
+"o": [
+"ON, OFF, AUTO",
+"ON, OFF, ARMED",
+"ON, OFF"
+],
+"a": [
+1
+]
+},
+{
+"q": "If a pilot is incapacitated what would your first action be on entering the flight deck?",
+"o": [
+"Pull him/her upright in his/her seat and support",
+"Pull him/her away from the control",
+"Pull him/her away from the control then upright"
+],
+"a": [
+2
+]
+},
+{
+"q": "Where is the water quantity indicator gauge located on the B737?",
+"o": [
+"In the FWD galley complex",
+"In the AFT galley complex",
+"In the FWD toilet compartment"
+],
+"a": [
+1
+]
+},
+{
+"q": "How do you open the over wing exit in an emergency?",
+"o": [
+"Pull down the upper handgrip inward and downward to unlock the panel, with the other hand pull",
+"Grab the upper handgrip and pull it inward and downward to unlock the panel, with the other hand in the lower handgrip lift the panel",
+"Pull down the upper handgrip inward and with the other hand lower the handgrip to lift the panel outward"
+],
+"a": [
+1
+]
+},
+{
+"q": "Are passengers with infants in arms allowed to be seated adjacent to over wing exits?",
+"o": [
+"They are not allowed only to be seated adjacent to the over wing exits",
+"No, customer service staff world-wide have been advised of this ruling",
+"Yes, as long as they could be strapped in their seat"
+],
+"a": [
+0
+]
+},
+{
+"q": "Emergency escape ropes are located:",
+"o": [
+"One each of the exits",
+"Inboard each of the cabin emergency windows",
+"Above the cockpit clear view windows",
+"Above the cockpit clear view windows and inboard each of the cabin emergency windows are correct"
+],
+"a": [
+3
+]
+},
+{
+"q": "Where is the location of smoke detector in the aircraft?",
+"o": [
+"None of the options is correct",
+"In the ceiling of the rear toilet only",
+"In the ceiling of the Fwd and Aft toilet",
+"On the wall of the lavatory"
+],
+"a": [
+2
+]
+},
+{
+"q": "Decision has been taken by the cabin crew to use the O/Wing exit to evacuate passengers: How will the passengers exit from the cabin?",
+"o": [
+"Sit and slide on the wing towards the FWD",
+"They will jump and slide on the wing towards the AFT",
+"None of the option is correct",
+"Exit-LEG-BODY-LEG"
+],
+"a": [
+3
+]
+},
+{
+"q": "Which is the primary escape route in the event of ditching?",
+"o": [
+"The rear doors with slides because they are slightly above water",
+"The over wing Exits",
+"The doors with slides"
+],
+"a": [
+1
+]
+},
+{
+"q": "If a passenger seated in the rear of the cabin is unwell and requires oxygen, where would you find the nearest therapeutic set?",
+"o": [
+"Behind the last row of seats left side floor level",
+"Behind the last row of seats right hand side bulk head floor level",
+"Behind the last row of seats left side bulk head floor level"
+],
+"a": [
+2
+]
+},
+{
+"q": "The passenger oxygen system:",
+"o": [
+"Can replenish the oxygen in-flight",
+"And the crew oxygen system is one system",
+"Is independent of the crew oxygen system"
+],
+"a": [
+2
+]
+},
+{
+"q": "What should be your action if the lavatory fire extinguisher/smoke detector are inoperative, prior to departure?",
+"o": [
+"Record the defect in the cabin log book and continue with the flight",
+"The lavatory can be used, but should not be flushed during flight",
+"The lavatory must be declared unserviceable, lock and placard inoperative"
+],
+"a": [
+2
+]
+},
+{
+"q": "What light will come on in the cockpit overhead panel at the associated door if not properly locked?",
+"o": [
+"Primary caution light",
+"Ready to go light",
+"Master caution light"
+],
+"a": [
+2
+]
+},
+{
+"q": "Where is the position of the interior control panel of the air stairs?",
+"o": [
+"None of the options is correct",
+"Above cabin door 2L",
+"Above cabin door 1R",
+"Above cabin door 1L"
+],
+"a": [
+3
+]
+},
+{
+"q": "The exterior control handle of the B737 aircraft must be.................Before you rotate and open or close the door",
+"o": [
+"Pull out",
+"Push out",
+"Push in"
+],
+"a": [
+0
+]
+},
+{
+"q": "Which exits should be used during land evacuation if the nose wheel has collapsed?",
+"o": [
+"All doorways and over wing exits",
+"Only the over wing exits",
+"The two FWD doors and the over wing exits"
+],
+"a": [
+2
+]
+},
+{
+"q": "If you must use a door for an evacuation which is already open with no steps in position, how would you deploy the slide?",
+"o": [
+"Because of time close the door engage the girt bar and re-open the door",
+"Because of time close the door quickly engage the bar and re-open the door",
+"Remove the safety strap, close the door, engage the girt bar and re-open the door"
+],
+"a": [
+2
+]
+},
+{
+"q": "The aircraft cabin temperature is controlled and maintained from the cockpit:",
+"o": [
+"18°C & 29°C",
+"65°F & 90°F",
+"None of the options is correct",
+"27°C & 30°C"
+],
+"a": [
+0
+]
+},
+{
+"q": "Are passengers with infants in arms allowed to be seated adjacent to over wing exits?",
+"o": [
+"They are not allowed only to be seated adjacent to the over wing exits",
+"No, customer service staff world-wide have been advised of this ruling",
+"Yes, as long as they could be strapped in their seat"
+],
+"a": [
+0
+]
+},
+{
+"q": "The flight deck access panel is for",
+"o": [
+"For flight deck to gain access to cabin",
+"For cabin to gain access to cockpit",
+"None of the above"
+],
+"a": [
+1
+]
+},
+{
+"q": "What is the code for the flight deck?",
+"o": [
+"01 and ENT",
+"03 and ENT",
+"1 and ENT"
+],
+"a": [
+2
+]
+},
+{
+"q": "How will you operate the B737 400 door?",
+"o": [
+"Rotate the handle Aft of the aircraft/hold assist handle A while pushing door forward/gust lock engages",
+"Rotate the handle Aft of aircraft/hold assist handle B while pushing door forward/gust lock engages",
+"Rotate the handle rear of aircraft/hold assist handle A while pushing the door forward/gust lock engages"
+],
+"a": [
+0
+]
+},
+{
+"q": "The cruising speed for B737 300/500 is",
+"o": [
+"1000km",
+"500km",
+"800km"
+],
+"a": [
+1
+]
+},
+{
+"q": "How do you turn off the cabin drop down oxygen?",
+"o": [
+"It can't be turned off",
+"It can't be turned off because it is chemically generated",
+"It can be turned off from the cockpit"
+],
+"a": [
+1
+]
+},
+{
+"q": "What can be found in the ceiling of the cockpit?",
+"o": [
+"Cockpit crash axe",
+"Cockpit dome light compartment",
+"Master display panel"
+],
+"a": [
+1
+]
+},
+{
+"q": "What color is the water heater in the lavatory if serviceable?",
+"o": [
+"Green",
+"Amber",
+"Red"
+],
+"a": [
+1
+]
+},
+{
+"q": "What color is the Air liquid PBE if serviceable?",
+"o": [
+"Green",
+"Red",
+"Yellow",
+"Sky blue"
+],
+"a": [
+0
+]
+},
+{
+"q": "What color is the indicator on the slide?",
+"o": [
+"Red",
+"Green",
+"Amber"
+],
+"a": [
+1
+]
+},
+{
+"q": "All these are inboard emergency except",
+"o": [
+"Intoxicated passenger",
+"Choked passenger",
+"Oven fire",
+"Decompression"
+],
+"a": [
+0
+]
+},
+{
+"q": "The pre-flight checks for lavatory?",
+"o": [
+"The disc of the temperature placard is silver and the nozzle is capped with black wax",
+"The disc of the temperature is silver and the nozzle is capped with black",
+"The disc of the temperature placard is silver and the nozzle is capped with white wax"
+],
+"a": [
+0
+]
+},
+{
+"q": "Water shut off valve position in the lavatory",
+"o": [
+"On supply, off and drain",
+"On and off",
+"Supply, on and drain"
+],
+"a": [
+0
+]
+},
+{
+"q": "The minimum gauge of the oxygen bottle",
+"o": [
+"1600 psi",
+"1500 psi",
+"1800 psi"
+],
+"a": [
+1
+]
+},
+{
+"q": "Exterior control of the airstair is possible",
+"o": [
+"Yes",
+"No",
+"None of the above"
+],
+"a": [
+0
+]
+},
+{
+"q": "B737 classic configuration is 148 passengers with dual chambers and ___ abreast of (F/C) ___ abreast of economy class.",
+"o": [
+"4 and 6",
+"2 and 6",
+"3 and 4"
+],
+"a": [
+0
+]
+}
+]

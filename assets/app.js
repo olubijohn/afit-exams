@@ -75,11 +75,27 @@ const S = {
   bank: [], subjects: [], byId: new Map(), subj: {}, scope: null, allSubjects: [], full: [], papers: [], paper: 'general', folders: [],
   stats: new Map(), attempts: [], quiz: null, timer: null, pos: new Map(),
   setup: null, bankView: { q: '', s: 'all', show: true, limit: 25 }, reviewFilter: 'wrong', prefill: '',
+  dept: null, departments: [], cards: [], everyPaper: [], everySubject: [], everyQ: [],
 };
 const qKey = () => `afit:quiz:${S.user?.id}${S.scope ? ':' + S.scope : ''}`;
+// department (Aircraft Maintenance, Cabin Crew, ...): only its papers, questions and progress show.
+// Chosen after signing in; asked again in every new browser session.
+const deptName = () => S.departments.find(d => d.id === S.dept)?.name || '';
+function sessDept(v) { try { if (v === undefined) return sessionStorage.getItem('afit:dept'); v ? sessionStorage.setItem('afit:dept', v) : sessionStorage.removeItem('afit:dept'); } catch { return null; } }
+function setDept(d, want) {
+  S.dept = S.departments.some(x => x.id === d) ? d : null; sessDept(S.dept);
+  const show = S.dept || 'ame';
+  const pids = new Set(S.everyPaper.filter(p => (p.dept || 'ame') === show).map(p => p.id));
+  S.papers = S.everyPaper.filter(p => pids.has(p.id));
+  S.allSubjects = S.everySubject.filter(x => pids.has(x.paper));
+  const sids = new Set(S.allSubjects.map(x => x.id));
+  S.full = S.everyQ.filter(q => sids.has(q.s));
+  const pick = [want, store.get('afit:paper:' + show, null), store.get('afit:paper', null), S.papers[0]?.id].find(id => id && pids.has(id));
+  setPaper(pick || S.papers[0]?.id);
+}
 // switch paper: only its subjects, questions, progress and quizzes show
 function setPaper(id, push) {
-  if (!paperOf(id)) id = 'general';
+  if (!paperOf(id)) id = paperOf('general') ? 'general' : (S.papers[0]?.id || 'general');
   if (S.quiz) saveQuiz();
   S.paper = id; S.scope = id === 'general' ? null : id;
   S.subjects = S.allSubjects.filter(x => x.paper === id);
@@ -87,7 +103,7 @@ function setPaper(id, push) {
   S.bank = S.full.filter(q => ids.has(q.s));
   S.setup = null; S.bankView = { ...S.bankView, s: 'all', limit: 25 };
   if (S.user) S.quiz = store.get(qKey(), null);
-  store.set('afit:paper', id);
+  store.set('afit:paper', id); if (S.dept) store.set('afit:paper:' + S.dept, id);
   if (push !== false) history.replaceState(null, '', (id === 'general' ? '/' : '/' + id) + location.hash);
   document.title = `${scopeName()} · NCAT Exams`;
 }
@@ -181,7 +197,7 @@ async function loadAttempts() {
 }
 let loading = null;
 async function setUser(user) {
-  if (!user) { teardownChat(); S.user = S.profile = S.quiz = null; S.stats = new Map(); S.attempts = []; stopTimer(); return; }
+  if (!user) { teardownChat(); sessDept(null); S.dept = null; S.user = S.profile = S.quiz = null; S.stats = new Map(); S.attempts = []; stopTimer(); return; }
   if (S.user?.id === user.id && S.profile) return;
   if (loading?.id === user.id) return loading.p;
   const p = (async () => {
@@ -357,22 +373,24 @@ function route() {
   closeMenu();
   if (!S.user) return AUTH.includes(name) ? viewAuth(name) : go('login', true);
   if (S.profile?.must_change_password && name !== 'password') return go('password', true);
+  if (!S.dept && name !== 'password' && name !== 'dept' && !AUTH.includes(name)) return go('dept', true);
   if (AUTH.includes(name)) return go('', true);
   if (name !== 'chat') { if (CH.roomCh) leaveRoomChannel(); CH.open = null; CH.lastRoom = null; document.body.classList.remove('in-room'); }
-  const views = { chat: viewChat, '': viewDashboard, practice: viewPractice, quiz: viewQuiz, results: viewResults, history: viewHistory, attempt: viewAttempt, bank: viewBank, password: viewPassword, folder: viewFolder };
+  const views = { chat: viewChat, '': viewDashboard, practice: viewPractice, quiz: viewQuiz, results: viewResults, history: viewHistory, attempt: viewAttempt, bank: viewBank, password: viewPassword, folder: viewFolder, dept: viewDept, cards: viewCards };
   (views[name] || viewDashboard)(arg && decodeURIComponent(arg));
   if (name !== 'quiz') window.scrollTo(0, 0);
 }
 
 /* ---------- shell ---------- */
 function shell(active, body, opts = {}) {
-  const links = [['', 'Home', I.home], ['practice', 'Practice', I.play], ['bank', 'Questions', I.book], ['chat', 'Chat', I.chat], ['history', 'History', I.hist]];
+  const links = [['', 'Home', I.home], ['practice', 'Practice', I.play], ['bank', 'Questions', I.book], ...(S.cards.some(c => (c.dept || 'cabin') === S.dept) ? [['cards', 'Study cards', I.book]] : []), ['chat', 'Chat', I.chat], ['history', 'History', I.hist]];
   const n = unreadTotal();
   const nav = () => links.map(([p, t, ic]) => `<a href="#/${p}" class="${active === p ? 'active' : ''}">${ic}<span>${t}</span>${p === 'chat' ? `<span class="badge nav-badge" data-chat-badge ${n ? '' : 'hidden'}>${n > 99 ? '99+' : n}</span>` : ''}</a>`).join('');
   const theme = store.get('afit:theme', 'auto');
   return `<header class="topbar"><div class="topbar-in">${logo()}<nav class="nav">${nav()}</nav>
     <div class="menu-wrap"><button class="avatar-btn" data-act="menu" aria-haspopup="true" aria-label="Account"><span class="avatar">${esc(initials(S.profile.full_name))}</span><span class="nm">${esc(S.profile.full_name)}</span></button>
     <div class="menu" id="menu"><div class="menu-head"><b>${esc(S.profile.full_name)}</b><span>${esc(S.profile.email)}</span></div>
+      ${S.dept ? `<button data-act="goDept">${I.home} ${esc(deptName())} · Switch department</button>` : ''}
       <button data-act="goPassword">${I.key} Change password</button>
       <button data-act="theme">${I.moon} Theme: ${theme === 'auto' ? 'Match device' : theme === 'dark' ? 'Dark' : 'Light'}</button>
       <button data-act="signout">${I.out} Sign out</button></div></div></div></header>
@@ -389,7 +407,7 @@ function authLayout(inner) {
       ${logo()}
       <div>
         <h2>NCAT exam practice</h2>
-        <p class="lead">Past questions for the general paper, piston engines, pressurised and unpressurised airframe and compass, marked as you go.</p>
+        <p class="lead">Past questions for Aircraft Maintenance (AME) licence papers and Cabin Crew, marked as you go. Choose your department after you sign in.</p>
         <ul class="feat">
           <li><span class="tick">${I.check}</span><span><b>${S.full.length.toLocaleString()} questions</b> in ${["no", "one", "two", "three", "four", "five", "six"][S.papers.length] || S.papers.length} papers: ${S.papers.map(p => esc(p.name)).join(', ').replace(/, ([^,]*)$/, ' and $1')}.</span></li>
           <li><span class="tick">${I.check}</span><span>Pick an answer and see straight away if it's right, and what the right answer is.</span></li>
@@ -532,6 +550,25 @@ const subjTag = s => `<span class="tag"><span class="dot" style="background:${SU
 const scoreCls = p => (p >= PASS ? 'pass' : 'fail');
 const myAttempts = () => S.attempts.filter(a => a.subjects?.length && a.subjects.some(x => S.subjects.some(s => s.id === x)));
 
+function viewDept() {
+  const icon = id => id === 'cabin' ? I.users || I.home : I.plane || I.book;
+  mount(`<div class="dept-page"><div class="dept-in">${logo()}
+    <h1>Which department?</h1><p class="lead">Choose where you want to practise. You only see that department's questions. You can switch later from the account menu.</p>
+    <div class="grid dept-grid">${S.departments.map(d => {
+      const n = S.everyQ.filter(q => (S.everyPaper.find(p => p.id === S.subj[q.s]?.paper)?.dept || 'ame') === d.id).length;
+      return `<button class="card dept-card ${S.dept === d.id ? 'on' : ''}" data-act="pickDept" data-d="${d.id}"><span class="dept-ic">${icon(d.id)}</span><b>${esc(d.name)}</b><span class="sub">${esc(d.sub || '')}</span><span class="sub"><b>${n.toLocaleString()}</b> questions</span></button>`;
+    }).join('')}</div>
+    <p class="muted small" style="margin-top:18px">Signed in as ${esc(S.profile?.full_name || '')} · <a href="#" data-act="signout">Sign out</a></p></div></div>`);
+}
+function viewCards() {
+  const all = S.cards.filter(c => (c.dept || 'cabin') === S.dept);
+  const srcs = [...new Set(all.map(c => c.src))];
+  if (!S.cardSrc || !srcs.includes(S.cardSrc)) S.cardSrc = srcs[0];
+  const list = all.filter(c => c.src === S.cardSrc);
+  mount(shell('cards', `<div class="page-head"><div><div class="eyebrow">${esc(deptName())}</div><h1>Study cards</h1><p>Questions with written answers. Read the question, think of the answer, then tap to check.</p></div></div>
+    <div class="seg-row">${srcs.map(x => `<button class="btn ${x === S.cardSrc ? 'btn-primary' : ''}" data-act="cardsSrc" data-src="${esc(x)}">${esc(x)} · ${all.filter(c => c.src === x).length}</button>`).join('')}</div>
+    <div class="cards-list">${list.map((c, i) => `<details class="card study-card"><summary><span class="sc-n">${i + 1}</span><span class="sc-q">${esc(c.q)}</span><span class="sc-tap">Show answer</span></summary><div class="sc-a">${esc(c.a)}</div></details>`).join('') || '<p class="muted">No study cards here yet.</p>'}</div>`, { noPapers: true }));
+}
 function viewDashboard() {
   const A = myAttempts(), ss = subjectStats();
   const avg = A.length ? Math.round(A.reduce((t, a) => t + +a.score_pct, 0) / A.length) : null;
@@ -1333,6 +1370,9 @@ const actions = {
   togglePw(el) { const i = el.previousElementSibling; const show = i.type === 'password'; i.type = show ? 'text' : 'password'; el.textContent = show ? 'Hide' : 'Show'; },
   menu(el, e) { e.stopPropagation(); $('#menu').classList.toggle('open'); },
   goPassword() { go('password'); },
+  goDept() { closeMenu(); go('dept'); },
+  pickDept(el, e) { e?.preventDefault(); setDept(el.dataset.d); toast(`${deptName()}`); go('', true); },
+  cardsSrc(el) { S.cardSrc = el.dataset.src; viewCards(); },
   theme() {
     const order = ['auto', 'light', 'dark'], t = order[(order.indexOf(store.get('afit:theme', 'auto')) + 1) % 3];
     store.set('afit:theme', t); applyTheme(t); route();
@@ -1556,7 +1596,12 @@ async function boot() {
     // /piston and /pma open that paper (old links to a single subject open the paper it belongs to)
     const slug = decodeURIComponent(location.pathname).replace(/^\/+|\/+$/g, '').toLowerCase();
     const fromPath = paperOf(slug) ? slug : S.subj[slug] ? S.subj[slug].paper : null;
-    setPaper(fromPath || store.get('afit:paper', 'general'));
+    S.departments = bank.departments || [{ id: 'ame', name: 'Aircraft Maintenance (AME)' }];
+    S.cards = bank.cards || [];
+    S.everyPaper = S.papers.map(p => ({ ...p, dept: p.dept || 'ame' })); S.everySubject = S.allSubjects; S.everyQ = S.full;
+    const pathDept = fromPath ? (S.everyPaper.find(p => p.id === fromPath)?.dept) : null;
+    const chosen = sessDept();
+    setDept(chosen || null, chosen && (!pathDept || pathDept === chosen) ? fromPath : null);
     const user = sess.data.session?.user;
     if (user) { try { await setUser(user); S.quiz = store.get(qKey(), null); } catch (e) { console.error(e); await sb.auth.signOut(); toast('Please sign in again.', 'err'); } }
   } catch (e) {
